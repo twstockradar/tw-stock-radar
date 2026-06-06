@@ -35,6 +35,21 @@
   .focus-ic{font-size:18px;line-height:1.3}
   .focus b{color:var(--ink)}
   .focus-txt{color:#33415c;margin-top:2px}
+  .news{background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:14px 16px;margin:14px 0 4px}
+  .news h2{margin:0 0 6px;font-size:15px;display:flex;align-items:center;gap:7px}
+  .news .take{color:#7c2d12;font-size:13.5px;background:#fff7ed;border:1px solid #fed7aa;
+    border-radius:8px;padding:7px 10px;margin:0 0 10px}
+  .news ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+  .news li{font-size:14px;line-height:1.55}
+  .news .who{display:inline-block;font-size:11.5px;font-weight:700;color:#b45309;
+    background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);
+    border-radius:6px;padding:0 7px;margin-right:7px;white-space:nowrap}
+  .news .why{color:var(--muted);font-size:12.5px;margin-top:2px}
+  .news .src{font-size:12px;margin-top:3px}
+  .news .src a{color:var(--accent);text-decoration:none}
+  .news .src a:hover{text-decoration:underline}
+  .news .tm{color:#9aa1ab;font-size:11.5px;margin-left:6px}
   .chips.groups{margin-top:10px}
   .chip.g{background:#f0f5ff;border-color:#d6e2ff}
   .chip.nw{background:rgba(226,52,45,.08);border-color:rgba(226,52,45,.3);color:var(--up)}
@@ -106,6 +121,25 @@
     <div class="chip">新高基準 <b>還原權值月K</b></div>
   </div>
 
+  {% if news_items %}
+  <div class="news">
+    <h2>🌍 今日國際重點</h2>
+    {% if news_takeaway %}<div class="take">{{ news_takeaway }}</div>{% endif %}
+    <ol>
+      {% for n in news_items %}
+      <li>
+        <div><span class="who">{{ n.who }}</span>{{ n.summary }}</div>
+        {% if n.why %}<div class="why">{{ n.why }}</div>{% endif %}
+        <div class="src">
+          {% if n.link %}<a href="{{ n.link }}" target="_blank" rel="noopener">來源{% if n.source %}：{{ n.source }}{% endif %} ↗</a>{% elif n.source %}{{ n.source }}{% endif %}
+          {% if n.time %}<span class="tm">{{ n.time }}</span>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
+
   {% if focus %}
   <div class="focus">
     <span class="focus-ic">🎯</span>
@@ -167,7 +201,7 @@
   {% endif %}
 
   <footer>
-    <div>資料來源：TWSE / TPEX OpenAPI、Yahoo Finance（yfinance，還原權值月K）、FinMind（備援）、GitHub Models（族群題材）。</div>
+    <div>資料來源：TWSE / TPEX OpenAPI、Yahoo Finance（yfinance，還原權值月K）、FinMind（備援）、GitHub Models（族群題材／國際重點摘要）、Google News（國際重點來源）。</div>
     {% if not show_charts %}<div>此為歷史封存頁，不含月K縮圖；🆕新 表示相對前一交易日為新進榜。</div>{% endif %}
     <div>本頁由 TW_STOCK_RADAR 自動產生，僅供研究參考，不構成投資建議。漲停以收盤漲幅近似判斷，請以官方資料為準。</div>
     <div>產生時間：{{ update_time }}（台灣時間）</div>

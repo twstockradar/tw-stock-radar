@@ -101,6 +101,24 @@ python -m tw_stock_radar
 
 ---
 
+## 🌍 今日國際重點（川普 + 企業CEO）
+
+頁面上方會顯示**當日國際重點**,聚焦**川普(Trump)的發言/決策**與**大型企業 CEO 的發言/決策**
+(刻意排除分析師評論與例行行情),約 5 則 + 一句今日總結,每則附**真實來源連結**。
+
+**新鮮度怎麼保證**(因為 AI 沒有上網能力、有知識截止日,不能讓它「憑記憶」生新聞):
+
+1. 程式先抓**真實即時新聞**:免費 **Google News RSS**,查詢帶 `when:1d`/`when:2d` 限定近一兩天。
+2. 再依每則 `pubDate` 過濾近 `NEWS_LOOKBACK_HOURS`(預設 36)小時。
+3. 把抓到的標題**編號**交給 AI,只做「篩選 + 翻譯 + 濃縮」;AI 回傳編號,程式對回**我方真實連結**
+   (AI 不自己產生網址,杜絕亂掰)。
+4. 每則顯示來源與相對時間,可點連結核對。
+
+設定都在 `tw_stock_radar/config.py`:`NEWS_QUERIES`、`NEWS_LOOKBACK_HOURS`、`NEWS_MAX_DISPLAY` 等。
+沿用同一把 AI 金鑰(`AI_API_KEY`);抓取或 AI 失敗時**自動隱藏此區塊**,報表照常產出。
+
+---
+
 ## 歷史封存 + 今日新增
 
 每天的清單會存成 `archive/<日期>.json`(commit 回 repo 保存),網站據此產生:
@@ -142,7 +160,8 @@ yfinance 抓不到的個股會自動改用 **FinMind**(`TaiwanStockPriceAdj` 還
 - 上櫃每日行情:TPEX OpenAPI `tpex_mainboard_daily_close_quotes`
 - 上市/上櫃公司基本資料(發行股數、產業):TWSE `opendata/t187ap03_L`、TPEX `mopsfin_t187ap03_O`
 - 還原權值月K與近日日K:Yahoo Finance(`yfinance`);備援:FinMind(選用,需 `FINMIND_TOKEN`)
-- 族群 / 題材自動分類:GitHub Models(`openai/gpt-4.1`,免費、選用;OpenAI 相容、可切換)
+- 族群 / 題材自動分類、今日國際重點摘要:GitHub Models(`openai/gpt-4.1`,免費、選用;OpenAI 相容、可切換)
+- 今日國際重點新聞來源:Google News RSS(免費、無金鑰)
 
 公司基本資料本身只含「公司」,天生排除 ETF/受益憑證,KY 公司則保留 —— 因此宇宙自動符合「排 ETF、留 KY」。
 

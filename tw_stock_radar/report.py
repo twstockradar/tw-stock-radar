@@ -78,7 +78,8 @@ def _group_counts(rows: list[dict]) -> list[dict]:
 
 
 def _render_page(rows, *, data_date, total_scanned, focus, new_count,
-                 show_charts, is_today, home_link, history_link, out_path) -> Path:
+                 show_charts, is_today, home_link, history_link, out_path,
+                 news_items=None, news_takeaway="") -> Path:
     html = _env().get_template("index.html.j2").render(
         rows=rows,
         total_scanned=total_scanned,
@@ -93,6 +94,8 @@ def _render_page(rows, *, data_date, total_scanned, focus, new_count,
         is_today=is_today,
         home_link=home_link,
         history_link=history_link,
+        news_items=news_items or [],
+        news_takeaway=news_takeaway or "",
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(html, encoding="utf-8")
@@ -101,6 +104,7 @@ def _render_page(rows, *, data_date, total_scanned, focus, new_count,
 
 def render_report(df: pd.DataFrame, *, data_date: str, total_scanned: int,
                   focus: str = "", new_codes: set[str] | None = None,
+                  news_items: list[dict] | None = None, news_takeaway: str = "",
                   out_path: Path | None = None) -> Path:
     new_codes = new_codes or set()
     records = df.to_dict("records") if not df.empty else []
@@ -110,6 +114,7 @@ def render_report(df: pd.DataFrame, *, data_date: str, total_scanned: int,
         new_count=sum(1 for r in rows if r["new_today"]),
         show_charts=True, is_today=True, home_link="", history_link="history/index.html",
         out_path=out_path or (DOCS_DIR / "index.html"),
+        news_items=news_items, news_takeaway=news_takeaway,
     )
 
 
@@ -124,11 +129,14 @@ def build_history_site(out_dir: Path | None = None) -> None:
             continue
         new_codes = archive.new_codes_for(d)
         rows = _rows(snap.get("stocks", []), new_codes)
+        snap_news = snap.get("news", {}) or {}
         _render_page(
             rows, data_date=d, total_scanned=None, focus=snap.get("focus", ""),
             new_count=len(new_codes), show_charts=False, is_today=False,
             home_link="../index.html", history_link="index.html",
             out_path=out_dir / f"{d}.html",
+            news_items=snap_news.get("items", []),
+            news_takeaway=snap_news.get("takeaway", ""),
         )
         metas.append({"date": d, "count": snap.get("count", len(rows)),
                       "new_count": len(new_codes), "focus": snap.get("focus", "")})

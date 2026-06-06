@@ -32,8 +32,19 @@ LIMIT_UP_LOOKBACK = 5         # 回看交易日數
 MIN_HISTORY_MONTHS = 18      # 月K至少幾根才納入評估 (避免新股雜訊)
 
 # --- AI 族群/題材分類 ---
-# 設定在 themes.py / 環境變數 (AI_API_KEY, AI_BASE_URL, AI_MODEL);
-# 預設用 GitHub Models 的 openai/gpt-4o-mini, 可隨時切換其他 OpenAI 相容服務。
+# 設定在 ai.py / 環境變數 (AI_API_KEY, AI_BASE_URL, AI_MODEL);
+# 預設用 GitHub Models 的 openai/gpt-4.1, 可隨時切換其他 OpenAI 相容服務。
+
+# --- 今日國際重點 (川普 + 企業CEO 的發言/決策; 來源 Google News RSS, 免費) ---
+NEWS_QUERIES = [
+    "Trump when:1d",
+    "Trump tariffs OR policy OR executive order when:2d",
+    '("chief executive" OR CEO) (said OR announces OR unveils OR warns) when:2d',
+    "(Nvidia OR OpenAI OR Apple OR Tesla OR Microsoft OR Amazon OR Meta OR Google) CEO when:2d",
+]
+NEWS_LOOKBACK_HOURS = 36     # 只保留近 N 小時內發布的新聞 (確保新鮮)
+NEWS_MAX_FEED_ITEMS = 40     # 餵給 AI 篩選的標題上限
+NEWS_MAX_DISPLAY = 5         # 頁面顯示則數
 
 # --- 狀態定義 ---
 STATUS_NEW_HIGH = "NEW_HIGH"

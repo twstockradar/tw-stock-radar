@@ -28,7 +28,9 @@ def _clean(v):
     return v
 
 
-def save_snapshot(cand: pd.DataFrame, data_date: str, focus: str = "") -> Path | None:
+def save_snapshot(cand: pd.DataFrame, data_date: str, focus: str = "",
+                  news_items: list[dict] | None = None,
+                  news_takeaway: str = "") -> Path | None:
     """把當日清單寫成 archive/<date>.json (不含月K圖, 保持輕量)。"""
     if cand is None or cand.empty:
         return None
@@ -37,7 +39,9 @@ def save_snapshot(cand: pd.DataFrame, data_date: str, focus: str = "") -> Path |
     records = [{k: _clean(v) for k, v in rec.items()}
                for rec in cand[cols].to_dict("records")]
     payload = {"date": data_date, "count": len(records),
-               "focus": focus or "", "stocks": records}
+               "focus": focus or "", "stocks": records,
+               "news": {"takeaway": news_takeaway or "",
+                        "items": news_items or []}}
     path = ARCHIVE_DIR / f"{data_date}.json"
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=0),
                     encoding="utf-8")

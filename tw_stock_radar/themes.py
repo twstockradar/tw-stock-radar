@@ -10,11 +10,7 @@
 """
 from __future__ import annotations
 
-import json
-import os
-
-DEFAULT_BASE_URL = "https://models.github.ai/inference"
-DEFAULT_MODEL = "openai/gpt-4.1"
+from . import ai
 
 _SYSTEM = (
     "你是專業的台股產業分析師。你會拿到一份『月K創歷史新高 / 高檔』的台股清單, "
@@ -29,25 +25,6 @@ _SYSTEM = (
 )
 
 
-def _get_key() -> str | None:
-    for name in ("AI_API_KEY", "GITHUB_MODELS_TOKEN", "GITHUB_TOKEN"):
-        val = os.environ.get(name)
-        if val:
-            return val
-    return None
-
-
-def _extract_json(content: str) -> dict:
-    """從模型回覆中取出 JSON 物件 (容忍 markdown 圍欄與多餘文字)。"""
-    if not content:
-        return {}
-    start = content.find("{")
-    end = content.rfind("}")
-    if start == -1 or end == -1 or end < start:
-        return {}
-    return json.loads(content[start:end + 1])
-
-
 def classify_themes(stocks: list[dict]) -> tuple[dict[str, dict], str]:
     """stocks: [{'code','name'}, ...]。
 
@@ -57,19 +34,11 @@ def classify_themes(stocks: list[dict]) -> tuple[dict[str, dict], str]:
     """
     if not stocks:
         return {}, ""
-    key = _get_key()
-    if not key:
+    client, model = ai.make_client()
+    if client is None:
         print("[themes] 未設定 AI 金鑰 (AI_API_KEY / GITHUB_TOKEN), 略過 AI 族群分類。")
         return {}, ""
 
-    try:
-        from openai import OpenAI
-    except Exception as err:  # noqa: BLE001
-        print(f"[themes] 缺少 openai 套件, 略過: {err}")
-        return {}, ""
-
-    base_url = os.environ.get("AI_BASE_URL", DEFAULT_BASE_URL)
-    model = os.environ.get("AI_MODEL", DEFAULT_MODEL)
     listing = "\n".join(f"{s['code']} {s['name']}" for s in stocks)
     user = (
         "以下是今天的清單 (代碼 股名):\n" + listing + "\n\n"
@@ -79,7 +48,6 @@ def classify_themes(stocks: list[dict]) -> tuple[dict[str, dict], str]:
     )
 
     try:
-        client = OpenAI(base_url=base_url, api_key=key)
         resp = client.chat.completions.create(
             model=model,
             messages=[{"role": "system", "content": _SYSTEM},
@@ -88,7 +56,7 @@ def classify_themes(stocks: list[dict]) -> tuple[dict[str, dict], str]:
             temperature=0,
             max_tokens=4096,
         )
-        data = _extract_json(resp.choices[0].message.content or "")
+        data = ai.extract_json(resp.choices[0].message.content or "")
         mapping = {}
         for s in data.get("stocks", []):
             code = str(s.get("code", "")).strip()
