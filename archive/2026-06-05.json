@@ -1,7 +1,7 @@
 {
 "date": "2026-06-05",
-"count": 44,
-"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、散熱模組、伺服器滑軌、重電、矽光子、記憶體、ABF載板等。",
+"count": 43,
+"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於AI伺服器代工、先進封裝、散熱模組、重電、矽光子、記憶體等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2317",
@@ -106,7 +106,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/路由器"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2356",
@@ -166,7 +166,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2357",
@@ -181,7 +181,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "AI伺服器",
-"theme": "AI伺服器品牌"
+"theme": "伺服器品牌"
 },
 {
 "code": "2360",
@@ -211,7 +211,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2376",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器品牌"
+"theme": "伺服器品牌"
 },
 {
 "code": "2379",
@@ -379,21 +379,6 @@
 "theme": "散熱模組"
 },
 {
-"code": "3189",
-"name": "景碩",
-"market": "TWSE",
-"close": 712.0,
-"change_pct": 2.8901734104046244,
-"trade_value": 5119045349.0,
-"market_cap": 375164021120.0,
-"status": "NEAR_HIGH",
-"dist": -0.08483290488431872,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "ABF載板"
-},
-{
 "code": "3231",
 "name": "緯創",
 "market": "TWSE",
@@ -451,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6282",
@@ -466,7 +451,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "電源/重電",
-"theme": "伺服器電源"
+"theme": "重電/電源管理"
 },
 {
 "code": "6451",
@@ -571,7 +556,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "記憶體",
-"theme": "工控記憶體"
+"theme": "工業記憶體模組"
 },
 {
 "code": "5351",
@@ -586,7 +571,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "記憶體",
-"theme": "DRAM設計"
+"theme": "DRAM/NAND設計"
 },
 {
 "code": "6147",
@@ -601,7 +586,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6207",
@@ -646,7 +631,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "8299",
