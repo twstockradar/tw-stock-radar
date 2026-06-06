@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>台股月K創新高雷達 ｜ {{ data_date }}</title>
+<title>台股月K創新高雷達 ｜ {{ data_date }}{% if not is_today %}（封存）{% endif %}</title>
 <style>
   :root{
     --bg:#f5f6f8; --card:#ffffff; --ink:#1a1d21; --muted:#6b7280;
@@ -37,7 +37,13 @@
   .focus-txt{color:#33415c;margin-top:2px}
   .chips.groups{margin-top:10px}
   .chip.g{background:#f0f5ff;border-color:#d6e2ff}
+  .chip.nw{background:rgba(226,52,45,.08);border-color:rgba(226,52,45,.3);color:var(--up)}
   .gt{color:var(--muted);font-size:12px;margin-top:2px}
+  .nav{margin-top:8px;font-size:13px}
+  .nav a{color:var(--accent);text-decoration:none;font-weight:600}
+  .nav a:hover{text-decoration:underline}
+  .badge-new{display:inline-block;background:var(--up);color:#fff;border-radius:5px;
+    padding:0 5px;font-size:10px;font-weight:700;margin-left:6px;vertical-align:middle}
   .tag{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;
     padding:1px 6px;line-height:1.6;white-space:nowrap}
   .tag.new{background:rgba(226,52,45,.10);color:var(--new);border:1px solid rgba(226,52,45,.30)}
@@ -86,11 +92,16 @@
     <h1>📈 台股月K創新高雷達</h1>
     <div class="sub">以「還原月K」找出趨勢向上、處於歷史高檔的個股</div>
     <div class="meta">資料日期 <b>{{ data_date }}</b> ｜ 更新時間 <b>{{ update_time }}</b>（台灣時間）</div>
+    <div class="nav">
+      {% if home_link %}<a href="{{ home_link }}">← 回今日</a> ｜ {% endif %}
+      {% if history_link %}<a href="{{ history_link }}">📅 歷史封存</a>{% endif %}
+    </div>
   </header>
 
   <div class="chips">
-    <div class="chip">掃描 <b>{{ total_scanned }}</b> 檔</div>
+    {% if total_scanned %}<div class="chip">掃描 <b>{{ total_scanned }}</b> 檔</div>{% endif %}
     <div class="chip">符合 <b>{{ total_hits }}</b> 檔</div>
+    {% if new_count %}<div class="chip nw">🆕 今日新增 <b>{{ new_count }}</b></div>{% endif %}
     <div class="chip">成交金額 ≥ <b>{{ liquidity_str }}</b></div>
     <div class="chip">新高基準 <b>還原權值月K</b></div>
   </div>
@@ -129,7 +140,7 @@
           <th data-key="value" class="desc">成交金額</th>
           <th data-key="cap">市值</th>
           <th data-key="limit">近5日漲停</th>
-          <th>還原月K（36月）</th>
+          {% if show_charts %}<th>還原月K（36月）</th>{% endif %}
         </tr>
       </thead>
       <tbody>
@@ -139,7 +150,7 @@
             data-value="{{ r.trade_value }}" data-cap="{{ r.market_cap }}"
             data-limit="{{ r.limit_up_count }}">
           <td class="l stock">
-            <span class="code">{{ r.code }}</span><span class="nm">{{ r.name }}</span>
+            <span class="code">{{ r.code }}</span><span class="nm">{{ r.name }}</span>{% if r.new_today %}<span class="badge-new">🆕新</span>{% endif %}
             {% if r.group or r.theme %}<div class="gt">{{ r.group }}{% if r.theme %} · {{ r.theme }}{% endif %}</div>{% endif %}
           </td>
           <td>{{ r.close }}</td>
@@ -147,7 +158,7 @@
           <td>{{ r.trade_value_str }}</td>
           <td>{{ r.market_cap_str }}</td>
           <td>{% if r.limit_up %}<span class="badge-lu">漲停 ×{{ r.limit_up_count }}</span>{% else %}<span class="none">—</span>{% endif %}</td>
-          <td class="chart">{% if r.chart %}<img loading="lazy" alt="還原月K" src="{{ r.chart }}">{% else %}<span class="none">—</span>{% endif %}</td>
+          {% if show_charts %}<td class="chart">{% if r.chart %}<img loading="lazy" alt="還原月K" src="{{ r.chart }}">{% else %}<span class="none">—</span>{% endif %}</td>{% endif %}
         </tr>
         {% endfor %}
       </tbody>
@@ -156,7 +167,8 @@
   {% endif %}
 
   <footer>
-    <div>資料來源：台灣證券交易所 TWSE OpenAPI、證券櫃檯買賣中心 TPEX OpenAPI、Yahoo Finance（yfinance，還原權值月K）。</div>
+    <div>資料來源：TWSE / TPEX OpenAPI、Yahoo Finance（yfinance，還原權值月K）、FinMind（備援）、GitHub Models（族群題材）。</div>
+    {% if not show_charts %}<div>此為歷史封存頁，不含月K縮圖；🆕新 表示相對前一交易日為新進榜。</div>{% endif %}
     <div>本頁由 TW_STOCK_RADAR 自動產生，僅供研究參考，不構成投資建議。漲停以收盤漲幅近似判斷，請以官方資料為準。</div>
     <div>產生時間：{{ update_time }}（台灣時間）</div>
   </footer>

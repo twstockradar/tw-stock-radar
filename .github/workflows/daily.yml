@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}   # 允許在 Actions 頁面手動觸發
 
 permissions:
-  contents: read
+  contents: write   # 需要寫入: 把每日封存 archive/ commit 回 repo
   pages: write
   id-token: write
   models: read   # 讓內建 GITHUB_TOKEN 能呼叫 GitHub Models (AI 族群/題材分類)
@@ -52,8 +52,21 @@ jobs:
         env:
           # GitHub Models 免費: 用內建 GITHUB_TOKEN + 上方 permissions: models: read。
           # 未設定/無權限時 AI 分類自動略過, 報表仍正常產出。
-          # (若組織限制內建 token 存取 Models, 改放一支具 Models:read 的 PAT 當 secret。)
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 選用: 設了才啟用 FinMind 備援 (yfinance 抓不到時)。免費註冊 finmindtrade.com。
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+
+      - name: 封存今日結果 (commit archive/)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          if git diff --staged --quiet; then
+            echo "封存無變動"
+          else
+            git commit -m "archive: $(date -u +%Y-%m-%d) [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - uses: actions/configure-pages@v5
 

@@ -9,7 +9,9 @@ from __future__ import annotations
 import pandas as pd
 import yfinance as yf
 
+from . import finmind
 from .config import DATA_DIR, HISTORY_PARQUET
+from .util import make_session
 
 _OHLC = ["Open", "High", "Low", "Close"]
 
@@ -118,7 +120,20 @@ def get_monthly_history(codes_markets: list[tuple[str, str]]) -> dict[str, pd.Da
             code = sym_to_code[sym]
             cache[code] = _merge_tail(cache.get(code), df)
 
-    if missing or stale:
+    # yfinance 仍抓不到的, 用 FinMind 備援 (需 FINMIND_TOKEN)
+    still_missing = [(c, m) for c, m in codes_markets if c not in cache]
+    if still_missing and finmind.available():
+        print(f"[history] yfinance 缺 {len(still_missing)} 檔, 改用 FinMind 還原月K...")
+        sess = make_session()
+        got = 0
+        for code, _market in still_missing:
+            mdf = finmind.monthly_adjusted(code, sess)
+            if mdf is not None and not mdf.empty:
+                cache[code] = mdf
+                got += 1
+        print(f"[history] FinMind 補回 {got} 檔")
+
+    if missing or stale or (still_missing and finmind.available()):
         _save_cache(cache)
 
     return {c: cache[c] for c in sym_to_code.values() if c in cache}
@@ -132,4 +147,14 @@ def get_recent_daily(codes_markets: list[tuple[str, str]],
     sym_to_code = {yf_symbol(c, m): c for c, m in codes_markets}
     raw = _download(list(sym_to_code), interval="1d", period=period,
                     auto_adjust=False)
-    return {sym_to_code[s]: df for s, df in raw.items()}
+    out = {sym_to_code[s]: df for s, df in raw.items()}
+
+    # yfinance 抓不到的, 用 FinMind 備援
+    missing = [(c, m) for c, m in codes_markets if c not in out]
+    if missing and finmind.available():
+        sess = make_session()
+        for code, _market in missing:
+            d = finmind.recent_daily_raw(code, sess)
+            if d is not None and not d.empty:
+                out[code] = d
+    return out

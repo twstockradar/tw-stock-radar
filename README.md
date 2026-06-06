@@ -76,7 +76,7 @@ python -m tw_stock_radar
 
 ## AI 族群 / 題材分類（選用、免費）
 
-預設用 **GitHub Models** 的 **`openai/gpt-4o-mini`**(免費)自動把當日清單分成
+預設用 **GitHub Models** 的 **`openai/gpt-4.1`**(免費)自動把當日清單分成
 **族群 / 題材**(顆粒度可到 AI伺服器、CoWoS先進封裝、散熱、CCL、CPO光通訊…),顯示在每檔股名下方,
 並在頁面頂部產生「**今日族群焦點**」摘要與**族群分布**統計。
 
@@ -98,6 +98,28 @@ python -m tw_stock_radar
 
 ---
 
+## 歷史封存 + 今日新增
+
+每天的清單會存成 `archive/<日期>.json`(commit 回 repo 保存),網站據此產生:
+
+- **🆕 今日新增**:今日榜上、但前一個交易日不在榜的個股,表格會標 🆕,上方顯示「今日新增 N」。
+- **📅 歷史封存**:頁面上方「歷史封存」可瀏覽每一天的名單(封存頁為表格、不含月K圖)。網址 `…/history/`。
+
+GitHub Actions 產生報表後會自動把當天 `archive/*.json` commit 回 repo(需 `permissions: contents: write`,已設定)。
+
+---
+
+## FinMind 備援(選用)
+
+擔心雲端某天被 Yahoo 限流抓不到資料?設定 `FINMIND_TOKEN`(到 [finmindtrade.com](https://finmindtrade.com) 免費註冊取得),
+yfinance 抓不到的個股會自動改用 **FinMind**(`TaiwanStockPriceAdj` 還原月K、`TaiwanStockPrice` 原始日K)。
+
+- 沒設 token → 維持只用 yfinance(零風險)。
+- GitHub Actions:**Settings → Secrets and variables → Actions** 新增 secret `FINMIND_TOKEN`,workflow 已會帶入。
+- 本機:`$env:FINMIND_TOKEN = "..."`。
+
+---
+
 ## 每日自動更新(GitHub Actions + Pages)
 
 1. 把整個專案推上 GitHub。
@@ -116,8 +138,8 @@ python -m tw_stock_radar
 - 上市每日行情:TWSE OpenAPI `exchangeReport/STOCK_DAY_ALL`
 - 上櫃每日行情:TPEX OpenAPI `tpex_mainboard_daily_close_quotes`
 - 上市/上櫃公司基本資料(發行股數、產業):TWSE `opendata/t187ap03_L`、TPEX `mopsfin_t187ap03_O`
-- 還原權值月K與近日日K:Yahoo Finance(`yfinance`)
-- 族群 / 題材自動分類:GitHub Models(`openai/gpt-4o-mini`,免費、選用;OpenAI 相容、可切換)
+- 還原權值月K與近日日K:Yahoo Finance(`yfinance`);備援:FinMind(選用,需 `FINMIND_TOKEN`)
+- 族群 / 題材自動分類:GitHub Models(`openai/gpt-4.1`,免費、選用;OpenAI 相容、可切換)
 
 公司基本資料本身只含「公司」,天生排除 ETF/受益憑證,KY 公司則保留 —— 因此宇宙自動符合「排 ETF、留 KY」。
 

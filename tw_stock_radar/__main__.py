@@ -14,11 +14,12 @@ from datetime import datetime, timedelta, timezone
 
 import pandas as pd
 
+from . import archive
 from .charts import monthly_chart_base64
 from .config import LIQUIDITY_MIN_TRADE_VALUE
 from .daily_quotes import fetch_daily_quotes
 from .history import get_monthly_history, get_recent_daily
-from .report import render_report
+from .report import build_history_site, render_report
 from .screen import compute_limit_up, evaluate_monthly
 from .themes import classify_themes
 from .universe import build_universe, fetch_basic_info
@@ -100,9 +101,19 @@ def main(argv: list[str] | None = None) -> int:
         cand["group"] = cand["code"].map(lambda c: themes_map.get(c, {}).get("group", ""))
         cand["theme"] = cand["code"].map(lambda c: themes_map.get(c, {}).get("theme", ""))
 
-    out = render_report(cand, data_date=data_date,
-                        total_scanned=len(liquid), focus=focus)
-    print(f"✓ 完成 -> {out}  (耗時 {time.time() - t0:.0f}s, 符合 {len(cand)} 檔)")
+    # 今日新增 (相對前一封存日) + 封存今日結果
+    new_codes: set[str] = set()
+    if not cand.empty:
+        prev = archive.previous_codes(data_date)
+        if prev:
+            new_codes = set(cand["code"]) - prev
+        archive.save_snapshot(cand, data_date, focus)
+
+    out = render_report(cand, data_date=data_date, total_scanned=len(liquid),
+                        focus=focus, new_codes=new_codes)
+    build_history_site()
+    print(f"✓ 完成 -> {out}  (耗時 {time.time() - t0:.0f}s, "
+          f"符合 {len(cand)} 檔, 今日新增 {len(new_codes)})")
     return 0
 
 

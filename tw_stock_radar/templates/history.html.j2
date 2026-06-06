@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>歷史封存 ｜ 台股月K創新高雷達</title>
+<style>
+  :root{--bg:#f5f6f8;--card:#fff;--ink:#1a1d21;--muted:#6b7280;--border:#e6e8eb;--accent:#2563eb;--up:#e2342d}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",-apple-system,
+      BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:900px;margin:0 auto;padding:20px 16px 60px}
+  h1{margin:0;font-size:22px}
+  .sub{color:var(--muted);font-size:14px;margin-top:4px}
+  .nav{margin-top:8px;font-size:13px}
+  .nav a{color:var(--accent);text-decoration:none;font-weight:600}
+  .nav a:hover{text-decoration:underline}
+  .list{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+  a.day{display:block;text-decoration:none;color:inherit;background:var(--card);
+    border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+  a.day:hover{border-color:var(--accent)}
+  .day .top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .day .d{font-weight:700;font-size:15px}
+  .day .c{color:var(--muted);font-size:13px}
+  .day .nw{background:rgba(226,52,45,.08);color:var(--up);border:1px solid rgba(226,52,45,.3);
+    border-radius:999px;padding:1px 9px;font-size:12px;font-weight:600}
+  .day .f{color:var(--muted);font-size:12.5px;margin-top:5px;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .empty{background:var(--card);border:1px dashed var(--border);border-radius:12px;
+    padding:30px;text-align:center;color:var(--muted)}
+  footer{margin-top:30px;color:var(--muted);font-size:12px;border-top:1px solid var(--border);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📅 歷史封存</h1>
+    <div class="sub">每天的月K創新高清單,點日期看當天名單</div>
+    <div class="nav"><a href="../index.html">← 回今日</a></div>
+  </header>
+
+  {% if items %}
+  <div class="list">
+    {% for it in items %}
+    <a class="day" href="{{ it.date }}.html">
+      <div class="top">
+        <span class="d">{{ it.date }}</span>
+        <span class="c">{{ it.count }} 檔</span>
+        {% if it.new_count %}<span class="nw">🆕 {{ it.new_count }} 新增</span>{% endif %}
+      </div>
+      {% if it.focus %}<div class="f">{{ it.focus }}</div>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty">尚無封存資料(第一天執行後就會開始累積)。</div>
+  {% endif %}
+
+  <footer>由 TW_STOCK_RADAR 自動產生 ｜ 更新時間 {{ update_time }}（台灣時間)</footer>
+</div>
+</body>
+</html>
