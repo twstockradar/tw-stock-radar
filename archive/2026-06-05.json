@@ -1,7 +1,7 @@
 {
 "date": "2026-06-05",
 "count": 43,
-"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於AI伺服器代工、先進封裝、散熱模組、重電、矽光子、記憶體等。",
+"focus": "",
 "stocks": [
 {
 "code": "1303",
@@ -15,8 +15,8 @@
 "dist": -0.11814345991561181,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"group": "",
+"theme": ""
 },
 {
 "code": "2059",
@@ -30,8 +30,8 @@
 "dist": -0.031869078380706295,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "機構件",
-"theme": "伺服器滑軌"
+"group": "",
+"theme": ""
 },
 {
 "code": "2301",
@@ -45,8 +45,8 @@
 "dist": -0.12213740458015265,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "電源/重電",
-"theme": "電源管理"
+"group": "",
+"theme": ""
 },
 {
 "code": "2308",
@@ -60,8 +60,8 @@
 "dist": -0.11025145067698261,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電源/重電",
-"theme": "電源供應器"
+"group": "",
+"theme": ""
 },
 {
 "code": "2313",
@@ -75,8 +75,8 @@
 "dist": -0.14370727609391332,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"group": "",
+"theme": ""
 },
 {
 "code": "2317",
@@ -90,8 +90,8 @@
 "dist": -0.0939490445859873,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "AI伺服器",
-"theme": "AI伺服器代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "2324",
@@ -105,8 +105,8 @@
 "dist": -0.1329842612381381,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "AI伺服器",
-"theme": "伺服器代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "2327",
@@ -120,8 +120,8 @@
 "dist": -0.09208972845336483,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "被動元件",
-"theme": "被動元件製造"
+"group": "",
+"theme": ""
 },
 {
 "code": "2330",
@@ -135,8 +135,8 @@
 "dist": -0.030737704918032738,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "晶圓代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "2345",
@@ -150,8 +150,8 @@
 "dist": -0.07606679035250463,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "網通",
-"theme": "交換器/網路設備"
+"group": "",
+"theme": ""
 },
 {
 "code": "2356",
@@ -165,8 +165,8 @@
 "dist": -0.13318279487115237,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "AI伺服器",
-"theme": "伺服器代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "2357",
@@ -180,8 +180,8 @@
 "dist": -0.06639004149377592,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "AI伺服器",
-"theme": "伺服器品牌"
+"group": "",
+"theme": ""
 },
 {
 "code": "2360",
@@ -195,8 +195,8 @@
 "dist": -0.08228980322003576,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "測試設備"
+"group": "",
+"theme": ""
 },
 {
 "code": "2368",
@@ -210,8 +210,8 @@
 "dist": -0.13486842105263153,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"group": "",
+"theme": ""
 },
 {
 "code": "2376",
@@ -225,8 +225,8 @@
 "dist": -0.08208955223880599,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "AI伺服器",
-"theme": "伺服器品牌"
+"group": "",
+"theme": ""
 },
 {
 "code": "2379",
@@ -240,8 +240,8 @@
 "dist": -0.06676342525399126,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "IC設計",
-"theme": "網通IC"
+"group": "",
+"theme": ""
 },
 {
 "code": "2382",
@@ -255,8 +255,8 @@
 "dist": -0.10844748858447484,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "AI伺服器",
-"theme": "AI伺服器代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "2383",
@@ -270,8 +270,8 @@
 "dist": -0.13309671694764857,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"group": "",
+"theme": ""
 },
 {
 "code": "2404",
@@ -285,8 +285,8 @@
 "dist": -0.10408921933085502,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "無塵室工程"
+"group": "",
+"theme": ""
 },
 {
 "code": "2454",
@@ -300,8 +300,8 @@
 "dist": -0.13480885311871227,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "IC設計",
-"theme": "手機/AI晶片"
+"group": "",
+"theme": ""
 },
 {
 "code": "2481",
@@ -315,8 +315,8 @@
 "dist": -0.04069767441860461,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "被動元件",
-"theme": "整流二極體"
+"group": "",
+"theme": ""
 },
 {
 "code": "2603",
@@ -330,8 +330,8 @@
 "dist": -0.043298969072164906,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "航運",
-"theme": "貨櫃航運"
+"group": "",
+"theme": ""
 },
 {
 "code": "2881",
@@ -345,8 +345,8 @@
 "dist": -0.008403361344537785,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "金融",
-"theme": "壽險/銀行"
+"group": "",
+"theme": ""
 },
 {
 "code": "2882",
@@ -360,8 +360,8 @@
 "dist": 0.0,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "金融",
-"theme": "壽險/銀行"
+"group": "",
+"theme": ""
 },
 {
 "code": "3017",
@@ -375,8 +375,8 @@
 "dist": -0.1362126245847176,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "散熱",
-"theme": "散熱模組"
+"group": "",
+"theme": ""
 },
 {
 "code": "3231",
@@ -390,8 +390,8 @@
 "dist": -0.14925373134328357,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "AI伺服器",
-"theme": "AI伺服器代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "3711",
@@ -405,8 +405,8 @@
 "dist": -0.1375186846038864,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "",
+"theme": ""
 },
 {
 "code": "6139",
@@ -420,8 +420,8 @@
 "dist": -0.05275498241500587,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "無塵室工程"
+"group": "",
+"theme": ""
 },
 {
 "code": "6239",
@@ -435,8 +435,8 @@
 "dist": -0.12661498708010333,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測服務"
+"group": "",
+"theme": ""
 },
 {
 "code": "6282",
@@ -450,8 +450,8 @@
 "dist": -0.09887010611539049,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "電源/重電",
-"theme": "重電/電源管理"
+"group": "",
+"theme": ""
 },
 {
 "code": "6451",
@@ -465,8 +465,8 @@
 "dist": -0.11904761904761907,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "光通訊CPO",
-"theme": "矽光子"
+"group": "",
+"theme": ""
 },
 {
 "code": "6669",
@@ -480,8 +480,8 @@
 "dist": -0.0374149659863946,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "AI伺服器",
-"theme": "AI伺服器代工"
+"group": "",
+"theme": ""
 },
 {
 "code": "7769",
@@ -495,8 +495,8 @@
 "dist": -0.14057885410513882,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "散熱",
-"theme": "散熱模組"
+"group": "",
+"theme": ""
 },
 {
 "code": "3324",
@@ -510,8 +510,8 @@
 "dist": -0.14942528735632188,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "散熱",
-"theme": "散熱模組"
+"group": "",
+"theme": ""
 },
 {
 "code": "3363",
@@ -525,8 +525,8 @@
 "dist": -0.1474178403755868,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "探針卡"
+"group": "",
+"theme": ""
 },
 {
 "code": "5274",
@@ -540,8 +540,8 @@
 "dist": -0.1027678113787801,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "IC設計",
-"theme": "伺服器管理IC"
+"group": "",
+"theme": ""
 },
 {
 "code": "5289",
@@ -555,8 +555,8 @@
 "dist": -0.11363636363636365,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "記憶體",
-"theme": "工業記憶體模組"
+"group": "",
+"theme": ""
 },
 {
 "code": "5351",
@@ -570,8 +570,8 @@
 "dist": -0.10208336512247718,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "記憶體",
-"theme": "DRAM/NAND設計"
+"group": "",
+"theme": ""
 },
 {
 "code": "6147",
@@ -585,8 +585,8 @@
 "dist": -0.13875598086124397,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測服務"
+"group": "",
+"theme": ""
 },
 {
 "code": "6207",
@@ -600,8 +600,8 @@
 "dist": -0.11890243902439024,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "PCB/CCL",
-"theme": "PCB材料"
+"group": "",
+"theme": ""
 },
 {
 "code": "6223",
@@ -615,8 +615,8 @@
 "dist": -0.13503375843960985,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "探針卡"
+"group": "",
+"theme": ""
 },
 {
 "code": "6274",
@@ -630,8 +630,8 @@
 "dist": -0.11294765840220389,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "高階CCL"
+"group": "",
+"theme": ""
 },
 {
 "code": "8299",
@@ -645,8 +645,8 @@
 "dist": -0.14930555555555558,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "記憶體",
-"theme": "NAND控制IC"
+"group": "",
+"theme": ""
 }
 ]
 }
