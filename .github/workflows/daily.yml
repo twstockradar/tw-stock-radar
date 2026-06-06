@@ -50,8 +50,12 @@ jobs:
       - name: 產生報表
         run: python -m tw_stock_radar
         env:
-          # GitHub Models 免費: 用內建 GITHUB_TOKEN + 上方 permissions: models: read。
-          # 未設定/無權限時 AI 分類自動略過, 報表仍正常產出。
+          # AI 族群分類金鑰 (themes.py 會優先讀 AI_API_KEY)。
+          # 組織底下內建 GITHUB_TOKEN 呼叫 GitHub Models 會被擋 (403),
+          # 故改放一支「個人帳號」具 Models:read 的 PAT 當 secret AI_API_KEY。
+          # 未設定此 secret 時為空字串, 會自動回退到 GITHUB_TOKEN (行為同前)。
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          # 內建 token: 仍用於 commit archive (contents: write) 等。
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # 選用: 設了才啟用 FinMind 備援 (yfinance 抓不到時)。免費註冊 finmindtrade.com。
           FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
