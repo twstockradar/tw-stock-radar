@@ -9,7 +9,7 @@
 
 ## 線上看
 
-部署完成後網址為:`https://<你的GitHub帳號>.github.io/<repo名稱>/`
+👉 **https://twstockradar.github.io/tw-stock-radar/**（每日台灣時間 16:00 自動更新）
 
 ## 表單欄位
 
