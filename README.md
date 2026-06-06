@@ -91,8 +91,11 @@ $env:AI_API_KEY = "github_pat_..."   # 或設成 GITHUB_MODELS_TOKEN
 python -m tw_stock_radar
 ```
 
-**GitHub Actions**:workflow 已加 `permissions: models: read` 並用內建 `GITHUB_TOKEN`,**不需額外 secret**;
-若組織限制內建 token 存取 Models,改放一支具 Models:read 的 PAT 當 secret 即可。
+**GitHub Actions**:
+- **個人帳號 repo**:用內建 `GITHUB_TOKEN` + `permissions: models: read` 即可,**不需額外 secret**。
+- **組織 repo(本專案)**:組織預設會擋內建 token 呼叫 Models(403),需到 repo
+  **Settings → Secrets and variables → Actions** 新增 secret **`AI_API_KEY`**,值為一支
+  **個人帳號**具 **Models: read** 的 fine-grained PAT;workflow 會優先讀它。未設則 AI 分類自動略過。
 
 > 想換 Groq(範例):`$env:AI_BASE_URL="https://api.groq.com/openai/v1"; $env:AI_MODEL="llama-3.3-70b-versatile"; $env:AI_API_KEY="gsk_..."`
 
