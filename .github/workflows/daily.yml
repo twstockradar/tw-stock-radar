@@ -1,0 +1,66 @@
+name: 每日台股月K創新高雷達
+
+on:
+  schedule:
+    # 08:00 UTC = 台灣 16:00, 週一至週五 (收盤資料已穩定)。
+    # 註: GitHub 排程以 UTC 計, 尖峰時段可能延遲數分鐘到數十分鐘。
+    - cron: "0 8 * * 1-5"
+  workflow_dispatch: {}   # 允許在 Actions 頁面手動觸發
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  models: read   # 讓內建 GITHUB_TOKEN 能呼叫 GitHub Models (AI 族群/題材分類)
+
+# 避免同時部署互相覆蓋
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 安裝相依套件
+        run: pip install -r requirements.txt
+
+      - name: 日期 (給快取 key 用)
+        id: date
+        run: echo "ymd=$(date +'%Y%m%d')" >> "$GITHUB_OUTPUT"
+
+      - name: 還原月K歷史快取 (避免每天重抓全市場)
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: monthly-history-${{ steps.date.outputs.ymd }}
+          restore-keys: |
+            monthly-history-
+
+      - name: 產生報表
+        run: python -m tw_stock_radar
+        env:
+          # GitHub Models 免費: 用內建 GITHUB_TOKEN + 上方 permissions: models: read。
+          # 未設定/無權限時 AI 分類自動略過, 報表仍正常產出。
+          # (若組織限制內建 token 存取 Models, 改放一支具 Models:read 的 PAT 當 secret。)
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: 部署到 GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

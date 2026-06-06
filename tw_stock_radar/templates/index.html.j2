@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台股月K創新高雷達 ｜ {{ data_date }}</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --card:#ffffff; --ink:#1a1d21; --muted:#6b7280;
+    --border:#e6e8eb; --accent:#2563eb;
+    --up:#e2342d; --down:#11a675; --flat:#6b7280;
+    --new:#e2342d; --near:#f59e0b; --pull:#eab308;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",-apple-system,
+      BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1140px;margin:0 auto;padding:20px 16px 60px}
+  header.hero{padding:8px 2px 14px}
+  .hero h1{margin:0;font-size:24px;letter-spacing:.5px}
+  .hero .sub{color:var(--muted);font-size:14px;margin-top:4px}
+  .hero .meta{margin-top:8px;font-size:13px;color:var(--muted)}
+  .hero .meta b{color:var(--ink)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+  .chip{background:var(--card);border:1px solid var(--border);border-radius:999px;
+    padding:6px 12px;font-size:13px}
+  .chip b{font-size:14px}
+  .legend{background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:12px 14px;margin:12px 0 4px;font-size:13px;color:var(--muted)}
+  .legend .row{margin:3px 0}
+  .legend b{color:var(--ink)}
+  .focus{display:flex;gap:10px;align-items:flex-start;background:#eef4ff;
+    border:1px solid #cfe0ff;border-radius:12px;padding:12px 14px;margin:14px 0 4px;font-size:14px}
+  .focus-ic{font-size:18px;line-height:1.3}
+  .focus b{color:var(--ink)}
+  .focus-txt{color:#33415c;margin-top:2px}
+  .chips.groups{margin-top:10px}
+  .chip.g{background:#f0f5ff;border-color:#d6e2ff}
+  .gt{color:var(--muted);font-size:12px;margin-top:2px}
+  .tag{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;
+    padding:1px 6px;line-height:1.6;white-space:nowrap}
+  .tag.new{background:rgba(226,52,45,.10);color:var(--new);border:1px solid rgba(226,52,45,.30)}
+  .tag.near{background:rgba(245,158,11,.12);color:#b45309;border:1px solid rgba(245,158,11,.35)}
+  .tag.pull{background:rgba(234,179,8,.14);color:#a16207;border:1px solid rgba(234,179,8,.40)}
+  .toolbar{display:flex;justify-content:flex-end;margin:18px 0 6px}
+  .toolbar input{border:1px solid var(--border);border-radius:8px;padding:8px 12px;
+    font-size:14px;width:240px;max-width:60vw;background:var(--card)}
+  .table-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--border);
+    border-radius:12px}
+  table{border-collapse:collapse;width:100%;min-width:720px}
+  thead th{position:sticky;top:0;background:#fafbfc;z-index:1;text-align:right;
+    font-size:12.5px;color:var(--muted);font-weight:600;padding:10px 12px;
+    border-bottom:1px solid var(--border);white-space:nowrap}
+  thead th[data-key]{cursor:pointer;user-select:none}
+  thead th[data-key]:hover{color:var(--ink)}
+  thead th[data-key].asc::after{content:" ▲";font-size:10px}
+  thead th[data-key].desc::after{content:" ▼";font-size:10px}
+  th.l,td.l{text-align:left}
+  td{padding:9px 12px;text-align:right;border-bottom:1px solid #f0f1f3;
+    font-variant-numeric:tabular-nums;white-space:nowrap}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#fafbfc}
+  .stock .code{font-weight:700;font-size:14px}
+  .stock .nm{color:var(--ink);font-size:13px;margin-left:6px}
+  .mk{display:inline-block;font-size:11px;color:var(--muted);border:1px solid var(--border);
+    border-radius:4px;padding:0 5px;margin-left:6px;vertical-align:middle}
+  .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+  .badge-lu{display:inline-block;background:rgba(226,52,45,.1);color:var(--up);
+    border:1px solid rgba(226,52,45,.25);border-radius:6px;padding:1px 7px;font-size:12px;font-weight:600}
+  .none{color:#c3c7cd}
+  td.chart{padding:5px 10px}
+  td.chart img{display:block;height:62px;width:auto;border-radius:6px}
+  .empty{background:var(--card);border:1px dashed var(--border);border-radius:12px;
+    padding:40px;text-align:center;color:var(--muted)}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;line-height:1.7;
+    border-top:1px solid var(--border);padding-top:14px}
+  @media (max-width:640px){
+    .hero h1{font-size:20px} td.chart img{height:50px} .stock .nm{display:block;margin-left:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>📈 台股月K創新高雷達</h1>
+    <div class="sub">以「還原月K」找出趨勢向上、處於歷史高檔的個股</div>
+    <div class="meta">資料日期 <b>{{ data_date }}</b> ｜ 更新時間 <b>{{ update_time }}</b>（台灣時間）</div>
+  </header>
+
+  <div class="chips">
+    <div class="chip">掃描 <b>{{ total_scanned }}</b> 檔</div>
+    <div class="chip">符合 <b>{{ total_hits }}</b> 檔</div>
+    <div class="chip">成交金額 ≥ <b>{{ liquidity_str }}</b></div>
+    <div class="chip">新高基準 <b>還原權值月K</b></div>
+  </div>
+
+  {% if focus %}
+  <div class="focus">
+    <span class="focus-ic">🎯</span>
+    <div><b>今日族群焦點</b><div class="focus-txt">{{ focus }}</div></div>
+  </div>
+  {% endif %}
+  {% if group_counts %}
+  <div class="chips groups">
+    {% for g in group_counts %}<div class="chip g"><b>{{ g.name }}</b> {{ g.count }}</div>{% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="legend">
+    <div class="row"><b>篩選條件</b>：還原月K處於歷史新高 / 逼近新高 / 高檔修正，且當日成交金額達門檻、收盤站上 12 月均線。</div>
+    <div class="row"><b>還原月K</b>：把歷年配息、配股還原後的月K線，這樣才看得出真正的歷史新高（除權息不會被誤判成跌破）。</div>
+  </div>
+
+  {% if total_hits == 0 %}
+    <div class="empty">今日無符合條件的個股（可能為休市、或門檻過嚴）。</div>
+  {% else %}
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="搜尋代碼或股名…" oninput="filterRows(this.value)">
+  </div>
+
+  <div class="table-wrap">
+    <table class="sortable">
+      <thead>
+        <tr>
+          <th class="l" data-key="code">代碼 / 股名</th>
+          <th data-key="price">價格</th>
+          <th data-key="change">漲跌幅</th>
+          <th data-key="value" class="desc">成交金額</th>
+          <th data-key="cap">市值</th>
+          <th data-key="limit">近5日漲停</th>
+          <th>還原月K（36月）</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in rows %}
+        <tr data-code="{{ r.code }}" data-name="{{ r.name }}"
+            data-price="{{ r.close }}" data-change="{{ r.change }}"
+            data-value="{{ r.trade_value }}" data-cap="{{ r.market_cap }}"
+            data-limit="{{ r.limit_up_count }}">
+          <td class="l stock">
+            <span class="code">{{ r.code }}</span><span class="nm">{{ r.name }}</span>
+            {% if r.group or r.theme %}<div class="gt">{{ r.group }}{% if r.theme %} · {{ r.theme }}{% endif %}</div>{% endif %}
+          </td>
+          <td>{{ r.close }}</td>
+          <td class="{{ 'up' if r.up else 'down' }}">{{ r.change_str }}</td>
+          <td>{{ r.trade_value_str }}</td>
+          <td>{{ r.market_cap_str }}</td>
+          <td>{% if r.limit_up %}<span class="badge-lu">漲停 ×{{ r.limit_up_count }}</span>{% else %}<span class="none">—</span>{% endif %}</td>
+          <td class="chart">{% if r.chart %}<img loading="lazy" alt="還原月K" src="{{ r.chart }}">{% else %}<span class="none">—</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <footer>
+    <div>資料來源：台灣證券交易所 TWSE OpenAPI、證券櫃檯買賣中心 TPEX OpenAPI、Yahoo Finance（yfinance，還原權值月K）。</div>
+    <div>本頁由 TW_STOCK_RADAR 自動產生，僅供研究參考，不構成投資建議。漲停以收盤漲幅近似判斷，請以官方資料為準。</div>
+    <div>產生時間：{{ update_time }}（台灣時間）</div>
+  </footer>
+</div>
+
+<script>
+function filterRows(q){
+  q=(q||'').trim().toLowerCase();
+  document.querySelectorAll('tbody tr').forEach(tr=>{
+    const hay=(tr.dataset.code+' '+tr.dataset.name).toLowerCase();
+    tr.style.display = !q || hay.indexOf(q)>=0 ? '' : 'none';
+  });
+}
+document.querySelectorAll('th[data-key]').forEach(th=>{
+  th.addEventListener('click',()=>{
+    const table=th.closest('table'), tbody=table.tBodies[0], key=th.dataset.key;
+    const asc=!th.classList.contains('asc');
+    table.querySelectorAll('th').forEach(h=>h.classList.remove('asc','desc'));
+    th.classList.add(asc?'asc':'desc');
+    [...tbody.rows].sort((a,b)=>{
+      const va=a.dataset[key], vb=b.dataset[key];
+      const na=parseFloat(va), nb=parseFloat(vb);
+      const cmp=(!isNaN(na)&&!isNaN(nb))?na-nb:(''+va).localeCompare(''+vb,'zh-Hant');
+      return asc?cmp:-cmp;
+    }).forEach(r=>tbody.appendChild(r));
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 產生物 (CI 以 artifact 部署, 不需進版控)
+docs/
+data/
