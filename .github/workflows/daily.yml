@@ -2,11 +2,13 @@ name: 每日台股月K創新高雷達
 
 on:
   schedule:
-    # 08:20 UTC = 台灣 16:20, 週一至週五 (收盤資料已穩定)。
-    # 註: 刻意避開整點 (0 分) 壅塞時段以提高觸發率;
-    #     GitHub 排程仍為「盡力而為」, 可能延遲數分鐘到數十分鐘, 偶有跳過。
-    #     repo 轉移後重推此檔可讓排程在新位置重新註冊。
-    - cron: "20 8 * * 1-5"
+    # 台灣 16:20 / 16:50 / 17:30 三個錯開時段 (週一至五, 收盤資料已穩定)。
+    # 多時段備援: 任一個成功觸發即更新; 流程冪等 (同一交易日重覆跑只覆蓋同一份, 無副作用)。
+    # 刻意避開整點 (0 分) 壅塞時段; GitHub 排程為「盡力而為」, 故用多時段降低漏跑機率。
+    # public repo 跑 Actions 免費不限量; repo 轉移後重推此檔可讓排程重新註冊。
+    - cron: "20 8 * * 1-5"   # 16:20 台灣
+    - cron: "50 8 * * 1-5"   # 16:50 台灣 (備援)
+    - cron: "30 9 * * 1-5"   # 17:30 台灣 (備援)
   workflow_dispatch: {}   # 允許在 Actions 頁面手動觸發
 
 permissions:
@@ -62,18 +64,7 @@ jobs:
           # 選用: 設了才啟用 FinMind 備援 (yfinance 抓不到時)。免費註冊 finmindtrade.com。
           FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
 
-      - name: 封存今日結果 (commit archive/)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add archive
-          if git diff --staged --quiet; then
-            echo "封存無變動"
-          else
-            git commit -m "archive: $(date -u +%Y-%m-%d) [skip ci]"
-            git push origin HEAD:main
-          fi
-
+      # 先部署 Pages (最重要的產出), 不讓後續封存的任何狀況擋到上線。
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
@@ -83,3 +74,23 @@ jobs:
       - name: 部署到 GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+      # 封存當日結果 (盡力而為): rebase 後再推, 遇競態自動重試;
+      # 即使失敗也不影響上面的部署 (continue-on-error)。
+      - name: 封存今日結果 (commit archive/)
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          if git diff --staged --quiet; then
+            echo "封存無變動"; exit 0
+          fi
+          git commit -m "archive: $(date -u +%Y-%m-%d) [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo "封存已推送"; exit 0
+            fi
+            echo "推送競態, 重試 $i ..."; sleep 3
+          done
+          echo "封存推送失敗 (不影響部署, 下次再補)"; exit 0
