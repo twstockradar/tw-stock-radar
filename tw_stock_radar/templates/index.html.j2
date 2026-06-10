@@ -52,7 +52,11 @@
   .news .tm{color:#9aa1ab;font-size:11.5px;margin-left:6px}
   .chips.groups{margin-top:10px}
   .chip.g{background:#f0f5ff;border-color:#d6e2ff}
-  .chip.nw{background:rgba(226,52,45,.08);border-color:rgba(226,52,45,.3);color:var(--up)}
+  .chip.nw{background:rgba(226,52,45,.08);border-color:rgba(226,52,45,.3);color:var(--up);
+    cursor:pointer;user-select:none;font:inherit}
+  .chip.nw:hover{background:rgba(226,52,45,.16)}
+  .chip.nw.active{background:var(--up);color:#fff;border-color:var(--up)}
+  .chip.nw .hint{font-size:11px;opacity:.7;margin-left:4px}
   .gt{color:var(--muted);font-size:12px;margin-top:2px}
   .nav{margin-top:8px;font-size:13px}
   .nav a{color:var(--accent);text-decoration:none;font-weight:600}
@@ -116,7 +120,7 @@
   <div class="chips">
     {% if total_scanned %}<div class="chip">掃描 <b>{{ total_scanned }}</b> 檔</div>{% endif %}
     <div class="chip">符合 <b>{{ total_hits }}</b> 檔</div>
-    {% if new_count %}<div class="chip nw">🆕 今日新增 <b>{{ new_count }}</b></div>{% endif %}
+    {% if new_count %}<button type="button" id="newChip" class="chip nw" onclick="toggleNewOnly()" title="點一下只看今日新增,再點還原全部">🆕 今日新增 <b>{{ new_count }}</b><span class="hint">點我篩選</span></button>{% endif %}
     <div class="chip">成交金額 ≥ <b>{{ liquidity_str }}</b></div>
     <div class="chip">新高基準 <b>還原權值月K</b></div>
   </div>
@@ -161,7 +165,7 @@
     <div class="empty">今日無符合條件的個股（可能為休市、或門檻過嚴）。</div>
   {% else %}
   <div class="toolbar">
-    <input id="q" type="search" placeholder="搜尋代碼或股名…" oninput="filterRows(this.value)">
+    <input id="q" type="search" placeholder="搜尋代碼或股名…" oninput="applyFilters()">
   </div>
 
   <div class="table-wrap">
@@ -182,7 +186,7 @@
         <tr data-code="{{ r.code }}" data-name="{{ r.name }}"
             data-price="{{ r.close }}" data-change="{{ r.change }}"
             data-value="{{ r.trade_value }}" data-cap="{{ r.market_cap }}"
-            data-limit="{{ r.limit_up_count }}">
+            data-limit="{{ r.limit_up_count }}" data-new="{{ '1' if r.new_today else '0' }}">
           <td class="l stock">
             <span class="code">{{ r.code }}</span><span class="nm">{{ r.name }}</span>{% if r.new_today %}<span class="badge-new">🆕新</span>{% endif %}
             {% if r.group or r.theme %}<div class="gt">{{ r.group }}{% if r.theme %} · {{ r.theme }}{% endif %}</div>{% endif %}
@@ -209,13 +213,24 @@
 </div>
 
 <script>
-function filterRows(q){
-  q=(q||'').trim().toLowerCase();
+let newOnly=false;
+function applyFilters(){
+  const el=document.getElementById('q');
+  const q=(el?el.value:'').trim().toLowerCase();
   document.querySelectorAll('tbody tr').forEach(tr=>{
-    const hay=(tr.dataset.code+' '+tr.dataset.name).toLowerCase();
-    tr.style.display = !q || hay.indexOf(q)>=0 ? '' : 'none';
+    const matchQ = !q || (tr.dataset.code+' '+tr.dataset.name).toLowerCase().indexOf(q)>=0;
+    const matchNew = !newOnly || tr.dataset.new==='1';
+    tr.style.display = (matchQ && matchNew) ? '' : 'none';
   });
 }
+function toggleNewOnly(){
+  newOnly=!newOnly;
+  const chip=document.getElementById('newChip');
+  if(chip) chip.classList.toggle('active', newOnly);
+  applyFilters();
+}
+// 相容舊呼叫
+function filterRows(){ applyFilters(); }
 document.querySelectorAll('th[data-key]').forEach(th=>{
   th.addEventListener('click',()=>{
     const table=th.closest('table'), tbody=table.tBodies[0], key=th.dataset.key;
