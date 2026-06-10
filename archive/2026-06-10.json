@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理/AI電源"
+"theme": "電源管理/AI伺服器電源"
 },
 {
 "code": "2308",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -121,7 +121,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件/電阻電容"
 },
 {
 "code": "2330",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "網通交換器"
 },
 {
 "code": "2356",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2382",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/金控"
+"theme": "壽險/金融控股"
 },
 {
 "code": "2882",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/金控"
+"theme": "壽險/金融控股"
 },
 {
 "code": "3017",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "6669",
@@ -451,7 +451,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "工業記憶體"
+"theme": "工業記憶體模組"
 },
 {
 "code": "6127",
@@ -466,7 +466,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "6147",
@@ -526,7 +526,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "光通訊CPO",
-"theme": "光通訊模組"
+"theme": "矽光子"
 },
 {
 "code": "8299",
@@ -545,47 +545,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗的軍事行動與全球關稅政策，以及大型企業CEO對經濟與產業趨勢的警示，將深刻影響全球政經局勢。",
+"takeaway": "川普宣布新全球關稅及對伊朗軍事行動，企業CEO則聚焦AI與地緣衝突對經濟的影響。",
 "items": [
 {
 "who": "川普",
-"summary": "川普下令在霍爾木茲附近對伊朗發動打擊，導致伊朗針對美國在約旦及海灣的基地進行報復。",
-"why": "美伊衝突升級，可能引發地緣政治風險與能源市場波動。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS0dXSGJPLVM3VVFmRmYwcWloclNleWtLV0NrYVZfblNtdU5kY0RnOXNQSjBUQVZQS2RhR1RwQVhhT1oxVGdtVjJkdExKWG5uM3VFSTlPY0JhWms0S3RMdml0X0dVTEhuOTlEWUc3ZHlJVXl4dWFUeVFOT2xKWUhCbTh3aUVFeS1qaTNySWRBdWNMY1BhVWZUekZaUVNIZEVDVklnV1VISHpid0JObjVCU3V5bXFHaTgxaEN3M0UwOW1ac1Nz?oc=5",
-"time": "16 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普在最高法院敗訴後宣布新10%全球關稅。",
-"why": "全球關稅政策將衝擊國際貿易與供應鏈，影響全球經濟走向。",
+"summary": "川普宣布新10%全球關稅，並表達對最高法院敗訴的不滿。",
+"why": "全球關稅政策將直接影響國際貿易格局，對全球供應鏈與經濟帶來重大變化。",
 "source": "MSN",
-"link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPX2VJME1NMkVXbVZJbzQzMGJTLTZmd3BXY2F3d2FURVJlWUdpWjZwUTQ3ZmlibHB0Z21GN3Mza0hVRUhxUlo4b3RUdzNNME5mb01IcjRGdzdua2hKMjVNT1U3ZWk0V1dPV252Nzk1R2ttRHYyTGFRQU1LU2FLV3F4YjhpR0xqSXFKV2ZNSk9QT0RrbTVxOE9MWDZ3R2RrS0tFNGlwOEhXb01ZVlhsMUtYU3pfM2FqZERrVndGOEgwNjU2dGIzdTVvTWhQdlNBdTlKY1BUb2lVTVY3UTZtY1pLanRmX0liWkU4ejZxeUo3RkFISXFLb21sWTVDNkttd2VRWkViNjYwbTdIdURJakRZRkVDQms3ekY4Q2JlWjFMcGJpZUFDeThQOHNzdjBhTGx4MHNRSVBVOWtTREVIWExqOEhCM0lrblFpMGlxMC1yeG1PcE5N?oc=5",
+"link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQejZHT0Z3ZUlpbEFBQzF1VFNjQWlPY3JjSlhxMC1rbXdMRklaNjNMYVk2Q0xyUEdlajlCZmtxYVE1SzJOTGV1OEU0Z0tESUxUeFk4YlpfREJDZTRtZU5udVM2LUhBZUtZV2lrcE9YUk9qYXdMaUt4c3ZCcld4cGF5eFloZWhaTlVmMjVUbXVJYkxLOEloWHhnaTVhQkJFVng1X2hwOVdpcGlVTFg1YnFkZHoxNjJqbEYzY3FKQ25NM01wWGE2ei1Ednk3SjJSeG1zd0N3QjQxVDVtWVIyUGdfVldYbVFGWnRkMVU3b21udVVJTTRuMGZpSUJwT3RRRl84TEp2YnpVSmZVanZHNWsydnFTTHZZWUpDMVN4eHllc2FVZGFreGZ3WlhiaEJ2RVFtU25ScE1scExmSTFmV1lqWXo3SW5ndnY2LXJvMlVjLTF4YzlhMEE?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Wesfarmers CEO",
-"summary": "Wesfarmers CEO警告預算威脅創業與投資。",
-"why": "企業領袖對經濟環境的警示，可能影響澳洲及全球投資氛圍。",
-"source": "AFR",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVElfSi1jcHJDSXhZdHpuR2ktOVozZzJzZkJFV3FtZDNBdTJOdkQ3MG9IN1QyTG10ejR6TEROMmhmNlJZTTBuekJja0ZpbTFNcHpYMWdzOE16N0RXNWp4b2JabFRtMjBldThDZHRRTDU2SFl3ZEJKQWo3enlVeHJfaFdkWVZ1cmtKQkJTX2ptQ1pwRzAyN0Ztb2c2STNINUY1VUdnMjJkb3JNaXc?oc=5",
-"time": "1 小時前"
+"who": "川普",
+"summary": "川普引用《白宮風雲》為最新對伊朗空襲行動辯護。",
+"why": "美國對伊朗的軍事行動升級，可能加劇中東緊張局勢並影響能源市場。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONHpDS3VsU2Q4WXpyNkdCLTJ6R0k1S0JndG1wMWVTcEpiZTgxa2FCTDhLclBDSUdVY05xc2xiazNYNXJBMDVUcHdidWd0UktGWDdrNGMxQV9qZy1ldkxaT3JHbUx4WXAtWG9hMl9mMHdvZzQzYnJKZzNqam8zZTVuUUIzcHNMQUVXMnQyN3V5ZmhUdS1qbTFGbEtQWGVaY1FjM0ZqRDk0cmtkV3ROcG1OQXdXcVdqdw?oc=5",
+"time": "24 分鐘前"
 },
 {
-"who": "小鵬汽車CEO",
-"summary": "小鵬汽車CEO親自掌舵機器人業務，推動物理AI轉型。",
-"why": "中國科技企業加速AI與機器人產業布局，影響全球科技競爭格局。",
-"source": "CnEVPost",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qVDdGVks4SS1QZXpJUTJHWEpIekJFS2F3bzdodW9Sb1daX1VSTlhTN0ZSVTRReTc0T1BJTl9MNjkxeU9fX0gtMmpDN3hTdExZUHVZSVJORjh3RWs2dGp3Y3dQQlJDZ3lpNGpMNVEtZ2lBeC1NMUE?oc=5",
-"time": "3 小時前"
+"who": "Mark Zuckerberg (Meta)",
+"summary": "Meta CEO馬克·祖克柏大舉裁員，並投入數十億美元於AI競賽。",
+"why": "AI成為科技巨頭核心戰場，裁員與投資動向將重塑產業格局。",
+"source": "Business Insider",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcDBKUVg2cDdDdjlHS09NdC1iSm0ySjdYZ2FHZVE5N2NJMTFHXzl1M1RRRk9LS3FiczFFZGVnV09iTzlNNEFDbDcyTHVaME1XcTlEMWVuLXd2cVRoTmNlekJWQVhqYnNaY2FRVnUyQUtlVFFtSlI0UXpSdG1UX3lhWlo1Vmx3Z2N6NTRNTjhVYkdPT2NnV3c?oc=5",
+"time": "16 分鐘前"
 },
 {
 "who": "Crescent Petroleum CEO",
 "summary": "Crescent Petroleum CEO警告海灣衝突正在重塑全球經濟。",
-"why": "能源企業高層對地緣衝突的警示，預示全球經濟與能源市場重大變動。",
+"why": "地緣政治風險對能源與全球經濟的影響日益加劇，企業需調整策略。",
 "source": "Oil & Gas Middle East",
 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOWJhRXNndkZhRWx1RHVnbWJHZmx2U0pVZ1hybk9yRHdnV3daLTA5NHI5THBZb21rc2xTcXdadUtCazQtcGttREEtaDd3SkZ3akxpbks2N01oS1FjMUpDVTZDVmdoQUtlRFVOVzRQTHExbDNoY2pRVXVmdWFyLUdhekFqMFQxYVNYaWNvNEctQzZWLTZIQk1NQTAxSlZoYmU0Sm9iRmJrODBLRjZJdDR0Qg?oc=5",
 "time": "2 小時前"
+},
+{
+"who": "Xpeng CEO",
+"summary": "小鵬汽車CEO親自領導機器人業務，推動物理AI轉型。",
+"why": "中國科技企業加速AI落地，將推動全球智能製造與機器人產業發展。",
+"source": "CnEVPost",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qVDdGVks4SS1QZXpJUTJHWEpIekJFS2F3bzdodW9Sb1daX1VSTlhTN0ZSVTRReTc0T1BJTl9MNjkxeU9fX0gtMmpDN3hTdExZUHVZSVJORjh3RWs2dGp3Y3dQQlJDZ3lpNGpMNVEtZ2lBeC1NMUE?oc=5",
+"time": "3 小時前"
 }
 ]
 }
