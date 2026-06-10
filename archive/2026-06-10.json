@@ -1,7 +1,7 @@
 {
 "date": "2026-06-10",
 "count": 36,
-"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、散熱模組、重電、矽光子、PCB材料等。",
+"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電、金融等族群為主，題材聚焦AI伺服器代工、先進封裝、CoWoS、散熱模組、重電、PCB、光通訊、記憶體等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理"
+"theme": "電源管理/重電"
 },
 {
 "code": "2308",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源供應器"
+"theme": "電源管理/重電"
 },
 {
 "code": "2313",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2317",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "筆電/伺服器代工"
 },
 {
 "code": "2327",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/網路設備"
+"theme": "網通交換器"
 },
 {
 "code": "2356",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2360",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2382",
@@ -361,7 +361,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝"
+"theme": "先進封裝/CoWoS"
 },
 {
 "code": "4958",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6669",
@@ -435,8 +435,8 @@
 "dist": -0.05246422893481717,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "光通訊CPO",
-"theme": "矽光子"
+"group": "被動元件",
+"theme": "車用被動元件"
 },
 {
 "code": "5289",
@@ -451,7 +451,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "工業記憶體"
+"theme": "工業記憶體模組"
 },
 {
 "code": "6127",
@@ -466,7 +466,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6147",
@@ -481,7 +481,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "晶圓測試"
 },
 {
 "code": "6223",
@@ -496,7 +496,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "測試介面"
+"theme": "探針卡"
 },
 {
 "code": "6274",
@@ -525,8 +525,8 @@
 "dist": 0.0,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "PCB/CCL",
-"theme": "PCB板"
+"group": "光通訊CPO",
+"theme": "矽光子/光通訊"
 },
 {
 "code": "8299",
@@ -545,39 +545,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對伊朗的強硬表態與Pfizer、OpenAI、Meta等大型企業CEO的政策發言，將影響地緣政治與產業未來走向。",
+"takeaway": "川普對伊朗強硬表態及輝瑞CEO警告藥價政策，將影響地緣政治與全球製藥投資。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示伊朗若延遲達成協議將『付出代價』。",
-"why": "展現對伊朗的強硬態度，可能加劇中東緊張局勢並影響全球能源與安全政策。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XU3NJMmdOMzByM0xEYmpDOHVhOFVHcXJfYWlQajFhQ0FuamhJT0ZEdEFLRGlaRHg5VDFNX05FelpEZm5Iek9CTzVQaU1SR04zRS1CV29CT3JXR3hPdUVnZnJEQdIBaEFVX3lxTFBHYTFYbUlxTzFjSlhQbGhYMHlyRUp3LURDYzlERFdGQmlhR1ROS3BWVC1VOWt3YWphRnMyaWlkT3o2bXFPcnd2ZXk1cTBkT19TY3ktMWRBbEUtWkYxSE5HU281d2ZUU2sy?oc=5",
-"time": "39 分鐘前"
+"summary": "川普表示伊朗針對美國資產將“付出代價”。",
+"why": "展現美國對伊朗的強硬態度，可能引發地緣政治緊張與軍事行動升級。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQW53TFRnTktfUVJtSF9hRmxEXzN6MnlubDE0Q0haU3FHX2h6VlhjQ1BKR21GdjF1OEF1aW1Gdl9SZlFTclZGTzFtdk15eWFoc2VKZEljRWY0UUN5QmxkZHFnNFFkT1Znclh1amVUdWlCbXBJZTl0WmZGSUV5d3g0QnZDQm16Y2lIcGN3Y0xDNXZncGMzMlpYZjk0Z1I2amhkbnVfaVdIUTZUeWU2?oc=5",
+"time": "4 分鐘前"
 },
 {
-"who": "Pfizer CEO",
-"summary": "Pfizer CEO警告德國若藥價政策不改，將影響投資。",
-"why": "藥企對歐洲政策的直接施壓，可能影響全球製藥產業投資與政策走向。",
+"who": "川普",
+"summary": "川普批評伊朗談判拖延，稱其將“付出代價”。",
+"why": "強化美國對伊朗施壓，影響中東局勢與能源市場。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQjBfR0dyb2k4WjB2MkZEMjVxLTladHdVNmk5R2tjUHh2SmVmRGs5SDZBLTRuSEJOMzdxMnFoZmZDWEh3VzhBalF3MmtGMUFfelB5Vm9fb3JROUFOaVUwWUxqUTBtbURXTnYtOUNUZ1U2UkxoZnNoN1ZvLWlIN2VvNVBhNmJlUlRZYlJ4ZERYRnA5LTJ3QktSU1VwUkNzS2RWeGpmR05ndllnalFqeVp5endGQQ?oc=5",
+"time": "31 分鐘前"
+},
+{
+"who": "輝瑞CEO",
+"summary": "輝瑞CEO警告德國投資受藥價政策威脅。",
+"why": "藥企對歐洲政策表態，可能影響全球製藥產業投資與政策走向。",
+"source": "Global Banking & Finance Review",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc0cwV2ZZWlZxWVRvTnZvdDl6WW83Z3VuUjFqT0hEdG9wTEg4RmRfTExuTXJDRlJxMFc2aHJzcTdIN0ViN0pKLUZOLWx3TXdkYl90ZGlZZGtRbkNKZ0pfdk9mbGNhc1MwNnRQVkdDVFlaV1FXR1VLWmF5NnVvVzJvd01FRHpIMktGTE5CYm5ITDhWT1Q4ZXNfWHpsSGVubm8?oc=5",
+"time": "2 分鐘前"
+},
+{
+"who": "輝瑞CEO",
+"summary": "輝瑞CEO再次警告德國投資因藥價政策受影響。",
+"why": "重申產業憂慮，凸顯藥價政策對跨國企業決策的直接衝擊。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRVhoWjVNSDBWYUNjSzNxLWRZV2RNU2FLWHdwdVFyR3dOb3FtNW9QTUkwd1M4Vk1YWDhWY19UaVJ2aXVjeVFuNDBMZ0ZWejc3M2lsREhBSHJZSFVrX1dkWG9PQWVlVS1aTmY3NDZ6d0I3OVI2UUFFU2pDNDZNcEEyTXVnR1paNWVpSzdyRFpNZWJ6bDBwMUpELTVUUXlNQlNfaHdxTHlJRGx2Mzdu?oc=5",
+"time": "8 分鐘前"
+},
+{
+"who": "輝瑞CEO",
+"summary": "輝瑞CEO警告德國投資因藥價政策面臨風險。",
+"why": "多家媒體報導，顯示此議題已成全球製藥業關注焦點。",
 "source": "marketscreener.com",
 "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZXhSenVBOGNwS1pmSlIzQVdVOWJRS2dPUFRuRmJyeWVyT3RLWGt2M3ZDb1BxR2hkTFA1TjMyZVBvaG9BOXVLQVVEc2ZxX01ZRzN2a1dtY3JFOUNoVXhiNl9Rc0ZyWEUwbzJTNVE2NU5WZV9ET1dzZVJ6eU1pRUI4Qmw0a2VJQ1pkSnR0SXgxUjY3T0ltMUphZU1penBzMHBXdzhudWM1SG1wYmdyWnNKM1A2YVN5Z2N0NlNjbFhRRQ?oc=5",
-"time": "21 分鐘前"
-},
-{
-"who": "OpenAI CEO Sam Altman",
-"summary": "OpenAI CEO透露AI代幣成本在2026年將成為重大問題。",
-"why": "AI產業未來商業模式與成本結構將面臨挑戰，影響全球科技發展。",
-"source": "Memeburn",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPck5sUUx1VGF4aTJndzktSUpFSkZxMUVxZmpWblhiaDdkSnVYRDJtSWg1VTUtX2J5VlFiMzF2WUVwZXJieExWbmR0OGV2SWl2Y2E4dXVvSXJxVUdMODEzVVlkVTFyMUdyaHp3Zk5oOV9WaEo1Q2lleFU0V3NlVTJRbXNmaGhxcE13Z0h6U1hXR3drbmFMbVE?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Meta總裁",
-"summary": "Meta總裁表示美國若無特定人才，難與中國在AI領域競爭。",
-"why": "凸顯人才對AI競爭力的關鍵，將影響美國科技政策與移民政策。",
-"source": "Fox Business",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcUZkaDhvTUw0WUtNdFdvNU1SSVZSWVJadlVsYWowMGFTekVqcGFxRC1QVFoycGhiYk5LUzQ5RzBhUXVqNFhLUldNZGlDWGYxSkxVWjFDVURWUDJOWTVoTWh6T01idWx1d296aW82d3RVRlNJeDY1Z3RGOEplVmFqLVhFcWF5c3pQekJLbmt1eHhoWUpaYnVvUFhEVmJOOTFnTF95dkk4QzVKcEhfeTF0bdIBtgFBVV95cUxNM0FiRlRYaGtQekczWU9QUzl3QUVWMXpwaGRrUGRaWEJ5SlNEOU0tVnAtMnJGajluMGtaSTJNZmRyNUNORGZpNTA2OXRMUEFyWHUzV1ZYbnYzVkxfc3oxVllGNV9FY0UySXgyYmxPelQwRnBBNk9XLXpyUjdOMjBDTE0zRV9GVzJFWGpIclh6Yk56YXEzb2x2LXR0LVRTTUwzUzJRQVhzUGF3TTl0QnRqWExoMk92UQ?oc=5",
-"time": "1 小時前"
+"time": "38 分鐘前"
 }
 ]
 }
