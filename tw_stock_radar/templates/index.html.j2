@@ -74,9 +74,11 @@
   .tag.new{background:rgba(226,52,45,.10);color:var(--new);border:1px solid rgba(226,52,45,.30)}
   .tag.near{background:rgba(245,158,11,.12);color:#b45309;border:1px solid rgba(245,158,11,.35)}
   .tag.pull{background:rgba(234,179,8,.14);color:#a16207;border:1px solid rgba(234,179,8,.40)}
-  .toolbar{display:flex;justify-content:flex-end;margin:18px 0 6px}
-  .toolbar input{border:1px solid var(--border);border-radius:8px;padding:8px 12px;
-    font-size:14px;width:240px;max-width:60vw;background:var(--card)}
+  .toolbar{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin:18px 0 6px}
+  .toolbar input,.toolbar select{border:1px solid var(--border);border-radius:8px;padding:8px 12px;
+    font-size:14px;background:var(--card);color:var(--ink)}
+  .toolbar input{width:240px;max-width:60vw}
+  .toolbar select{max-width:50vw;cursor:pointer}
   .table-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--border);
     border-radius:12px}
   table{border-collapse:collapse;width:100%;min-width:720px}
@@ -172,6 +174,12 @@
     <div class="empty">今日無符合條件的個股（可能為休市、或門檻過嚴）。</div>
   {% else %}
   <div class="toolbar">
+    {% if group_counts %}
+    <select id="groupSel" onchange="applyGroup(this.value)" title="依族群篩選">
+      <option value="">全部族群（{{ total_hits }}）</option>
+      {% for g in group_counts %}<option value="{{ g.name }}">{{ g.name }}（{{ g.count }}）</option>{% endfor %}
+    </select>
+    {% endif %}
     <input id="q" type="search" placeholder="搜尋代碼或股名…" oninput="applyFilters()">
   </div>
 
@@ -245,12 +253,15 @@ function toggleLimitOnly(){
   if(chip) chip.classList.toggle('active', limitOnly);
   applyFilters();
 }
-function setGroup(g){
-  groupFilter = (groupFilter===g) ? '' : g;
+function applyGroup(g){
+  groupFilter = g || '';
+  const sel=document.getElementById('groupSel');
+  if(sel) sel.value=groupFilter;
   document.querySelectorAll('.chip.g').forEach(c=>
     c.classList.toggle('active', c.dataset.group===groupFilter));
   applyFilters();
 }
+function setGroup(g){ applyGroup(groupFilter===g ? '' : g); }  // 點標籤可切換
 // 相容舊呼叫
 function filterRows(){ applyFilters(); }
 document.querySelectorAll('th[data-key]').forEach(th=>{
