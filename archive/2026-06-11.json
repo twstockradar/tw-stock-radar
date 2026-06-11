@@ -1,7 +1,7 @@
 {
 "date": "2026-06-11",
 "count": 40,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、記憶體等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、散熱模組、重電、ABF載板、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、重電、伺服器零組件、PCB材料等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -151,7 +151,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2382",
@@ -226,7 +226,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電感元件"
 },
 {
 "code": "2484",
@@ -301,7 +301,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "石英元件"
 },
 {
 "code": "3090",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "6239",
@@ -435,8 +435,8 @@
 "dist": -0.018932874354561147,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "光通訊CPO",
-"theme": "矽光子"
+"group": "PCB/CCL",
+"theme": "PCB板"
 },
 {
 "code": "8112",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB材料"
 },
 {
 "code": "3357",
@@ -466,7 +466,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電阻元件"
 },
 {
 "code": "5274",
@@ -496,7 +496,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "工業記憶體"
+"theme": "工業記憶體模組"
 },
 {
 "code": "5347",
@@ -585,8 +585,8 @@
 "dist": 0.0,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"group": "光通訊CPO",
+"theme": "矽光子"
 },
 {
 "code": "8299",
@@ -605,47 +605,47 @@
 }
 ],
 "news": {
-"takeaway": "AI發展與地緣政治動態成為未來全球經濟與科技趨勢關鍵。",
+"takeaway": "川普對伊朗的強硬威脅與大型企業CEO對AI與裁員的警示，將深刻影響地緣政治與產業未來。",
 "items": [
 {
+"who": "川普",
+"summary": "川普表示美國將對伊朗進行猛烈打擊，並威脅要全面掌控伊朗的石油產業。",
+"why": "此舉可能加劇中東緊張局勢，影響全球能源市場與地緣政治格局。",
+"source": "AP News",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?oc=5",
+"time": "27 分鐘前"
+},
+{
+"who": "Volkswagen CEO",
+"summary": "Volkswagen CEO宣布年底前將在德國裁員19,000人。",
+"why": "顯示汽車產業正面臨結構性調整，對歐洲經濟與就業市場有重大影響。",
+"source": "Global Banking & Finance Review",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM0VRTUN4RkFMQTZOdHpHR1VPMkVwVEZETTF4RHZKQ2NubG5XRTlmaC1IalVQYTByN29kUDliTXRmTXpJY2ZMN2F2c1R4bmJhNHRwMXlaWExtcXdrTU55cTNzY1JaRm1vTkZkSjAtQWNWcVY0WUJIVjBqNWktLUVpclNSbmc4bWFWNGh1ZVFTaGhwUQ?oc=5",
+"time": "10 分鐘前"
+},
+{
 "who": "Anthropic CEO",
-"summary": "警告先進AI可能強大到政府或企業無法控制。",
-"why": "AI治理與監管挑戰加劇，未來科技政策與產業結構將受重大影響。",
+"summary": "Anthropic CEO警告先進AI可能超出政府或企業的控制能力。",
+"why": "凸顯AI發展速度與風險，將促使全球監管與產業策略調整。",
 "source": "Benzinga",
 "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNelduQW5RQ2JZVTFDa2M5OUdJZ2x6cV85M25pOXVKSnJFTHJhZHhSdENuLUc4RFU3TFZITWdoRnZ2RDNpU1lISTQxY2pVTkg4VFNDZF9hN0hBZ3ZLcHhQR04ya1FVTllCZmVlUkRSM1Znek9HVkVDTXliOWZhMjhaVDFxcnAtZ3l0RmltVGhjYVlsWUxyWjBhYkxtT09zSGQ1elk4cTJraXNOdzI1TEV5Ri1hZy1jV00xcnBoRmYtYUZVZ09WSmZsckZDS3FmWVU5MTVNTmd5Sm5nU2FReWFzcmFfaVh2bGhmMVg1MkZTNS1EVFpHMVR3Mnkyb2VZSnRMelZHalFjZUppMFRfVEttM05qdlU?oc=5",
-"time": "5 分鐘前"
+"time": "30 分鐘前"
 },
 {
-"who": "Xbox CEO Asha Sharma",
-"summary": "下令裁員並宣布Xbox業務重置。",
-"why": "顯示大型科技企業正調整策略，未來遊戲產業與科技業可能出現新格局。",
+"who": "Microsoft Xbox CEO Asha Sharma",
+"summary": "Xbox CEO下令重設並裁員1,000人，坦言現有策略不足以競爭與取勝。",
+"why": "反映科技產業競爭加劇，企業需快速調整策略以維持領先。",
 "source": "The Times of India",
 "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUENUX05ZTmI3MjNXZFVkd01md2JSQTBHVFJDd28zNWM4dWZBWVRyQzhxMnZaWERRYU9sOUk1VUxncmg1aW9rRXU1NHpUcGNFLXhmaktlOU5NZVZieEhoeEdORG1ERm1DTlJ2UnFMclMyei1KUEFOVy1XVXgtTTlFUWZfaEpOQkFBdTJZTUNrS3JWcWdlbjd6MGotN1FpSDBzNEw3VkpiS1RhdkpqZXgtMGdMR3NRNDZ6bnZvUG54eGxOQ2M0eDRoY096QmNDdGs0czhUaE1oYm9faDRGNkl6SVVMUlhmQlJIQlVZZFRMMnlTOTh5eG5GMzVkSHhSLW9FNG1kTVBn0gGLAkFVX3lxTE0xUHZYOEQtczlpUDZ6empKRW5CVUc0OHFiajVQQjI5bE9lazZNa1ViWXo5eG9VTXhndUtaTldXQ2Z2Q085Zl9kVnZoazdnU0VtbVIxX1FadGhmbzhnWXNtci00NGlLZTJ3eUNmX3d4TkszZzRJUXp3dVlrcjFpNVg3SDQtLVFBY3E0ZVE5VmhwX0FZdTVMYWhOTE5lTXEtc3JKRS1OeGFXZ2R2TzYzVmluTFpEZDdLWlRMWXhWMzBPZTZBVUstNFFQQjBDeC1DaWlEVFg4Rm15ejhtVTAyX2hZdHRJVzl3LVlaVGY4WG9wd1lJZjRlVUNVMVE3aHItOWJXaUVBUW9CaDJnYw?oc=5",
-"time": "15 分鐘前"
+"time": "40 分鐘前"
 },
 {
-"who": "川普",
-"summary": "威脅對伊朗發動更多打擊，雙方攻擊危及停火協議。",
-"why": "美伊緊張升級，可能影響全球能源市場與地緣政治局勢。",
-"source": "The Commercial Dispatch",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSlpqYVJKSm5WMEVHOExyMEFPa3NobDQ1WGo4ZTczcUxseXJoVlRGcTJ5cmlqbEJLM1psa0RfSTcxNmxiN3RDTTVzR0J1a0dYaVVFOGsyaWE3Nm91cUxCS1JKUXpVdnVXVVhBbE1VcGJsR3FUTGhUN0xidlZ0YWhnZ2FnN1VWSldjMzR1VzRWSUM1Z0tjbmlKX1Zwc3lVVnFRUU5Hbk9RWXhRUEp0QjVN?oc=5",
-"time": "34 分鐘前"
-},
-{
-"who": "台積電CEO",
-"summary": "表示AI晶片短缺問題短期內難以解決。",
-"why": "AI產業供應鏈瓶頸將持續，影響全球科技發展與投資方向。",
-"source": "Stocktwits",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU5KOHVZT19qRTNCVzJLRDF4UjNCZ3JaeFBUZVM0TDBzY2tHYU9fTDVnajFaOWhOb2xrZUVBZnRDbXJoVnhBNWNOUmN2WFZ3X3d6VVdjcXU4am9yTFBwNEVfdWI0cm5Bd2F3VmN5QXB5X1NWX2JCV3NsZ1JzNHVITHF6X0lJVFdPLVFXQjRwdTBUb2dZVFg2V19xNDFid2V4OURuM2RkdUFTT0RVR0lCYUk4enJxQ3Zm?oc=5",
-"time": "51 分鐘前"
-},
-{
-"who": "Microsoft CEO Satya Nadella",
-"summary": "警告不要將前沿AI模型用於非前沿問題。",
-"why": "AI應用需謹慎，企業與社會需重新思考AI部署策略。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQnpITmY3T3dDeGNxc0hfS1ZpY19jX0Q3eGphUDhVNFNDRU14YWdwT3NsaU1fX19rRFRZMFJER1hnRnlrUVQweXBWUEdqcWN3eGZVSmREMlZwTndSaDhtcmJrcHZ2Q3B1QkZzbjQ3UTUxekM3MmlkaHExOVZFZDN2M3RjSWFoZHJhY2VSeHFCbjhjWW9FWmJwR053ZVpnVkFzamQwNjJPb2Jsd2hlSXNZdnpDWldNc21xQWhhbVpQbVRnYndsMXlqbQ?oc=5",
-"time": "2 小時前"
+"who": "Nvidia CEO Jensen Huang",
+"summary": "Jensen Huang認為將AI與裁員直接連結是過於簡化的說法。",
+"why": "此觀點將影響產業對AI與就業關係的討論，並引導未來政策與企業決策。",
+"source": "TechRadar",
+"link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQVDVfX2Q0bWdlWUsyd3o0ZHFhSVEycmVkbW0xTWxaR1BWUlI0R0RpWlpIOGZIX2NtWTN0VVFHUXdYakx4TFJBby1hRGFTVXhIUGRKZENUSGZTbUYzeE5IRnE2ZUhudTZEbXJ6QW5FdU4taFd1Qy1FVV92RC1WS2M3VDNodHY2alJhUmxCR05YYWpFcWZNTWRodGhUX3Nwa2x5NWh1YkZqRzBLVzRvOGp5eHJmVTMyUFpjak1aVHF2MmYzd2VYdmZ4eGxvSWNJbW41dlkwTE9qOWVRdG9VV1lacVUxRVkwLVB6UEExTzM4cmZvaFhzOWtramdOV2xQdmJTaEY1N3dsZUNONjVjN0o5OG11ZnJsdXJYOS13cm8yNlA2TDlvY0lxMzFKWXN2c1JBR0lReGZNN1JTM1JDSmF5QkFaUG4zTEh4ai1YdDY2QTk2ZllxR3hGWnFqVGNOWGdsZjcwdGsybWpVYVFVWGUya0MyanhSM2ZzSUI0?oc=5",
+"time": "1 小時前"
 }
 ]
 }
