@@ -17,3 +17,5 @@ ignore = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# 讓 `pytest`(非 `python -m pytest`) 也能 import 專案套件 (CI 用)。
+pythonpath = ["."]

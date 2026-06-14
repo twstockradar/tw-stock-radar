@@ -1,6 +1,7 @@
 # 鎖定版本以確保可重現 (yfinance 等套件 API 變動頻繁)。
 # 升級時請逐項驗證每日流程仍正常。
 requests==2.31.0
+numpy==1.26.0
 pandas==2.1.1
 yfinance==1.4.1
 mplfinance==0.12.10b0
