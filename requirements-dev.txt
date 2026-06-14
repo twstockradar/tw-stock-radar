@@ -1,0 +1,4 @@
+# 開發/CI 用 (測試 + lint)。安裝: pip install -r requirements-dev.txt
+-r requirements.txt
+pytest>=8.0
+ruff>=0.6

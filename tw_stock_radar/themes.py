@@ -4,7 +4,7 @@
   AI_API_KEY   金鑰。GitHub Models 用 GitHub token(具 Models:read);
                也會自動讀 GITHUB_MODELS_TOKEN / GITHUB_TOKEN。
   AI_BASE_URL  端點, 預設 GitHub Models。
-  AI_MODEL     模型, 預設 openai/gpt-4o-mini。
+  AI_MODEL     模型, 預設 openai/gpt-4.1。
 
 未設定金鑰或呼叫失敗時 graceful 回傳空結果, 報表照常產出, 不中斷每日流程。
 """

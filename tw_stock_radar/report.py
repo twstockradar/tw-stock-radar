@@ -79,7 +79,7 @@ def _group_counts(rows: list[dict]) -> list[dict]:
 
 def _render_page(rows, *, data_date, total_scanned, focus, new_count,
                  show_charts, is_today, home_link, history_link, out_path,
-                 news_items=None, news_takeaway="") -> Path:
+                 news_items=None, news_takeaway="", stale_days=0) -> Path:
     html = _env().get_template("index.html.j2").render(
         rows=rows,
         total_scanned=total_scanned,
@@ -96,6 +96,7 @@ def _render_page(rows, *, data_date, total_scanned, focus, new_count,
         history_link=history_link,
         news_items=news_items or [],
         news_takeaway=news_takeaway or "",
+        stale_days=stale_days,
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(html, encoding="utf-8")
@@ -109,12 +110,17 @@ def render_report(df: pd.DataFrame, *, data_date: str, total_scanned: int,
     new_codes = new_codes or set()
     records = df.to_dict("records") if not df.empty else []
     rows = _rows(records, new_codes)
+    try:
+        dd = datetime.strptime(data_date, "%Y-%m-%d").date()
+        stale_days = (datetime.now(_TPE).date() - dd).days
+    except ValueError:
+        stale_days = 0
     return _render_page(
         rows, data_date=data_date, total_scanned=total_scanned, focus=focus,
         new_count=sum(1 for r in rows if r["new_today"]),
         show_charts=True, is_today=True, home_link="", history_link="history/index.html",
         out_path=out_path or (DOCS_DIR / "index.html"),
-        news_items=news_items, news_takeaway=news_takeaway,
+        news_items=news_items, news_takeaway=news_takeaway, stale_days=stale_days,
     )
 
 

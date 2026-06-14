@@ -9,7 +9,7 @@
 
 ## 線上看
 
-👉 **https://twstockradar.github.io/tw-stock-radar/**（每日台灣時間 16:00 自動更新）
+👉 **https://twstockradar.github.io/tw-stock-radar/**（每個交易日台灣盤後自動更新；排程說明見下方[每日自動更新](#每日自動更新github-actions--pages)）
 
 ## 表單欄位
 
@@ -146,11 +146,14 @@ yfinance 抓不到的個股會自動改用 **FinMind**(`TaiwanStockPriceAdj` 還
 1. 把整個專案推上 GitHub。
 2. Repo → **Settings → Pages → Build and deployment → Source** 選 **GitHub Actions**。
 3. 工作流程 [`.github/workflows/daily.yml`](.github/workflows/daily.yml) 會:
-   - 每個交易日 **台灣時間 16:00**(08:00 UTC)自動執行,也可在 **Actions** 頁面手動 `Run workflow`。
-   - 安裝套件 → `python -m tw_stock_radar` → 上傳 `docs/` → 部署到 Pages(**不** commit 回 repo,保持乾淨)。
+   - 在台灣盤後 **16:20 / 16:50 / 17:30** 三個錯開時段觸發(週一至五),也可在 **Actions** 頁面手動 `Run workflow`。
+   - 安裝套件 → `python -m tw_stock_radar` → 上傳 `docs/` → 部署到 Pages;並把當天 `archive/*.json` commit 回 repo 保存。
    - 用 `actions/cache` 保存還原月K歷史,避免每天重抓全市場。
+   - 流程**冪等**:同一交易日重覆觸發只會覆蓋同一份,無副作用,所以多時段備援是安全的。
 
-> 註:GitHub 排程以 UTC 計算且尖峰可能延遲;若需精準時間可改用自架 cron。
+> ⚠️ **關於排程可靠度**:GitHub 的 `schedule` 觸發是「盡力而為」,尖峰時可能延遲甚至**整天不觸發**(尤其 repo 轉移後可能未重新註冊)。
+> 若你要穩定每日更新,**強烈建議另外掛一個外部排程器**(例如 [cron-job.org](https://cron-job.org)、自架 cron 或任何 uptime 服務)在盤後用 GitHub API 呼叫 `workflow_dispatch` 觸發本工作流程,workflow 內的 `schedule` 當作多一層備援即可。
+> 頁面本身在資料超過數日未更新時會顯示「資料可能過舊」提醒,方便察覺排程是否失效。
 
 ---
 

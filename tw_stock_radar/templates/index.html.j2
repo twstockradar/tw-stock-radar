@@ -30,6 +30,10 @@
     padding:12px 14px;margin:12px 0 4px;font-size:13px;color:var(--muted)}
   .legend .row{margin:3px 0}
   .legend b{color:var(--ink)}
+  .stale{display:flex;gap:9px;align-items:flex-start;background:#fff7ed;
+    border:1px solid #fdba74;border-radius:12px;padding:11px 14px;margin:14px 0 4px;
+    font-size:13.5px;color:#9a3412}
+  .stale b{color:#7c2d12}
   .focus{display:flex;gap:10px;align-items:flex-start;background:#eef4ff;
     border:1px solid #cfe0ff;border-radius:12px;padding:12px 14px;margin:14px 0 4px;font-size:14px}
   .focus-ic{font-size:18px;line-height:1.3}
@@ -124,6 +128,13 @@
       {% if history_link %}<a href="{{ history_link }}">📅 歷史封存</a>{% endif %}
     </div>
   </header>
+
+  {% if is_today and stale_days and stale_days >= 5 %}
+  <div class="stale">
+    <span>⚠️</span>
+    <div>資料已 <b>{{ stale_days }}</b> 天未更新(資料日期 {{ data_date }})。可能遇連假休市,或自動更新排程暫時中斷 —— 請以官方公告為準。</div>
+  </div>
+  {% endif %}
 
   <div class="chips">
     {% if total_scanned %}<div class="chip">掃描 <b>{{ total_scanned }}</b> 檔</div>{% endif %}

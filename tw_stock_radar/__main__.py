@@ -16,8 +16,13 @@ import pandas as pd
 
 from . import archive, news
 from .charts import monthly_chart_base64
-from .config import (LIQUIDITY_MIN_TRADE_VALUE, NEWS_LOOKBACK_HOURS,
-                     NEWS_MAX_DISPLAY, NEWS_MAX_FEED_ITEMS, NEWS_QUERIES)
+from .config import (
+    LIQUIDITY_MIN_TRADE_VALUE,
+    NEWS_LOOKBACK_HOURS,
+    NEWS_MAX_DISPLAY,
+    NEWS_MAX_FEED_ITEMS,
+    NEWS_QUERIES,
+)
 from .daily_quotes import fetch_daily_quotes
 from .history import get_monthly_history, get_recent_daily
 from .report import build_history_site, render_report

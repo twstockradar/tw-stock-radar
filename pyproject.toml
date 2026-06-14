@@ -1,0 +1,19 @@
+[project]
+name = "tw-stock-radar"
+version = "0.1.0"
+description = "台股月K創新高每日雷達 — 每日掃描、產生可分享的選股網頁"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+# E/W: pycodestyle, F: pyflakes, I: isort。E501(行長)由人工把關, 中文字寬會誤判。
+select = ["E", "W", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
