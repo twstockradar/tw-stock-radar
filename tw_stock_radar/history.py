@@ -43,7 +43,12 @@ def _download(symbols: list[str], *, interval: str, period: str,
                 sub = sub[_OHLC].dropna(how="all").dropna()
                 if sub.empty:
                     continue
-                sub.index = pd.to_datetime(sub.index)
+                idx = pd.to_datetime(sub.index)
+                # yfinance 偶爾回傳帶時區的索引; 一律轉 tz-naive,
+                # 否則與其他 tz-naive 檔在 _save_cache 合併時維度對不齊而崩潰。
+                if getattr(idx, "tz", None) is not None:
+                    idx = idx.tz_localize(None)
+                sub.index = idx
                 sub.index.name = "date"
                 out[sym] = sub
             except Exception:  # noqa: BLE001
@@ -71,9 +76,20 @@ def _load_cache() -> dict[str, pd.DataFrame]:
 def _save_cache(cache: dict[str, pd.DataFrame]) -> None:
     frames = []
     for code, df in cache.items():
-        t = df.reset_index()
-        t["code"] = code
-        frames.append(t)
+        try:
+            t = df.reset_index()
+            if "date" not in t.columns:
+                t = t.rename(columns={t.columns[0]: "date"})
+            t["date"] = pd.to_datetime(t["date"], errors="coerce")
+            if getattr(t["date"].dt, "tz", None) is not None:
+                t["date"] = t["date"].dt.tz_localize(None)
+            # 強制統一欄位 (date + OHLC), 確保每個 frame 結構一致;
+            # 否則 concat 時欄位/維度對不齊會整批崩潰。
+            t = t[["date", *_OHLC]].copy()
+            t["code"] = code
+            frames.append(t)
+        except Exception as err:  # noqa: BLE001
+            print(f"[history] 快取序列化跳過 {code}: {err}")
     if not frames:
         return
     long = pd.concat(frames, ignore_index=True)
@@ -134,7 +150,11 @@ def get_monthly_history(codes_markets: list[tuple[str, str]]) -> dict[str, pd.Da
         print(f"[history] FinMind 補回 {got} 檔")
 
     if missing or stale or (still_missing and finmind.available()):
-        _save_cache(cache)
+        try:
+            _save_cache(cache)
+        except Exception as err:  # noqa: BLE001
+            # 快取只是加速用; 寫入失敗不該中斷當日選股與部署。
+            print(f"[history] 快取寫入失敗 (不影響本次選股): {err}")
 
     return {c: cache[c] for c in sym_to_code.values() if c in cache}
 
