@@ -1,0 +1,127 @@
+{
+"date": "2026-06-15",
+"count": 5,
+"focus": "本清單以半導體、記憶體、PCB/CCL等族群為主，題材集中於先進封裝、探針卡、工控記憶體、NAND控制IC等。",
+"stocks": [
+{
+"code": "5289",
+"name": "宜鼎",
+"market": "TPEX",
+"close": 1920.0,
+"change_pct": 6.3711911357340725,
+"trade_value": 7206931395.0,
+"market_cap": 184967840640.0,
+"status": "PULLBACK",
+"dist": -0.11363636363636365,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "記憶體",
+"theme": "工控記憶體"
+},
+{
+"code": "6147",
+"name": "頎邦",
+"market": "TPEX",
+"close": 234.5,
+"change_pct": 4.6875,
+"trade_value": 6285472213.0,
+"market_cap": 174607184895.5,
+"status": "PULLBACK",
+"dist": -0.13875598086124397,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "先進封裝"
+},
+{
+"code": "6223",
+"name": "旺矽",
+"market": "TPEX",
+"close": 6435.0,
+"change_pct": -0.7710100231303008,
+"trade_value": 7673117650.0,
+"market_cap": 630509723415.0,
+"status": "PULLBACK",
+"dist": -0.13503375843960985,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "探針卡"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1570.0,
+"change_pct": 9.79020979020979,
+"trade_value": 7710301540.0,
+"market_cap": 453376180090.0,
+"status": "PULLBACK",
+"dist": -0.11294765840220389,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "PCB/CCL",
+"theme": "高階CCL"
+},
+{
+"code": "8299",
+"name": "群聯",
+"market": "TPEX",
+"close": 2320.0,
+"change_pct": 0.4329004329004329,
+"trade_value": 13686968530.0,
+"market_cap": 512918933040.0,
+"status": "PULLBACK",
+"dist": -0.14930555555555558,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "記憶體",
+"theme": "NAND控制IC"
+}
+],
+"news": {
+"takeaway": "川普政策與大型科技企業CEO對AI、產業、政策的發言，將深刻影響全球政治經濟與產業趨勢。",
+"items": [
+{
+"who": "Satya Nadella (Microsoft CEO)",
+"summary": "警告AI壟斷可能掏空整個產業。",
+"why": "AI產業競爭與監管將成全球焦點，影響科技發展與產業結構。",
+"source": "Hindustan Times",
+"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMWVRYUo0RDBGSl9fWDI3SFVlb1M0M0paOWdsOXdlWFdIY3I5M0ZlU0ktcmFUZUZGQzl1R2pCVi1rZ3Z3Z1B4ZERGZVBGYS1Ob0VzdFJvUGRXd1BYT09QSlJuWU5fbm41ckppaXNTNlRnOUNGYzFoNy1udzY5V2lrYnZVQk1lbnJOTmNZT3JPeXdZMnlkeXgwdzBEYlFENXdReElTdjNidmJKTTNZYTNUenhKNlVYTGJwZFdoVTRSYzB1X09pYjBxbEdGemx4eHdDNk5KQ1ZfNmpULWtfSnp1SzVMRVRiSmxmY1o3YjRZOE_SAfYBQVVfeXFMTW1uM2pFVkpieDl3YnR2MDZlQWV2d0paTk1zeExOUWhCaHBrSm5FOW1YblkyMHJWSHhXSC1yLVNOaWpZNkxDbnRzdWJNVkNMbWU2VzZOc3JEcHdCcnhNalFBaFQ2WGNxX3JoZnFOZG1zd2MtckZQdGI2WU82ZGlpZ0VKNEtOM3RtZDNGUjNjaGZFbE1hTVVFb2NNR1BrdUxNU2w1ZEtjVFFGcnZHYkpPMkJseFliSV91dXNVLWdtaVVLZGhab3JMN2Y3SFlPdkRYUWszUHVWdTBVR0RzUWJWeExJYnBDRi1aeXo0UVhPQVRINlBuaGdn?oc=5",
+"time": "18 分鐘前"
+},
+{
+"who": "川普",
+"summary": "以『強迫勞動』為由重新啟動關稅戰。",
+"why": "美中貿易緊張升級，全球供應鏈與經濟政策將受影響。",
+"source": "Al Jazeera",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeHpSUExhLUk3WUUzWEo2N29vckJ4ZXppTHVwMkw0RVlCMll0N0hmOXpQNTNPeENYZ2hTMFV3aERBNFM4ZVZLRlpERjVyXzY5NHVKZXdLZWxuQ0c4S0Y1ZHR1XzBmSVZkOGRRYzRXQTh1R0llejEybGNObkNWVV9tdlhibk50WEkycVFOT0hsTkE2dHdiVllWaWtqTjhHYy1xLWNqVDV5NWV4b2c10gGyAUFVX3lxTE1YSXZBVC04VUU3NVlRRjNfOVhtNlhFb3ZZcUFIUFdXVkx1bkd1MDdXV2IxOHFNamhjUTlPUk1zTU5pamdYakhWbFM0cDJCbjhseG53SFQwbTNnV3huZTZOOHJJYjYwWW9EN2FUZk9HTjQ1dk5fNGxWZXFFNGVHaVFxNEZRb3NXRHB6V2hpSEU4c3kxbm9oNDkzdWdEYnE4bmlpZkNrWDNfQXoyVFpBTlhVV1E?oc=5",
+"time": "28 分鐘前"
+},
+{
+"who": "川普",
+"summary": "快速推動槍支管制回滾政策。",
+"why": "美國槍支政策變動將影響社會安全與政治爭議。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTVubExWaUM4aTNEbmpzemVibllxQmMxbVBnSmVfVVdwWHF4UlQtV0lncUZDcHZmeUphTXY1N3RyUjlSWXRQaEUtbEswZHhiVWlmcXBVb2Zwb29yUEdQUmtnRnFpbHdKZDZ5SVQzNTVpdEYwa1Utdng2V3Nha1hCdkIzOExQVEZ3eG9NSEZzVDJTcDBtOXZJUmpEQkw5ZmtfYmIwVkhKMDBZOXBsUG96VXVGOEhOOWhMUzJqSQ?oc=5",
+"time": "12 分鐘前"
+},
+{
+"who": "Jensen Hwang (Nvidia CEO)",
+"summary": "提出『Physical AI』新議題，引發熱烈討論。",
+"why": "AI技術新方向可能帶動產業創新與全球科技競賽。",
+"source": "매일경제",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uNEpJQVdCRTVKenBaWmN6SlZJbmU4Uzd0QXpqSFd6dFFadEFISjBRRTNZRlR3RjBEYWFQSGRWN0FmcGw3SkNxVHdvN2pFang1N1ZKcW9MdXc?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Siemens Energy CEO",
+"summary": "警告德國可能錯過AI數據中心產業潮流。",
+"why": "歐洲產業政策與AI基礎建設將成未來競爭關鍵。",
+"source": "AD HOC NEWS",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNME1qOVhpNlIxQzhaUXBRbl9PaXI3dGhfZnhMMzktY25nbG1RYXY4Wlk4S1pHUVVGa2JrMmhDUTZjbTdUVjk2NDJVTmZWamZvdzhYeUN5UzZhOE5OMkJxbkdibXdtak04b3lQM2kzY2NjT2syMlZHSDNweE9MOTVYdk5BNS0tMWpRcFgzWUlxQTRxblFjUDluYXQ4SWx1OWMtcll4dFpkbE1qRUpfWkFWUHk1eGdNODNmYVoyV3ZNMjBvYWRnNkhmc1lCbDY?oc=5",
+"time": "1 小時前"
+}
+]
+}
+}
