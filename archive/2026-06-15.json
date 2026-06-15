@@ -1,7 +1,7 @@
 {
 "date": "2026-06-15",
 "count": 30,
-"focus": "本清單以AI伺服器、半導體先進封裝、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材聚焦於AI伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、ABF載板、散熱模組、重電、光通訊等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理模組"
+"theme": "電源管理"
 },
 {
 "code": "2308",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "重電/電力自動化"
+"theme": "電源供應器"
 },
 {
 "code": "2313",
@@ -106,7 +106,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件/電容"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2368",
@@ -226,7 +226,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電容/被動元件"
+"theme": "電容製造"
 },
 {
 "code": "2484",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝/CoWoS"
+"theme": "先進封裝"
 },
 {
 "code": "4958",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB製造"
 },
 {
 "code": "6139",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測/記憶體"
+"theme": "封測"
 },
 {
 "code": "8021",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "光通訊CPO",
-"theme": "矽光子/光通訊"
+"theme": "光通訊模組"
 },
 {
 "code": "5289",
@@ -391,7 +391,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "工業記憶體模組"
+"theme": "工業記憶體"
 },
 {
 "code": "6147",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測/先進封裝"
+"theme": "封測"
 },
 {
 "code": "6223",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普宣布與伊朗達成協議並推動重大慶典，微軟CEO針對AI與遊戲產業發表警示與策略觀點。",
+"takeaway": "川普宣布與伊朗達成和平協議，並計劃將美國250週年慶典變成個人政治活動；微軟CEO針對Xbox業務與AI產業發出重要警示。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布與伊朗達成協議，導致油價下跌、股市上漲。",
-"why": "美伊關係改善可能影響全球能源與地緣政治，對金融市場有直接衝擊。",
-"source": "CBS News",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
-"time": "33 分鐘前"
-},
-{
-"who": "微軟CEO",
-"summary": "微軟CEO警告租用AI模型可能導致產業空洞化。",
-"why": "AI產業未來發展與企業競爭策略將受此警示影響，強調自主技術的重要性。",
-"source": "Tech Times",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUDdNVkJmZ29TbGxrZ1NkbENwb2pGUTRZRkRQa2pfV3BLaFJiSDBLSXJlWWZST09NV2FkbWlkZ2VaYnUtcTVMVFVtRG13ZmhsdmYtREppQ3Y0VFhOZ1lvTDB4T0JUai1OVU9yLVBPQ0ZxTGlXRnFMN1Y1MFc3a1BkVGI5T3VFNkVfYnBoaktCeFBHR1piajY3TEN6VktXbTFpWWtLTjg1VkZObnlocTFoZzgtQVVWM2Z2YllhYjk1VjlnU1lGWW1zaEIwU3psQ1ZuMllV?oc=5",
-"time": "37 分鐘前"
-},
-{
-"who": "微軟CEO",
-"summary": "微軟CEO坦言Xbox遊戲在YouTube上的變現超過自家平台，並正努力打造可持續的業務模式。",
-"why": "顯示遊戲產業變現模式轉變，平台競爭與內容分發策略需重新思考。",
-"source": "GamesRadar+",
-"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOYkVSS3lYSG9JRW1FR1lSenQ1UGNKVVBHYVlMQ1VRQnJHRXZuSUNBZ3N5U0M2cG16TFZVNmxCNlRQQnFsdlhoM1IzQUpHa3lZeVZ2bkhHYVUyNXB4Wk42X000LTVhQ2x4MnJoUUQtdmg2cGFSdHZYWHZ0OWdiYmFNSVJhME5oLUtIcEIyQjNyOXJ4eWx4dzV2YlBWU2JsalNMS05uOHcyMHNDNDAxa0hNOGEyeHd1RmUxci1ZVFE4U3h5Wmt3VXpac2t0SE1ZOHlBdl8xV2NpTVE4VUhOWUlYY1RtOVEyLV93YlBaYU1RODZySUxvTm5aUEJqZ2NwTVlUdFd2NmltNjE2aVdjUW9zSXNB?oc=5",
-"time": "21 分鐘前"
+"summary": "川普宣布與伊朗達成和平協議。",
+"why": "美伊關係重大轉折，可能影響全球地緣政治與能源市場。",
+"source": "The Presidential Prayer Team",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeG1fMjR6amFrbWVKQmJuT3B6cHA5ek14STdqVFVFajBRenBwT2IyR3RGLTZYYnBNU0NxUHdsNjZKRmcyZE5yZGU2Y0MybDRLdnJFcDlCS2xmM1htS2ljbUUxcC1NR3E0OENlWjFBdWhpeXFXQjNjRHVyVFlNSjBHSVNNRFJmSHE5YWRHZ1pkZ0s2ZHdwZndLX0ZVdHRYUQ?oc=5",
+"time": "42 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普表示美國250週年慶典將成為他的集會。",
-"why": "政治活動與國家慶典融合，顯示川普將持續主導美國政治話語權。",
+"summary": "川普表示美國250週年慶典將成為『川普集會』。",
+"why": "將國家慶典政治化，顯示川普強化個人影響力，對美國政治走向有深遠影響。",
 "source": "The Washington Post",
 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNEVtTXNYTjN3MUIySnozcTdXOGgwblRHTDBxSVpiR05Xem14VDltdVlmcGVOX2gyWjE1MjdOUVA1M05NSEdjdzVTOFoxamNocXRqN3RYY21PdnBkX2ZQTUJhQ0NqY3ZDZzF3UGxwMTdRYlVzNmhob25KUFpvSzRrcFBYX2l6RDBPMktjNTNZdEQwdzlrekNQWU1WN045bkZaUU5xclNOR0JCZVF4anc?oc=5",
+"time": "3 分鐘前"
+},
+{
+"who": "Microsoft CEO",
+"summary": "微軟CEO表示Xbox必須變得『可持續』，並考慮重大業務分拆。",
+"why": "暗示遊戲業務可能重組，對產業結構與競爭格局有深遠影響。",
+"source": "Game Developer",
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHEyYjFmVVpEcFl4TEJ1d2VEZk9yX0htcFAzNHR3Y2k4T2xaNkM2cVNqTlg3b1JVeS1xd2RDSGF3OFR4WE5ueG0zUVZKQThWcTNDSThrTktZZWZvNnB4NFQ3RmlvM1Y0Z0N0d2RabHI2RVJ5MzAwclNuT0JaR1BBYnFKbHVJMHd6U1JMb25uRDEtbFVFZjRJT3hxa1NFVDVQUWs2Nkp1NUFHNXRQZTJxN1Z3dDdHTVlkZmIxNTJORjFhMXhE?oc=5",
+"time": "19 分鐘前"
+},
+{
+"who": "Microsoft CEO",
+"summary": "微軟CEO警告租用AI模型的企業可能導致產業空心化。",
+"why": "對AI產業發展模式提出警示，可能影響企業技術策略與產業生態。",
+"source": "Tech Times",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUDdNVkJmZ29TbGxrZ1NkbENwb2pGUTRZRkRQa2pfV3BLaFJiSDBLSXJlWWZST09NV2FkbWlkZ2VaYnUtcTVMVFVtRG13ZmhsdmYtREppQ3Y0VFhOZ1lvTDB4T0JUai1OVU9yLVBPQ0ZxTGlXRnFMN1Y1MFc3a1BkVGI5T3VFNkVfYnBoaktCeFBHR1piajY3TEN6VktXbTFpWWtLTjg1VkZObnlocTFoZzgtQVVWM2Z2YllhYjk1VjlnU1lGWW1zaEIwU3psQ1ZuMllV?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Fiserv CEO",
-"summary": "Fiserv宣布更換首席執行官。",
-"why": "大型金融科技公司高層變動，可能帶來業務策略調整與產業影響。",
-"source": "marketscreener.com",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcHVNcTBjdjNNRVlweC1SdUdkbjZzb0tsb2lqbVVaZjQyWXpZMjM0dnVHOFNVQ01zX2dsYk8wYldBaDMzR3dwcUh5OWRLMDhaWXQtM3VPTDRyQlU2MVVJM0ZrbDhDUjBSbTBXUWtycHRxZ1lNbTl3Yzl1V095alB2T0FGRkdGM0JidUF1eXpuY0xnS0wzWlpheVlIQ3drdzZYUk9WS1dNVTA?oc=5",
-"time": "1 小時前"
+"who": "Microsoft CEO",
+"summary": "微軟CEO坦言Xbox遊戲在YouTube上的變現超過自家平台，需轉型為可持續業務。",
+"why": "反映遊戲產業變現模式轉變，促使企業調整營運策略。",
+"source": "GamesRadar+",
+"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOYkVSS3lYSG9JRW1FR1lSenQ1UGNKVVBHYVlMQ1VRQnJHRXZuSUNBZ3N5U0M2cG16TFZVNmxCNlRQQnFsdlhoM1IzQUpHa3lZeVZ2bkhHYVUyNXB4Wk42X000LTVhQ2x4MnJoUUQtdmg2cGFSdHZYWHZ0OWdiYmFNSVJhME5oLUtIcEIyQjNyOXJ4eWx4dzV2YlBWU2JsalNMS05uOHcyMHNDNDAxa0hNOGEyeHd1RmUxci1ZVFE4U3h5Wmt3VXpac2t0SE1ZOHlBdl8xV2NpTVE4VUhOWUlYY1RtOVEyLV93YlBaYU1RODZySUxvTm5aUEJqZ2NwTVlUdFd2NmltNjE2aVdjUW9zSXNB?oc=5",
+"time": "57 分鐘前"
 }
 ]
 }
