@@ -44,7 +44,7 @@ jobs:
         run: echo "ymd=$(date +'%Y%m%d')" >> "$GITHUB_OUTPUT"
 
       - name: 還原月K歷史快取 (避免每天重抓全市場)
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data
           key: monthly-history-${{ steps.date.outputs.ymd }}
@@ -65,15 +65,15 @@ jobs:
           FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
 
       # 先部署 Pages (最重要的產出), 不讓後續封存的任何狀況擋到上線。
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: docs
 
       - name: 部署到 GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       # 封存當日結果 (盡力而為): rebase 後再推, 遇競態自動重試;
       # 即使失敗也不影響上面的部署 (continue-on-error)。
