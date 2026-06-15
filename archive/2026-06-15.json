@@ -1,7 +1,7 @@
 {
 "date": "2026-06-15",
 "count": 5,
-"focus": "本清單以半導體、記憶體、PCB/CCL等族群為主，題材集中於先進封裝、探針卡、工控記憶體、NAND控制IC等。",
+"focus": "本清單以半導體、記憶體、PCB/CCL等族群為主，題材集中在先進封裝、探針卡、工業記憶體、NAND控制IC等。",
 "stocks": [
 {
 "code": "5289",
@@ -16,7 +16,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "工控記憶體"
+"theme": "工業記憶體模組"
 },
 {
 "code": "6147",
@@ -31,7 +31,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝"
+"theme": "先進封裝測試"
 },
 {
 "code": "6223",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "高階CCL材料"
 },
 {
 "code": "8299",
@@ -80,46 +80,46 @@
 }
 ],
 "news": {
-"takeaway": "川普政策與大型科技企業CEO對AI、產業、政策的發言，將深刻影響全球政治經濟與產業趨勢。",
+"takeaway": "川普與大型企業CEO近期發言與決策，將影響地緣政治、產業政策與AI發展。",
 "items": [
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "警告AI壟斷可能掏空整個產業。",
-"why": "AI產業競爭與監管將成全球焦點，影響科技發展與產業結構。",
-"source": "Hindustan Times",
-"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMWVRYUo0RDBGSl9fWDI3SFVlb1M0M0paOWdsOXdlWFdIY3I5M0ZlU0ktcmFUZUZGQzl1R2pCVi1rZ3Z3Z1B4ZERGZVBGYS1Ob0VzdFJvUGRXd1BYT09QSlJuWU5fbm41ckppaXNTNlRnOUNGYzFoNy1udzY5V2lrYnZVQk1lbnJOTmNZT3JPeXdZMnlkeXgwdzBEYlFENXdReElTdjNidmJKTTNZYTNUenhKNlVYTGJwZFdoVTRSYzB1X09pYjBxbEdGemx4eHdDNk5KQ1ZfNmpULWtfSnp1SzVMRVRiSmxmY1o3YjRZOE_SAfYBQVVfeXFMTW1uM2pFVkpieDl3YnR2MDZlQWV2d0paTk1zeExOUWhCaHBrSm5FOW1YblkyMHJWSHhXSC1yLVNOaWpZNkxDbnRzdWJNVkNMbWU2VzZOc3JEcHdCcnhNalFBaFQ2WGNxX3JoZnFOZG1zd2MtckZQdGI2WU82ZGlpZ0VKNEtOM3RtZDNGUjNjaGZFbE1hTVVFb2NNR1BrdUxNU2w1ZEtjVFFGcnZHYkpPMkJseFliSV91dXNVLWdtaVVLZGhab3JMN2Y3SFlPdkRYUWszUHVWdTBVR0RzUWJWeExJYnBDRi1aeXo0UVhPQVRINlBuaGdn?oc=5",
-"time": "18 分鐘前"
-},
-{
 "who": "川普",
-"summary": "以『強迫勞動』為由重新啟動關稅戰。",
-"why": "美中貿易緊張升級，全球供應鏈與經濟政策將受影響。",
-"source": "Al Jazeera",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeHpSUExhLUk3WUUzWEo2N29vckJ4ZXppTHVwMkw0RVlCMll0N0hmOXpQNTNPeENYZ2hTMFV3aERBNFM4ZVZLRlpERjVyXzY5NHVKZXdLZWxuQ0c4S0Y1ZHR1XzBmSVZkOGRRYzRXQTh1R0llejEybGNObkNWVV9tdlhibk50WEkycVFOT0hsTkE2dHdiVllWaWtqTjhHYy1xLWNqVDV5NWV4b2c10gGyAUFVX3lxTE1YSXZBVC04VUU3NVlRRjNfOVhtNlhFb3ZZcUFIUFdXVkx1bkd1MDdXV2IxOHFNamhjUTlPUk1zTU5pamdYakhWbFM0cDJCbjhseG53SFQwbTNnV3huZTZOOHJJYjYwWW9EN2FUZk9HTjQ1dk5fNGxWZXFFNGVHaVFxNEZRb3NXRHB6V2hpSEU4c3kxbm9oNDkzdWdEYnE4bmlpZkNrWDNfQXoyVFpBTlhVV1E?oc=5",
-"time": "28 分鐘前"
-},
-{
-"who": "川普",
-"summary": "快速推動槍支管制回滾政策。",
-"why": "美國槍支政策變動將影響社會安全與政治爭議。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTVubExWaUM4aTNEbmpzemVibllxQmMxbVBnSmVfVVdwWHF4UlQtV0lncUZDcHZmeUphTXY1N3RyUjlSWXRQaEUtbEswZHhiVWlmcXBVb2Zwb29yUEdQUmtnRnFpbHdKZDZ5SVQzNTVpdEYwa1Utdng2V3Nha1hCdkIzOExQVEZ3eG9NSEZzVDJTcDBtOXZJUmpEQkw5ZmtfYmIwVkhKMDBZOXBsUG96VXVGOEhOOWhMUzJqSQ?oc=5",
-"time": "12 分鐘前"
-},
-{
-"who": "Jensen Hwang (Nvidia CEO)",
-"summary": "提出『Physical AI』新議題，引發熱烈討論。",
-"why": "AI技術新方向可能帶動產業創新與全球科技競賽。",
-"source": "매일경제",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uNEpJQVdCRTVKenBaWmN6SlZJbmU4Uzd0QXpqSFd6dFFadEFISjBRRTNZRlR3RjBEYWFQSGRWN0FmcGw3SkNxVHdvN2pFang1N1ZKcW9MdXc?oc=5",
+"summary": "川普宣稱與伊朗協議下，海峽將『永久免收通行費』。",
+"why": "此舉可能改變全球能源運輸成本與地緣政治格局，對國際貿易有深遠影響。",
+"source": "The New York Times",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZHNMV0J3Ym1HWnhieHhWM0VUd2ZodDN1YXJoWGFHRXdiZ2pvbmRaczJpZ2RycWFjNDgtYjdsOFNRQWtNeFZ2Y3ZHZFRYODNzMXl1REF6blFvZVBmUjJwbXdnUmNLSHdDRHhyMi1JeWJFVTktc05jM2IwTW1RbXFmdzd5OGs1SHd5LUJIcg?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Siemens Energy CEO",
-"summary": "警告德國可能錯過AI數據中心產業潮流。",
-"why": "歐洲產業政策與AI基礎建設將成未來競爭關鍵。",
-"source": "AD HOC NEWS",
-"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNME1qOVhpNlIxQzhaUXBRbl9PaXI3dGhfZnhMMzktY25nbG1RYXY4Wlk4S1pHUVVGa2JrMmhDUTZjbTdUVjk2NDJVTmZWamZvdzhYeUN5UzZhOE5OMkJxbkdibXdtak04b3lQM2kzY2NjT2syMlZHSDNweE9MOTVYdk5BNS0tMWpRcFgzWUlxQTRxblFjUDluYXQ4SWx1OWMtcll4dFpkbE1qRUpfWkFWUHk1eGdNODNmYVoyV3ZNMjBvYWRnNkhmc1lCbDY?oc=5",
+"who": "川普",
+"summary": "川普提議將政治目標置於客觀標準之上，決定政府補助分配。",
+"why": "此政策可能重塑美國政府資源分配方式，影響科研、教育與公共安全等領域。",
+"source": "The Conversation",
+"link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZ1FsaWFDeHVWcmRLTVduQnRXeXhHSmlqd25LNVd0MXotc0RPcUZpUDZGWGtPejlMMllJVEhRTXRVdm94NkowamUzZG40ejZublJtbXhNaTVoY2dqVWV2MTNUMjEweUswYm5NcVZyV2prN3VSS1dZblN2THkzZlFKcTQ4cEpGbUNzR2hOMDU3UkxaSmJ3Sy0yQzFKMWV5WHNuLTlyenl0VE9Fcl94YW5hM2h0SHR5OHhYYWllaGJVSG1ySWlTNk1fd21COFFsYk9KYVRIYUFwbWFxREtvLVU2VUl1NU5IU3NRTEgzUnVOTEp3RlJYbTg0QmJVWG91RGE5YjhsS3p6SFpxdkJtQ1E?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Microsoft CEO",
+"summary": "Microsoft CEO談AI時代如何定義企業護城河。",
+"why": "AI競爭加劇，CEO觀點將影響科技企業未來策略與產業格局。",
+"source": "odaily.news",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZGlTSWR6bXpyQld0a3BFeXpQS25Nb2lyRXIweTczUXlkZ0U3UXVrclpXaHl1cC1HUWpGRzNoZ0FiT1VWR2tsNkZDekZDOW8?oc=5",
+"time": "25 分鐘前"
+},
+{
+"who": "Microsoft CEO",
+"summary": "Microsoft CEO表示YouTube在Xbox平台的變現能力優於自家，並預告裁員。",
+"why": "顯示科技巨頭對內容變現與人力調整的重視，預示產業變革與競爭新方向。",
+"source": "Video Games Chronicle",
+"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTkdjRWZudS1uUlNWR1FLX01jOGNiREZkalp5SnVVQzZZa1NBUlczNld2SWR3TnJudlN4Y1ZWbC04TUM4TmF1OU1NUS1MZ0tsTFVKOHN5WjJEOE1wd1QtZnlxYWpZTUxLalhYT3ZkMjZEcHR4OUFzdW5wLTc0NUpNbkRHaE1tTDlpOVAyRTNUSXI1cFdpOEowT3ZnWUg5SDJEamt2RFgydll2a05aRUdKa3JOWGtRQnNkU2NyQW4tRkFxVlY1TlE?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Coinbase CEO",
+"summary": "Coinbase CEO針對比特幣下跌與底部發表聲明。",
+"why": "加密貨幣市場波動，CEO發言可能影響投資者信心與市場走勢。",
+"source": "Bitcoin Sistemi",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTTFPZDROZ1VOSnVvNEdUd3hGcGlLVkRDaS15aFdxQmZ2QnVyWlZvaGo5RTRuVTd4UWxCMXB2UG1vTllFNHZaV0QxUmFfeTZwSUtmeHlLTmFPUVVOZEJmV2ZlZE1icVNvRGNfNVdkcjd4LVRYZjZOQWVHUkt0OUg0UGZRTm1UV2p3cUhna1MxaDdxcW1jeDlBUUNDUUpoSlRCbW90b2w5Qm9ITjd5cEJGNm9RNWswQ28?oc=5",
 "time": "1 小時前"
 }
 ]
