@@ -1,7 +1,7 @@
 {
 "date": "2026-06-15",
 "count": 30,
-"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、ABF載板、散熱模組、重電、光通訊等。",
+"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、伺服器零組件、CoWoS、ABF載板、散熱模組、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理"
+"theme": "電源管理模組"
 },
 {
 "code": "2308",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "2404",
@@ -375,8 +375,8 @@
 "dist": -0.018932874354561147,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "光通訊CPO",
-"theme": "光通訊模組"
+"group": "半導體",
+"theme": "探針卡"
 },
 {
 "code": "5289",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "8299",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普宣布與伊朗達成協議並舉辦 UFC 活動，微軟與 Google CEO 發言引發產業關注。",
+"takeaway": "川普與伊朗達成協議、Microsoft CEO針對AI產業發出警告，皆可能深刻影響全球政治與科技趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布與伊朗達成協議，並視為重大勝利。",
-"why": "美伊關係改善可能影響全球地緣政治與能源市場，對未來國際局勢有深遠影響。",
-"source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaVhQbEFyVl9CWkdFOHhkdUdYU1RjYzBuQ0J2a3RweFlucXdNREU4aTl4YVpPOExWaFBNcjQtTVRJRklDa0ptOEV3aUlIQnBaRjBLT21wQ2N3NFRLeHBBS19GMm5QanBjTjBXX21NM0d5N2xVTUU0Rkd4V2lDV09xV3JwektZcW5CVklWclB3?oc=5",
-"time": "45 分鐘前"
+"summary": "川普宣布與伊朗達成協議，油價下跌、股市上漲。",
+"why": "美伊關係緩和將重塑中東局勢，並直接影響全球能源與金融市場。",
+"source": "CBS News",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
+"time": "22 分鐘前"
 },
 {
-"who": "微軟 CEO",
-"summary": "微軟 CEO表示 Xbox 遊戲在 YouTube 的變現比微軟自身還多。",
-"why": "顯示遊戲產業變現模式正轉向平台生態，對未來遊戲與內容產業有指標意義。",
-"source": "VGChartz",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeXZOamkzSV93NGY2dzNmV3FCd292SmZYU3Vmbks0c3hVOE5nU25hSnBoOGtPWkhjdjRteVd3QTVmSXhhUGdWbDYyamZjaVNkRVgxbWVkX1d6Y0RHTXhuZU1GSktWNnAwNUJhbHFxOV9aV2ZlUjI2WlZXOUF1MTFaM1NKcldvWFdqUllJbk9odlp1dktQMzRwLW1TaHE2N3RWOEV3NDVQMHRkQjVpd1lsSzZlNmRtU2VOTm5iWnl0NUdRano4ZkRsTndKUnF4V2J4YzVB?oc=5",
-"time": "17 分鐘前"
+"who": "Microsoft CEO",
+"summary": "Microsoft CEO警告：企業租用AI模型恐導致產業空洞化。",
+"why": "AI產業模式轉變，企業需重新思考自主技術與長期競爭力。",
+"source": "Tech Times",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUDdNVkJmZ29TbGxrZ1NkbENwb2pGUTRZRkRQa2pfV3BLaFJiSDBLSXJlWWZST09NV2FkbWlkZ2VaYnUtcTVMVFVtRG13ZmhsdmYtREppQ3Y0VFhOZ1lvTDB4T0JUai1OVU9yLVBPQ0ZxTGlXRnFMN1Y1MFc3a1BkVGI5T3VFNkVfYnBoaktCeFBHR1piajY3TEN6VktXbTFpWWtLTjg1VkZObnlocTFoZzgtQVVWM2Z2YllhYjk1VjlnU1lGWW1zaEIwU3psQ1ZuMllV?oc=5",
+"time": "27 分鐘前"
 },
 {
-"who": "微軟 CEO",
-"summary": "微軟 CEO談如何在 AI 時代定義企業護城河。",
-"why": "AI時代企業競爭策略轉變，對科技產業未來發展具有啟示。",
-"source": "odaily.news",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZGlTSWR6bXpyQld0a3BFeXpQS25Nb2lyRXIweTczUXlkZ0U3UXVrclpXaHl1cC1HUWpGRzNoZ0FiT1VWR2tsNkZDekZDOW8?oc=5",
-"time": "47 分鐘前"
+"who": "Fiserv, Inc. CEO",
+"summary": "Fiserv宣布CEO更換。",
+"why": "大型金融科技公司高層異動，可能帶來業務策略調整與產業連鎖反應。",
+"source": "marketscreener.com",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcHVNcTBjdjNNRVlweC1SdUdkbjZzb0tsb2lqbVVaZjQyWXpZMjM0dnVHOFNVQ01zX2dsYk8wYldBaDMzR3dwcUh5OWRLMDhaWXQtM3VPTDRyQlU2MVVJM0ZrbDhDUjBSbTBXUWtycHRxZ1lNbTl3Yzl1V095alB2T0FGRkdGM0JidUF1eXpuY0xnS0wzWlpheVlIQ3drdzZYUk9WS1dNVTA?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "Google CEO",
-"summary": "Google CEO在史丹佛畢業典禮演講時遭學生集體抗議離場。",
-"why": "反映科技巨頭面臨社會責任與公眾信任挑戰，可能影響企業形象與政策。",
-"source": "BBC",
-"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Bd0wyMGNoT1FuTEszb09FSUxkYS1kMHlkcW9jNG12LXJTYkpYZWYtZWNSRENZbkNMZU9UUjkzSzBHRXpwV2toR2lWWEVkTGpsMzdzaEVhRQ?oc=5",
+"who": "Fox",
+"summary": "Fox宣布以220億美元收購串流先驅Roku。",
+"why": "媒體產業整合加速，串流平台競爭格局將出現重大變化。",
+"source": "WHEC.com",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTjdvdHlEWG5KZWsyWklTTnpiQ2s5cXQ1OUJSQi1kUGtZM3JCNDFDdnJQRzh0eDFWRVNqdW9famp5MFg5NVhERXNQT09zdThEcVlvdW1oZk85U1VSNnQ5U245bkFHLUNMUGdwTlJjZE41aG56Q0hWVC15TTl6NFczbElhWXM0RTJOXzlRQWgxS1h0Zw?oc=5",
 "time": "39 分鐘前"
 },
 {
-"who": "Fiserv CEO",
-"summary": "Fiserv宣布 CEO 更換。",
-"why": "大型金融科技公司高層變動，可能帶來業務策略調整，影響產業格局。",
-"source": "marketscreener.com",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcHVNcTBjdjNNRVlweC1SdUdkbjZzb0tsb2lqbVVaZjQyWXpZMjM0dnVHOFNVQ01zX2dsYk8wYldBaDMzR3dwcUh5OWRLMDhaWXQtM3VPTDRyQlU2MVVJM0ZrbDhDUjBSbTBXUWtycHRxZ1lNbTl3Yzl1V095alB2T0FGRkdGM0JidUF1eXpuY0xnS0wzWlpheVlIQ3drdzZYUk9WS1dNVTA?oc=5",
-"time": "33 分鐘前"
+"who": "Microsoft CEO",
+"summary": "Microsoft CEO談AI時代企業護城河的定義。",
+"why": "AI競爭下企業如何建立壁壘，將影響未來科技產業格局。",
+"source": "odaily.news",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZGlTSWR6bXpyQld0a3BFeXpQS25Nb2lyRXIweTczUXlkZ0U3UXVrclpXaHl1cC1HUWpGRzNoZ0FiT1VWR2tsNkZDekZDOW8?oc=5",
+"time": "1 小時前"
 }
 ]
 }
