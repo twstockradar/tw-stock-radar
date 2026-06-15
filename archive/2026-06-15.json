@@ -1,7 +1,7 @@
 {
 "date": "2026-06-15",
 "count": 30,
-"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、PCB載板、散熱模組、重電、光通訊等。",
+"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、ABF載板、散熱模組、重電、光通訊等。",
 "stocks": [
 {
 "code": "1303",
@@ -151,7 +151,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "伺服器用PCB"
 },
 {
 "code": "2382",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB製造"
 },
 {
 "code": "6139",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "8021",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "光通訊CPO",
-"theme": "光通訊元件"
+"theme": "光通訊模組"
 },
 {
 "code": "5289",
@@ -391,7 +391,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "工業記憶體模組"
+"theme": "工業記憶體"
 },
 {
 "code": "6147",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6223",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普推動美伊和平協議並主導重大國內外政策，企業CEO則聚焦AI時代競爭力與高層異動，預示全球政經格局與產業競爭新變局。",
+"takeaway": "川普宣布與伊朗達成協議並舉辦 UFC 活動，微軟與 Google CEO 發言引發產業關注。",
 "items": [
 {
 "who": "川普",
-"summary": "美國與伊朗達成和平框架協議。",
-"why": "美伊關係緩和有助於中東局勢穩定，對全球能源與地緣政治影響深遠。",
+"summary": "川普宣布與伊朗達成協議，並視為重大勝利。",
+"why": "美伊關係改善可能影響全球地緣政治與能源市場，對未來國際局勢有深遠影響。",
 "source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MUHZ0QlhoQWdnbmJYZHBITkxyWmlrNVFMMTBRUzY3T2FyODc3RDFfRXFtYVZoZUYtRzRaYUo2WlBrbWhLS0dEOWU0eWM4WUw1Q1JLWUlhU0s3MGVQTUl5ZG1rYVFXeUV3dXdCQV95eHo?oc=5",
-"time": "16 分鐘前"
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaVhQbEFyVl9CWkdFOHhkdUdYU1RjYzBuQ0J2a3RweFlucXdNREU4aTl4YVpPOExWaFBNcjQtTVRJRklDa0ptOEV3aUlIQnBaRjBLT21wQ2N3NFRLeHBBS19GMm5QanBjTjBXX21NM0d5N2xVTUU0Rkd4V2lDV09xV3JwektZcW5CVklWclB3?oc=5",
+"time": "45 分鐘前"
 },
 {
-"who": "川普政府",
-"summary": "川普官員施壓Anthropic關閉全球最強AI模型。",
-"why": "美國政府直接干預AI發展，顯示未來AI監管與國安議題將更受重視。",
-"source": "Fast Company",
-"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFJweGp1V0tGRTZYQXdyZkNBS1c2dDQ4Zm5KSk4wWU1DaUprWkJXWWtzemQwZWdrLVZvcUJPZDJXeTJvQzNScVdWR0swUFYtbks3Szg5Qm13aVFWM1Fjc2RuT3N3T29rVmZMNURIS3RZb2g3WnVhcVZQNkJ6a3l4V2FiZ3ZFS0VJd1h0dUNpbFgtNGtYUzR0ZEduUWhtUHhZWWxMMmpMYXZiWUVUWFpOTUZLQWhGeUdyd29CY2RR?oc=5",
-"time": "32 分鐘前"
+"who": "微軟 CEO",
+"summary": "微軟 CEO表示 Xbox 遊戲在 YouTube 的變現比微軟自身還多。",
+"why": "顯示遊戲產業變現模式正轉向平台生態，對未來遊戲與內容產業有指標意義。",
+"source": "VGChartz",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeXZOamkzSV93NGY2dzNmV3FCd292SmZYU3Vmbks0c3hVOE5nU25hSnBoOGtPWkhjdjRteVd3QTVmSXhhUGdWbDYyamZjaVNkRVgxbWVkX1d6Y0RHTXhuZU1GSktWNnAwNUJhbHFxOV9aV2ZlUjI2WlZXOUF1MTFaM1NKcldvWFdqUllJbk9odlp1dktQMzRwLW1TaHE2N3RWOEV3NDVQMHRkQjVpd1lsSzZlNmRtU2VOTm5iWnl0NUdRano4ZkRsTndKUnF4V2J4YzVB?oc=5",
+"time": "17 分鐘前"
 },
 {
-"who": "微軟CEO",
-"summary": "微軟CEO談AI時代企業護城河的定義。",
-"why": "AI競爭格局重塑產業護城河，企業策略與投資方向將受影響。",
+"who": "微軟 CEO",
+"summary": "微軟 CEO談如何在 AI 時代定義企業護城河。",
+"why": "AI時代企業競爭策略轉變，對科技產業未來發展具有啟示。",
 "source": "odaily.news",
 "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZGlTSWR6bXpyQld0a3BFeXpQS25Nb2lyRXIweTczUXlkZ0U3UXVrclpXaHl1cC1HUWpGRzNoZ0FiT1VWR2tsNkZDekZDOW8?oc=5",
-"time": "30 分鐘前"
+"time": "47 分鐘前"
 },
 {
-"who": "Truist/Fiserv CEO",
-"summary": "Truist任命Fiserv執行長Lyons為新CEO。",
-"why": "大型金融機構高層異動，預示金融科技整合與轉型趨勢。",
-"source": "Banking Dive",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PZ28xUkk0NHhSR2VZTFNxcUNOYks5Z1Q0blZQQU9oUmIteDJyaV9OQzFITWtkYjdFbjhqYVBteHNRbThPTzFRZXh2RGdLLS1qODdqLTdXNUNoNXBuNDdzbGJSc0lqcmdWYTI1MDQxSDRtTDlhSkgxb05iYw?oc=5",
-"time": "48 分鐘前"
+"who": "Google CEO",
+"summary": "Google CEO在史丹佛畢業典禮演講時遭學生集體抗議離場。",
+"why": "反映科技巨頭面臨社會責任與公眾信任挑戰，可能影響企業形象與政策。",
+"source": "BBC",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Bd0wyMGNoT1FuTEszb09FSUxkYS1kMHlkcW9jNG12LXJTYkpYZWYtZWNSRENZbkNMZU9UUjkzSzBHRXpwV2toR2lWWEVkTGpsMzdzaEVhRQ?oc=5",
+"time": "39 分鐘前"
 },
 {
-"who": "川普",
-"summary": "川普提議以政治目標優先分配政府補助金。",
-"why": "政策分配標準轉變，可能影響美國科研、教育與社會資源分配結構。",
-"source": "The Conversation",
-"link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZ1FsaWFDeHVWcmRLTVduQnRXeXhHSmlqd25LNVd0MXotc0RPcUZpUDZGWGtPejlMMllJVEhRTXRVdm94NkowamUzZG40ejZublJtbXhNaTVoY2dqVWV2MTNUMjEweUswYm5NcVZyV2prN3VSS1dZblN2THkzZlFKcTQ4cEpGbUNzR2hOMDU3UkxaSmJ3Sy0yQzFKMWV5WHNuLTlyenl0VE9Fcl94YW5hM2h0SHR5OHhYYWllaGJVSG1ySWlTNk1fd21COFFsYk9KYVRIYUFwbWFxREtvLVU2VUl1NU5IU3NRTEgzUnVOTEp3RlJYbTg0QmJVWG91RGE5YjhsS3p6SFpxdkJtQ1E?oc=5",
-"time": "1 小時前"
+"who": "Fiserv CEO",
+"summary": "Fiserv宣布 CEO 更換。",
+"why": "大型金融科技公司高層變動，可能帶來業務策略調整，影響產業格局。",
+"source": "marketscreener.com",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcHVNcTBjdjNNRVlweC1SdUdkbjZzb0tsb2lqbVVaZjQyWXpZMjM0dnVHOFNVQ01zX2dsYk8wYldBaDMzR3dwcUh5OWRLMDhaWXQtM3VPTDRyQlU2MVVJM0ZrbDhDUjBSbTBXUWtycHRxZ1lNbTl3Yzl1V095alB2T0FGRkdGM0JidUF1eXpuY0xnS0wzWlpheVlIQ3drdzZYUk9WS1dNVTA?oc=5",
+"time": "33 分鐘前"
 }
 ]
 }
