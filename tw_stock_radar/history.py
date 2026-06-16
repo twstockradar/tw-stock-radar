@@ -103,9 +103,37 @@ def _save_cache(cache: dict[str, pd.DataFrame]) -> None:
             print(f"[history] 快取序列化跳過 {code}: {err}")
     if not frames:
         return
-    long = pd.concat(frames, ignore_index=True)
+    long = _concat_frames(frames)
+    if long is None or long.empty:
+        return
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     long.to_parquet(HISTORY_PARQUET, index=False)
+
+
+def _concat_frames(frames: list[pd.DataFrame]) -> pd.DataFrame | None:
+    """合併所有 frame; 整批失敗時改逐一併入並揪出/略過異常元兇。
+
+    每個 frame 進來前已重建為相同欄序的矩形, 整批 concat 理論上不該失敗;
+    但正式環境曾持續報 numpy 維度不符 (某檔形狀異常)。改成: 先試整批 (快),
+    失敗才退回逐一併入 -> 只略過真正壞掉的那一檔, 其餘照常寫入 (避免整份快取
+    寫不進去 -> 每天重抓全市場), 並印出元兇的 shape/dtypes 供根因定位。
+    """
+    try:
+        return pd.concat(frames, ignore_index=True)
+    except Exception as err:  # noqa: BLE001
+        print(f"[history] 整批 concat 失敗, 改逐一併入定位元兇: {err}")
+    good: list[pd.DataFrame] = []
+    for fr in frames:
+        try:
+            pd.concat([*good, fr], ignore_index=True)
+            good.append(fr)
+        except Exception as err:  # noqa: BLE001
+            code = fr["code"].iloc[0] if "code" in fr and len(fr) else "?"
+            print(f"[history] 略過異常 frame code={code} shape={fr.shape} "
+                  f"cols={list(fr.columns)} dtypes={fr.dtypes.to_dict()}: {err}")
+    if not good:
+        return None
+    return pd.concat(good, ignore_index=True)
 
 
 def _is_stale(df: pd.DataFrame) -> bool:
