@@ -20,6 +20,19 @@ def yf_symbol(code: str, market: str) -> str:
     return f"{code}.TWO" if market == "TPEX" else f"{code}.TW"
 
 
+def _norm_dt_index(index) -> pd.DatetimeIndex:
+    """統一日期索引為 tz-naive、奈秒(ns)解析度。
+
+    兩個必要: (1) yfinance 偶爾回傳帶時區的索引; (2) pyarrow 把快取日期存成
+    微秒(us), 讀回是 us, 與 yfinance 新抓的 ns 混在同一個 pd.concat 會炸
+    (numpy 維度不符)。一律轉成 tz-naive ns, 讓快取/新抓/合併全程一致。
+    """
+    idx = pd.to_datetime(index)
+    if getattr(idx, "tz", None) is not None:
+        idx = idx.tz_localize(None)
+    return idx.astype("datetime64[ns]")
+
+
 def _download(symbols: list[str], *, interval: str, period: str,
               auto_adjust: bool, batch: int = 150) -> dict[str, pd.DataFrame]:
     """批次下載, 回傳 {symbol: OHLC DataFrame}。"""
@@ -43,12 +56,7 @@ def _download(symbols: list[str], *, interval: str, period: str,
                 sub = sub[_OHLC].dropna(how="all").dropna()
                 if sub.empty:
                     continue
-                idx = pd.to_datetime(sub.index)
-                # yfinance 偶爾回傳帶時區的索引; 一律轉 tz-naive,
-                # 否則與其他 tz-naive 檔在 _save_cache 合併時維度對不齊而崩潰。
-                if getattr(idx, "tz", None) is not None:
-                    idx = idx.tz_localize(None)
-                sub.index = idx
+                sub.index = _norm_dt_index(sub.index)
                 sub.index.name = "date"
                 out[sym] = sub
             except Exception:  # noqa: BLE001
@@ -69,6 +77,8 @@ def _load_cache() -> dict[str, pd.DataFrame]:
     cache: dict[str, pd.DataFrame] = {}
     for code, g in long.groupby("code"):
         d = g.set_index("date")[_OHLC].sort_index()
+        # parquet 讀回的日期是 us; 統一成 ns, 免得與新抓的 ns 合併時崩潰。
+        d.index = _norm_dt_index(d.index)
         cache[str(code)] = d
     return cache
 
@@ -86,6 +96,7 @@ def _save_cache(cache: dict[str, pd.DataFrame]) -> None:
             date = pd.to_datetime(t["date"], errors="coerce")
             if getattr(date.dt, "tz", None) is not None:
                 date = date.dt.tz_localize(None)
+            date = date.astype("datetime64[ns]")  # 統一 ns (詳見 _norm_dt_index)
             if not set(_OHLC).issubset(t.columns):
                 raise RuntimeError(f"缺 OHLC 欄: {list(t.columns)}")
             # 逐欄重建成乾淨的一維 numpy 陣列, 確保每個 frame 結構/維度一致,
@@ -148,6 +159,11 @@ def _is_stale(df: pd.DataFrame) -> bool:
 def _merge_tail(old: pd.DataFrame | None, new: pd.DataFrame) -> pd.DataFrame:
     if old is None or old.empty:
         return new
+    # 統一索引解析度 (us 快取 vs ns 新抓), 否則 concat 會炸 numpy 維度錯。
+    old = old.copy()
+    old.index = _norm_dt_index(old.index)
+    new = new.copy()
+    new.index = _norm_dt_index(new.index)
     cutoff = new.index.min()
     keep = old[old.index < cutoff]
     merged = pd.concat([keep, new])
