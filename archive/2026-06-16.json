@@ -1,7 +1,7 @@
 {
 "date": "2026-06-16",
 "count": 43,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、金融等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、重電、伺服器零組件、光通訊、記憶體等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊、金融等族群為主，題材聚焦於先進封裝、伺服器代工、CoWoS、散熱模組、重電、ABF載板、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2317",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2360",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2375",
@@ -270,8 +270,8 @@
 "dist": -0.06758829207854367,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "半導體",
-"theme": "感測元件"
+"group": "被動元件",
+"theme": "溫度感測元件"
 },
 {
 "code": "2603",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "石英元件"
 },
 {
 "code": "3090",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "被動元件代理"
+"theme": "電子零件代理"
 },
 {
 "code": "3189",
@@ -420,8 +420,8 @@
 "dist": -0.03376623376623378,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "光學鏡頭"
+"group": "光學",
+"theme": "手機鏡頭"
 },
 {
 "code": "3711",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6139",
@@ -481,7 +481,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6669",
@@ -511,7 +511,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "光通訊CPO",
-"theme": "光通訊元件"
+"theme": "矽光子"
 },
 {
 "code": "5289",
@@ -541,7 +541,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6173",
@@ -630,8 +630,8 @@
 "dist": 0.0,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電源/重電",
-"theme": "重電設備"
+"group": "散熱",
+"theme": "散熱模組"
 },
 {
 "code": "8299",
@@ -650,47 +650,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對伊朗核武、烏克蘭局勢及中東政策發表多項重要聲明，Nvidia CEO承諾AI將推動製造業就業。",
+"takeaway": "川普針對伊朗、烏克蘭、以色列等地緣政治議題發表多項重要政策訊號，Nvidia CEO則承諾AI將推動製造業就業。",
 "items": [
 {
 "who": "川普",
 "summary": "川普表示備忘錄明確指出伊朗不會擁有核武。",
-"why": "直接影響美國對伊朗政策與中東安全局勢，牽動地緣政治與能源市場。",
+"why": "直接影響美伊關係與中東安全局勢，對全球能源與地緣政治有深遠影響。",
 "source": "Reuters",
 "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTERjMHBaa042UG0yN1hjYjBpZ3U4MjVIdW92dDZ3azdJSEMwWXUzS3dJM1huMU1CN2pOV2ZzdjhiMHZhUW8xT04ya05lM1Ixa2tSVk9iOUpVZDZNek5TMmxvUjBpVnczYkEwQUdTRGwtMzU3a1YxVzJSSUtjLWdvb3Vnbmk5cmhUREppaEZibDdiaGJHQnM2T1NZMUxhWC04NGpPWjNLUFVYTi13U3VJOUVnQlk2UzRQRWc?oc=5",
-"time": "18 分鐘前"
+"time": "1 小時前"
 },
 {
 "who": "川普",
 "summary": "川普暗示將把重心轉向烏克蘭，伊朗戰爭即將成為過去。",
-"why": "顯示美國外交政策可能調整，對俄烏戰爭及全球安全局勢有重大影響。",
+"why": "顯示美國外交政策可能調整，對烏克蘭局勢與歐洲安全有重大影響。",
 "source": "NBC News",
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDRYQm5UTUtfaUFHWjJjWVNOMjZFbndFU09seGQxUXZiOHNibHlSd2RpZ2hIWjA1OWYzS0xkNmR4TUktczVRbVFlMUtfenI5UEk1UUpyQUotbmJTTTRsOFVLLXU4SDdGOVNkaHJTZk5ILVBUQktqRVNJODRZZnY1SUxBXzlXVlJ5N2dodzlUVlIzWXc2VVVuYmFuT3dsRFhmeklBa1hCRHpNOTVPQjdKdUh0WTI?oc=5",
-"time": "19 分鐘前"
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普表示將全力協助烏克蘭，並尋求與俄羅斯達成協議。",
-"why": "可能推動俄烏和平進程，影響歐洲安全與全球經濟穩定。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTN5RXJaa25rZFlaMThQa0t0UGJ6Qk42UkNEWHdhOGVxd29IVEF6cjJsSUtRRkRjMm9zR2NHZ3pYUU9UeDZmOWpUWThnb0JRZHdtWGIzRXhiN29LSmc3dFJlZTJzRUFhV0QzamE5dUhLMU1TWXFiTVlZdlRQRDlBb2VMbDdUZ9IBiwFBVV95cUxNR3Z2SnBVVUhDX01MYnBxc0NfTDZMNHJMc3ZJY1lPbGpCemRacGstMk1nU2xuTWJWLUZqTW1hdllnb0cySGx1SFNWYVEtcE4zb1Bqb0JpOXROVWdxdUU3Wk9jOC1zUWg4TmRqazZvaTFoNWhsT3c1N3h6MFZDazVuR1A0Wi1KZTRYT2Jn?oc=5",
+"summary": "川普要求以色列在對黎巴嫩問題上更負責任。",
+"why": "對中東局勢與以黎關係產生直接政策壓力，可能影響地區穩定。",
+"source": "Time Magazine",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFYxV1hybWdlaHdVdkpPR3o5MHNZQ05UN1ZuS1FwMHJvNFlncm1yNW1OUEtMY3RhTEVNbzEzV1FVQkppY292bWxFMWk5Y3NjbXF1V2RNQnlkTjJsamsyY0E3M2VKNTRJS0JFcWFTYTQxQXhMV3pxNlVDWWhJUEg0Ym1MTlFnbFpLUENydVE2OGxWNEtMcnc0Vzk5SDI?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "Nvidia CEO 黃仁勳",
 "summary": "黃仁勳承諾AI將促進製造業就業，並將在德州進行測試。",
-"why": "AI產業發展與製造業結合，對未來產業結構與就業市場有深遠影響。",
+"why": "AI對產業結構與就業市場的影響，牽動全球製造業未來發展。",
 "source": "Manistee News Advocate",
 "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV05rSF9tTktsczlkdGxYV3ZueGh1eTNtSnBicWg5UmEtTkJKTjRoSDVRTnFpaWo5TWV4RF8xM2ptSE5NUElMZWk3OGViQkRCdlNMT2tZbXpBRUtNZ3Rldl9IY3pqLThnaGV4d1dxVV9rWVFhRHIwWmFULUNXTVNvaHFVeElpTUhSbGJaVUJ0ZnNfYTlyWWxLa2M2cw?oc=5",
-"time": "10 分鐘前"
+"time": "1 小時前"
 },
 {
-"who": "ServiceNow CEO",
-"summary": "ServiceNow CEO先承諾不裁員，後在聖地牙哥裁員63人。",
-"why": "顯示科技業高層決策變動，反映產業景氣與就業趨勢的不確定性。",
-"source": "The Mercury News",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNblp6QUpwLVVSZElNQlBjX3laU1RyTHRKS3JuLVZYTV9nRl84WEYtZzRuVHBTV3BZdXFqdFY4RW9KcmhvUTlWdUw2Q0x2S2ZKeVBiUWJCeWRnUHFOT3Q1NzluWVc3RGFQcVItNUFjZkEwSm4wWFltRnNpTnoyT2x1UjBMdVlPNDBhdTdLZHZqYzFfSllxUi0ydVRjdUFaVXZCUzVyeFlsNWM5RHg00gGyAUFVX3lxTE1CVTQxaWl3SjE4dmw0cTFDVjVSM29ZWTk3LVk0TVBwOTNpSEtaenJHOUlhbGd4QjBfeWpPZ2lpYWU5SnhJVUJoeXViazhMUUdrbm1nYi1UYkpVMHgtR1pKdi1BclRQZlVRN0xnVW9HVFlEZ3hMVmNCbkZEd001eEtOZkpOWGtvb01PY0RRNU5xbXRldUZxNFV6ZHVQbHFxVXlIWjhUZFhYeVcwUlpGd3oxMmc?oc=5",
-"time": "2 小時前"
+"who": "川普",
+"summary": "川普表示若黎巴嫩戰事持續，伊朗核協議仍可存續。",
+"why": "牽動伊朗核協議未來走向，影響中東局勢與國際談判。",
+"source": "The Hill",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSlBKaDY2NnNRTW1talBzQWlJUGxSUlRFRGJZYmxHMkdmMWV1bDl0YXZCdm5zNWU2dGlON1YwV0tXZ01hQ1c0YzRXVXUwU3Jta1FnWTBDdUxLWVV2WGhHMmJyRklJUHo1cTlYSzV6TlRnQ3ZNak1rRnNDVnp3VjVTSmh3UULSAYoBQVVfeXFMTzRLN2VzbHltQlpGVm1XMlFfREE1NVlUc3RsU0RCejBKcl9CN3QwLUJBLXVIRFNRQmNYcU9JeWlFVTR1NVp6WWtqTG1yR0t4SUh3M0kwQ2dja0pOcGZodUpXaWdJd19MY0Vwajl4bUxWbEg1S041cy1WLXFOODllNnRxOVZVbTJJQ1Zn?oc=5",
+"time": "1 小時前"
 }
 ]
 }
