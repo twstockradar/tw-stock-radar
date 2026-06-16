@@ -77,17 +77,28 @@ def _save_cache(cache: dict[str, pd.DataFrame]) -> None:
     frames = []
     for code, df in cache.items():
         try:
-            t = df.reset_index()
+            # 先去重複欄位: yfinance 偶爾回傳重複的 OHLC 欄, 選取後該欄變 2-D,
+            # 會讓整批 concat 崩潰 (InvalidIndexError / numpy 維度不符)。保留第一個。
+            d = df.loc[:, ~df.columns.duplicated()]
+            t = d.reset_index()
             if "date" not in t.columns:
                 t = t.rename(columns={t.columns[0]: "date"})
-            t["date"] = pd.to_datetime(t["date"], errors="coerce")
-            if getattr(t["date"].dt, "tz", None) is not None:
-                t["date"] = t["date"].dt.tz_localize(None)
-            # 強制統一欄位 (date + OHLC), 確保每個 frame 結構一致;
-            # 否則 concat 時欄位/維度對不齊會整批崩潰。
-            t = t[["date", *_OHLC]].copy()
-            t["code"] = code
-            frames.append(t)
+            date = pd.to_datetime(t["date"], errors="coerce")
+            if getattr(date.dt, "tz", None) is not None:
+                date = date.dt.tz_localize(None)
+            if not set(_OHLC).issubset(t.columns):
+                raise RuntimeError(f"缺 OHLC 欄: {list(t.columns)}")
+            # 逐欄重建成乾淨的一維 numpy 陣列, 確保每個 frame 結構/維度一致,
+            # 任何畸形欄都被攤平, concat 永遠不會吃到 2-D block。
+            out = {"date": date.to_numpy()}
+            for col in _OHLC:
+                vals = t[col]
+                if isinstance(vals, pd.DataFrame):  # 仍有重複 -> 取第一欄
+                    vals = vals.iloc[:, 0]
+                out[col] = pd.to_numeric(vals, errors="coerce").to_numpy()
+            frame = pd.DataFrame(out)
+            frame["code"] = str(code)
+            frames.append(frame)
         except Exception as err:  # noqa: BLE001
             print(f"[history] 快取序列化跳過 {code}: {err}")
     if not frames:

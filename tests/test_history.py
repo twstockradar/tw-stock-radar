@@ -28,3 +28,21 @@ def test_save_cache_mixes_tz_aware_and_naive(tmp_path, monkeypatch):
     assert set(long["code"]) == {"2330", "2317"}
     # 寫回後再讀, date 應為 tz-naive datetime
     assert long["date"].dt.tz is None
+
+
+def test_save_cache_handles_duplicate_columns(tmp_path, monkeypatch):
+    """yfinance 偶發回傳重複 OHLC 欄時, 不該讓整批快取寫入崩潰 (正式環境真因)。"""
+    parquet = tmp_path / "monthly_history.parquet"
+    monkeypatch.setattr(history, "HISTORY_PARQUET", parquet)
+    monkeypatch.setattr(history, "DATA_DIR", tmp_path)
+
+    dup = _frame(318)
+    dup["extra"] = list(range(318))
+    dup.columns = ["Open", "High", "Low", "Close", "Close"]  # 重複 Close 欄
+
+    cache = {"2330": dup, "2317": _frame(217)}
+    history._save_cache(cache)  # 不應丟出例外
+
+    long = pd.read_parquet(parquet)
+    assert set(long["code"]) == {"2330", "2317"}
+    assert list(long.columns) == ["date", *history._OHLC, "code"]
