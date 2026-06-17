@@ -95,6 +95,13 @@ def fetch_twse_daily(session=None) -> pd.DataFrame:
             else pd.Timestamp(payload["date"])
         if pd.isna(date):
             date = pd.Timestamp(d)
+        # 防未來日期: TWSE 盤後傍晚常把回應的 date 欄標成「次一營業日」,
+        # 直接採信會讓資料日期變明天, 還連帶把正確日期的上櫃股整批丟光。
+        # 我們查的就是 d 這個交易日 (有資料即代表它有效), 故未來日期一律用 d。
+        if date.date() > d:
+            print(f"[daily_quotes] TWSE 回報未來日期 {date:%Y-%m-%d} > 查詢日 "
+                  f"{d:%Y-%m-%d}, 不採信, 改用查詢日")
+            date = pd.Timestamp(d)
         rows = []
         for r in data:
             try:
@@ -160,7 +167,11 @@ def fetch_daily_quotes(session=None) -> pd.DataFrame:
     df = df[df["close"].notna() & (df["close"] > 0)].reset_index(drop=True)
 
     # 日期一致性防呆: 以上市最新交易日為準, 丟掉非該日的資料 (避免混日期)。
+    # 基準不採信未來日期 (TWSE 傍晚偶爾回報次一營業日), 否則會反把正確日期的
+    # 上櫃股全丟掉。先濾掉未來日, 再取最大者當基準。
+    today = datetime.now(_TPE).date()
     twse_dates = df.loc[df["market"] == "TWSE", "date"].dropna()
+    twse_dates = twse_dates[twse_dates.dt.date <= today]
     if not twse_dates.empty:
         target = twse_dates.max()
         before = len(df)
