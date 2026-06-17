@@ -1,7 +1,7 @@
 {
 "date": "2026-06-17",
 "count": 42,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、金融等族群為主，題材聚焦於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、金融等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、重電、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -24,7 +24,7 @@
 "market": "TWSE",
 "close": 2155.0,
 "change_pct": 0.0,
-"trade_value": 25148477435.0,
+"trade_value": 25185827110.0,
 "market_cap": 5597705873995.0,
 "status": "PULLBACK",
 "dist": -0.11025145067698261,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 272.0,
 "change_pct": 1.1152416356877324,
-"trade_value": 11352493314.0,
+"trade_value": 11510771202.0,
 "market_cap": 3808925670128.0,
 "status": "NEAR_HIGH",
 "dist": -0.0939490445859873,
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 2385.0,
 "change_pct": -0.625,
-"trade_value": 66507437750.0,
+"trade_value": 71151958866.0,
 "market_cap": 61848702609795.0,
 "status": "NEAR_HIGH",
 "dist": -0.030737704918032738,
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 2495.0,
 "change_pct": -0.992063492063492,
-"trade_value": 6631275845.0,
+"trade_value": 6691910405.0,
 "market_cap": 1399989153015.0,
 "status": "NEAR_HIGH",
 "dist": -0.07606679035250463,
@@ -144,7 +144,7 @@
 "market": "TWSE",
 "close": 374.0,
 "change_pct": 3.1724137931034484,
-"trade_value": 7379468205.0,
+"trade_value": 8009855705.0,
 "market_cap": 1444622659568.0,
 "status": "PULLBACK",
 "dist": -0.10844748858447484,
@@ -264,14 +264,14 @@
 "market": "TWSE",
 "close": 135.5,
 "change_pct": 2.6515151515151514,
-"trade_value": 5523009374.0,
+"trade_value": 5569409374.0,
 "market_cap": 1897997950996.0,
 "status": "NEAR_HIGH",
 "dist": -0.008403361344537785,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控"
+"theme": "壽險金融"
 },
 {
 "code": "2882",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控"
+"theme": "壽險金融"
 },
 {
 "code": "3017",
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "晶片振盪器"
+"theme": "晶體元件"
 },
 {
 "code": "3090",
@@ -390,8 +390,8 @@
 "dist": -0.07435897435897432,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "機構件",
-"theme": "光學鏡頭"
+"group": "光學",
+"theme": "手機鏡頭"
 },
 {
 "code": "3532",
@@ -414,7 +414,7 @@
 "market": "TWSE",
 "close": 595.0,
 "change_pct": 0.5067567567567568,
-"trade_value": 7717479674.0,
+"trade_value": 7805313274.0,
 "market_cap": 2654195683790.0,
 "status": "PULLBACK",
 "dist": -0.1375186846038864,
@@ -450,8 +450,8 @@
 "dist": -0.08421055551921353,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "機構件",
-"theme": "光學鏡頭"
+"group": "光學",
+"theme": "鏡頭模組"
 },
 {
 "code": "6239",
@@ -511,7 +511,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "光通訊CPO",
-"theme": "矽光子"
+"theme": "光通訊元件"
 },
 {
 "code": "5289",
@@ -616,7 +616,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "機構件",
-"theme": "伺服器滑軌"
+"theme": "機構件製造"
 },
 {
 "code": "8299",
@@ -635,47 +635,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對國際政策與AI產業的發言、Nvidia與Microsoft CEO對AI社會規範的呼籲，將深刻影響全球政治與科技趨勢。",
+"takeaway": "川普對伊朗政策強硬表態及Nvidia CEO對AI威脅論的回應，將影響地緣政治與科技產業未來走向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在G7表示烏克蘭戰爭對美國『沒有影響』。",
-"why": "顯示美國未來可能減少對烏克蘭的支持，影響全球地緣政治與安全局勢。",
-"source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcWFuQXJ0Sm5kU0tXLWg2T0ZSc1BRdVpsQzJraW9jck83ZUhFMTV6WHAzWnltaTRXV19peFdfX0JJVFZoakdBM2xFSXZpRGhCa0dZbEFrYzF6T2FPbVZXMENyejhnN2RJSjhFVjRqTFNzSmJMS1hlc1dSTnJxem5PLVVaWlZNdw?oc=5",
-"time": "3 小時前"
+"summary": "川普表示若不滿意伊朗協議，將回到『投擲炸彈』的強硬路線。",
+"why": "顯示美國對伊朗政策仍具高度不確定性，可能影響中東局勢與全球能源市場。",
+"source": "Forbes",
+"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYmFzNEw0S0VvX0JqcEluQkV4VjQtS0RyYnNUWWhHREktWkFSZDloSlZ2R3RCclhKTGpma3hLMjI1Q3J1TzVwaU12bGx3ZW9tWmtQZ2NkZktqRHJ4RjlfUUE4ei1zdlJ3RkJDUGxaUzV2dEtFcnM5c0NzeFhfN2wyLXctUVdiUFEyWWYxRENXdzM1ZmJkNDNCZHoxRnhlMS02ZTZ4YzNLeWdjMl9KLUhmeUNwdU1uMFJNYkJGVWYtZTZWSjI3YV8zUFdTT2ptdzlsd0UyRGp1a0VMLUdtVXBGaHl5RzdSZU84Z3B6VURXNk8?oc=5",
+"time": "37 分鐘前"
+},
+{
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳反駁AI威脅論，並強化與微軟合作。",
+"why": "Nvidia CEO對AI產業的正面態度及與微軟的合作，將推動AI技術發展與產業整合。",
+"source": "foreignpolicyjournal.com",
+"link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY0NWZk5QdDdPRnFpTW50NzM1OHplN0k2WTRSM0d1d0ZaLU5qSHB2TE90S0paS3d1a0lpdVRGLU92OThMQzFHMjZ6SVFkTUhKNnZkR0l2VkM2QkhrcmFVTklOZHFxM1NfcUM1cDhTcHNiUEZJUWQxcUdSMDF4X29wMTFBZ24wVUtDNHNtcElELWdEaU1ZWmtoNlY0WC1MLV9hZ3NrYm02Ym5EWXB3WHVBMnNXQ2Y5dkRZc1RzRmlQcjZ6X2lmaWtYM1l4SERSdGRkYTBDRFRvSXA1ek5qbkxCeE5INGFYaGwzemlLT2RB?oc=5",
+"time": "4 分鐘前"
+},
+{
+"who": "Nio CEO",
+"summary": "Nio CEO警告Onvo L60車型因成本上升，利潤狀況『相當嚴峻』。",
+"why": "反映電動車產業面臨成本壓力，未來可能影響價格策略與產業競爭格局。",
+"source": "eletric-vehicles.com",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlJkeG1rUElTQUhoWkVkRUZ4RWxoSW0zRW1KNWZQdS04NGw3MVNDRGR3S1dRLXpPYlFpYTJBMkRETmVyXzlzbkRnQjZ1VmFlWjlYcWhJUlA2WF90UnNVbUxNRV8wdHVrTEVNZjRRTEY1aU05NTZ0Z3psd1piR3N5UEVsLWNUaHlzUi1neW1UQldEU255QXBMQ2k5cGNFSVU?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普堅稱美國不會在伊朗和平協議中投入資金。",
-"why": "反映美國對伊朗政策的強硬立場，可能影響中東局勢與能源市場。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMnlPMUV4NkV3QVV5akVQTWZmbWtNU2F5MFJWTVlPaGROWjlpdmVwN2gxa1FJQ0VaV0NJR19TRFFYT1pRYVp4ci1FZVJCSDhiWkt2MTBXN01yQTl1MHJydjBGR3BWX2cyU2lVS3FfZXZJUlRhdXBLSmpIem5DZ2JZTTNkSV9RakpvR05felFLd3YzMmdZQzV6U3R1UG5UWjRGY3pIRGZRaDRQem11TFFpeA?oc=5",
-"time": "3 小時前"
+"summary": "川普在G7峰會對其他領導人表示『我是老闆』。",
+"why": "展現川普強勢領導風格，可能影響美國與盟國的外交互動及全球政策協調。",
+"source": "France 24",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM19wbXc3VzFMakU5MWhuRm9uclJOczVScThYZU4tYjRPRjNiWFZvYVdiZm1Vd0ZLQUQyb0lHSXYwelhIS1dQNUtIdV9zNEZiQ0RRUFpmWkNvZjVEdGhlSVNabWJWUWpMVnl0b3c3R0hoYS1TQUtETnZPd2owc2c4cUVSMzdMM1VHY1FMdWM3bGQ?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳呼籲AI時代需建立『新社會規範』。",
-"why": "AI發展將重塑社會結構與倫理，企業與政府需制定新規則以應對未來挑戰。",
-"source": "NDTV",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRVVjYV91ejc5RnNJaVZmUHljSkVZdm90azJzYjNlZmk2OW1PaGNJWG1oVXNFbjJMVXZSS0c2cDBYY2poY2U2NEtjOV9XbjJuMDVjS2k1SjkwR2hwdlROck1JNS1hRS1zMVh5b2NQMjY5NHJieHJRb3lJT0g2aHVTeTNvb1NJUWQ5ZkhvYUtONm5PcjEwaktXU2ZLNWZjRmI0WmFjeDhJX0t6cUhLb1E4dktR?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Microsoft CEO 納德拉",
-"summary": "納德拉警告AI巨頭可能『掏空』整個產業，反對AI壟斷。",
-"why": "AI產業集中化風險加劇，呼籲監管與產業多元發展，影響全球科技競爭格局。",
-"source": "Memeburn",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcU5POWt2UGlvTFBTWm9JLU95Yl8zWG5MZ2FjZkhZMzJyeGtLR0Z3T21rMGczVHk0emZoUkZwUDNUSGpRQklPaGtOWmRGangwMXJyS1NyeXlPMHQ5WEF4ZXh6T2hWVmdITkVlM0E3S0gwTVJkQmNUM2tDeDhmQm92eFJGbElBNUZjX0dqaTlTaw?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳宣布對Microsoft股東的重大利好消息。",
-"why": "Nvidia與Microsoft合作深化，將推動AI產業與雲端運算未來發展。",
-"source": "The Motley Fool",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYmpuM2hsR0FpclVpMlBGc3ZBRVROOHd6NXhaLXRRTFBpN2lyLXUtN2dIc0ZEdm5vdlhFa1JkcVNKWjcxNTdLTGZBbHU0YlUxbFJ4WWI1WDZBdVN1cjFienBXZjJyN0h1NE5xcXJkdXBzTkllSFk3T19LVlRxN25SOVBEa3JVdDRwN1Vrc211eGVKTmNWbTY1dg?oc=5",
-"time": "41 分鐘前"
+"who": "川普",
+"summary": "川普宣布延後Clayton的情報總監任命，並批評民主黨。",
+"why": "顯示美國高層人事與選舉法案的政治角力，可能影響情報體系與選舉政策走向。",
+"source": "Forbes",
+"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbUI3ak1Zblh3TGxpNFVMRUVfM2RPX2pfWEt2UlNWWlI1S0V1WGFWT2RmWTlPWGh4czhYWkVxdnhMcGV5cFRtXzBwZ3lzMzNwMHIzaWJUTkhldlNsMURJNUF0a3gwU2o3OXlzVy1fRDdCQ1J4cmtQemU5eEtFYzhoYkFQNHh6TzZUbXNRVGJlWFF5SlpTbXhkVUxvQzExajY5MGZhWno5Y3dHNmMwSm91azY5OWx2cVp2QWRSeW5VMVZUWmEwN1drNWxsMjVrblR1MTRsT0JR?oc=5",
+"time": "1 小時前"
 }
 ]
 }
