@@ -1,7 +1,7 @@
 {
 "date": "2026-06-17",
 "count": 42,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊、金融等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、金融、航運等族群為主，題材聚焦於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子、記憶體、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "網通交換器"
+"theme": "交換器/網通設備"
 },
 {
 "code": "2360",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "半導體設備"
+"theme": "無塵室工程"
 },
 {
 "code": "2454",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控"
+"theme": "壽險/銀行"
 },
 {
 "code": "2882",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控"
+"theme": "壽險/銀行"
 },
 {
 "code": "3017",
@@ -316,7 +316,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電感製造"
 },
 {
 "code": "3042",
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "晶體製造"
 },
 {
 "code": "3090",
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 4,
 "group": "被動元件",
-"theme": "被動元件代理"
+"theme": "被動元件通路"
 },
 {
 "code": "3189",
@@ -390,7 +390,7 @@
 "dist": -0.07435897435897432,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "機構件",
+"group": "光學",
 "theme": "光學鏡頭"
 },
 {
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝"
+"theme": "先進封裝/CoWoS"
 },
 {
 "code": "4958",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "6209",
@@ -450,7 +450,7 @@
 "dist": -0.08421055551921353,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "機構件",
+"group": "光學",
 "theme": "光學鏡頭"
 },
 {
@@ -466,7 +466,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測"
+"theme": "記憶體封測"
 },
 {
 "code": "6669",
@@ -541,7 +541,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "探針卡"
 },
 {
 "code": "6182",
@@ -571,7 +571,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB材料"
 },
 {
 "code": "6274",
@@ -616,7 +616,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "機構件",
-"theme": "伺服器滑軌"
+"theme": "機構件製造"
 },
 {
 "code": "8299",
@@ -635,47 +635,31 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗政策與情報人事決策、Nvidia CEO對AI社會觀點，成為未來國際局勢與科技發展關鍵訊號。",
+"takeaway": "川普對伊朗政策強硬表態及延後情報主管提名，Nvidia CEO針對AI社會規範發表看法，顯示美國政治與科技領域未來趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示若不滿意伊朗協議，美國將『回到投放炸彈』。",
-"why": "展現美國對伊朗政策的強硬態度，可能影響中東局勢與全球能源市場。",
+"summary": "川普表示若不滿意伊朗協議，美國將『回到投擲炸彈』。",
+"why": "展現對伊朗政策的強硬態度，可能影響中東局勢與全球能源市場。",
 "source": "CNBC",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaQ3pjMzExcFJydlFWbXRfVXowNkdZS3dTTUVkcnh0Q0xRSnMtY2NfTnVEX3BsWkNBaWtCbHlNNDBOanJuRUhrVklKVFpsSHJkZldjYzB4eHpsS2tGMVp4ZHdqdXJyZmRLVFHSAW9BVV95cUxOVDU5OXVDN2J4TWJnZ0xpYmhnMlhTVTJHY1hzMUk1eDBzd1VLZ3lJcVZXLW90WWVOR2dQSHNISkYtdl9sVEt4QURaX0lDRkMyUGc1Ml9NNzJMUC10ZXlQZVhpQzM1ZDFDQ2N1SzAwbDA?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
 "who": "川普",
-"summary": "川普延後Jay Clayton情報總監提名，並表達對監控工具及選民身份法案的不滿。",
-"why": "顯示美國情報人事與選舉制度改革的政治角力，影響國內外安全與民主發展。",
-"source": "NBC News",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjNfMTJmdGpZQWRIVnBMd2cycjI3dkdFOEkxRG9WM3FZdGJIekJuVUpxbnM5ZDVpak1aZzhNdWsxamxiYmlWcUNoYS0tNFNZTk1wNmc3alFFc1VQYXZVVVlLQ3RVVVM5SVMzellUbEhkTWEwLUVnb2k1c1lMX3hlME5uV2twcW15VUtuTmc0YWhMbDdkTm9EVGxEb2xobGNmMm9vMWZsYmhOUURFWWFGbldFaEJFR3MzT1BVRnkyeHd6N1U?oc=5",
-"time": "1 小時前"
+"summary": "川普延後Jay Clayton的情報主管提名，藉此施壓國會推動選民身份法案。",
+"why": "顯示川普以人事任命作為政治籌碼，對美國選舉制度改革有直接影響。",
+"source": "AP News",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ2JZRlozdEFIN3pRLXZTYkxNeEpZWmFhOVBVSUE1b1VJUnlYZTI0RjRTZWZ2aDA1U2MzbmN5ZjFRaDdENENvMVdXM2pjWlJZd01NTGNoQ3NlVm5VSFM5QU81eTJtMnNWRE5UT3JFUVlUcWhpTGthNHRrYVhzWHZMMlduTE9lbTJ4ak5VQmtoNHctWlZSaFNaRnFpNmVnalE?oc=5",
+"time": "2 小時前"
 },
 {
-"who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳認為社會需改變對AI的社會規範。",
-"why": "反映全球科技領袖對AI發展的態度，將影響產業政策與社會接受度。",
+"who": "Nvidia CEO Jensen Huang",
+"summary": "Nvidia執行長黃仁勳表示社會需改變對AI的規範與認知。",
+"why": "反映AI技術發展將帶動社會規範與政策調整，影響全球科技產業。",
 "source": "PC Gamer",
 "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMVJ0Ujc5ZXEyV2xTMFNmQ1pQQWhuWnVjY3hSVTZZaF9fRFQxV2RYQkNCaUdYSm9QRWJ5Z25yb1d4SVBCaWg0dWEza096U0NONWFDSEtYQ2RLdVZveVhFcG9aZXhRWHhRM3R4RjdZbXFpVkJISVdQdEM2MERyQ19IdUtwTlBXSlJ6UHAwVVM4c3ZMelJadnZfeE5WRkw4X0pXVFJaRUVTY1BLdjktRFZYNzZkdkRPaVpqbmt2bDFxWlJzUTJUaXpfYUxnYUNwNk9NWTI3R1p4Nzl0Rlh5LWV3a1JLc0FXWUpPR19UajE0OA?oc=5",
-"time": "29 分鐘前"
-},
-{
-"who": "Nio CEO",
-"summary": "Nio CEO警告Onvo L60車型因成本上升，利潤狀況『相當嚴峻』。",
-"why": "揭示電動車產業面臨成本壓力，可能影響未來價格與競爭格局。",
-"source": "eletric-vehicles.com",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlJkeG1rUElTQUhoWkVkRUZ4RWxoSW0zRW1KNWZQdS04NGw3MVNDRGR3S1dRLXpPYlFpYTJBMkRETmVyXzlzbkRnQjZ1VmFlWjlYcWhJUlA2WF90UnNVbUxNRV8wdHVrTEVNZjRRTEY1aU05NTZ0Z3psd1piR3N5UEVsLWNUaHlzUi1neW1UQldEU255QXBMQ2k5cGNFSVU?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "川普",
-"summary": "川普在G7峰會對其他領袖表示『我是老闆』。",
-"why": "展現美國領導地位與川普個人風格，對國際合作與地緣政治有深遠影響。",
-"source": "France 24",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM19wbXc3VzFMakU5MWhuRm9uclJOczVScThYZU4tYjRPRjNiWFZvYVdiZm1Vd0ZLQUQyb0lHSXYwelhIS1dQNUtIdV9zNEZiQ0RRUFpmWkNvZjVEdGhlSVNabWJWUWpMVnl0b3c3R0hoYS1TQUtETnZPd2owc2c4cUVSMzdMM1VHY1FMdWM3bGQ?oc=5",
-"time": "2 小時前"
+"time": "47 分鐘前"
 }
 ]
 }
