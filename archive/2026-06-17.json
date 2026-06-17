@@ -1,7 +1,7 @@
 {
 "date": "2026-06-17",
 "count": 42,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊、金融等族群為主，題材聚焦於先進封裝、AI伺服器代工、CoWoS、散熱模組、重電、矽光子、ABF載板等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊、金融等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板廠"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2317",
@@ -76,7 +76,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件龍頭"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -136,7 +136,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電容"
+"theme": "電容製造"
 },
 {
 "code": "2382",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "電容"
+"theme": "電容製造"
 },
 {
 "code": "2603",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/金融控股"
+"theme": "金控"
 },
 {
 "code": "2882",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/金融控股"
+"theme": "金控"
 },
 {
 "code": "3017",
@@ -316,7 +316,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "電感"
+"theme": "被動元件製造"
 },
 {
 "code": "3042",
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "晶體元件"
+"theme": "頻率元件"
 },
 {
 "code": "3090",
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 4,
 "group": "被動元件",
-"theme": "被動元件通路"
+"theme": "被動元件代理"
 },
 {
 "code": "3189",
@@ -390,7 +390,7 @@
 "dist": -0.07435897435897432,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "光學",
+"group": "機構件",
 "theme": "光學鏡頭"
 },
 {
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板廠"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6209",
@@ -450,7 +450,7 @@
 "dist": -0.08421055551921353,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "光學",
+"group": "機構件",
 "theme": "光學鏡頭"
 },
 {
@@ -511,7 +511,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "光通訊CPO",
-"theme": "光通訊"
+"theme": "光通訊/矽光子"
 },
 {
 "code": "5289",
@@ -571,7 +571,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB材料"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6274",
@@ -616,7 +616,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "機構件",
-"theme": "機構件"
+"theme": "伺服器滑軌"
 },
 {
 "code": "8299",
@@ -635,12 +635,12 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗政策及情報人事決策、Nvidia與Google CEO對AI未來的發言，將深刻影響地緣政治與科技產業趨勢。",
+"takeaway": "川普對伊朗政策與情報人事決策、Nvidia CEO對AI社會觀點，成為未來國際局勢與科技發展關鍵訊號。",
 "items": [
 {
 "who": "川普",
 "summary": "川普表示若不滿意伊朗協議，美國將『回到投放炸彈』。",
-"why": "展現美國對伊朗政策的強硬態度，可能加劇中東緊張局勢，影響全球能源與安全格局。",
+"why": "展現美國對伊朗政策的強硬態度，可能影響中東局勢與全球能源市場。",
 "source": "CNBC",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaQ3pjMzExcFJydlFWbXRfVXowNkdZS3dTTUVkcnh0Q0xRSnMtY2NfTnVEX3BsWkNBaWtCbHlNNDBOanJuRUhrVklKVFpsSHJkZldjYzB4eHpsS2tGMVp4ZHdqdXJyZmRLVFHSAW9BVV95cUxOVDU5OXVDN2J4TWJnZ0xpYmhnMlhTVTJHY1hzMUk1eDBzd1VLZ3lJcVZXLW90WWVOR2dQSHNISkYtdl9sVEt4QURaX0lDRkMyUGc1Ml9NNzJMUC10ZXlQZVhpQzM1ZDFDQ2N1SzAwbDA?oc=5",
 "time": "1 小時前"
@@ -648,7 +648,7 @@
 {
 "who": "川普",
 "summary": "川普延後Jay Clayton情報總監提名，並表達對監控工具及選民身份法案的不滿。",
-"why": "顯示川普將情報人事與選舉改革掛鉤，可能影響美國情報系統與選舉政策走向。",
+"why": "顯示美國情報人事與選舉制度改革的政治角力，影響國內外安全與民主發展。",
 "source": "NBC News",
 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjNfMTJmdGpZQWRIVnBMd2cycjI3dkdFOEkxRG9WM3FZdGJIekJuVUpxbnM5ZDVpak1aZzhNdWsxamxiYmlWcUNoYS0tNFNZTk1wNmc3alFFc1VQYXZVVVlLQ3RVVVM5SVMzellUbEhkTWEwLUVnb2k1c1lMX3hlME5uV2twcW15VUtuTmc0YWhMbDdkTm9EVGxEb2xobGNmMm9vMWZsYmhOUURFWWFGbldFaEJFR3MzT1BVRnkyeHd6N1U?oc=5",
 "time": "1 小時前"
@@ -656,26 +656,26 @@
 {
 "who": "Nvidia CEO 黃仁勳",
 "summary": "黃仁勳認為社會需改變對AI的社會規範。",
-"why": "反映AI技術快速發展，企業領袖呼籲社會調整規範，將影響全球AI政策與產業生態。",
+"why": "反映全球科技領袖對AI發展的態度，將影響產業政策與社會接受度。",
 "source": "PC Gamer",
 "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMVJ0Ujc5ZXEyV2xTMFNmQ1pQQWhuWnVjY3hSVTZZaF9fRFQxV2RYQkNCaUdYSm9QRWJ5Z25yb1d4SVBCaWg0dWEza096U0NONWFDSEtYQ2RLdVZveVhFcG9aZXhRWHhRM3R4RjdZbXFpVkJISVdQdEM2MERyQ19IdUtwTlBXSlJ6UHAwVVM4c3ZMelJadnZfeE5WRkw4X0pXVFJaRUVTY1BLdjktRFZYNzZkdkRPaVpqbmt2bDFxWlJzUTJUaXpfYUxnYUNwNk9NWTI3R1p4Nzl0Rlh5LWV3a1JLc0FXWUpPR19UajE0OA?oc=5",
-"time": "18 分鐘前"
-},
-{
-"who": "Google CEO Sundar Pichai",
-"summary": "皮查伊在史丹佛演講強調人生關鍵時刻與價值觀。",
-"why": "科技巨頭CEO公開談價值觀，可能影響企業文化與未來人才培育方向。",
-"source": "The Economic Times",
-"link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPSUxkcFBheHljZ0ZNLWh0cGVYY25leEpIVlJ5Yy13b09IY19xeVFCNGpIeDgwVXRzSlZFVkVPd0ljTzNCRTc3U3pQTHVBMWJsYXpVaEVzT3Q5bWw2Yy0tRHhjc1kxeWZ4T0NpZXZxOFhJYm9jajBmTnNDVXZBRG03dGJuRnhyTTlKMmlZMXlUdXFGclNZdUk3ZHR4am5DQ2k4X0xlaHdfUWhlalhpU1dxN0lYNW43enBDUkdBOExIUFFncWx3M1dockhwRDJoTzFNWERNRkozVEdlcnlraGZDbzNyNmkzdHdyTUlybkNmZzl3Z29qMU05amgyaU1tWlJ1NEdITGZQQ1J0M1VGa2dxY1dGZ21zVDBPVFlfVVU1cklKVkN4bGxqRldCamhyVngtWmJaRnRFQUh6Q0Via2dZ0gHEAkFVX3lxTE84aXBvVUctdjdpUFgyWlFZNVBNMHlOckg0c1VacC14ODVYcHNRX1d4eVhSMGNaRGVwWTdjUGtxOWRnS19ZMWIxV3haMmhTX3pOWS1SZGRuWGtCUE83TDVtelhQX3BQaGY2NXNhYjg2c1BrdnAzN1M4M1NZRHpnM283RmpNb0J5U25CWjdsNGpvMnZ1TTFOZ29SNFBSTU51S0NKSkNDZkN4c0thU1IzdzZYS2E3MG9rT0g4b2d0eFRZWjdSVWJieTBESnl2aFFPVEpTRC1oQXV5d1Rhd1FURjFsdElWdWthd3dxYUtVTFo5Y3hqTkdoLUpyck9BYmtQWmJvUWpBa1N2dWk2ejg3enBOMFNpR0FOaDBHSWxrUm9SWUxGZjkzQzRZNVhfT3Z2U2xSLVZuSC13OWlfOVF2TlBDNWllRA?oc=5",
-"time": "20 分鐘前"
+"time": "29 分鐘前"
 },
 {
 "who": "Nio CEO",
-"summary": "Nio CEO警告Onvo L60毛利率『相當嚴峻』，成本上升。",
-"why": "揭示電動車產業面臨成本壓力，對未來產業競爭與價格策略有重大影響。",
+"summary": "Nio CEO警告Onvo L60車型因成本上升，利潤狀況『相當嚴峻』。",
+"why": "揭示電動車產業面臨成本壓力，可能影響未來價格與競爭格局。",
 "source": "eletric-vehicles.com",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlJkeG1rUElTQUhoWkVkRUZ4RWxoSW0zRW1KNWZQdS04NGw3MVNDRGR3S1dRLXpPYlFpYTJBMkRETmVyXzlzbkRnQjZ1VmFlWjlYcWhJUlA2WF90UnNVbUxNRV8wdHVrTEVNZjRRTEY1aU05NTZ0Z3psd1piR3N5UEVsLWNUaHlzUi1neW1UQldEU255QXBMQ2k5cGNFSVU?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
+},
+{
+"who": "川普",
+"summary": "川普在G7峰會對其他領袖表示『我是老闆』。",
+"why": "展現美國領導地位與川普個人風格，對國際合作與地緣政治有深遠影響。",
+"source": "France 24",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM19wbXc3VzFMakU5MWhuRm9uclJOczVScThYZU4tYjRPRjNiWFZvYVdiZm1Vd0ZLQUQyb0lHSXYwelhIS1dQNUtIdV9zNEZiQ0RRUFpmWkNvZjVEdGhlSVNabWJWUWpMVnl0b3c3R0hoYS1TQUtETnZPd2owc2c4cUVSMzdMM1VHY1FMdWM3bGQ?oc=5",
+"time": "2 小時前"
 }
 ]
 }
