@@ -1,7 +1,7 @@
 {
 "date": "2026-06-17",
 "count": 42,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、金融等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、重電、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO、金融等族群為主，題材聚焦於先進封裝、AI伺服器代工、CoWoS、散熱模組、重電、矽光子、ABF載板等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件龍頭"
 },
 {
 "code": "2330",
@@ -136,7 +136,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2382",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "無塵室工程"
+"theme": "半導體設備"
 },
 {
 "code": "2454",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2603",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險金融"
+"theme": "壽險金控"
 },
 {
 "code": "2882",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險金融"
+"theme": "壽險金控"
 },
 {
 "code": "3017",
@@ -316,7 +316,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "電感製造"
+"theme": "電感"
 },
 {
 "code": "3042",
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "晶體元件"
+"theme": "晶片振盪器"
 },
 {
 "code": "3090",
@@ -391,7 +391,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "光學",
-"theme": "手機鏡頭"
+"theme": "光學鏡頭"
 },
 {
 "code": "3532",
@@ -451,7 +451,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "光學",
-"theme": "鏡頭模組"
+"theme": "光學鏡頭"
 },
 {
 "code": "6239",
@@ -511,7 +511,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "光通訊CPO",
-"theme": "光通訊元件"
+"theme": "矽光子"
 },
 {
 "code": "5289",
@@ -616,7 +616,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "機構件",
-"theme": "機構件製造"
+"theme": "機構件"
 },
 {
 "code": "8299",
@@ -635,28 +635,28 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗政策強硬表態及Nvidia CEO對AI威脅論的回應，將影響地緣政治與科技產業未來走向。",
+"takeaway": "川普對伊朗政策強硬表態及Nvidia CEO對AI社會規範的呼籲，將影響地緣政治與科技產業未來走向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示若不滿意伊朗協議，將回到『投擲炸彈』的強硬路線。",
-"why": "顯示美國對伊朗政策仍具高度不確定性，可能影響中東局勢與全球能源市場。",
-"source": "Forbes",
-"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYmFzNEw0S0VvX0JqcEluQkV4VjQtS0RyYnNUWWhHREktWkFSZDloSlZ2R3RCclhKTGpma3hLMjI1Q3J1TzVwaU12bGx3ZW9tWmtQZ2NkZktqRHJ4RjlfUUE4ei1zdlJ3RkJDUGxaUzV2dEtFcnM5c0NzeFhfN2wyLXctUVdiUFEyWWYxRENXdzM1ZmJkNDNCZHoxRnhlMS02ZTZ4YzNLeWdjMl9KLUhmeUNwdU1uMFJNYkJGVWYtZTZWSjI3YV8zUFdTT2ptdzlsd0UyRGp1a0VMLUdtVXBGaHl5RzdSZU84Z3B6VURXNk8?oc=5",
-"time": "37 分鐘前"
+"summary": "川普表示若不滿意伊朗協議，美國將『回到投炸彈』。",
+"why": "展現對伊朗政策的強硬態度，可能加劇中東緊張局勢，影響全球能源與安全格局。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaQ3pjMzExcFJydlFWbXRfVXowNkdZS3dTTUVkcnh0Q0xRSnMtY2NfTnVEX3BsWkNBaWtCbHlNNDBOanJuRUhrVklKVFpsSHJkZldjYzB4eHpsS2tGMVp4ZHdqdXJyZmRLVFHSAW9BVV95cUxOVDU5OXVDN2J4TWJnZ0xpYmhnMlhTVTJHY1hzMUk1eDBzd1VLZ3lJcVZXLW90WWVOR2dQSHNISkYtdl9sVEt4QURaX0lDRkMyUGc1Ml9NNzJMUC10ZXlQZVhpQzM1ZDFDQ2N1SzAwbDA?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳反駁AI威脅論，並強化與微軟合作。",
-"why": "Nvidia CEO對AI產業的正面態度及與微軟的合作，將推動AI技術發展與產業整合。",
-"source": "foreignpolicyjournal.com",
-"link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY0NWZk5QdDdPRnFpTW50NzM1OHplN0k2WTRSM0d1d0ZaLU5qSHB2TE90S0paS3d1a0lpdVRGLU92OThMQzFHMjZ6SVFkTUhKNnZkR0l2VkM2QkhrcmFVTklOZHFxM1NfcUM1cDhTcHNiUEZJUWQxcUdSMDF4X29wMTFBZ24wVUtDNHNtcElELWdEaU1ZWmtoNlY0WC1MLV9hZ3NrYm02Ym5EWXB3WHVBMnNXQ2Y5dkRZc1RzRmlQcjZ6X2lmaWtYM1l4SERSdGRkYTBDRFRvSXA1ek5qbkxCeE5INGFYaGwzemlLT2RB?oc=5",
-"time": "4 分鐘前"
+"summary": "黃仁勳呼籲社會需改變對AI的社會規範。",
+"why": "AI發展將深刻影響產業與社會，CEO的呼籲可能推動政策與倫理討論，影響全球科技趨勢。",
+"source": "PC Gamer",
+"link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMVJ0Ujc5ZXEyV2xTMFNmQ1pQQWhuWnVjY3hSVTZZaF9fRFQxV2RYQkNCaUdYSm9QRWJ5Z25yb1d4SVBCaWg0dWEza096U0NONWFDSEtYQ2RLdVZveVhFcG9aZXhRWHhRM3R4RjdZbXFpVkJISVdQdEM2MERyQ19IdUtwTlBXSlJ6UHAwVVM4c3ZMelJadnZfeE5WRkw4X0pXVFJaRUVTY1BLdjktRFZYNzZkdkRPaVpqbmt2bDFxWlJzUTJUaXpfYUxnYUNwNk9NWTI3R1p4Nzl0Rlh5LWV3a1JLc0FXWUpPR19UajE0OA?oc=5",
+"time": "7 分鐘前"
 },
 {
 "who": "Nio CEO",
 "summary": "Nio CEO警告Onvo L60車型因成本上升，利潤狀況『相當嚴峻』。",
-"why": "反映電動車產業面臨成本壓力，未來可能影響價格策略與產業競爭格局。",
+"why": "反映電動車產業面臨成本壓力，可能影響未來產品策略與市場競爭。",
 "source": "eletric-vehicles.com",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlJkeG1rUElTQUhoWkVkRUZ4RWxoSW0zRW1KNWZQdS04NGw3MVNDRGR3S1dRLXpPYlFpYTJBMkRETmVyXzlzbkRnQjZ1VmFlWjlYcWhJUlA2WF90UnNVbUxNRV8wdHVrTEVNZjRRTEY1aU05NTZ0Z3psd1piR3N5UEVsLWNUaHlzUi1neW1UQldEU255QXBMQ2k5cGNFSVU?oc=5",
 "time": "1 小時前"
@@ -664,18 +664,18 @@
 {
 "who": "川普",
 "summary": "川普在G7峰會對其他領導人表示『我是老闆』。",
-"why": "展現川普強勢領導風格，可能影響美國與盟國的外交互動及全球政策協調。",
+"why": "展現美國主導國際事務的姿態，可能影響G7協商及全球政治格局。",
 "source": "France 24",
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM19wbXc3VzFMakU5MWhuRm9uclJOczVScThYZU4tYjRPRjNiWFZvYVdiZm1Vd0ZLQUQyb0lHSXYwelhIS1dQNUtIdV9zNEZiQ0RRUFpmWkNvZjVEdGhlSVNabWJWUWpMVnl0b3c3R0hoYS1TQUtETnZPd2owc2c4cUVSMzdMM1VHY1FMdWM3bGQ?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "川普",
-"summary": "川普宣布延後Clayton的情報總監任命，並批評民主黨。",
-"why": "顯示美國高層人事與選舉法案的政治角力，可能影響情報體系與選舉政策走向。",
-"source": "Forbes",
-"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbUI3ak1Zblh3TGxpNFVMRUVfM2RPX2pfWEt2UlNWWlI1S0V1WGFWT2RmWTlPWGh4czhYWkVxdnhMcGV5cFRtXzBwZ3lzMzNwMHIzaWJUTkhldlNsMURJNUF0a3gwU2o3OXlzVy1fRDdCQ1J4cmtQemU5eEtFYzhoYkFQNHh6TzZUbXNRVGJlWFF5SlpTbXhkVUxvQzExajY5MGZhWno5Y3dHNmMwSm91azY5OWx2cVp2QWRSeW5VMVZUWmEwN1drNWxsMjVrblR1MTRsT0JR?oc=5",
-"time": "1 小時前"
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳反駁AI威脅論，並強調Microsoft在AI領域的優勢。",
+"why": "有助於穩定市場對AI的信心，並強化Microsoft在AI產業的領導地位。",
+"source": "foreignpolicyjournal.com",
+"link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY0NWZk5QdDdPRnFpTW50NzM1OHplN0k2WTRSM0d1d0ZaLU5qSHB2TE90S0paS3d1a0lpdVRGLU92OThMQzFHMjZ6SVFkTUhKNnZkR0l2VkM2QkhrcmFVTklOZHFxM1NfcUM1cDhTcHNiUEZJUWQxcUdSMDF4X29wMTFBZ24wVUtDNHNtcElELWdEaU1ZWmtoNlY0WC1MLV9hZ3NrYm02Ym5EWXB3WHVBMnNXQ2Y5dkRZc1RzRmlQcjZ6X2lmaWtYM1l4SERSdGRkYTBDRFRvSXA1ek5qbkxCeE5INGFYaGwzemlLT2RB?oc=5",
+"time": "8 分鐘前"
 }
 ]
 }
