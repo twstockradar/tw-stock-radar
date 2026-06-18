@@ -1,7 +1,7 @@
 {
 "date": "2026-06-18",
 "count": 40,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、金融、散熱、光通訊、重電等族群為主，題材聚焦於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電、探針卡等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、金融、散熱、光通訊、重電等族群為主，題材集中於先進封裝、伺服器代工、CCL、ABF載板、散熱模組、矽光子、探針卡、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器品牌"
+"theme": "伺服器品牌"
 },
 {
 "code": "2379",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2383",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險銀行"
+"theme": "壽險金控"
 },
 {
 "code": "2882",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險銀行"
+"theme": "壽險金控"
 },
 {
 "code": "2890",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "銀行"
+"theme": "銀行金控"
 },
 {
 "code": "3017",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "3711",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "7769",
@@ -496,7 +496,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "記憶體",
-"theme": "工業記憶體"
+"theme": "工控記憶體"
 },
 {
 "code": "6147",
@@ -511,7 +511,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "封測"
 },
 {
 "code": "6182",
@@ -605,46 +605,46 @@
 }
 ],
 "news": {
-"takeaway": "川普與多位科技巨頭CEO的最新決策與發言，將深刻影響全球AI、地緣政治與消費市場趨勢。",
+"takeaway": "川普簽署美伊協議與蘋果、Nvidia CEO對AI與價格趨勢的警告，揭示全球政經與科技產業重大轉折。",
 "items": [
 {
 "who": "川普",
 "summary": "川普與伊朗簽署協議，結束伊朗戰爭並重啟霍爾木茲海峽。",
-"why": "此舉可能改變中東地緣政治格局，影響全球能源供應與安全局勢。",
-"source": "DW.com",
+"why": "此舉可能改變中東地緣政治與全球能源供應格局，影響油價與國際貿易。",
+"source": "DW",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wRjg2TnlrUmpvYnBrbkkwVEFfckk4QXItdVREVjFnZUZtTmY5UGhnTV9KR1dNbW83M0RTSlpIaTFjQnpDVFhjcHY1VjBEakhMa2tDTERCcWItalMxQUFZcy0yd1ltU3VvVEJYTGNKcTc3X3My?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Tim Cook (Apple)",
-"summary": "蘋果CEO庫克警告，AI推動下價格上漲不可避免，公司已盡力但情勢難以持續。",
-"why": "AI技術普及將帶來消費品價格上升，影響全球消費者與產業成本結構。",
-"source": "Tom's Hardware",
-"link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSlhhTzdydUVCTUs1cEdUX1JMNmlQYXNVdGNHdHJHYVVSQTJyeTh4TXNQWnZRSGJCWjRRZWdCMWpBZkxELU1JMC1UWVpZSDZ1ekkyVzY0b0dyX29CbHNiNlNvT2x3dmQ1ZEhVMFRvNHVkUTFuVDNGZW5XVVEwLTNMZUZtdTIxUUQxR3hRdEZwUndmakZ1WXhNTXg2MDk2bUFMWU1jN1VpNlI1SFRKQVRrYldUYjFNMGtvN0dYUWoxSndpU2dINFJ4Ql9CcnVTWkFuWTN5ajMxR0xDZFpyTURvckQ3SXdOODM3SS0xRDlyVHZoQmVwbEhzSnF3ZEF1ZXJKWnNqTTM0akVPdw?oc=5",
-"time": "30 分鐘前"
+"who": "蘋果CEO Tim Cook",
+"summary": "蘋果CEO確認因記憶體短缺，產品價格將上漲。",
+"why": "全球科技產品價格將受影響，反映供應鏈壓力與AI需求推動產業變革。",
+"source": "Fast Company",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOUh6LTJheEpxZDlTN0l1V2o5M3hLQ2xJTjBhbkltUWxkOTB6Z1BXRVFScWNwVzlWNkV5cUpWX3M4WHZUWGo1TzVtTWJobTEyMmZET3k3RWgzUlF3MTJELVdrSHZsb3J1ZjFQcFdEOWw5b1NnTUZXXzZlM1VRc21IWEVWcXBkM1B1TXp4eUU2YWR5XzRNWDM3YkR0endWMHpZRGNN?oc=5",
+"time": "10 分鐘前"
 },
 {
-"who": "Jensen Huang (Nvidia)",
+"who": "Nvidia CEO Jensen Huang",
 "summary": "Nvidia CEO表示AI熱潮將重新工業化美國。",
-"why": "AI產業將推動美國製造業復興，帶來新一波產業轉型與就業機會。",
+"why": "AI產業將推動美國製造業復興，帶來就業與產業結構重大變化。",
 "source": "The Business Journals",
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWFVFVXRBd0Y0bDRUQXRtTUR0UkZGNHdTRmlsWnlKWTBxa0dLT0UxYzNoT21oUjJid2VUdERSOWFTYUhkcElqLWVLNkxOOE1aM3kxNFZlQlB2c0Y2b25EYmktdVgzQ0NhQXQ4OUpmdC1OdXBrUnZXRFhUNzRKWFNGc1dVREU0alpQc1o3cC1nNmIzU0J0M3VadlZjM3kzc0taY3p5Qw?oc=5",
-"time": "32 分鐘前"
+"time": "53 分鐘前"
+},
+{
+"who": "蘋果CEO Tim Cook",
+"summary": "蘋果CEO警告AI驅動的價格上漲不可避免，情勢已難以維持。",
+"why": "AI技術普及將加劇成本壓力，消費者與產業需適應新價格環境。",
+"source": "Tom's Hardware",
+"link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSlhhTzdydUVCTUs1cEdUX1JMNmlQYXNVdGNHdHJHYVVSQTJyeTh4TXNQWnZRSGJCWjRRZWdCMWpBZkxELU1JMC1UWVpZSDZ1ekkyVzY0b0dyX29CbHNiNlNvT2x3dmQ1ZEhVMFRvNHVkUTFuVDNGZW5XVVEwLTNMZUZtdTIxUUQxR3hRdEZwUndmakZ1WXhNTXg2MDk2bUFMWU1jN1VpNlI1SFRKQVRrYldUYjFNMGtvN0dYUWoxSndpU2dINFJ4Ql9CcnVTWkFuWTN5ajMxR0xDZFpyTURvckQ3SXdOODM3SS0xRDlyVHZoQmVwbEhzSnF3ZEF1ZXJKWnNqTTM0akVPdw?oc=5",
+"time": "51 分鐘前"
 },
 {
 "who": "川普",
 "summary": "川普下令各州不得限制新興AI技術發展。",
-"why": "政策將促進美國AI產業快速發展，減少地方政府阻力，影響全球科技競爭。",
+"why": "美國AI政策將更開放，促進技術創新與產業競爭力提升。",
 "source": "Oklahoma Watch",
 "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeng5eGhJSjR5M0hzdVRKUElBMjhkM3laaXRFUjg1dHMzNmZmRldncU4wZzJ5TW1udlRiNzB2OGExTzBvRWxISFR6bWVpdXl2REhmS0JwT1VoT2pyQkxUUDJiV1hJOGozVVhISXJDMkcwNGMwY3V1NG9nNnlWbFkwTWJqT0wwUmViOElHdmkxZnJRMWNmaVk5RDY5aG15MDBWV2pNbk1QaF9kQ05hTDk3ZXV4VGljYzdMTklzNjh2RGk3dy1SbWFwbm1jZ0xTU1ljRnhuaGpB?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Jeff Bezos (Amazon)",
-"summary": "貝佐斯稱AI將創造勞動力短缺，亞馬遜同時持續裁員。",
-"why": "AI發展將重塑勞動市場，帶來自動化與人力需求變化，影響全球就業趨勢。",
-"source": "The Federal",
-"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdTI4MDJFWERFRmVGcU9VZUhZbEpuQVZ4cG5fY2otZW9YRkNOOVIwU05iSk9LZlROb3dTWjA1Q0JTeFJzclJRVHZzTFFodm4wY0F5eWplZFBmaTJuaU50QnZITDdLVVRpcHh6aEF0aW5ROHNwQWEycE9IRzRqUjFoOTBaUl9ZTXVDU2ZtWHBjOG1CMGhCdTNOQzQtUXYxVndvQ0lGNnlrU3RHbzh1Rk9kblpSNktFM2F5cmU4QUQ4TG4xdUNwWUNNRGM3R0I?oc=5",
 "time": "1 小時前"
 }
 ]
