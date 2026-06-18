@@ -1,7 +1,7 @@
 {
 "date": "2026-06-18",
-"count": 32,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、金融等族群為主，題材集中於先進封裝、伺服器代工、CCL、被動元件、散熱模組等。",
+"count": 40,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、金融、散熱、光通訊、重電等族群為主，題材集中於先進封裝、伺服器代工、CCL、ABF載板、散熱模組、矽光子、探針卡、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -16,7 +16,7 @@
 "limit_up": true,
 "limit_up_count": 4,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL原料"
 },
 {
 "code": "1802",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理/工業自動化"
+"theme": "電源管理"
 },
 {
 "code": "2313",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/網路設備"
+"theme": "交換器"
 },
 {
 "code": "2357",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2383",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL製造"
 },
 {
 "code": "2454",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "手機/AI晶片"
+"theme": "手機晶片"
 },
 {
 "code": "2455",
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "電阻製造"
+"theme": "電感製造"
 },
 {
 "code": "2492",
@@ -345,8 +345,8 @@
 "dist": -0.07905138339920947,
 "limit_up": true,
 "limit_up_count": 4,
-"group": "被動元件",
-"theme": "被動元件代理"
+"group": "電子零件",
+"theme": "電子零件通路"
 },
 {
 "code": "3189",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "3711",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB製造"
+"theme": "PCB板"
 },
 {
 "code": "6213",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL製造"
 },
 {
 "code": "6239",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "7769",
@@ -465,8 +465,8 @@
 "dist": -0.14057885410513882,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "散熱",
-"theme": "散熱模組"
+"group": "機構件",
+"theme": "伺服器滑軌"
 },
 {
 "code": "8996",
@@ -482,50 +482,170 @@
 "limit_up_count": 1,
 "group": "散熱",
 "theme": "散熱模組"
+},
+{
+"code": "5289",
+"name": "宜鼎",
+"market": "TPEX",
+"close": 1930.0,
+"change_pct": 4.0431266846361185,
+"trade_value": 6839876660.0,
+"market_cap": 185931214810.0,
+"status": "PULLBACK",
+"dist": -0.11363636363636365,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "記憶體",
+"theme": "工業記憶體"
+},
+{
+"code": "6147",
+"name": "頎邦",
+"market": "TPEX",
+"close": 252.0,
+"change_pct": 9.803921568627452,
+"trade_value": 6566957883.0,
+"market_cap": 187637571828.0,
+"status": "PULLBACK",
+"dist": -0.13875598086124397,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "半導體",
+"theme": "封測"
+},
+{
+"code": "6182",
+"name": "合晶",
+"market": "TPEX",
+"close": 120.0,
+"change_pct": 5.263157894736842,
+"trade_value": 13398761655.0,
+"market_cap": 68836599600.0,
+"status": "NEAR_HIGH",
+"dist": -0.029787234042553234,
+"limit_up": true,
+"limit_up_count": 2,
+"group": "半導體",
+"theme": "矽晶圓"
+},
+{
+"code": "6223",
+"name": "旺矽",
+"market": "TPEX",
+"close": 6415.0,
+"change_pct": -0.0778816199376947,
+"trade_value": 5212489645.0,
+"market_cap": 628550097235.0,
+"status": "PULLBACK",
+"dist": -0.13503375843960985,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "探針卡"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1835.0,
+"change_pct": 9.880239520958083,
+"trade_value": 7015869010.0,
+"market_cap": 529901458895.0,
+"status": "PULLBACK",
+"dist": -0.11294765840220389,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "PCB/CCL",
+"theme": "CCL製造"
+},
+{
+"code": "6488",
+"name": "環球晶",
+"market": "TPEX",
+"close": 1110.0,
+"change_pct": 0.9090909090909091,
+"trade_value": 12913727960.0,
+"market_cap": 530706234750.0,
+"status": "NEAR_HIGH",
+"dist": -0.0393013100436681,
+"limit_up": true,
+"limit_up_count": 3,
+"group": "半導體",
+"theme": "矽晶圓"
+},
+{
+"code": "8043",
+"name": "蜜望實",
+"market": "TPEX",
+"close": 226.5,
+"change_pct": 2.9545454545454546,
+"trade_value": 7924267752.0,
+"market_cap": 18098974005.0,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "光通訊CPO",
+"theme": "矽光子"
+},
+{
+"code": "8299",
+"name": "群聯",
+"market": "TPEX",
+"close": 2530.0,
+"change_pct": 8.583690987124463,
+"trade_value": 20050919440.0,
+"market_cap": 559346939910.0,
+"status": "PULLBACK",
+"dist": -0.14930555555555558,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "記憶體",
+"theme": "NAND控制IC"
 }
 ],
 "news": {
-"takeaway": "川普簽署伊朗和平協議及蘋果CEO警告因AI與記憶體成本導致產品漲價，將深刻影響地緣政治與科技產業未來走向。",
+"takeaway": "川普與企業CEO近期重大決策與發言，將深刻影響全球科技供應鏈、地緣政治與AI產業監管。",
 "items": [
 {
 "who": "川普",
-"summary": "川普簽署並捍衛其伊朗協議，並在G7峰會批評以色列。",
-"why": "美國與伊朗關係重大轉折，可能影響中東局勢與全球能源供應，並對美國外交政策產生深遠影響。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcTIycndiMm0xbXFLdXFES0h1TFkxQTlnTkNHLV9nYm84M2trOENXNzNuRjh0MmlJbS1UMHNpRHdaQUwweVdFRGs1aVdTNE1QZDNTSVhxVklDUGNsWC14ZmlRdGJPT2Y2ekplUGRsSUx0dm1tVENOZkt4NEx1NEEyalFnQ3otajFfUm9lcW9VM0k5SWxid0NkSGhnYlVGOEx2dDRJZHpn?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "川普",
-"summary": "川普與伊朗總統簽署協議，結束戰爭並重啟霍爾木茲海峽。",
-"why": "霍爾木茲海峽是全球石油運輸要道，協議有助於降低地緣風險，穩定能源市場。",
-"source": "dw.com",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wRjg2TnlrUmpvYnBrbkkwVEFfckk4QXItdVREVjFnZUZtTmY5UGhnTV9KR1dNbW83M0RTSlpIaTFjQnpDVFhjcHY1VjBEakhMa2tDTERCcWItalMxQUFZcy0yd1ltU3VvVEJYTGNKcTc3X3My?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "Tim Cook (蘋果)",
-"summary": "蘋果CEO警告因記憶體成本上升，產品價格將不可避免地調漲。",
-"why": "AI與記憶體需求推動科技產品成本上升，將影響消費者行為與全球電子產業定價趨勢。",
-"source": "IGN",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSURiNVlHWTlyNGR5bUZQcEc3SldvM3ZaMHVJOHpJWFlIeU5KM2pKazZubmtYeE94ZGM0cDVRdXNHUDNwWWhDSDR1a0ExaUgwQkYwSldHS2k4V19MRGZMaG5oQS1HYjlhbTB1MTR0bWxyYVZfYXdkTkZ2c0EtSWd3QmlOUQ?oc=5",
-"time": "39 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普宣布蘋果將與英特爾合作，在美國設計與生產晶片。",
-"why": "推動美國半導體產業回流，強化科技自主與供應鏈安全，對全球科技產業格局有重大影響。",
+"summary": "川普表示蘋果將與英特爾合作，在美國設計與生產晶片。",
+"why": "此舉將推動美國半導體產業回流，強化供應鏈自主，對全球科技產業格局產生深遠影響。",
 "source": "The Business Times",
 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTUpfSGJoNndnY2ppcEVkT0N3c0dPWFAyWE0xNmpodXMwTUxJR0FMV0JyRzRWYVZYc1ZvQmNMZUJDSURwZUs2Wm93SFdkQnhFWS0yeVh2aEVOS254dmJhUUw0eWpoUnJkb3gwYUg5bVlkM3lBYkEzOXB1ZVFBaVpUSmUwU2VQNWg4UjZZRjhsejhjb185Z1B2Tk45SVR4V3JscDJ3aV9lVGpCUGFma3hGU0Itc0NyWkNhU1g2bVludTNfSWc?oc=5",
+"time": "2 小時前"
+},
+{
+"who": "川普",
+"summary": "川普簽署縮減版AI監管行政命令。",
+"why": "美國政府對AI監管的態度將影響全球AI產業發展與監管趨勢。",
+"source": "MSN",
+"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHVCLVpGb2tYR0JLVVhZaFpDd2xJcUJCR2xkdGpoU3VTOWEwM3daSjQ2Tkx0dVhTNDYtNUxCUnJWaEsxWUp1MHBiN1RSQnZ0N0t4Ym1fVDVFNkN5TGJhVXQ4TnJMV1RzOHJrNlNZZFFWTVZHcnJ3M2Y1QVZCQVpFVTU0dXpQZUhTcWRmWWJETW1iYUZqMmU0V2dhOU45Q0w3SW4xMnp6Y0g4TmR5bmpsanQzZ1oyRUZzaHhKOUZEQnlXRk1UTUZPQg?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Sam Altman (OpenAI)",
-"summary": "OpenAI CEO Sam Altman呼籲各國不要將AI監管權交給科技公司。",
-"why": "AI治理與監管權爭議將影響全球AI發展路徑，政府與企業角色重新定位。",
+"who": "川普",
+"summary": "川普在凡爾賽簽署與伊朗的諒解備忘錄，稱『這並不容易』。",
+"why": "美伊關係緩和有助於中東局勢穩定，影響全球能源市場與地緣政治。",
+"source": "NBC News",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWFFYaGZQWTNsY1VOZDFveVA0NDlYWUtWQjVQQ1g4QzJPZ0otSFl0RDVmMFAxblMtQjJuZmF0YTE3d0VDZnFtWFJ1Rkp6bXY1Slh2RXBPSlVZQXNaODBVX1daYVVBUHZkYWl5aGZKdmVPamtLSnlFUkQ5bm5EX3lRcXhrWQ?oc=5",
+"time": "56 分鐘前"
+},
+{
+"who": "蘋果CEO Tim Cook",
+"summary": "庫克表示iPhone漲價『無可避免』。",
+"why": "反映全球記憶體與AI晶片成本上升，將影響消費電子產品價格與產業鏈。",
+"source": "Mashable",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wOTRUeE5RNTlibDMxZHdwdllxaUpCdnFVWnhFVXdpM0lQZmg3OXY3eTN0dm9RWXc0RDBvWHhPa21kTHdjVV81c3hZRkphbm9BMThOeFlDQU0zR09tVVFDUw?oc=5",
+"time": "52 分鐘前"
+},
+{
+"who": "OpenAI CEO Sam Altman",
+"summary": "Sam Altman表示各國不應將AI監管權讓渡給科技公司。",
+"why": "凸顯AI監管主權爭議，將影響全球AI政策制定與產業發展。",
 "source": "Storyboard18",
 "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWXhZUVpVWjItWEpPcjk4RVhXVEhRSkdBNmxIWHBidllMNHpXVkdRZU4wQ2VSN1o1X0NCUkVneUJQSlhabHdtaEdTakpiWkdDREppdnBkN1pZSW5TdlZQMVkyMWk4THItcjRxY0txSnI1di11SllOTzNtUWZZR2t0dlRISjR6ek5BTDRNcGFJTnQzXzlDbGhwOU96dDVFZ3dZdllkQ25lQWlFM3lxYy1JaXYycldicm1nR3NfX1VuSlJkZ1Y4MFBvazZKV28xc2hBOGfSAdcBQVVfeXFMT1NrZjFJYmktN2tHb2dqSkZmUURZekNMM1BzYThJTGhYeGlhQmtJbVhGOVRpclJnT3dTblJUbndWQkZKY3BKNm9oS2N5d1laRFJfbnRQb1prOUhRM09OSHNpdmpTV1JMcDN4OXQwek82YUp1R0JFVmd0WUxjckp0NkN6dGZUdzNNUGZtakhST2MyN29fQ1dhVDdXWTdaVXIzc0p1cFFfSHdZWnFHY29nTC1PQ3l0QWltY3JTSnEzTVZwRmpmSGFxTUlBS3htM210dmRiWWFCQ0k?oc=5",
-"time": "27 分鐘前"
+"time": "1 小時前"
 }
 ]
 }
