@@ -1,7 +1,7 @@
 {
 "date": "2026-06-18",
 "count": 40,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、金融、散熱、光通訊、重電等族群為主，題材集中於先進封裝、伺服器代工、CCL、ABF載板、散熱模組、矽光子、探針卡、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、金融、散熱、光通訊、重電等族群為主，題材聚焦於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -15,8 +15,8 @@
 "dist": -0.11814345991561181,
 "limit_up": true,
 "limit_up_count": 4,
-"group": "PCB/CCL",
-"theme": "CCL原料"
+"group": "化工",
+"theme": "塑化材料"
 },
 {
 "code": "1802",
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 2150.0,
 "change_pct": -0.23201856148491878,
-"trade_value": 24541791010.0,
+"trade_value": 27891157760.0,
 "market_cap": 5584718157350.0,
 "status": "PULLBACK",
 "dist": -0.11025145067698261,
@@ -69,14 +69,14 @@
 "market": "TWSE",
 "close": 268.5,
 "change_pct": -1.2867647058823528,
-"trade_value": 18541500267.0,
+"trade_value": 18605623168.0,
 "market_cap": 3759913758931.5,
 "status": "NEAR_HIGH",
 "dist": -0.0939490445859873,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器代工"
+"theme": "AI伺服器代工"
 },
 {
 "code": "2327",
@@ -84,14 +84,14 @@
 "market": "TWSE",
 "close": 1080.0,
 "change_pct": 9.75609756097561,
-"trade_value": 97631962527.0,
+"trade_value": 97896306241.0,
 "market_cap": 2237182722720.0,
 "status": "NEAR_HIGH",
 "dist": -0.09208972845336483,
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電阻電容"
 },
 {
 "code": "2330",
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 2410.0,
 "change_pct": 1.0482180293501049,
-"trade_value": 116571754115.0,
+"trade_value": 120198889493.0,
 "market_cap": 62497011861470.0,
 "status": "NEAR_HIGH",
 "dist": -0.030737704918032738,
@@ -114,7 +114,7 @@
 "market": "TWSE",
 "close": 2435.0,
 "change_pct": -2.404809619238477,
-"trade_value": 10315239525.0,
+"trade_value": 10337317670.0,
 "market_cap": 1366322079195.0,
 "status": "NEAR_HIGH",
 "dist": -0.07606679035250463,
@@ -129,14 +129,14 @@
 "market": "TWSE",
 "close": 789.0,
 "change_pct": -1.7434620174346203,
-"trade_value": 5458745163.0,
+"trade_value": 6315668020.0,
 "market_cap": 586037860920.0,
 "status": "NEAR_HIGH",
 "dist": -0.06639004149377592,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器品牌"
+"theme": "AI伺服器品牌"
 },
 {
 "code": "2379",
@@ -151,7 +151,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "IC設計",
-"theme": "網通IC"
+"theme": "網通晶片"
 },
 {
 "code": "2382",
@@ -159,14 +159,14 @@
 "market": "TWSE",
 "close": 376.0,
 "change_pct": 0.53475935828877,
-"trade_value": 8474229672.0,
+"trade_value": 8486637672.0,
 "market_cap": 1452347914432.0,
 "status": "PULLBACK",
 "dist": -0.10844748858447484,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器代工"
+"theme": "AI伺服器代工"
 },
 {
 "code": "2383",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL製造"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2454",
@@ -189,7 +189,7 @@
 "market": "TWSE",
 "close": 4390.0,
 "change_pct": -1.5695067264573992,
-"trade_value": 57230082260.0,
+"trade_value": 57436715170.0,
 "market_cap": 7041100836730.0,
 "status": "PULLBACK",
 "dist": -0.13480885311871227,
@@ -204,7 +204,7 @@
 "market": "TWSE",
 "close": 416.0,
 "change_pct": -2.803738317757009,
-"trade_value": 10789074187.0,
+"trade_value": 10794482187.0,
 "market_cap": 76920861888.0,
 "status": "NEAR_HIGH",
 "dist": -0.06956521739130439,
@@ -226,7 +226,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2478",
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "電感製造"
+"theme": "電感"
 },
 {
 "code": "2492",
@@ -249,14 +249,14 @@
 "market": "TWSE",
 "close": 561.0,
 "change_pct": 3.505535055350553,
-"trade_value": 37727044036.0,
+"trade_value": 37758460036.0,
 "market_cap": 272199878214.0,
 "status": "NEAR_HIGH",
 "dist": -0.04915254237288136,
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電容"
 },
 {
 "code": "2881",
@@ -264,14 +264,14 @@
 "market": "TWSE",
 "close": 138.0,
 "change_pct": 1.8450184501845017,
-"trade_value": 6190149146.0,
+"trade_value": 6353953146.0,
 "market_cap": 1933016363376.0,
 "status": "NEAR_HIGH",
 "dist": -0.008403361344537785,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/銀行"
+"theme": "壽險金控"
 },
 {
 "code": "2882",
@@ -279,14 +279,14 @@
 "market": "TWSE",
 "close": 115.5,
 "change_pct": 1.762114537444934,
-"trade_value": 5588953864.0,
+"trade_value": 5603160364.0,
 "market_cap": 1694293769784.0,
 "status": "NEW_HIGH",
 "dist": 0.0,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/銀行"
+"theme": "壽險金控"
 },
 {
 "code": "2890",
@@ -294,14 +294,14 @@
 "market": "TWSE",
 "close": 39.8,
 "change_pct": 9.491059147180195,
-"trade_value": 5811807417.0,
+"trade_value": 5822871817.0,
 "market_cap": 576794426545.0,
 "status": "NEW_HIGH",
 "dist": -0.0025063229321807823,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "銀行"
+"theme": "銀行金控"
 },
 {
 "code": "3017",
@@ -309,7 +309,7 @@
 "market": "TWSE",
 "close": 2400.0,
 "change_pct": 1.4799154334038054,
-"trade_value": 7954951140.0,
+"trade_value": 7964551140.0,
 "market_cap": 942103216800.0,
 "status": "PULLBACK",
 "dist": -0.1362126245847176,
@@ -324,7 +324,7 @@
 "market": "TWSE",
 "close": 216.0,
 "change_pct": -3.571428571428571,
-"trade_value": 7002053355.0,
+"trade_value": 7010477355.0,
 "market_cap": 74086481736.0,
 "status": "NEAR_HIGH",
 "dist": -0.04081632653061229,
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 4,
 "group": "電子零件",
-"theme": "電子零件通路"
+"theme": "連接器"
 },
 {
 "code": "3189",
@@ -354,7 +354,7 @@
 "market": "TWSE",
 "close": 724.0,
 "change_pct": 2.5495750708215295,
-"trade_value": 19840060175.0,
+"trade_value": 19845128175.0,
 "market_cap": 381487010240.0,
 "status": "PULLBACK",
 "dist": -0.10282776349614398,
@@ -369,14 +369,14 @@
 "market": "TWSE",
 "close": 161.5,
 "change_pct": -0.6153846153846154,
-"trade_value": 7374288200.0,
+"trade_value": 7375418700.0,
 "market_cap": 513636578375.0,
 "status": "PULLBACK",
 "dist": -0.14925373134328357,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器代工"
+"theme": "AI伺服器代工"
 },
 {
 "code": "3711",
@@ -384,7 +384,7 @@
 "market": "TWSE",
 "close": 613.0,
 "change_pct": 3.0252100840336134,
-"trade_value": 21776433146.0,
+"trade_value": 22115749226.0,
 "market_cap": 2734490679266.0,
 "status": "PULLBACK",
 "dist": -0.1375186846038864,
@@ -399,7 +399,7 @@
 "market": "TWSE",
 "close": 642.0,
 "change_pct": 0.4694835680751174,
-"trade_value": 33916505585.0,
+"trade_value": 34577366585.0,
 "market_cap": 692988188910.0,
 "status": "NEAR_HIGH",
 "dist": -0.03393427486959766,
@@ -414,14 +414,14 @@
 "market": "TWSE",
 "close": 280.0,
 "change_pct": 4.672897196261682,
-"trade_value": 6306060704.0,
+"trade_value": 6307460704.0,
 "market_cap": 101797421040.0,
 "status": "PULLBACK",
 "dist": -0.13043478260869568,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL製造"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -429,7 +429,7 @@
 "market": "TWSE",
 "close": 363.5,
 "change_pct": 5.36231884057971,
-"trade_value": 22134079085.0,
+"trade_value": 22146406097.0,
 "market_cap": 275949801459.0,
 "status": "PULLBACK",
 "dist": -0.12661498708010333,
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器代工"
+"theme": "AI伺服器代工"
 },
 {
 "code": "7769",
@@ -459,7 +459,7 @@
 "market": "TWSE",
 "close": 6975.0,
 "change_pct": -4.843110504774898,
-"trade_value": 10097699025.0,
+"trade_value": 10195362665.0,
 "market_cap": 1255011750000.0,
 "status": "PULLBACK",
 "dist": -0.14057885410513882,
@@ -511,7 +511,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測"
+"theme": "探針卡"
 },
 {
 "code": "6182",
@@ -519,7 +519,7 @@
 "market": "TPEX",
 "close": 120.0,
 "change_pct": 5.263157894736842,
-"trade_value": 13398761655.0,
+"trade_value": 13401295455.0,
 "market_cap": 68836599600.0,
 "status": "NEAR_HIGH",
 "dist": -0.029787234042553234,
@@ -534,7 +534,7 @@
 "market": "TPEX",
 "close": 6415.0,
 "change_pct": -0.0778816199376947,
-"trade_value": 5212489645.0,
+"trade_value": 5233486320.0,
 "market_cap": 628550097235.0,
 "status": "PULLBACK",
 "dist": -0.13503375843960985,
@@ -556,7 +556,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "CCL製造"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6488",
@@ -564,7 +564,7 @@
 "market": "TPEX",
 "close": 1110.0,
 "change_pct": 0.9090909090909091,
-"trade_value": 12913727960.0,
+"trade_value": 13508309303.0,
 "market_cap": 530706234750.0,
 "status": "NEAR_HIGH",
 "dist": -0.0393013100436681,
@@ -585,8 +585,8 @@
 "dist": 0.0,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "光通訊CPO",
-"theme": "矽光子"
+"group": "電子零件",
+"theme": "連接器"
 },
 {
 "code": "8299",
@@ -594,7 +594,7 @@
 "market": "TPEX",
 "close": 2530.0,
 "change_pct": 8.583690987124463,
-"trade_value": 20050919440.0,
+"trade_value": 20055979440.0,
 "market_cap": 559346939910.0,
 "status": "PULLBACK",
 "dist": -0.14930555555555558,
@@ -605,46 +605,46 @@
 }
 ],
 "news": {
-"takeaway": "川普與企業CEO近期重大決策與發言，將深刻影響全球科技供應鏈、地緣政治與AI產業監管。",
+"takeaway": "川普與多位科技巨頭CEO的最新決策與發言，將深刻影響全球地緣政治與AI產業未來發展。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示蘋果將與英特爾合作，在美國設計與生產晶片。",
-"why": "此舉將推動美國半導體產業回流，強化供應鏈自主，對全球科技產業格局產生深遠影響。",
-"source": "The Business Times",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTUpfSGJoNndnY2ppcEVkT0N3c0dPWFAyWE0xNmpodXMwTUxJR0FMV0JyRzRWYVZYc1ZvQmNMZUJDSURwZUs2Wm93SFdkQnhFWS0yeVh2aEVOS254dmJhUUw0eWpoUnJkb3gwYUg5bVlkM3lBYkEzOXB1ZVFBaVpUSmUwU2VQNWg4UjZZRjhsejhjb185Z1B2Tk45SVR4V3JscDJ3aV9lVGpCUGFma3hGU0Itc0NyWkNhU1g2bVludTNfSWc?oc=5",
-"time": "2 小時前"
+"summary": "川普與伊朗簽署協議，結束伊朗戰爭並重啟霍爾木茲海峽。",
+"why": "此舉可能改變中東局勢，影響全球能源供應與地緣政治格局。",
+"source": "DW.com",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wRjg2TnlrUmpvYnBrbkkwVEFfckk4QXItdVREVjFnZUZtTmY5UGhnTV9KR1dNbW83M0RTSlpIaTFjQnpDVFhjcHY1VjBEakhMa2tDTERCcWItalMxQUFZcy0yd1ltU3VvVEJYTGNKcTc3X3My?oc=5",
+"time": "51 分鐘前"
+},
+{
+"who": "Tim Cook (Apple)",
+"summary": "蘋果CEO庫克警告，AI推動下價格上漲不可避免，公司正努力但情勢已難以維持。",
+"why": "AI技術帶來成本壓力，預示全球科技產品價格將持續上升，影響消費者與產業鏈。",
+"source": "Tom's Hardware",
+"link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSlhhTzdydUVCTUs1cEdUX1JMNmlQYXNVdGNHdHJHYVVSQTJyeTh4TXNQWnZRSGJCWjRRZWdCMWpBZkxELU1JMC1UWVpZSDZ1ekkyVzY0b0dyX29CbHNiNlNvT2x3dmQ1ZEhVMFRvNHVkUTFuVDNGZW5XVVEwLTNMZUZtdTIxUUQxR3hRdEZwUndmakZ1WXhNTXg2MDk2bUFMWU1jN1VpNlI1SFRKQVRrYldUYjFNMGtvN0dYUWoxSndpU2dINFJ4Ql9CcnVTWkFuWTN5ajMxR0xDZFpyTURvckQ3SXdOODM3SS0xRDlyVHZoQmVwbEhzSnF3ZEF1ZXJKWnNqTTM0akVPdw?oc=5",
+"time": "15 分鐘前"
+},
+{
+"who": "Jensen Huang (Nvidia)",
+"summary": "Nvidia CEO表示AI熱潮將重新工業化美國。",
+"why": "AI產業將推動美國製造業復興，帶來就業與經濟結構轉變。",
+"source": "The Business Journals",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWFVFVXRBd0Y0bDRUQXRtTUR0UkZGNHdTRmlsWnlKWTBxa0dLT0UxYzNoT21oUjJid2VUdERSOWFTYUhkcElqLWVLNkxOOE1aM3kxNFZlQlB2c0Y2b25EYmktdVgzQ0NhQXQ4OUpmdC1OdXBrUnZXRFhUNzRKWFNGc1dVREU0alpQc1o3cC1nNmIzU0J0M3VadlZjM3kzc0taY3p5Qw?oc=5",
+"time": "17 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普簽署縮減版AI監管行政命令。",
-"why": "美國政府對AI監管的態度將影響全球AI產業發展與監管趨勢。",
-"source": "MSN",
-"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHVCLVpGb2tYR0JLVVhZaFpDd2xJcUJCR2xkdGpoU3VTOWEwM3daSjQ2Tkx0dVhTNDYtNUxCUnJWaEsxWUp1MHBiN1RSQnZ0N0t4Ym1fVDVFNkN5TGJhVXQ4TnJMV1RzOHJrNlNZZFFWTVZHcnJ3M2Y1QVZCQVpFVTU0dXpQZUhTcWRmWWJETW1iYUZqMmU0V2dhOU45Q0w3SW4xMnp6Y0g4TmR5bmpsanQzZ1oyRUZzaHhKOUZEQnlXRk1UTUZPQg?oc=5",
+"summary": "川普下令各州不得限制新興AI技術，奧克拉荷馬州因此暫緩AI監管。",
+"why": "聯邦層面推動AI發展，將加速美國AI產業成長並影響全球競爭格局。",
+"source": "Oklahoma Watch",
+"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeng5eGhJSjR5M0hzdVRKUElBMjhkM3laaXRFUjg1dHMzNmZmRldncU4wZzJ5TW1udlRiNzB2OGExTzBvRWxISFR6bWVpdXl2REhmS0JwT1VoT2pyQkxUUDJiV1hJOGozVVhISXJDMkcwNGMwY3V1NG9nNnlWbFkwTWJqT0wwUmViOElHdmkxZnJRMWNmaVk5RDY5aG15MDBWV2pNbk1QaF9kQ05hTDk3ZXV4VGljYzdMTklzNjh2RGk3dy1SbWFwbm1jZ0xTU1ljRnhuaGpB?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "川普",
-"summary": "川普在凡爾賽簽署與伊朗的諒解備忘錄，稱『這並不容易』。",
-"why": "美伊關係緩和有助於中東局勢穩定，影響全球能源市場與地緣政治。",
-"source": "NBC News",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWFFYaGZQWTNsY1VOZDFveVA0NDlYWUtWQjVQQ1g4QzJPZ0otSFl0RDVmMFAxblMtQjJuZmF0YTE3d0VDZnFtWFJ1Rkp6bXY1Slh2RXBPSlVZQXNaODBVX1daYVVBUHZkYWl5aGZKdmVPamtLSnlFUkQ5bm5EX3lRcXhrWQ?oc=5",
-"time": "56 分鐘前"
-},
-{
-"who": "蘋果CEO Tim Cook",
-"summary": "庫克表示iPhone漲價『無可避免』。",
-"why": "反映全球記憶體與AI晶片成本上升，將影響消費電子產品價格與產業鏈。",
-"source": "Mashable",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wOTRUeE5RNTlibDMxZHdwdllxaUpCdnFVWnhFVXdpM0lQZmg3OXY3eTN0dm9RWXc0RDBvWHhPa21kTHdjVV81c3hZRkphbm9BMThOeFlDQU0zR09tVVFDUw?oc=5",
-"time": "52 分鐘前"
-},
-{
-"who": "OpenAI CEO Sam Altman",
-"summary": "Sam Altman表示各國不應將AI監管權讓渡給科技公司。",
-"why": "凸顯AI監管主權爭議，將影響全球AI政策制定與產業發展。",
-"source": "Storyboard18",
-"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWXhZUVpVWjItWEpPcjk4RVhXVEhRSkdBNmxIWHBidllMNHpXVkdRZU4wQ2VSN1o1X0NCUkVneUJQSlhabHdtaEdTakpiWkdDREppdnBkN1pZSW5TdlZQMVkyMWk4THItcjRxY0txSnI1di11SllOTzNtUWZZR2t0dlRISjR6ek5BTDRNcGFJTnQzXzlDbGhwOU96dDVFZ3dZdllkQ25lQWlFM3lxYy1JaXYycldicm1nR3NfX1VuSlJkZ1Y4MFBvazZKV28xc2hBOGfSAdcBQVVfeXFMT1NrZjFJYmktN2tHb2dqSkZmUURZekNMM1BzYThJTGhYeGlhQmtJbVhGOVRpclJnT3dTblJUbndWQkZKY3BKNm9oS2N5d1laRFJfbnRQb1prOUhRM09OSHNpdmpTV1JMcDN4OXQwek82YUp1R0JFVmd0WUxjckp0NkN6dGZUdzNNUGZtakhST2MyN29fQ1dhVDdXWTdaVXIzc0p1cFFfSHdZWnFHY29nTC1PQ3l0QWltY3JTSnEzTVZwRmpmSGFxTUlBS3htM210dmRiWWFCQ0k?oc=5",
+"who": "Jeff Bezos (Amazon)",
+"summary": "貝佐斯稱AI將造成勞動力短缺，亞馬遜同時持續裁員。",
+"why": "AI對勞動市場的衝擊將加劇，企業調整人力結構，預示未來就業型態重大變革。",
+"source": "The Federal",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdTI4MDJFWERFRmVGcU9VZUhZbEpuQVZ4cG5fY2otZW9YRkNOOVIwU05iSk9LZlROb3dTWjA1Q0JTeFJzclJRVHZzTFFodm4wY0F5eWplZFBmaTJuaU50QnZITDdLVVRpcHh6aEF0aW5ROHNwQWEycE9IRzRqUjFoOTBaUl9ZTXVDU2ZtWHBjOG1CMGhCdTNOQzQtUXYxVndvQ0lGNnlrU3RHbzh1Rk9kblpSNktFM2F5cmU4QUQ4TG4xdUNwWUNNRGM3R0I?oc=5",
 "time": "1 小時前"
 }
 ]
