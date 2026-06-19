@@ -91,7 +91,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電阻電容"
 },
 {
 "code": "2330",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/網路設備"
+"theme": "交換器"
 },
 {
 "code": "2357",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "手機/AI晶片"
+"theme": "手機晶片"
 },
 {
 "code": "2455",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "光通訊CPO",
-"theme": "光通訊/矽光子"
+"theme": "光通訊元件"
 },
 {
 "code": "2472",
@@ -226,7 +226,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2478",
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "電感製造"
+"theme": "電感"
 },
 {
 "code": "2492",
@@ -256,7 +256,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電容"
 },
 {
 "code": "2881",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/銀行"
+"theme": "壽險銀行"
 },
 {
 "code": "2882",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/銀行"
+"theme": "壽險銀行"
 },
 {
 "code": "2890",
@@ -586,7 +586,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "光通訊CPO",
-"theme": "光通訊"
+"theme": "矽光子"
 },
 {
 "code": "8299",
@@ -605,47 +605,47 @@
 }
 ],
 "news": {
-"takeaway": "川普與大型企業CEO近期發言與決策，揭示美國對外政策、科技產業未來走向及全球供應鏈變革。",
+"takeaway": "川普對伊朗核協議與北韓核計畫的新動向，以及蘋果CEO宣布漲價，成為全球政經未來趨勢關鍵訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示蘋果將與英特爾合作美國芯片設計與生產。",
-"why": "此舉可能推動美國半導體產業自主化，影響全球科技供應鏈與地緣政治格局。",
-"source": "Fox Business",
-"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS2M0cjJJWHBISkhYbFY4M25Ub2JqMDhKd25EVXZPbnBQdWduNVFEeDZGSF9NV3JHUWxZVXJqNmF4eFo4ZF9HeHJUaWVUWk5Ld1ZJdUl6SDVXSEVBQW9wdVlDYXdNTkE4R3lkN3lnaFBYazZmVy0tS0d3WVQtVFpPdlNDMWFwclFLSkEyQU9VZy03ZmtINy1fVmtFVELSAZwBQVVfeXFMUEtjNHIySVhwSEpIWGxWODNuVG9iajA4SnduRFV2T25wUHVnbjVRRHg2RkhfTVdyR1FsWVVyajZheHhaOGRfR3hyVGllVFpOS3dWSXVJekg1V0hFQUFvcHVZQ2F3TU5BOEd5ZDd5Z2hQWGs2ZlctLUtHd1lULVRaT3ZTQzFhcHJRS0pBMkFPVWctN2ZrSDctX1ZrRVRC?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "Tim Cook (蘋果)",
-"summary": "蘋果CEO Tim Cook於WWDC發表最後一次主題演講。",
-"why": "Tim Cook卸任象徵蘋果領導層更替，對科技產業創新與蘋果未來策略有深遠影響。",
-"source": "Channels Television",
-"link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM3oxX2JJSzN4b0p5N19EVEZXVE9HRHdhNEZiWkpOQ05lZDZpd3RFNEpGZkRSaC13eE85cXBlSWJzTlNpVnRGYS1KdHh2UjlteWlHRVBRTkFKZnM1X2EzYmhmd3F3dHYwSF9HSDlady1STEw5T2MzOHI4ZjJlc0R2TG5XRWFJRWF0NGdmSkcwZHo3eDRHT3hHWTF5ZEx5V0xoeExVWUJxUXpmLU9NNGdySU11ZXBRd1VIX3JqSjdySmlLQW9Bd2NoVFFoS095LWhqeF9nWWtpVjdNZ2pHYXZjcGU1RU1hNGdWOXpNZm02ajNTdGViTm9hbDlXeEk1SXc3TjNzRnFIT0hoLXpVdVk3TDByVlgwRnkwbThhS1pwck85SGtnc3JXag?oc=5",
+"summary": "川普暗示將對北韓核計畫採取新策略。",
+"why": "美國對北韓政策轉變可能影響地緣政治與全球安全局勢。",
+"source": "Al Jazeera",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTjZtLWp4eUl5V2VtcUlsNmd6WXJYUkJ3X251Vl9wVUtjM1EyTUE5N29meVc4MlE4cFJ6VUtPZEpXSWoxZUhZTU51bHpXaVliZTBWbFJWazRjbUJacXZlc2swX1F0NXRGZTdzRlpZR0Q3SmFWNlI1Nl9OSDhRTVFzdV94Z3lhX2lKbXZSX2g4el9hejQwSngwZlhXcjlILU8yUW9ORtIBqgFBVV95cUxPeTUxdnMySThTTFZaM0pZbmNreWtQWnJUWXFEOE4xZ1RoWnF4RV93R0NpSXV2c2JnMmdqZWxvS1J0SmwtZXFUbFNMTmxreTBlMldFTHVIUGt1dnU3cGQxTVhNa2NLU0ZCOXF1QUU3LXQ3al9ZT21zWTJ6Z0hJSWJ1b3FEVXNBLWg5UVFRTXZ6dVJFNVIyNnRuQmk3T3gzSDlWTDV5MUFRVEJldw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Tim Cook (蘋果)",
-"summary": "蘋果CEO Tim Cook警告未來iPhone、Mac、iPad可能漲價。",
-"why": "產品漲價反映全球供應鏈壓力，將影響消費者行為與科技產業定價趨勢。",
-"source": "says.com",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50V1gtQnAtUHlKTmQyYkZOWk53RGJTZS0wVzQ5UThhM3ctSmcxZk5UWXUwejFXbldwV3NxQ0xaU3ppZ1hITS1BRVpNaXZfZl9OZnFNbnRZVTZ1UWd6YTR6NEln?oc=5",
-"time": "3 小時前"
+"who": "川普",
+"summary": "川普批評奧巴馬的伊朗核協議，並提出自己的版本。",
+"why": "美國對伊朗政策調整將牽動中東局勢與能源市場。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXBsT2pkRGRMZHpyYjdtbTBDd3FseC1sdWtMakNZeU9fdzJHSkRSalBkN0Zzb3RxcHFJYmVURVVETHZ5cTltaC1zeVEzQ1NWRnBVdFpTTEVrY0ZTYnY4bldWa3RFU2Y3WDg1enFuZ2RwMDVVclJLZldTVUFzZ0htYk5mR3RlbkliRlBETDEtbmJBMXItUWVLanJvOGF5bEhGazlDZFViZUkxYjNC?oc=5",
+"time": "20 分鐘前"
 },
 {
-"who": "Andy Jassy (亞馬遜)",
-"summary": "亞馬遜CEO Andy Jassy明確向股東表達挑戰輝達的野心。",
-"why": "亞馬遜進軍AI晶片領域，可能改變雲端運算與AI產業競爭格局。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQTXQ2M01oVWgtbVlCZzJBbmYxZEpwOUc3WDFlUnplTnZGczVRVmxXdkZPSFNDUE1WTXl1QkZfcnNkT0tvbGdUc3VHY1REVWNKUFlxWXh3TTk4bmVQcnhTUUJNZVpMTUVzWFhrVjJ4U21tSTd0Vk90UGxXVHBNTGllUWRBb3BDemdicG9IQ2lMcUhKaGZjWmhiQjN6OE5xUTlEamo2d1pvS2czOHpkeC1IN1pwbFhSa1d2X0UyS1paNFptb0lpbHdVZmhpZnBKakRHdHpad2daYUJrVkdnQnZtUFAzU1hWT2lHM2lEaVlKY3pPalpMNldxdEQ5VFFrMC1DOWIyQzUwMEVBTWhoT0dwSWZzdWpxQ3VWRnVVZjVScDNqR1BtYV8xU3phczM3UEcya3YyNUFFaGZNTVR6bFHSAcMCQVVfeXFMTmdSRVNKbUpaUV9jU3R6SVBoakJvX1dqUnJiUnZvMDJIWWd0dUdZT0xZb0FBelRhalVaaHBKVmFBLXlrdlhOelBuZ1RPdUhHVnBTblVPQlJsdDgtTW9HVUlSMndXNktEZnJwM3BXOHlpUHJZMldPVTlTRWs0Vm16Vk03cXB5MEhCa1NpYk5DUWZ0REY4bGhuQnBLb3pIcWMxdUg4bzBZMElKTTE1T2MwNFZhXzFOV1g1eW1MYnEtRDVtM2tKczRwaVhKazNBM2VhVHlzT25Ud2VuVEx2Ujd1cXA5U2xhMVVIVElQVlBMVFlpZkgwcWVEYlBxR2pKTUxUUFZNWlRYQUo5NnItMW1EcEU1V0EwdEhiQmRGUndreG91MnJMOXNmT2ZaRjRUV0pUX0hpR0pkcXlTSS1yRWFIMDRzMmc?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Lee (南韓)",
-"summary": "南韓李在發言中表示川普願意考慮對北韓核問題採取分階段方式。",
-"why": "美國對北韓政策可能調整，影響東亞安全局勢與國際外交動態。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaDJLR0xnUVdPaEtuVmFLTUVlcXpJSl9YeVh3RXI2X1lJeGpGeW4xempqMjlfZm1OU3hhVUJEWFhHWGowRUx6YU1Yenl2MGNJdmtmdzRnVVpJbDJlcmI0dnVkYkN1SVZpcjVSeG1BcFdaaWRRTjZmZnRienRRR1VqNDZuY043MUoxYXdYUkU0Z0gzeWN6N3pjcERiYXBWLV9qVU1sdHFLUzBYNnZfU1FSWnFRZE9hUDdRNURfUlFZaDQ0YjlrSHlSeEs2aVFlTUJRc1MzdGRfeWFSek0?oc=5",
+"who": "蘋果CEO Tim Cook",
+"summary": "蘋果CEO庫克確認產品漲價不可避免。",
+"why": "全球科技產品價格上升將影響消費者行為與產業鏈。",
+"source": "Tom's Guide",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMHhiWmJmaGxNTjdXR09xZkVXaDF6TXJEaktDTkVtM3gzTy1xLXBza1RUR25zemVBV3RzTGZlMWlPdWZmVVVwdHBZbHlDcW1GMkY5eHZQQld4WDRXNlU0QkY4UGtBeE5CRTFhbldTVkRzMldPd0VDYVJaVlJCenhxaFBrT3gtUHM4c3BDZC1VWS1Ocko3VkVCYmptblpjUUFESWQ3dFhtZUVBQ3diOHg0cmxwczI0czZ2MHZUU0tyaw?oc=5",
 "time": "1 小時前"
+},
+{
+"who": "Mondelez CEO",
+"summary": "Mondelez CEO警告英國不穩定的法規將威脅未來投資。",
+"why": "大型跨國企業對政策環境的警示，可能影響外資流向與產業布局。",
+"source": "Food Manufacture",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSmdJU1h0blJkZDJPY01TeGplYWRzaVpiWHVmcTFVbHlwU2FHdWV1RXZ0cktPd256M1lRMzVUSzlHR0x0eU5YR3NFd3hwVjR6M0RFQWw3eE9fOXo3TEYyZUFCeW9MX0xrcXI1OExqSGpUbjkyMjVFTU9HTnhrcUVEdXZxaGVaN2lQenVNVlBKb05jQmJoX0FCampHcWUzOEk3ZmRBRExBaDdSV1JhTnBJNHBIMzFSck1lcXk0RA?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "OpenAI CEO Sam Altman",
+"summary": "Sam Altman坦言對成為上市公司CEO毫無興趣。",
+"why": "AI領域領袖對上市公司模式的態度，反映科技產業治理與創新趨勢。",
+"source": "Fortune",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc3RHLTZueHhBbkZGdjdEYmNMQkRMYml2VVl4VnBESGFUWE1wNUVLQ1pIbjJMTS1zektZMk5uWDEzSE9SX0EzQlN2Q1EyTUdRVjNWU1BrSE9NRGw4Y0liQVpZdGJUamc3RUlqd2ozUFdNN0hKNWJLWUw0M2FjTFlZWWl0V3VLMTJGUUFsQnJINFNRY29tSm5oOFdXSnVyRC1mSFRPMzR3?oc=5",
+"time": "22 分鐘前"
 }
 ]
 }
