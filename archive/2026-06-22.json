@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2360",
@@ -165,8 +165,8 @@
 "dist": -0.08228980322003576,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "測試設備",
-"theme": "自動測試設備"
+"group": "半導體",
+"theme": "測試設備"
 },
 {
 "code": "2368",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "石英元件"
+"theme": "晶體製造"
 },
 {
 "code": "3090",
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "被動元件代理"
+"theme": "電子零件代理"
 },
 {
 "code": "3189",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6257",
@@ -466,7 +466,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測服務"
 },
 {
 "code": "6271",
@@ -616,51 +616,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "銅箔材料"
+"theme": "銅箔基板"
 }
 ],
 "news": {
-"takeaway": "Meta與蘋果、微軟、川普近期重大決策與發言，將深刻影響科技產業與地緣政治未來走向。",
+"takeaway": "川普與大型企業CEO近期發言與決策，將深刻影響全球政治、科技與金融生態。",
 "items": [
 {
-"who": "Meta CEO",
-"summary": "Meta投資9億美元於Cred，並任命Kunal Shah為WhatsApp全球CEO。",
-"why": "顯示Meta加速布局金融科技與通訊領域，WhatsApp未來策略可能大幅調整，影響全球社交與支付生態。",
-"source": "Firstpost",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb0U1allRejVoSU9wVFd5MWdVMXhveU5sWmhoVHV5SmJFenZyQTA3U1ZybHpHaVdXSDNMMkVJT3UzRER3YVlnajJNTGVyNmNNazYxUzBLUl9VRlVtVWtGanpseE9HeHNNR01DVUQtbFFaS0hJM1J2QTY3eXR3QVBaMkkybnFYRURLZmpfRXVsY0xPMVZFSTRwRnFpR0R4ZWVxNVlteF9MdGhuemxRaDMxONIBtgFBVV95cUxQckZuS29CM0NGUjI0bk5hdTFDSTdZWmI2c3l0R2VwTmZqZ3IyUEZ3Wk1vSUpvSlk2LUNaOHFZUW1waWZGREF0cVFGdGgyVkZRQkU0YTBmRk5oSGJ3bE9TUlVMbUhjSHVTWXp6bkdXY0JnOVhWRlpDTFB6OURFeTJOY1E3QXpjUHpTRDBfeko5eENKbzNmNWhSM3J2WnBTRkxVbUY2cWh2OW8xTWZIRW5LSUl0c1JRUQ?oc=5",
-"time": "50 分鐘前"
+"who": "John Ternus (Apple)",
+"summary": "蘋果新任CEO John Ternus面臨復興經典設計並制定2027年產品路線圖的關鍵考驗。",
+"why": "蘋果領導層更替與設計方向調整，將牽動全球科技產業創新與消費趨勢。",
+"source": "MacDailyNews",
+"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMDlrMXZ5WkhHc3ktQVNfVUlid1pwQVVwc0lVckhlWHRyNHdHTXF0Mm9BMV9iOXBCY295djlRa2xKRFpKRjMxRXpRR0d0RTh6akVDOWFvNmlqaEdjOG1sS2twZU9nLVRodUREd1paalhjaVhGVkZpYmVSa2hlRmhMUFZqb1N5NXNEMGxVcDg5Q0xWYTNhcW40UEVxQWpWNnlpaGJKTmpSWlRKR3I4cm5IVnlNUW53ZnJMeXlYNHFZRjJvRU1NM1FHYXNvV2hlMFRaR29iSXBCdDhENHJCT1NTWFBQb3PSAeoBQVVfeXFMUGo2ZlBuNWdtUW5SdUs1bllndTMybVJUWWdhWGxQM1pNQUtNeHJaSHAzMmlxLV81VDVFc2dPajZ1aEZEd0VBMWNBM2tHMmhhZ09jSFhpU2U5ZXNQcWFTVlotcW9HOVMxUldyeDc3RlktYXFzbUhzRlJ3QTVxaTVnYnVNLWtiNEpHRjRqNVpXd0p0aVliUFJLSi02N3l6QlJ6WTlzcklSLUdobkRLZHQ4WTZCM240bkZUTkI2bVFKZFRXbTVhLWZjVmxSQi1mb0dUbGEtUlhsbUVQWVNBc2dYa1JqSnhacGF6WHVR?oc=5",
+"time": "38 分鐘前"
 },
 {
-"who": "蘋果新任CEO",
-"summary": "蘋果新CEO規劃重大設計革新。",
-"why": "蘋果產品設計將迎來重大變革，可能重新定義消費電子市場競爭格局。",
-"source": "Macworld",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd3N3N3hrS0lYNkNqOWdLVWNtbEZrSlNlVTFjdC1CWTJlbHAzQXpLVHRWQ09lT1VHM1hZRTdGVjVFM251QkZweXpWSXV2dURLOVBTNlEwUTBNYWdySGVPeHFZcGRza2J3Si1ia0VSZ0VNMmFkN0g5VXREMTd5Z3JqMUY2RW9oUERjT09aU08td0kydw?oc=5",
-"time": "34 分鐘前"
+"who": "Kunal Shah (WhatsApp/Meta)",
+"summary": "CRED創辦人Kunal Shah成為WhatsApp全球CEO，Meta同時對CRED投資9億美元。",
+"why": "科技巨頭高層異動與資本布局，預示金融科技與通訊平台整合加速，影響全球數位金融生態。",
+"source": "WION",
+"link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNN01lTkMxTEhxZkV1V1BqWHRJSzN3QTBZRjBWb1JfWXlGdnZIRzl4SGdsaXdjTGh4OVpFaVhsRUxxX1ozSlE0dThtdEFHdnRmQkFaSENibTFFM2piNkFaelFFdDYtbnFNZ2FvR1JaS2x1RHpjOUtfMnltamVmcEJXc21ZXzdublRhSVlwWkhUYUhMS2VaMWNBdElEZ3FjWHI2a2ZPOVRZUjB2VTY3clpXeWFLdWVzaWQza2w2RFJCMU1wdVRwNzQ4Yy1wbnZBanBnTks5Vnp1dHhvaTVzRFM5NGN4Ty1GdnJ00gHuAUFVX3lxTFB6S1NJcnRBRFhraVZrTU9SRnFGNU8yTUduaTg2WDZQTDVoLURKVkpiWm1aTlM1RlNtb012NG1LWmdEOW1vNkxJZ2pBVEpuMWhYMG5ETlJLeFJlWlV0aGJDUkt5M2hJenQxNkNMbGItYXJhQ0NhR3ZReG5QLVlEaDZqdkxVdlMwVlN4S1d1TlEzNVUtVzdtc0FyZ3Zya0VQZWJTUFBVT2V2REx5NjRvYnBFWVVfeWMtdVNrNXBQZ3EyZjE2Smh5aUxtSm9XRnAxU3otSHdLNU1fUzVNS2U1bjVOLU45UGRKbzE3N2ZXbEE?oc=5",
+"time": "35 分鐘前"
 },
 {
-"who": "蘋果CEO Tim Cook",
-"summary": "蘋果CEO Tim Cook證實iPhone即將漲價。",
-"why": "蘋果產品價格上調將影響全球消費者行為與高端手機市場競爭。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOWGZQVmVwamxBNzNsTWlTSWVGUmI0WFV0ZzVycm5MSEtheXFiSWxBeVFySVlFb1hsUjRDcE85cE91XzkwN2hyMGxOUGgtQ0FkUmxoV01rU3lWTDExRHZUbzFSOVF4S3htMTdEc1NuV3BFTVZiOGdseXo1ckl5Y3VXVUItbFh4Ty1FQ2hsOUw2Yk5nd00yZGhwSVZSd3VNbWFqY3BCbDNNMnBmSEF0QVVoTDFmbjNsUWQyVy1MbUNYSG9uTThGMDRHZkxIQ093bFFjdTNpQmxndV9zUGFHbXRZR1VWbmktbHpfZ2VDRTlmb3Awc1ZTaWFJdlAwWHkxeDBQcTkwQnhIWXQ1WHRrUWfSAZMCQVVfeXFMTk03enA0SThLVUpHUGg4alVnNFVOMmtGZks4U3I0cHROM3RfNlZMWkJ4dURsemZnV2FtRjcxeDZ2RXdGdlRSS2FlanI2WlFBSnRIcDNmTTY5UzZnOGZEcml6TWh0cmxWb1pSZjIwenFSWVNpRVA4UmJWMmN6d3BScXNfV3VGRU9TRUhva3lNQk0tT2RCcktXT2hOcDFpNE1rYzJ6Y3k1Q1ptNWYwTk5nWHh6bnZxTDBPVnotZW5FQmRDcXRjMTJuUnhyRjJuOUZybk5FVmJ6QjRXZWNZaGF3cXBpZTZKa3ZTVEFnV3N4ME5Sd1RGSnUtc3BQNmpKbDJGeDNVaC02SzhSVzVJV2ZqSmpaSU0?oc=5",
-"time": "44 分鐘前"
+"who": "Satya Nadella (Microsoft)",
+"summary": "微軟CEO Satya Nadella強調AI企業需以實際行動贏得公眾信任。",
+"why": "AI產業領袖呼籲責任與透明，將影響全球AI治理與產業規範發展。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd2pwdHRrcXJlRmU5b1QzaFdMWm40ODdsUGdpbG9VWFU4S0VJSnN6cW9CR3F0ZG9lZmhmd1dKY1dCNlk2TGsxekh4aTM0RDMxUVBDWlRDVG9ma3BtaDlFbDUzYm5WS2VuSUFELVlRR0hmaVotc05yNEFQeV80TFRuYlVhdEpRaHFpV29mVzZrYThaX051X0ZxRnl6bzNucjJkelRYWlpnMTBQeVpCQW9zaURhT1E5ZEdqbWZUcER1X2JkRWp1eHpQNUJsX2dGLXJiX0l3OTY3SEtwdTdfSnVETXVLODhsQm5wUDUw?oc=5",
+"time": "39 分鐘前"
 },
 {
-"who": "微軟CEO",
-"summary": "微軟CEO警告AI權力集中不可被容忍。",
-"why": "AI產業未來將面臨更多監管與公平競爭壓力，影響技術發展與產業格局。",
-"source": "International Business Times",
-"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUQzMGNJeEY5OXB6YzV3RzZWVG1xbURxQl9Yb01TM0x2OUtqM1oxNC1GQzNFTEp3R2Y5RFp0dmtjdGJZTDFzRjVZa3Vnb19hMHV3NW85c1JHc3VlNElNVW9fTjdQbUpCejNuQVZESGpmajl4YWFmV1I0bHVoOHdPLVNuSzVoeDRrMnFST2VLc2ZoV18tZXA4eU9hNWtjS2FWc0FYTjRUMG1INnJ1LXY3ZXhzU21GaUozbXloTWc3WkFCS1R1Nmc?oc=5",
-"time": "44 分鐘前"
+"who": "川普政府",
+"summary": "川普政府支付7.65億美元終止四項風電租約。",
+"why": "能源政策大轉彎，對美國綠能產業與全球能源轉型產生重大影響。",
+"source": "WorkBoat",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTWg3MGltZ0FHaVkwbGN4ejJRMVFsZWt0bDRpN2FqU0s1M0Qxa0k1TElfSVd3T29FdjVuaExGRVNWak1uazRTM3NaMlF5YmdZNWxhdndvb1JqSGJkY3RqNUFUdC1IemdWQkQtNHh4bEhFVm1uQ3FJUmhoVGpySllQODRTS3JSR1lCZWs5RXhaa0hyQUs2X2Rzc2hhLXEtZw?oc=5",
+"time": "11 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普推翻原本要廢除關鍵海洋觀測系統的決定。",
-"why": "顯示川普政府對環境監測政策態度轉變，可能影響美國海洋與氣候相關產業發展。",
-"source": "Oceanographic Magazine",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdU1GYUhjVnh6RGdJa21URHJ1VUpUYU1DYV9UejRnUE5lVTJFakY3MVh5RURTb3BrOEVSbmo1d01XVVZQaFJZbkV6V0M0ZkJacmpuSW04dGNOdWo0UmNjSEw1aHFnTmZxWTMxSFRxbWZUVklQUFhEUXFpYmpCSHhMa0ZpOEowWlhiR0VEeFp2U0F4QTZnc2NJbzRtTEk2QmgxbWJvSHAyaXQ1QQ?oc=5",
-"time": "58 分鐘前"
+"summary": "美伊在霍爾木茲海峽談判取得進展，儘管川普發出激烈威脅。",
+"why": "美伊關係緩和與川普強硬態度，將影響中東局勢與全球能源安全。",
+"source": "Euronews",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcE8tOFctWXJ0R1ZnUUx4R3N5cFBnRTROSVlqeFZZYzB6WTE4TFpON050c2JkckJsY1FUUEttWEp1ZnBUN21LSVdrLWhfdkdxU2NXdlF5elRoNms1VlJ0LTA2MXE0NVY4QWVvUE9pNnd3eDJHRjJUczdJQWg2SGVvNzRZelEzaWVfME1TUVYxWUpPbWg1ejB0cUVCQjJTMnVLUGQyaGRR?oc=5",
+"time": "1 小時前"
 }
 ]
 }
