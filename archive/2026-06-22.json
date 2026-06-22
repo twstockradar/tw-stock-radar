@@ -1,7 +1,7 @@
 {
 "date": "2026-06-22",
-"count": 41,
-"focus": "本清單以AI伺服器、半導體、PCB/CCL、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、伺服器零組件、重電、光通訊、被動元件等。",
+"count": 35,
+"focus": "本清單以AI伺服器、半導體、PCB/CCL、被動元件、散熱、電源/重電等族群為主，題材集中於AI伺服器代工、先進封裝、CoWoS、伺服器滑軌、散熱模組、重電、光通訊、ABF載板等。",
 "stocks": [
 {
 "code": "1303",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "網通交換器"
+"theme": "交換器"
 },
 {
 "code": "2360",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2375",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2379",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "IC設計",
-"theme": "通訊IC"
+"theme": "網通IC"
 },
 {
 "code": "2382",
@@ -271,7 +271,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2486",
@@ -286,7 +286,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電感製造"
+"theme": "電感"
 },
 {
 "code": "2492",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "石英元件"
 },
 {
 "code": "3090",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "4958",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "6213",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測服務"
+"theme": "封測"
 },
 {
 "code": "6257",
@@ -466,7 +466,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測服務"
+"theme": "封測"
 },
 {
 "code": "6271",
@@ -527,100 +527,51 @@
 "limit_up_count": 1,
 "group": "散熱",
 "theme": "散熱模組"
-},
-{
-"code": "5289",
-"name": "宜鼎",
-"market": "TPEX",
-"close": 1970.0,
-"change_pct": 2.072538860103627,
-"trade_value": 5786025200.0,
-"market_cap": 189784711490.0,
-"status": "PULLBACK",
-"dist": -0.11363636363636365,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "記憶體",
-"theme": "工業記憶體"
-},
-{
-"code": "6182",
-"name": "合晶",
-"market": "TPEX",
-"close": 116.5,
-"change_pct": -2.9166666666666665,
-"trade_value": 9874318638.0,
-"market_cap": 66828865445.0,
-"status": "NEAR_HIGH",
-"dist": -0.029787234042553234,
-"limit_up": true,
-"limit_up_count": 1,
-"group": "半導體",
-"theme": "矽晶圓"
-},
-{
-"code": "6274",
-"name": "台燿",
-"market": "TPEX",
-"close": 1900.0,
-"change_pct": 3.5422343324250685,
-"trade_value": 14413499720.0,
-"market_cap": 548671810300.0,
-"status": "PULLBACK",
-"dist": -0.11294765840220389,
-"limit_up": true,
-"limit_up_count": 1,
-"group": "PCB/CCL",
-"theme": "CCL銅箔基板"
-},
-{
-"code": "8043",
-"name": "蜜望實",
-"market": "TPEX",
-"close": 213.0,
-"change_pct": -5.960264900662252,
-"trade_value": 5993322573.0,
-"market_cap": 17020227210.0,
-"status": "NEW_HIGH",
-"dist": 0.0,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "PCB印刷電路板"
-},
-{
-"code": "8299",
-"name": "群聯",
-"market": "TPEX",
-"close": 2580.0,
-"change_pct": 1.9762845849802373,
-"trade_value": 19518392375.0,
-"market_cap": 570401227260.0,
-"status": "PULLBACK",
-"dist": -0.14930555555555558,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "記憶體",
-"theme": "NAND控制IC"
-},
-{
-"code": "8358",
-"name": "金居",
-"market": "TPEX",
-"close": 691.0,
-"change_pct": -1.2857142857142856,
-"trade_value": 18790598495.0,
-"market_cap": 174538308000.0,
-"status": "NEAR_HIGH",
-"dist": -0.08839050131926118,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "銅箔材料"
 }
 ],
 "news": {
-"takeaway": "",
-"items": []
+"takeaway": "川普政策與大型企業CEO發言正引領未來政治與科技產業重大變革。",
+"items": [
+{
+"who": "Microsoft CEO",
+"summary": "呼籲AI產業應從競逐大型模型轉向包容性、低成本路線。",
+"why": "可能改變AI產業競爭格局，推動普及與成本下降，影響全球科技發展。",
+"source": "富途牛牛",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNkJIc3A1MmZVMi15OEtyMGtzdVkySERGU3pCczlrcy1EY21jUnRoQjRQUmdqS3VpUmItZHdHaFNLVWRsTW53VUd5azZZYTVzWDBfMVpJV3lMSDJLVmstcDJDMUhRSThwU3FyRldwSGVheE1MUlRkeWdtZl9neWlIUlRhbWN3azFOdmc4M3o2LXdKdFktZnYwSW9NcHBxYW1Sb2Vhag?oc=5",
+"time": "11 分鐘前"
+},
+{
+"who": "Intel CEO",
+"summary": "積極推動與蘋果合作並展現強勁成長願景。",
+"why": "代表半導體產業與科技巨頭合作深化，將帶動產業創新與市場擴張。",
+"source": "Blockonomi",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRl9lMDloempkQkcya3Z2UDl3b1JGTU5wOHlQakJQLXk2ZkJqRGJhTVhnelVEaEFCeDlTWEFwakVTX1E3MkxQVFM0UlZZQVpKYzlya1ZjUk5UT0tlbDhqSk5hMU5aM1gzY1BxRHZsMllJUl8xRmp0N1FzenpHNWxtR29vdlB6cGRDZlg4OFZoYVBCZTdNTk9ia3l5cHlpZEJtTlJ0bjJrdFp5dGMzcFE?oc=5",
+"time": "28 分鐘前"
+},
+{
+"who": "Apple新任CEO",
+"summary": "蘋果新CEO需重建設計團隊，聚焦設計創新。",
+"why": "蘋果設計方向將影響全球消費電子產品趨勢與競爭格局。",
+"source": "Bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMlBfU3VvSzM2d3FlSXFPUFZGdEtvWFlXS2xpZVR0VUgyb1R1MFdSZ0RBYXNETGxvWmZnX2k4ZXp1UnEzNEpEUHV4ZjQtVHE3cEVXRzhEODNrWUd1TDZPMDdvOWhsWHdHd0JhYldSbC1yS3dhbEVPekZXVlNZQmxMRjZVZkVmeFktel81OGlkQ0JSclJmM2dWdkVsSlNMVGJnTWgzT0tla1BEZ21kcFBDOTBtTzhNblNBaGs0bndtcDk4bmNPaC1lXzdMUnYzN0h0cW15VG13?oc=5",
+"time": "32 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普違抗國會，擅自決定對外援助政策。",
+"why": "顯示美國行政權力擴張，可能影響國際援助與地緣政治局勢。",
+"source": "ProPublica",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOejdFQnFndXJvY0lMajlDbkNObHBqQjJyS21hNnJDRDBBMXA4dE1rYzBiZ2pfMm5KRmtoSmpLbGFlQWE0dFFZekFDcWtYeVdRWE9nZFBJaDJsY3puT2FjTkR6QV83UVhhckp2My03VWR3U0ppUW1TRUNOaU1lNGhGeXYwRDc3d0tvYzljaTZkdzdBVHRsaWx5SVFjRHJ2RmVSMVdULTVYUHdiNWZRNWZj?oc=5",
+"time": "17 分鐘前"
+},
+{
+"who": "川普",
+"summary": "推動聯邦死刑政策回歸。",
+"why": "反映美國司法政策重大轉向，對社會與法律制度有深遠影響。",
+"source": "Massachusetts Lawyers Weekly",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcjd2TW02NDRxM1hQNGVqNERvLUxRSlhNMVhsY1ZUOGw5enRDVWhQbmVjWTZXcko4a21XWm1qN1ZJU0lIWjBTWUl0MVhMMVZXb0VmQVhHbHpaWDNNaEE4T05UTnU3SU9EUDZab3JzZXNUYk1paEFnVkdCOXhoN3NheGxmc09Zc21wY0ZGZklnQ0dRVk5GWk9pZm5kLUNZUQ?oc=5",
+"time": "3 分鐘前"
+}
+]
 }
 }
