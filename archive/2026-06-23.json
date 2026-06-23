@@ -1,7 +1,7 @@
 {
 "date": "2026-06-23",
 "count": 37,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電、光通訊CPO等族群為主，題材聚焦先進封裝、AI伺服器代工、CoWoS、散熱模組、ABF載板、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "電源/重電",
-"theme": "電源管理IC"
+"theme": "電源管理"
 },
 {
 "code": "2308",
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 2080.0,
 "change_pct": -3.255813953488372,
-"trade_value": 31217386935.0,
+"trade_value": 31234149255.0,
 "market_cap": 5402890124320.0,
 "status": "PULLBACK",
 "dist": -0.11025145067698261,
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 259.5,
 "change_pct": -3.35195530726257,
-"trade_value": 24068608248.0,
+"trade_value": 24189817018.0,
 "market_cap": 3640434318447.0,
 "status": "NEAR_HIGH",
 "dist": -0.0939490445859873,
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電阻電容"
 },
 {
 "code": "2330",
@@ -114,7 +114,7 @@
 "market": "TWSE",
 "close": 2490.0,
 "change_pct": -0.796812749003984,
-"trade_value": 92728430340.0,
+"trade_value": 99064704659.0,
 "market_cap": 64571601466830.0,
 "status": "NEAR_HIGH",
 "dist": -0.030737704918032738,
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/網路設備"
+"theme": "交換器"
 },
 {
 "code": "2357",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器品牌"
+"theme": "AI伺服器品牌"
 },
 {
 "code": "2368",
@@ -181,7 +181,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "IC設計",
-"theme": "通訊IC"
+"theme": "網通IC"
 },
 {
 "code": "2382",
@@ -219,7 +219,7 @@
 "market": "TWSE",
 "close": 4535.0,
 "change_pct": 1.5677491601343785,
-"trade_value": 83924723435.0,
+"trade_value": 85339643435.0,
 "market_cap": 7273665670745.0,
 "status": "PULLBACK",
 "dist": -0.13480885311871227,
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "整流二極體"
+"theme": "二極體"
 },
 {
 "code": "2492",
@@ -256,7 +256,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電容"
 },
 {
 "code": "3006",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "記憶體",
-"theme": "DRAM/NAND"
+"theme": "DRAM設計"
 },
 {
 "code": "3017",
@@ -279,7 +279,7 @@
 "market": "TWSE",
 "close": 2425.0,
 "change_pct": 0.2066115702479339,
-"trade_value": 7206720530.0,
+"trade_value": 7492793463.0,
 "market_cap": 951916791975.0,
 "status": "PULLBACK",
 "dist": -0.1362126245847176,
@@ -324,7 +324,7 @@
 "market": "TWSE",
 "close": 662.0,
 "change_pct": -1.7804154302670623,
-"trade_value": 29969553251.0,
+"trade_value": 30149725751.0,
 "market_cap": 2953071500284.0,
 "status": "PULLBACK",
 "dist": -0.1375186846038864,
@@ -339,7 +339,7 @@
 "market": "TWSE",
 "close": 587.0,
 "change_pct": -5.627009646302251,
-"trade_value": 23296997831.0,
+"trade_value": 23864039831.0,
 "market_cap": 633620041885.0,
 "status": "NEAR_HIGH",
 "dist": -0.03393427486959766,
@@ -504,7 +504,7 @@
 "market": "TPEX",
 "close": 6680.0,
 "change_pct": 3.968871595330739,
-"trade_value": 8424018360.0,
+"trade_value": 8443540860.0,
 "market_cap": 654515144120.0,
 "status": "PULLBACK",
 "dist": -0.13503375843960985,
@@ -549,7 +549,7 @@
 "market": "TPEX",
 "close": 657.0,
 "change_pct": -4.92040520984081,
-"trade_value": 12187553024.0,
+"trade_value": 12306495454.0,
 "market_cap": 165950316000.0,
 "status": "NEAR_HIGH",
 "dist": -0.08839050131926118,
@@ -560,47 +560,47 @@
 }
 ],
 "news": {
-"takeaway": "川普推動量子科技與資安政策，企業CEO聚焦AI與新技術布局，顯示科技與資安將成全球未來競爭核心。",
+"takeaway": "川普推動量子科技與加密轉型，企業CEO聚焦AI與價格調整，將深刻影響科技與產業未來。",
 "items": [
 {
 "who": "川普",
-"summary": "川普簽署量子電腦相關行政命令，推動未來科技發展。",
-"why": "美國政府積極布局量子科技，將影響全球科技競爭與產業發展。",
-"source": "Yahoo",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmpqa1RjNUE5bmFmU0lDakZucGpvdUttLUtXMnlMQW5fTlJOeloyU2tDU0tLNlgwZ1JpeGhDckR2VTVwTWNTU1MzSkxQNXlFOGh1aEw5QXBrRHNzTnNGbm80ck10RGswVHJnNlI5b0pSUW93aXYtM1hqRlJvTzJacE82aGZQV2tWWl9yWXNZWUJERE0xRlNFSElkN01TMG8?oc=5",
-"time": "22 分鐘前"
+"summary": "川普簽署行政命令推動量子電腦建設並強制聯邦機構遷移至後量子加密。",
+"why": "此舉將加速美國在量子科技與資安領域的發展，對全球科技競爭與加密產業具深遠影響。",
+"source": "unchainedcrypto.com",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSXZrOG0yLTQ0ZEdpY291dDlPYnJiTHYwbmlUNHM0cWVUOThodHVHdkNNQUpoSEt1aU5YMDc3aXY5NWE1M1AxSWkya0tPdkNfNENReERGdjZyTXVOOTY5TVhWRmp5bFNtdjZyS1kwRDRsM0tQM3dUX1o3cG4weDBDdF9aQnZWVktpcFFKMi1TNEhsdHBpVzJ5a2VkUW1Ec2ZVc1IxSzk2SHZiZEdIV29HSjlNQVZ6eFFjRTBwbzEwaE93d0RvNTBjenNDcw?oc=5",
+"time": "54 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普要求美國聯邦系統採用後量子加密技術。",
-"why": "資安升級成為國家戰略重點，對全球資安產業與政策有深遠影響。",
-"source": "ForkLog",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcWxZZG40NDVRd2dJdnN0bDEtSmduTEhINWJOR1dZT0p4NjVsR19ROWpYUzBweDRJZVpKYVBYUEFqLXR4NS1BVWU3Q1RtaElUSzc1MDhqRHFpanUyblk0cFEtU3g0cFJfZzZGRFNKZWlwRDEzUDNra0o0dHlSOFZ5V2ZXOUpDdDg0NldpWUN3UnktZUhGSlZiSw?oc=5",
-"time": "49 分鐘前"
+"summary": "川普設定2030年為聯邦機構完成後量子加密轉型的最後期限。",
+"why": "明確時間表將推動政府與產業加速資安升級，影響全球加密標準與供應鏈。",
+"source": "Tech Times",
+"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNekZyZ1E2LVBMZGZ4eTVpaENhWEp4UVNDOWtLX0lKUXMyd3oxNzBwakdKVGs2cXJiSTU4ZS05LWN2ODBGOVZVS0xQMkRmMm5jdUpZa0s1dmdteHcxNFhJOWlyaWdIdnRBREZ5MXBzOTJUMGVsaHo5VHhPMkptZ2pyUl82aW4xVnNlbUVBWThZOTNuX0pDbTZPdk04aktXclQxRndlY0F6a2JBai1MY2dVQmdIMm1fZEs3S3FfcnVGa3AxNEtxU0FHZFZUS2FLYjNMTFBQVVRMaw?oc=5",
+"time": "2 小時前"
 },
 {
 "who": "Microsoft CEO Satya Nadella",
-"summary": "微軟CEO警告AI產業集中化風險。",
-"why": "AI產業集中可能引發監管與競爭新趨勢，影響全球科技格局。",
-"source": "Zee News",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWkFGdXhPdmx5c3RvS0RudlNmLVVFTndSY3pteFpma25VTVk5UVU0TXZtaTdwMm41YXByOVNCRXVVVVR1QjVzTEx2eUs5SkVad19GSklBOEF2YmJ3d3daMFlBLU1MUUZ5U0t2QWFCcE4wZDZpZWhodGNIR0FkU1ZUSEtZTThmTzlmLS1SSWlRRGFVNXlucW9odzZXMmRvYmd0Q3lnNzNUcVZaUkl60gGyAUFVX3lxTE9GY0FKSmhlZ2V0aTNyNHpSc0pZbXRtM3hDcGxTLWVqZjRTZXpBaG94RzhQY1hsR1N5clFibFJZVDkxLVI5R0h3alp4YWZNRXYyM09lNlh0TlZ1eHUyX3F4R2NMWkFVWXBHcU54RWtIR1JCRE9rRDNPZW1peVdZbFA1Tm9RUldDYVQ5VW05NmJOWnIwbE1raFRvTXl3YjlYUmRKaVRscXh1em9OMTd2c2RYUXc?oc=5",
+"summary": "納德拉呼籲企業需進行AI重置。",
+"why": "全球企業將重新思考AI策略，推動新一波技術創新與產業轉型。",
+"source": "Business Chief",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWDZkRXlORzhrcjYzN29kcUpJWEV6RDNpblN1TndfNzBtaDBUcnFTZW5tb2lYT2E4ZGlZcURzSWZQNW5zZzQ1ZzJldW45bXNpYjJjNXB4RjNhNGdJU0FtUjh1ZHhmNVZHdWVZU2Z2YVQxTTJiMzBtazdSTEFQQjV5MXRVeTRGYWVFNER1cWlB?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Tim Cook (Apple)",
+"summary": "庫克證實因記憶體短缺，蘋果將調漲產品價格。",
+"why": "全球科技產品價格可能上升，反映供應鏈壓力並影響消費市場。",
+"source": "whopam.com",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Lbm5JSVdHdklUVElSeEhPWTc1MnRwRnFzaG5pZ2RXYWVqUkd5V2xzaFRIejh1TFE4eXFZQWZWNnlISzZrREo5NGZLanRnUDFuTVdreDJwTEg5TnJjSHk3eGplY05DYU5IeE5EWlVka2lxbXAwRnNtVDQxOW0?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Apple CEO Tim Cook",
-"summary": "蘋果CEO發表對美光科技投資者有利的言論。",
-"why": "蘋果與美光合作訊號，可能帶動半導體產業新動能。",
-"source": "MSN",
-"link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUU5QSkFUanl3N3BoVmotQnRELTlZaldiT0JIVGlSQjZJQkxod2pSaDYzejNQZjJudTZXREVRZmY3Z2FxUTlqVFRqbXhUVEhmaHRfSTJQVVNudmNTZkVrcWZnUDRDUjZhUDAzclIyT2M5Ui05dF9nT2Y3WHVteGllYV9mYVQ5dWNTV041Q0JxT2NiREFXNDlZR2ZmalpWZlBJUGRtSDhzTE5YazFBLWQxUnowVTBwbUEwQVpQTG94S0RUVFB3cC1jd0JxbzZxeEJvWjJpT09DR0hWWnpmWnlkYU8xWC11NVNGUTVLbjl5eHFYUXpxS1lXNUdMbUt2UzQ?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Pure Lithium CEO Emilie Bodoin",
-"summary": "Pure Lithium CEO發表突破性電池技術。",
-"why": "新電池技術有望推動新能源產業與電動車市場發展。",
-"source": "streamlinefeed.co.ke",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeDhUeXVVUUd4UmxxQU5feF85bEZPcTNlS05sZDVjMnhrZFMtTjlFNVJ3SE1xRkdwWldjUC1nRHNFeXBhalNRYmRPSTFHNmlPb3JXUHBha056Z1JaYXlzX3ZrM0l5SEVvWGJKSGt2ZTJPb2NzRnlFNTFWQVVseTB1Y29nR3M4TzA0b0FBWlJKR2VhcVFDeEpuS1lBeDRvTkdManUtWHNmNA?oc=5",
-"time": "3 小時前"
+"who": "CVR Energy 新任CEO Dane Neumann",
+"summary": "CVR Energy任命新CEO並宣布聚焦成長的領導變革。",
+"why": "能源產業領導層變動與成長策略將影響未來產業競爭格局。",
+"source": "Minichart",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3VpNEI5UkNqZGM0ZkNDWk9oYmJfSV9idlM4VHhKMzhsNjM5N2N3T0xfRWVVdXlzT1FEOTBCbnMwY0Z3OVdhdjUxQkNPZVVra3pyNXAwVVFvRVNCZUZpVkRORXJGeTRUODZiY1EtampaM1lCeGRwVjRLNllUQVRsWUVjRmFuZUFkd1FVWjcwN2hWS1ZIRnB2RzdVS3VEblBFYkxuWWF2N0s4eHlWMkpDeVl0c0RYenp0UE1lQWtJcXUyMXZNS1JMWTB2dVNzdw?oc=5",
+"time": "42 分鐘前"
 }
 ]
 }
