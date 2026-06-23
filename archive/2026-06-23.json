@@ -1,7 +1,7 @@
 {
 "date": "2026-06-23",
 "count": 37,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、散熱模組、重電、矽光子、ABF載板等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "電源/重電",
-"theme": "電源管理"
+"theme": "電源管理IC"
 },
 {
 "code": "2308",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/路由器"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2357",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器品牌"
+"theme": "伺服器品牌"
 },
 {
 "code": "2368",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "手機/AI晶片"
+"theme": "手機晶片"
 },
 {
 "code": "2481",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6451",
@@ -481,7 +481,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6182",
@@ -560,47 +560,47 @@
 }
 ],
 "news": {
-"takeaway": "川普推動量子科技與加強網路安全，企業CEO針對AI集中與新技術發表重要看法，顯示科技與政策將驅動未來趨勢。",
+"takeaway": "川普推動量子科技與資安政策，企業CEO聚焦AI與新技術布局，顯示科技與資安將成全球未來競爭核心。",
 "items": [
 {
 "who": "川普",
-"summary": "川普簽署加速量子科技採用及強化網路防禦的行政命令。",
-"why": "量子科技與網路安全政策將影響全球科技競爭與資安產業發展。",
-"source": "Seeking Alpha",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWJOREkzWlJpLW5OUEM5RmhrMkZLYUtLenVISFNKNjVuQnAwQmg5NU40RjZlTVo0RS1faGpNRUI1MlhlSkM1a1dBdk1DYndQazVXS3pGcGdhRUVxM2MwazdHb3FLYXBvNV9Hb2tSZy1yQ09pTUtFUlctOXNPU1dGMFB1cV8zQ1M2REpkYU1KX2tlZXlXZ0ZzNVdWclE0Y3p1b3hFSnRyZTlPRHM?oc=5",
-"time": "27 分鐘前"
+"summary": "川普簽署量子電腦相關行政命令，推動未來科技發展。",
+"why": "美國政府積極布局量子科技，將影響全球科技競爭與產業發展。",
+"source": "Yahoo",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmpqa1RjNUE5bmFmU0lDakZucGpvdUttLUtXMnlMQW5fTlJOeloyU2tDU0tLNlgwZ1JpeGhDckR2VTVwTWNTU1MzSkxQNXlFOGh1aEw5QXBrRHNzTnNGbm80ck10RGswVHJnNlI5b0pSUW93aXYtM1hqRlJvTzJacE82aGZQV2tWWl9yWXNZWUJERE0xRlNFSElkN01TMG8?oc=5",
+"time": "22 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普簽署命令建造量子電腦並保護現有加密技術免受量子威脅。",
-"why": "量子電腦與加密技術的政策推動，將加速產業升級與資安轉型。",
-"source": "CoinDesk",
-"link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdGpHZG1uT2tMZm0xMUprNVRYMGVBZUNuUS1HYWkwaTh4NnByZl9YUk5la1U1ZU9OTFlUMm5TRy14WUJ5RnEtc2pkekVkWW1VNXVsYXFTMjBINXJWT3h3UVZvT1JBMVVVbjV1NFEwTFpNeFdubmpDOEpmMkpIeWhiWTNKVFFkVkRHck1yMnluZWMwTUU4ajBSVkFtTjNrNXg2OG54aHpJbGNkbEhVdFJ1TWs5NUdJOUZGZC1JNTNqTXMxQXY2TVBfUllpcDF5VzNSbzd0NHBlclZ5SW8?oc=5",
-"time": "3 小時前"
+"summary": "川普要求美國聯邦系統採用後量子加密技術。",
+"why": "資安升級成為國家戰略重點，對全球資安產業與政策有深遠影響。",
+"source": "ForkLog",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcWxZZG40NDVRd2dJdnN0bDEtSmduTEhINWJOR1dZT0p4NjVsR19ROWpYUzBweDRJZVpKYVBYUEFqLXR4NS1BVWU3Q1RtaElUSzc1MDhqRHFpanUyblk0cFEtU3g0cFJfZzZGRFNKZWlwRDEzUDNra0o0dHlSOFZ5V2ZXOUpDdDg0NldpWUN3UnktZUhGSlZiSw?oc=5",
+"time": "49 分鐘前"
 },
 {
 "who": "Microsoft CEO Satya Nadella",
-"summary": "微軟執行長納德拉警告AI產業集中化風險。",
-"why": "AI產業集中可能影響創新與市場競爭，政策與產業需關注分散發展。",
+"summary": "微軟CEO警告AI產業集中化風險。",
+"why": "AI產業集中可能引發監管與競爭新趨勢，影響全球科技格局。",
 "source": "Zee News",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWkFGdXhPdmx5c3RvS0RudlNmLVVFTndSY3pteFpma25VTVk5UVU0TXZtaTdwMm41YXByOVNCRXVVVVR1QjVzTEx2eUs5SkVad19GSklBOEF2YmJ3d3daMFlBLU1MUUZ5U0t2QWFCcE4wZDZpZWhodGNIR0FkU1ZUSEtZTThmTzlmLS1SSWlRRGFVNXlucW9odzZXMmRvYmd0Q3lnNzNUcVZaUkl60gGyAUFVX3lxTE9GY0FKSmhlZ2V0aTNyNHpSc0pZbXRtM3hDcGxTLWVqZjRTZXpBaG94RzhQY1hsR1N5clFibFJZVDkxLVI5R0h3alp4YWZNRXYyM09lNlh0TlZ1eHUyX3F4R2NMWkFVWXBHcU54RWtIR1JCRE9rRDNPZW1peVdZbFA1Tm9RUldDYVQ5VW05NmJOWnIwbE1raFRvTXl3YjlYUmRKaVRscXh1em9OMTd2c2RYUXc?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Pure Lithium CEO Emilie Bodoin",
-"summary": "Pure Lithium執行長公布突破性電池技術。",
-"why": "新電池技術將推動能源產業革新，影響電動車與儲能市場。",
-"source": "streamlinefeed.co.ke",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeDhUeXVVUUd4UmxxQU5feF85bEZPcTNlS05sZDVjMnhrZFMtTjlFNVJ3SE1xRkdwWldjUC1nRHNFeXBhalNRYmRPSTFHNmlPb3JXUHBha056Z1JaYXlzX3ZrM0l5SEVvWGJKSGt2ZTJPb2NzRnlFNTFWQVVseTB1Y29nR3M4TzA0b0FBWlJKR2VhcVFDeEpuS1lBeDRvTkdManUtWHNmNA?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Heineken CEO Rafael Oliveira",
-"summary": "Heineken任命Rafael Oliveira為新任CEO，負責提升銷售。",
-"why": "大型消費品企業高層更替，可能帶動全球啤酒市場策略調整。",
-"source": "The Edge Malaysia",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TYTFnN2lwZVZ3dTY2bDAzSWdlQ0lNcmo2WjcwVWVOR0JVS2F6NkdneDhsU1FMTEJJS2ZqcDI5ZXo2cVh4UUg1c3FETEJBdWtC?oc=5",
-"time": "1 小時前"
+"who": "Apple CEO Tim Cook",
+"summary": "蘋果CEO發表對美光科技投資者有利的言論。",
+"why": "蘋果與美光合作訊號，可能帶動半導體產業新動能。",
+"source": "MSN",
+"link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUU5QSkFUanl3N3BoVmotQnRELTlZaldiT0JIVGlSQjZJQkxod2pSaDYzejNQZjJudTZXREVRZmY3Z2FxUTlqVFRqbXhUVEhmaHRfSTJQVVNudmNTZkVrcWZnUDRDUjZhUDAzclIyT2M5Ui05dF9nT2Y3WHVteGllYV9mYVQ5dWNTV041Q0JxT2NiREFXNDlZR2ZmalpWZlBJUGRtSDhzTE5YazFBLWQxUnowVTBwbUEwQVpQTG94S0RUVFB3cC1jd0JxbzZxeEJvWjJpT09DR0hWWnpmWnlkYU8xWC11NVNGUTVLbjl5eHFYUXpxS1lXNUdMbUt2UzQ?oc=5",
+"time": "2 小時前"
+},
+{
+"who": "Pure Lithium CEO Emilie Bodoin",
+"summary": "Pure Lithium CEO發表突破性電池技術。",
+"why": "新電池技術有望推動新能源產業與電動車市場發展。",
+"source": "streamlinefeed.co.ke",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeDhUeXVVUUd4UmxxQU5feF85bEZPcTNlS05sZDVjMnhrZFMtTjlFNVJ3SE1xRkdwWldjUC1nRHNFeXBhalNRYmRPSTFHNmlPb3JXUHBha056Z1JaYXlzX3ZrM0l5SEVvWGJKSGt2ZTJPb2NzRnlFNTFWQVVseTB1Y29nR3M4TzA0b0FBWlJKR2VhcVFDeEpuS1lBeDRvTkdManUtWHNmNA?oc=5",
+"time": "3 小時前"
 }
 ]
 }
