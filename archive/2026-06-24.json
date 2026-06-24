@@ -1,7 +1,7 @@
 {
 "date": "2026-06-24",
 "count": 33,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材聚焦於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/路由器"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2360",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6669",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "記憶體",
-"theme": "工業記憶體模組"
+"theme": "工業記憶體"
 },
 {
 "code": "5347",
@@ -421,7 +421,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6182",
@@ -500,47 +500,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對油價與武器庫存發表重要決策，亞馬遜CEO積極擴展印度市場，顯示美國政策與全球企業布局新趨勢。",
+"takeaway": "川普針對能源、武器、社會政策積極發聲，Amazon CEO推動印度業務擴張，顯示美國政策與全球企業布局將迎來新變化。",
 "items": [
 {
 "who": "川普",
-"summary": "川普指控油公司哄抬油價，並下令司法部調查。",
-"why": "此舉可能影響能源市場監管與油價走勢，對美國消費者及能源企業有重大影響。",
-"source": "Fortune",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmRRRHVDVlEwUkkwYVphSGlkUm5zQ3laSm9OQ1g2eHZGeUZySk1NWmZFRHZYOXFEbWluVUNIX3k5WXRROG8yNWJITGVjbjJQYjgzMG5XU0J6LTE2eHQ1TTFESFhJazh4YUhtZ05NdW1HaWxIcDk1SVpaVGVWSmVvZW9ET0NaajIza0F4M1pDWGJNNEE?oc=5",
-"time": "52 分鐘前"
+"summary": "川普指控油公司操縱油價並要求司法部調查。",
+"why": "能源政策與油價調查可能影響美國能源市場與全球油價走勢。",
+"source": "NBC News",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbTU5eUFDZWZidmRHVWJZcHVWdzIzOHhRSUdiSDhaZlZkRzBKZXE0Z3NjTWt2QkdoZDBGX1I0TE5iSzI0TkZoVUV4R01PY1RTdHVhMU1WNnRzU1RfS1pEUVl3MlhFTzF3TWVTTFRlMl9tLVlqWFFKT014TWJ3OGRrRjBSaWk1LUtzendqNHcwNF9NMHBzMmhDc29qVWp5TVlCQmlfZ0FLbw?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "川普",
 "summary": "川普將與軍火製造商會面，推動補充武器庫存。",
-"why": "反映美國軍事政策轉向，可能帶動國防產業與地緣政治局勢變化。",
+"why": "美國軍事產業與國防政策可能加速擴張，影響全球軍備競賽。",
 "source": "Reuters",
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVRINHhHTVVOT2RMWE9jU29mODNPdkxEdy1uWHdJdl9UNnVEeU56djBfMkwwTmZhWnltaXdRMVJpZk56Y3IwNUt0NXhQUVI3N2hFOVJaUlBSZXQ5d1hKNEdrbnNiZjlpY2VRN19oXzNLRTl2d0lDRG1JclROdXo3eTJLUWNtOFJjd21KcUZub05GMDVSR2xQWmVIT04tUUkxeFRSSVM0eUE1ejR6Q0gtX1RyYW41TU50NU1sY0x3emktRmtoSmRWWQ?oc=5",
-"time": "57 分鐘前"
-},
-{
-"who": "Andy Jassy (亞馬遜CEO)",
-"summary": "亞馬遜CEO表示印度將成為公司增長最快的業務市場。",
-"why": "顯示亞馬遜加速全球布局，印度電商與科技產業將迎來新一波競爭與投資。",
-"source": "MorungExpress",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVWlJbFZvUnNQZ0NtZUhCSzZtOW1HNUROQ3lZeUZwQzlqU2JUeHlWakFBNDVCZEJyYVZHbnJlbWhwX2pKR3VwSXU2bjRNUmxKTlAxNURGeWpJU3hac2xwQ3NEQ3Q2dWVsYXJBVUF0SzQtU3VBVmxLSEttZmJhV256TlpaZ0JVVjE4Uy1yODQtdFJ1eGVCVGhRLUstNlljSVU?oc=5",
-"time": "5 分鐘前"
-},
-{
-"who": "Andy Jassy (亞馬遜CEO)",
-"summary": "亞馬遜CEO宣布Amazon Now將擴展至印度300多個城市。",
-"why": "代表亞馬遜在印度快速擴張，將改變當地零售與物流生態。",
-"source": "Open Magazine",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnBQYlpMR2lsVmZLWmw4eVQ2bTVYY2dyUTJtYzVXMXU0eFZpdFU5V196WWhXVEQ1V3N2R2JaTGFLYkFKaEpjbzVfWkJxbWlHSHNlT0x3czJPZmRzYktlR19sZkxKMXg4RHA3eUxIZ0ZoWnVZN0NCSHo0eG9uaWxHcGE2LTh0SDhINUZFcTNjMEp2bzFuTXFVaV85a1VMenM5S3AwbThXMHRYZy1pbTJkWDFR?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Satya Nadella (微軟CEO)",
-"summary": "微軟CEO對AI產業發出強烈警告。",
-"why": "AI產業發展與監管將受關注，對全球科技企業與政策制定有深遠影響。",
+"who": "川普",
+"summary": "川普削減食物券，導致數百萬人失去福利。",
+"why": "社會福利政策收緊，對美國貧困人口及消費市場產生重大影響。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa2l3V1ptNnY3MGZTd3lzSlBhMWxJRS1WUFJzcHV0b0lvU3llUl9samoyUlhSYXlPaTdOMVFfdFhEdkQtYVFkVjVUSkdHalZlZE1tS2d0NEl5SlNDRGNLbjdLUTNHYXR5d1Z3bkJFNnpRejB5TlB0YWlLY3hMdE5nTFNMcXM5LWxoTHJzT3M2cUUydDJzOXRMTDZXUXlVM2k1TTRheXZpdmYwQnZnd18w?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Andy Jassy (Amazon CEO)",
+"summary": "Amazon CEO Andy Jassy宣布印度將成為公司最快增長業務，推動300城市快商擴張。",
+"why": "Amazon加速印度市場布局，預示全球電商與物流競爭加劇。",
+"source": "The Statesman",
+"link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRHhJMC1rSGVRSkFWVFZ4dXpwem0tbnZoNmhKSzZCOVBiS0MyR1MzYkR3bTFUbzk4RXpranh2Z1VFUDZPZ3lyVHhiMVo5cC1oUU9rSUZHZ1hOdkdIQlJ2RXEwel9yczR1Tl95ekVoRjViZ3FaRDhIYm5IaFRxQzI5QWdHM0I5Z09DTlZ6cjBKZklscFJrUzJWd3BZOUNKTTNYZHVPNGd1ZEQySUxMZ0NEYWVjN0h2bXBVU2pXemVvSURobDN4TzZLMHlSN19OYnlzSGw0QUw1WTBYY1JpRWROVEJKSmVWcnkxMXE1UzVxZUJpMTIxcDg00gH8AUFVX3lxTFBneGkyNGdpUDVrU2dGdUJDQk9CM0hfYmVieWhJYldfRXA0RmZHeWVCNUtVY1pLTTJWVWtwY0NCeXU0anFKa0JKbDJkbWNINmVoZVc2bEtKN3VKdkNydmJLWGZfeDRSY09hUjZsVFJjcXg3QTB3elNDSFVQMV9jU3pzaDVuWVdMT296Q3lQYWN6RF9nSTJWS2NYRjlEbHNaazRqRHhmQzlUQ0FCNDNueU1kelVVcGNObTVYQWV1SnBqT1ZYdWtNS09uLTdtRmNNMXo5U2JzOFBnVnl2OEVTS3BoZ0t5LVNzSDBhM0dxUE53cjZNQldjLWhNMDhTMA?oc=5",
+"time": "9 分鐘前"
+},
+{
+"who": "Satya Nadella (Microsoft CEO)",
+"summary": "Microsoft CEO對AI產業發出強烈警告。",
+"why": "AI產業發展與監管議題將成為全球科技趨勢焦點。",
 "source": "thestreet.com",
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaG1iVFdNZWtVQVVPNUZrc2ppNnZpWVhIT2lUSEFsSDV1VEpVZ09XbU1RZk9UUnJTYkpoRThXRzE0Tk9QOGhSNTd5R2M2anFaSTNZRXEzN3F3WlUzLXFyQkFySl9JUGZSeG9NdmNqVXRDdUl6Znl1bFVOanhNRG1jSGtUcW15bElOVGdhb1pGbEptOEZS?oc=5",
-"time": "18 分鐘前"
+"time": "48 分鐘前"
 }
 ]
 }
