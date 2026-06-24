@@ -1,7 +1,7 @@
 {
 "date": "2026-06-24",
-"count": 33,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"count": 23,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、網通等族群為主，題材集中於先進封裝、伺服器代工、PCB、電源管理、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -31,7 +31,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "電源/重電",
-"theme": "電源管理"
+"theme": "電源管理IC"
 },
 {
 "code": "2308",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "2379",
@@ -180,8 +180,8 @@
 "dist": -0.06676342525399126,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "半導體",
-"theme": "IC設計"
+"group": "IC設計",
+"theme": "網通IC"
 },
 {
 "code": "2383",
@@ -210,8 +210,8 @@
 "dist": -0.13480885311871227,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "IC設計"
+"group": "IC設計",
+"theme": "手機/AI晶片"
 },
 {
 "code": "2481",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB印刷電路板"
+"theme": "PCB板"
 },
 {
 "code": "6213",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6669",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "8261",
@@ -345,202 +345,52 @@
 "dist": 0.0,
 "limit_up": true,
 "limit_up_count": 4,
-"group": "被動元件",
-"theme": "功率元件"
-},
-{
-"code": "3374",
-"name": "精材",
-"market": "TPEX",
-"close": 312.0,
-"change_pct": null,
-"trade_value": 9133954868.0,
-"market_cap": 84665666592.0,
-"status": "NEW_HIGH",
-"dist": 0.0,
-"limit_up": true,
-"limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡"
-},
-{
-"code": "5289",
-"name": "宜鼎",
-"market": "TPEX",
-"close": 1795.0,
-"change_pct": -4.774535809018567,
-"trade_value": 6882921260.0,
-"market_cap": 172925663515.0,
-"status": "PULLBACK",
-"dist": -0.11363636363636365,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "記憶體",
-"theme": "工業記憶體"
-},
-{
-"code": "5347",
-"name": "世界",
-"market": "TPEX",
-"close": 200.0,
-"change_pct": 7.238605898123325,
-"trade_value": 13121716402.0,
-"market_cap": 375913510000.0,
-"status": "PULLBACK",
-"dist": -0.12938005390835583,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "半導體",
-"theme": "晶圓代工"
-},
-{
-"code": "5425",
-"name": "台半",
-"market": "TPEX",
-"close": 132.5,
-"change_pct": -1.1194029850746268,
-"trade_value": 5760224770.0,
-"market_cap": 34911826895.0,
-"status": "NEAR_HIGH",
-"dist": -0.06293706293706292,
-"limit_up": true,
-"limit_up_count": 1,
-"group": "被動元件",
 "theme": "功率半導體"
-},
-{
-"code": "6147",
-"name": "頎邦",
-"market": "TPEX",
-"close": 249.0,
-"change_pct": -3.488372093023256,
-"trade_value": 7626405377.0,
-"market_cap": 185403791211.0,
-"status": "PULLBACK",
-"dist": -0.13875598086124397,
-"limit_up": true,
-"limit_up_count": 2,
-"group": "半導體",
-"theme": "封裝測試"
-},
-{
-"code": "6182",
-"name": "合晶",
-"market": "TPEX",
-"close": 116.0,
-"change_pct": 1.3100436681222707,
-"trade_value": 5089745171.0,
-"market_cap": 66542046280.0,
-"status": "NEAR_HIGH",
-"dist": -0.029787234042553234,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "半導體",
-"theme": "矽晶圓"
-},
-{
-"code": "6223",
-"name": "旺矽",
-"market": "TPEX",
-"close": 7175.0,
-"change_pct": 7.410179640718563,
-"trade_value": 8350991845.0,
-"market_cap": 703015892075.0,
-"status": "PULLBACK",
-"dist": -0.13503375843960985,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "半導體",
-"theme": "探針卡"
-},
-{
-"code": "6274",
-"name": "台燿",
-"market": "TPEX",
-"close": 1765.0,
-"change_pct": 1.729106628242075,
-"trade_value": 7914007775.0,
-"market_cap": 509687234305.0,
-"status": "PULLBACK",
-"dist": -0.11294765840220389,
-"limit_up": true,
-"limit_up_count": 1,
-"group": "PCB/CCL",
-"theme": "CCL銅箔基板"
-},
-{
-"code": "8299",
-"name": "群聯",
-"market": "TPEX",
-"close": 2500.0,
-"change_pct": 2.880658436213992,
-"trade_value": 17374766620.0,
-"market_cap": 552714367500.0,
-"status": "PULLBACK",
-"dist": -0.14930555555555558,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "記憶體",
-"theme": "NAND控制IC"
-},
-{
-"code": "8358",
-"name": "金居",
-"market": "TPEX",
-"close": 638.0,
-"change_pct": -2.89193302891933,
-"trade_value": 6353072148.0,
-"market_cap": 161151144000.0,
-"status": "NEAR_HIGH",
-"dist": -0.08839050131926118,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "銅箔材料"
 }
 ],
 "news": {
-"takeaway": "川普對伊朗政策與油價、Meta與Amazon CEO重大決策，牽動地緣政治與科技產業未來走向。",
+"takeaway": "川普針對油價與量化科技政策、Amazon CEO積極擴展印度市場，顯示能源、科技與新興市場將成為未來趨勢焦點。",
 "items": [
 {
 "who": "川普",
-"summary": "川普要求司法部調查汽油價格『哄抬』行為。",
-"why": "顯示美國政府可能加強能源市場監管，對油價與能源企業未來政策有直接影響。",
-"source": "WIS News 10",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkFpc2pRUWVJczg0U0ZuU3o0TWowVE9na0ZPdWtLZmZuRlNORlltSVJtYlVjcGtmNURySlFyM1JZaFYyOUFNNFpvTng0TmdkVVR0dE1GaDRKdHEydTM0OHI3S1dNQWVlQWlPVk1QYWhmbkpHTkI0dkNtLUFQbG5hZVA1NWYyY0ZkQ1M5R2pNSFVTUzMzWnfSAaoBQVVfeXFMTlZJamMtT0RSc0NhZy12QzBzVzBYdVNjSmtmSDJReV92Uk1jOEViRk1qbWtrQWJ1WVBfTlJKLUtORVhqNkZtSzc0UnRNNVdaRXp5ODQxaDlUM0RkZi1CeDdPMGpOTWpsbEF6T3cwbm5zdnA4OEQyTmsyT1k4RDdWOFhzQXFXU29KcDhXWTlzS19OTERGS1pLSUtKeFU3bzR1WE9KSm10d053b3c?oc=5",
-"time": "1 小時前"
+"summary": "川普要求司法部調查油價『哄抬』行為。",
+"why": "顯示美國政府將加強監管能源市場，可能影響油價走勢與能源企業策略。",
+"source": "NBC News",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbTU5eUFDZWZidmRHVWJZcHVWdzIzOHhRSUdiSDhaZlZkRzBKZXE0Z3NjTWt2QkdoZDBGX1I0TE5iSzI0TkZoVUV4R01PY1RTdHVhMU1WNnRzU1RfS1pEUVl3MlhFTzF3TWVTTFRlMl9tLVlqWFFKT014TWJ3OGRrRjBSaWk1LUtzendqNHcwNF9NMHBzMmhDc29qVWp5TVlCQmlfZ0FLbw?oc=5",
+"time": "26 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普批評國會通過戰爭權力法案，稱其『毫無意義』。",
-"why": "反映川普對國會限制總統軍事權力的強烈反對，未來美國對外政策可能更具衝突性。",
-"source": "Radio Free Europe/Radio Liberty",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
-"time": "3 小時前"
+"summary": "川普簽署兩項行政命令，強化美國在量子科技領域的領導地位。",
+"why": "將推動美國量子科技發展，影響全球科技競爭格局。",
+"source": "News On AIR",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbEVxVHZCemRxOHdMQmJuN2J3SEQ0Zjd1RU1seFdZREwwQXl2TXZtc1lWbTVVTF9nSTBPV0ktLVU4Ymc0Q3loTkUtNVpQSmpFRWFLdVRyTG9kUGFJeDhjQ3RuT3VlY1ZVM3FURjRYdjVMR2hieTdSenJRVzJSWlktSjlEUktMS1g5Tm5HUUI3N21ibEkzeTh6aDVzVXhnM0l6Zk1sQ2hZYnBkZDdTRDZ4M2doN2YzdGZ4SGNrR213enE?oc=5",
+"time": "52 分鐘前"
 },
 {
-"who": "Meta CEO Mark Zuckerberg",
-"summary": "祖克柏指示Meta開發獨立預測市場應用『Arena』。",
-"why": "預測市場應用可能改變金融、政治與社會資訊流通方式，對科技與金融產業有深遠影響。",
-"source": "FXStreet",
-"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNc2tGdmJNZWM1RWRDdHpsN3FyT3FRRGMxbWZOTTdmRjIwaHRkbmUwOGNiSl9pTnAyc3dDbU1HVERHbFlUZ0hnTWR6cEdvbTREMUlCTkdwZWgtOUZtU1pjX2JNWjk5YmVLQ0FSRjZKazV0NUZ0TG1qcjJ3X2NpQlduWGJ5dGtjVm0wdW1JRVJ6bWg2NHdnZ2ZPQUhRM3hfNWM1Q2NkVnQ3ZmwyRUZfYUZkeUZCWjhiOXJrN0ZaWGFMNkU3ckNlRXMxUVhTcXM4d2JIV2lFMTNmUzV6QQ?oc=5",
-"time": "4 小時前"
+"who": "Andy Jassy (Amazon CEO)",
+"summary": "Amazon CEO Andy Jassy訪問印度，宣布快速商務網絡擴展至300個城市。",
+"why": "Amazon加速布局印度新興市場，將帶動全球電商與物流產業變革。",
+"source": "YourStory.com",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWTJqTDIzZVphX2s1ejItVUpGUWZqYXRSdU90WUp4SEdsV19UQjdyMEFuN1NZVXBadHJJVEdjNURCZjlTZk9WS0NVYnJNbVdkMTNYUzROWDZIeGYtMjNObXBic2wxYU5iaXFrdmZFLWpWM3JPdV9DTnpqS2tobjJFRFVGdGJWRVVSeHQ5WlZEdnI3ZGJVUXExXzkxVHpQdXM0eXcyV0lQTXE4YXVTUE1ERnRYaw?oc=5",
+"time": "6 分鐘前"
 },
 {
-"who": "Amazon CEO Andy Jassy",
-"summary": "Amazon CEO Andy Jassy訪問印度，宣布公司擴展至300個城市。",
-"why": "顯示Amazon加速布局印度市場，對全球電商與物流產業競爭格局有重大影響。",
-"source": "The Economic Times",
-"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVkhweVdvRktmd0pDSk45NnhzSWxCT0RTY0NROTR0SEhHNzlyamNJX0c2S3lJWWd4Z0xCWGRXTzZjNDBGek9tYjNJTkVvbmxyNXhySUdFQ1Rnd3duVUFzNzdWT2o3TUk2a1dVV2lCYjJKS2RrUGdSeHJXRC00MTNGUXZTMzJsUkhBQ2VOcllLVmg5a01RbWNzWEpTNUpMRS1CbEEySFMybHM5QU84cWRnbThXY1ZRdkdJblBZbGxFXzR3RXVMeFpZaGE5bFdxVkdvWUlDWXliZEwwM1czNHozeGpHR3lpVk3SAewBQVVfeXFMTUNtTGFyY3YzRjRveEhIek9kNk1jS3RyMnJ1dkszTjJoQlJXMTdGdmM0SGtyeFJCdEZaNm9fUTZmQXJSRFl2Z1d4cEhuY0lfaEdfbG45aU95VjBOc2pnVldIemdQUE1jZmpYRjk5T01WSHhIb285OTNaYTVjTzdMUENkRE16OFV6RTNTMTBNUXRzZ2psU3RzLUJtcFJmZUZteDZlR2xRLVNKSVNUZEQzWkhPaDRTS1dPcnR3TU5Sc3ZXdlNTbkJBWGNXT0FCa2JlRmxiS0tOZk5LWS1yRkppSHJaR0lFeFJ6V0IzZEk?oc=5",
+"who": "Brian Rolapp (PGA Tour CEO)",
+"summary": "PGA Tour CEO Brian Rolapp公布職業高爾夫重大改革。",
+"why": "職業體育產業將迎來新商業模式與競爭格局。",
+"source": "MSN",
+"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYzlWclVJbHZCejc1U1d6NUpOZHZaMnBIUDM0VEtKYXNSa2VmbkpEdTJhUWJBQldXMzFFcmdJQXlyaXhNV19sMnhwenZKRFlIVEtVQmEtSEdDZXFLSkJJR0JfQ242QTFQc1pySE5zMVN1aWlzR2RaUU1laVdGQUM0czhuclN5OEttdEFmMGcyc1ZNeHJMYk01MHBCT25Gakg4ZmVCU19xbGk3cHBVVDhJNTc3dEZGRFkxalVheFZjRzZRdw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "NVIDIA CEO Jensen Huang",
-"summary": "NVIDIA CEO強調中國在AI發展中的重要角色。",
-"why": "凸顯中國在全球AI產業鏈的關鍵地位，未來科技競爭與地緣政治風險需高度關注。",
-"source": "GuruFocus",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONXBPNVFsaG91MkJEb3lLUmRiYk8yak50cUFrS1dZUGMxQ3RlWEtEdkI1YVJURXpFR2ZhV2tIV2NGY1RkdGU4Z3JyZHZTM082YTdxeFV1a3E1M2E5dXMxbWlhS0NuZ2lYYjBEQXpfdVlSbFc2S3dWcUVuNEthOWFYNDRpM3dsbU1SSlcxbVlNUS1yRWFWemhvWkYyaw?oc=5",
-"time": "44 分鐘前"
+"who": "Julie Kim (Takeda CEO)",
+"summary": "武田製藥任命Julie Kim為新任代表董事、總裁兼CEO。",
+"why": "全球製藥巨頭高層變動，可能帶來企業策略調整與產業新動向。",
+"source": "Business Wire",
+"link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYTFuWGowVm94OWdwdmJhY3huTmZoZUpLcjc4OWRZYmlibnVfZ1Zrdmt2YXU4X0NPOHUtYWxvOTRjdTZEbGtPLUtLc0RWTncwaTZfSjNzVFJiRnEyQ3R3VGFBdEx2NVJvdVc4cWNpd2hFS0hWaUZ0UEViZXlzNDFRSnBkNUZPOWhwWVNNb001SkJ6R1UzRFZIN1ZFcEVhVTg3a0JfUEFKYTY5RHNPamFlenJxQWRqRHlwZ0MxaTVkamZvcHV2eWdpTzA0cEUwWWJJLXpfUHQ3Z3hiajRfYU8zYUMySFUyaDZfblNKYzRkOUEyU1J2Zk5YMkY4eXVBWmw3UUZTWFB5QQ?oc=5",
+"time": "2 小時前"
 }
 ]
 }
