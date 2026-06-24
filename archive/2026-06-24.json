@@ -1,7 +1,7 @@
 {
 "date": "2026-06-24",
 "count": 33,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材聚焦於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/網路設備"
+"theme": "交換器/路由器"
 },
 {
 "code": "2360",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封裝測試"
 },
 {
 "code": "6669",
@@ -421,7 +421,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封測"
+"theme": "封裝測試"
 },
 {
 "code": "6182",
@@ -500,47 +500,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對油價及國防產業發表重要決策，Amazon CEO積極擴張印度市場，顯示美國政經動向與全球企業布局正加速變化。",
+"takeaway": "川普針對油價與武器庫存發表重要決策，亞馬遜CEO積極擴展印度市場，顯示美國政策與全球企業布局新趨勢。",
 "items": [
 {
 "who": "川普",
 "summary": "川普指控油公司哄抬油價，並下令司法部調查。",
-"why": "顯示川普政府將對能源產業加強監管，可能影響油價與能源企業未來政策環境。",
+"why": "此舉可能影響能源市場監管與油價走勢，對美國消費者及能源企業有重大影響。",
 "source": "Fortune",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmRRRHVDVlEwUkkwYVphSGlkUm5zQ3laSm9OQ1g2eHZGeUZySk1NWmZFRHZYOXFEbWluVUNIX3k5WXRROG8yNWJITGVjbjJQYjgzMG5XU0J6LTE2eHQ1TTFESFhJazh4YUhtZ05NdW1HaWxIcDk1SVpaVGVWSmVvZW9ET0NaajIza0F4M1pDWGJNNEE?oc=5",
-"time": "38 分鐘前"
+"time": "52 分鐘前"
 },
 {
 "who": "川普",
 "summary": "川普將與軍火製造商會面，推動補充武器庫存。",
-"why": "反映美國國防產業政策可能轉向擴大軍備，對全球軍工產業鏈有重大影響。",
+"why": "反映美國軍事政策轉向，可能帶動國防產業與地緣政治局勢變化。",
 "source": "Reuters",
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVRINHhHTVVOT2RMWE9jU29mODNPdkxEdy1uWHdJdl9UNnVEeU56djBfMkwwTmZhWnltaXdRMVJpZk56Y3IwNUt0NXhQUVI3N2hFOVJaUlBSZXQ5d1hKNEdrbnNiZjlpY2VRN19oXzNLRTl2d0lDRG1JclROdXo3eTJLUWNtOFJjd21KcUZub05GMDVSR2xQWmVIT04tUUkxeFRSSVM0eUE1ejR6Q0gtX1RyYW41TU50NU1sY0x3emktRmtoSmRWWQ?oc=5",
-"time": "1 小時前"
+"time": "57 分鐘前"
 },
 {
-"who": "Andy Jassy (Amazon CEO)",
-"summary": "Amazon CEO Andy Jassy親赴印度，宣布Now業務擴展至超過300個城市。",
-"why": "展現Amazon加速佈局印度市場，強化其在全球電商與即時零售領域的競爭力。",
-"source": "BusinessLine",
-"link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbXJGVl96UE1idHlpeHotblIzNW1QS1dqaHI5UGtCQUI2a3p4VWNHYUg3MVFRc00xS0V1Q1RWbUFXZXU5ZXV2MHU4REFnWHdoWjdmYktQV18xeXI5ZXhMV05FbHJTa25CN2w3U3hBbERWS2NPYktqUHJQbzcxREJZdXJJbXpkRzUwSjNzeVRiSWNvLWVxNUlPX29BZ3VMMGozTFB3ZmpNZTVJTUY1MmF6VDE5Tk5iLVlYRXRjTXRSb1pzcTluTG5HNXVIa0JxRGl3dFhhOWl5TUZFOFZiVXM2bnZpREItZ9IB7AFBVV95cUxPeG5rdDZwOWhlRUdZMUxxMDI4THJZQi1HalFXTEszWXVQYUhremZGWDEyN242MXdOc1dCOWw2ejFIT0NMVkFuci1WQU1YeHhZSDltTjYwS3NEcUNsclBWai1yVUxnai1YOGFObktVcU55enJjNFdhazZhU1VDNEZCY0czdjU1b3lLZHRfZEhGT01pQVdnU043OWVhRTFkY3E2VjJtUlk3dHNaTzZmQk5BWkJfaWlyY2VYdzVfQzJNMnQwUmJFYlMzZTBZRVdJWTVMSjBia29VaUNaZWl2dkpzMHBrOWRMaWM2SUcyYw?oc=5",
-"time": "29 分鐘前"
+"who": "Andy Jassy (亞馬遜CEO)",
+"summary": "亞馬遜CEO表示印度將成為公司增長最快的業務市場。",
+"why": "顯示亞馬遜加速全球布局，印度電商與科技產業將迎來新一波競爭與投資。",
+"source": "MorungExpress",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVWlJbFZvUnNQZ0NtZUhCSzZtOW1HNUROQ3lZeUZwQzlqU2JUeHlWakFBNDVCZEJyYVZHbnJlbWhwX2pKR3VwSXU2bjRNUmxKTlAxNURGeWpJU3hac2xwQ3NEQ3Q2dWVsYXJBVUF0SzQtU3VBVmxLSEttZmJhV256TlpaZ0JVVjE4Uy1yODQtdFJ1eGVCVGhRLUstNlljSVU?oc=5",
+"time": "5 分鐘前"
 },
 {
-"who": "Andy Jassy (Amazon CEO)",
-"summary": "Amazon CEO Andy Jassy宣布計劃將Amazon Now擴展至300多個印度城市。",
-"why": "進一步強調Amazon對印度市場的高度重視，預示新興市場成長動能。",
+"who": "Andy Jassy (亞馬遜CEO)",
+"summary": "亞馬遜CEO宣布Amazon Now將擴展至印度300多個城市。",
+"why": "代表亞馬遜在印度快速擴張，將改變當地零售與物流生態。",
 "source": "Open Magazine",
 "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnBQYlpMR2lsVmZLWmw4eVQ2bTVYY2dyUTJtYzVXMXU0eFZpdFU5V196WWhXVEQ1V3N2R2JaTGFLYkFKaEpjbzVfWkJxbWlHSHNlT0x3czJPZmRzYktlR19sZkxKMXg4RHA3eUxIZ0ZoWnVZN0NCSHo0eG9uaWxHcGE2LTh0SDhINUZFcTNjMEp2bzFuTXFVaV85a1VMenM5S3AwbThXMHRYZy1pbTJkWDFR?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "Microsoft執行長對AI產業發出強烈警告。",
-"why": "代表科技巨頭對AI發展風險的高度關注，可能影響產業監管與技術發展方向。",
+"who": "Satya Nadella (微軟CEO)",
+"summary": "微軟CEO對AI產業發出強烈警告。",
+"why": "AI產業發展與監管將受關注，對全球科技企業與政策制定有深遠影響。",
 "source": "thestreet.com",
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaG1iVFdNZWtVQVVPNUZrc2ppNnZpWVhIT2lUSEFsSDV1VEpVZ09XbU1RZk9UUnJTYkpoRThXRzE0Tk9QOGhSNTd5R2M2anFaSTNZRXEzN3F3WlUzLXFyQkFySl9JUGZSeG9NdmNqVXRDdUl6Znl1bFVOanhNRG1jSGtUcW15bElOVGdhb1pGbEptOEZS?oc=5",
-"time": "4 分鐘前"
+"time": "18 分鐘前"
 }
 ]
 }
