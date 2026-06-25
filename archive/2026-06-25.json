@@ -1,7 +1,7 @@
 {
 "date": "2026-06-25",
 "count": 39,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、PCB材料、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源供應器"
+"theme": "重電/電源供應"
 },
 {
 "code": "2313",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2317",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2351",
@@ -165,8 +165,8 @@
 "dist": -0.10300429184549353,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "被動元件",
-"theme": "電感製造"
+"group": "機構件",
+"theme": "散熱模組"
 },
 {
 "code": "2368",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2375",
@@ -241,7 +241,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "無塵室工程"
+"theme": "半導體設備"
 },
 {
 "code": "2454",
@@ -256,7 +256,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "手機SoC"
+"theme": "手機/AI晶片"
 },
 {
 "code": "2472",
@@ -286,7 +286,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "整流二極體"
+"theme": "二極體"
 },
 {
 "code": "3017",
@@ -361,7 +361,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6139",
@@ -466,7 +466,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "伺服器BMC"
+"theme": "伺服器管理IC"
 },
 {
 "code": "5289",
@@ -590,47 +590,39 @@
 }
 ],
 "news": {
-"takeaway": "亞馬遜CEO宣布大規模印度投資，川普推動選舉法案並影響伊朗政策，顯示全球科技與政治動向。",
+"takeaway": "亞馬遜CEO宣布大規模投資印度，川普推動選舉法案與影響郵寄投票政策，顯示全球科技與政治趨勢重大轉變。",
 "items": [
 {
 "who": "Andy Jassy (Amazon CEO)",
-"summary": "亞馬遜CEO Andy Jassy與印度總理會面，宣布至2030年將在印度投資480億美元。",
-"why": "顯示全球科技巨頭加速布局印度市場，推動AI與雲端基礎建設，對全球產業鏈與新興市場發展有深遠影響。",
-"source": "The Tribune",
-"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMXc4UXluWF9oRXNYQW5oVXVtQmtxaG1pXzF5RmpnNi14WXlmbFpFVEZBYTNMdEVZRFB1aVRHWXZscTFLTHZrRHpwM3Z4aEY2VWw3bk9DY0YtRkx4QW9ZY0o2TmFERFpFeHRHSnNGRVBrNmJVeVA0aTB4Vk00dHZxLTNYcVFaeEF6QzRfeVJ6b2FfbW55WF9ZVkZPVExzaFBrMHhMUnZaekxtYTBubmpaUFpYeC1ROXZ6TFQ3V3VRWUpTT0E5eEZYOG9n0gHOAUFVX3lxTE5iNC1xVU4zRVRvdEZwWUxub1MxMzQyam1iM2pJb3FhNHdMSVZlQm5rdU44VS10di0wRmZzUmhzSmVVZnR6S3JwRzFfcERVb2N1ajRlS3diVlJ1bmZ0Nm9UZGRxU2tZNkhPWWhnejdrRmQ2MTkweDd6Wk1mWjVsZ2l0TU9nR0lkVG5iNFV0clRsNWVhLWZGWFppSHg4dVVSUXk5anlmcWt6ajRWcjRKczltZzdVTlpsRGtRenp4QU9pRVlSQnVodWJveXRybHh3?oc=5",
-"time": "1 小時前"
+"summary": "亞馬遜CEO宣布2030年前將在印度投資480億美元。",
+"why": "顯示全球科技巨頭加速布局印度市場，推動AI與雲端基礎建設，對印度經濟與全球科技產業具深遠影響。",
+"source": "Siliconindia",
+"link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNXzZGS28tMENtaDAyc3FIZk1CT0FsdU5EbDFaOFkwZXVVd2Jfam42bjlYTVRxano2S1BzMV9xdWJoWUluSzJ2TUZ3MWZMR0N6UVMxXzdVczcteEx6dmtKTE9QdHdod0daVkMya0Q2dTRSeG1ZVk1aaF9FTWRtcmpTM1gySy1fV1pRYkZvTUpHcEwxbnc4ckQ5ZTVBbjVLM1dLTEVqYjlqT1dsTzVDVXJtR2xXYzNBcDFYdGpHVExTYUFIV0x4V3RyNlpRQm1iUldYcXlQV2Z6SEVpeGU3T0U4?oc=5",
+"time": "52 分鐘前"
+},
+{
+"who": "Andy Jassy (Amazon CEO)",
+"summary": "亞馬遜CEO與印度總理會面，宣布額外投資130億美元於AI與雲端基礎建設。",
+"why": "強化亞馬遜在印度的領導地位，並加速AI技術發展，對全球科技競爭格局產生重大影響。",
+"source": "Udayavani",
+"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQXViWHkxOXhBaWQxR0ZQOEJ0U1V2VXAwNXl3czZyeTdqMWkzOF8wZTNBbFN1bGwxUTNteTZweVBsMVN5bEh1V3VBZEJ1WklKb3IzVld6amo2aUVDRWJuLUVDTTEtOXpZNWtTTl9tM21SRUNmeVdKQjM2Vjh0UlB5dUp5ajZCd3o2ZlZGdFhSSXV3MFFVeTI0cjY2ak9nMGVqeTBQUjlBZFJ1SnBJVGlnNm9CUEZJbEVlSFJReXZ2dDFNaFh5N25laklVZkUwVFpoWmNjVWZPQlljMk5Z?oc=5",
+"time": "45 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普敦促共和黨優先推動選舉法案，並因伊朗戰爭處理方式受到質疑。",
-"why": "川普對選舉制度與外交政策的主導，將影響美國內政與國際局勢，尤其在大選年具有指標意義。",
+"summary": "川普敦促共和黨優先推動選舉法案，並因伊朗戰爭處理受到檢視。",
+"why": "川普對選舉制度改革的推動，可能影響美國未來選舉規則與政治局勢。",
 "source": "NPR",
 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNW9QbWZ0czYwbXlHY0lIYi04TDJlM3B6aTNHT0RxOHZWbkNXeFFvOExsSFVQSHJSVWVQUUZoOWt3S0g3SEhBVjdBT0poQVkzN1FESXBJVmFHNF8yMy1jMWhrUUVGV3hPZ05CQ0htQ3RmNUYxX292Ung0S1BFMVQwS1ZLLWI1UFJabHNVZi0zeUtoam9zNHVTNDB1Z1hxdk85bGxLWGR3SUh2OG5JRHlxNHk0NzBxUWV1Q1RfaUkyRkJuRVByWU5z?oc=5",
-"time": "24 分鐘前"
+"time": "43 分鐘前"
 },
 {
 "who": "川普",
 "summary": "郵政局確認根據川普命令提出限制郵寄投票的方案。",
-"why": "川普直接干預郵寄投票，可能改變美國選舉方式，對民主制度與未來選舉結果產生重大影響。",
+"why": "川普政策直接影響美國郵寄投票制度，對未來選舉公平性與參與度有重大影響。",
 "source": "NPR",
 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd3BkcVlNWml6d3E3MTloNDNKcDZwMDlMWkZPaUNOQXpkblNmRUM2NkxaY0thdlR6MWw3UDV2eV9uRnBBVnF1MnBwU0RkcUFWR21EQ2w2NnB4OXk1d0NVaUdoejV0SVZxczdnQzNET04zZXZBSm5HbGZPVnpCNlZ6WXItdkRaV1hHMVgzV1lZZ3dQV3dDUmRiUFFfeTNrZXRvUnpMVi12UTZLLVFXWTJ0TmVXYUFJS2h5bkZwdkVxSGw?oc=5",
-"time": "25 分鐘前"
-},
-{
-"who": "川普",
-"summary": "最高法院裁決可能擴大川普對聯邦監管機構的控制權。",
-"why": "若川普權力擴大，將重塑美國監管環境，影響金融、科技等產業政策走向。",
-"source": "Crypto Briefing",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hMm1NQWpRLUJRdGlYRS01ZGpNdWVCckNudEJfckVkMmpZdTdRTmpMZDFuSm1CRDNjdjU3dHJMdDhPV3lEcFlucWRKTXJSTkxTajZpNldUeXlPSlB0Mm5RUTN3WnIzdEZ4TVNqS2FHb2VEY2Zza0hFSWZIZHFUdw?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Andy Jassy (Amazon CEO)",
-"summary": "亞馬遜CEO宣布將在印度追加130億美元投資於AI與雲端基礎設施。",
-"why": "強化印度在全球AI與雲端產業的地位，帶動科技創新與經濟成長，對全球競爭格局有關鍵作用。",
-"source": "Deccan Herald",
-"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQzA0MExfY2xsRlN1RW41R3lMSndVSXJ4cmY3SjlTenEwOHhmaXdOalE3SFZ1bTl0b2NMS3p2d0ZtWVd3LVE3TkpzbWExd0RwMlN1LUVuazZhOHk2dFR5ZU9odEt2MkcteUdUSmtZLTdRYy1WV09rR3A5RE5hSFNZazJzRzRZSUlzNXg5dEpfLXVEczR4LWRDbjk3Tk1ZSWtUcGFkY0ZhYjJ1cThLOWFkT3BjdXU3TFF2eXZDNjVXTlQ5UlY1c2UwdmhGSE5FdWFDLURlNFVWazBjUQ?oc=5",
-"time": "56 分鐘前"
+"time": "43 分鐘前"
 }
 ]
 }
