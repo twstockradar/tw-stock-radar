@@ -1,7 +1,7 @@
 {
 "date": "2026-06-25",
 "count": 39,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、散熱、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件電阻電容"
 },
 {
 "code": "2330",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容/被動元件"
 },
 {
 "code": "2379",
@@ -271,7 +271,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容/被動元件"
 },
 {
 "code": "2481",
@@ -286,7 +286,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "二極體"
+"theme": "二極體/被動元件"
 },
 {
 "code": "3017",
@@ -421,7 +421,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "感測元件"
+"theme": "探針卡"
 },
 {
 "code": "6451",
@@ -481,7 +481,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "記憶體",
-"theme": "工業記憶體"
+"theme": "工控記憶體"
 },
 {
 "code": "5347",
@@ -586,43 +586,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "銅箔材料"
+"theme": "銅箔基板"
 }
 ],
 "news": {
-"takeaway": "亞馬遜CEO宣布大規模投資印度，川普推動選舉法案與影響郵寄投票政策，顯示全球科技與政治趨勢重大轉變。",
+"takeaway": "亞馬遜CEO宣布大規模投資印度，川普與共和黨內部矛盾加劇，並推動選舉相關政策。",
 "items": [
 {
 "who": "Andy Jassy (Amazon CEO)",
-"summary": "亞馬遜CEO宣布2030年前將在印度投資480億美元。",
-"why": "顯示全球科技巨頭加速布局印度市場，推動AI與雲端基礎建設，對印度經濟與全球科技產業具深遠影響。",
-"source": "Siliconindia",
-"link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNXzZGS28tMENtaDAyc3FIZk1CT0FsdU5EbDFaOFkwZXVVd2Jfam42bjlYTVRxano2S1BzMV9xdWJoWUluSzJ2TUZ3MWZMR0N6UVMxXzdVczcteEx6dmtKTE9QdHdod0daVkMya0Q2dTRSeG1ZVk1aaF9FTWRtcmpTM1gySy1fV1pRYkZvTUpHcEwxbnc4ckQ5ZTVBbjVLM1dLTEVqYjlqT1dsTzVDVXJtR2xXYzNBcDFYdGpHVExTYUFIV0x4V3RyNlpRQm1iUldYcXlQV2Z6SEVpeGU3T0U4?oc=5",
-"time": "52 分鐘前"
+"summary": "亞馬遜CEO Andy Jassy宣布至2030年將在印度投資480億美元。",
+"why": "顯示全球科技巨頭加速布局印度市場，推動AI與雲端基礎建設，對印度經濟與全球科技產業格局有深遠影響。",
+"source": "DD News",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRWtuVlM3VTdlM2t1Ml80SzVOUk1zNmR5eTJWMnNUMWo5Tl9Pck44YmxBVS1sNlBUdEZmTHp4T1RIRWU0R1NNcWFJSzAzQjY0bDVfbDVXLTZlbzRwV2tSTkN5Nlh3aVAyVlBqbENCUkdObWw2cldUeDRlU2tSN3NoRWtaYVhYc18wQ1pPM1dyOFRlWTFNX2FGeXBZZExpLUNrSUJFUUU3R3VyakJucE92ZmVRTllab0k?oc=5",
+"time": "2 小時前"
 },
 {
 "who": "Andy Jassy (Amazon CEO)",
-"summary": "亞馬遜CEO與印度總理會面，宣布額外投資130億美元於AI與雲端基礎建設。",
-"why": "強化亞馬遜在印度的領導地位，並加速AI技術發展，對全球科技競爭格局產生重大影響。",
-"source": "Udayavani",
-"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQXViWHkxOXhBaWQxR0ZQOEJ0U1V2VXAwNXl3czZyeTdqMWkzOF8wZTNBbFN1bGwxUTNteTZweVBsMVN5bEh1V3VBZEJ1WklKb3IzVld6amo2aUVDRWJuLUVDTTEtOXpZNWtTTl9tM21SRUNmeVdKQjM2Vjh0UlB5dUp5ajZCd3o2ZlZGdFhSSXV3MFFVeTI0cjY2ak9nMGVqeTBQUjlBZFJ1SnBJVGlnNm9CUEZJbEVlSFJReXZ2dDFNaFh5N25laklVZkUwVFpoWmNjVWZPQlljMk5Z?oc=5",
-"time": "45 分鐘前"
+"summary": "亞馬遜CEO承諾額外投資130億美元於印度AI與雲端基礎建設。",
+"why": "強化亞馬遜在印度的技術領導地位，並加速AI產業發展，影響全球科技競爭。",
+"source": "Rediff",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdVB3NGtGTC1hdWtKRzA3MXZSUnloOUxoWWtzQlZkcktBS1MwSVVBUG9nUW1NN0lMYWxQa21FT0ZZRzJoWnpfRzNpZ0ZrUUFvRVFTaTA1SWk3VVNTVHVSaWtEaGlocXBlUjY1QXg0N3daMU9ZNm1zUFlpZk9iWTM3QU9tNXU1WG51N2pLcG5HdlRqMHlGRmJmREdwYlJ1UnoxYTRkNmQ0emdoX3ZTYTl3VFBKdFV1ZGh2cHB1OUxMQUFoNE4wZGtobTNKdWZ4d9IB0AFBVV95cUxNRDU4V3lKdW5tTW53YmgwUGlQQkdvdWdHT3R4MHhMZGhaU0xxZ1RiaG90LTBMRjBBNFNGcl95NXpyVThWQzhqWF9nWW9vcXB6WHp2MVI5NnFFRzZYcGM1a242eWtaT1FhR29rRHd1Y0RlbzRrc0tMWlhqNUcyU0ZYdWd1Q0JPUkJ2U1pfRTY5bkw0TFJUd0hnVUFJN09tQUZaemlRbzlUU2dlQ1paUXVqT1pDQmoyTndNQm1wZGt3MmxxUjJheEMwal9JRnpYNlFM?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普敦促共和黨優先推動選舉法案，並因伊朗戰爭處理受到檢視。",
-"why": "川普對選舉制度改革的推動，可能影響美國未來選舉規則與政治局勢。",
+"summary": "川普與參議院共和黨人會面時，因伊朗戰爭議題爆發激烈爭吵。",
+"why": "顯示川普與黨內高層在外交政策上的重大分歧，可能影響美國未來對外政策走向。",
+"source": "ABC News - Breaking News, Latest News and Videos",
+"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1NcHdMQTRNMUkxTU9JNzRZdEdfeUNPb2xxeUxJV0Y2UHhXdWI5TFgyRUcySlJSRXBZdjdZOGYtcHZoZ2VwdVBqaW1RLUU?oc=5",
+"time": "37 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普敦促共和黨優先推動選舉法案，並因伊朗戰爭處理受到質疑。",
+"why": "川普積極干預選舉制度改革，對美國政治與選舉制度未來發展有關鍵影響。",
 "source": "NPR",
 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNW9QbWZ0czYwbXlHY0lIYi04TDJlM3B6aTNHT0RxOHZWbkNXeFFvOExsSFVQSHJSVWVQUUZoOWt3S0g3SEhBVjdBT0poQVkzN1FESXBJVmFHNF8yMy1jMWhrUUVGV3hPZ05CQ0htQ3RmNUYxX292Ung0S1BFMVQwS1ZLLWI1UFJabHNVZi0zeUtoam9zNHVTNDB1Z1hxdk85bGxLWGR3SUh2OG5JRHlxNHk0NzBxUWV1Q1RfaUkyRkJuRVByWU5z?oc=5",
-"time": "43 分鐘前"
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "郵政局確認根據川普命令提出限制郵寄投票的方案。",
-"why": "川普政策直接影響美國郵寄投票制度，對未來選舉公平性與參與度有重大影響。",
-"source": "NPR",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd3BkcVlNWml6d3E3MTloNDNKcDZwMDlMWkZPaUNOQXpkblNmRUM2NkxaY0thdlR6MWw3UDV2eV9uRnBBVnF1MnBwU0RkcUFWR21EQ2w2NnB4OXk1d0NVaUdoejV0SVZxczdnQzNET04zZXZBSm5HbGZPVnpCNlZ6WXItdkRaV1hHMVgzV1lZZ3dQV3dDUmRiUFFfeTNrZXRvUnpMVi12UTZLLVFXWTJ0TmVXYUFJS2h5bkZwdkVxSGw?oc=5",
-"time": "43 分鐘前"
+"summary": "郵政局確認根據川普指令提出限制郵寄投票的方案。",
+"why": "川普推動限制郵寄投票，可能影響美國選舉公平性與投票方式趨勢。",
+"source": "KUOW",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaWlBb1JnNHlzZlQ0WW1jOHJOQUxsQ1Zsc3dySkhCLVF4RHpqUUxqUHlIUWJ4Q2NMRF9wNzFfbnE1cGJVbmdrZWJHMHFudGN5VUtleE93VUFSZHJlenF6bFRnVzlCcC1TcGhkQllVeUFCLWtzZjRkTzlCelVMVXZ1Q3NGNFp4OEJWbnhfUFpYZ2hVcHZUYTJkaWNYTVhCOTVNSGktQnVEYkhOS2d5?oc=5",
+"time": "20 分鐘前"
 }
 ]
 }
