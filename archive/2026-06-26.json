@@ -1,7 +1,7 @@
 {
 "date": "2026-06-26",
 "count": 38,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材聚焦於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1802",
@@ -16,7 +16,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "玻璃",
-"theme": "建築用玻璃"
+"theme": "建築玻璃"
 },
 {
 "code": "2301",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件龍頭"
+"theme": "電阻電容"
 },
 {
 "code": "2330",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器品牌"
+"theme": "伺服器品牌"
 },
 {
 "code": "2368",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "伺服器用PCB"
+"theme": "伺服器PCB"
 },
 {
 "code": "2379",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2383",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "手機SoC"
+"theme": "手機晶片"
 },
 {
 "code": "2472",
@@ -256,7 +256,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險金融"
+"theme": "壽險銀行"
 },
 {
 "code": "3017",
@@ -298,8 +298,8 @@
 "market_cap": 419951860720.0,
 "status": "PULLBACK",
 "dist": -0.10282776349614398,
-"limit_up": true,
-"limit_up_count": 2,
+"limit_up": false,
+"limit_up_count": 0,
 "group": "PCB/CCL",
 "theme": "ABF載板"
 },
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "3711",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高頻CCL"
 },
 {
 "code": "6239",
@@ -391,7 +391,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "記憶體封測"
 },
 {
 "code": "6271",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "8261",
@@ -466,7 +466,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "伺服器BMC"
+"theme": "伺服器管理IC"
 },
 {
 "code": "5289",
@@ -571,51 +571,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "銅箔基板"
+"theme": "銅箔"
 }
 ],
 "news": {
-"takeaway": "川普政策與大型企業CEO動向，正深刻影響美國移民、能源、AI與就業趨勢。",
+"takeaway": "川普政策與大型企業CEO動向，將深刻影響美國政策、全球科技與產業趨勢。",
 "items": [
 {
-"who": "川普",
-"summary": "川普切斷清潔能源稅收抵免，推動項目搶建並導致價格飆升。",
-"why": "此舉將重塑美國能源產業結構，影響未來綠能投資與成本。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOblZWbTB1bWZiQVVXODNWdkpHVlhXTnNsUHNKc2pRc3E5V0FoNG5kd0d5U2VGekI4b29qTHBzTFBfZmFZSUVIUU5fOVRnVTlmcVlod1ZMUmlRZmNVcTNKRGNzcktTV20tdXI3ZGNfLU9fblN1TXo3Z0I5WWZiX1JjeDJCdEc4WnQxd3pGWmg0REVaX0RLQXNWa25oeTB3bmM2TkxpenBVa3ZqZzgxYXA4MnlFa3U5cURsRUIzaVNzSnk5dE0?oc=5",
-"time": "12 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普在移民政策上獲得最高法院支持，強化其限制移民的戰略。",
-"why": "美國移民政策將更趨嚴格，對全球移民趨勢與企業用工產生深遠影響。",
-"source": "The Guardian",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmg1RC1xMHlEVURJSENzYU1ONDR2Mm1PaEdpZDJ5ZHptdDdSNnNwNHJGazNpUXpKWVBJcTVVMXhrNmVtalN4Q1ppeEh0NE84TGd0bFR0bGNTdmR6aGxUcndzTHVXdEFYVGtzaHIwS3h3Yy16WlZNZnZ0ZDFDcWhUUW5BT2dGZw?oc=5",
-"time": "16 分鐘前"
-},
-{
 "who": "Andy Jassy (Amazon CEO)",
-"summary": "Amazon CEO表示AI將取代部分工作，但也會創造新職位。",
-"why": "AI對就業市場的重塑將加速，企業與勞動者需調整未來技能與策略。",
+"summary": "Amazon CEO Andy Jassy表示AI將取代部分工作，但也會創造新職位。",
+"why": "AI對就業市場的衝擊與機會，將重塑產業結構與人力資源配置。",
 "source": "outlookbusiness.com",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbjh2TkpsUXNvbDRKeG1Ja1FWcmNfSElKc0gyTHFJWFR6RFVKRDVpM2pjc2FfWlhySnRxdWVKVFFIbTdEVGx2bjExNTlmbEhQZHRvMTY4X3l4eDRzQ2lFSlIzZERPSFRucWtqbk1QUHRFalh2VGk5WkFoYzlFaUZYN1ZWZWp2eUZNbUxfLUhvWGRVSDluNl90WURDdXFrc0JMUngxNVF2N0lfcVNGbWxDWnJZM1ByRjh00gHGAUFVX3lxTFAtTHZEWmJUeEVUSXRYdGNIUHpOX0ZlOGhvamhVMklGTTlnLWYxMGRsdlFxOFFNVUFxTjB4bFZnRE1UZ0NIM0Y2UHFCXy1EcE5nam04WjJ1Mm80dmNNXzZ6YlExOUl6Qko1bXlaTWN3TERQWmpBbGNabE9FckYwUkc5dF8tOTYzQzZQTlp0cXhuUWtOeFNpZTUwMTFRRENKcVVwU0RNYU80anc3eFpFTXoweVZmRjJyX0NxVEcwWXlhZDBKU1Z3Zw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Tim Cook (Apple CEO)",
-"summary": "歐盟科技主管與Apple CEO舉行通話，討論相關議題。",
-"why": "蘋果與歐盟的互動可能影響科技產業監管與市場規則。",
-"source": "marketscreener.com",
-"link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVVNYS25kNzhHc1ZWdlNDNnE0c1REU1FSR2xpbXZMVHRCOEQ4NmM2TS10WFRSUUNQcFJ4TTE2ZXRUSUM1RHhYRWpYQmdBUkUwbWpHcnU4N1VWMFJWWnJJcTNtX3ZwMmJtT1o3b0V5b3FIc2pEZUMtWjNXWUpoVHoxTm9RV2VtOEdQMEFkQThzNTFER2dwZmRNUXFqVWw2Tk51dE9NS3pJVk4wOGFaT0N0NkVtQXMzQlVSQTRja01PVTh3aU42R0xZ?oc=5",
-"time": "36 分鐘前"
+"who": "川普",
+"summary": "川普推動清潔能源稅收抵免截止，導致項目搶建並預期價格上漲。",
+"why": "能源政策變動將影響美國新能源產業發展與全球供應鏈。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOblZWbTB1bWZiQVVXODNWdkpHVlhXTnNsUHNKc2pRc3E5V0FoNG5kd0d5U2VGekI4b29qTHBzTFBfZmFZSUVIUU5fOVRnVTlmcVlod1ZMUmlRZmNVcTNKRGNzcktTV20tdXI3ZGNfLU9fblN1TXo3Z0I5WWZiX1JjeDJCdEc4WnQxd3pGWmg0REVaX0RLQXNWa25oeTB3bmM2TkxpenBVa3ZqZzgxYXA4MnlFa3U5cURsRUIzaVNzSnk5dE0?oc=5",
+"time": "30 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普提名Chris Klomp擔任副衛生部長。",
+"why": "高層人事任命將影響美國衛生政策與相關產業未來走向。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LRVZiMC02QzRBWnpFRG5FbXg4UVY1YnlqOGxzOWdHYU5UeU01SnltcFJWc1FKNFpNMXNraTFjV0lCcjlpZk5WS2JKRlI1b1FiQzc2TTBmVTVxRktfU3JGNWlLTHZrUXFnV1pqdDJhNno1Q3p6QXY0?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Christian Mastro (Lamborghini America CEO)",
+"summary": "Lamborghini任命Christian Mastro為美國區CEO。",
+"why": "高階領導更替可能帶動品牌策略與美國市場布局變革。",
+"source": "TheNewsMarket",
+"link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPU0ZSVnB6ZDhYVUU1M0F2ZnJMbmxraTV5dFdIc3pWeXhtblJKbDg5bkpfZVljQU4wT0EyYTNnRlR4NmFtTFUzVEMyYncxeUlSX3JUbzdBcTlxWTNhVlBYSEU3UFBQSnhYQjRybkhtZUppZEl0anUweFRERlh3cDAwMlFCWmZOX3BHc0tEX3M4M1RZSmJBY3BGYW5FbFY1d2tjd21BQ0RBSERYTXF3NlB5NUV5Ny1fc29ITUNDTUxjUTE3V0Y1RjUtREtVNDFwZ1VsQ2RidEg4MkZSTXJjRDl0a2RVSjJvOWV0eUFGak5CR1I2b2tfcFZ5YnM4MlRvdlVjazNwUQ?oc=5",
+"time": "11 分鐘前"
 },
 {
 "who": "Honda CEO",
 "summary": "Honda CEO為年度淨虧損道歉，承諾重返成長軌道。",
-"why": "日系汽車巨頭的轉型與復甦策略，將牽動全球汽車產業競爭格局。",
+"why": "日系車企領導層表態，將影響全球汽車產業競爭與轉型方向。",
 "source": "毎日新聞",
 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JbGcyX3hUN3B6ejF4cWVUaFJUSVFEbXZfXzA2RldpRnJraUo3b1lwZlowdTdxUzFfU1ZhQ1VYa0VuUEhLd2tkNC1OYmJPN1hoU3FGNFBPZWRLU0FjRUhRWm9tbkdZWFp2UkVUZER0dGs4eWM?oc=5",
-"time": "17 分鐘前"
+"time": "35 分鐘前"
 }
 ]
 }
