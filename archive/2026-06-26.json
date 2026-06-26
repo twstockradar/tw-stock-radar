@@ -1,7 +1,7 @@
 {
 "date": "2026-06-26",
 "count": 37,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、載板、散熱模組、重電、矽光子等。",
 "stocks": [
 {
 "code": "1802",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電力電子"
+"theme": "工業自動化"
 },
 {
 "code": "2313",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件龍頭"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器品牌"
+"theme": "伺服器品牌"
 },
 {
 "code": "2368",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "伺服器PCB"
+"theme": "伺服器載板"
 },
 {
 "code": "2379",
@@ -166,7 +166,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "IC設計",
-"theme": "通訊IC"
+"theme": "網通晶片"
 },
 {
 "code": "2382",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2383",
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電容"
+"theme": "電容製造"
 },
 {
 "code": "3017",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "石英元件"
+"theme": "晶體元件"
 },
 {
 "code": "3189",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "3711",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "PCB/CCL",
-"theme": "高頻CCL"
+"theme": "高頻板"
 },
 {
 "code": "6239",
@@ -376,7 +376,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "記憶體封測"
 },
 {
 "code": "6271",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "8261",
@@ -526,7 +526,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高頻CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "8299",
@@ -556,51 +556,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "銅箔基板"
+"theme": "銅箔材料"
 }
 ],
 "news": {
-"takeaway": "川普政策與多家科技巨頭CEO的發言、決策，正深刻影響全球產業與政策走向。",
+"takeaway": "川普政策與多家大型企業CEO的重大決策，將深刻影響美國政策走向與全球產業布局。",
 "items": [
 {
-"who": "川普",
-"summary": "川普-范斯政府將聯邦加密技術提升為對抗量子威脅的優先事項。",
-"why": "顯示美國政府將加強量子安全，對全球資安與科技產業發展具深遠影響。",
-"source": "Quantum Zeitgeist",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSlJ3REgxdkVreFFoZTZyOXRtQjVEeU5od0RKS2hwSzdyYUJYMzQyLWwwVUFjLXZLVlpMWUQyY3RWWjNpUVdhdDJ4bEhBaE1SN19EdzhyUG1rN2FJb01uLWhCSEo3M2pOUUZvNFlBaXZwNHdXYWFCVHZuOHlwQkVSX1B3?oc=5",
-"time": "29 分鐘前"
+"who": "VW Group CEO Oliver Blume",
+"summary": "計劃裁員10萬人、關閉4家德國工廠並分拆核心品牌。",
+"why": "顯示汽車產業正面臨結構性調整，對歐洲製造業與全球汽車供應鏈有深遠影響。",
+"source": "Automotive News",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcVRyZEhTZ2JsUXNwZkNCcVMxSi1pUy1nU0pLVWZkNXM3WGhCNThfM0NTVlhEbUoxQnotQ2xEYUQ1MzZGNWRLYWdfN05LSFVqNmlmRmtTYWVNYy1fbHFBbWJQV0FJT1lFLUl6QlhldDhhMmZwRGF4U2lvZ04ySENkMk1rQVprenM4dmtGNzJjMA?oc=5",
+"time": "20 分鐘前"
+},
+{
+"who": "Apple CEO Tim Cook",
+"summary": "稱近期價格上漲是「百年一遇」，並表示從未見過類似情況。",
+"why": "反映全球通膨與供應鏈壓力，蘋果對消費電子市場的定價策略將牽動產業趨勢。",
+"source": "Moneycontrol.com",
+"link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQdnV4QVlNb25kM0RFSXBZMFYzUjFRX1FuckFfamx1cXhuTUZ0RlVrNUd4S2Vac3JCcW5OWFNGSXptZUQ3VVpIVDZuZDdDWkRwTjZQSG4yVjlnVDBma1dMZUg1SEZHRkJhZW1kVGhackZvNW1raFJQV01aNTRSQ3BVVDVfRWMySk9rUFYwNFlaX1ItSVh3RWszMVp4TG9kVG9jU2xtLUt3RTZmNmdETzhSVklDMk5oMmNZT1BCNFRSa0xTYl9mYmMxOXNFTVVLVVN1NGNFMVFHTjZZdUZJRm9DcUw4Ym1SYWRWWVhhdVIwUzU2U0QzTHROMHp3QVpUcHhNcGJjVDJFSW1KVW1l0gGSAkFVX3lxTE9mRTZFVE1UaXdIbmYzZFZlYlJiTmtWd2hfWmR4cWE0eUlBeWs2YmtQbFFGQTBSTi0tWFF1elV1S0FialVVS0lCcGNuOE9rU3NueTN5aW1ESV91enpISG1aWl9XT3FCTm5uNVhhSnJ4WWIyZ3FNVGloUTF0YVF3Smo0UTlET1Y1NXpNdFZWOVBuQkRTRFA5N0ttZWFqYk1UeWVrUDNsenJITDlPeHhlUUhjblBpQjV0WU9JYUk1MlhreTRMdFFGSzlScFBGNGdSS3VTSF8tV21BdEVhcXM4U0tkZ0pwZkwzdzB2NDJKTlNwZXFSNGo0a2RkUk4tUmdSSDgwOGZjTmk2cVp5TXJJUU9DdkE?oc=5",
+"time": "42 分鐘前"
+},
+{
+"who": "Amazon CEO Andy Jassy",
+"summary": "表示亞馬遜在印度市場開放收購機會。",
+"why": "展現亞馬遜加速布局新興市場，可能推動全球電商競爭與印度產業整合。",
+"source": "The Economic Times",
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXlmWFRtTi1CT0lVeWZCLTlKZ2dMV21JV251Y0dtNURJTjJ4aWRjdFRwX3hDbzBmRkoyR1RzbEszWXNNVnhOVzdsY0VlMXRiaEhac0c0cDlOaVdxNWdURWtuVDF6cHJmZTA1dGJHSmhWOG10S1lvN3Y3M0djTkdXVmlVaE83WDc2Z0FJbGVmT3NDdFNnaERUZmNEcEM3UnkwSjNGTk9BT0kwT3hLUGJKbUFpVmRCVmU5V3BNWkJWX3BaWnJG0gHKAUFVX3lxTFBGbGhTUzJNRWlwekxPRnhSZXRaVkhUeEo4LXV4WFVOc2NHUkR0UDdZLVNYUHFuaHFkZkwycTlMSWpoVGhmTlBLdVFTWXVBTkFRZ1JyZkQyU3BVOEppQjdXVUZiQl9JRi1rbGV6ckxCYXNsQmxiVFB2NW9Md1duLTUtc3lLbXVtVzItMXFod0RGcmFMM0t2bkpQYjBhNzRldm1MdTllWlc2UnhCU0NBMEdxZ0p0RTNmQUtjM3RYYnBHNWlSbVlTYkxkcEE?oc=5",
+"time": "44 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普要求額外110億美元農業補助以應對成本壓力。",
-"why": "反映美國農業政策可能大幅擴張，影響全球農產品市場與補貼競賽。",
+"summary": "最高法院裁決賦予川普更多設定移民政策的權力。",
+"why": "美國移民政策將可能大幅收緊，對全球移民流動與美國勞動市場產生重大影響。",
+"source": "NPR",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT25GdDN0TU9mNng5Z25RUlljMUttUmIxVTRQUGRWZDV3WC1kMWxhTGFQNTlDb0J3VmowVXNsaDF2LUloZTZHTzloenVQdXBWRUJNWHpoUEFFbTF2WFdxM1ptYkxHZVlWSXVVUkNjd1pFQm5DSjFxNERqc1VPZ1RZU2RJckdkb2JfM0hIa1VBT1pNUmF5eVhLejU5NHp3N1k4U2RyLWluTFJBYkJu?oc=5",
+"time": "32 分鐘前"
+},
+{
+"who": "川普",
+"summary": "要求額外110億美元農業補助以應對成本壓力。",
+"why": "顯示川普重視農業選民，未來農業補貼政策可能加碼，影響美國農業與全球農產品市場。",
 "source": "The Pig Site",
 "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV094YVJUWG4ydlRSdWFQc0dlSjNjbEllUlhXNDNId3hHNTVkZ0pETDlab3FNbzJ5WEc2N3RtWlZjbDBvZTJPSlc5YS10VEx5bjNhYkZXcVRyWkI1R2pvek1tWXJjUmxrcDNZNHdRcmhZZWxfN0h3dmh2cVp0a3Y2RnFmelpzM284VGJtNjUtRU9vTDlwd09F?oc=5",
 "time": "1 小時前"
-},
-{
-"who": "Tim Cook (Apple)",
-"summary": "蘋果CEO庫克稱近期漲價是百年一遇，表示從未見過如此情況。",
-"why": "突顯全球供應鏈與成本壓力，預示消費電子產品價格可能持續上升。",
-"source": "Moneycontrol.com",
-"link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQdnV4QVlNb25kM0RFSXBZMFYzUjFRX1FuckFfamx1cXhuTUZ0RlVrNUd4S2Vac3JCcW5OWFNGSXptZUQ3VVpIVDZuZDdDWkRwTjZQSG4yVjlnVDBma1dMZUg1SEZHRkJhZW1kVGhackZvNW1raFJQV01aNTRSQ3BVVDVfRWMySk9rUFYwNFlaX1ItSVh3RWszMVp4TG9kVG9jU2xtLUt3RTZmNmdETzhSVklDMk5oMmNZT1BCNFRSa0xTYl9mYmMxOXNFTVVLVVN1NGNFMVFHTjZZdUZJRm9DcUw4Ym1SYWRWWVhhdVIwUzU2U0QzTHROMHp3QVpUcHhNcGJjVDJFSW1KVW1l0gGSAkFVX3lxTE9mRTZFVE1UaXdIbmYzZFZlYlJiTmtWd2hfWmR4cWE0eUlBeWs2YmtQbFFGQTBSTi0tWFF1elV1S0FialVVS0lCcGNuOE9rU3NueTN5aW1ESV91enpISG1aWl9XT3FCTm5uNVhhSnJ4WWIyZ3FNVGloUTF0YVF3Smo0UTlET1Y1NXpNdFZWOVBuQkRTRFA5N0ttZWFqYk1UeWVrUDNsenJITDlPeHhlUUhjblBpQjV0WU9JYUk1MlhreTRMdFFGSzlScFBGNGdSS3VTSF8tV21BdEVhcXM4U0tkZ0pwZkwzdzB2NDJKTlNwZXFSNGo0a2RkUk4tUmdSSDgwOGZjTmk2cVp5TXJJUU9DdkE?oc=5",
-"time": "8 分鐘前"
-},
-{
-"who": "Andy Jassy (Amazon)",
-"summary": "亞馬遜CEO表示公司在印度市場開放收購機會。",
-"why": "顯示亞馬遜將加速印度市場佈局，可能改變當地電商與零售格局。",
-"source": "The Economic Times",
-"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXlmWFRtTi1CT0lVeWZCLTlKZ2dMV21JV251Y0dtNURJTjJ4aWRjdFRwX3hDbzBmRkoyR1RzbEszWXNNVnhOVzdsY0VlMXRiaEhac0c0cDlOaVdxNWdURWtuVDF6cHJmZTA1dGJHSmhWOG10S1lvN3Y3M0djTkdXVmlVaE83WDc2Z0FJbGVmT3NDdFNnaERUZmNEcEM3UnkwSjNGTk9BT0kwT3hLUGJKbUFpVmRCVmU5V3BNWkJWX3BaWnJG0gHKAUFVX3lxTFBGbGhTUzJNRWlwekxPRnhSZXRaVkhUeEo4LXV4WFVOc2NHUkR0UDdZLVNYUHFuaHFkZkwycTlMSWpoVGhmTlBLdVFTWXVBTkFRZ1JyZkQyU3BVOEppQjdXVUZiQl9JRi1rbGV6ckxCYXNsQmxiVFB2NW9Md1duLTUtc3lLbXVtVzItMXFod0RGcmFMM0t2bkpQYjBhNzRldm1MdTllWlc2UnhCU0NBMEdxZ0p0RTNmQUtjM3RYYnBHNWlSbVlTYkxkcEE?oc=5",
-"time": "9 分鐘前"
-},
-{
-"who": "Andy Jassy (Amazon)",
-"summary": "亞馬遜CEO Jassy表示AI將取代部分工作，但也會創造新職位。",
-"why": "強調AI對未來就業市場的結構性影響，企業與勞動力需及早因應。",
-"source": "CNBC TV18",
-"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVE9JQ21VdENRQjJ5SFZMcGctUEhUYmVESVljRnZpNnBHRVRmYVlPQ1hZblp3NUVCRWg3NC01b2NPdXI3VF9Sa1ozS1BNV0pvVUZ2NFBldUZ2emptU0hUOGViSm5sdFJiVVlyWHh3NURGN1VkOHlMM3Yxck1BV1lLRWZTd2hNY21IZzMwYW1XQU45NER2TWl6RnlNdjZpUlpQWTJud3h0NkdkZktKQlZkZFMzSWxYYmJUZTdCQzE3bG9POFNkTnlpUVNxWi1VUdIB0wFBVV95cUxPLWxHR1k5cm52YkxCcTBVcEVUSHR4emJUd1RiMUJhYVNWQXFxYmN1Si1zM3hDN25HbnJySnN5WFhXVV9NOVpoXy1saG1WTUhmYzh6aVA5REFBQ1ZoelNvbFpvTXNCelkwaXpIejhTclNHWGJHVkdTZTNvWGxWRGFMeTFTSW4wNGJlYjBRWm1laERCVHB4UEZ0aXE4cmdobS1lTkJpUmtXc3Fta3Nucm1Kc2tsSmJBSDlEMTdBQS1uWi1fLVh4XzI4SlF2TUdQQVNFSkRV?oc=5",
-"time": "5 小時前"
 }
 ]
 }
