@@ -1,7 +1,7 @@
 {
 "date": "2026-06-29",
-"count": 28,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材聚焦先進封裝、AI伺服器代工、CoWoS、重電、伺服器滑軌、散熱模組等。",
+"count": 29,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、重電、伺服器滑軌、散熱模組等。",
 "stocks": [
 {
 "code": "2308",
@@ -9,7 +9,7 @@
 "market": "TWSE",
 "close": 1905.0,
 "change_pct": 5.248618784530387,
-"trade_value": 32065287045.0,
+"trade_value": 32118902642.0,
 "market_cap": 4948320041745.0,
 "status": "PULLBACK",
 "dist": -0.11025145067698261,
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 246.5,
 "change_pct": -0.8048289738430584,
-"trade_value": 12227793142.0,
+"trade_value": 12235300546.0,
 "market_cap": 3458061886309.0,
 "status": "NEAR_HIGH",
 "dist": -0.0939490445859873,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 1040.0,
 "change_pct": 2.4630541871921183,
-"trade_value": 42274485150.0,
+"trade_value": 42284258030.0,
 "market_cap": 2154324103360.0,
 "status": "NEAR_HIGH",
 "dist": -0.09208972845336483,
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2370.0,
 "change_pct": 1.282051282051282,
-"trade_value": 82497849495.0,
+"trade_value": 90337385683.0,
 "market_cap": 61459717058790.0,
 "status": "NEAR_HIGH",
 "dist": -0.030737704918032738,
@@ -84,14 +84,14 @@
 "market": "TWSE",
 "close": 2340.0,
 "change_pct": -1.680672268907563,
-"trade_value": 7179332025.0,
+"trade_value": 7184716365.0,
 "market_cap": 1313015878980.0,
 "status": "NEAR_HIGH",
 "dist": -0.07606679035250463,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2368",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "伺服器PCB"
+"theme": "PCB板"
 },
 {
 "code": "2383",
@@ -114,7 +114,7 @@
 "market": "TWSE",
 "close": 5450.0,
 "change_pct": 3.7107516650808754,
-"trade_value": 5092327440.0,
+"trade_value": 5119692240.0,
 "market_cap": 1952850071300.0,
 "status": "PULLBACK",
 "dist": -0.13309671694764857,
@@ -144,7 +144,7 @@
 "market": "TWSE",
 "close": 3910.0,
 "change_pct": 0.7731958762886598,
-"trade_value": 41685008105.0,
+"trade_value": 44541787045.0,
 "market_cap": 6271231041370.0,
 "status": "PULLBACK",
 "dist": -0.13480885311871227,
@@ -169,12 +169,27 @@
 "theme": "電容"
 },
 {
+"code": "2882",
+"name": "國泰金",
+"market": "TWSE",
+"close": 101.5,
+"change_pct": -4.245283018867925,
+"trade_value": 6990338533.0,
+"market_cap": 1488924827992.0,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "金融",
+"theme": "壽險金控"
+},
+{
 "code": "3017",
 "name": "奇鋐",
 "market": "TWSE",
 "close": 2300.0,
 "change_pct": 1.9955654101995564,
-"trade_value": 6889557560.0,
+"trade_value": 7032758260.0,
 "market_cap": 902848916100.0,
 "status": "PULLBACK",
 "dist": -0.1362126245847176,
@@ -204,7 +219,7 @@
 "market": "TWSE",
 "close": 627.0,
 "change_pct": -0.7911392405063291,
-"trade_value": 11198523061.0,
+"trade_value": 11210810380.0,
 "market_cap": 2796942342414.0,
 "status": "PULLBACK",
 "dist": -0.1375186846038864,
@@ -219,7 +234,7 @@
 "market": "TWSE",
 "close": 573.0,
 "change_pct": -1.206896551724138,
-"trade_value": 17168012506.0,
+"trade_value": 17176264852.0,
 "market_cap": 618508149915.0,
 "status": "NEAR_HIGH",
 "dist": -0.03393427486959766,
@@ -425,39 +440,47 @@
 }
 ],
 "news": {
-"takeaway": "川普推動新核能政策與移民議題，OpenAI與NVIDIA CEO釋出AI與國安未來方向。",
+"takeaway": "川普針對美伊關係、移民政策及農業政策有重大發言與決策，企業CEO則有重要人事異動。",
 "items": [
 {
 "who": "川普",
-"summary": "川普推動新核能反應爐政策達成最終目標。",
-"why": "美國能源政策轉向核能，將影響能源產業與減碳趨勢。",
-"source": "NPR",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWUpJeWFJeXRwdTJJRVJWbjdVYngwQy1jX2dVNzRRaU93aWt1VFZMcjJudmROaU5Qem9SMlZtZTJkVGxxR3lWRG4tM0Z5MFU0Qk9vRWFMdWVPamFNWGh4ZmJwMHg2ZXJmak1ZOUlCclp2eEJtV2ZJdlJOUkRBN3JQNlpfdGp0RXVNdHhRVHZqeE1EdUdVYkNzUA?oc=5",
-"time": "16 分鐘前"
+"summary": "川普表示美國與伊朗將於週二在卡達舉行新一輪談判，繼週末衝突後。",
+"why": "美伊關係動向牽動中東局勢與全球能源市場，談判進展可能影響地緣政治與油價。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ydUpNMmF4NFJncWdDLVJLWDJ5UUlhdnRYMFliQXdBWlBrWEtZMjB2ZEJWdnNxb1o5S1RERC1xSFBqb1ZxY1o4ODY4SURkazQ2SldaU25FdXVUb1BSc1J3NnBEc3dSdHdpRUYwV2RJY2hDamN5czhSUtIBfkFVX3lxTE9GR0pHOWdlUWdpNl9hWXNPTGF5alNiS21WUVN5aHVhajdYSHJiMTE1eUQ1TllBaGNNdk5SZi10VzYwR0h0T19wcjZ1UHE2NFBEYi05cUtYZW9VTUluYS1lcFNvRG5Uczl4U1pMM2V5cEZ3VTF4cU5LV05ReG8xZw?oc=5",
+"time": "31 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普在移民議題上取得政策勝利，最高法院考慮出生公民權。",
-"why": "移民政策變動將影響美國社會結構與未來選舉。",
-"source": "NPR",
-"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTEFqVkkwZnljWkdWQm9yaVVSM2VSSFM1aHJDU1NmcnR5MVB6bURGRWJCWlY4MGFXbjE2WFlEMUJ3bkxQcnpPRGRqVWo0TGZ0eDQ0cy1aTnlwc08xT1FhV181eGdyMTlhTUx5R1ZKd3RjemV6bFk0M09NeVVaSVFEVm1hQkNmZXBaOFJITEJ2SGNNTEV5cEVlRGZfak0xVjVvMV9lSUtpUG9mQ2tJdkdtaVdHcUhONUlIR1hWZTRzT3VqWG9lWU5ULWxR?oc=5",
-"time": "35 分鐘前"
+"summary": "川普宣布提名前奧克拉荷馬州警官 Lance Schroyer 擔任 ICE 局長。",
+"why": "移民政策執行者更換，可能帶來執法方向調整，影響美國移民趨勢與相關產業。",
+"source": "Spectrum News",
+"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTkFSUjBwVVR1MXhzbk5nSDdjeXg4amxMNjJvNjFVeUdjN0Z3dnRFQnJqdGFKZTFYcGFHR29oYlIzYVhTMVBHdE5ZTkV3eTlfU1hNbFp0cWd0bXNLci1XQlRSeHJPUzI4dkpYS2Zlb0VQRXgzdWlCU2ZyMDdNd2s3aGpvSHBINE5sQ1lKRko0M0J3dlJsUDBLNW94bVBEbW1aaWF6ZXVxMHhZSFZ3bmhlcDBTbklvZHRHVHdlcU82cll4bGluQ0s2RHVwOTR3WWt4VzhIc1U5YlhKNzI2RkthWVNPc0I1a3M?oc=5",
+"time": "42 分鐘前"
 },
 {
-"who": "OpenAI CEO",
-"summary": "OpenAI CEO宣布2028年前將打造全自動AI研究員。",
-"why": "AI自動化研究將加速科技創新，改變產業競爭格局。",
-"source": "매일경제",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5MMnBKcldtamRNdVpjbldVdkVtVzhxcmlzbDZaYUxZWEthOG9aRmZNZkZYRHZZY0NpSExhcEM1UEFzQzdIMHZubGpPWQ?oc=5",
-"time": "26 分鐘前"
-},
-{
-"who": "NVIDIA CEO",
-"summary": "NVIDIA CEO表示國家安全優先於商業機會。",
-"why": "AI與晶片產業將受地緣政治與安全政策高度影響。",
-"source": "Insider Monkey",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcXdlY0dyQnRsbDlsWWVVMlJnLVNFTi1XNVlRVlFIR1hSYTNVWWNtY3ZwVi1PbHNpMlozdnRQeXAyMjF0NVdhaWdUMmFfTUdVanBjUi01UzJ1S09xVmZudTF3alc5eGNkMUJkYWpOMnk0NGI3X2lLMmtWUFdpSTRkLWlBdjRMci1pcGx6TUdPWHN3RHJkUTUzNllHMmM1OE8zdGdIejNId19hYUU5eVNBaWFIWUFTMElSTW5kZl9oQlhiX2vSAcsBQVVfeXFMUGk1N1FqM0pxbFprSWVWc3hSV2FFUEJlSXdWUGs0SFFWRzJjY0xPSTZUOU54eFhTdk9RR0J4LXhMVDFqMkZ5dVFWM2tNV1c4YnNidFFLdjFad09RVGkwbk1yU1NCMzNaTHRpMW5ZTWQ3ckgyMGpKdklHelp1VVhuRXlZSWg1UV9Ic0FPbjc5Tjd3UkltOG5DMWtlbDZrVElQYXdsUC14bm9oUVJuUWk5RElMaVJuR3BXVzVsTHIxUk9HYjljQVZ4M1pPb0U?oc=5",
+"who": "川普",
+"summary": "川普簽署推動再生農業的行政命令，作為健康美國計畫的一部分。",
+"why": "政策將影響美國農業生產方式與永續發展，對農業、食品產業及環境政策有長遠影響。",
+"source": "Florida Hospital News and Healthcare Report",
+"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMlNGNE02SjBUWTF3YlpHQUV4bldmb0xPR1paaHVkWGdzNmZlYW1UQVUyeWJ6RlUyeUY2b1g4V3lmM3htVzZ6aVoyWW9vdkloaktEckhEMWpNYi03YVZHeWJwdjVlMEpmdjJ0b3JET0Z5TEk5NDg2NnIxRmFvU1kxRE9RQlphYlJFR0w2dDRZeWs1YW1wWDZ4N29Qa0pKWGV3Vmd4eFdTa1hjS08zWTBUbGl0STlPa20wR1VFX1RJSjZJaGEwdm85dnRoVWcxa29ZLWMycW13Y2FpNEhQTHlWcXlGRUdNbjJWX2M0?oc=5",
 "time": "1 小時前"
+},
+{
+"who": "Beckett CEO",
+"summary": "Beckett 執行長辭職，由財務長 Manish Kshatriya 過渡接任。",
+"why": "高層人事異動可能影響公司策略與市場信心，對投資人及產業動態有指標意義。",
+"source": "Stock Titan",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3o1SzVhaFVOTTA2ZEFhTVR4MXU1eG5GcWZXQTA5MmU5cGR4Z3BoSm44Mnc0U1FJbVVhdlFoeTJ4ZXNLbklJUWtrX3Vlajc0ME5BaTFLTjVMU2ExQUtuWXNCRVNQQlBoRmJqTG9LSkZIX3BQblE4LTdWQ3JVVmNHZS1SZlpEY3NEc3dLU2ROVGV1ejdxVE8wSng2Tm00WklrMEtEaXQzSnYxQXBNYnVfQkVEMklLTkowdS0wN013?oc=5",
+"time": "22 分鐘前"
+},
+{
+"who": "Aegis Brands CEO",
+"summary": "Aegis Brands 公布執行長交接最新進展。",
+"why": "企業領導層更替，可能帶來經營方向調整，對品牌發展及市場策略有影響。",
+"source": "TradingView",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHdoSTlRVDY4QXVQbGxHZlJROEtRY051aFVmZGVEZ2MzMWxiNjJzZDYxRVpxeEdScFp5b29YYTQzTTc4YjMwVzN5VUFEckZtMUFwWnl2UkRZNWVtczd4UDNvbVRRRG53WTlHYVk2dVBCZWUtM0xNWEpkdDZncFpsS2lRODJJOVBaQk9xVFRJa2VaYnpBVDdLV2RoMTZOSmVBamlaaERhbEk?oc=5",
+"time": "59 分鐘前"
 }
 ]
 }
