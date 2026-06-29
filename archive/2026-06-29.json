@@ -1,7 +1,7 @@
 {
 "date": "2026-06-29",
 "count": 29,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、重電、伺服器零組件、光通訊、記憶體等。",
 "stocks": [
 {
 "code": "2308",
@@ -31,7 +31,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板廠"
+"theme": "PCB板"
 },
 {
 "code": "2317",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器代工"
+"theme": "AI伺服器代工"
 },
 {
 "code": "2327",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "2330",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板廠"
+"theme": "PCB板"
 },
 {
 "code": "2383",
@@ -166,7 +166,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電容製造"
+"theme": "電容"
 },
 {
 "code": "2882",
@@ -241,7 +241,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板廠"
+"theme": "PCB板"
 },
 {
 "code": "6139",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測服務"
+"theme": "封測"
 },
 {
 "code": "6451",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器代工"
+"theme": "AI伺服器代工"
 },
 {
 "code": "5274",
@@ -440,47 +440,39 @@
 }
 ],
 "news": {
-"takeaway": "川普針對美伊關係及移民政策的最新發言與決策，可能影響地緣政治與美國內政；多家企業CEO異動顯示產業領導層變動。",
+"takeaway": "川普針對美伊關係及移民政策有新動作，企業領袖則有重大人事異動與分拆決策。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示美國與伊朗將在卡達會面，討論近期攻擊事件。",
-"why": "美伊關係緊張，若能對話將影響中東局勢與能源市場。",
-"source": "NPR",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPY2I2TzZDMDAtXzIydEVFWUt4SGJxVkRIdFZtYTRxX2FEaWdZbEpKblhyaDIydzRHMm54UGVjbzJ3Nkl4enZ2eE9OczgtREFlMzdzdHQ4V05aNnFIODJ0eDkxYTZGNF9EV0E?oc=5",
-"time": "6 分鐘前"
+"summary": "川普表示美國與伊朗將在連日空襲後進行談判。",
+"why": "美伊關係緊張，若談判成真將影響中東局勢與全球能源市場。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHV2VTJKdkhDT2taRjN2R19WLVJESnV1SmRNaVRLU2xGcU5JZG1Id1hGZG01TWhLdzlIdnc0THdDdTRPdC1HM3JoZFBsMm54b2RhSjl5QWY1WnFMSUZ3bTEzM1BpSjJxZXlIeVF0a191RlVTTFhXWGFMLVJySXFVSTc5RVJjbUhRYW9OeEphSk1NaE05b3FqaXo1WWgyM1dRS1hmVXM3V2RxUQ?oc=5",
+"time": "2 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普宣布提名前奧克拉荷馬州警官 Lance Schroyer 擔任ICE局長。",
-"why": "移民政策執行者更換，可能帶來執法方向重大調整。",
-"source": "Spectrum News",
-"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTkFSUjBwVVR1MXhzbk5nSDdjeXg4amxMNjJvNjFVeUdjN0Z3dnRFQnJqdGFKZTFYcGFHR29oYlIzYVhTMVBHdE5ZTkV3eTlfU1hNbFp0cWd0bXNLci1XQlRSeHJPUzI4dkpYS2Zlb0VQRXgzdWlCU2ZyMDdNd2s3aGpvSHBINE5sQ1lKRko0M0J3dlJsUDBLNW94bVBEbW1aaWF6ZXVxMHhZSFZ3bmhlcDBTbklvZHRHVHdlcU82cll4bGluQ0s2RHVwOTR3WWt4VzhIc1U5YlhKNzI2RkthWVNPc0I1a3M?oc=5",
-"time": "51 分鐘前"
+"summary": "川普提名前奧克拉荷馬州警官為新任ICE局長。",
+"why": "移民政策執行將受新領導影響，可能加強執法力度，牽動美國移民趨勢。",
+"source": "Police1",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ0RXQlNwQzVqbjJrMUdjU0NMeVhfR2V5SGhFWnI1LUFkQUtZSWJWOEpYbkcxVDZqVnBUMk5qcnlFcEhUTXZzTENfZ3NFZnlDbDMxaTBFMkdGcUZCWUtoallPX1lpN28tSUYycnQ0a1VBSGRZU2lyeTNqeTNtaDI2ZHNlTWJZMFRaR3dTeXVQZG5henhhNGZxRXdEN29aN2hkUlNMTXdrTVY4WTRna3c?oc=5",
+"time": "19 分鐘前"
 },
 {
-"who": "川普",
-"summary": "川普簽署推動再生農業的行政命令，作為健康美國議程的一部分。",
-"why": "政策推動永續農業，對農業產業與環境政策有長遠影響。",
-"source": "Florida Hospital News and Healthcare Report",
-"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMlNGNE02SjBUWTF3YlpHQUV4bldmb0xPR1paaHVkWGdzNmZlYW1UQVUyeWJ6RlUyeUY2b1g4V3lmM3htVzZ6aVoyWW9vdkloaktEckhEMWpNYi03YVZHeWJwdjVlMEpmdjJ0b3JET0Z5TEk5NDg2NnIxRmFvU1kxRE9RQlphYlJFR0w2dDRZeWs1YW1wWDZ4N29Qa0pKWGV3Vmd4eFdTa1hjS08zWTBUbGl0STlPa20wR1VFX1RJSjZJaGEwdm85dnRoVWcxa29ZLWMycW13Y2FpNEhQTHlWcXlGRUdNbjJWX2M0?oc=5",
+"who": "Comcast CEO",
+"summary": "Comcast宣布將分拆NBCUniversal及Sky，成立兩家公司。",
+"why": "大型媒體集團分拆，將改變全球媒體產業競爭格局。",
+"source": "The Hollywood Reporter",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTURuTms4aGtkYm5JUnhBdTZ2d29MZG1iT0djX2U2VElEZzE1Rnh6a0dHaURxS0JNaU55d0dpX1hDWERzYmhlWE1OdVhaSjJjMnRsS25mVTBpaE1HSTZTSFcwX0tnSGlxY0tzc0ljS1lDTUZWR2Jtc0I5eEtqTkZheDBLWHJyeW1yM0hQbmVCTXdDaFRRSnNDWmFVTkFRbGVoY3lHQUhjMTNrdE4yS1JxTVdKQnZxSzcw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Beckett CEO",
-"summary": "Beckett公司CEO辭職，由CFO Manish Kshatriya接任。",
-"why": "企業領導層變動，可能影響公司策略與市場信心。",
+"who": "Copart CEO",
+"summary": "Copart將於7月31日由前任CEO Jay Adair重新接任。",
+"why": "高層人事異動可能帶來公司策略調整，影響產業發展。",
 "source": "Stock Titan",
-"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3o1SzVhaFVOTTA2ZEFhTVR4MXU1eG5GcWZXQTA5MmU5cGR4Z3BoSm44Mnc0U1FJbVVhdlFoeTJ4ZXNLbklJUWtrX3Vlajc0ME5BaTFLTjVMU2ExQUtuWXNCRVNQQlBoRmJqTG9LSkZIX3BQblE4LTdWQ3JVVmNHZS1SZlpEY3NEc3dLU2ROVGV1ejdxVE8wSng2Tm00WklrMEtEaXQzSnYxQXBNYnVfQkVEMklLTkowdS0wN013?oc=5",
-"time": "31 分鐘前"
-},
-{
-"who": "Novabridge Biosciences CEO",
-"summary": "Novabridge Biosciences宣布CEO更換。",
-"why": "生技產業高層異動，可能帶來研發與營運方向調整。",
-"source": "marketscreener.com",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbHpZLTdaal9Fc2hoUlk2RWhLRFRuR1FYZ0Zubl9nU2ZGYW5sR2FwOEEzOFoxV0dsQlgwbWxzSHBrS0hNSjViNVAyR3IxcWV3VjBvMW81U1VWMWFHZXo0WkZkUV9nSENRbkZNcVNIal9qNUJFUUpxRERmWDk1alVzUUpKWW0xYWw2amR4U09ybXVDV0Ezb2VEQkdWZ3R5dw?oc=5",
-"time": "46 分鐘前"
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOTEtSHF6UTAweU16OG1HaGtBLWdsNjEyNXdKR0tZOTRWZDBNaEFadnI1N0FhekVWZDRyemY5Y2VCWkdwMHBvNEt4VlpISktwUHRTQnVsaFJic3VMS3pVVFdPWHdyN3dFOTNORWRldDgxMHVlUWRYVnpTMWJlTTlKZQ?oc=5",
+"time": "49 分鐘前"
 }
 ]
 }
