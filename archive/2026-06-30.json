@@ -1,7 +1,7 @@
 {
 "date": "2026-06-30",
 "count": 33,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、網通、金融等族群為主，題材集中於先進封裝、伺服器代工、載板、散熱、重電、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、網通、金融等族群為主，題材集中於先進封裝、伺服器代工、PCB、散熱、重電、光通訊等。",
 "stocks": [
 {
 "code": "1303",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "網通晶片"
+"theme": "網通IC"
 },
 {
 "code": "2383",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "手機/AI晶片"
+"theme": "手機/通訊IC"
 },
 {
 "code": "2472",
@@ -496,51 +496,51 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "銅箔基板"
+"theme": "銅箔材料"
 }
 ],
 "news": {
-"takeaway": "川普推動政策與重大基建，企業CEO頻繁交棒，顯示美國政經環境快速變動。",
+"takeaway": "川普政策與大型企業CEO動態，將深刻影響美國政策走向與全球產業競爭格局。",
 "items": [
 {
 "who": "川普",
-"summary": "川普針對油價向加油業者施壓，設定每加侖2.5美元目標。",
-"why": "直接干預能源市場，可能影響通膨與消費者信心，牽動美國經濟走向。",
+"summary": "川普向加油站業者施壓，設定汽油目標價為每加侖2.50美元。",
+"why": "顯示川普直接干預能源市場，未來油價政策可能更具政治性，影響通膨與消費者支出。",
 "source": "Fortune",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObXEtRlZEV0hESExCWTVNekN5ejJlQVZTRWN5ZUJGVDg3dDdjQmFvTm1iek8wTkdJR2VvTUhmMWl0UTJGaEpGM1FXdXdCMDd0NUE0blFLR0psZ3VkSF9oVEJJdklFOG5UOVllMzNRTXoyMFdaRlp4M21RSEY3eU1JNm1Bb0pFTy1HOWN0aE1ORUVlZw?oc=5",
-"time": "13 分鐘前"
+"time": "25 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普以5億美元無競標合約建造白宮宴會廳。",
-"why": "顯示其對政府資源運用的主導權，可能引發政策透明度與預算爭議。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWXpOZk11NjBhVlNtSGJsTDcyMnA0Yy1PSzg4WlIyUy12Y19lVjh1WngwVlpGS1NzTmhBUXVoT21ZcVR4ZDI4MnpFdDJoX05oY1docVRpenlPandpUnhMNUJPQmtUVC1pQW5adFJ0SHBxTl9ReXc4cURkLVJhR09tZ2hSellTMWkzTHlIb3BXemw1UzlkQ3hVbV8zWUlVZFNnV3Bpd0dsSEU1QjZKdzVTWlln?oc=5",
-"time": "21 分鐘前"
-},
-{
-"who": "川普",
-"summary": "最高法院賦予川普更大權力管理獨立能源監管機構。",
-"why": "將重塑能源政策與監管環境，影響產業規則與投資方向。",
+"summary": "最高法院賦予川普對獨立能源監管機構的新權力。",
+"why": "川普可直接影響能源政策與監管，未來能源產業規則可能大幅調整，對產業結構有深遠影響。",
 "source": "E&E News by POLITICO",
 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdUR5eG1aaXR2a3BjM3M5dnNON2M4UGpVZTc2WFI5VGdvVWlDd0FvendHRk1ZajBqaGVsQXVCcEZYanRYSWlaVjVhcUU0MlQ2aXFNM1ZkNWdkanpEaEFHcXhXRUhIMDF4dXJBVmRxOGxXcnN5Rk81LVV0dmV2VjFiWFZxUHpoZ1NpcXhlaDc1alpURFpoUFB1alZfLTlvVTVZWC0wbGVnQ3BGRUZ0Z2tNcUNWcE0tbHNWcGsyTHdZTzlEMmJSWXQ4?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "MSC Income Fund CEO",
-"summary": "MSC Income Fund宣布CEO交接計畫。",
-"why": "企業領導層變動，可能帶來策略調整與市場信心波動。",
-"source": "Yahoo Finance",
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR3dMSkk5enNFZ0xSY3NyWlpka1hwSnJRMnNVMmRhQXE0V2I3OWxNMWl6QTBGalJ1UnNndHl2WUFQY3NsNjR0VmxySGx1MU9ad3lVUXJuS2xWcFYxVzdnc2Z3MzdabzhNOUpmalYxTENUd3lrUGxDWWZwcWJyTVdrZnd3aGVaNzJxcFdXQ0hnUWxIYjlRSFhLWEhn?oc=5",
-"time": "19 分鐘前"
+"who": "Ford CEO",
+"summary": "Ford CEO在中國市場公開輕視特斯拉，儘管Model Y銷量領先。",
+"why": "反映傳統車廠對電動車競爭態度，未來中國電動車市場競爭格局或將變化。",
+"source": "eletric-vehicles.com",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObmpzcFhmaVFiT01uNU9UbnZCVFl4TFlGT1JHR1JocTlXTFhPMEFPN1g2eVhIN3lyOUFZcjRpeUZIMGJXaXBURTVKTHBtRlRiQi1tYnNRMEVrcS1VdUxBNGVFbXp5Z29TSWJiWUVpdTIxUTlpdVptdTFwSnZKRDRlN0ZZaGdpSXRSV1R3RUJ2ZDl3eGRDME1KRU1McE5DWFlGSS1N?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "Copart CEO",
-"summary": "Copart宣布CEO交接。",
-"why": "全球大型企業高層更替，反映產業轉型與未來發展方向。",
-"source": "Auto Recycling World",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nVEZ2emY0Nk5tb1l5cklxcVpmMElFaFp4RE1acTlhcWJxZExtTW5jTDBGUnJwVWlvVllvcTF5c3I5ZmdYaVFpNFR1cDlLR0RhT0tfNG1fbnhsUzd2T2lWUks3bkM3VHdDNHNLS01fS2k?oc=5",
-"time": "37 分鐘前"
+"who": "MSC Income Fund CEO",
+"summary": "MSC Income Fund宣布CEO接班計畫。",
+"why": "高層更替可能帶來公司策略調整，影響資本市場與投資者信心。",
+"source": "Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR3dMSkk5enNFZ0xSY3NyWlpka1hwSnJRMnNVMmRhQXE0V2I3OWxNMWl6QTBGalJ1UnNndHl2WUFQY3NsNjR0VmxySGx1MU9ad3lVUXJuS2xWcFYxVzdnc2Z3MzdabzhNOUpmalYxTENUd3lrUGxDWWZwcWJyTVdrZnd3aGVaNzJxcFdXQ0hnUWxIYjlRSFhLWEhn?oc=5",
+"time": "31 分鐘前"
+},
+{
+"who": "Muna Therapeutics CEO",
+"summary": "Muna Therapeutics宣布CEO交接，臨床管線持續推進。",
+"why": "新領導層可能加速創新與研發，對生技產業未來發展有指標意義。",
+"source": "Morningstar",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLVZYYmR2VVR0SEZFdU9TeHZIczd4dWEteF9zZjA0U2dxdXhXamprUWZoaEpBbDFJSkg0WTJHQTBNdE5yYUlRNWdDNjBLTk8teUZ5czlEeHRSbjZkbmVQdDhsRFA0TkdsOWVTVUFHSUtzSkhmUUMwVjlwT01sbTRTY295a1QtLXY1QXMtZUc0cFI4bDFSQWZhNHFMcy01RUQ1R0dJenRMSUhnM0tJWkViazNvbWxheWF2cG9tVXdpcnF4S0hRVEU5ZUs1dmlNQQ?oc=5",
+"time": "36 分鐘前"
 }
 ]
 }
