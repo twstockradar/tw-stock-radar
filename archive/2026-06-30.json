@@ -1,7 +1,7 @@
 {
 "date": "2026-06-30",
 "count": 33,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、網通、金融等族群為主，題材集中於先進封裝、伺服器代工、PCB材料、散熱、重電、光通訊等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、電源/重電、網通、金融等族群為主，題材集中於先進封裝、伺服器代工、載板、散熱、重電、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 222.0,
 "change_pct": 4.964539007092199,
-"trade_value": 5432552209.0,
+"trade_value": 5446538209.0,
 "market_cap": 514175923386.0,
 "status": "PULLBACK",
 "dist": -0.12213740458015265,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 1950.0,
 "change_pct": 2.3622047244094486,
-"trade_value": 28549570010.0,
+"trade_value": 28590520010.0,
 "market_cap": 5065209491550.0,
 "status": "PULLBACK",
 "dist": -0.11025145067698261,
@@ -69,14 +69,14 @@
 "market": "TWSE",
 "close": 232.5,
 "change_pct": 5.203619909502263,
-"trade_value": 6117689968.0,
+"trade_value": 6126524968.0,
 "market_cap": 277098286942.5,
 "status": "PULLBACK",
 "dist": -0.14370727609391332,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2317",
@@ -84,14 +84,14 @@
 "market": "TWSE",
 "close": 251.0,
 "change_pct": 1.8255578093306288,
-"trade_value": 13179231688.0,
+"trade_value": 13366226688.0,
 "market_cap": 3521190805126.0,
 "status": "NEAR_HIGH",
 "dist": -0.0939490445859873,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2327",
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 1140.0,
 "change_pct": 9.615384615384617,
-"trade_value": 63348820225.0,
+"trade_value": 64260554783.0,
 "market_cap": 2361470651760.0,
 "status": "NEAR_HIGH",
 "dist": -0.09208972845336483,
@@ -114,7 +114,7 @@
 "market": "TWSE",
 "close": 2410.0,
 "change_pct": 1.6877637130801686,
-"trade_value": 109976674475.0,
+"trade_value": 120516271220.0,
 "market_cap": 62497011861470.0,
 "status": "NEAR_HIGH",
 "dist": -0.030737704918032738,
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 2495.0,
 "change_pct": 6.623931623931624,
-"trade_value": 8668453785.0,
+"trade_value": 8748293785.0,
 "market_cap": 1399989153015.0,
 "status": "NEAR_HIGH",
 "dist": -0.07606679035250463,
@@ -144,7 +144,7 @@
 "market": "TWSE",
 "close": 700.0,
 "change_pct": -0.42674253200568996,
-"trade_value": 5244758479.0,
+"trade_value": 5266753879.0,
 "market_cap": 519932196000.0,
 "status": "NEAR_HIGH",
 "dist": -0.06639004149377592,
@@ -159,7 +159,7 @@
 "market": "TWSE",
 "close": 2160.0,
 "change_pct": 3.8461538461538463,
-"trade_value": 5096018810.0,
+"trade_value": 6426922110.0,
 "market_cap": 918530802720.0,
 "status": "NEAR_HIGH",
 "dist": -0.08228980322003576,
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "2379",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "IC設計",
-"theme": "網通IC"
+"theme": "網通晶片"
 },
 {
 "code": "2383",
@@ -204,7 +204,7 @@
 "market": "TWSE",
 "close": 5390.0,
 "change_pct": -1.1009174311926606,
-"trade_value": 6399883690.0,
+"trade_value": 6426833690.0,
 "market_cap": 1931350804460.0,
 "status": "PULLBACK",
 "dist": -0.13309671694764857,
@@ -219,7 +219,7 @@
 "market": "TWSE",
 "close": 4245.0,
 "change_pct": 8.567774936061381,
-"trade_value": 64771209580.0,
+"trade_value": 67966421080.0,
 "market_cap": 6808536002715.0,
 "status": "PULLBACK",
 "dist": -0.13480885311871227,
@@ -249,14 +249,14 @@
 "market": "TWSE",
 "close": 129.5,
 "change_pct": 0.7782101167315175,
-"trade_value": 7489468601.0,
+"trade_value": 8969497201.0,
 "market_cap": 1813953761284.0,
 "status": "NEAR_HIGH",
 "dist": -0.008403361344537785,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/銀行"
+"theme": "壽險/金融控股"
 },
 {
 "code": "2882",
@@ -264,14 +264,14 @@
 "market": "TWSE",
 "close": 98.3,
 "change_pct": 0.0,
-"trade_value": 10017884219.0,
+"trade_value": 10065559719.0,
 "market_cap": 1441983355582.4,
 "status": "NEW_HIGH",
 "dist": 0.0,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險/銀行"
+"theme": "壽險/金融控股"
 },
 {
 "code": "3017",
@@ -279,7 +279,7 @@
 "market": "TWSE",
 "close": 2525.0,
 "change_pct": 9.782608695652174,
-"trade_value": 11973721150.0,
+"trade_value": 11993921150.0,
 "market_cap": 991171092675.0,
 "status": "PULLBACK",
 "dist": -0.1362126245847176,
@@ -309,7 +309,7 @@
 "market": "TWSE",
 "close": 680.0,
 "change_pct": 8.452950558213717,
-"trade_value": 16642413332.0,
+"trade_value": 17832391447.0,
 "market_cap": 3033366495760.0,
 "status": "PULLBACK",
 "dist": -0.1375186846038864,
@@ -324,14 +324,14 @@
 "market": "TWSE",
 "close": 630.0,
 "change_pct": 9.947643979057592,
-"trade_value": 18918019559.0,
+"trade_value": 18937056269.0,
 "market_cap": 680035138650.0,
 "status": "NEAR_HIGH",
 "dist": -0.03393427486959766,
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "PCB板"
+"theme": "PCB印刷電路板"
 },
 {
 "code": "6139",
@@ -384,7 +384,7 @@
 "market": "TWSE",
 "close": 1340.0,
 "change_pct": 5.511811023622047,
-"trade_value": 6877613990.0,
+"trade_value": 6896583030.0,
 "market_cap": 511352535800.0,
 "status": "NEAR_HIGH",
 "dist": -0.02898550724637683,
@@ -399,7 +399,7 @@
 "market": "TWSE",
 "close": 4635.0,
 "change_pct": 1.2008733624454149,
-"trade_value": 9209172725.0,
+"trade_value": 9223425350.0,
 "market_cap": 861372066285.0,
 "status": "NEAR_HIGH",
 "dist": -0.0374149659863946,
@@ -496,51 +496,51 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "銅箔材料"
+"theme": "銅箔基板"
 }
 ],
 "news": {
-"takeaway": "川普針對美伊談判及油價發表重要言論，企業CEO則聚焦於歐洲產業與AI風險控管。",
+"takeaway": "川普針對美伊談判與油價發表重要言論，企業CEO則針對歐洲產業與AI風險提出警告。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示美國與伊朗將在連日空襲後展開談判。",
-"why": "美伊關係動向牽動中東局勢與全球能源市場，可能影響地緣政治與油價。",
+"summary": "川普表示美國與伊朗將在連日空襲後進行談判。",
+"why": "美伊關係牽動全球地緣政治與能源市場，談判動向可能影響油價與區域穩定。",
 "source": "The Washington Post",
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHV2VTJKdkhDT2taRjN2R19WLVJESnV1SmRNaVRLU2xGcU5JZG1Id1hGZG01TWhLdzlIdnc0THdDdTRPdC1HM3JoZFBsMm54b2RhSjl5QWY1WnFMSUZ3bTEzM1BpSjJxZXlIeVF0a191RlVTTFhXWGFMLVJySXFVSTc5RVJjbUhRYW9OeEphSk1NaE05b3FqaXo1WWgyM1dRS1hmVXM3V2RxUQ?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
 "who": "川普",
 "summary": "川普要求美國汽油零售商立即降低油價。",
-"why": "直接干預油價政策，對美國通膨與消費者信心有重大影響。",
+"why": "油價政策直接影響美國經濟與消費者信心，亦可能帶動全球能源市場波動。",
 "source": "Al Jazeera",
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOEVmQTFMeVdEd2VIbnV2bUZ3TzRXSnlEVVJBQ0FQTzBJX0N2b0lYSVpRSUFrUjhqOUVXaGhFUXd5dmx4TnlHbnlzcTBFSHBzUWRsZGsydmhYUWlPajNHdGxyVmlNci1ZSXhKZ2JzVkV1MDR2U0RqR0VBOGg5Q09OeVA0NmxqSUdrVklWVmpZekdYVUgwbjNSUnEwWTBaRktFeGxZVURzQdIBrAFBVV95cUxOXzlhSnBVbTlSYTl5R1AyNmc1QlFYRE5iOGFZTDJ0RC1NYXN2RmJfVUVIaExtaXdscjhPamFkajQ1ZWhNNFQwT3lJV040azhOSXZYNUw2UEw0SG9yTWVabmhnWnhFUXNNTXU4azB2YjRHMlZOLXh4VGJKMUtERFNpdFZ2ZWdxUlJWeEVCZzJjdl9GNlZKLTlVNVo2b0Jsd2RvRlZ6amZCM3JUR1A3?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "Volvo CEO",
-"summary": "Volvo CEO警告歐洲若與Google、Microsoft、Amazon、Meta切斷關係將成唯一輸家。",
-"why": "反映歐洲產業對科技巨頭依賴，對數位經濟與政策制定有深遠影響。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPaXcxbmpQMGZvMzg5aXp6S0VoN2F1WFIyN0FGUy1aTnFjd251TTBhS2I0N25IeW1GMG1oZ01mYjFCTks1WF9vZndLZDJobW0zeUJKQ3NlX2dOZ3JUUmV4UjNCa2lRUmxLalVCSmtiQW5XaTlZelpSSGZWdi1HeXl4UVJxODJBNXFLLTcySTNCRHhSU0NXMkxnZWZMYkhPckwwbnRaTldCdUdIQVlsZzN4M2hWczFHVzRnTmxJTDVSWEh5UFVhV2ZZdkhRcENFWnpFSWRhWWhZMkJTWlBiTDkxbGhfYUdPaUt4QktralpJSzRZNHlIaEc2b3NzR3FsTlBkeGZjUTEzYk5fdENESEF5UTFQZC1lRlVzYXJDQkNYVkN0ajQ3NE5FZk1hODdud9IBswJBVV95cUxPX1NwdWFQQmFrLVhWaDQteGNEbVRWOW9haW9XanBBdzRkX0lEd3B0cHp6QVJoaE1ITmltQkQ1cXI1LWFldUo0ZHFrQUQ5dnI4dGVyY2xXMDI1d1Y4THFqVHdSRHo0Y3ZLaHY3LUJRRWpaSXd3U2ZXM0RCVVNYMHRwdm9UcGNqcWw2SXVxRmpuTFlMNl9mYlRBT25JbU1uQlJ6MHlVdjVJYktmZVp2eXlfVmxHQi01NGtTa1AtZWJTM183b2ZCY3B0OHpCaTA1dEZxWU4zdFQtR0FCNXBQRFV6eWU4dV9KTWl1dUgzei1abUxkTUF0U0MyS2ZWM3RXNEN1TC1SMGZPYTlVYzRHSHphb295MndQY2ZpSTNZTTdBYTRMOUQ1WFI4ZnM3TGhhU3piNW84?oc=5",
-"time": "32 分鐘前"
+"time": "5 小時前"
 },
 {
 "who": "Covestro CEO",
-"summary": "Covestro CEO警告歐盟必須選擇拯救哪些產業，否則將面臨產業大規模外移。",
-"why": "凸顯歐洲產業競爭力危機，可能引發政策調整與產業重組。",
+"summary": "Covestro CEO警告歐盟必須決定要拯救哪些產業，否則將面臨產業大規模外移。",
+"why": "歐洲產業政策將影響全球供應鏈與投資流向，產業外移可能加劇歐洲經濟壓力。",
 "source": "streamlinefeed.co.ke",
 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXgtcmxJQ0w1LWZBdzlzU2ZWT1dKbDFWeW9kaGdHWTFieWtsbGs5SjhVSHA1X3pLWVFLbE40WjFad2J3MndTZ1g1NkJRTS10Z0dka0REbjVFeThkRXVJTll2SFVGb2JaR0JJMktVZUVBNUR4UlFMYkxaZUE0V2xMWlAtSzVGcS00ODc3SHpzUndUSGU5dlhyUTlXYWROLXZOZHVUcXhBTUx6c0JVdmtaaw?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
 "who": "UBA CEO",
-"summary": "UBA CEO警告銀行在2026年前採用AI需加強風險控管。",
-"why": "AI技術快速發展，金融業風險管理成為未來趨勢關鍵。",
+"summary": "UBA CEO警告銀行在2026年前採用AI時需加強風險控管。",
+"why": "AI技術快速發展，金融業若無完善風險管理，將面臨系統性風險與監管挑戰。",
 "source": "Brand Spur",
 "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY203RVppTktUUUdpTksxX2d0bW5WMnAzdUNROVk1SFV3SC0zMTR5QkljckJqS0FreTU4eTk4VDQzWDZSdVAtVldzNmU5cUs4T0dxU0lQZmRaUkJJR2IxcWMyZkJPMXcxcnNzR3hUR1UtTHBZaEo2ZEt3eHEzcm9GSE0tQ1lnNlVOTk5WRXplZzhxbkNDQjdxMXZicWdJc3VOaWNtV2hKc3lVWjE4UEZCcF9YcEVHdmt0MnNxWnpBcU92d9IBwgFBVV95cUxPY203RVppTktUUUdpTksxX2d0bW5WMnAzdUNROVk1SFV3SC0zMTR5QkljckJqS0FreTU4eTk4VDQzWDZSdVAtVldzNmU5cUs4T0dxU0lQZmRaUkJJR2IxcWMyZkJPMXcxcnNzR3hUR1UtTHBZaEo2ZEt3eHEzcm9GSE0tQ1lnNlVOTk5WRXplZzhxbkNDQjdxMXZicWdJc3VOaWNtV2hKc3lVWjE4UEZCcF9YcEVHdmt0MnNxWnpBcU92dw?oc=5",
-"time": "2 小時前"
+"time": "3 小時前"
+},
+{
+"who": "川普",
+"summary": "川普提名商界盟友Keith Sonderling擔任勞工部長。",
+"why": "人事任命將影響美國勞工政策，可能偏向企業利益，對勞動市場與企業環境有深遠影響。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNak03NU52MWwwNnJTeHFlZUxuaW5GenQ0dmlTdUxyd0o4VzdLTVhCb0VYMllqc19mUnBFOTZYTWlqTmVZVEJWbzl2NWdZWDZpVmRYR1VxMkhrN3lBZzh5bVdwcVlDbExxVEdDM3hCbm5kYW1IdVBLSTFvV0J0eThTWTlqQlJQMmJiQXMyY1RHSEk2U3I2SmQ3cU5EVVM1UnNYc0dDZkpMX2M2cVNCeHJ0bg?oc=5",
+"time": "5 小時前"
 }
 ]
 }
