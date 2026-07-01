@@ -1,7 +1,7 @@
 {
 "date": "2026-07-01",
 "count": 30,
-"focus": "本清單以半導體、PCB/CCL、AI伺服器、被動元件、電源/重電等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器、PCB材料、重電等。",
+"focus": "本清單以半導體、PCB/CCL、AI伺服器、被動元件、重電、金融等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器、PCB載板、散熱、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -57,7 +57,7 @@
 "trade_value": 84016023525.0,
 "market_cap": 2361470651760.0,
 "status": "NEAR_HIGH",
-"dist": -0.012987012987013102,
+"dist": -0.012987012987012991,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "網通交換器"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2375",
@@ -195,8 +195,8 @@
 "dist": -0.14356435643564358,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "自動化設備",
-"theme": "自動化系統"
+"group": "重電",
+"theme": "自動化設備"
 },
 {
 "code": "2472",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "壽險金融"
+"theme": "壽險/銀行"
 },
 {
 "code": "3016",
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "磊晶製造"
+"theme": "磊晶/晶圓"
 },
 {
 "code": "3037",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6271",
@@ -342,11 +342,11 @@
 "trade_value": 12263611140.0,
 "market_cap": 60104181900.0,
 "status": "NEAR_HIGH",
-"dist": -0.046428571428571486,
+"dist": -0.046428571428571375,
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "感測元件"
 },
 {
 "code": "8021",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "IC測試"
+"theme": "IC設計"
 },
 {
 "code": "8046",
@@ -387,11 +387,11 @@
 "trade_value": 12320120500.0,
 "market_cap": 75383974482.0,
 "status": "PULLBACK",
-"dist": -0.1271929824561404,
+"dist": -0.1271929824561403,
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "1815",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對出生公民權與加密貨幣收入、IBM與LeapXpert CEO重大宣布，牽動政策與科技產業未來走向。",
+"takeaway": "川普財務與政策動向、科技巨頭CEO對AI與產業趨勢的發言，將深刻影響未來全球經濟與產業格局。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在法院敗訴後呼籲國會終結出生公民權。",
-"why": "顯示川普將持續推動移民政策改革，可能影響美國社會與政治格局。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNHVBOV9qQUxJZUJqWnNfVmpncExScHBLZU1GX0NQNFA2TmFCRlNPS01VVkVnN3MzekY2WVNVcVg3d2x1NVFoYVNkV0U1LW5BRnQyME9SVDdiSW8xeHpOQXlIVFpPcTNOMUJfUDR3U3U1TkJfRkhXcEhFQVNCbWtRSkI2X2RQTTV5ZHI4Y3NSUEJPSDRvQWVsbDlFNGVUUU1DQ0NxMGgwRVh5eHZxRUE?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "川普",
 "summary": "川普報告至少14億美元加密貨幣收益。",
-"why": "凸顯加密貨幣在政商領袖資產配置中的重要性，可能帶動政策與市場關注。",
+"why": "顯示川普積極參與加密貨幣市場，可能推動美國政策對加密資產更友善，影響金融與政治資本流向。",
 "source": "Bloomberg.com",
 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbjdJOHgweFFoOU9rT1c3andLQk9kWU52c1AxXzU0NGYtU2RsZG94NkxSbEhaNEUwcGVJUUNvYW5Ma2pXbE9hOEhoa1dCSnVtMDF0b3BFa3dBNExsNjBtRnIwNVRkZklRb0c4M3hRM1d5R3g3RlhBMGxwYVdtdHJMbzNCTW1xQUdya01LV3BCbTJtQU9aZGdIS1FPRVFFV0tGU0tJNjdYWm5HVG8?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "IBM CEO Arvind Krishna",
-"summary": "IBM CEO宣布在印度設立新量子研究中心與人才基地。",
-"why": "展現科技巨頭加速布局印度，推動全球量子科技與人才發展。",
-"source": "Business Today",
-"link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQWRTN0FES2lBT184TllWTnBMUUNsMXFPMFJ6ODhvXzBjTDdjYVMzTGYzX2k4NU50SzRBWkQtMHN4ajZCdV9BaUZwckZ0bjVVN3FwTVF2OXY1VUltd09BLU5UOU5WdGFLcVZ0V202QWJMeDQxeDNhTDRjZmRaZUVOb0ZPaC1PMU1vV21GQXdEOVB4Rkw4WEwxLVZuQWU1R19hejBtajhzS3IycnZXQ0xuQzJuRGZLQklFaHkwc2ZUbXVCMGUweUVNZ0VtZWZOR1paSkFlLVg0NmJ3OE43Xy10bUZncG5GUzc4Y1NQONIB8gFBVV95cUxPZVhsYV9EbHR3RFFxMG1hZ0hKbE9vRThXOTczZEhTNWxhdXR3V1VzV1Z4TWltWHhTYlNwUEtTZkV6dENTRlkwYTI2LUppUTEwdXlIMTVjeWdlQ0o0Smo5YW5KdTJQWUlrZ0ZneG9wODliaU1CQ1A5X3RMZFFLRDFKdzI4N3J2Z09sT3F1VUdhbF9TVFowZDBmbV9iRXhKRGNSbzk0OG9YaWxWQjhhMGJuZzZGZDhfU0JnNUNRbVg2VlRSV1d3S2RwNnBkaTNlTXYwTXpSVXZId0ppc2dIZ0VEQXc4aEQ1LUxSLW9tVlZ6MnBNZw?oc=5",
-"time": "5 小時前"
+"who": "NVIDIA CEO 黃仁勳",
+"summary": "黃仁勳預言未來AI代理數量將超越人類，AI技術已成為獲利與GDP成長引擎。",
+"why": "NVIDIA作為AI產業領頭羊，CEO的看法將引導全球科技投資與產業轉型趨勢。",
+"source": "Inshorts",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYmlVZ1dBQWxncGpnRlIteWFiZldQeTVhU01fenZFT0djM1M1NVcyVzg0eHFpRW41dEl1N0NOVGxtdVp1RW5RRzdnek1RVEs1OFhRdjdFanJwbDAyaW9RVGhyWVgxY29wRlBZS0NCT0xIdVZ3STlJc0lkQ1NfVmM4b1RFaUlZLVZVZ2pFTmZtS0JFakhxM1FnMzRFZ0tSUFByYU9j0gGjAUFVX3lxTE1iaVVnV0FBbGdwamdGUi15YWJmV1B5NWFTTV96dkVPR2MzUzU1VzJXODR4cWlFbjV0SXU3Q05UbG11WnVFblFHN2d6TVFUSzU4WFF2N0VqcnBsMDJpb1FUaHJZWDFjb3BGUFlLQ0JPTEh1VndJOUlzSWRDU19WYzhvVEVpSVktVlVnakVOZm1LQkVqSHEzUWczNEVnS1JQUHJhT2M?oc=5",
+"time": "3 小時前"
 },
 {
-"who": "LeapXpert CEO Dima Gutzeit",
-"summary": "LeapXpert CEO透露公司將運用新獲得的1.8億美元資金。",
-"why": "資金運用策略將影響企業成長與產業競爭格局。",
-"source": "qz.com",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xb1RpMnBTWG91SGp0YTAwY0RHdWozbXpHM28wV05iSlpRVzFYbjJYTDhLRk85azRuMG5NekhkR0ptMkNVRGZGX0pfNVdrRjlJRmY3TjJrRGtXeEo0RFBXdlRTeFJTRnVObTQxUkRzRVNMZFNCLW9j?oc=5",
-"time": "5 小時前"
+"who": "NVIDIA CEO 黃仁勳",
+"summary": "黃仁勳預測Marvell將成為下一家兆美元公司。",
+"why": "此預測可能帶動半導體產業新一輪資本與技術競賽，影響全球科技供應鏈。",
+"source": "Intellectia AI",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQW1zVENlYndxOVI2YUlBMElhcUQ2clRRczJvN3pmMFY1WjJKV2ZsR1RvRFpKcVRVby1mcHVNUkp0eE45STNKZnJhNGpQZU4wUklxbzJNVlVPZ05tU19CdERRQmZDRGU4ZjdZckFQc2h6UmRIWTZXdUxhSVB5QWF3Z0cyRGNDb1M3RFJseTE0djdEbmIwMTg4?oc=5",
+"time": "2 小時前"
 },
 {
-"who": "Nike CEO",
-"summary": "Nike CEO坦言品牌未達全力潛能。",
-"why": "反映全球消費品牌面臨挑戰，可能引發企業轉型與市場調整。",
-"source": "TradingView",
-"link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOV0tjT2hiRDYtX2VZTHJwT1pPM1VTc0x0cFhFQV9FVXF2Y1RYT3FKVDdaZklZQXNYR2lsbzFSTEJxVF92M0FNVjV1WFI1LVhQQnc1VTM2ajJDMzhqeXFaUktReDNtaVhfQ3B1eFYzam13S0o2NWhuckVzTFdnWG9HbER0MG95aHhZcFFLMkE5bW9yeFRTYkIxLXQwQjF0ZXNkb2k4eGE0SmJMUmIzV1lqWGxOMUxYVFBGV2U2SkpKOENZVThfM1c0R1p0ODhYU2pyWUQyMG53Um9rbVZ3Y01NQWM3SUJXS3Z6R3ZLeXZsbjhTRTlWZXJOeFpRZG5HR3huUWRhM0ZtNkgtYlFjeUV6eA?oc=5",
-"time": "5 小時前"
+"who": "Apple CEO Tim Cook",
+"summary": "庫克指出DRAM市場極度短缺。",
+"why": "蘋果CEO對供應鏈的警示將影響全球電子產業與記憶體市場動態。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNazVuN2xmUnFhTVBfUzFTQ0FRUktub0JaYnd0YlpNTG4xejhualJiVWlkUUYtbUFTTG9xdEcwQ0l0d01KTXp6RUFLMzNjeG9WVFBqV1ZyVEhVLTl2czMwRGlVNzluRGtKN0lzVV8xSktDdGQwbWloUDFnRklKRkxlXy1JTDdsQTFmZGgyTjJHMnB5b0liU3U4ME9xblJTTm82SE92b3VmS3V0cG9VdS1jdHpyaXlDVnJENXRwRWJJSEoxc1dwQUwtME43cWVSUHRyVFhtLWU0ZDBiTzAzOG1ESTFtSmo5Yk5OaFViUG5ZZ19CRlQ3bVE?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Apple CEO Tim Cook",
+"summary": "庫克與歐盟科技主管進行建設性會談。",
+"why": "蘋果與歐盟的合作或衝突將影響全球科技規範與市場競爭格局。",
+"source": "BusinessToday Malaysia",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFBSWTlaV1ZpSGVRZURTTVI1ZE1COGo3dXRGY3hvX2U5V3RSd2d1d0JMWi12Y0J5aWtlLUhLZm1vY25VUUtUUHRUUjVBU3hJOUZJRVFpQXc3ZFdUd0NiWUxvY05FZ2ttNWNuQXlpdlpuX2tfdWZkX0NqLVJiMTM1bHhIQzllRWpRb3VuSzNGTGVFZ1FvNHpybEVTVzVWY2xvQTlteFRPN0dOd2lTWDNuQlRuZw?oc=5",
+"time": "1 小時前"
 }
 ]
 }
