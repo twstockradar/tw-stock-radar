@@ -1,7 +1,7 @@
 {
 "date": "2026-07-02",
 "count": 37,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器、載板、重電、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、被動元件、散熱、重電等族群為主，題材聚焦於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組、重電、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -15,8 +15,8 @@
 "dist": -0.015000000000000013,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "電源/重電",
-"theme": "重電材料"
+"group": "PCB/CCL",
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2303",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2404",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡測試"
 },
 {
 "code": "2454",
@@ -165,8 +165,8 @@
 "dist": -0.11138014527845042,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "自動化設備",
-"theme": "自動化系統"
+"group": "重電",
+"theme": "自動化設備"
 },
 {
 "code": "2472",
@@ -195,8 +195,8 @@
 "dist": 0.0,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "半導體",
-"theme": "溫控元件"
+"group": "被動元件",
+"theme": "溫度感測元件"
 },
 {
 "code": "2881",
@@ -285,7 +285,7 @@
 "dist": -0.10012058314713412,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "AI伺服器",
 "theme": "AI晶片設計"
 },
 {
@@ -300,7 +300,7 @@
 "dist": -0.1320921985815603,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
+"group": "AI伺服器",
 "theme": "AI晶片設計"
 },
 {
@@ -315,8 +315,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "先進封裝",
+"theme": "CoWoS先進封裝"
 },
 {
 "code": "4958",
@@ -346,7 +346,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -360,8 +360,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測"
+"group": "先進封裝",
+"theme": "封測服務"
 },
 {
 "code": "6271",
@@ -375,8 +375,8 @@
 "dist": -0.10051107325383302,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "封測"
+"group": "先進封裝",
+"theme": "封測服務"
 },
 {
 "code": "6669",
@@ -406,7 +406,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電阻製造"
+"theme": "電感製造"
 },
 {
 "code": "8033",
@@ -420,8 +420,8 @@
 "dist": -0.06060606060606055,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "無人機",
-"theme": "軍用無人機"
+"group": "航太",
+"theme": "無人機"
 },
 {
 "code": "8046",
@@ -450,8 +450,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "DRAM封測"
+"group": "記憶體",
+"theme": "封測服務"
 },
 {
 "code": "8261",
@@ -480,8 +480,8 @@
 "dist": -0.03191485811986283,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "光通訊CPO",
-"theme": "光通訊模組"
+"group": "PCB/CCL",
+"theme": "PCB製造"
 },
 {
 "code": "5347",
@@ -541,7 +541,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡測試"
 },
 {
 "code": "6274",
@@ -556,51 +556,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 }
 ],
 "news": {
-"takeaway": "OpenAI與川普政府的潛在合作、以及大型科技企業CEO對AI監管與商業模式的發言，將深刻影響全球AI產業與政策走向。",
+"takeaway": "川普與OpenAI、Palantir等科技巨頭CEO的發言與決策，正深刻影響AI產業與美國政策走向。",
 "items": [
 {
-"who": "OpenAI CEO Sam Altman",
-"summary": "OpenAI提議向川普政府提供5%股份，以緩解AI監管壓力。",
-"why": "此舉可能改變美國政府對AI產業的監管態度，並影響全球AI政策與產業格局。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbUNkeGxUSzgzdlZ3STBUWGtaU3pHVUFhUWlCYWh6MVZKVjNnckJRTVBiNFF0d0ZvTjB0OWtGcWtxR1ZIY1lLVUdtSHQ4LXY3MUQ4ZHNIdkFyMzRuOXZkaEVqMDBaTjRkeXYzcGNTVWg2TEwxWUNVVFJDcEtSbUFnd2J1NzVJLXJPX3lHcG1icFh3YmxqMDR0cS1qTW85ZnpQeXBwdUNuQjBETmIw?oc=5",
+"who": "川普",
+"summary": "川普向盟友強調AI權力優先。",
+"why": "顯示未來美國政府將把AI發展列為核心戰略，可能推動全球AI競賽與政策調整。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tNmZFb01fOEhLYmx0UDNrVnFwQmU3dUZQdTlDOUNtU3U3UVVxOGZYNVBvQUZ6OTQ0VkNIV2FlUV9peVRZM0owMzNWYkRHb3A2UGppWjRUZ2RlZEh6SFJCRHB6Z3k?oc=5",
+"time": "12 分鐘前"
+},
+{
+"who": "Sam Altman (OpenAI CEO)",
+"summary": "OpenAI執行長呼籲建立由美國主導的全球AI安全論壇。",
+"why": "反映AI治理將進入國際協作階段，美國有望主導全球AI規範與安全標準。",
+"source": "Crypto Briefing",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yY0lWVEUycmVjdm5WcDA2ZXphSzktWjVpSEtTSWxEM3BuQlBzU2VKdGdaUEZEU1RBeFVldGpEYUJQb1NZUk02OENYVFFfWDZFYjZRenIzLVBKSUZnQzBZR3g2TWpoa0FOQlNPRzZsMjkxdw?oc=5",
 "time": "3 小時前"
 },
 {
-"who": "OpenAI CEO Sam Altman",
-"summary": "Altman呼籲建立由美國主導的全球AI安全論壇。",
-"why": "顯示OpenAI積極推動全球AI治理，可能引領國際AI安全標準與合作。",
-"source": "Crypto Briefing",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yY0lWVEUycmVjdm5WcDA2ZXphSzktWjVpSEtTSWxEM3BuQlBzU2VKdGdaUEZEU1RBeFVldGpEYUJQb1NZUk02OENYVFFfWDZFYjZRenIzLVBKSUZnQzBZR3g2TWpoa0FOQlNPRzZsMjkxdw?oc=5",
+"who": "Alex Karp (Palantir CEO)",
+"summary": "Palantir執行長公開批評OpenAI與Anthropic的AI商業模式。",
+"why": "揭示AI產業內部競爭與商業模式爭議，可能促使產業調整與監管加強。",
+"source": "The Independent",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVhwWlUxUS1oX1FVRk1IRmVnb3huV0M5TjhOUTFKR2M2aHpKZWItZDZISkxOMDdRQURyNWFoTUt1RVRxV0Z4bEJvVDRsVkttd0lhMFQ3SndfZE9vOHdFanhLSXIyZ002UWJ0WFlyTmpCZW1DRXlXU3FLdDZSNnB2MWtLdnd6N0x0Nl9RTlNZcEh4U0xYQXh2MUY0SmtBTnYyd0YtSzVHTEEtOFE?oc=5",
+"time": "12 分鐘前"
+},
+{
+"who": "Opel CEO",
+"summary": "Opel執行長表示德國成本必須降低以維持競爭力。",
+"why": "反映歐洲汽車產業面臨成本壓力，未來可能推動產業轉型或外移。",
+"source": "TimesLIVE",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdzZMRkZaWm0zc0lVelVvckdVRHdwQ2FnbWNMaTRzZ2ozNkhINU0zX1hRWG04YXdBWXF3RkxJdFl3aGREdEJqRlNxYnpzUjdKdTdLa2c5dEFqUTQ1RnhWcUpHR0ZlYWYzWHQwUFpfQ1hmdlp1MVZFVkprc3VoWVZNcl8wYXNrMEZka3phNFM1aFJ4MF9KLW9Bd3d4T193X1FENGlad2VvTWk?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Apple CEO Tim Cook",
-"summary": "Cook與歐盟就Siri AI問題進行建設性會談。",
-"why": "蘋果與歐盟的AI溝通將影響歐洲科技監管與AI產品發展。",
+"who": "不具名CEO",
+"summary": "美國製造業面臨380萬工人短缺，CEO警告。",
+"why": "顯示美國勞動力危機，將影響製造業發展與政策調整。",
 "source": "MSN",
-"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZW9pMFhRcUdYczltSWZhZGZ1S0RrbVFqLXRQUFNaWkN4UjNPV1JIOWxsamstaUI3V2hpbzNNMVVlTkZSVEVSeFBzWEU5UUZ2dXZsOTNvZVhGdVdtMXhCV25oX1VhaG9BZUM1UzRrOTBsSDlFS0RGcTRvMjFuMjlyaml6cWsxQ0YwaS1rcXV5SWc0VEhHRmhIWWlaWTB6LXl3ckNNc1paeU1CWXZ3b29RRVY0SG0wa1k2S18zejhSM1NvU1ZLd1p0Yw?oc=5",
+"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdzZWYzloMXdWZnVfOTNrRmJYTmw2a0c2VXNVQ0dSQlhaMG5jOXlBcXlHdXFjYUdyR3M0c1Z5VFpKSm1VUHV4VkpIby1UY2N6ZVhXUUh3YkdjMjRucFJPUzEzRE5qUnlUdk4xejEwSmZVeE9mZkNidkt1cVZ2X19fci1XaDdjdHpqZUo4OTk4emU5VjU4MmZ6d2xsdkd0d1lLMnlCUnJJWXlsb3Rsdi1IMjdGXzFPaWZhajR2dTMwaVE5dktmZk9tZ1RBQ1JhNWs?oc=5",
 "time": "1 小時前"
-},
-{
-"who": "Palantir CEO Alex Karp",
-"summary": "Karp批評OpenAI、Anthropic的AI定價模式，認為出現重大問題。",
-"why": "大型AI企業間的商業模式爭議，可能促使產業重新思考AI定價與數據管理。",
-"source": "NDTV Profit",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWjZJemxYa3ZsWlEydVdHdk5oOWhRUkdVSjFkamVUeTFZSmJ0Mkw1aHQyNnNYemQ2X290SXVnWWNCR0F3N295NmlVNUk0Mk5ZeVVBcnJ6cWpFNzJtVVlpUUFmRVJKZDdWYS1sdlMwOGlmVTVVYzJVRUpRV1B6QTFnNTNEV1FRZTlCNU5UMm9CMmNzampia3hMdGQ0NVNpeS1WWVdFYXpqQVNwcWNDcVNLNVBHclgxaTlwUkp4ZVQzNml1RWpTcncxdGdaQVRyb09QcUl30gHbAUFVX3lxTE1PUHI2MFNvWWhjOTN3TGtXeHUwQl9EX1p6YnpXZ0hxQnJvSmpIb1BLUF9RdU14dVRXRjAybzlzLVhsMWJyajFENWw3MVhVbG9JdW0wMGRjMWVZc3c4RWFGX0RiUG5FQzF3RF95Z2JURVB2RFFiTTRFOXN5VW05by05eVdnX3JGeHVKWlNkVWhBTWNkd2dqTVdtRV9GbnBubE1EbVY0OVoxSGQxcmo5YW1ScTdrY3ZJQkR0d1paM2tkTkNSRkstMGZuNDZ3NjNVZlJCUVdfQXhLRGgwWQ?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "Amazon Web Services CEO Matt Garman",
-"summary": "Garman回應Anthropic CEO對AI可能大規模取代企業的預測。",
-"why": "全球雲端與AI領導企業對AI未來影響的公開討論，將牽動產業投資與技術發展方向。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxPREs4YVNJbWsyYTcxN3dHUzU0c19IQS12U0JMN2NTbVdHNlJfQjJzOGppMDUtOXpYM2w0VnlDZWprMlRKV2FZOEZSQVM2RDYydUh0dDVfMEFKd0pRNkhVTjY2SWRXXzV0dmd0OHg2ZlN0ckVuUnB6Ykx5akRjaU13bnBOWER1XzBTanBKQUpkR1prb1Z2cDdQdFZsYlpRQkgwbGp3OXQxYk1GMUQtOVdlNjNVaWYwNTdxYTd3ejNkczZmMkI3Ui1ZWjdJazNGSXhDZGxpSjF6amdVUHQwQVA2eVAtM0tNaUR5NTREMGZCdnJMSjZmUE53emIyLTRtd3A0YzVaOGxuZm1KMldudGE0bEItT0VTWVM5SlBiM1VIdW9Za0JBMnhDY1QwOGJiRWIwUTB5X3hmNkRLNDFJN25oaDZKS1FvV2NhbWZfUkRhNEpQSV9ZUk1VSUxWRHBVcVJVM054SFdROWFkdDVtTlpkc2JCWEZOZnREX2JOdXFIcXM1b21TWGhFaV80YVhXclhmS2w2a1NXdXhKZWhKYVcwQS130gGnA0FVX3lxTE54VnpLdXlneHJUYnFDZ3hRZU9vQzRKbklxOFFZSmM2Y2QtSnBtQnI4MHNjdkhMeVRQRi1TanZybTlTbnpXc3cyMGVaT0c2LXgxM2E5cXRES0d6YlBnQndUcnpVZjQ1a1lLWjliblpOaldhemYtWGR6am42bi1LWDAybzlWOGpiRkVXSWgxXzMyXzAzLVZNMVNSdnp2X2h3cWp1NUt0TmxJb0Z3M1hGLS1oVDlDU3E4dEdsa2Q1dU9QVFJoQjFqNXZ3NEdJMktPSDlMNGJ5VHhFb0lGV0tlUlVfX2FVU3IwTlpOV0NoZTNTbnlmX0t1LUlWUEFHUE00SHFWR1lINk54ckV6UFNoNHlFblBBdnJUekd0OFFQcDhPVldTS185MU03U29Fclg1eHg3Sl9FZFlRRUxOVnVTQ1hyUFpveFRpbnFXNlZSOHdMbHdnNFZVdlN0ank3SzQ4Y0Q0QVN2YUlZaGFVdmdnV2x2VE8tcURibFUzanFDR3ZNbTFGcGVXU0ljUUJFWTFZcjV1X1J2OXcwaGVMNlNmRUx6UGV5NGd1MA?oc=5",
-"time": "4 小時前"
 }
 ]
 }
