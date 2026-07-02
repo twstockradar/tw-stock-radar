@@ -1,7 +1,7 @@
 {
 "date": "2026-07-02",
-"count": 31,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電、金融等族群為主，題材集中於先進封裝、AI伺服器代工、PCB材料、重電、被動元件等。",
+"count": 37,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、被動元件、散熱、重電等族群為主，題材集中於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡"
 },
 {
 "code": "2454",
@@ -165,8 +165,8 @@
 "dist": -0.11138014527845042,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "電源/重電",
-"theme": "自動化設備"
+"group": "自動化設備",
+"theme": "自動化系統"
 },
 {
 "code": "2472",
@@ -315,8 +315,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "先進封裝",
+"theme": "CoWoS先進封裝"
 },
 {
 "code": "4958",
@@ -360,8 +360,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封裝測試"
+"group": "先進封裝",
+"theme": "封測/記憶體封裝"
 },
 {
 "code": "6271",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "感測元件"
 },
 {
 "code": "6669",
@@ -406,7 +406,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "電阻製造"
+"theme": "電感製造"
 },
 {
 "code": "8033",
@@ -420,8 +420,8 @@
 "dist": -0.06060606060606055,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "航運",
-"theme": "無人機"
+"group": "無人機",
+"theme": "軍用無人機"
 },
 {
 "code": "8046",
@@ -450,8 +450,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "封裝測試"
+"group": "記憶體",
+"theme": "DRAM封測"
 },
 {
 "code": "8261",
@@ -467,49 +467,139 @@
 "limit_up_count": 3,
 "group": "半導體",
 "theme": "功率半導體"
+},
+{
+"code": "5328",
+"name": "華容",
+"market": "TPEX",
+"close": 81.9,
+"change_pct": 4.731457800511509,
+"trade_value": 7055549530.0,
+"market_cap": 14145008295.6,
+"status": "NEAR_HIGH",
+"dist": -0.03191485811986283,
+"limit_up": true,
+"limit_up_count": 3,
+"group": "電源/重電",
+"theme": "重電設備"
+},
+{
+"code": "5347",
+"name": "世界",
+"market": "TPEX",
+"close": 198.0,
+"change_pct": -3.1784841075794623,
+"trade_value": 5117972442.0,
+"market_cap": 372154374900.0,
+"status": "PULLBACK",
+"dist": -0.11210762331838564,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "晶圓代工"
+},
+{
+"code": "6173",
+"name": "信昌電",
+"market": "TPEX",
+"close": 319.0,
+"change_pct": -6.588579795021962,
+"trade_value": 5838061417.0,
+"market_cap": 54612800000.0,
+"status": "NEAR_HIGH",
+"dist": -0.08333333333333337,
+"limit_up": true,
+"limit_up_count": 2,
+"group": "被動元件",
+"theme": "電容製造"
+},
+{
+"code": "6182",
+"name": "合晶",
+"market": "TPEX",
+"close": 148.5,
+"change_pct": 10.0,
+"trade_value": 11578217641.0,
+"market_cap": 88149795277.5,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": true,
+"limit_up_count": 2,
+"group": "半導體",
+"theme": "矽晶圓"
+},
+{
+"code": "6223",
+"name": "旺矽",
+"market": "TPEX",
+"close": 7255.0,
+"change_pct": 8.364451082897686,
+"trade_value": 11256353730.0,
+"market_cap": 710854396795.0,
+"status": "NEAR_HIGH",
+"dist": -0.014266304347826053,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "半導體",
+"theme": "探針卡"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1690.0,
+"change_pct": 0.0,
+"trade_value": 7775626165.0,
+"market_cap": 488029136530.0,
+"status": "PULLBACK",
+"dist": -0.11979166666666663,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "PCB/CCL",
+"theme": "CCL銅箔基板"
 }
 ],
 "news": {
-"takeaway": "AI產業與政策動向、川普政策與企業CEO發言成未來趨勢關鍵。",
+"takeaway": "川普針對AI與政策發言，以及大型科技企業CEO對AI產業的警告，將深刻影響未來科技與政策走向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普警告盟友，AI權力優先。",
-"why": "顯示川普將AI列為國家優先事項，可能推動美國AI政策與產業發展，影響全球科技競爭格局。",
+"summary": "川普向盟友強調AI權力優先。",
+"why": "顯示川普將AI列為國家戰略重點，未來政策可能大幅推動AI產業與監管變革。",
 "source": "Axios",
 "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tNmZFb01fOEhLYmx0UDNrVnFwQmU3dUZQdTlDOUNtU3U3UVVxOGZYNVBvQUZ6OTQ0VkNIV2FlUV9peVRZM0owMzNWYkRHb3A2UGppWjRUZ2RlZEh6SFJCRHB6Z3k?oc=5",
-"time": "56 分鐘前"
+"time": "1 小時前"
 },
 {
-"who": "Palantir CEO Alex Karp",
-"summary": "Palantir CEO痛批OpenAI，稱AI產業『瘋狂』。",
-"why": "反映AI產業內部對發展方向與安全性的重大分歧，可能影響AI監管與產業合作。",
+"who": "Alex Karp (Palantir CEO)",
+"summary": "Palantir CEO Alex Karp痛批OpenAI，稱AI產業『瘋狂』。",
+"why": "大型企業CEO公開質疑AI產業現狀，可能引發產業自律與監管趨勢。",
 "source": "TechRadar",
 "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUnJuY0M4SGJET1diOWVlc3JJS1d2dmQ1LVB6U3dGSy1vbExXSC1vTF8wT0tSMDNsT08yTlM0bk9aQkNmNFlta3A3UVA4VG9vbjBhQkZFSEUyWVU3M1BrWTdWbDlGWkQ5RkE0NzdCeDdsdUc3UkdoQUs0Q0taTGc2dDU0Unp3dk5BekdnNklicGNFUDFPNUt5VDZsX0VMdFAxaTA1RkV1UVhLU2JhTGtJbDEzSFNyM1N3c0FnZDFUNmlla0pENXNVQWZqSTAyTzVW?oc=5",
-"time": "24 分鐘前"
-},
-{
-"who": "Meta CEO Mark Zuckerberg",
-"summary": "祖克柏表示AI不一定會取代工作。",
-"why": "釋出AI對就業影響的觀點，將影響企業人力規劃與社會對AI的接受度。",
-"source": "Firstpost",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVk92SDFuM2hNUjNfS3ViMUtpX3ZVUXlBU09aLXViRGdGdUJILTZrb2pyd1plTGNhTFkyLS1wN1IzdG44VG42ak1nZURFZHNKX0R0NmQ0Qk5RMjh3WW1zWHdaTGpmeUR5Zm9mNDZRN2Nqc1dKcm5hOHpaNmFJUFlURXdtdmZfSWl3Nk1RNGJhZUhxc1M3SEZ1ekMtMGtaZEdfTEtiNTdZbWMxb0xtVFJCd2thXzJLMnBUcmhaUFFLa9IBxAFBVV95cUxQTWxFdExIeUZVUy1EcnRwVVh0Nk02aURpSThFRTBQRERPNTY0dklYVW5vUWRhd2taNm5OTXJ1dXBnOVpfUm1Bek8tZ0EwWFViV2lmaG55MDlLLXVqZzlJeUpDamtoU1RNUjZJWXM4WnhINU5vaktUMEhoLUJzZDFvMGJEX2lScEk3U1I3d3RyZWNCU09JNnF6clBiV0YtbzJ3bnVYamhZMXp0VHNVZ1RzZlN2R2F2NGEzNVcwWHQ0cEZxYTdt?oc=5",
-"time": "53 分鐘前"
+"time": "44 分鐘前"
 },
 {
 "who": "Ford CEO",
-"summary": "Ford CEO警告車主勿自行修理新Bronco，因安全疑慮。",
-"why": "顯示汽車產業對維修安全與原廠控制的重視，可能影響售後服務與消費者權益。",
+"summary": "Ford CEO警告車主自行維修新Bronco存在安全疑慮。",
+"why": "汽車產業對維修權與安全的態度，將影響未來消費者權益與產業規範。",
 "source": "Audacy",
 "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa1RjWS1DWW5faGJtclVJWmdTZzFQcEhZX3pDMFZvRGUxUVVCMkI5QVI0clpuR1NaYjV3TkUycGtmbzhubl9zUjVIM0V6NF9POGFZOG5UZGJhTGlsUVk1WGZVaHhidlFSWjV3bnpwbTVzc05PdlpGMndTcllHMElSTjhCSkhnbFZGT3IxaGVoWW5sTUlPMlp5M01ZUzVhVlgyS2V0Y3QxWDNPcXZ0MlNJ?oc=5",
-"time": "23 分鐘前"
+"time": "43 分鐘前"
 },
 {
-"who": "Echodyne CEO",
-"summary": "Echodyne CEO看好反無人機雷達需求大增。",
-"why": "預示反無人機技術市場快速成長，將帶動國防與安全產業新趨勢。",
-"source": "Defense News",
-"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbkZNOFZJOThGbmxSYUJGT3EtX3hnZDRNOUcxbmhMbzIzZm5LcGVFZlFZU0NCY2R0MFNfZUpLV3FaRW0wWHpPSjdVTVpQM3hlTTA0QUtFVmNYRnFqOW1qeFdEcVVVbS1XRmpVWnVVbG4zWld1SllZZnJTLWRJbVM5alRpVmZTZndJV3MwUnY0cFRya2R3SnRDZVJOSlEtanBfNkVRd09abnJLeHNzNjdETUJsSUhsSlE?oc=5",
+"who": "Mark Zuckerberg (Meta CEO)",
+"summary": "Meta CEO馬克·祖克柏表示AI不一定會取代工作。",
+"why": "科技巨頭對AI與就業關係的看法，將影響產業發展與政策制定。",
+"source": "Firstpost",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVk92SDFuM2hNUjNfS3ViMUtpX3ZVUXlBU09aLXViRGdGdUJILTZrb2pyd1plTGNhTFkyLS1wN1IzdG44VG42ak1nZURFZHNKX0R0NmQ0Qk5RMjh3WW1zWHdaTGpmeUR5Zm9mNDZRN2Nqc1dKcm5hOHpaNmFJUFlURXdtdmZfSWl3Nk1RNGJhZUhxc1M3SEZ1ekMtMGtaZEdfTEtiNTdZbWMxb0xtVFJCd2thXzJLMnBUcmhaUFFLa9IBxAFBVV95cUxQTWxFdExIeUZVUy1EcnRwVVh0Nk02aURpSThFRTBQRERPNTY0dklYVW5vUWRhd2taNm5OTXJ1dXBnOVpfUm1Bek8tZ0EwWFViV2lmaG55MDlLLXVqZzlJeUpDamtoU1RNUjZJWXM4WnhINU5vaktUMEhoLUJzZDFvMGJEX2lScEk3U1I3d3RyZWNCU09JNnF6clBiV0YtbzJ3bnVYamhZMXp0VHNVZ1RzZlN2R2F2NGEzNVcwWHQ0cEZxYTdt?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Anthropic CEO",
+"summary": "Anthropic CEO警告AI將取代人類程式設計。",
+"why": "AI技術發展對人力市場的衝擊，預示未來職業結構重大變化。",
+"source": "Mshale",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rXzJ3bkdUamRJOW1ZZ3JwOHZURWYwQlZ1cVNxa21uOS1adFF4SXVxM01ReG5YZEtoQVR4cnRJTG1zUThoRXRNdFFxS09ybEJFenZ6cloyX2YyejQ?oc=5",
 "time": "1 小時前"
 }
 ]
