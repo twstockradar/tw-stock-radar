@@ -1,7 +1,7 @@
 {
 "date": "2026-07-03",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電等族群為主，題材集中於先進封裝、AI伺服器代工、PCB材料、被動元件、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電等族群為主，題材聚焦於先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 1045.0,
 "change_pct": -0.9478672985781991,
-"trade_value": 39900036290.0,
+"trade_value": 46274536290.0,
 "market_cap": 2164681430780.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 2445.0,
 "change_pct": -0.8113590263691683,
-"trade_value": 71755565280.0,
+"trade_value": 80082636340.0,
 "market_cap": 63404644813815.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 6080.0,
 "change_pct": 7.515473032714412,
-"trade_value": 18218715470.0,
+"trade_value": 18691825646.0,
 "market_cap": 2178592373120.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 4195.0,
 "change_pct": -3.452243958573072,
-"trade_value": 52100701345.0,
+"trade_value": 53200054285.0,
 "market_cap": 6728341232365.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -204,7 +204,7 @@
 "market": "TWSE",
 "close": 969.0,
 "change_pct": -1.0214504596527068,
-"trade_value": 18218811364.0,
+"trade_value": 18347324938.0,
 "market_cap": 1539617894364.0,
 "status": "PULLBACK",
 "dist": -0.13362831858407076,
@@ -249,7 +249,7 @@
 "market": "TWSE",
 "close": 4650.0,
 "change_pct": -5.005107252298264,
-"trade_value": 13838455065.0,
+"trade_value": 13932131817.0,
 "market_cap": 382247307300.0,
 "status": "PULLBACK",
 "dist": -0.1320921985815603,
@@ -264,7 +264,7 @@
 "market": "TWSE",
 "close": 682.0,
 "change_pct": 0.0,
-"trade_value": 26078858400.0,
+"trade_value": 26713080021.0,
 "market_cap": 3042288161924.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
@@ -300,7 +300,7 @@
 "dist": -0.03951367781155013,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "機構件",
+"group": "半導體",
 "theme": "無塵室工程"
 },
 {
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測/感測元件"
 },
 {
 "code": "6669",
@@ -354,7 +354,7 @@
 "market": "TWSE",
 "close": 5265.0,
 "change_pct": 1.25,
-"trade_value": 8143824390.0,
+"trade_value": 8164714390.0,
 "market_cap": 978451764615.0,
 "status": "PULLBACK",
 "dist": -0.10267471958584984,
@@ -406,7 +406,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "電源/重電",
-"theme": "電源供應器"
+"theme": "重電設備"
 },
 {
 "code": "6182",
@@ -455,47 +455,39 @@
 }
 ],
 "news": {
-"takeaway": "川普對美國外交與軍事支出提出重大質疑，科技巨頭CEO針對AI發展與員工適應能力發出警告，顯示未來國際政經與科技趨勢將面臨調整與挑戰。",
+"takeaway": "川普針對北約支出與加密貨幣政策發表重要言論，Meta與Amazon CEO則針對AI發展與人才需求釋出趨勢訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示美國維持現有對北約的支持水平是『荒謬』。",
-"why": "暗示美國可能調整對北約的軍事與財政承諾，對全球安全格局與跨國合作產生深遠影響。",
-"source": "CBS News",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBLb2kzNGg2LW1jSXhydWpoZ2I1RWRqa2htWXZocTZkTHQycXB4VkdUTzhham9iNEtOS0o3QmxLbXRXMFhwTkR2amZKcmVHOFpDdXB6NHNfb1ZCYTd3LV9uOUc4cnVBSTk5ZnpNS09QNA?oc=5",
-"time": "30 分鐘前"
-},
-{
-"who": "Palo Alto Networks CEO",
-"summary": "CEO警告員工若未學習AI將被淘汰。",
-"why": "反映科技產業對AI技能的高度重視，預示未來職場競爭與人才結構將大幅改變。",
-"source": "Firstpost",
-"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYW5XX0Y2Vm5DR213NFVhQnBDdHdBTzRZaEQ4R0RVdmc4b0FfZTI2a0J5TkFLVmFMZllYRnlVd1RVLVFHeTI4TVYtZUZBcU9lRVhCV0pOcHZtZUQwbUlOYWtLZlVZRkNGTTY2dkVtbWhVazM1cTFlZkIyUzFnVjRkYTNZYW9YTDMxaWIxaHpJRXZXUnAtaEttNHlfUEMzSnYwdWZDam02UWVCNlh3MmdUZFM2bVVBVGlLTWExR0lZOWJoTFVtc0FKaEQ4VXRtT2ZUbHF6YzFfV1l0UdIB3wFBVV95cUxOdVFUM3lmcFdRaDBlVUx4eHdwczJ2Z1liVWhjNFFKYW01djd0azhSTWlxNlpTWTN2cVZxaVZLTWlld3NxdUttNm9yZkc5dW8tNElaSEVkS0dRM3MzeWRYN3hrV1lwVE5uaVY1T2dZUmdaV2ZTV2VmejRhZm1OemxZaVl4b1pZb2xOWjE3LW1nS2ItSk4ta3R4bnBkX213MHVyd1VTNndXVnJoSkZ1dk4xQ1dPOUcwOW8xOHFNTElkeXdVUk53eTkzMmlDR1BKXzROZWFyZ2R2UFRPeDhudWZn?oc=5",
+"summary": "川普警告美國維持現有北約支援是『荒謬』，並在峰會前表態。",
+"why": "川普若當選，可能大幅調整美國對北約的支援，影響全球安全與地緣政治格局。",
+"source": "The Guardian",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaWJQVDV3NUtuZXRIc3dNeklMU1ltRThYTnFEZURFZjNjS000U0NDNjh1eEZxYTZvOFlrSUNBT3ZnU1BhZlNaZENFSS1mMnA3VmlWOC0zMGlaY0lnekZVMk4tZzJNaEdKcmoxTFNReHBJM3pWTWFUUjRZNFM0RUpkNWhhZGZ5X25QY0p5dl9BU0UtOGxEN0Z6Qml2eXBBb05SNERPeg?oc=5",
 "time": "1 小時前"
 },
 {
+"who": "川普",
+"summary": "川普對加密貨幣給予高規格待遇，儘管市場仍下跌。",
+"why": "川普對加密貨幣政策態度轉變，可能推動美國加密產業發展，影響全球監管趨勢。",
+"source": "CNN",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SRndYenBEVEtYd1BoS183bGNoZ0dxdkl5VG1ZS2NqSUMtWXk2Y2ZtS202VUtiNlVnd2RPMUlSdlkxdTE2bG96ZjliWHFSODMxS3k0SXl6N0xRMDF0eGZ6Z0NrLVJTZ3RWU29F?oc=5",
+"time": "2 小時前"
+},
+{
 "who": "Meta CEO Mark Zuckerberg",
-"summary": "祖克柏表示Meta的AI代理人發展進度比預期慢。",
-"why": "顯示AI技術落地仍有挑戰，對產業預期與投資方向產生調整。",
-"source": "ETEnterpriseai.com",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeGFaaFlSb0lYV3V4aFdfZEw2bGpsRE9LeXZ5MlhhM0tmM3lzRkVDTElIVERqb3REdl9zbnljUGs2Z0czM3JVLUNrZWM2RkZZREowQ0JRcmRkdEZCb3k3SEN6TGZiTWhWZ3JiR2VRTGdZem5XemF0YmhmTHVfQjRGY3VhOHBtN245M0E4MTlkRFExRmtSVkg0WjVOYUJXVnlJb2pVRWRPbzdtcFdWMnlLRG4yaDlMbzFOblB2OThkMVE0d2EybWxsNlJDQ3pQU0hfeUY40gHYAUFVX3lxTE9WdkdPVno1MUQtU3JxTm91SDltT2o4ZlB0RTlCVDllWlRGZHJaLWRwVC1Cc09tOU1rbF9lNG1RUTM3LTBZakZYR2dHY0dmSVhvSUd5bVpVbEV2ZDZJS2ZQZ1FUYU1vQjRsa2ZwSERtX1RCNTJCbjh0NEVqd3JtRXlzZWMxQzVMOXduRVdSUi1VVUxqMmJQOGNYVnFzNnZjVk9VdjFkejZQRXp5RXRVcGZ0SU5qb1I3THVCMEJ2Q0xxMEQyLUdvYThDNjdYSjRjZW0yZ1pCNGdWYQ?oc=5",
-"time": "2 小時前"
+"summary": "祖克柏坦言AI代理人開發進展比預期慢。",
+"why": "Meta對AI發展的現實評估，反映產業面臨技術瓶頸，影響未來AI競爭格局。",
+"source": "citybiz",
+"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN2kxMUxZaUhJWUJfcmJVNnZjSGl2MUtXd1NxVDNVUF9GbjMxZmdtT2VnR2tDdkxSME12RWxHamMxbjE4UF9lVUNKWmZRMV9heHc3YTljaXRGSTJWbzZLZ2VCYkJtWGhUeU1YNDFCTXk3MGducVQwdFV2M2w4M2RoM1VDdjBwNTd6aTZ3QjRnQnZWLVZQWUxFYnhxQ2JiRU1lRmNaUDNfcVE3aUQ2TzNNTlVveEkzV3EwR1BaVFkweDJ3eGQxZzA2eFpR?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "Apple CEO Tim Cook",
-"summary": "庫克積極修正蘋果記憶體問題，並準備CEO交接。",
-"why": "蘋果領導層變動與技術調整，可能影響公司未來產品策略與市場競爭力。",
-"source": "MSN",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWlAxZXpOX0xXYXItT0UzNlFXeHZHeW13YlFlUXNvTjhUa3Fxek13amYwVDNTWk9PbDl5NU1NMUs5SGVybWgyRDl3VnZYci1nVVJsTXlpN1Nlc1dIREhSVjNhZmxENi1WcVZwU2RuRlZYYzlNc1pHOHJrMmx0cXFkblZLX0lvM3FfdWphQldRMVU1dzBjMEZHTWZrOFJoa3Zqb1MzUUJ2UERJcmVySkZPdzNxSQ?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Meta CEO",
-"summary": "Meta將出售多餘AI運算資源。",
-"why": "代表大型科技公司調整AI資源配置，可能影響產業生態與AI應用普及。",
-"source": "TradingView",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTS1Bb0F2bVFkWVVLSi04MFVMc0dnSzNvODRiT0UzUjMxdTltdENSWk12UllrRlFNSlZQWk1PSWNtSnpFemJPX21QYThpWTZYb1JGYlBWZVZNV0VrQjdsRmYzbGlObDhKM1c0TW5jRlotd1oxOHhBM3EtOXducHBnZ3pra19XM3B0T0ZSejZfUkN3SGM2N1QzQ09MM2ZYdmZKZE1zejl5SHlIem5jaWxicnpMU25kMmF2Y01sMzR4bw?oc=5",
-"time": "2 小時前"
+"who": "Amazon Web Services CEO Matt Garman",
+"summary": "AWS CEO強調適應力、好奇心與學習能力是未來人才關鍵。",
+"why": "大型科技企業對人才需求的轉變，將影響全球職場與教育趨勢。",
+"source": "Moneycontrol.com",
+"link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNTnZLNzF4ajdhQW10UmlQRWJHdTJKcDlIWDhQTXNFTTdoLWgyVkxsYXFPa3NScHUtM251dzlMbmJkWm9saXRsMUs2LWdDemxmLTlFbTlhM3BYZ0U4bDZscEdQZXRJUEhUcnNYQjAzdWhrc3FvVERJMnN4aWtsWGpkemhXOHhpVVY1QkxYZDJiVjlLbzE0bm5WV3VVLUNWWUtybEc4SXhvYkU2dnJQb3M0bmRLeVc4MlZXSlMzWWwxS01HOWJVN1JCc0l2QlFHLVNKUjhqY2JmckhwbTItT195ZU1nbGVLNk5IUmZpeklOemNnYkZxVmpaNHJtNzE4UmstRU1qZVZHaUIyUdIBjwJBVV95cUxPLTg2QnFScXg3blp5MTk2VkhndFc3TWVmS2x1ZHp3VVlnTWQtN3JEeEp1WjdXYTlCSEc3ZUpDN20yZzd0N1VNMGZIZExNRVRfSl9sTjFRMUtkdVlQQlYtSXRYeEZ1WTR1X20yUlJiUWFyNTVZWE1KWUhCX1JJTzBrSmNISFdxQ1d2XzR1ckVQREdfanc5ekdWUjJieENTNGxkQXRSN3JkajhQTFFKY3FON19XaWlMNjl4V1RnR3ZINmJRRlVDQzUtMzFtLVMzeE9nVHVTaXc2aHEwRUM3Y2ZLamVCS2xldUtfY3d4bWQwQjRPaDdyaVBDa2E2QU5QT2k0aC1UbXJxUEdOWWFoVFZN?oc=5",
+"time": "14 分鐘前"
 }
 ]
 }
