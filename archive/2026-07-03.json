@@ -1,7 +1,7 @@
 {
 "date": "2026-07-03",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電等族群為主，題材聚焦於先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、被動元件、散熱、電源/重電等族群為主，題材集中於先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測/感測元件"
+"theme": "封測"
 },
 {
 "code": "6669",
@@ -455,39 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對北約支出與加密貨幣政策發表重要言論，Meta與Amazon CEO則針對AI發展與人才需求釋出趨勢訊號。",
+"takeaway": "川普針對國際與經濟政策發表重要言論，Meta與Amazon CEO針對AI與人才發展釋出趨勢訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普警告美國維持現有北約支援是『荒謬』，並在峰會前表態。",
-"why": "川普若當選，可能大幅調整美國對北約的支援，影響全球安全與地緣政治格局。",
+"summary": "川普表示伊朗已同意美國幾乎所有要求。",
+"why": "顯示美伊關係可能出現重大轉折，對中東局勢與能源市場有深遠影響。",
+"source": "IranWire",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0JyeHZVa2c5NjhlMUtQVkZTenU5dmJsX0VUV1BlNFhBdFFibGtyMHJOR0VTUklrYVdDN0h1OUQ5azVwazRldmhtczhOREI5ZjdGd1hBYnlOaF81OFFsck5HMmFxcWN5XzNadTVBNVNDQmZibmtjcWJRTDh1WVF5eWtTRUM1d20xbFlR?oc=5",
+"time": "2 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普批評聯準會董事會「敵對」，並誓言持續追究Lisa Cook案。",
+"why": "反映川普對貨幣政策的強硬態度，可能影響未來美國金融監管與政策走向。",
+"source": "Fortune",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZlU4UjFyZThHSGJTdE1xN3VsMDNNcWZpWW1BcGxtQVRmUUNraWlWMUxCVTlKYXlfeFpCODZ0S3R2azRIOTAwS1lUeFE0MC1pNHUtN3FORGhFOUFhQ2xMQzNnM25LT1ZqLWJvUXpYZjFUcmVsVWNqdzgtREJrbHZDanFQQVFmVkFmNlN0Yg?oc=5",
+"time": "25 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普警告美國維持現有北約支持「荒謬」，並在峰會前發聲。",
+"why": "暗示美國對北約政策可能大幅調整，牽動全球安全與地緣政治格局。",
 "source": "The Guardian",
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaWJQVDV3NUtuZXRIc3dNeklMU1ltRThYTnFEZURFZjNjS000U0NDNjh1eEZxYTZvOFlrSUNBT3ZnU1BhZlNaZENFSS1mMnA3VmlWOC0zMGlaY0lnekZVMk4tZzJNaEdKcmoxTFNReHBJM3pWTWFUUjRZNFM0RUpkNWhhZGZ5X25QY0p5dl9BU0UtOGxEN0Z6Qml2eXBBb05SNERPeg?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "川普",
-"summary": "川普對加密貨幣給予高規格待遇，儘管市場仍下跌。",
-"why": "川普對加密貨幣政策態度轉變，可能推動美國加密產業發展，影響全球監管趨勢。",
-"source": "CNN",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SRndYenBEVEtYd1BoS183bGNoZ0dxdkl5VG1ZS2NqSUMtWXk2Y2ZtS202VUtiNlVnd2RPMUlSdlkxdTE2bG96ZjliWHFSODMxS3k0SXl6N0xRMDF0eGZ6Z0NrLVJTZ3RWU29F?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Meta CEO Mark Zuckerberg",
-"summary": "祖克柏坦言AI代理人開發進展比預期慢。",
-"why": "Meta對AI發展的現實評估，反映產業面臨技術瓶頸，影響未來AI競爭格局。",
+"who": "Mark Zuckerberg (Meta)",
+"summary": "Meta CEO祖克柏坦言AI代理人開發進展比預期慢。",
+"why": "揭示AI技術發展瓶頸，對產業競爭與未來創新方向有指標意義。",
 "source": "citybiz",
 "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN2kxMUxZaUhJWUJfcmJVNnZjSGl2MUtXd1NxVDNVUF9GbjMxZmdtT2VnR2tDdkxSME12RWxHamMxbjE4UF9lVUNKWmZRMV9heHc3YTljaXRGSTJWbzZLZ2VCYkJtWGhUeU1YNDFCTXk3MGducVQwdFV2M2w4M2RoM1VDdjBwNTd6aTZ3QjRnQnZWLVZQWUxFYnhxQ2JiRU1lRmNaUDNfcVE3aUQ2TzNNTlVveEkzV3EwR1BaVFkweDJ3eGQxZzA2eFpR?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Amazon Web Services CEO Matt Garman",
-"summary": "AWS CEO強調適應力、好奇心與學習能力是未來人才關鍵。",
-"why": "大型科技企業對人才需求的轉變，將影響全球職場與教育趨勢。",
+"who": "Matt Garman (Amazon Web Services)",
+"summary": "AWS CEO強調適應力、好奇心與學習能力是Amazon招募重點。",
+"why": "反映科技巨頭對人才結構與未來技能需求的最新趨勢。",
 "source": "Moneycontrol.com",
 "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNTnZLNzF4ajdhQW10UmlQRWJHdTJKcDlIWDhQTXNFTTdoLWgyVkxsYXFPa3NScHUtM251dzlMbmJkWm9saXRsMUs2LWdDemxmLTlFbTlhM3BYZ0U4bDZscEdQZXRJUEhUcnNYQjAzdWhrc3FvVERJMnN4aWtsWGpkemhXOHhpVVY1QkxYZDJiVjlLbzE0bm5WV3VVLUNWWUtybEc4SXhvYkU2dnJQb3M0bmRLeVc4MlZXSlMzWWwxS01HOWJVN1JCc0l2QlFHLVNKUjhqY2JmckhwbTItT195ZU1nbGVLNk5IUmZpeklOemNnYkZxVmpaNHJtNzE4UmstRU1qZVZHaUIyUdIBjwJBVV95cUxPLTg2QnFScXg3blp5MTk2VkhndFc3TWVmS2x1ZHp3VVlnTWQtN3JEeEp1WjdXYTlCSEc3ZUpDN20yZzd0N1VNMGZIZExNRVRfSl9sTjFRMUtkdVlQQlYtSXRYeEZ1WTR1X20yUlJiUWFyNTVZWE1KWUhCX1JJTzBrSmNISFdxQ1d2XzR1ckVQREdfanc5ekdWUjJieENTNGxkQXRSN3JkajhQTFFKY3FON19XaWlMNjl4V1RnR3ZINmJRRlVDQzUtMzFtLVMzeE9nVHVTaXc2aHEwRUM3Y2ZLamVCS2xldUtfY3d4bWQwQjRPaDdyaVBDa2E2QU5QT2k0aC1UbXJxUEdOWWFoVFZN?oc=5",
-"time": "14 分鐘前"
+"time": "31 分鐘前"
 }
 ]
 }
