@@ -1,7 +1,7 @@
 {
 "date": "2026-07-06",
 "count": 35,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材聚焦於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、探針卡等。",
 "stocks": [
 {
 "code": "1717",
@@ -15,8 +15,8 @@
 "dist": -0.0500556165030166,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "化工",
-"theme": "環保材料"
+"group": "重電",
+"theme": "工業用化學品"
 },
 {
 "code": "2301",
@@ -30,8 +30,8 @@
 "dist": -0.14503816793893132,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電源/重電",
-"theme": "電源管理"
+"group": "AI伺服器",
+"theme": "伺服器電源模組"
 },
 {
 "code": "2303",
@@ -54,14 +54,14 @@
 "market": "TWSE",
 "close": 1005.0,
 "change_pct": -3.827751196172249,
-"trade_value": 42727916885.0,
+"trade_value": 43370591885.0,
 "market_cap": 2081822811420.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "電阻電容"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2460.0,
 "change_pct": 0.6134969325153374,
-"trade_value": 51485962225.0,
+"trade_value": 52022654454.0,
 "market_cap": 63793630364820.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 378.0,
 "change_pct": 0.2652519893899204,
-"trade_value": 9369132760.0,
+"trade_value": 9568079760.0,
 "market_cap": 1460073169296.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -159,14 +159,14 @@
 "market": "TWSE",
 "close": 4125.0,
 "change_pct": -1.66865315852205,
-"trade_value": 28888091965.0,
+"trade_value": 28930241965.0,
 "market_cap": 6616068553875.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "IC設計",
-"theme": "手機晶片"
+"group": "半導體",
+"theme": "IC設計"
 },
 {
 "code": "2484",
@@ -181,7 +181,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "溫度感測"
+"theme": "溫度感測元件"
 },
 {
 "code": "3017",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電感"
+"theme": "電感製造"
 },
 {
 "code": "3037",
@@ -219,7 +219,7 @@
 "market": "TWSE",
 "close": 917.0,
 "change_pct": 0.0,
-"trade_value": 22784398949.0,
+"trade_value": 23192638949.0,
 "market_cap": 1456996500652.0,
 "status": "PULLBACK",
 "dist": -0.13362831858407076,
@@ -270,8 +270,8 @@
 "dist": -0.10012058314713412,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "IC設計",
-"theme": "AI加速器"
+"group": "半導體",
+"theme": "AI晶片設計"
 },
 {
 "code": "3661",
@@ -285,8 +285,8 @@
 "dist": -0.1320921985815603,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "IC設計",
-"theme": "AI加速器"
+"group": "半導體",
+"theme": "AI晶片設計"
 },
 {
 "code": "3711",
@@ -294,14 +294,14 @@
 "market": "TWSE",
 "close": 679.0,
 "change_pct": -0.43988269794721413,
-"trade_value": 16079217557.0,
+"trade_value": 16106026547.0,
 "market_cap": 3028905662678.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "先進封裝/CoWoS"
+"theme": "先進封裝"
 },
 {
 "code": "4958",
@@ -316,7 +316,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "HDI板"
+"theme": "PCB製造"
 },
 {
 "code": "6213",
@@ -421,7 +421,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "封裝測試",
-"theme": "DRAM封裝"
+"theme": "記憶體封裝"
 },
 {
 "code": "3264",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "IC測試"
+"theme": "探針卡"
 },
 {
 "code": "3374",
@@ -481,7 +481,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "電感"
+"theme": "電源元件"
 },
 {
 "code": "6182",
@@ -530,47 +530,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對國際政治與體育事件的直接干預，以及大型企業CEO的重大決策，將可能影響全球政策與產業趨勢。",
+"takeaway": "川普對金融市場、國際體育與外交的直接干預，以及大型科技企業CEO的領導風格，正深刻影響全球趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普致電FIFA，促使其撤銷美國球員Balogun的禁賽決定。",
-"why": "展現川普對國際體育事務的直接干預，可能影響美國與國際體育組織的互動模式。",
-"source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTNkX1hrdjM4eVprZkx0MlZzbk1kZmpqYWtBak5hZ0tsdDdMUGdLUHRVbXRMaWdVR1FoZDZzQWNITl83TE56MDBINzAzQmEtVXdsOXhyRlkyZ1BEaC14Q0QxaDhIdWJxeTJ6T1dIS0JXWktCLVVHT1NoQ1J6VjFOekpXM3pHNTNHWXllQlJRcjBfVzRfNUhhNk5JQmg4XzdTeGc?oc=5",
-"time": "2 小時前"
+"summary": "川普親自敲響納斯達克開市鐘，慶祝其相關帳戶首日交易。",
+"why": "展現川普將個人品牌與金融市場緊密結合，可能加劇政治與資本市場的互動與波動。",
+"source": "Nasdaq",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGb1pyTkxNRzdCSzVWd214SzZHblR5dnM4aHhEcnNxOGJZV2pUamRlNVBmRXM5N0Jldl9sWUFwb1JFLUlTb29zSVZrS1NmeU11ODhIWl9JQ2p4b095SnFIUXpPTVZXbVMwdFY2dl8tNFZYLWFiNkpRd2FLSFB1RVk?oc=5",
+"time": "9 分鐘前"
 },
 {
-"who": "Tim Cook (Apple CEO)",
-"summary": "蘋果CEO庫克選擇將853億美元投入一項具顛覆性的機會，而非收購其他S&P 500公司。",
-"why": "顯示蘋果對新興領域的高度重視，可能引領科技產業重大轉型。",
-"source": "The Motley Fool",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVFyQXRlakVrcWNDaFZ4VkN6OFJ3c2ttemliODZjc19IRnEwT0lUSnUwTlNfZldXMnp4cDNQX2JJR01FRXg2R0ZRQlFlN3M5SkNzUXYxbHNwVUFrZHhZUE9FTjdRVFM4Y3F5NDJ2WVRuTFllcURfb0lJR3ZUQmpCVTdOTU1ONEFVR24zTS1QLWtRcWkt?oc=5",
-"time": "41 分鐘前"
-},
-{
-"who": "TriMark CEO",
-"summary": "TriMark宣布CEO交接。",
-"why": "企業高層變動可能帶來策略調整，影響相關產業未來發展。",
-"source": "Perishable News",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1RnZlJYQlhpQmpCeGtKbEJCanNhdFVMdFpNVFFuUHdKR2gwOFdPMDJMY05KVWZEU2NlTFRfenBMbjdlc0hwZkdLVVA1S29xb1hfS0ZJY3NBWUl3TWttVDhHNXJrQ2ltaS1lQU9PSjZnRjdqcDJ2d0VxNFNXRUtWeVNFVEY?oc=5",
-"time": "16 分鐘前"
-},
-{
-"who": "Swoop Holdings CEO",
-"summary": "Swoop Holdings宣布CEO離任及臨時領導任命。",
-"why": "領導層更替可能影響公司策略與市場布局。",
-"source": "Kalkine Media",
-"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcmM0alhxZmtrTE55THAxZHVncllkTkpSbXB4RkowemFjNGMwSzJDbGhmNEdUZmtfWFVDeXZ6VW15dnY2MnFkVTlFWEZjMGxMSFdjbUN6TnoxdjRCNG10bWtUazJXdzVPRGxuX2ZucXVEUk05MzNnWEM1ZkYzVzlWYS1tVVBJV056dUo1YzRsVGtvc3A4aVNOU0dYZFYxSnFqSGloVG5acXFjUENmRU1ybmtMMkFUTWFDRHNiOHJzTDlhT0daaU1EWWc1UVVPdDhURWxnMUtHUQ?oc=5",
+"who": "川普",
+"summary": "川普推動重塑美國聯邦儲備系統的努力。",
+"why": "若成功，將深遠影響美國貨幣政策與全球金融格局。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVnVlM3B6MjlDTW42MkE5RTRFR2pDMVdWQnl2NnhhLWlpWjNGbllCZlZEclV0MGo1ei1qUVhaVXE4NHFEa19EaC1QTWNjXzNEclFMSEdJQ3dHWjU4MTZKWC1kNnVnVl9iRTVnb2lNVW1TYUhSaDBYXzFxTVVGWk1sMUdNUl9tbjJvLXF0c3NXQTVkZWtvbWZwVG9QVEItWlNMYVBYOQ?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "PainChek CEO",
-"summary": "PainChek宣布CEO交接以加速美國市場發展。",
-"why": "新任CEO將推動公司在美國市場擴張，可能帶動產業競爭與創新。",
-"source": "Kalkine",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdDRTSkVCU3hweXRPeVBJSE00bEtLcjRpSE5ReGUwcnZ0M2lBWmRNZHJFVGJUNE9BelRkVEJCMUJsR21ENXhvaGJGN0NWb0ktTGVVSVNGYzJVcmdTN0NyWXQ1RXNVcVhPSTVQMDNfcDJfaGhiXzlVbXJoNTN6NXJ1am1hWHV1N1o0RUZiYllGdER6MUVNVERRYWpFdmhNakRKVGdyYzEzMGJtRzAxUG1oZg?oc=5",
-"time": "2 小時前"
+"who": "川普",
+"summary": "川普致電FIFA，促使美國球星紅牌撤銷，FIFA決定引發爭議。",
+"why": "顯示川普對國際體育事務的直接干預，可能影響體育治理與政治干預界線。",
+"source": "CBS News",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkpJOFYwOUNiaHdJRWRBWnFTMHp2YmpKRE5VaVp6SzQwalpxNG5PSnJpYm9NQ3pUZzhrYTlRMGFkQ091eFM1eTRvQVF6TmVkVkV5d0RJN1QwMHo4QUtqRFZZSWlGVjlkOUFKWTBpSFNDZWhIbG5QTjVIMDg1Z0VfaWRNU0VrcUc4aFdXeXBn?oc=5",
+"time": "54 分鐘前"
+},
+{
+"who": "Sundar Pichai（Google CEO）",
+"summary": "Google執行長皮查以冷靜決策風格著稱。",
+"why": "其領導方式將影響全球科技產業的管理趨勢與創新節奏。",
+"source": "The Times of India",
+"link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVmVUTjVyamJfOWtDZm50UElESW1QODEwYmcxUEpJTldRSU02bjd5U2lLNldJSVFEU010dktwR2lKX2JvTU02WHJPU2o2WU5xZkU1TEJ1VmxsMzQySHFTYlByRGQ0bUQyNXV0WnZrUkEtUmFjNmxMQUNMTWZ5R1E1OFlEcGUxdDg0d0x0Yll4OC1qeTBHNXJCeHNfbXo5a3otX041QU5lUUdxcGc4OE5UTV94cjBrQnRpUnp5VzFrdXdYWnVidHF5eERvaUVUQzZ5MGVTRlN4VkYwQW5yYmQ5aGR2eExqaUhMOXN6akhRM0dhY1dCQXfSAf4BQVVfeXFMTXotdG5Oa1NYdHp2dFFrbTVkSWRhazgyVnFJeWpjTXRQM01keUhzaFFIZTJab3NvVUVPYm9YdGRVbnVENmFhbG9qeUhfWWhvWDQ4aTNxbXBBS2wyUDBacFN0NlJpdGhpbTBTRFpUYmo2X19PeDktR3RoRVBHZHcwby1teUFjQ296NG9zemVYOHozWVJDU3hPRnR6ZFdhdm1IRjdvVXpxdkJjZUpwSTZleHNaZXF0ZEhocl93NldTVmpQOXltQmVwa1AteG5ZTmFyT0trR1hCWWtHN3BpS2RtcHRMazAwUVNmRWhSZTV3UWZlSThwVjFZTkJnU2k5WWc?oc=5",
+"time": "46 分鐘前"
+},
+{
+"who": "Sam Altman（OpenAI CEO）",
+"summary": "OpenAI執行長奧特曼以個人經驗聯想到GPT-5.6的突破。",
+"why": "暗示AI技術持續快速進化，對未來產業與社會結構有重大影響。",
+"source": "The Times of India",
+"link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQRU92X1BQcDFlNGI5VzRVbkV3eGxsYkQwbk9wVzhHMHV5aVRsQWhQUlFzX2dyWEZ2bU1hZUw2bjlUcXR0dEZPcm55R2IzV3NhZXA3bjlGdnVBbTMzMlhlZ2tRY2tDbDNtZEd2al9zYldxemhUNER2UEx2TmJMU3UwNTgzWFo2ZF9GLVhpNHJOT0pDc1lWRVdLV3JuaTZCb0dMVl9KY3pwWmQzVnFaNVFxRGhqbkpXY2NmZUZJMjdUcTk5NExHOFgzNUtOel9rWERtWjh5eFgxdTQwX1BkWHhBeDZxclc5VTYxTnN2ZHlIR0diNFFWT0swbVNjLTFzNHFMTEk2OUFyYTctaFNSdWJWWVQ3MlVmTER3MldNS1M1NVQ4WVc1NGpEdWVn0gGvAkFVX3lxTE92MkZuRkVBTjRnRTItRmtpSTFGZTYtcTFMdkp5bEZGcTAyek03QmV2aFdBQVptZlZPN20teHFoTExCVnVUVWFwUWxKanNDa1lDVjJhVV9VblRFSzZRV3k0bm5GNmNUeC13SEJsMzJrdXZXZjE1YlFNbkcyY09iRFdITEFhMFdwYkxicVVweXZHUThXNWJnLWN1ei0xMUxEQVFVR0MweEg4MEluMDg0ek10V2k0RWZVQUlpa2hKSW05QTR2azlmNUVROVQ2OFpPWVlPbTE0eE9FdXRaYXk0dUszR3Fic1dKR1owUXpzWjY2U01PQnBmaEo1dkNDWnFIZGFManh6OS1FdjFZMkNEZG1fRzdxRUw2cm1iZGI1SDdoNDU1YkJaMzBEZTBtLU1VYw?oc=5",
+"time": "1 小時前"
 }
 ]
 }
