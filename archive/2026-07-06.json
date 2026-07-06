@@ -1,7 +1,7 @@
 {
 "date": "2026-07-06",
 "count": 35,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組、光通訊、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1717",
@@ -15,8 +15,8 @@
 "dist": -0.0500556165030166,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "重電",
-"theme": "工業用化學品"
+"group": "被動元件",
+"theme": "電解電容"
 },
 {
 "code": "2301",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進製程晶圓代工"
+"theme": "晶圓代工"
 },
 {
 "code": "2345",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "探針卡/測試"
+"theme": "探針卡"
 },
 {
 "code": "2454",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "電感元件"
 },
 {
 "code": "3037",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "先進封裝CoWoS"
+"theme": "先進封裝/CoWoS"
 },
 {
 "code": "4958",
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "高頻CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "封裝測試",
-"theme": "先進封裝"
+"theme": "感測器封裝"
 },
 {
 "code": "6669",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "探針卡"
+"theme": "IC測試"
 },
 {
 "code": "5347",
@@ -480,8 +480,8 @@
 "dist": -0.08333333333333337,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "電源/重電",
-"theme": "電源元件"
+"group": "被動元件",
+"theme": "電感元件"
 },
 {
 "code": "6182",
@@ -511,7 +511,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6488",
@@ -530,47 +530,47 @@
 }
 ],
 "news": {
-"takeaway": "川普積極介入國際事務與金融市場，企業CEO亦展現資本與產業布局新趨勢。",
+"takeaway": "川普推動Trump Accounts並親自參與開市儀式，企業CEO對AI與資本運用釋出關鍵訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在納斯達克敲響開市鐘，慶祝 Trump Accounts 首日交易。",
-"why": "象徵川普將個人品牌與金融市場深度綁定，可能帶動政治與資本市場互動新模式。",
-"source": "Nasdaq",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGb1pyTkxNRzdCSzVWd214SzZHblR5dnM4aHhEcnNxOGJZV2pUamRlNVBmRXM5N0Jldl9sWUFwb1JFLUlTb29zSVZrS1NmeU11ODhIWl9JQ2p4b095SnFIUXpPTVZXbVMwdFY2dl8tNFZYLWFiNkpRd2FLSFB1RVk?oc=5",
-"time": "40 分鐘前"
+"summary": "川普在白宮與NYSE、Nasdaq共同舉行Trump Accounts開市儀式。",
+"why": "象徵政策與金融市場深度連結，可能推動新型金融產品與家庭資產配置趨勢。",
+"source": "The Hill",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG56aXY3dzRVS09KXzRjSk9Kd19LeE5SX3RpTTN3eG9HQklRMlZ2T0hOZ0pxXzJnOU0tNjBScmhnby10ZHFINzh3Z3VaVTFfQi00clU0STFPVHlWQjRuT0d5Vk9ObG5BMmpiTDJvajE5bkNLWS02RnNRS1dHemtHbC1ZUVdjSTZoYS13ZUc1SDQ0MTjSAZgBQVVfeXFMTXcxWEdTektxUEswSV9rOTU0NF9reloyWi1GeGVoeGNhdnVwQ3dCRnV3TFA0Rk1IeXdGWTVRR05teENmd1RUeHlYNnI5cko0M3hIZWJWSXdXRWtKbTZYOUFjLU5EMDJnNFVyVzBsX1lpWFJwa1VBUXY4YXhoV000N2lDalh6a1RoR2twRlZQNmIwb04xRUo5SWo?oc=5",
+"time": "16 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普向 FIFA 總裁施壓，要求重新審查美國球星 Balogun 的世界盃停賽決定。",
-"why": "展現川普對國際體育事務的直接干預，未來美國政治人物可能更積極影響全球體育決策。",
-"source": "USA Today",
-"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNajlwNXhwU05rWXprV0N5MEJpTjBGRkNVU0VEVC1tNWxtUDYwbUFrdldOOGJublpRT21FeE9nSTRua2ZwZVlXLUZMWTQ3LVJyNGxqdWxfc054WTNjUm9meUQwZTBLUWJtb24xMFJSMUUxS0hRUDRJSjF1SXJrc0kxNmQzN0E1Y0FVQnZrX2cybFlnVUxnc2t4dGEybHhZZTExNFpmenJNZWQxTGRVNjVhbG80azYwUnpKN0E?oc=5",
-"time": "44 分鐘前"
+"summary": "川普宣布超過50萬美國兒童已收到每人1,000美元的Trump帳戶存款。",
+"why": "直接影響家庭財務與消費，展現政策實施力，可能帶動金融科技與兒童理財市場發展。",
+"source": "The Mighty 790 KFGO",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHYybFlyeHBBOUdVMXpaU09OSzBWZE5oSXZCMy1nSzFlV0NtOW5reUtUdWwyOGFNSnNHNnp1Q2VnNWFDUGt5R283bEhhWEVGWGpiVUNCUHZYWmpsb01oSUdNcDJaU1dpU0pIYUZXVmJMY0tlVEhqNWs3Q2pfVWhndlczNnpMY2FxcmpoWXdMRlQ4b1RjY0xKRXY4TEFLanRQd3c4R3ZjbzZudw?oc=5",
+"time": "6 分鐘前"
 },
 {
-"who": "Jeff Bezos",
-"summary": "Jeff Bezos投入資金支持一間有望推動『文明財富』的新創公司。",
-"why": "代表大型科技企業領袖對新興產業與長遠經濟價值的高度關注，可能引領資本流向新領域。",
-"source": "24/7 Wall St.",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbE5ZY21XOEJ0SXJhUHhzR1RycG5hVFZmOW51Xzl0ZzVEdFVKbGZ5ckpvTVY0Ujk4OVo1TTg0VS1Kcl93c2JPOFpwQmNOUHBOdUJzMDI4THhmdGJUYnhsb0RSWWJzcXdmR2d4T0ZJTzdycTFXdlh3em5nYVFxckxZVDFmckUtcUstUUdKX2tmblVINW1UbHZ1MHJCRHh6V1k5NEw4ZTkxWHl2LVNzYTJ1MGFlQk5qdHV2OEhlbmE4dmdvN2c?oc=5",
-"time": "32 分鐘前"
+"who": "NVIDIA CEO 黃仁勳",
+"summary": "黃仁勳強調HBM記憶體供應短缺將長期影響AI晶片成長。",
+"why": "揭示AI產業瓶頸，對全球半導體供應鏈與AI發展趨勢有深遠影響。",
+"source": "GuruFocus",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaFBfM0pDdkJndy1ENHNMbWhGMjZpNURodDdnQUZKSUxjTWxvZTM1NXk2QnNUaUUyUFBWOXVlMlpGeUZHdThkS1JDbFJXRzhHMUhrTFBaM1RIWV8zLURVTTdnX3VtM19EdHFHOFZheW1YRVRHOEVpSElXMWtSVDc2MnQ0WEdHZEgzcExCSE1xaHNJU0J5SjNnMjFpZGZGaG5YcGpxSW82YmZteFBjU2lOZ0Q3QzBocVF3OXZmMU5xT3RKM084Q2xYMWNvdFk?oc=5",
+"time": "1 分鐘前"
 },
 {
-"who": "SpaceX CEO (Elon Musk)",
-"summary": "SpaceX高層表示將把SpaceX股票分配給Trump Accounts。",
-"why": "科技巨頭與川普金融平台合作，可能促使資本市場與政治力量更緊密結合。",
-"source": "Business Insider",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQWVQNHVwa0tRLXFRVkprcGw3azRzeE8xR1FVOW5PakFzWUxWTFYxM2x2cTByaHlfalhSbENoajhfY1FNa3VnMkVyaVVMMjFzRGlJVDlOTU9ZMHE0YWMzS0NBQnFkWVZjUlZmNUd5RTIweUJiOVM0R2J3Ulh6MDNjTk5PWGFlaFdxUnVPYklELVg?oc=5",
-"time": "41 分鐘前"
+"who": "Apple CEO Tim Cook",
+"summary": "庫克選擇進行8,530億美元股票回購，而非收購其他S&P 500公司。",
+"why": "反映大型科技企業資本運用策略，可能影響股東回報與產業整合趨勢。",
+"source": "MacDailyNews",
+"link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS05GV1VtT29HZEdPUWExLU9pRWlpRjgzaU5JUE42cno2enVSbGFfdGIwLV91YlJrUWwxV1F5b2ZVZWV5ajByalRwUkl2ZDROeGhtcDRpYlpRd2NsdTQ2SmJOa1A0bmFkNzk5OVFKajRLZTYzWUdSMWo0Vk9XblBaWmxtUlJTX1g4VXZ6SFE3NGxtTS1xWVRaSnR2eXhueGtoenhtT2xtT1ZnZUJPWmI3a2xfdzhYc3ZuaFZxa3dNejBYVHpjVVZkNTViWU9KYzhPajhYc2VVVGotay1mZEVF0gHkAUFVX3lxTE9ta1FIUFBlMGJWdk1pSWVQVDhXNGZVRGV0NGlnaWwxUnhyRVFUX2hQbXNDb0hMSDlUSUh2YzZXeTliMk1nOEtCWDFibktKNVA2VFlYMWVOYlNNZkFVaktIVjRLVENGVWdKdWVtVldUQk8xak5wYUVTQWhqeFlpdUZBSFlWUGZkYTRRVVBFemtXN3JTSWtJZzZBMzR0amJZeVJIV0lMMDR0M0F6NFBYeXJhSzR0SHdscDVsZUJrMkRQUkVJZEZGcHRpcDkzNGp0TldFRjQ3dmJHaVBCcTJSekY0MVlIag?oc=5",
+"time": "25 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普要求北約盟國增加國防支出，並將發放『成績單』評比各國表現。",
-"why": "顯示川普對國際安全格局的主導意圖，未來北約政策與軍費分擔將受美國強力推動。",
-"source": "stripes.com",
-"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMnBtdWRrblExckRWT3NXU1NQcWZ6UENvSVR4ZlpmVHFZc2I2SC1LZUdyOG5ZelFQaUw1d2hSX2xBc09XaVJnWjdqZjZUSmdreDBqR3pCcVFWTkJMSml1dU1ndVdwNHc2bVBnN09RSHJONUlMWXNrbW1jX0lzUmFUaGUybUsyeTNKY1E?oc=5",
-"time": "24 分鐘前"
+"summary": "川普在白宮與多位CEO共同參與首次市場開市儀式。",
+"why": "展現政商合作新模式，可能促使企業與政策協同推動經濟新方向。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSzlPbE90c1RTVVYydHRSdnRwOXVHUlZEYnowNmFnd2RGblhZNlZfRkdGQmhnRjJWeFdtN1VaQXhCRXlFTnExc0Qya0ZHdEV4Ti16VTRqMGxtbWFkbU5pdDFyNWhzUDlzdUR2OU90WjBmWlNrR2kxVl82Si1TVlF1Q0N6dXpTWS1ISVNHeE1BRTDSAZYBQVVfeXFMTVRvMnd2MVBJM1FVNE1FLXN4SWMxY0VGOG1BajlqbC15NXVSS2I5ZzlhTDhJUFNxeWpqdXMwZ3UtZzZ5TS1ldklCT3hIZDZVM3h5Y1B4Qmk3VTdxTHlYM3lINnNlNWNXdEdtbHlUVVptYVdaSUpMeGtKbEtCcElQQ0lGV0lMSlo4LVJoUGM5LTlmc1lwNVFn?oc=5",
+"time": "58 分鐘前"
 }
 ]
 }
