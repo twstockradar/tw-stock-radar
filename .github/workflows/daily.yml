@@ -71,8 +71,21 @@ jobs:
         with:
           path: docs
 
+      # Pages 服務偶發回 "Deployment failed, try again later" (syncing_files 階段
+      # 伺服器端失敗, 與內容無關; 同內容 30 分內重跑即成功)。失敗先等 45 秒重試一次,
+      # 兩次都失敗才算真的掛 (才會寄失敗信)。
       - name: 部署到 GitHub Pages
         id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      - name: 等待後重試 (讓 Pages 端喘口氣)
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+
+      - name: 部署重試 (Pages 偶發失敗)
+        if: steps.deploy.outcome == 'failure'
+        id: deploy_retry
         uses: actions/deploy-pages@v5
 
       # 封存當日結果 (盡力而為): rebase 後再推, 遇競態自動重試;
