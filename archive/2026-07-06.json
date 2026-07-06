@@ -1,7 +1,7 @@
 {
 "date": "2026-07-06",
 "count": 35,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、探針卡等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組、光通訊、重電等。",
 "stocks": [
 {
 "code": "1717",
@@ -31,7 +31,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器電源模組"
+"theme": "伺服器電源"
 },
 {
 "code": "2303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "晶圓代工"
+"theme": "先進製程晶圓代工"
 },
 {
 "code": "2345",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電感製造"
+"theme": "被動元件製造"
 },
 {
 "code": "3037",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "先進封裝"
+"theme": "先進封裝CoWoS"
 },
 {
 "code": "4958",
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高頻CCL"
 },
 {
 "code": "6239",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "封裝測試",
-"theme": "感測器封裝"
+"theme": "先進封裝"
 },
 {
 "code": "6669",
@@ -421,7 +421,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "封裝測試",
-"theme": "記憶體封裝"
+"theme": "DRAM封裝"
 },
 {
 "code": "3264",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "探針卡"
+"theme": "IC測試"
 },
 {
 "code": "3374",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "IC測試"
+"theme": "探針卡"
 },
 {
 "code": "5347",
@@ -480,7 +480,7 @@
 "dist": -0.08333333333333337,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "被動元件",
+"group": "電源/重電",
 "theme": "電源元件"
 },
 {
@@ -511,7 +511,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "6488",
@@ -530,47 +530,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對金融市場、國際體育與外交的直接干預，以及大型科技企業CEO的領導風格，正深刻影響全球趨勢。",
+"takeaway": "川普積極介入國際事務與金融市場，企業CEO亦展現資本與產業布局新趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普親自敲響納斯達克開市鐘，慶祝其相關帳戶首日交易。",
-"why": "展現川普將個人品牌與金融市場緊密結合，可能加劇政治與資本市場的互動與波動。",
+"summary": "川普在納斯達克敲響開市鐘，慶祝 Trump Accounts 首日交易。",
+"why": "象徵川普將個人品牌與金融市場深度綁定，可能帶動政治與資本市場互動新模式。",
 "source": "Nasdaq",
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGb1pyTkxNRzdCSzVWd214SzZHblR5dnM4aHhEcnNxOGJZV2pUamRlNVBmRXM5N0Jldl9sWUFwb1JFLUlTb29zSVZrS1NmeU11ODhIWl9JQ2p4b095SnFIUXpPTVZXbVMwdFY2dl8tNFZYLWFiNkpRd2FLSFB1RVk?oc=5",
-"time": "9 分鐘前"
+"time": "40 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普推動重塑美國聯邦儲備系統的努力。",
-"why": "若成功，將深遠影響美國貨幣政策與全球金融格局。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVnVlM3B6MjlDTW42MkE5RTRFR2pDMVdWQnl2NnhhLWlpWjNGbllCZlZEclV0MGo1ei1qUVhaVXE4NHFEa19EaC1QTWNjXzNEclFMSEdJQ3dHWjU4MTZKWC1kNnVnVl9iRTVnb2lNVW1TYUhSaDBYXzFxTVVGWk1sMUdNUl9tbjJvLXF0c3NXQTVkZWtvbWZwVG9QVEItWlNMYVBYOQ?oc=5",
-"time": "1 小時前"
+"summary": "川普向 FIFA 總裁施壓，要求重新審查美國球星 Balogun 的世界盃停賽決定。",
+"why": "展現川普對國際體育事務的直接干預，未來美國政治人物可能更積極影響全球體育決策。",
+"source": "USA Today",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNajlwNXhwU05rWXprV0N5MEJpTjBGRkNVU0VEVC1tNWxtUDYwbUFrdldOOGJublpRT21FeE9nSTRua2ZwZVlXLUZMWTQ3LVJyNGxqdWxfc054WTNjUm9meUQwZTBLUWJtb24xMFJSMUUxS0hRUDRJSjF1SXJrc0kxNmQzN0E1Y0FVQnZrX2cybFlnVUxnc2t4dGEybHhZZTExNFpmenJNZWQxTGRVNjVhbG80azYwUnpKN0E?oc=5",
+"time": "44 分鐘前"
+},
+{
+"who": "Jeff Bezos",
+"summary": "Jeff Bezos投入資金支持一間有望推動『文明財富』的新創公司。",
+"why": "代表大型科技企業領袖對新興產業與長遠經濟價值的高度關注，可能引領資本流向新領域。",
+"source": "24/7 Wall St.",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbE5ZY21XOEJ0SXJhUHhzR1RycG5hVFZmOW51Xzl0ZzVEdFVKbGZ5ckpvTVY0Ujk4OVo1TTg0VS1Kcl93c2JPOFpwQmNOUHBOdUJzMDI4THhmdGJUYnhsb0RSWWJzcXdmR2d4T0ZJTzdycTFXdlh3em5nYVFxckxZVDFmckUtcUstUUdKX2tmblVINW1UbHZ1MHJCRHh6V1k5NEw4ZTkxWHl2LVNzYTJ1MGFlQk5qdHV2OEhlbmE4dmdvN2c?oc=5",
+"time": "32 分鐘前"
+},
+{
+"who": "SpaceX CEO (Elon Musk)",
+"summary": "SpaceX高層表示將把SpaceX股票分配給Trump Accounts。",
+"why": "科技巨頭與川普金融平台合作，可能促使資本市場與政治力量更緊密結合。",
+"source": "Business Insider",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQWVQNHVwa0tRLXFRVkprcGw3azRzeE8xR1FVOW5PakFzWUxWTFYxM2x2cTByaHlfalhSbENoajhfY1FNa3VnMkVyaVVMMjFzRGlJVDlOTU9ZMHE0YWMzS0NBQnFkWVZjUlZmNUd5RTIweUJiOVM0R2J3Ulh6MDNjTk5PWGFlaFdxUnVPYklELVg?oc=5",
+"time": "41 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普致電FIFA，促使美國球星紅牌撤銷，FIFA決定引發爭議。",
-"why": "顯示川普對國際體育事務的直接干預，可能影響體育治理與政治干預界線。",
-"source": "CBS News",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkpJOFYwOUNiaHdJRWRBWnFTMHp2YmpKRE5VaVp6SzQwalpxNG5PSnJpYm9NQ3pUZzhrYTlRMGFkQ091eFM1eTRvQVF6TmVkVkV5d0RJN1QwMHo4QUtqRFZZSWlGVjlkOUFKWTBpSFNDZWhIbG5QTjVIMDg1Z0VfaWRNU0VrcUc4aFdXeXBn?oc=5",
-"time": "54 分鐘前"
-},
-{
-"who": "Sundar Pichai（Google CEO）",
-"summary": "Google執行長皮查以冷靜決策風格著稱。",
-"why": "其領導方式將影響全球科技產業的管理趨勢與創新節奏。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVmVUTjVyamJfOWtDZm50UElESW1QODEwYmcxUEpJTldRSU02bjd5U2lLNldJSVFEU010dktwR2lKX2JvTU02WHJPU2o2WU5xZkU1TEJ1VmxsMzQySHFTYlByRGQ0bUQyNXV0WnZrUkEtUmFjNmxMQUNMTWZ5R1E1OFlEcGUxdDg0d0x0Yll4OC1qeTBHNXJCeHNfbXo5a3otX041QU5lUUdxcGc4OE5UTV94cjBrQnRpUnp5VzFrdXdYWnVidHF5eERvaUVUQzZ5MGVTRlN4VkYwQW5yYmQ5aGR2eExqaUhMOXN6akhRM0dhY1dCQXfSAf4BQVVfeXFMTXotdG5Oa1NYdHp2dFFrbTVkSWRhazgyVnFJeWpjTXRQM01keUhzaFFIZTJab3NvVUVPYm9YdGRVbnVENmFhbG9qeUhfWWhvWDQ4aTNxbXBBS2wyUDBacFN0NlJpdGhpbTBTRFpUYmo2X19PeDktR3RoRVBHZHcwby1teUFjQ296NG9zemVYOHozWVJDU3hPRnR6ZFdhdm1IRjdvVXpxdkJjZUpwSTZleHNaZXF0ZEhocl93NldTVmpQOXltQmVwa1AteG5ZTmFyT0trR1hCWWtHN3BpS2RtcHRMazAwUVNmRWhSZTV3UWZlSThwVjFZTkJnU2k5WWc?oc=5",
-"time": "46 分鐘前"
-},
-{
-"who": "Sam Altman（OpenAI CEO）",
-"summary": "OpenAI執行長奧特曼以個人經驗聯想到GPT-5.6的突破。",
-"why": "暗示AI技術持續快速進化，對未來產業與社會結構有重大影響。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQRU92X1BQcDFlNGI5VzRVbkV3eGxsYkQwbk9wVzhHMHV5aVRsQWhQUlFzX2dyWEZ2bU1hZUw2bjlUcXR0dEZPcm55R2IzV3NhZXA3bjlGdnVBbTMzMlhlZ2tRY2tDbDNtZEd2al9zYldxemhUNER2UEx2TmJMU3UwNTgzWFo2ZF9GLVhpNHJOT0pDc1lWRVdLV3JuaTZCb0dMVl9KY3pwWmQzVnFaNVFxRGhqbkpXY2NmZUZJMjdUcTk5NExHOFgzNUtOel9rWERtWjh5eFgxdTQwX1BkWHhBeDZxclc5VTYxTnN2ZHlIR0diNFFWT0swbVNjLTFzNHFMTEk2OUFyYTctaFNSdWJWWVQ3MlVmTER3MldNS1M1NVQ4WVc1NGpEdWVn0gGvAkFVX3lxTE92MkZuRkVBTjRnRTItRmtpSTFGZTYtcTFMdkp5bEZGcTAyek03QmV2aFdBQVptZlZPN20teHFoTExCVnVUVWFwUWxKanNDa1lDVjJhVV9VblRFSzZRV3k0bm5GNmNUeC13SEJsMzJrdXZXZjE1YlFNbkcyY09iRFdITEFhMFdwYkxicVVweXZHUThXNWJnLWN1ei0xMUxEQVFVR0MweEg4MEluMDg0ek10V2k0RWZVQUlpa2hKSW05QTR2azlmNUVROVQ2OFpPWVlPbTE0eE9FdXRaYXk0dUszR3Fic1dKR1owUXpzWjY2U01PQnBmaEo1dkNDWnFIZGFManh6OS1FdjFZMkNEZG1fRzdxRUw2cm1iZGI1SDdoNDU1YkJaMzBEZTBtLU1VYw?oc=5",
-"time": "1 小時前"
+"summary": "川普要求北約盟國增加國防支出，並將發放『成績單』評比各國表現。",
+"why": "顯示川普對國際安全格局的主導意圖，未來北約政策與軍費分擔將受美國強力推動。",
+"source": "stripes.com",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMnBtdWRrblExckRWT3NXU1NQcWZ6UENvSVR4ZlpmVHFZc2I2SC1LZUdyOG5ZelFQaUw1d2hSX2xBc09XaVJnWjdqZjZUSmdreDBqR3pCcVFWTkJMSml1dU1ndVdwNHc2bVBnN09RSHJONUlMWXNrbW1jX0lzUmFUaGUybUsyeTNKY1E?oc=5",
+"time": "24 分鐘前"
 }
 ]
 }
