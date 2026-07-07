@@ -180,8 +180,8 @@
 "dist": 0.0,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "半導體",
-"theme": "感測元件"
+"group": "被動元件",
+"theme": "溫度感測元件"
 },
 {
 "code": "3017",
@@ -241,7 +241,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "石英元件"
 },
 {
 "code": "3443",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封裝測試"
 },
 {
 "code": "6446",
@@ -390,8 +390,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "封測"
+"group": "記憶體",
+"theme": "封裝測試"
 },
 {
 "code": "8261",
@@ -515,47 +515,47 @@
 }
 ],
 "news": {
-"takeaway": "川普在北約峰會推動防務支出與F-35政策，Xbox CEO坦承Game Pass策略失敗，顯示美國政經與科技產業重大轉折。",
+"takeaway": "川普於北約峰會施壓防務支出與F-35政策，Xbox CEO坦承Game Pass策略失敗，顯示美國政經與科技產業重大轉折。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在土耳其北約峰會推動盟國增加防務支出，並考慮恢復土耳其取得F-35戰機的權利。",
-"why": "川普對北約防務與軍售政策的主導，將影響美國與盟國安全合作及全球軍事產業格局。",
+"summary": "川普於土耳其北約峰會推動盟國增加防務支出，並考慮恢復土耳其F-35戰機的取得權。",
+"why": "川普對北約防務支出與軍事合作施壓，可能改變美國與盟國的安全政策與軍事產業格局。",
 "source": "CBS News",
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWEdlTmJ6V1h4Wi1mR19lTk9tTHJRa2t1am4xZDFTdE1tYWhMVnA1dDJfTkhGMUxYYi1uMU5hTVA4YnJmVHNkTXpfWUUxenhnMHVBZHgyLWxxeUp0ZFNCTy1XdzJOV2RxZUhZTDVtLTdoNGwyX1h3elE2bXBUZE5tUHMyWXJPeFpral9NbVJLaHBjNEdZQU14bGRmR3hWRkg2NlE?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Xbox CEO Asha Sharma",
+"who": "Asha Sharma (Xbox CEO)",
 "summary": "Xbox CEO Asha Sharma坦承微軟對Game Pass的重大賭注已經失敗。",
-"why": "這反映遊戲產業訂閱制商業模式面臨挑戰，可能促使大型科技企業調整策略。",
+"why": "顯示遊戲產業訂閱制商業模式面臨挑戰，未來可能影響產業策略與投資方向。",
 "source": "IGN",
 "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPRFRtdW5ZcVBkdktidzJUNUV2UE51T04walQ2SnhSNzlkSVJTdWhscUdLcWxPTl85U211cDNfMU1WbjQybkl4eTR1dmgyc0kwRnZiNXRoTzRwTzVRR3VxekRCTFdxMV9UdmF4OGh3b0h3b09iaVFoYy1JNFdldmo2SmJBc1pFRUtrS3B1NUZWR3pjUFMtaDFRN2c4ckVwRXpJYkhrWUIya3hIdEVUWjdHR0ppMWp2VHVRaFFfMGIyZHZJcmZzT1R1RDN4cVowX3R2R1V3cU9aV1lfdVFhUkx1bXNiVnpMTU1QN1k1NWZRaVJSd3k2ZGRkYVZXcjVnZTBpLU9lZUhOUTh4N1hk?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Xbox CEO Asha Sharma",
-"summary": "Xbox CEO Asha Sharma表示Xbox核心必須健康，才能度過目前困境。",
-"why": "顯示微軟將聚焦核心業務，對遊戲產業未來發展與競爭格局有深遠影響。",
+"who": "Asha Sharma (Xbox CEO)",
+"summary": "Xbox CEO Asha Sharma表示品牌核心必須健康，暗示目前Xbox狀況不佳。",
+"why": "反映微軟遊戲業務需重整，對全球遊戲產業競爭格局有深遠影響。",
 "source": "GamesRadar+",
 "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZW4xczgzSGdIUVhlNnc3VnN3UGU3Qnd5bWVsdTlFU016cXpXT2JaOXNuRVZCUVE5OG85UFRWTUJfZmk5WDdpRGtqejNDMFUwcUZvME8zM25LYW13cnpXcEQtdkg1N3YwRUZVTWFEa05rWWpTTEZkNUJTNVI5bUptRVRqTHZiMGJkUjdzWVhxT1FSUDVRd19iQy1qeURVT0xoNjdkU19MWDhIY1lMQXVEWE5TR19KVElMUU1NUjFodFBJSWNWSXJNZzEwRm1tUFF4aVFlTmFackhiY2l5M2pycm5YNk5hME4yVWt0enBLUThVLUxZbTlHN1gtOTI5NUNvVDUyLWt3WFE?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "三星電子副會長李在鎔",
-"summary": "李在鎔於Sun Valley積極與科技巨頭洽談，推動三星AI晶片合作。",
-"why": "三星加速AI晶片布局，將影響全球半導體產業競爭與AI技術發展。",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FeFpXM0Q0VGhMN1lablpieDdvTTVHdDl6dkkwd2FQaWxRTHV3ZGR6T2pxMW5xVGRpOGdXVWJFYmp2SHVEakhxZ0hRUmJreW5zV29RcENiVWpBdDlYcm9US3c2ZDVIU2JFZ1NLUndQcGdiZW82ZlZMdHdR0gGOAUFVX3lxTFBMVWN3VGJqeF9OMkc3MXVzVVZRemZfTFdWNXNib3NaU0ZnQW9MMlpNMDI1MkxMbkhvUm9Dal9CZUxZZFlFdDVzMjg0b0xsaDZnMjNvZ19nRXo1YW5vMkZleFp1VUVwT2tIUnBYc3gySERuT0Y0VjNDRVUzYnhlRWdPVlpKQWpRSDlCSDFwNWc?oc=5",
-"time": "2 小時前"
+"who": "川普",
+"summary": "川普推動的法案大幅削減數百萬美國人的食品援助。",
+"why": "政策將影響美國社會福利與消費結構，可能引發政治與經濟連鎖反應。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNFZteG5LQjlVWFdaalRtRzI4V2JfRGlvOG01Z0RlV251MG5UMWU3UDZiODN6YllyVkZwa1d6ZlB1ZlhqajRkV256dThnNkE2QkdRMm9Hd004bzh5NHpiWnVzY2xRSmV6Vkp1Z2lGSjlYMU9vaXBFS1Bzd0hCSkhjNFRjVzg5VDlXaWNlZXRlNndKUHNDbU5lRHJuRDdwaHdRMU03UlNWOFJZdUt0YkdyNTZRYWR6Tkc2?oc=5",
+"time": "2 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普對伊朗的怨恨影響北約峰會氛圍，強調忠誠。",
-"why": "川普對伊朗政策與盟友關係的態度，將牽動美國外交與地緣政治走向。",
-"source": "Axios",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBORmwxWEVQQUVCcjRXUWRoaWQ1dFVUZ1F0OWVJVjQ1TmY2eXhIaGVfa1JhNTEwNVg5T2pXUXlnU2JVaHlGN0Q1Wi1NZHkybWhBNWJBd3pjS0VzeWtHb2lKczFCSVR6T244Smg0?oc=5",
-"time": "2 小時前"
+"summary": "川普推動比特幣戰略儲備，面臨法律權限挑戰。",
+"why": "若成真，將影響美國加密貨幣政策與全球金融市場趨勢。",
+"source": "TronWeekly",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OYUpuV0QyX0xSM0NjbEMyaWo5OGNBVTFmaU1WZmg3a0hfeGNaelBLYl8ta1NTaExJbEZBUl9JeV9kTGljTXJ6dmxFU2x3NWVlTGNRR2gzajRvaVhXUmZOUzFIalRBaVd4dWRHbXlsXzU5ci1qSlZJcDlCMA?oc=5",
+"time": "34 分鐘前"
 }
 ]
 }
