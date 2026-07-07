@@ -1,7 +1,7 @@
 {
 "date": "2026-07-07",
-"count": 27,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、被動元件等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
+"count": 34,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、記憶體等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 2440.0,
 "change_pct": -0.8130081300813009,
-"trade_value": 75058565465.0,
+"trade_value": 77617188273.0,
 "market_cap": 63274982963480.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 5220.0,
 "change_pct": -4.657534246575342,
-"trade_value": 21623811290.0,
+"trade_value": 21640198790.0,
 "market_cap": 1870436215080.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
@@ -159,7 +159,7 @@
 "market": "TWSE",
 "close": 4030.0,
 "change_pct": 0.0,
-"trade_value": 36890381820.0,
+"trade_value": 36965706820.0,
 "market_cap": 6463698490210.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -264,7 +264,7 @@
 "market": "TWSE",
 "close": 4035.0,
 "change_pct": -4.270462633451958,
-"trade_value": 7703874250.0,
+"trade_value": 7791159250.0,
 "market_cap": 347836053270.0,
 "status": "PULLBACK",
 "dist": -0.1320921985815603,
@@ -279,7 +279,7 @@
 "market": "TWSE",
 "close": 651.0,
 "change_pct": -4.123711340206185,
-"trade_value": 16502768948.0,
+"trade_value": 16549718348.0,
 "market_cap": 2904002336382.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
@@ -316,7 +316,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "高頻材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -346,7 +346,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "生技醫療",
-"theme": "新藥"
+"theme": "新藥開發"
 },
 {
 "code": "6669",
@@ -354,7 +354,7 @@
 "market": "TWSE",
 "close": 5015.0,
 "change_pct": -0.3972194637537239,
-"trade_value": 10535722005.0,
+"trade_value": 11299402005.0,
 "market_cap": 931991566865.0,
 "status": "PULLBACK",
 "dist": -0.10267471958584984,
@@ -406,51 +406,156 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "半導體",
-"theme": "功率元件"
+"theme": "功率半導體"
+},
+{
+"code": "3374",
+"name": "精材",
+"market": "TPEX",
+"close": 295.0,
+"change_pct": -8.385093167701864,
+"trade_value": 5107079497.0,
+"market_cap": 80052473220.0,
+"status": "NEAR_HIGH",
+"dist": -0.06395348837209303,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "探針卡/測試"
+},
+{
+"code": "5347",
+"name": "世界",
+"market": "TPEX",
+"close": 175.0,
+"change_pct": -5.405405405405405,
+"trade_value": 5046014998.0,
+"market_cap": 328924321250.0,
+"status": "PULLBACK",
+"dist": -0.11210762331838564,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "晶圓代工"
+},
+{
+"code": "5351",
+"name": "鈺創",
+"market": "TPEX",
+"close": 93.1,
+"change_pct": 3.5595105672969973,
+"trade_value": 5738268157.0,
+"market_cap": 30580071111.1,
+"status": "NEAR_HIGH",
+"dist": -0.09611651966872725,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "記憶體",
+"theme": "DRAM/NAND設計"
+},
+{
+"code": "6182",
+"name": "合晶",
+"market": "TPEX",
+"close": 145.5,
+"change_pct": -6.730769230769231,
+"trade_value": 16280244250.0,
+"market_cap": 86368991332.5,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "半導體",
+"theme": "矽晶圓"
+},
+{
+"code": "6223",
+"name": "旺矽",
+"market": "TPEX",
+"close": 6310.0,
+"change_pct": -7.950401167031364,
+"trade_value": 6337146670.0,
+"market_cap": 618262059790.0,
+"status": "NEAR_HIGH",
+"dist": -0.014266304347826053,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "半導體",
+"theme": "探針卡/測試"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1575.0,
+"change_pct": -3.374233128834356,
+"trade_value": 10975347860.0,
+"market_cap": 454820053275.0,
+"status": "PULLBACK",
+"dist": -0.11979166666666663,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "PCB/CCL",
+"theme": "CCL銅箔基板"
+},
+{
+"code": "6488",
+"name": "環球晶",
+"market": "TPEX",
+"close": 1205.0,
+"change_pct": -9.737827715355806,
+"trade_value": 13035513180.0,
+"market_cap": 576127038625.0,
+"status": "NEAR_HIGH",
+"dist": -0.03260869565217395,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "半導體",
+"theme": "矽晶圓"
 }
 ],
 "news": {
-"takeaway": "川普對國際安全與軍事合作的立場、以及大型科技與金融企業CEO對AI與組織調整的決策，正深刻影響全球政經格局。",
+"takeaway": "川普在北約峰會推動防務支出與F-35政策，Xbox CEO坦承Game Pass策略失敗，顯示美國政經與科技產業重大轉折。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在北約峰會前強調對伊朗的不滿並要求盟友展現忠誠。",
-"why": "顯示川普對國際安全議題的強硬立場，可能影響美國與北約盟友的合作與中東政策走向。",
-"source": "Axios",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBORmwxWEVQQUVCcjRXUWRoaWQ1dFVUZ1F0OWVJVjQ1TmY2eXhIaGVfa1JhNTEwNVg5T2pXUXlnU2JVaHlGN0Q1Wi1NZHkybWhBNWJBd3pjS0VzeWtHb2lKczFCSVR6T244Smg0?oc=5",
-"time": "14 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普在北約峰會上持續施壓盟國增加國防支出，並考慮格陵蘭相關議題。",
-"why": "反映美國對盟友分擔軍費的強硬要求，可能改變北約內部資源分配與地緣政治格局。",
+"summary": "川普在土耳其北約峰會推動盟國增加防務支出，並考慮恢復土耳其取得F-35戰機的權利。",
+"why": "川普對北約防務與軍售政策的主導，將影響美國與盟國安全合作及全球軍事產業格局。",
 "source": "CBS News",
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWEdlTmJ6V1h4Wi1mR19lTk9tTHJRa2t1am4xZDFTdE1tYWhMVnA1dDJfTkhGMUxYYi1uMU5hTVA4YnJmVHNkTXpfWUUxenhnMHVBZHgyLWxxeUp0ZFNCTy1XdzJOV2RxZUhZTDVtLTdoNGwyX1h3elE2bXBUZE5tUHMyWXJPeFpral9NbVJLaHBjNEdZQU14bGRmR3hWRkg2NlE?oc=5",
-"time": "16 分鐘前"
-},
-{
-"who": "微軟CEO",
-"summary": "微軟因AI投資壓力裁員4,800人。",
-"why": "顯示AI投資正重塑大型科技企業的人力與資源配置，對產業結構與就業市場有深遠影響。",
-"source": "조선일보",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd0I2dUNsaWpwYi1uMHVnbXBQQUE2aDNIWkdkZXAxR21UWlZhOWFOaGFlTUlCZTZGVlAyVmZMS3dJY09jcV9Ic2pvbGRRSEptOWRVaVdrdzVIUE90R3JGX3Zra1VDc0ZiVU9URU1IcGYwc25QT3hUV0VKOWY3ZHhtYV9lU0lSdExI?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Xbox CEO Asha Shar",
-"summary": "Xbox CEO Asha Shar針對微軟裁員發表內部備忘錄，強調這是痛苦但必要的決策。",
-"why": "高層公開回應裁員，反映企業在AI與遊戲產業轉型下的管理挑戰與組織調整趨勢。",
-"source": "News18",
-"link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSl9zRjgzc2dpVkVSUmEyX0VtV2U1QThXZEZOc2RTVWx3Tkd6Y2wycHR6blhyZC1HS2NIZXZNNlh4cGVXYkV3YUMtNld2dW91MHVYMk5kVzNTTWdHMUpJVkh2VEt6UlF4RUYtTmNqRjRGdmgwQzdIV1d3TmNEb1p0cnRmNGNkM21KbmZPLUZOS2FHQ0V2RWMya2pKSmx1NVJJbHJKV2lNNWcyREUyUHJELW1ZZFIxWV82OENVOGFqcHVUY0tiVi16TFVwdmp5ZEJN0gHWAUFVX3lxTFA1YXRuWC1jaFVtcmNtUVhrV1VQWTFUckt5bXUzZWlJamNaR0F2WlZ5X3NDT1Y1dUZhdThxWl9ybFJMcU5ZOUR1TkhRSklCUEltZWwzZjU1REVTRUkyT1F1ak5uSFNJM1AtcXplSkthZUFweXMwY2lRdWRHSzd0VFg2M3hwRG5OYnJid3VEUGRqdUpEZXJhM2NzR1RyZlhFV1pvbkZvel90TzNORWZrLWhKWmNHNzhFZ29lcUtuYXdYYWJVT2Fxc0lDMDhjd0hrZ0F4U2R3QUE?oc=5",
+"who": "Xbox CEO Asha Sharma",
+"summary": "Xbox CEO Asha Sharma坦承微軟對Game Pass的重大賭注已經失敗。",
+"why": "這反映遊戲產業訂閱制商業模式面臨挑戰，可能促使大型科技企業調整策略。",
+"source": "IGN",
+"link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPRFRtdW5ZcVBkdktidzJUNUV2UE51T04walQ2SnhSNzlkSVJTdWhscUdLcWxPTl85U211cDNfMU1WbjQybkl4eTR1dmgyc0kwRnZiNXRoTzRwTzVRR3VxekRCTFdxMV9UdmF4OGh3b0h3b09iaVFoYy1JNFdldmo2SmJBc1pFRUtrS3B1NUZWR3pjUFMtaDFRN2c4ckVwRXpJYkhrWUIya3hIdEVUWjdHR0ppMWp2VHVRaFFfMGIyZHZJcmZzT1R1RDN4cVowX3R2R1V3cU9aV1lfdVFhUkx1bXNiVnpMTU1QN1k1NWZRaVJSd3k2ZGRkYVZXcjVnZTBpLU9lZUhOUTh4N1hk?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Xbox CEO Asha Sharma",
+"summary": "Xbox CEO Asha Sharma表示Xbox核心必須健康，才能度過目前困境。",
+"why": "顯示微軟將聚焦核心業務，對遊戲產業未來發展與競爭格局有深遠影響。",
+"source": "GamesRadar+",
+"link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZW4xczgzSGdIUVhlNnc3VnN3UGU3Qnd5bWVsdTlFU016cXpXT2JaOXNuRVZCUVE5OG85UFRWTUJfZmk5WDdpRGtqejNDMFUwcUZvME8zM25LYW13cnpXcEQtdkg1N3YwRUZVTWFEa05rWWpTTEZkNUJTNVI5bUptRVRqTHZiMGJkUjdzWVhxT1FSUDVRd19iQy1qeURVT0xoNjdkU19MWDhIY1lMQXVEWE5TR19KVElMUU1NUjFodFBJSWNWSXJNZzEwRm1tUFF4aVFlTmFackhiY2l5M2pycm5YNk5hME4yVWt0enBLUThVLUxZbTlHN1gtOTI5NUNvVDUyLWt3WFE?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "三星電子副會長李在鎔",
+"summary": "李在鎔於Sun Valley積極與科技巨頭洽談，推動三星AI晶片合作。",
+"why": "三星加速AI晶片布局，將影響全球半導體產業競爭與AI技術發展。",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FeFpXM0Q0VGhMN1lablpieDdvTTVHdDl6dkkwd2FQaWxRTHV3ZGR6T2pxMW5xVGRpOGdXVWJFYmp2SHVEakhxZ0hRUmJreW5zV29RcENiVWpBdDlYcm9US3c2ZDVIU2JFZ1NLUndQcGdiZW82ZlZMdHdR0gGOAUFVX3lxTFBMVWN3VGJqeF9OMkc3MXVzVVZRemZfTFdWNXNib3NaU0ZnQW9MMlpNMDI1MkxMbkhvUm9Dal9CZUxZZFlFdDVzMjg0b0xsaDZnMjNvZ19nRXo1YW5vMkZleFp1VUVwT2tIUnBYc3gySERuT0Y0VjNDRVUzYnhlRWdPVlpKQWpRSDlCSDFwNWc?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Danske Bank CEO",
-"summary": "Danske Bank執行長警告CEO詐騙與AI風險。",
-"why": "金融業高層對AI風險的警示，預示監管與資安需求將成為未來金融科技發展重點。",
-"source": "AML Intelligence",
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1BIQVFFTXRYZC1BT09XQ3BoV1pBRzdKbFpZU3lLRU9ST1FJMTBQVURIX3VTQUgxeHdkYzdBZF9lWWVPekM4NzBIWWFNSjdrdHo3aXptdXlJLTR4MDEtTjVNbndJZUFwdG1aOHhnSzFkSEZmV3lCeVFpRFlXV1VmN3ZCMDFQUmJFc3N0REFqUjhYWUtIOGlBc3B3?oc=5",
-"time": "2 分鐘前"
+"who": "川普",
+"summary": "川普對伊朗的怨恨影響北約峰會氛圍，強調忠誠。",
+"why": "川普對伊朗政策與盟友關係的態度，將牽動美國外交與地緣政治走向。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBORmwxWEVQQUVCcjRXUWRoaWQ1dFVUZ1F0OWVJVjQ1TmY2eXhIaGVfa1JhNTEwNVg5T2pXUXlnU2JVaHlGN0Q1Wi1NZHkybWhBNWJBd3pjS0VzeWtHb2lKczFCSVR6T244Smg0?oc=5",
+"time": "2 小時前"
 }
 ]
 }
