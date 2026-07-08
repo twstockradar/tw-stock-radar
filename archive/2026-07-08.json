@@ -1,7 +1,7 @@
 {
 "date": "2026-07-08",
 "count": 28,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、記憶體等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -150,8 +150,8 @@
 "dist": 0.0,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "被動元件",
-"theme": "溫度感測元件"
+"group": "半導體",
+"theme": "感測元件"
 },
 {
 "code": "3017",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "6182",
@@ -425,47 +425,47 @@
 }
 ],
 "news": {
-"takeaway": "川普宣布伊朗停火協議終止及蘋果大規模投資美國晶片製造，將深刻影響地緣政治與科技產業未來走向。",
+"takeaway": "川普宣布伊朗停火協議終止並下令停止與西班牙貿易，蘋果宣布大規模美國芯片投資，顯示地緣政治與科技產業重大變動。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布與伊朗的臨時協議已經終止。",
-"why": "此舉可能加劇中東緊張局勢，影響全球能源市場與地緣政治格局。",
+"summary": "川普宣布與伊朗的臨時協議終止。",
+"why": "加劇中東緊張局勢，可能影響全球能源市場與地緣政治格局。",
 "source": "The Hill",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXR4LV80eDlEdzJVLXdLV3ZoU0l6Xzh3NGlLZjhMN2NQdVREU1NVMW1JQS1XT2tFRTQ3YzhpcFJRS0V3RjVZYXcwMl9ULUNlM2dtMC05VTBfeDVwUlYycmd3NlVmVDF1RDlPcGg3RWk5cGhCU0liaXBGVTNYUXlfcEVBR2lMcUxxSVkxZTdBTGEtQdIBlwFBVV95cUxOTTBjTGdLaUFMWEpkSmFmOWJFNC1UdGRkbWx3LXRXMkRzNEZYV3RIUTRtczdkNnpqUEFpOEQwdE9GUGUtOGR3aGFsWHdwV3FBNHZUS2FvX20wbjN4cXJaekZscDdkWWNEblh2YUZyMl9laGNzTlIxM1RjYVdxVXBVQmVnX215cDF0Mk5QNnZRenpNdjhZX3c0?oc=5",
-"time": "10 分鐘前"
+"time": "39 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普下令因北約支出及伊朗問題，停止與西班牙的美國貿易。",
-"why": "直接影響美歐經貿關係，可能引發新一輪貿易摩擦與外交緊張。",
-"source": "Al-Monitor",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVQ0ekNJX0JJSUpsYXJ5MFMtbGc3VllUbE9QRm9YeFdNQ1IxOVhpTHJCNlhxbkgtZnpnMTRRSG9hNDBTMlZZNUVuV2pLUlMwcXBkc2Y1ZUFGd2d6VVFET1VqWUM0ZFhlYk5fZ094U3h0QnMwVm1HdHA0cVhLLTRXNlpRTWJlQ0FTMi15c2F4b3RxdmdjSVJybEVpVndWQ2l1cXhN?oc=5",
-"time": "18 分鐘前"
+"summary": "川普下令停止與西班牙的美國貿易，理由為北約支出與伊朗問題。",
+"why": "對美歐貿易關係與北約合作產生重大衝擊，可能引發連鎖反應。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHpycW05eTVleW81UVFsUkdsdzhiaDJuSTl1dDhFNy10bHpyYkVoeWFpWmtvSnFEa2MyRW4wdjExcGpMUVNRNlVveERCZXpPM0lmWkpnNVFBUzhENGdHQmVSRGw3WDN6bXQ4YkdaZGRveWVkWjlkdDFWU0lFSVF3UGFxMzREQkEyYkR0Yy1PbEl2Ul80WGJUMHp6VEE?oc=5",
+"time": "47 分鐘前"
 },
 {
 "who": "蘋果CEO",
-"summary": "蘋果承諾投入300億美元推動美國晶片製造。",
-"why": "強化美國半導體產業鏈，對全球科技供應鏈與產業競爭格局有重大影響。",
+"summary": "蘋果承諾投入300億美元推動美國芯片製造。",
+"why": "強化美國半導體產業，影響全球供應鏈與科技競爭格局。",
 "source": "CNBC",
 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWhWTlRTbkhHM3Y3ck54dVhEYUY2UnZIem5XNlVRZG1mRG8wMXlkRXZmN0NzT1NFbG1MVTJpTDZudVFEZFM4cTV3NG40WHZiU3N6a2pwYkNWTDd3T2JGUEp2Q3YzSmM0T0pCRWxlVWpyNUtPc2pMN0txZXRveHBiaENrYlRiUVdJd0dBNjBvREUyNXNCRm1xOTViNWzSAaIBQVVfeXFMT0RYV0RWVU0tdTgyN21OaDNPelNTS08xZ0tWOWo4a0doSXhDQzBiOF9SU05YR3EyeGk1ODVOQTAycEpQTHR6VEhMb3A4SDNMNmdlTXlqajFlLW9meGpIY0ZwVUF4QnNJSjNzNUpHSl9ydHVBazRGMHVoeU9xZWlxQ204VUI0VW0wd2RYTEx6U3Fsc3B1dDNROFhuM25BX0FnVWJ3?oc=5",
-"time": "52 分鐘前"
+"time": "1 小時前"
 },
 {
-"who": "川普",
-"summary": "川普推動司法部擴大第二修正案權利。",
-"why": "可能改變美國槍支政策，對社會安全與政治環境產生深遠影響。",
-"source": "Fox News",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZlAtbHJVRXM2N1JjQlc1NGRyMXhTQ0J0aEdyYzBmWWoxQ1lxaUlLU285X3NhTnREenRCV1ZsQUl2b2s2RkZGVndDLUdTUWM4dlNmYnU0eEoyb0VKT01XTmZnczlBRXhYbjV2WjVsTmRjTTRXNFhHcFVJQ1VwUVZDYUFYY1JfaFVtNjNmLVhqV0RNekZNOXJFSEcyWnFCX0YwUTAwcF9QYkRiRklBT2VEQTAyUXpJbXI4b0RLb3ptNNIBxAFBVV95cUxPU0FEMnV3WTkzWDBCVXpwQmhnQnNIWGJuWkJQRjBvWjVwaUVITlpJaktDQVRlQWtNVjhBQTlTb01uT1FiXzA5RkhDUnhDSEIxdXdFME9CNkp0RmhFT0Q5NldoZVhnNVdRMVB5aVBpZENXUHoyQjdiSzZWeElNRExBakRQWGpwWlRvSUVRQ0plazQ4VWYwS0JCSGdoX1U4YkZBN2U3UHpEMTBjTmlnR2xXeGV4MGwwVk1mVTN5ZHZWY242Wi1V?oc=5",
-"time": "52 分鐘前"
+"who": "Next Hydrogen CEO",
+"summary": "Next Hydrogen宣布CEO交接。",
+"why": "可能影響公司未來策略與氫能產業發展方向。",
+"source": "The Manila Times",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVUwLWl6a2NaOUNGZ0ZoYW9FR1dmM3AyOUZicm9Vc0QwTGQ0YkQzajZkaUtZNFFlbDNITzJFLWhUeXRGcWRUSnA0MmxBQlJnQnU0aEtkNGo5ZmJLYVh6VnM5dFBlS1h2VEN3a21wanNOMURpUEpkdVh0YVgtRHlWSVMwV3dVOF9rdm53U0d4NG5EUmNjYm9PNjRpSjFFZU9tNllsclNKREprMFpfYUZ4RThR0gG3AUFVX3lxTE9BSVp2T0F4aXR1MHZYSDZpSlpmZWZYMjEyZXd5Y2tlRjdNeHQ0QWZZY1RUdWMtU1dnOWJ0VzFDLU5pNWxESGN0Q1RPWk1EcUF0Q1BlUXRyNXRPcGs2WFFXTWxudjZ6NXhhYU1tN0Q2MThLQ2pGOE5VREpHUlN6OG1Vb0dLbFIzWGpWNlRSMWlfZ3QxeU5OLWRoRFJQSG9aUjVvWkhDRmozUV9GOGQxdmVRVk5JRG9uSQ?oc=5",
+"time": "18 分鐘前"
 },
 {
-"who": "川普",
-"summary": "川普考慮借鑑澳洲模式改革美國社會安全制度。",
-"why": "若推動改革，將影響美國社會福利政策與未來財政結構。",
-"source": "The Hill",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmhjMEV1TFhYQlMwSF8yS1dUN09sdi0yNkRjVTZrMkZqYjdWRkZGRDIxM1E1ZmhrdnRTSzl0Y3F2NGpoLTRfU3JNdktVclJCdHVZQy16cUt1azIzZEp2U3ZQWmw4MkNSZ3p2bkQycmRBY1FJVTFSYmdHLWRETHFxUG8yUmIya21zV3JzQdIBkgFBVV95cUxPcXREUGU5UXR6LWZhbGMyMldGZnBva0luQWlCcWU1ZXJSeUdVRTk1TjVtek5jTDdxeFh6QmZjSnhhOTcyZnlYcko4RmgxOWN6MkMzMTZYTFdsaGExNEQ1cnJ2OTE3MTNsRXdJRFBZeDlsT1hWbmR3dXZ2ZWMzaFl2UEVwN0paSldYZzVEVkJ6Z3QyUQ?oc=5",
-"time": "52 分鐘前"
+"who": "Sam Altman",
+"summary": "Sam Altman提出美國納稅人參與AI產業的方案。",
+"why": "可能改變AI產業資本結構與政策方向，影響產業未來發展。",
+"source": "The Straits Times",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUWM2M1J0NjhTcXg2S2x1eG1RUVNJZGVuenhVQmNIUEVNX2JiWGZPM2I2WGw0VlM0M09wdDViYnFVU1d1RE85c1lDd1lqZHNTWWE2NGdrNzJHM180MGU1NnFscjRObkgyY2xKeURXa1FBaTFtLVp2dGFTTE9pekhjZ0xfcjNJNlJ6S00yMHMzdGNoaGRYOEE?oc=5",
+"time": "41 分鐘前"
 }
 ]
 }
