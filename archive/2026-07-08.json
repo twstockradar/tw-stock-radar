@@ -1,7 +1,7 @@
 {
 "date": "2026-07-08",
 "count": 28,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、被動元件等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "石英元件"
 },
 {
 "code": "3443",
@@ -425,47 +425,31 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗、歐洲及科技政策的強硬表態，以及Meta、Google DeepMind、三星等科技巨頭CEO的最新動向，將深刻影響地緣政治與產業趨勢。",
+"takeaway": "川普宣布終止與伊朗的停火協議及切斷與西班牙的貿易，全球地緣政治與經濟局勢恐將劇烈變動。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布與伊朗的協議已結束，並表示將切斷與西班牙的貿易。",
-"why": "顯示美國外交政策急劇轉向，可能引發全球貿易與地緣政治新一輪動盪。",
-"source": "Al-Monitor",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLXNMZ3NtM3hPTXlsYlV0dDdMSzJnZm1seTk1bFFRMUpvUTJDaTJJZ3o4cGpiNXpMOExvYnRRUE9oQXJ3d0xmN3F0WFlEdFFBNktVdjZkbUFwU1lydG1IcjlQVzJaT3VCSUxaYVA5Z3FIMHB2SWhGeVRKSzV4T2RIYkRUaWdCdEJaUC1mb1RBMA?oc=5",
-"time": "4 分鐘前"
+"summary": "川普宣布美國與伊朗的停火協議已經結束，並在最新空襲後強調不再與伊朗談判。",
+"why": "美伊關係惡化，可能引發中東局勢升溫，影響全球能源與金融市場。",
+"source": "Bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjRXSTJNQ3RYazB5RVBtY2lxRXZ5YjZZeGZyZzAySjI1cG53cktfajRvUXFOVlotTWZSdVd0MHhMWDh5ZWlpY1Nzal9BMWdBdkdMU0lVbDlzV0J0MEdQeTdvQV93cWxfM29pOTNINEpyQ1c2aGw1ODlZMWZVbk1iRHM4aXIzeWxlZ3dWSGI1aldtSVFLVjFtX1Q2WEVsWTduOGpUSzZkVGdXZw?oc=5",
+"time": "54 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普威脅對美國科技公司徵收100%關稅，以回應歐洲對美企課稅。",
-"why": "美歐科技貿易緊張升級，對全球科技產業與跨國企業營運構成重大挑戰。",
-"source": "Mashable",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80X2U3eVphaUpxek4wUVJpcE5tODB4eUE5OFhiX3RKdUMyS0lpT3U1VjhKQ3VXX29Rd05oYkt5Y08wQmJwVTVlVTNzb1I0cTNHVWxCdVNsMFZDczJEYVRIdk5vSE1HYTR6R0Y1R0dmNHI?oc=5",
-"time": "4 小時前"
+"summary": "川普表示已下令切斷美國與西班牙的所有貿易。",
+"why": "美國與歐洲主要國家貿易關係緊張，恐影響全球供應鏈與跨國企業布局。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHpycW05eTVleW81UVFsUkdsdzhiaDJuSTl1dDhFNy10bHpyYkVoeWFpWmtvSnFEa2MyRW4wdjExcGpMUVNRNlVveERCZXpPM0lmWkpnNVFBUzhENGdHQmVSRGw3WDN6bXQ4YkdaZGRveWVkWjlkdDFWU0lFSVF3UGFxMzREQkEyYkR0Yy1PbEl2Ul80WGJUMHp6VEE?oc=5",
+"time": "58 分鐘前"
 },
 {
-"who": "Meta CEO Mark Zuckerberg",
-"summary": "Meta執行長祖克柏向投資人宣布重大利好消息。",
-"why": "Meta最新利好可能推動科技股與AI產業新一波成長。",
-"source": "The Globe and Mail",
-"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeWlhdWt5WHQxOXBxck1mNTJ4M3pWdW5VQ2xjNnFvRUl4RmlMRk1aMDlSdlQ3dUNZSWxYV3puUUFCVUZ5N2piMmtqS2ltWnZfWFFWMDBmdkhqSTBwRi1WbkFhU3RJTVdDQjZla2NNMEM0cGdsTE1Zc19zQmhSM0R0U2xsNXB0OFFsMERRc3RZR1hhQl9BSzJWenBBX05xanR3TVRteWlBNjlnUkZmdUhLSzliYVVTWGMxSHFMN3AyT0IwbDlhSlV6WVZ2SnVYRFJEQzN1eFhlck4wTENKWGVELWJsZ0RkZmwyMUpv?oc=5",
+"who": "李在鎔 (三星電子 CEO)",
+"summary": "李在鎔出席 Sun Valley，啟動半導體銷售推進。",
+"why": "三星積極推動半導體業務，對全球科技產業競爭與供應鏈格局有重大影響。",
+"source": "매일경제",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80VlhmUm5obVB3dDIzSi1jODZiMV92dkVkenJNaXI1V18tejVnX19tc2hMTG94Vzd0NlJwREliLUVTaGdFa0VfUl9LaGJxd1BjT1g0?oc=5",
 "time": "1 小時前"
-},
-{
-"who": "Google DeepMind CEO",
-"summary": "Google DeepMind執行長警告AI輔助研究的潛在危險。",
-"why": "AI安全與倫理議題升溫，將影響全球科技監管與產業發展方向。",
-"source": "Mshale",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKYmMzaUpsbHhmck9tQnhEN1ExX0JiRHlWcHVMcEFXR2NtUTlrZWwwd3hScnFRZWt6Nk1PcGsxclJpaWpBYVlwSVpzemlQam16RDZHZDZNN2VQUG8zeEp6cg?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "三星副會長李在鎔",
-"summary": "李在鎔於Sun Valley積極推動AI晶片合作與Foundry業務。",
-"why": "三星加速AI晶片布局，對全球半導體產業競爭格局產生深遠影響。",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpQUhReTE0OFJ2SkNsdHNvSHlGeURMaGRDLW9vR1dVMjRaSVg1cXVCWTFYaDBiWG96Y0Vua190MWQ2SEF3amdCNE5GamVVaVpWdW9fTnhQVFFJMzhfaV85X3h4bm94d0k4TGhiMUMtMlJoNzNjZHpEMDdR0gGOAUFVX3lxTE5WbzMzdlhFRUNRb1N5SDJnX08xa2hkcXZyVzZuRElRVWNZNTQ3SFFwakhqek9HcUZveFlGMVRFQXdMTDVoU3pJc25yMzg4ZkJDM1hHcWRKV1o1OHprUGdiZnA5aXhSV3lrVUtvN3QyUGgxcEdXdVk0dGpWLWpGYmV1X044N1UzWEZzQ0NtSXc?oc=5",
-"time": "2 小時前"
 }
 ]
 }
