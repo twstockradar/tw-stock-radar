@@ -1,7 +1,7 @@
 {
 "date": "2026-07-08",
 "count": 28,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、光通訊、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -9,7 +9,7 @@
 "market": "TWSE",
 "close": 182.0,
 "change_pct": 0.0,
-"trade_value": 17666435393.0,
+"trade_value": 19407993393.0,
 "market_cap": 1443409529198.0,
 "status": "NEAR_HIGH",
 "dist": -0.015000000000000013,
@@ -24,7 +24,7 @@
 "market": "TWSE",
 "close": 163.0,
 "change_pct": 0.0,
-"trade_value": 13032404490.0,
+"trade_value": 13833230615.0,
 "market_cap": 2050048533810.0,
 "status": "PULLBACK",
 "dist": -0.10781671159029649,
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 891.0,
 "change_pct": -1.5469613259668509,
-"trade_value": 63286813130.0,
+"trade_value": 63494571030.0,
 "market_cap": 1845675746244.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -54,14 +54,14 @@
 "market": "TWSE",
 "close": 2465.0,
 "change_pct": 1.0245901639344261,
-"trade_value": 60988916365.0,
+"trade_value": 62400639776.0,
 "market_cap": 63923292215155.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "晶圓代工"
+"theme": "先進製程晶圓代工"
 },
 {
 "code": "2345",
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2415.0,
 "change_pct": -1.6293279022403258,
-"trade_value": 8821077340.0,
+"trade_value": 8864901406.0,
 "market_cap": 1355099721255.0,
 "status": "NEAR_HIGH",
 "dist": -0.010791366906474864,
@@ -99,14 +99,14 @@
 "market": "TWSE",
 "close": 5315.0,
 "change_pct": 1.8199233716475096,
-"trade_value": 14196236680.0,
+"trade_value": 14217572400.0,
 "market_cap": 1904476720910.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "2449",
@@ -114,14 +114,14 @@
 "market": "TWSE",
 "close": 305.5,
 "change_pct": -3.627760252365931,
-"trade_value": 8112506957.0,
+"trade_value": 8130356457.0,
 "market_cap": 373548617357.5,
 "status": "NEAR_HIGH",
 "dist": -0.04663923182441698,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡測試"
 },
 {
 "code": "2454",
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 3995.0,
 "change_pct": -0.8684863523573202,
-"trade_value": 26526014980.0,
+"trade_value": 26843012272.0,
 "market_cap": 6407562150965.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -189,7 +189,7 @@
 "market": "TWSE",
 "close": 863.0,
 "change_pct": 2.738095238095238,
-"trade_value": 28199345335.0,
+"trade_value": 29049388987.0,
 "market_cap": 1371197361028.0,
 "status": "PULLBACK",
 "dist": -0.13362831858407076,
@@ -234,7 +234,7 @@
 "market": "TWSE",
 "close": 4065.0,
 "change_pct": 0.7434944237918215,
-"trade_value": 6443013470.0,
+"trade_value": 6539739731.0,
 "market_cap": 350422194930.0,
 "status": "PULLBACK",
 "dist": -0.1320921985815603,
@@ -255,8 +255,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "封裝測試",
+"theme": "先進封裝CoWoS"
 },
 {
 "code": "4958",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "PCB製造"
+"theme": "高階PCB製造"
 },
 {
 "code": "6213",
@@ -286,7 +286,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高頻CCL"
 },
 {
 "code": "6239",
@@ -300,8 +300,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測"
+"group": "封裝測試",
+"theme": "記憶體封裝"
 },
 {
 "code": "6446",
@@ -339,7 +339,7 @@
 "market": "TWSE",
 "close": 1105.0,
 "change_pct": 7.281553398058252,
-"trade_value": 21691907260.0,
+"trade_value": 23294157260.0,
 "market_cap": 714012863135.0,
 "status": "PULLBACK",
 "dist": -0.1089494163424124,
@@ -375,8 +375,8 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "探針卡"
+"group": "封裝測試",
+"theme": "探針卡測試"
 },
 {
 "code": "6182",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "6488",
@@ -425,31 +425,31 @@
 }
 ],
 "news": {
-"takeaway": "川普宣布終止與伊朗的停火協議及切斷與西班牙的貿易，全球地緣政治與經濟局勢恐將劇烈變動。",
+"takeaway": "川普宣布伊朗停火結束並下令切斷與西班牙貿易，蘋果大手筆投資美國晶片製造，牽動全球地緣政治與科技產業未來走向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布美國與伊朗的停火協議已經結束，並在最新空襲後強調不再與伊朗談判。",
-"why": "美伊關係惡化，可能引發中東局勢升溫，影響全球能源與金融市場。",
-"source": "Bloomberg.com",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjRXSTJNQ3RYazB5RVBtY2lxRXZ5YjZZeGZyZzAySjI1cG53cktfajRvUXFOVlotTWZSdVd0MHhMWDh5ZWlpY1Nzal9BMWdBdkdMU0lVbDlzV0J0MEdQeTdvQV93cWxfM29pOTNINEpyQ1c2aGw1ODlZMWZVbk1iRHM4aXIzeWxlZ3dWSGI1aldtSVFLVjFtX1Q2WEVsWTduOGpUSzZkVGdXZw?oc=5",
-"time": "54 分鐘前"
+"summary": "川普在北約峰會宣布已下令切斷美國與西班牙的貿易。",
+"why": "此舉可能引發美歐貿易緊張，影響全球供應鏈與跨國企業布局。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHpycW05eTVleW81UVFsUkdsdzhiaDJuSTl1dDhFNy10bHpyYkVoeWFpWmtvSnFEa2MyRW4wdjExcGpMUVNRNlVveERCZXpPM0lmWkpnNVFBUzhENGdHQmVSRGw3WDN6bXQ4YkdaZGRveWVkWjlkdDFWU0lFSVF3UGFxMzREQkEyYkR0Yy1PbEl2Ul80WGJUMHp6VEE?oc=5",
+"time": "47 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普表示已下令切斷美國與西班牙的所有貿易。",
-"why": "美國與歐洲主要國家貿易關係緊張，恐影響全球供應鏈與跨國企業布局。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHpycW05eTVleW81UVFsUkdsdzhiaDJuSTl1dDhFNy10bHpyYkVoeWFpWmtvSnFEa2MyRW4wdjExcGpMUVNRNlVveERCZXpPM0lmWkpnNVFBUzhENGdHQmVSRGw3WDN6bXQ4YkdaZGRveWVkWjlkdDFWU0lFSVF3UGFxMzREQkEyYkR0Yy1PbEl2Ul80WGJUMHp6VEE?oc=5",
-"time": "58 分鐘前"
+"summary": "川普表示美國與伊朗的停火已經結束，雙方互有攻擊。",
+"why": "美伊局勢惡化，可能推升能源價格並加劇地緣政治風險。",
+"source": "Al Jazeera",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWFVjdnhLM1JwSlQtRXRlblRpWlRqaU5Qbk5DenNSOTBabkVfTDFMbE5Hb3NhTnJLT21lTjhSNjF4TXZCYlpHakwxYzZfS3c2UktXclM4RDlHZXdmdXFyd1RkX0R5MW1ZM3pZaTd2WkJ0UGJWUWdJZ0NHck9Hd0ZFWWtBdlBUMFdDeHhfb0s5MXA3MEFDdGJOTtIBngFBVV95cUxNRDBFVnkza3pRTGJiZmdMTjBaU0hWWFQ0T25oc0FhbXhkdW5LZG5icUR6WG1QVEFfaDRLMWFuSUEyU3gyZmdnQV90dEc3TWRPLWhnbjc1SzZqWVltdDRfUzAwVVJBYk9BcXRfN1g1MnZnSXNvNWtqSkt2UXk1N01Kd21IS1RKQXdxZWhFUV9IRTFaUjZOejVCZlo1NlRKZw?oc=5",
+"time": "18 分鐘前"
 },
 {
-"who": "李在鎔 (三星電子 CEO)",
-"summary": "李在鎔出席 Sun Valley，啟動半導體銷售推進。",
-"why": "三星積極推動半導體業務，對全球科技產業競爭與供應鏈格局有重大影響。",
-"source": "매일경제",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80VlhmUm5obVB3dDIzSi1jODZiMV92dkVkenJNaXI1V18tejVnX19tc2hMTG94Vzd0NlJwREliLUVTaGdFa0VfUl9LaGJxd1BjT1g0?oc=5",
-"time": "1 小時前"
+"who": "蘋果CEO",
+"summary": "蘋果承諾投入300億美元推動美國晶片製造，與博通合作。",
+"why": "美國半導體產業獲重大資金支持，強化供應鏈自主與科技競爭力。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWhWTlRTbkhHM3Y3ck54dVhEYUY2UnZIem5XNlVRZG1mRG8wMXlkRXZmN0NzT1NFbG1MVTJpTDZudVFEZFM4cTV3NG40WHZiU3N6a2pwYkNWTDd3T2JGUEp2Q3YzSmM0T0pCRWxlVWpyNUtPc2pMN0txZXRveHBiaENrYlRiUVdJd0dBNjBvREUyNXNCRm1xOTViNWzSAaIBQVVfeXFMT0RYV0RWVU0tdTgyN21OaDNPelNTS08xZ0tWOWo4a0doSXhDQzBiOF9SU05YR3EyeGk1ODVOQTAycEpQTHR6VEhMb3A4SDNMNmdlTXlqajFlLW9meGpIY0ZwVUF4QnNJSjNzNUpHSl9ydHVBazRGMHVoeU9xZWlxQ204VUI0VW0wd2RYTEx6U3Fsc3B1dDNROFhuM25BX0FnVWJ3?oc=5",
+"time": "33 分鐘前"
 }
 ]
 }
