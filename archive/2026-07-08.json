@@ -1,7 +1,7 @@
 {
 "date": "2026-07-08",
 "count": 28,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、光通訊、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組、矽光子、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、記憶體等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進製程晶圓代工"
+"theme": "晶圓代工"
 },
 {
 "code": "2345",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "光通訊CPO"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2449",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡"
 },
 {
 "code": "2454",
@@ -255,8 +255,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
-"theme": "先進封裝CoWoS"
+"group": "半導體",
+"theme": "先進封裝"
 },
 {
 "code": "4958",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階PCB製造"
+"theme": "PCB製造"
 },
 {
 "code": "6213",
@@ -286,7 +286,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "高頻CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -300,8 +300,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
-"theme": "記憶體封裝"
+"group": "半導體",
+"theme": "封測"
 },
 {
 "code": "6446",
@@ -375,8 +375,8 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "封裝測試",
-"theme": "探針卡測試"
+"group": "半導體",
+"theme": "探針卡"
 },
 {
 "code": "6182",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6488",
@@ -425,31 +425,47 @@
 }
 ],
 "news": {
-"takeaway": "川普宣布伊朗停火結束並下令切斷與西班牙貿易，蘋果大手筆投資美國晶片製造，牽動全球地緣政治與科技產業未來走向。",
+"takeaway": "川普宣布伊朗停火協議終止及蘋果大規模投資美國晶片製造，將深刻影響地緣政治與科技產業未來走向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在北約峰會宣布已下令切斷美國與西班牙的貿易。",
-"why": "此舉可能引發美歐貿易緊張，影響全球供應鏈與跨國企業布局。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHpycW05eTVleW81UVFsUkdsdzhiaDJuSTl1dDhFNy10bHpyYkVoeWFpWmtvSnFEa2MyRW4wdjExcGpMUVNRNlVveERCZXpPM0lmWkpnNVFBUzhENGdHQmVSRGw3WDN6bXQ4YkdaZGRveWVkWjlkdDFWU0lFSVF3UGFxMzREQkEyYkR0Yy1PbEl2Ul80WGJUMHp6VEE?oc=5",
-"time": "47 分鐘前"
+"summary": "川普宣布與伊朗的臨時協議已經終止。",
+"why": "此舉可能加劇中東緊張局勢，影響全球能源市場與地緣政治格局。",
+"source": "The Hill",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXR4LV80eDlEdzJVLXdLV3ZoU0l6Xzh3NGlLZjhMN2NQdVREU1NVMW1JQS1XT2tFRTQ3YzhpcFJRS0V3RjVZYXcwMl9ULUNlM2dtMC05VTBfeDVwUlYycmd3NlVmVDF1RDlPcGg3RWk5cGhCU0liaXBGVTNYUXlfcEVBR2lMcUxxSVkxZTdBTGEtQdIBlwFBVV95cUxOTTBjTGdLaUFMWEpkSmFmOWJFNC1UdGRkbWx3LXRXMkRzNEZYV3RIUTRtczdkNnpqUEFpOEQwdE9GUGUtOGR3aGFsWHdwV3FBNHZUS2FvX20wbjN4cXJaekZscDdkWWNEblh2YUZyMl9laGNzTlIxM1RjYVdxVXBVQmVnX215cDF0Mk5QNnZRenpNdjhZX3c0?oc=5",
+"time": "10 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普表示美國與伊朗的停火已經結束，雙方互有攻擊。",
-"why": "美伊局勢惡化，可能推升能源價格並加劇地緣政治風險。",
-"source": "Al Jazeera",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWFVjdnhLM1JwSlQtRXRlblRpWlRqaU5Qbk5DenNSOTBabkVfTDFMbE5Hb3NhTnJLT21lTjhSNjF4TXZCYlpHakwxYzZfS3c2UktXclM4RDlHZXdmdXFyd1RkX0R5MW1ZM3pZaTd2WkJ0UGJWUWdJZ0NHck9Hd0ZFWWtBdlBUMFdDeHhfb0s5MXA3MEFDdGJOTtIBngFBVV95cUxNRDBFVnkza3pRTGJiZmdMTjBaU0hWWFQ0T25oc0FhbXhkdW5LZG5icUR6WG1QVEFfaDRLMWFuSUEyU3gyZmdnQV90dEc3TWRPLWhnbjc1SzZqWVltdDRfUzAwVVJBYk9BcXRfN1g1MnZnSXNvNWtqSkt2UXk1N01Kd21IS1RKQXdxZWhFUV9IRTFaUjZOejVCZlo1NlRKZw?oc=5",
+"summary": "川普下令因北約支出及伊朗問題，停止與西班牙的美國貿易。",
+"why": "直接影響美歐經貿關係，可能引發新一輪貿易摩擦與外交緊張。",
+"source": "Al-Monitor",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVQ0ekNJX0JJSUpsYXJ5MFMtbGc3VllUbE9QRm9YeFdNQ1IxOVhpTHJCNlhxbkgtZnpnMTRRSG9hNDBTMlZZNUVuV2pLUlMwcXBkc2Y1ZUFGd2d6VVFET1VqWUM0ZFhlYk5fZ094U3h0QnMwVm1HdHA0cVhLLTRXNlpRTWJlQ0FTMi15c2F4b3RxdmdjSVJybEVpVndWQ2l1cXhN?oc=5",
 "time": "18 分鐘前"
 },
 {
 "who": "蘋果CEO",
-"summary": "蘋果承諾投入300億美元推動美國晶片製造，與博通合作。",
-"why": "美國半導體產業獲重大資金支持，強化供應鏈自主與科技競爭力。",
+"summary": "蘋果承諾投入300億美元推動美國晶片製造。",
+"why": "強化美國半導體產業鏈，對全球科技供應鏈與產業競爭格局有重大影響。",
 "source": "CNBC",
 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWhWTlRTbkhHM3Y3ck54dVhEYUY2UnZIem5XNlVRZG1mRG8wMXlkRXZmN0NzT1NFbG1MVTJpTDZudVFEZFM4cTV3NG40WHZiU3N6a2pwYkNWTDd3T2JGUEp2Q3YzSmM0T0pCRWxlVWpyNUtPc2pMN0txZXRveHBiaENrYlRiUVdJd0dBNjBvREUyNXNCRm1xOTViNWzSAaIBQVVfeXFMT0RYV0RWVU0tdTgyN21OaDNPelNTS08xZ0tWOWo4a0doSXhDQzBiOF9SU05YR3EyeGk1ODVOQTAycEpQTHR6VEhMb3A4SDNMNmdlTXlqajFlLW9meGpIY0ZwVUF4QnNJSjNzNUpHSl9ydHVBazRGMHVoeU9xZWlxQ204VUI0VW0wd2RYTEx6U3Fsc3B1dDNROFhuM25BX0FnVWJ3?oc=5",
-"time": "33 分鐘前"
+"time": "52 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普推動司法部擴大第二修正案權利。",
+"why": "可能改變美國槍支政策，對社會安全與政治環境產生深遠影響。",
+"source": "Fox News",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZlAtbHJVRXM2N1JjQlc1NGRyMXhTQ0J0aEdyYzBmWWoxQ1lxaUlLU285X3NhTnREenRCV1ZsQUl2b2s2RkZGVndDLUdTUWM4dlNmYnU0eEoyb0VKT01XTmZnczlBRXhYbjV2WjVsTmRjTTRXNFhHcFVJQ1VwUVZDYUFYY1JfaFVtNjNmLVhqV0RNekZNOXJFSEcyWnFCX0YwUTAwcF9QYkRiRklBT2VEQTAyUXpJbXI4b0RLb3ptNNIBxAFBVV95cUxPU0FEMnV3WTkzWDBCVXpwQmhnQnNIWGJuWkJQRjBvWjVwaUVITlpJaktDQVRlQWtNVjhBQTlTb01uT1FiXzA5RkhDUnhDSEIxdXdFME9CNkp0RmhFT0Q5NldoZVhnNVdRMVB5aVBpZENXUHoyQjdiSzZWeElNRExBakRQWGpwWlRvSUVRQ0plazQ4VWYwS0JCSGdoX1U4YkZBN2U3UHpEMTBjTmlnR2xXeGV4MGwwVk1mVTN5ZHZWY242Wi1V?oc=5",
+"time": "52 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普考慮借鑑澳洲模式改革美國社會安全制度。",
+"why": "若推動改革，將影響美國社會福利政策與未來財政結構。",
+"source": "The Hill",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmhjMEV1TFhYQlMwSF8yS1dUN09sdi0yNkRjVTZrMkZqYjdWRkZGRDIxM1E1ZmhrdnRTSzl0Y3F2NGpoLTRfU3JNdktVclJCdHVZQy16cUt1azIzZEp2U3ZQWmw4MkNSZ3p2bkQycmRBY1FJVTFSYmdHLWRETHFxUG8yUmIya21zV3JzQdIBkgFBVV95cUxPcXREUGU5UXR6LWZhbGMyMldGZnBva0luQWlCcWU1ZXJSeUdVRTk1TjVtek5jTDdxeFh6QmZjSnhhOTcyZnlYcko4RmgxOWN6MkMzMTZYTFdsaGExNEQ1cnJ2OTE3MTNsRXdJRFBZeDlsT1hWbmR3dXZ2ZWMzaFl2UEVwN0paSldYZzVEVkJ6Z3QyUQ?oc=5",
+"time": "52 分鐘前"
 }
 ]
 }
