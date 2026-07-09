@@ -1,7 +1,7 @@
 {
 "date": "2026-07-09",
-"count": 24,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、網通、電源/重電等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、光通訊、重電等。",
+"count": 30,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO、重電、網通等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件龍頭"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "AI交換器"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2412",
@@ -135,8 +135,8 @@
 "dist": -0.06315789473684208,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電信",
-"theme": "電信營運商"
+"group": "網通",
+"theme": "電信服務"
 },
 {
 "code": "2449",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電感元件"
+"theme": "被動元件製造"
 },
 {
 "code": "3037",
@@ -225,8 +225,8 @@
 "dist": -0.09583333333333333,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電信",
-"theme": "電信營運商"
+"group": "網通",
+"theme": "電信服務"
 },
 {
 "code": "3443",
@@ -301,7 +301,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6446",
@@ -361,50 +361,132 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測/DRAM測試"
+},
+{
+"code": "3374",
+"name": "精材",
+"market": "TPEX",
+"close": 356.5,
+"change_pct": 9.861325115562405,
+"trade_value": 5032033271.0,
+"market_cap": 96741378654.0,
+"status": "NEAR_HIGH",
+"dist": -0.06395348837209303,
+"limit_up": true,
+"limit_up_count": 2,
+"group": "半導體",
+"theme": "探針卡/測試"
+},
+{
+"code": "4931",
+"name": "新盛力",
+"market": "TPEX",
+"close": 255.0,
+"change_pct": -6.25,
+"trade_value": 5162886345.0,
+"market_cap": 16719269055.0,
+"status": "NEAR_HIGH",
+"dist": -0.027372262773722622,
+"limit_up": true,
+"limit_up_count": 2,
+"group": "電源/重電",
+"theme": "重電設備"
+},
+{
+"code": "6182",
+"name": "合晶",
+"market": "TPEX",
+"close": 172.5,
+"change_pct": 7.8125,
+"trade_value": 30747630350.0,
+"market_cap": 102396226837.5,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "半導體",
+"theme": "矽晶圓"
+},
+{
+"code": "6223",
+"name": "旺矽",
+"market": "TPEX",
+"close": 7080.0,
+"change_pct": null,
+"trade_value": 5013116135.0,
+"market_cap": 693707667720.0,
+"status": "NEAR_HIGH",
+"dist": -0.014266304347826053,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "探針卡/測試"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1570.0,
+"change_pct": -4.5592705167173255,
+"trade_value": 8159959140.0,
+"market_cap": 453376180090.0,
+"status": "PULLBACK",
+"dist": -0.11979166666666663,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "PCB/CCL",
+"theme": "CCL銅箔基板"
+},
+{
+"code": "6488",
+"name": "環球晶",
+"market": "TPEX",
+"close": 1350.0,
+"change_pct": 9.75609756097561,
+"trade_value": 9205962780.0,
+"market_cap": 645453528750.0,
+"status": "NEAR_HIGH",
+"dist": -0.03260869565217395,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "矽晶圓"
 }
 ],
 "news": {
-"takeaway": "川普針對出生公民權與對伊朗的軍事行動，企業則有蘋果與Broadcom簽訂大額半導體協議，顯示政策與產業重大變動。",
+"takeaway": "川普針對出生公民權、伊朗戰事及NATO發表重要言論，微軟CEO對AI政策表達憂慮。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示將要求最高法院重審出生公民權案件。",
-"why": "若政策改變，將影響美國移民政策與社會結構，對全球移民趨勢有深遠影響。",
-"source": "The Straits Times",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWk1xQ1l5UHEtSllRNGlEUlJGNnJRVl9FZEp5a1JqSEEzNklzUmtYZVJCY0piaDZBYjBUTjhQTThiemZMTTV6X2dULU1SQjRWd3E4aVgzb0tDcy1sS3Zja0dxUFF5djJ2aV9FYkNJbnF4QnNSNXYwWW1VMVd1eVAtZzBXdUtaUjNfQy1ER19ud01lRmV3ekpTaHcxSHI0cHMtLV9xT0doMXBJUzlEdU8tUS1US3ZndmZMd3JtY2ZuZVk?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "川普",
-"summary": "川普下令新一輪對伊朗的打擊，並稱伊朗領導人為‘渣滓’。",
-"why": "顯示美國對中東政策強硬，可能加劇地緣政治緊張，影響能源與金融市場。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd2JISkQzUWNER2stdWVCdi1rdEkySEh6OGNPZDU2YUl3bl9ud25YRDQ4T3dSWFNqYklqaFFkZkU0UUxGaS1yNTVxTzdFYXFLVGZfRVpHc1MzbXNtc3JnS0Z6LUZNeVNTVTduLXNTVVpTNGt1T0ZGc2Fockc5cHM5VUtXZ1ZLc0JxQTU5RjEzVEs2UXJiUWxqeg?oc=5",
+"summary": "川普要求最高法院重新審理出生公民權判決。",
+"why": "可能影響美國移民政策與憲法解釋，牽動未來人口結構與社會爭議。",
+"source": "The News International",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMmw0MXhQSjlUOUd4N2tmMGR0WTZVUUlXZTVDUlBpbE5sUXp6X0xkald2dUlGZ0tvdFRPLV9hMWdraG9Hcy1qOHhBTDFuMUdKV3BIX2ZucXItVzNJZTQyRkdvVThNMW5iS2VxaENIZnBKeWFfUERvMEQxSk1iT2tOcmNSYzItMkY5dFFVN3BvVnd1aWFLaGhQaFQ3dUttQnFobFRmR0ZHTF9qLThxeTRv?oc=5",
 "time": "2 小時前"
 },
 {
 "who": "川普",
-"summary": "川普2025年行政命令將撤銷數十年環境正義保護。",
-"why": "政策轉向將影響美國環境法規與全球氣候政策，對產業與投資方向有重大影響。",
-"source": "The Fulcrum",
-"link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNUlJiM2xUcHgzREg3NDZCUGFwczJNWDZhQ3BHbHh0bmFOYkNsVHd2ckNxNTNkT3EwZXh2LXhIaG9FdVFTNUh4R190OGk3YWZLZUk0OVBFemJKSEM1V0xOMlJfM2V2eE1KbVV0d0QxNHlSMmlBQkdXdEE5YzRmNzNZRDRVSU5TVU96MXZkZUZsVHdlRU1scVZXSjNodnFkWmt2alVja25acF9lYXY0VFM2S0tOa25PaVgwdF9IeXA5OGloNllCNkNNTTlPLWlNZkEtRDJ2MkdWYncwbTVZUThoVjdPakg3QjZUNC1ha1dTb1B0M2p5WEROYnZXckNobUpyVVp0ZkpZQzlldDhkQVpRdEJaeERjVlBSSlgydm8zTlVzOGtzaENqSHBjTW1ULXc1SG12Si1FdFRBZw?oc=5",
-"time": "3 小時前"
+"summary": "川普宣布伊朗停火已結束，美伊互相發動新一輪攻擊。",
+"why": "加劇中東局勢緊張，對全球能源與地緣政治有重大影響。",
+"source": "NBC News",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObkE2SE5KRWkwVTMzY0I0YVhYbVJmT1g4LTY2ekNRM0VNWlFQWVBOWHJfMGxhbkpGOURxS0tKUFJZYWlrM3lQZUgtUy02QWZpcDJHanI0YmtIenNjSDVsMndKZGFYbW55MkF5RFVNVXI2bnpkZ0ZaR2cybF9RWS04OTliMGhFM2JzX3YzaUtPS19OTW9meGNvQUV6MDZDMjA?oc=5",
+"time": "19 分鐘前"
 },
 {
-"who": "蘋果CEO",
-"summary": "蘋果與Broadcom簽訂300億美元半導體協議。",
-"why": "顯示美國科技業供應鏈重組，對半導體產業與全球科技競爭格局有關鍵影響。",
-"source": "조선일보",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPejRSai1oNnZ2T0RtUFl6RWw3RDZHaHNyMC1HQ0JLX0V0S0tZcjExRG9pVVhpd0J6Uk05VkNSY0RLMTdHZXNfTS1HTHBQM09sYkxqMkpGbXZ1QU1mTUktMDBvbFQ2SDljbHhsZFphd0tyMV9uWTExWGE2MmJKekZ2YjN5UkpYM0lK?oc=5",
-"time": "3 小時前"
+"who": "川普",
+"summary": "川普讚揚北約團結，先前曾批評盟友。",
+"why": "顯示美國對北約態度變化，影響跨大西洋安全合作與軍事政策。",
+"source": "The New York Times",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2RneFc5dmtvQ3hDSkpLbkFQbFRkTkIwT080MVE0a0tkLWh5cDdjeGdneFRSMUtiRXMyWWFfdG91aHN5UTBwQTRzUjNFSE9FaEo2UmtxMFVpYnBGMW9RUTlNdjFIWDdOY1M1d3c4dEtNTmhCdTNoNDEzWVFMOV9kdGFRbFM?oc=5",
+"time": "4 小時前"
 },
 {
-"who": "Zapper CEO",
-"summary": "Zapper CEO宣布公司有序結束營運。",
-"why": "反映加密產業整合與風險，對相關產業未來發展有警示作用。",
-"source": "BeInCrypto",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNMTZVcTVwcUVTTkI5ZmxjazlndS03eTloSnZNYTkxbUstOWFmQWF4ZzZncllCZ1haQWFuVk1lQTdZQ1VDTnFrSUxPdFI4alY1YzZtT2oyNUZiNDNQVnFyZA?oc=5",
+"who": "微軟總裁 Brad Smith",
+"summary": "Brad Smith批評華盛頓AI政策缺乏透明與完整規則。",
+"why": "反映科技巨頭對AI監管的不滿，可能推動政策調整與產業自律。",
+"source": "Fortune",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN1hXb3BtMll1OTVlMlpCMGhhQi1uQi1VeHRWek9YUU1ZM0gwTE1WQlFyQU4wUTBTNmN4N0FPQ2dJaG5qTWFfUTlOaXR5Z0k4YjBSZ0o5aXFuUWo0cW5POExLdWhxVlN3b0c5OVRDUmNMWXZIaTV1UXBFWXFCYlJzc1p2WkJQcHBQNGRDTy00T1RaNko3Z25xZE1ybVlkUDVEb0lHakFPRFhTRFYwNk1EOQ?oc=5",
 "time": "2 小時前"
 }
 ]
