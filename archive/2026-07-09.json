@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "電阻電容"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "電感"
+"theme": "被動元件製造"
 },
 {
 "code": "3037",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "生技醫療",
-"theme": "新藥"
+"theme": "新藥開發"
 },
 {
 "code": "6669",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封測"
+"theme": "封測/DRAM測試"
 },
 {
 "code": "3374",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "4931",
@@ -390,8 +390,8 @@
 "dist": -0.027372262773722622,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "散熱",
-"theme": "散熱模組"
+"group": "電源/重電",
+"theme": "重電設備"
 },
 {
 "code": "6182",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "6274",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對國際政策與企業重大投資動向釋出新訊號，影響全球經濟與地緣政治。",
+"takeaway": "川普對伊朗政策與貿易威脅、企業CEO對AI與產業合作的最新表態，將牽動地緣政治與科技產業未來走向。",
 "items": [
 {
-"who": "Apple CEO Tim Cook",
-"summary": "Apple承諾投入300億美元於Broadcom，在美國製造超過150億顆晶片，CEO Tim Cook公開致謝。",
-"why": "顯示美國半導體產業回流與供應鏈重組，對科技業與製造業未來布局具指標意義。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNbkp6ZTRpVE9XUUktODF6X2MyNWs0MWc3REUwRDZRZFdkZ0lwS2V6eWRqT1Y3ZmJpQlhFbmY4a2RXRWc1bllJQnlHOV9qUTUySVNtY1ppNmhIWXpNbThjNG5rUC0tNGx0ejk4V2RQUjNhejI3M25fTlRWYmtyaWJveHlXa2p1Z3dnQTZTdTBXc1ljSGVweHdYcDhXSHNPWWJWZVd0ekRkbEZSOTVUQk9kWk5uSUdyRGE3emJFdDFmekM3R3pGWWl4REpzNWozMjcwekM3X2puR09OaE9DQzdiQXBfQjZzWm5zYzMyZUJMcm81ZlBzMktOVGQwTklGR1NDdXF2a0tqWUR3NEphUF9jeDk5NDM3TXhTbVd0RlJhbnFSV2RlcEl3RmFuTU4zd0NyR2ItWXhBQk5VemVnZlFPSnNxT0pmcDFsUTNJSlJ0aU05TkcwaHFPdFM3SW9hWFVGeGJGVVhuUXAwSnlGSFFsRWROdF9DTmQw0gH-AkFVX3lxTE9iSUl3SkdUeUtnVTd1UWNQdVB4MGRENnBVOVVfVmY4d2NtTVgyWXVNUjh1QzFzNnRGQjg3eE1BYzZQUkN1VHZTMnhTMjBHTWk3ZkZ6V29hMjRGTlozN3U4SnpEem9uM24xeGR1NEg2dnNxYjZpWFdmdE9OUmF6eE94T3NFbTQyX0RGQk40Qm9zUkRjSGllTExMYWl3Z3p6c0VTSVRCV0R5bUMxd1VlRnpKWDJUSnBEZHA1czBCZ2VWdFVmbkVFUEdZMHp3V2VkcmtfbUp3WGkzb19sS0F4dUtyVzcyMUZldGhvVS1KSmdfRVJKd2hDUHZCVl85RnEzRUZMOHdLcFh0emZ2NTJLQ2Z3a3JhYWpsa3ZUcFhIRlYtRFJ1TWRKVHJ5ZGtEazFJZ3VMRTZTaldWRldZZkRPMGRXcFdpTHF6dzVMeUM4Z0hMSDlWVGVKeGprbHNoemhlWW1xc0VmeVQyVVlOdS1DaUdFR2M4UDExRGExdDFqcUE?oc=5",
-"time": "37 分鐘前"
+"who": "川普",
+"summary": "川普表示停火已結束，導致美國與伊朗新一輪激烈攻擊。",
+"why": "川普對中東局勢的直接表態與行動，可能加劇地緣政治風險並影響全球能源市場。",
+"source": "NBC News",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObkE2SE5KRWkwVTMzY0I0YVhYbVJmT1g4LTY2ekNRM0VNWlFQWVBOWHJfMGxhbkpGOURxS0tKUFJZYWlrM3lQZUgtUy02QWZpcDJHanI0YmtIenNjSDVsMndKZGFYbW55MkF5RFVNVXI2bnpkZ0ZaR2cybF9RWS04OTliMGhFM2JzX3YzaUtPS19OTW9meGNvQUV6MDZDMjA?oc=5",
+"time": "14 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普表示伊朗在美國空襲後致電欲談判，但戰爭是否重啟尚不明朗。",
-"why": "反映美伊局勢緊張，川普主導外交談判，可能影響全球能源與地緣政治風險。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZkpONGZvV1laQnEtOXM5SG9MNVN5czZEc1Y0eWpYV0NiazltSnhzckN4OUt5akZpaDBfOEw2akp4dWFYTVFvcFVla1BCR3d0c3ppVGdZZ1h5d3l3TkRHbVdnbWxqUFlDMGJRZ1lpa1B6cEN10gF6QVVfeXFMT2ozbENocnhwX1hBejJGa2hQelJac25oWHc2SEs2SnNGUi02cTZ0TVVoN3lsc3gtVmswRDVDcEY2S1FkUE0wQzFSenRUTW4yeEVNLXVqdGV3UG9PTGtoWG9JVEYtUXNmMXltS01JT3hqSkc1eHRCcGlzU1E?oc=5",
+"summary": "川普威脅對西班牙進行貿易制裁。",
+"why": "貿易政策變動將影響美歐經貿關係，牽動全球供應鏈與市場情緒。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mdXEwaU1jVXlhYXJZQ0wzbFdGT0pmdDJOOVVBU1p4U1ZGTlVxVXZBR1B0elo5anNJSTVtbHRjZHN6dWtJOVg0OGtfdnlDM3hUdVJoakgtUHRHMG1HZU9RN1FYYw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "川普",
-"summary": "川普威脅對西班牙採取貿易行動。",
-"why": "美國貿易政策可能擴大至歐洲，對全球貿易格局與跨國企業產生新變數。",
-"source": "Axios",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mdXEwaU1jVXlhYXJZQ0wzbFdGT0pmdDJOOVVBU1p4U1ZGTlVxVXZBR1B0elo5anNJSTVtbHRjZHN6dWtJOVg0OGtfdnlDM3hUdVJoakgtUHRHMG1HZU9RN1FYYw?oc=5",
-"time": "37 分鐘前"
+"who": "XTEND CEO",
+"summary": "XTEND CEO公開選擇Palantir作為夢想AI合作夥伴，優先於Nvidia、OpenAI與SpaceX。",
+"why": "企業對AI合作夥伴的選擇反映產業趨勢，Palantir在AI領域的重要性提升。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcmZ5aGplUENhekdTWV9YcV9BZGFOX0RIYW9zNEdIN1NwZlJIdkpxOFpXUFlMSTdSaU5ZNkszQmZiSW9SaVczbzhTWWtWRUJDNzFsMWRqQ0hoYUJOS1BLZ3V6RkVMQmV3SEhueENCNGk2aDRPX0Y3cUQ2Y0w3c0Q4aXJia1BZa3lFUzllLTk5WlVBUW1VV1ZvQzJuNUJaLXJ5cS1LeGNwbnA4VGFGcW1WOWo3ajNGekhEdWdPeFk2RWhlamdJU2pISHlZTQ?oc=5",
+"time": "9 分鐘前"
 },
 {
-"who": "Nvidia CEO Jensen Huang",
-"summary": "Nvidia執行長黃仁勳表示軟體工程師更願意打造AI代理人而非撰寫Python程式碼。",
-"why": "AI產業發展方向轉變，將加速自動化與智能代理人普及，影響科技人才與產業結構。",
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳表示軟體工程師更願意打造AI代理人，而非單純寫Python程式碼。",
+"why": "AI開發模式轉變，將推動自動化與智能代理人產業發展。",
 "source": "Benzinga",
 "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbi0xRWNIMTczRWFXeDNiakhEQ2d2YTFOVkV6VzlDVkd3WklIRUg1aG94OVNlY0VBNUhsRzhWVktzYUpzdWxyZ1hJRm9QY2UyeDlJanEyVFE2dVZQX2p2RWo4TzhuRHg1TnBnZUpLcjlRXzRqUXV6Q05nZW9DcVE1SmhQX2I1ZTliQzU2Yzd1QmV5WE5qSzdzM3VIVDBmeC02d3YtTEJ2RTBQMGpnanJGZ1JTeXBWM2VuNU9TNUgzcHVyblZidmhBOGsyQllHdi1laUpRellKcU5yR2R5S1o1M1BIMDcwS00?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Tesla CEO Elon Musk",
-"summary": "特斯拉執行長馬斯克與SEC的和解協議獲法官批准。",
-"why": "馬斯克與監管機構達成和解，對特斯拉治理與未來企業合規策略具示範作用。",
-"source": "GuruFocus",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3hXd1NWbzVaOWFDbTFmRk1RWUV3MXlrRDVZREVFN1hPYUVOSTAwZml6TktTM2tsR0FUakE5a3FSTXkyTlBwU21xU3BDZ1JpNERRS25MN01HNXJJYnJzLWRBUTlZT1FtUXE4NmlqRjNraHFiNVg4UFRINGw2dndxeWpLZ2tMOXVJVkRwYnBWbndxNG4yZ0Fjb0ppa05EYVVqOEZWaVFmRUpja2Vr?oc=5",
-"time": "46 分鐘前"
+"who": "Apple CEO Tim Cook",
+"summary": "蘋果承諾投入300億美元與Broadcom合作，在美國生產超過150億顆晶片。",
+"why": "美國半導體產業本地化加速，對全球科技供應鏈與產業競爭格局產生深遠影響。",
+"source": "The Times of India",
+"link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNbkp6ZTRpVE9XUUktODF6X2MyNWs0MWc3REUwRDZRZFdkZ0lwS2V6eWRqT1Y3ZmJpQlhFbmY4a2RXRWc1bllJQnlHOV9qUTUySVNtY1ppNmhIWXpNbThjNG5rUC0tNGx0ejk4V2RQUjNhejI3M25fTlRWYmtyaWJveHlXa2p1Z3dnQTZTdTBXc1ljSGVweHdYcDhXSHNPWWJWZVd0ekRkbEZSOTVUQk9kWk5uSUdyRGE3emJFdDFmekM3R3pGWWl4REpzNWozMjcwekM3X2puR09OaE9DQzdiQXBfQjZzWm5zYzMyZUJMcm81ZlBzMktOVGQwTklGR1NDdXF2a0tqWUR3NEphUF9jeDk5NDM3TXhTbVd0RlJhbnFSV2RlcEl3RmFuTU4zd0NyR2ItWXhBQk5VemVnZlFPSnNxT0pmcDFsUTNJSlJ0aU05TkcwaHFPdFM3SW9hWFVGeGJGVVhuUXAwSnlGSFFsRWROdF9DTmQw0gH-AkFVX3lxTE9iSUl3SkdUeUtnVTd1UWNQdVB4MGRENnBVOVVfVmY4d2NtTVgyWXVNUjh1QzFzNnRGQjg3eE1BYzZQUkN1VHZTMnhTMjBHTWk3ZkZ6V29hMjRGTlozN3U4SnpEem9uM24xeGR1NEg2dnNxYjZpWFdmdE9OUmF6eE94T3NFbTQyX0RGQk40Qm9zUkRjSGllTExMYWl3Z3p6c0VTSVRCV0R5bUMxd1VlRnpKWDJUSnBEZHA1czBCZ2VWdFVmbkVFUEdZMHp3V2VkcmtfbUp3WGkzb19sS0F4dUtyVzcyMUZldGhvVS1KSmdfRVJKd2hDUHZCVl85RnEzRUZMOHdLcFh0emZ2NTJLQ2Z3a3JhYWpsa3ZUcFhIRlYtRFJ1TWRKVHJ5ZGtEazFJZ3VMRTZTaldWRldZZkRPMGRXcFdpTHF6dzVMeUM4Z0hMSDlWVGVKeGprbHNoemhlWW1xc0VmeVQyVVlOdS1DaUdFR2M4UDExRGExdDFqcUE?oc=5",
+"time": "1 小時前"
 }
 ]
 }
