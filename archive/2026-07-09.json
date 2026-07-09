@@ -9,7 +9,7 @@
 "market": "TWSE",
 "close": 181.5,
 "change_pct": -0.27472527472527475,
-"trade_value": 22354618626.0,
+"trade_value": 22371018626.0,
 "market_cap": 1439444118403.5,
 "status": "NEAR_HIGH",
 "dist": -0.015000000000000013,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 900.0,
 "change_pct": 1.0101010101010102,
-"trade_value": 47381176702.0,
+"trade_value": 47397770182.0,
 "market_cap": 1864318935600.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2415.0,
 "change_pct": -2.028397565922921,
-"trade_value": 74363096890.0,
+"trade_value": 84397735035.0,
 "market_cap": 62626673711805.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -159,7 +159,7 @@
 "market": "TWSE",
 "close": 3925.0,
 "change_pct": -1.7521902377972465,
-"trade_value": 25223338235.0,
+"trade_value": 29278102309.0,
 "market_cap": 6295289472475.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -174,7 +174,7 @@
 "market": "TWSE",
 "close": 2350.0,
 "change_pct": 1.0752688172043012,
-"trade_value": 6523109370.0,
+"trade_value": 6872747488.0,
 "market_cap": 922476066450.0,
 "status": "NEAR_HIGH",
 "dist": -0.0897009966777409,
@@ -264,14 +264,14 @@
 "market": "TWSE",
 "close": 677.0,
 "change_pct": 8.32,
-"trade_value": 21361119232.0,
+"trade_value": 21498981732.0,
 "market_cap": 3019983996514.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝"
+"theme": "封裝測試/CoWoS"
 },
 {
 "code": "4958",
@@ -324,7 +324,7 @@
 "market": "TWSE",
 "close": 5040.0,
 "change_pct": -0.19801980198019803,
-"trade_value": 11457135075.0,
+"trade_value": 11721150435.0,
 "market_cap": 936637586640.0,
 "status": "PULLBACK",
 "dist": -0.10267471958584984,
@@ -339,7 +339,7 @@
 "market": "TWSE",
 "close": 1215.0,
 "change_pct": 9.95475113122172,
-"trade_value": 27508908415.0,
+"trade_value": 29270658415.0,
 "market_cap": 785091066705.0,
 "status": "PULLBACK",
 "dist": -0.1089494163424124,
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封測/DRAM測試"
+"theme": "封裝測試"
 },
 {
 "code": "3374",
@@ -390,8 +390,8 @@
 "dist": -0.027372262773722622,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "電源/重電",
-"theme": "重電設備"
+"group": "散熱",
+"theme": "散熱模組"
 },
 {
 "code": "6182",
@@ -455,39 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對出生公民權、伊朗戰事及NATO發表重要言論，微軟CEO對AI政策表達憂慮。",
+"takeaway": "川普針對伊朗、貿易、移民政策及大型企業CEO對AI發展的看法，將深刻影響全球政治經濟走向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普要求最高法院重新審理出生公民權判決。",
-"why": "可能影響美國移民政策與憲法解釋，牽動未來人口結構與社會爭議。",
-"source": "The News International",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMmw0MXhQSjlUOUd4N2tmMGR0WTZVUUlXZTVDUlBpbE5sUXp6X0xkald2dUlGZ0tvdFRPLV9hMWdraG9Hcy1qOHhBTDFuMUdKV3BIX2ZucXItVzNJZTQyRkdvVThNMW5iS2VxaENIZnBKeWFfUERvMEQxSk1iT2tOcmNSYzItMkY5dFFVN3BvVnd1aWFLaGhQaFQ3dUttQnFobFRmR0ZHTF9qLThxeTRv?oc=5",
-"time": "2 小時前"
+"summary": "川普表示伊朗在美國空襲後致電欲達成協議，並稱戰爭是否重啟尚不明朗。",
+"why": "美伊局勢牽動全球能源與地緣政治，川普的發言可能影響未來外交與軍事行動。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZkpONGZvV1laQnEtOXM5SG9MNVN5czZEc1Y0eWpYV0NiazltSnhzckN4OUt5akZpaDBfOEw2akp4dWFYTVFvcFVla1BCR3d0c3ppVGdZZ1h5d3l3TkRHbVdnbWxqUFlDMGJRZ1lpa1B6cEN10gF6QVVfeXFMT2ozbENocnhwX1hBejJGa2hQelJac25oWHc2SEs2SnNGUi02cTZ0TVVoN3lsc3gtVmswRDVDcEY2S1FkUE0wQzFSenRUTW4yeEVNLXVqdGV3UG9PTGtoWG9JVEYtUXNmMXltS01JT3hqSkc1eHRCcGlzU1E?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普宣布伊朗停火已結束，美伊互相發動新一輪攻擊。",
-"why": "加劇中東局勢緊張，對全球能源與地緣政治有重大影響。",
-"source": "NBC News",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObkE2SE5KRWkwVTMzY0I0YVhYbVJmT1g4LTY2ekNRM0VNWlFQWVBOWHJfMGxhbkpGOURxS0tKUFJZYWlrM3lQZUgtUy02QWZpcDJHanI0YmtIenNjSDVsMndKZGFYbW55MkF5RFVNVXI2bnpkZ0ZaR2cybF9RWS04OTliMGhFM2JzX3YzaUtPS19OTW9meGNvQUV6MDZDMjA?oc=5",
-"time": "19 分鐘前"
+"summary": "川普威脅對西班牙採取貿易行動。",
+"why": "美國貿易政策變動將影響全球市場與國際關係，尤其是歐洲。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mdXEwaU1jVXlhYXJZQ0wzbFdGT0pmdDJOOVVBU1p4U1ZGTlVxVXZBR1B0elo5anNJSTVtbHRjZHN6dWtJOVg0OGtfdnlDM3hUdVJoakgtUHRHMG1HZU9RN1FYYw?oc=5",
+"time": "15 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普讚揚北約團結，先前曾批評盟友。",
-"why": "顯示美國對北約態度變化，影響跨大西洋安全合作與軍事政策。",
-"source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2RneFc5dmtvQ3hDSkpLbkFQbFRkTkIwT080MVE0a0tkLWh5cDdjeGdneFRSMUtiRXMyWWFfdG91aHN5UTBwQTRzUjNFSE9FaEo2UmtxMFVpYnBGMW9RUTlNdjFIWDdOY1M1d3c4dEtNTmhCdTNoNDEzWVFMOV9kdGFRbFM?oc=5",
-"time": "4 小時前"
+"summary": "川普移民政策削減，可能加劇美國照護人力短缺。",
+"why": "移民政策直接影響美國勞動市場與社會結構，對經濟與產業有長遠影響。",
+"source": "The Guardian",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMk5VV0tROFpUZ1E1d3Z1aWZWZHZDSW1CZUN1TW16Z3VDWm5NODFfSjRkSzVLU08zUnkyS1FodGxIa0YySzF4eGlzazZFUWY5aVNZSGg2N3BsemtPa3hhYWNZQ2xWVlRsRnp0dWpDOUtxcE83ZXdlSHduLUtfdWVGT0FyOVJRcDkt?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "微軟總裁 Brad Smith",
-"summary": "Brad Smith批評華盛頓AI政策缺乏透明與完整規則。",
-"why": "反映科技巨頭對AI監管的不滿，可能推動政策調整與產業自律。",
-"source": "Fortune",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN1hXb3BtMll1OTVlMlpCMGhhQi1uQi1VeHRWek9YUU1ZM0gwTE1WQlFyQU4wUTBTNmN4N0FPQ2dJaG5qTWFfUTlOaXR5Z0k4YjBSZ0o5aXFuUWo0cW5POExLdWhxVlN3b0c5OVRDUmNMWXZIaTV1UXBFWXFCYlJzc1p2WkJQcHBQNGRDTy00T1RaNko3Z25xZE1ybVlkUDVEb0lHakFPRFhTRFYwNk1EOQ?oc=5",
-"time": "2 小時前"
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳表示軟體工程師更願意打造AI代理人，而非單純撰寫Python程式碼。",
+"why": "AI技術發展方向將影響全球科技產業與人才需求，Nvidia為產業領頭羊。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbi0xRWNIMTczRWFXeDNiakhEQ2d2YTFOVkV6VzlDVkd3WklIRUg1aG94OVNlY0VBNUhsRzhWVktzYUpzdWxyZ1hJRm9QY2UyeDlJanEyVFE2dVZQX2p2RWo4TzhuRHg1TnBnZUpLcjlRXzRqUXV6Q05nZW9DcVE1SmhQX2I1ZTliQzU2Yzd1QmV5WE5qSzdzM3VIVDBmeC02d3YtTEJ2RTBQMGpnanJGZ1JTeXBWM2VuNU9TNUgzcHVyblZidmhBOGsyQllHdi1laUpRellKcU5yR2R5S1o1M1BIMDcwS00?oc=5",
+"time": "47 分鐘前"
+},
+{
+"who": "Tesla CEO 馬斯克",
+"summary": "馬斯克與SEC的和解協議獲法官批准。",
+"why": "此舉有助於穩定Tesla管理層，並影響美國科技股與監管趨勢。",
+"source": "GuruFocus",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3hXd1NWbzVaOWFDbTFmRk1RWUV3MXlrRDVZREVFN1hPYUVOSTAwZml6TktTM2tsR0FUakE5a3FSTXkyTlBwU21xU3BDZ1JpNERRS25MN01HNXJJYnJzLWRBUTlZT1FtUXE4NmlqRjNraHFiNVg4UFRINGw2dndxeWpLZ2tMOXVJVkRwYnBWbndxNG4yZ0Fjb0ppa05EYVVqOEZWaVFmRUpja2Vr?oc=5",
+"time": "23 分鐘前"
 }
 ]
 }
