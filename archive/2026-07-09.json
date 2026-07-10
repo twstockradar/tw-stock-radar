@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "2330",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡/測試"
+"theme": "探針卡"
 },
 {
 "code": "2454",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "3037",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封裝測試/CoWoS"
+"theme": "先進封裝"
 },
 {
 "code": "4958",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "生技醫療",
-"theme": "新藥開發"
+"theme": "新藥"
 },
 {
 "code": "6669",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "3374",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡/測試"
+"theme": "探針卡"
 },
 {
 "code": "4931",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡/測試"
+"theme": "探針卡"
 },
 {
 "code": "6274",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普的政策動向與OpenAI高層異動，將深刻影響美國政經局勢與AI產業未來。",
+"takeaway": "川普政策與大型企業CEO決策正釋出未來趨勢關鍵訊號。",
 "items": [
 {
-"who": "川普",
-"summary": "川普 reportedly removes remaining members of election commission。",
-"why": "顯示川普對選舉監督機構的直接干預，可能影響美國選舉公信力與未來選舉政策。",
-"source": "upi.com",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMG1sRGxGcTJMRGtiRGRVOG9uNjh5aTdnNW5iZ0dieExLU0s4RC1PRGp2SU9rZVg4WUlsUXZtejd3cUdYMFA5SDh6cXhFWUZkQjdJRW9DR251RFBlQ0o5UGh0Z2tva0xJQ1hfa3JiSVpQNG9McGIwLUtMLWFqZ1l4VFJzcUZTeG9haEFoRXRCSUxsdi1mV0ludmE0ZWhPTmZGeTdFd3BB0gGrAUFVX3lxTE5qbXNuRklCUkNxM3gtaW56NVVGV2dtTFQ4ODhwbWZmRlp1OEk5eDBuZFBSbGdfakRDbWx3WGV2WGlhRWFyWFRKcTNLcFBGWnNWN1ZnNG5maUxBSXdiWDhPWnlEQk5KX1RDcGw0R25sU1U5dGV1am1yMGp4YkRuWktBcVpRWEVvdVNYN2dSa1puZnZWMTlucWhpYmM1V09YanJtNzV4X2t4TjZETQ?oc=5",
+"who": "VW CEO Blume",
+"summary": "宣布公司史上最大規模重組。",
+"why": "代表汽車產業正面臨重大轉型，可能影響全球汽車供應鏈與電動車發展。",
+"source": "bluewin.ch",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS0N5S1c1V2lVOGd1c3RDQ19fbU8tQ3B3VWt3dnZ5V0VHUENJWi1lam9uSTkxdzdLdEYyb0hTbDNBb0RSem5mUDlwczJoaGFINEZES3Vvd1VtSGZNMXZOVGxoWXZNdW1Gcm5tS3RXd0tLZmRlaHRyV2xqSVZxd25RNGh1MWtOYnN4T1NJSWM2ZkNaVUJ2d3JSTG5IR0RUY18wNnhrTzMyOFhqV1FXRHpVZUdWd0FCdw?oc=5",
+"time": "57 分鐘前"
+},
+{
+"who": "Microsoft CEO Satya Nadella",
+"summary": "強調領導者在AI轉型時必須建立信任，並提出五字訣。",
+"why": "AI變革下企業文化與管理方式將深刻改變，信任成為未來競爭關鍵。",
+"source": "inc.com",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ0RqQVVDQ1RZOVJTY2ZlZmQ2aG55bktQc1EzRWxuSURfVzBnYk1UaVFael8tUVF4Z0dlaWRJSkxkblhYSVIxNWNhWXZnMlg3UTRQbm9QRnZsUFdDYXEwcVZBRzI1b294ME9YcENMbHdpc1BhVHdOVVVKQnN3QUc5QWRPSnhtQjBmQk1qZHVIcjlOZjVpb09rQjZpeXRVdw?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "MiniMax CEO",
+"summary": "宣布放棄薪資直到公司達到AGI，並公布20億美元融資。",
+"why": "AI領域資金與人才競爭加劇，AGI目標推動產業快速發展。",
+"source": "Analytics India Magazine",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVlhaZ0Q3c3ZyZmJsSWtIQVMyNDRCc3RFRzlRZUJqNDdnNmQxMGpIc2g5QUZtVGtUZjJxUGdKT1RtR05wQUFQU0RWbEtxQUsxV2s4S1FaT0p2RXpwMUR0SEQ4RnZ6U2ItdHY4LXl1WEllX0h6bU9BU25XaV9tSGJrbFhWb2M3Y3JGbjA3bkdQR25ZczJDS1A1THdqdld2U3g5dE9BWXNPVFBwUkJEMWc?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普政府解雇獨立選舉小組成員。",
-"why": "進一步反映川普對選舉機構的整頓，對美國民主制度與選舉監督產生長遠影響。",
-"source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3JHNHhMbW9uS0JHQ0t3aWNuWFZiUHFiRVVkSC1tTmpJbFlpZnNYVUE3NmFjRHM1Sm00ODhlLVhRTEdaMzZYbjZ5THRnU0lRbFR3MmVyWVNhTFByMW9rQ1hFNW9EaThFcW8zNlB2MXFWeVZEcGszYjV4TW9wNnlDanJCNEdleUdHMlRWOXpDY3hka1lNNHJYM2FzRHhkX0NGTnlDdg?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "Fidji Simo (OpenAI)",
-"summary": "OpenAI應用部門CEO Fidji Simo因健康因素請辭。",
-"why": "OpenAI高層異動，可能影響公司AI產品部署與產業競爭格局。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOaXdWZTZBWHpLLV9kZkNYbWNfV3A2RFJUNEJqVkw0VWRkMXlOdWpvQWduNWxlNFhoZllBcUVBME1xeGdUX3NidHFYSEhOdVNvREZmNkp4ZXMwOFU5SWZSY2tmLWlqQXBmNF9ScDNlN0dWeE8zR1RCTlJHV09GUlZ5NlR4cjJtUVotZUZDc09fRDVoSlk0Q21Rc3l5MzFiZWhON09WZGlIQ2wtaDVYZnkydGVXUnFSWVcySk1QNjlEbG4wQWZyUTMwTWdINExXeFFvTzlkWFZzWTFOemtKSkNJZWZQcm1TUElyWkVncnZzZC1EemNfS19EVG9CeHRVckpJMUktc2YyVGNabi1UcFhZbGl0R1c5aWJ2UExWYUJCNklqc1hrY25QamhDUDlNSlpGUE16eUxIZ282VVFfYUxHT29JMmJyZlpsWEk3SVFSZXlYamoyaWxhTDRIaTnSAeICQVVfeXFMTUdQblF4aTBkeGczb0Zub28yWnhwMHZ2SGJ4VnBoT1dvRlBZV3l4UXA0Z2haQVNTOHNhZDktNlZDWmtqRDd6UXozejFMODkxRC1JcElkdkl1RFhJRV9lNE12dUp1M2dCVGVOUFh1SmdLOEduYzNsN0t5TXI3MEplc05BT1lmZDR6bXl6MkdlU1d2Z1JMUTRoSkQ3YXo4Y0N2MExsWTJCa0hMRHNzSEszRWlIc1FMLTIwdTB0dmxpWXJsSVBCTDcxaGdrZi04eUJPd1RTczgyMFdNejE3SjhRUGtYNGkxa1BNcGFPem9KN09pZDVMc3pxSlhLVjdJOVpHYXZRN181VEdKekFqemVvZDFJdjRvUFU4RXpiOU1TSlplU3NkbjBNZ2xzb05vYXVPaVdEakJhSVBZdDFVOHpNcDdramprVEhCQ2VsdG96Wks1NlhSam5VNUNYS0hrakNYRmNn?oc=5",
+"summary": "川普政府尋求限制不符合總統政策的聯邦資金。",
+"why": "顯示行政資源將更集中於特定政策，可能影響未來政府資金分配與政策推動。",
+"source": "Los Angeles Times",
+"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUzhFb0dzZ05NU2hBOWZUYnpldnU0OXhtREkzNU9KVFJxT2JVOWpxSHAycnpLS1FIM0pNWHU1SDcxQXhEVC1vaXJ2c1VMZ0dXVmNTMVA2OFpMcU5kbkNPQzFyQkNreUhnZ1MzNm51TTVCMDdZOGlhWWhxSVVESTZRM0E1M2ZqZ3VFaUVUTzkwc19lRXdrZUJTVWdJY09vZlpkWUxjMm9BS1lxSDdtQUpMcnlGdXA5RUNDMk1EY3F1R2JWbHVYUG9HN1l0TEczczNXRzRiZm9nVU1yQQ?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Sam Altman (OpenAI)",
-"summary": "Sam Altman表示Sun Valley峰會上所有人都關心如何讓AI更便宜。",
-"why": "反映AI產業降本增效成為主流趨勢，將影響未來AI技術普及與商業模式。",
-"source": "Business Insider",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSXZoZzVZU3lQM0JUU3RBWDVOVjhLbEduazBvWlZoM2t4cXRGQUFqQi1EWkphRmZxaEVjdl9CbHNrNVQzdURhSUN2d2FPMEQtMndnRThocFdoMGhNU1I3Q2VzcnE4blNpSVFHM0NvNXpPeEFLcjVZUWJIcVFLMllrcVZza09ubF8zRVF3Ug?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "Mark Zuckerberg (Meta)",
-"summary": "Zuckerberg宣布Muse Spark 1.1，並發起AI價格戰對抗OpenAI與Anthropic。",
-"why": "大型科技公司AI價格戰開打，將加速AI應用普及並重塑產業競爭格局。",
-"source": "India Today",
-"link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNUTIwcURSMUtYRmRwYW9QZlBtaHdWRXc4ZXczWndmam9HRXhMQkJVTGFBYlM3bm5ad3ljVl9wLVEwWEd4alZMWHp4bjJDamtrTGlMaUFlOWVmYUVvV2FaYVpxQ1VmX29vS1V6Vk42aGEzQ29xQkk1V2RfTkhvSUlxXzJRY2xGYWQ5WnNfZ2ExeUlqTHNQODNsZVBVdk1SdmxZT0xCSTlQbDJtOWoxUlhadnU2UmxkcktIeWktVHNPT2Yxc3pZYVJqTWE2M2thUGxldldKd0E5UlNCdkVxODd5TURiWjNUU3p2R2JxOHFyVDFwODRmM0lYdTU0bWpBM2tRbDFYRtIBigJBVV95cUxNeW5yRk9WcFNWV1lZRFNUdk1oQTJId3VnbFI2OVJkdVcxLVZ5dFVqWHpGdXBxeUxBcVh6R25fUWhISEpfZlZVaWVFcmdrdFF1dnZIWDMzX1ZGdUFCaXREMWNyRVRzTEVpLW96S0VmRmJBc3RkSkl3MjEtUXFjb1BGcDVPYUdZak0ycXgybFY4c3B5YzNzcms5X3ctSVdoVGEzXzlkZEpWWUFUeW0yQ3cyN2dYTUViOTFWQTNhVk9RcFRTOWcxdTNUbXkzTEhJNlM3LVdvbmpDYUh2cDdUeDhzZjEwRzBwYVZlSUg5TXo4VWlXUEJHTlRyaXItNTRUbmJXQXR2OTlDX0xidw?oc=5",
-"time": "5 小時前"
+"who": "川普",
+"summary": "提出在白宮外圍設置圍欄的計畫。",
+"why": "反映安全與政治氛圍變化，可能影響美國首都公共空間與象徵意義。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVk2Q3F5SjF2cXNkUDhHMnE2NWQxNXlENWttMFljM3IwY01Nd0Zwd2JBaUpLcFpqTEM0LU43QUd4UkpDLWd3Y1lxNzhxdUxRcXlpZGp2UGo3NXQzVEVTak5iX2RmMGV1dkdzN2hGVzg5UGpuRG5OYlV6QTRiYjB5OVBhcEx5WTVGcDFxaVpxTUZFNlZ6cURva3NQbTBhUG9aam9jMFM1RmstbGNaWGJQTG01aTk?oc=5",
+"time": "50 分鐘前"
 }
 ]
 }
