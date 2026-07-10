@@ -1,7 +1,7 @@
 {
 "date": "2026-07-09",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、CCL、CoWoS、探針卡、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO、重電、網通等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝"
+"theme": "封裝測試/CoWoS"
 },
 {
 "code": "4958",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封測/DRAM"
+"theme": "封裝測試"
 },
 {
 "code": "3374",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "4931",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "6274",
@@ -455,39 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗停火終止及選舉相關決策、VW與Palo Alto Networks CEO重大宣布，將影響地緣政治與產業趨勢。",
+"takeaway": "川普針對能源、選舉及外交政策的決策，與大型企業CEO的重大重組，將深刻影響未來政治與產業趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布與伊朗的停火已結束。",
-"why": "此舉可能加劇中東緊張局勢，影響全球能源與安全格局。",
-"source": "WPBF",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS0x6eEZ6bnhvd3NpbG9HdmV1MVdBU08zM1JVUUlzRExZNVVBcVRGa1BuTldfa2V1NUFKTlZLNVFweUxMbmFvekgtcFRKVExWT1pGUE5qdnlsSk9NYjJWRnNzTWZOQjVIUkxGNXl1Y0gyZTJJcHZHb1lJV1FYTlhEQ1NXcHZQU0V3WDZ1QVZKVVNiVi1YWmh6a09RaFA2WU9rcmxN?oc=5",
-"time": "15 分鐘前"
+"summary": "川普投入數十億美元阻止清潔能源發展並維持煤炭產業。",
+"why": "此舉將影響美國能源政策走向，對全球氣候變遷及能源產業帶來長遠衝擊。",
+"source": "The Guardian",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVc1dmp2ei1IRF9GcFRRQ2FGbkdYVkpra2JkUFA3NmpQZ2IybG42c2lWYTRGS25yMnp0VUVVLTQwd3hBR2RPeVRaTm5DU3hFSnA4NWd4WXhMM3hGQnctZU1hTTBkZ1VOT0FicFduTkl5eHg2VVc1NFd6OURoRGN3dDZHOA?oc=5",
+"time": "43 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普在中期選舉前解雇選舉委員會的民主黨成員。",
-"why": "此決策可能影響美國選舉公正性與政治局勢。",
-"source": "Bloomberg.com",
-"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUHJULXZQTzJtc2QzVVVEWVc5WHlSem0tTHJ5VTlaM0dZUzUyR2hsNWlPYlJJUC11SVJiaUtCZ0J5NTBPVEY5MV9LbEQ2S1NmMjc5ZlA3emxONXFvUTdOYS00WEpTdHlIQnVobEk1cUVlMTAyN2UtSFBQMWdfallqanRMaVNwRzlJUDBCQkdZQmNIenlwSjRfQnJtR2xxQVVNWERYSVFCSVJMbWpOb0FGY2MtRkNGM1F0VUxYNlhxdDhJQkFucXZZNXU3Tk42TXlRNDBtMVV2cw?oc=5",
-"time": "23 分鐘前"
+"summary": "川普解雇跨黨派選舉委員會成員。",
+"why": "此舉可能影響美國選舉公正性，對民主制度及未來選舉政策產生重大影響。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2podUptMi1XMWRjeml4d0I5Rm84VV9mXzh0QXU4RlZ6NXJPVlRxMmVNZUdmbHF6VXI1RHJjdm0wV0dLaHZrUm84ODZ1SDU3ZDl3U3dza2hac2lCblJWaEZBaEhnenowVE5SeDFGRnRvLVZIcXRHbV9pOExpNmhacVFoejZ2UDFhQ0dEcG03cXdSRWljeS1zQVRydGVaREh0Q2RRT2xtSHk?oc=5",
+"time": "13 分鐘前"
 },
 {
 "who": "VW CEO Blume",
-"summary": "VW CEO宣布公司史上最大規模重組。",
-"why": "此舉將深刻影響汽車產業結構與未來競爭格局。",
+"summary": "VW執行長Blume宣布公司史上最大規模重組。",
+"why": "此決策將重塑汽車產業格局，影響全球汽車製造商的競爭與轉型方向。",
 "source": "bluewin.ch",
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS0N5S1c1V2lVOGd1c3RDQ19fbU8tQ3B3VWt3dnZ5V0VHUENJWi1lam9uSTkxdzdLdEYyb0hTbDNBb0RSem5mUDlwczJoaGFINEZES3Vvd1VtSGZNMXZOVGxoWXZNdW1Gcm5tS3RXd0tLZmRlaHRyV2xqSVZxd25RNGh1MWtOYnN4T1NJSWM2ZkNaVUJ2d3JSTG5IR0RUY18wNnhrTzMyOFhqV1FXRHpVZUdWd0FCdw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Palo Alto Networks CEO Nikesh Arora",
-"summary": "Palo Alto Networks CEO針對OpenAI CEO的GPT-5.6發表訊息。",
-"why": "AI領域領導者間的互動，可能影響產業合作與技術發展方向。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMipgNBVV95cUxOQmd1d1NyaG9vS0Q4UTd1LWE5a1h6VlBCX1RqdDNfcnZ0SWlCek5xS0FGTmJHMExUdTlCQVBFRVJsbXIwT0VNeXg5ei0yU0w1RnpEaVpjeEd1WmNta3MyV2VxZ0xrdjFFbktvU1lOMWF1SXZiSkJsTEF2UVdld0twNU96SmxuelZIbnhDLWkwMnMzN0ItMmRuWTBrUFBfN25zNWp6c1g0ZnNjSlcxcUpHcmtFd1czVUprYkZwSHdXQ1JHd1Q0OFJfMWZjT2diREFtUVE2UXhVTEJFdWc2cmxYUTFIWVFxbmIwM0xmTTFpTklxS2ZQSFJUTzJKb3A2TFk4TkRiYUVDVkxhSGZxa2FKWXRtVHZ1M2pSVGIxZk9DcG5LT0FZc3RYNHlfMi12enhMenZQZUJpdGV3SUNOTnBVQlhiRlZYbkxFa1RKa1NsZTE1QjZ6ZlNsSXFxZG1jNWlXOG9qdE5vOTZ2ekZDVVFFTnJGazVqb3czcnZwaE5LWHJYOG9FMHRtUXFJaTBQaXJ2dTNSTWRXR3htdUk1SjI5R3R1S2t6UdIBqwNBVV95cUxOU3UxTllQMnhiYTBQbTNBSGtSSDFrZ1pIVF9DNXQ0NjNsVlB2dVpkV21hZzZnTlRoeDhXY3pEUXA4bjFNM0VSLVY1ZnZ4SjRnTUI3YXNqaWljLWxjWXgzR3VuMVBnXzd3dXhrdEhKNmtTR3l2OWpOUWtUem9IckFzcE8yeVAzVXlNSkJkakFVM3RITXpOVC1HNHVGWERYSFRPc3NzZHRTUTJhS1luZklKVkhNN0RrU1NpRWNnSVNxYVluNXZvQ0h3dXZDcXBGNnRSY0RjdHFGbEtnd0VEMzg1YUtLSjVTdVJmMy1FeDNCR3hHR3VnUTZqQjlXV1NJR3M5Q0VuY3oyVE5JWVVGZ0pCMHp3VDM5N1BEWVZ5QXE0T2doN05xUm9Ua0t2cU1GSmRzaEx2NEpMSVcxMHpvaXRicjFEc202djBEWU9KTXBHTDE1T2draUtFLUhESkpNeGhRT3o0MnVnWFdPS3N4bEJVekQ5QlMyXzdPQ3VUa3VDcWV6OG9aN0dZci1pd0VSS2hGcE1wTzliRkhuSldCMDJPSEVaWHdmLTlzeVFF?oc=5",
-"time": "45 分鐘前"
+"who": "川普",
+"summary": "川普宣布與伊朗的停火結束，未來衝突仍存疑。",
+"why": "美伊關係緊張升級，可能引發地緣政治風險與全球市場波動。",
+"source": "WESH",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUTVnamJOd2pmZnJ0LXRLYWM3ZURiZV9YNDBxQVpvT1Jqa3FYOEQ5MEFlSWduVU92SDc5dE9PSmRiNzJEQ0NtREN5TkUxWmgzOFlWWFNMWWJva0hUMzdVazlBUTRkQVgtSmxUVWRlaUtjcGxuOWphRGpGMkdzOWpNb0RzSTNYVGRQSUZyb1dqVVFhX2M1VGI5R0R3QS03b1BKeE1Oag?oc=5",
+"time": "51 分鐘前"
+},
+{
+"who": "Apple CEO Tim Cook",
+"summary": "蘋果執行長Tim Cook向Broadcom投資者釋出重大利好消息。",
+"why": "蘋果與Broadcom合作深化，將影響科技供應鏈與半導體產業未來發展。",
+"source": "MSN",
+"link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVWhCNl9taGw2VnFyRHU5NUxnd0hVT2xVR2ZZVlRZdWFrNXVnTXB3ZE0yLXFMOFp2OGd5d0ktYWRrLTVQQl9aWGs4SzZSOHhkRlN2TlBONllTN21KOWhxYWZJVkJtYmhHN25odGl6d2VESy15bk1ZdG1udWNCZVAxbm1WRzJYelZLUFZYUDQ2a1lscEFQTnhjaEdnT1FSM2tUNVRfNGFVQVFwV1pnM3pzM2JjR1N3aDlTVWFLSXlPWGxXZlNOMHhBUlVkNGp0YW1YRFROTHZiaFFUM3VGdVdpdzJrWXFjcERB?oc=5",
+"time": "1 小時前"
 }
 ]
 }
