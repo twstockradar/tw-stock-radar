@@ -1,7 +1,7 @@
 {
 "date": "2026-07-09",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、CCL、探針卡、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO、重電、網通等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "3037",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝"
+"theme": "封裝測試/CoWoS"
 },
 {
 "code": "4958",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "生技醫療",
-"theme": "新藥"
+"theme": "新藥開發"
 },
 {
 "code": "6669",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "封測"
+"theme": "封裝測試"
 },
 {
 "code": "3374",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "4931",
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "6274",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對選舉委員會大動作清洗，OpenAI高層健康因素辭職，Meta CEO啟動AI價格戰，Anduril CEO警告AI估值過高，Microsoft Xbox CEO受任美國聯邦任務。",
+"takeaway": "川普的政策動向與OpenAI高層異動，將深刻影響美國政經局勢與AI產業未來。",
 "items": [
 {
 "who": "川普",
-"summary": "川普大規模清洗兩黨選舉協助委員會成員。",
-"why": "顯示川普對選舉制度的強力干預，可能影響美國未來選舉公正性與政治局勢。",
-"source": "NPR",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSFRVSGk1SENfQXZGN3VxNWRGUGFMY1A1VFV5VEdselhXMWdYNDc0cVpXX25VRlJtSmxSNTZraUJJNFpWRHlNTlNzSkx0aGZUcHpqR3BZS1BaRmRhMVJDQ2dmU0NCbE5qTkFHa1QzbGFKTnhxVi1vaWJpTW5KVzV3TE5VZjhNSlho?oc=5",
-"time": "5 小時前"
+"summary": "川普 reportedly removes remaining members of election commission。",
+"why": "顯示川普對選舉監督機構的直接干預，可能影響美國選舉公信力與未來選舉政策。",
+"source": "upi.com",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMG1sRGxGcTJMRGtiRGRVOG9uNjh5aTdnNW5iZ0dieExLU0s4RC1PRGp2SU9rZVg4WUlsUXZtejd3cUdYMFA5SDh6cXhFWUZkQjdJRW9DR251RFBlQ0o5UGh0Z2tva0xJQ1hfa3JiSVpQNG9McGIwLUtMLWFqZ1l4VFJzcUZTeG9haEFoRXRCSUxsdi1mV0ludmE0ZWhPTmZGeTdFd3BB0gGrAUFVX3lxTE5qbXNuRklCUkNxM3gtaW56NVVGV2dtTFQ4ODhwbWZmRlp1OEk5eDBuZFBSbGdfakRDbWx3WGV2WGlhRWFyWFRKcTNLcFBGWnNWN1ZnNG5maUxBSXdiWDhPWnlEQk5KX1RDcGw0R25sU1U5dGV1am1yMGp4YkRuWktBcVpRWEVvdVNYN2dSa1puZnZWMTlucWhpYmM1V09YanJtNzV4X2t4TjZETQ?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "川普",
+"summary": "川普政府解雇獨立選舉小組成員。",
+"why": "進一步反映川普對選舉機構的整頓，對美國民主制度與選舉監督產生長遠影響。",
+"source": "The New York Times",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3JHNHhMbW9uS0JHQ0t3aWNuWFZiUHFiRVVkSC1tTmpJbFlpZnNYVUE3NmFjRHM1Sm00ODhlLVhRTEdaMzZYbjZ5THRnU0lRbFR3MmVyWVNhTFByMW9rQ1hFNW9EaThFcW8zNlB2MXFWeVZEcGszYjV4TW9wNnlDanJCNEdleUdHMlRWOXpDY3hka1lNNHJYM2FzRHhkX0NGTnlDdg?oc=5",
+"time": "4 小時前"
 },
 {
 "who": "Fidji Simo (OpenAI)",
-"summary": "OpenAI應用部CEO Fidji Simo因健康因素辭職。",
-"why": "高層異動可能影響OpenAI未來產品部署與領導方向，牽動AI產業發展。",
+"summary": "OpenAI應用部門CEO Fidji Simo因健康因素請辭。",
+"why": "OpenAI高層異動，可能影響公司AI產品部署與產業競爭格局。",
 "source": "The Times of India",
 "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOaXdWZTZBWHpLLV9kZkNYbWNfV3A2RFJUNEJqVkw0VWRkMXlOdWpvQWduNWxlNFhoZllBcUVBME1xeGdUX3NidHFYSEhOdVNvREZmNkp4ZXMwOFU5SWZSY2tmLWlqQXBmNF9ScDNlN0dWeE8zR1RCTlJHV09GUlZ5NlR4cjJtUVotZUZDc09fRDVoSlk0Q21Rc3l5MzFiZWhON09WZGlIQ2wtaDVYZnkydGVXUnFSWVcySk1QNjlEbG4wQWZyUTMwTWdINExXeFFvTzlkWFZzWTFOemtKSkNJZWZQcm1TUElyWkVncnZzZC1EemNfS19EVG9CeHRVckpJMUktc2YyVGNabi1UcFhZbGl0R1c5aWJ2UExWYUJCNklqc1hrY25QamhDUDlNSlpGUE16eUxIZ282VVFfYUxHT29JMmJyZlpsWEk3SVFSZXlYamoyaWxhTDRIaTnSAeICQVVfeXFMTUdQblF4aTBkeGczb0Zub28yWnhwMHZ2SGJ4VnBoT1dvRlBZV3l4UXA0Z2haQVNTOHNhZDktNlZDWmtqRDd6UXozejFMODkxRC1JcElkdkl1RFhJRV9lNE12dUp1M2dCVGVOUFh1SmdLOEduYzNsN0t5TXI3MEplc05BT1lmZDR6bXl6MkdlU1d2Z1JMUTRoSkQ3YXo4Y0N2MExsWTJCa0hMRHNzSEszRWlIc1FMLTIwdTB0dmxpWXJsSVBCTDcxaGdrZi04eUJPd1RTczgyMFdNejE3SjhRUGtYNGkxa1BNcGFPem9KN09pZDVMc3pxSlhLVjdJOVpHYXZRN181VEdKekFqemVvZDFJdjRvUFU4RXpiOU1TSlplU3NkbjBNZ2xzb05vYXVPaVdEakJhSVBZdDFVOHpNcDdramprVEhCQ2VsdG96Wks1NlhSam5VNUNYS0hrakNYRmNn?oc=5",
-"time": "34 分鐘前"
+"time": "1 小時前"
+},
+{
+"who": "Sam Altman (OpenAI)",
+"summary": "Sam Altman表示Sun Valley峰會上所有人都關心如何讓AI更便宜。",
+"why": "反映AI產業降本增效成為主流趨勢，將影響未來AI技術普及與商業模式。",
+"source": "Business Insider",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSXZoZzVZU3lQM0JUU3RBWDVOVjhLbEduazBvWlZoM2t4cXRGQUFqQi1EWkphRmZxaEVjdl9CbHNrNVQzdURhSUN2d2FPMEQtMndnRThocFdoMGhNU1I3Q2VzcnE4blNpSVFHM0NvNXpPeEFLcjVZUWJIcVFLMllrcVZza09ubF8zRVF3Ug?oc=5",
+"time": "4 小時前"
 },
 {
 "who": "Mark Zuckerberg (Meta)",
-"summary": "Meta CEO祖克柏宣布Muse Spark 1.1並啟動AI價格戰。",
-"why": "AI價格戰將加速產業競爭，影響全球AI技術普及與商業模式。",
+"summary": "Zuckerberg宣布Muse Spark 1.1，並發起AI價格戰對抗OpenAI與Anthropic。",
+"why": "大型科技公司AI價格戰開打，將加速AI應用普及並重塑產業競爭格局。",
 "source": "India Today",
 "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNUTIwcURSMUtYRmRwYW9QZlBtaHdWRXc4ZXczWndmam9HRXhMQkJVTGFBYlM3bm5ad3ljVl9wLVEwWEd4alZMWHp4bjJDamtrTGlMaUFlOWVmYUVvV2FaYVpxQ1VmX29vS1V6Vk42aGEzQ29xQkk1V2RfTkhvSUlxXzJRY2xGYWQ5WnNfZ2ExeUlqTHNQODNsZVBVdk1SdmxZT0xCSTlQbDJtOWoxUlhadnU2UmxkcktIeWktVHNPT2Yxc3pZYVJqTWE2M2thUGxldldKd0E5UlNCdkVxODd5TURiWjNUU3p2R2JxOHFyVDFwODRmM0lYdTU0bWpBM2tRbDFYRtIBigJBVV95cUxNeW5yRk9WcFNWV1lZRFNUdk1oQTJId3VnbFI2OVJkdVcxLVZ5dFVqWHpGdXBxeUxBcVh6R25fUWhISEpfZlZVaWVFcmdrdFF1dnZIWDMzX1ZGdUFCaXREMWNyRVRzTEVpLW96S0VmRmJBc3RkSkl3MjEtUXFjb1BGcDVPYUdZak0ycXgybFY4c3B5YzNzcms5X3ctSVdoVGEzXzlkZEpWWUFUeW0yQ3cyN2dYTUViOTFWQTNhVk9RcFRTOWcxdTNUbXkzTEhJNlM3LVdvbmpDYUh2cDdUeDhzZjEwRzBwYVZlSUg5TXo4VWlXUEJHTlRyaXItNTRUbmJXQXR2OTlDX0xidw?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "Anduril CEO",
-"summary": "Anduril CEO警告AI與防禦產業估值過高。",
-"why": "反映AI與國防產業泡沫風險，可能引發資本市場調整與產業重估。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR1l4NjJEaEthUWk4RjVIbHFtaElORXZkTEZSNk1ZSFFIZENWMmIwLVlzcXRMUVcyZ2VJU2lzeXo0U1p4dEp5VHVObG5fUXdPUlQ2Tm5uaXB4TzdLRFh6WGp2clVyRUotdzZOX1VQSkFmamxyQ1YyT3ZIOGs3QVB0bTBESmRsdFo5ZW1XX0ZJS2JNV0FGZF8xMnhkQUEwMHItdVhhM05ySlF3eE5udDBoT05ydDFWMl9Db1lJMDFTWjNpTDd3MkUwMXhXLTEtNXdKV0pDVVBfQzk4dnZ1YkFVd3k5cm9vdHNuU3pLbkI4Z2psYm9qdGFuZw?oc=5",
-"time": "32 分鐘前"
-},
-{
-"who": "Asha Sharma (Microsoft Xbox)",
-"summary": "Xbox CEO Asha Sharma被任命參與美國聯邦儲備相關任務。",
-"why": "科技企業高層參與政府政策制定，顯示科技與政策融合趨勢。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOE0wWVMtcmdLaFJBZXE2dnhkUjJxaGhwTUo0MnNubjJaV0xaYTctSEszaU5heXVjQ3N4YldfYW9mbmJsZFRnRG9NUHl5dnl6elVrbE9zN1hTeFVZdmFibXlEN2dhWFBSaGVtZlZKSGN4RUZ1QjZ0N084T0ZaVGNKR2tSRUs5U0NYOHBSeEhRU0puZ0JnR0FxRWh3ODlidUNvaGRxdkRwbGNpZkgtdG1Zb2stdE5KQXVZYWVVcDM5aURKRkI5UU4zYW1lQ1hVOEZyMU93UFprOUZIbDJhV1JoS3ZnaWstTTVUeTRVRFYtdF9odTlSVzJOM1FHMU9yQdIBgwJBVV95cUxOTTdaOVcwSXFjMjBpTW9xUzJTUkxDZE1acGNETDRaQzN5NkdMaXZGaUk1Y3FSQThYSGpieExEbUxQU08wcFpNYnJwUC1mNnhGRWxVeDNTSV9nMk5QQk5xbWs0b0ZLdWw5a1h6MjNFYVdQT0VvcDI3dzNaLTliSllzaFhxQTN1dThtZzBwVm5SakpRTDdEVHJTQ1U2SkF2NTItVmV4OHNNQ2xkUWhwamYtQldjOVFSdHBGMTA3azdyTEFVZjN2aHNOd2ZfUUlpcVI3MC1LQ29Nb0V0Mk9pSl8yMFcxT2hnMGNfeDV0NDlDUlhPWklPdFU3bHp4dE51anRBdVZn?oc=5",
-"time": "4 小時前"
+"time": "5 小時前"
 }
 ]
 }
