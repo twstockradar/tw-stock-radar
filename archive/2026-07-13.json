@@ -31,7 +31,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "伺服器電源管理"
+"theme": "伺服器電源"
 },
 {
 "code": "2303",
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 153.5,
 "change_pct": -1.6025641025641024,
-"trade_value": 10495502540.0,
+"trade_value": 10589222990.0,
 "market_cap": 1930567177545.0,
 "status": "PULLBACK",
 "dist": -0.10781671159029649,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 816.0,
 "change_pct": -9.333333333333334,
-"trade_value": 60620709222.0,
+"trade_value": 60784357462.0,
 "market_cap": 1690315834944.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2440.0,
 "change_pct": 1.0351966873706004,
-"trade_value": 85113267880.0,
+"trade_value": 86697387632.0,
 "market_cap": 63274982963480.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "光通訊CPO"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 378.0,
 "change_pct": 1.2048192771084338,
-"trade_value": 5787165099.0,
+"trade_value": 6681130135.0,
 "market_cap": 1460073169296.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控銀行"
+"theme": "銀行/金融控股"
 },
 {
 "code": "3017",
@@ -234,7 +234,7 @@
 "market": "TWSE",
 "close": 4135.0,
 "change_pct": -1.7814726840855106,
-"trade_value": 6214461470.0,
+"trade_value": 6321415970.0,
 "market_cap": 356456525470.0,
 "status": "PULLBACK",
 "dist": -0.1320921985815603,
@@ -331,7 +331,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "封測DRAM"
+"theme": "封測/DRAM測試"
 },
 {
 "code": "3374",
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡/測試"
 },
 {
 "code": "5347",
@@ -376,7 +376,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "記憶體",
-"theme": "DRAM/NAND設計"
+"theme": "DRAM/快閃記憶體"
 },
 {
 "code": "6182",
@@ -406,7 +406,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡/測試"
 },
 {
 "code": "6274",
@@ -425,47 +425,47 @@
 }
 ],
 "news": {
-"takeaway": "AI發展與企業知識安全、川普對選舉與國際政策的影響成為未來趨勢關鍵。",
+"takeaway": "川普政策與大型企業CEO對AI與就業的警告，揭示未來產業與政策重大變化。",
 "items": [
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "Nadella警告全球企業，使用AI時實際上是在為自己的知識產權付費兩次，並提醒企業注意知識外流風險。",
-"why": "AI應用普及下，企業知識安全與數據主權成為重大議題，將影響企業採用AI的策略與產業競爭格局。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOMVdSUGZmMnQ1RnBCZG9VQWpNdThTa29IUkNta0kwb3JJQW0tNHQ2UjBZaGZPYXBhdHhLNUVNRXE5bDRrd3FqT1lTMU5CejQ3eFE2Mm1xRFVKOHJIVnFBN1dDQjQ1Nm53U0hCMGVEcllWWFdQTlVwWEwtTWlMVUZwNF9ZMmNZdHFBOTg2RXJ2Wk55djg1a0hhSTRWUlFsSjQ4YjZEejF0bmNSQjVja0VFVS1hZk5DbHhiNG10RktGdlNNSng5ZjdkMkZzZDVrSWlrTURJWUFpcnhPRG5adnlaeFozTnB3RE9EczMtWlA5X2k1OGR2QTVabkZGY2wwMzRmM1RZMEw3U3RJTXhCMUxsUVhfVU1jRTVnYnViSzdCQlpOZlAzR3liV0I3cTFkdDhiNHlsenNJSDIxS2NGVHNkNGd6Y9IByAJBVV95cUxQb29WYmFmQXpYdDRObXJSM3lUdmpkOFY1cnpyWmNyV2JUcVJiZmRsbk9LMTNaS0FYNk9Sd2VoVjVEbFZZWDdDbzJsV3VFSDRaQ1NTeVVhMmc2NU9PLTNpM09GbmNTVzA0VHlNUnVKMUNuWjFWeDQyeXJDeU0yOGZrRkZaSk5WWXE0NmQ2TDZJN0M4dTF5VlE5SGU2dmdfc2dzRjNTTUJUU3ZaYXN3T3ROSENxdGpiTjRUZWxXc3JVNHBJQXdjaTB4dWZSc2dDQ09FYVFRYXI0bUdOX1pmSU5vX1VRMUYtLS1iV1VHRXdMS2dqWGJMT2lUVmk1LV85UTRpQXNJbnNkc2MzTFhWZE1BaXFfWEVKeTRHb2tzZXB3el82Mzh3OV9KSmNOUlBYcVhtNXhfclJNU3dnV3U1Ny1EYlB6Q2NLbS16?oc=5",
-"time": "1 小時前"
+"who": "Volkswagen CEO",
+"summary": "Volkswagen執行長警告為提升成本競爭力，可能再裁員5萬人。",
+"why": "顯示全球汽車產業正面臨結構性調整，未來自動化與電動化將加速人力精簡，對就業市場與產業鏈有深遠影響。",
+"source": "Global Banking & Finance Review",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZGM5aDVDNUlhZ0VWSy02YkRkS0hDMEJQQWM2aEpkZ2thQ1FfbU0wOHExY09Ob3MtMVlqS2ZWNFQyS003OG15dXhfT2EyQ205dkhGZEZtM24zR01wTTM2eWtfUTNqVWdjSnBFM1F6VDhzb1NnZFJaZUNsYVBTaHMxdm5kLWQtT2RJNGpzNVdMQnpIVkljYTJN?oc=5",
+"time": "6 分鐘前"
+},
+{
+"who": "Microsoft CEO Satya Nadella",
+"summary": "微軟執行長Satya Nadella警告AI時代企業面臨『反向資訊悖論』風險。",
+"why": "強調AI導入過程中，企業知識產權與數據安全成為新挑戰，將影響企業數位轉型策略與產業競爭格局。",
+"source": "Lapaas Voice",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbms4TEFadnktTHdFZl8wbGVwSmpLR2ZwejNlbnFQR3d6SmxmbTBYOEVwSTZmUEhVTExRdG5Jd3JzTVAwcy1yX1d5QmhKZ3pqZERCZlExendTbTlTSTlDQ0NhaDgwTHc3VlBUMDFkWTUwVi04cktKU1Y3RURvNlB0UnVvdjhaNzU3cmswZGF2dVVLUnlYY19pMjhn?oc=5",
+"time": "39 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普削弱選舉委員會，強化對期中選舉的影響力。",
-"why": "此舉可能改變美國選舉監督與公正性，對未來美國政治與民主制度產生深遠影響。",
+"summary": "川普削弱野生動物保護，危及加州瀕危動物。",
+"why": "反映其環保政策方向，未來若重掌政權，相關產業與環境政策可能大幅鬆綁，影響生態與產業監管。",
+"source": "Las Vegas Sun",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdTFTV2JOMC1mdTQxS3YzT3l5TVVWQ1V1X2RKTnJrM25sbUJaTWNEd3hoT3ZwZkNxM2F2anJqT1JtLWo0WlJOay1rZTZCMzZ2Zm5ldjc1MTNxV3ZLel9wYmtpZ0lrS3doZW5fbkdqLWF3Vm5jZEdfS0pOUkk1NXpoekhWR0RjQWJyRHlGVVBPWmZleDJMOGE0?oc=5",
+"time": "16 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普大幅削弱選舉委員會，增加對期中選舉的影響力。",
+"why": "顯示其強化選舉掌控力的政策傾向，對美國民主制度與未來選舉公正性具有重大影響。",
 "source": "Vicksburg Daily News",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40MVRuVEpkLWF6dkE4Ym1mT1RwUDhoenJKZjdlTVRxMDVNdHJ5dlNrUHpjYW1nZm1WcHAtbzE5SEJsc0MySWtoaU8zQU9tOU1uRTVtVlQwR1JMQzdMay1vejU0ZV9GbUdz?oc=5",
-"time": "55 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普推動加強聯邦對選舉的控制，為期中選舉做準備。",
-"why": "加強聯邦選舉控制將影響美國選舉制度與政黨競爭，對未來政策走向有重大影響。",
-"source": "USA Today",
-"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVU96cGdlQ2tqZ3NjbXJDSnlkT1JkNzZabndzczlqempQcnNqR0dNaWxhcTBFOUd0YzJOV1dSck1kWVJoVUhtTV9EWUZSLVNhYTMtVGlMQ1pTZHBQb3RYZXVHWlNMckt0T0NjbFVWeDUzcTZQMDNybEpRNmRpSG5QOWpzNm13SVF2b0xUb25HOU5Ic0laOFJ0Zzh2YWJERFhpR3hJdUlBNTkyZjJaaDA1OFI3ejZEZnp0a1E?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Palantir CEO",
-"summary": "Palantir CEO批評OpenAI與Anthropic在AI代幣價值上的做法。",
-"why": "AI產業內部對商業模式與價值分配的分歧，預示未來AI生態系統的競爭與合作格局變化。",
-"source": "Crypto Briefing",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2lzV005T2diWDVvbURCYW9abFM5Tnc1ZEdyOGRXbGl6THFYSUJtMkdWSjdpZVlRMUU5dkN6OEVKNVcwSXc5aW1faGNBUzlDcERxb3pEYWt2UGI1SjFGRzVrUlVxMHVjd0ZOYUJKQm43V1FkNVNxZ2Z5ajBZRmJmX3pNT2s4MFZRYzAtT2VvbGx0T08zSnczdjVqa1U0dw?oc=5",
-"time": "19 分鐘前"
-},
-{
-"who": "SK Hynix CEO",
-"summary": "SK Hynix CEO警告全球記憶體晶片到2027年將出現短缺。",
-"why": "半導體供應鏈預警將影響全球科技產業發展與投資布局。",
-"source": "NewsBytes",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb0d5OWdETDFuV21GMDF3YmFpNjJ3bmo3azFTdDRFX2s1NDNSeDRBSDJPR2VCWDYtcTk4Y0c2MGFLV1lwcUVldmFQNEtIMDdzdkl2NFZJTUhSOGZOOFhTLW5xcFduSGw1ZkxTTVY5WTRMbGY3SnNmbGtVWjV6V2hzQllCRGNtcW45M3VPT1Znb3VfX0xaUTROYUl4SFpob2o5b2JCcQ?oc=5",
-"time": "2 小時前"
+"who": "Microsoft CEO Satya Nadella",
+"summary": "微軟執行長Satya Nadella警告企業在AI時代需為智慧付出雙重成本。",
+"why": "突顯AI商業模式與成本結構變化，企業需重新評估AI投資回報與知識產權保護策略。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPeXpPd2xKWklwZnRsNUhKTU51aEJObVBJWExlYmxkQmFVMHJTWGl4ZzV4dXZTZTVZT0FtNDREUjJub3NGcTUyUmNEZG5ELW85Z0Rub2RPSDgwekdPUHZvS2EwSHNyLUhwM0tkU2JKVGx4cE5ZTnlGV2VFLVk5NTdxVDc2M1BXOHNpTXBIWjhZT2t6N3lSVTg2Tll3SVRPZ0hOZm5IWHlhUGE0dWk5SlVHOHd3cHplQzdPc3BBQTg3WGFDNTZzVmYyN0thU0F6dFpib0FfbzBFMG5WTjM3Q2hEeGQ1eHJtdjVKY3h4ZHg1U2RCZVZqS0ZjSFFaaHF1S2pGOWpZ?oc=5",
+"time": "1 小時前"
 }
 ]
 }
