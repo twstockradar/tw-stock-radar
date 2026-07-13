@@ -1,7 +1,7 @@
 {
 "date": "2026-07-13",
 "count": 28,
-"focus": "清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、ABF載板、散熱模組、矽光子等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件龍頭"
 },
 {
 "code": "2330",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "銀行金控"
+"theme": "金控"
 },
 {
 "code": "3017",
@@ -196,7 +196,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "3037",
@@ -425,46 +425,38 @@
 }
 ],
 "news": {
-"takeaway": "川普政策與企業CEO發言正影響全球政經趨勢，特別是能源、AI與地緣政治。",
+"takeaway": "川普對伊朗的新一輪軍事行動與能源、核能政策，及微軟CEO對AI資安風險的警告，將深刻影響地緣政治、能源結構與企業AI應用趨勢。",
 "items": [
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "警告『逆向資訊悖論』的危險。",
-"why": "AI與資訊安全議題將成企業與社會未來重大挑戰，影響全球數據治理與商業決策。",
+"who": "川普",
+"summary": "川普下令對伊朗軍隊進行新一輪打擊，以追究責任。",
+"why": "顯示美國對中東局勢的強硬態度，可能加劇地緣政治緊張，影響全球能源與安全格局。",
+"source": "CBS News",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?oc=5",
+"time": "9 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普推動核能政策，重啟核廢料相關辯論。",
+"why": "核能政策轉向將影響美國能源結構與全球核能產業發展。",
+"source": "E&E News by POLITICO",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOWVuR040T2VycE52bUN2MXJxQm12WDR4QzN4em5FLVc1T19rTWdTZXFhTHRNR21MdW1BWWlkN1pYZHNWQWFIZTREX1FCUjFXaTNSU1h3aTJPZFNoUHNfQUFvWW52b1EwU1lHUDJZcVhrdExqX19WZThsMEFxUnNrdWx6Q1lRbTNNUURobEEwMWpXeFVRNnlvZg?oc=5",
+"time": "50 分鐘前"
+},
+{
+"who": "微軟CEO Satya Nadella",
+"summary": "微軟CEO警告『反向資訊悖論』的危險。",
+"why": "凸顯AI與資訊安全風險，將影響企業AI應用與資安投資趨勢。",
 "source": "NewsBytes",
 "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSXF6cGxKQkZYaEJjX3BsclJMeUwySEJvVG1jNHJGbDFfUlp2YjZLWUhnMFVDMV8wSk9ES2M0dlE5WlMzdGQ0dlk2VFBiQi1xbkljXzBubjRaR0w3V21Wcms0RWZ3UnZHOFo5cTRVTjZIY3lZNWgxakczQkdmNFdySE9SZnBPLV84clVoY3NRTGs0MXd3SGFSZnlWdHRqWlFlRkVPUDI4d0FCc29lOS1GOUJTcTdDeFhZMHFz?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "警告企業AI工具可能導致資料外洩。",
-"why": "AI應用普及下，企業需加強資料保護，將影響未來科技產業規範與信任。",
+"who": "微軟CEO Satya Nadella",
+"summary": "微軟CEO警告企業AI工具可能導致資料外洩。",
+"why": "企業需加強AI資安防護，影響未來AI導入與監管方向。",
 "source": "Whalesbook",
 "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZkg4TV9BNkpDOVJqMFJfdEw4T1V6V3hWZU5oTFA5cUJyc3lCUkdiaTdYWi02YXp6c0JMaFVUTEUwSDdJcHg2cTFrSjNfam1nVTJEaDd6ME1qQUZZWlZRZmRJNXMxVmhTUWJTa29aM0IxV1pRM1llM2NUU0o4SkZlWjNwYXRhdVRERVRVVGY0RFZTTXJHMnBGekwtM2Nhc2lXOGdfcFVRdFp3RC0xOXNiU1haMzNlZXdqRDItTUR2dHpYeGxZejVOOWlwQmt0bW9uRU5z?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "川普",
-"summary": "推動核能政策，重新引發核廢料處理辯論。",
-"why": "美國能源政策轉向核能，將影響全球能源結構與環保議題。",
-"source": "E&E News by POLITICO",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOWVuR040T2VycE52bUN2MXJxQm12WDR4QzN4em5FLVc1T19rTWdTZXFhTHRNR21MdW1BWWlkN1pYZHNWQWFIZTREX1FCUjFXaTNSU1h3aTJPZFNoUHNfQUFvWW52b1EwU1lHUDJZcVhrdExqX19WZThsMEFxUnNrdWx6Q1lRbTNNUURobEEwMWpXeFVRNnlvZg?oc=5",
-"time": "37 分鐘前"
-},
-{
-"who": "川普",
-"summary": "解除土耳其制裁並考慮出售F-35戰機。",
-"why": "美國對土耳其政策調整，將影響地緣政治與軍事產業趨勢。",
-"source": "RFI",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUDI5Mmc0bUc5N2VoWkQtOFotSENwbHgycmtrWUZyRGxXazFYcUxudDR0bVUxWV9XSktlSVI4SDJWZC1sNVFGTjVEc1l2VFRYRVI0WHRoY0NjSERNRGY2QW5NUEtQZERFMlp0SWE2amowWTJxdENUdUtvZjNBNGF3N05RMEk3Z1VkZndha2xwcUhscS1PS0ZYanJYcGRzMFAxZkdITENmbw?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "川普",
-"summary": "敦促各州擴大托育政策。",
-"why": "美國社會政策變動，可能帶動托育產業與家庭福利改革。",
-"source": "West Virginia Watch",
-"link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFAtT3dkV1Axb3JjLUF0eXM5OHM0X29VTk1Sd2lfVV9qT0hBcXRlVFQ2ZEwyWjFGRXEyc0tVN3hLWGRRVF9uN1dfRzBtTnc3UWpzUUFrZ0hNQ2Q5ODluU0tSSWRxcEhWMVRGWll2VmRqbC15SUJWdnExUGJiblNOZWVPbENDeVFxRTBZN0xWYk0yRTBkVmFlZi0zeGk4VnBNWHo3bUlYV1YtajBYRUowekQtbkV4M2RFM0YyNEs5T2VkWmoyRmlLT2pMdkZvemlJ?oc=5",
 "time": "1 小時前"
 }
 ]
