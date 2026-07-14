@@ -1,7 +1,7 @@
 {
 "date": "2026-07-14",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、網通等族群為主，題材聚焦於晶圓代工、CoWoS先進封裝、AI伺服器代工、ABF載板、散熱模組、光通訊、探針卡等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、金融等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、PCB載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -31,7 +31,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器電源"
+"theme": "伺服器電源"
 },
 {
 "code": "2303",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "光通訊CPO"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "2449",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "6239",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高階CCL"
 },
 {
 "code": "6488",
@@ -455,7 +455,48 @@
 }
 ],
 "news": {
-"takeaway": "",
-"items": []
+"takeaway": "川普針對能源、國際安全與貿易政策發表重大決策，AI與能源領域大型企業CEO釋出警告與倡議，顯示全球政策與產業趨勢正面臨轉折。",
+"items": [
+{
+"who": "川普",
+"summary": "川普提出在霍爾木茲海峽徵收過路費的計畫。",
+"why": "此舉可能影響全球航運與能源供應鏈，對國際貿易與油價產生重大衝擊。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnYyNTZtb1JUVzMwalhuZHcwWDlKSjJrTDBRR0JRaXJabVdLMVBjRTJSZmpOMVZEa2hCQjFGcWtORWM1QzN1dUt0aE9WdHZYME13bGJSeVpnVEpoLVRjWHlPYzZRWnh4Q21mZXVuektmc3hHUTlBTEI3bnA2Q28wd3FPdmstcDhl0gGOAUFVX3lxTE85U2Nud1B5aXlROGFIQmNHaE1LNDIxMFQ2a2wxQ2I0V1dvSEtQY21PNHp4SnpsVDZpeFJqYlRHNldGNDBhODhIdDdRRlg3dnFLdXQ1Z1JhSWZFbW9tcE9FT3pGdk96US1PSTAxWDZXLWtHUE52UFlicHY1Y0hLLUp4eEk0Z2R2YklFcnVBVUE?oc=5",
+"time": "25 分鐘前"
+},
+{
+"who": "Exelon CEO",
+"summary": "Exelon CEO警告AI數據中心將導致電力黑outs與電費上升。",
+"why": "AI產業快速擴張對能源基礎設施造成壓力，預示未來電力供應與成本挑戰。",
+"source": "moneywise.com",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNjRHaHZRLUR3ZzB3dEdBMzMwZzVwaC1mS3lMTGk1VW1pYW43SXBwXzFfcE5KX2JRYUwwYWxuMXNmMDk0RDl1ODVIUVhiSnhzbDJLcV9uX1d6VzhkT2wtdjh4V1ZnZU1sMk5HN0s4Y0FjMkR0Y00xOFpDRHVFXzdlWS1fMUFqZEFBdXE2VlNFTQ?oc=5",
+"time": "27 分鐘前"
+},
+{
+"who": "Google DeepMind CEO Demis Hassabis",
+"summary": "呼籲成立美國主導的AI監管機構，具備暫停AI發展的權力。",
+"why": "AI監管成為全球焦點，可能影響技術發展速度與產業規則。",
+"source": "Crypto Briefing",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1taDRrRlpwZzVMVFFCX2VfbkttYXg1Yk4tYzhLRHVnSnBOQUEtcGpJMDA3aEZNQnpJWTIzVnNjUWNxN0FlOEtuU0VrdWw4cnZSQ0o2NlVTei1CNW9RVGxWTXM1ekF1UHNpTFJkTVJwOTREUFFyakE?oc=5",
+"time": "48 分鐘前"
+},
+{
+"who": "Microsoft CEO Satya Nadella",
+"summary": "警告企業在使用AI時需謹慎，強調風險管理。",
+"why": "AI應用普及，企業需重視安全與責任，影響未來商業模式。",
+"source": "NDTV",
+"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnNkZUxneERZMFBUSk80X21rbUcwWVRQV0tFWnFVdU4xTWFXWXNDSWlqWm9BVmJQMWhiUDIyUHk4eGFHektpc3gyWnpIRTVSY3I2MjhrbDFHRUd0MndBYlVaSGhhd1Q3dmJDLWp6MEhORFBYTndzc2lURVZsOVl5UXRaUVRMNDZkRDNOUG9LTDlnUXhhUFJCWTRKSWtGU1N6UjgwcWR2aU9SRlBCbi1sMjhEZHlmRjBJeGFXSGg3R1pOc2t4SWFoTGVuZHAzZ0nSAdcBQVVfeXFMUHpwWThRNU5iM0tQNkxUTEdKWklyYkQ1RDJCa3JqMVhRdzRhM2dNZUt4MTAteHpSaXBMaEdtLXI3YkNGSXM2RWpDSXVLRThjYlgyZjZyYVdocFQzODhhbTBNNFNia0lEMFljQ0ZTRDVENE0tTWVFdWtzT2VsZ2dlR2UtSmZ1c1daTFE1VVZvU1ZKZXpkcXhTakgtNi1FSVc3ak12THdabnEtS29qT0gxX0VNOFNaR2RpcC1XN1JYZ0otR0g2RHktVkZ0cjVQLTFrSllTLVl5d0U?oc=5",
+"time": "53 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普的清潔能源政策導致830億美元的項目延遲或取消。",
+"why": "能源政策轉向影響產業投資與全球減碳進程，牽動綠能發展。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1FHbF9peV81TzUxSHdGb0hlanM5YmplLTlUa0VueU1wMVFsV2pFY2lGTzdnSXdvZ3RQQkZYYUlzNVA4anJ1akZkTGY1NlVIaXNPVmJRT2xmemFscDI2M3hkY3g2MDJWTm5aS0RWRGpZNUUwc1VLYnJYeTB5RXRRYlk0TEd1bGxFLXF2bmZtYVczSGp4YXJjSVRRbFAxb3VPX3ROeGRTVGdudlI4NkFqVjdEd3J1MEVJbHU4cHV1SFBQeVJLUXc?oc=5",
+"time": "2 小時前"
+}
+]
 }
 }
