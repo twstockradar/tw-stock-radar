@@ -1,7 +1,7 @@
 {
 "date": "2026-07-14",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、光通訊、金融等族群為主，題材聚焦先進封裝、AI伺服器代工、ABF載板、重電、探針卡等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、網通等族群為主，題材聚焦於晶圓代工、CoWoS先進封裝、AI伺服器代工、ABF載板、散熱模組、光通訊、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -30,8 +30,8 @@
 "dist": -0.14503816793893132,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電源/重電",
-"theme": "電源管理IC"
+"group": "AI伺服器",
+"theme": "AI伺服器電源"
 },
 {
 "code": "2303",
@@ -54,14 +54,14 @@
 "market": "TWSE",
 "close": 778.0,
 "change_pct": -4.6568627450980395,
-"trade_value": 63169564453.0,
+"trade_value": 64052616243.0,
 "market_cap": 1611600146552.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件龍頭"
 },
 {
 "code": "2330",
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2420.0,
 "change_pct": -0.819672131147541,
-"trade_value": 97816465125.0,
+"trade_value": 103370532441.0,
 "market_cap": 62756335562140.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "光通訊CPO"
 },
 {
 "code": "2382",
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 380.0,
 "change_pct": 0.5291005291005291,
-"trade_value": 8417805632.0,
+"trade_value": 9740805632.0,
 "market_cap": 1467798424160.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -135,7 +135,7 @@
 "dist": -0.04663923182441698,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
+"group": "半導體",
 "theme": "探針卡"
 },
 {
@@ -174,14 +174,14 @@
 "market": "TWSE",
 "close": 65.0,
 "change_pct": -2.2556390977443606,
-"trade_value": 5159309864.0,
+"trade_value": 5175426574.0,
 "market_cap": 1278998394765.0,
 "status": "NEAR_HIGH",
 "dist": -0.07894732948989358,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "銀行/金控"
+"theme": "金控"
 },
 {
 "code": "3017",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "3037",
@@ -264,7 +264,7 @@
 "market": "TWSE",
 "close": 3725.0,
 "change_pct": -9.915356711003627,
-"trade_value": 12521950280.0,
+"trade_value": 12766682780.0,
 "market_cap": 321112589450.0,
 "status": "PULLBACK",
 "dist": -0.1320921985815603,
@@ -285,7 +285,7 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
+"group": "半導體",
 "theme": "先進封裝"
 },
 {
@@ -294,7 +294,7 @@
 "market": "TWSE",
 "close": 629.0,
 "change_pct": -2.631578947368421,
-"trade_value": 35536825970.0,
+"trade_value": 35687773970.0,
 "market_cap": 697490302916.0,
 "status": "NEAR_HIGH",
 "dist": -0.09256449165402125,
@@ -330,8 +330,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
-"theme": "記憶體封裝"
+"group": "半導體",
+"theme": "封測"
 },
 {
 "code": "6669",
@@ -375,8 +375,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "封裝測試",
-"theme": "DRAM封裝"
+"group": "半導體",
+"theme": "封測"
 },
 {
 "code": "3374",
@@ -390,7 +390,7 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "封裝測試",
+"group": "半導體",
 "theme": "探針卡"
 },
 {
@@ -420,7 +420,7 @@
 "dist": -0.014266304347826053,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
+"group": "半導體",
 "theme": "探針卡"
 },
 {
@@ -455,48 +455,7 @@
 }
 ],
 "news": {
-"takeaway": "川普針對能源、地緣政治及AI政策的重大決策，以及科技巨頭CEO對AI產權與未來風險的警告，將深刻影響全球經濟與產業趨勢。",
-"items": [
-{
-"who": "川普",
-"summary": "川普的清潔能源政策導致830億美元的能源項目延遲或取消。",
-"why": "政策直接影響美國能源轉型與全球綠能投資趨勢，可能加劇氣候變遷風險。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1FHbF9peV81TzUxSHdGb0hlanM5YmplLTlUa0VueU1wMVFsV2pFY2lGTzdnSXdvZ3RQQkZYYUlzNVA4anJ1akZkTGY1NlVIaXNPVmJRT2xmemFscDI2M3hkY3g2MDJWTm5aS0RWRGpZNUUwc1VLYnJYeTB5RXRRYlk0TEd1bGxFLXF2bmZtYVczSGp4YXJjSVRRbFAxb3VPX3ROeGRTVGdudlI4NkFqVjdEd3J1MEVJbHU4cHV1SFBQeVJLUXc?oc=5",
-"time": "54 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普威脅對霍爾木茲海峽貨物徵收費用，促使各方加速繞道該海峽。",
-"why": "此舉可能重塑全球能源運輸路線，影響油價與地緣政治格局。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTFHeTVFMFAzbU50NmFpalJsQ3Y1dlVfVk4tYnBPS0pVbmlyT1pVRnJiOHJ1X2hQQ3hJQWRIQTBBVll5V3NNU2FCMW43X2d2VTJzRGNfd25yelRJRVFtaGVKSzFwaTJTMmJnSGNIWVY5YWNodWdoSDhNejZ1UFBvVk93WdIBiAFBVV95cUxOM0FvMjNmUl9RS2NlVnlTbXkxYlVFR3JRbWdzTEVtQ2l1YlJVU2QtRk1ROGNNSGpqRVJlZkhGMnZ2S1llQTBOR2VFRm5WV3pQS1d4SDhqbHEybzlBWEFMcGxzQVlBcFVTSXkxbHFWcllOclliZENtUlVZM09oVXNrSkJtUVp3eFAy?oc=5",
-"time": "40 分鐘前"
-},
-{
-"who": "Microsoft CEO Satya Nadella",
-"summary": "納德拉強調企業應保有AI產生的知識所有權。",
-"why": "AI產權爭議將影響企業競爭力與數據治理，牽動未來產業規則。",
-"source": "Digital Information World",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWllhTzAyaXY4aDlaVHZPZnJUcGtlcFp3S2Z5Zmo4dFdIYzZPTEtTczhFZFhjNXgwYjVMSjRpcnY1dUJLZE5PNjRQeENUZm92UzlRY2NaekZRc05HTkk5RmZoc3lHX2ZrNFNzWXZHcDFwS1VXSVF0N3RIcEowWkI1QlBMaDVmV3BLRF9Pc0Jn?oc=5",
-"time": "33 分鐘前"
-},
-{
-"who": "Palantir CEO Alex Karp",
-"summary": "Karp警告AI可能成為美國財富不平等的最大推手。",
-"why": "AI發展加劇社會分配問題，政策與產業需提前因應。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQeEhHU3ViSURoNUx6MjVZd2t6bkZ1YUlEcEFpMkpZa2V1bU1Mc0phQUhIZDRCTW9tMWpYRzk3ZUlXbmZ5YVh6Q1VURU91Y3RpbEo2MkVNMHNoaHplaU1SVEVTRE00X3RVQnJUQXdwTFdrZTR4RzVMUlhFOHFmNDlyZXh5aFBzRm9FWktUbFluNmR5NjFFMjBBeHNqdEthLUxRZW5IWWxlMm5GUG5ldDNnRTJ4czZyLWR2VEg1WG9mM3dFb3NHTHRvTmpYcUNfMTdEaUJTRmZVWjNaUTc3ZTVxT004ejQ1dVNuZGZPTkRtbjE3aTZfTnFvckNYbkdhZ1FxSVVIdA?oc=5",
-"time": "53 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普宣布恢復霍爾木茲海峽封鎖，並持續對伊朗發動打擊。",
-"why": "加劇中東緊張局勢，對全球能源供應與安全有重大影響。",
-"source": "France 24",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeXBBaGxOR2Q2QjJSVjRNcldTeDVHZXA3cGVkbE9oTFZza0NHdkx2djBFUnl4aDBWZ29NdXdTSmNaSnNadXNxYmRvbWF2RXcyd09GNHpxNTdiREpYcV9GckZsT044akEwT3VlZWc2SE1ZbVFqaGdzVUpUS292Z3lrT212QkgtYW1nemJmVTF1dTlhTGlhOWxlT3J4V1Qwb3Atdkhrbzdjcnk5Zw?oc=5",
-"time": "1 小時前"
-}
-]
+"takeaway": "",
+"items": []
 }
 }
