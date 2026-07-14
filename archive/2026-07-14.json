@@ -1,7 +1,7 @@
 {
 "date": "2026-07-14",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、金融等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、PCB載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、金融等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、重電、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件龍頭"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2449",
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控"
+"theme": "銀行"
 },
 {
 "code": "3017",
@@ -211,7 +211,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "3037",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高階CCL"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6488",
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對能源、國際安全與貿易政策發表重大決策，AI與能源領域大型企業CEO釋出警告與倡議，顯示全球政策與產業趨勢正面臨轉折。",
+"takeaway": "川普針對霍爾木茲海峽徵收通行費及放寬環保規範，企業CEO則對AI安全與數據主權發出警告，顯示地緣政治與科技治理將成全球未來趨勢焦點。",
 "items": [
 {
 "who": "川普",
-"summary": "川普提出在霍爾木茲海峽徵收過路費的計畫。",
-"why": "此舉可能影響全球航運與能源供應鏈，對國際貿易與油價產生重大衝擊。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnYyNTZtb1JUVzMwalhuZHcwWDlKSjJrTDBRR0JRaXJabVdLMVBjRTJSZmpOMVZEa2hCQjFGcWtORWM1QzN1dUt0aE9WdHZYME13bGJSeVpnVEpoLVRjWHlPYzZRWnh4Q21mZXVuektmc3hHUTlBTEI3bnA2Q28wd3FPdmstcDhl0gGOAUFVX3lxTE85U2Nud1B5aXlROGFIQmNHaE1LNDIxMFQ2a2wxQ2I0V1dvSEtQY21PNHp4SnpsVDZpeFJqYlRHNldGNDBhODhIdDdRRlg3dnFLdXQ1Z1JhSWZFbW9tcE9FT3pGdk96US1PSTAxWDZXLWtHUE52UFlicHY1Y0hLLUp4eEk0Z2R2YklFcnVBVUE?oc=5",
-"time": "25 分鐘前"
-},
-{
-"who": "Exelon CEO",
-"summary": "Exelon CEO警告AI數據中心將導致電力黑outs與電費上升。",
-"why": "AI產業快速擴張對能源基礎設施造成壓力，預示未來電力供應與成本挑戰。",
-"source": "moneywise.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNjRHaHZRLUR3ZzB3dEdBMzMwZzVwaC1mS3lMTGk1VW1pYW43SXBwXzFfcE5KX2JRYUwwYWxuMXNmMDk0RDl1ODVIUVhiSnhzbDJLcV9uX1d6VzhkT2wtdjh4V1ZnZU1sMk5HN0s4Y0FjMkR0Y00xOFpDRHVFXzdlWS1fMUFqZEFBdXE2VlNFTQ?oc=5",
+"summary": "川普要求在霍爾木茲海峽徵收通行費，導致油價上漲。",
+"why": "此舉將影響全球能源供應鏈與運輸成本，並加劇地緣政治緊張，可能推動全球油價波動。",
+"source": "Fortune",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSZGdsZGNLZ3pNUWJUb3pwaEpRSXF6TGpIejM1V3BzVS0yNVI0eGx0Q1I2aUlsWmlibEh6LXM5bzNqdXZFdWRkT2FyUnQtV0M3ZHVyeTBIeXczaTJLOGlLblRQNnBHY1dPVkI1ektLaTRMWGRsOTJ5cG93?oc=5",
 "time": "27 分鐘前"
 },
 {
-"who": "Google DeepMind CEO Demis Hassabis",
-"summary": "呼籲成立美國主導的AI監管機構，具備暫停AI發展的權力。",
-"why": "AI監管成為全球焦點，可能影響技術發展速度與產業規則。",
-"source": "Crypto Briefing",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1taDRrRlpwZzVMVFFCX2VfbkttYXg1Yk4tYzhLRHVnSnBOQUEtcGpJMDA3aEZNQnpJWTIzVnNjUWNxN0FlOEtuU0VrdWw4cnZSQ0o2NlVTei1CNW9RVGxWTXM1ekF1UHNpTFJkTVJwOTREUFFyakE?oc=5",
-"time": "48 分鐘前"
+"who": "川普",
+"summary": "川普豁免部分化工企業於拜登時期的排放規則。",
+"why": "放寬環保規範將影響美國產業競爭力與環境政策走向，可能引發全球產業鏈調整。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdjNWUUpnb3loblpweEd0bzlPdWNVU1Uzd3BTa3hZRkRQVW50dlpickVfZEhWenI3SmlCanMzQll6REl3Q3pPVmZuY2J2ZDJwRm1OeldFbTNwY2RvbW5GelpKdmhPNy1WczA0c3l3a29wejZrbkswMmF4U3hCeEtHSzZaaUI3NTVpem1qQk8zR0lEQ19Ud0ZUSG9jRDI5R0RtZEdRaFdYOWxhNlFL?oc=5",
+"time": "11 分鐘前"
 },
 {
 "who": "Microsoft CEO Satya Nadella",
-"summary": "警告企業在使用AI時需謹慎，強調風險管理。",
-"why": "AI應用普及，企業需重視安全與責任，影響未來商業模式。",
-"source": "NDTV",
-"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnNkZUxneERZMFBUSk80X21rbUcwWVRQV0tFWnFVdU4xTWFXWXNDSWlqWm9BVmJQMWhiUDIyUHk4eGFHektpc3gyWnpIRTVSY3I2MjhrbDFHRUd0MndBYlVaSGhhd1Q3dmJDLWp6MEhORFBYTndzc2lURVZsOVl5UXRaUVRMNDZkRDNOUG9LTDlnUXhhUFJCWTRKSWtGU1N6UjgwcWR2aU9SRlBCbi1sMjhEZHlmRjBJeGFXSGg3R1pOc2t4SWFoTGVuZHAzZ0nSAdcBQVVfeXFMUHpwWThRNU5iM0tQNkxUTEdKWklyYkQ1RDJCa3JqMVhRdzRhM2dNZUt4MTAteHpSaXBMaEdtLXI3YkNGSXM2RWpDSXVLRThjYlgyZjZyYVdocFQzODhhbTBNNFNia0lEMFljQ0ZTRDVENE0tTWVFdWtzT2VsZ2dlR2UtSmZ1c1daTFE1VVZvU1ZKZXpkcXhTakgtNi1FSVc3ak12THdabnEtS29qT0gxX0VNOFNaR2RpcC1XN1JYZ0otR0g2RHktVkZ0cjVQLTFrSllTLVl5d0U?oc=5",
-"time": "53 分鐘前"
+"summary": "納德拉警告企業不應過度向AI供應商分享數據，應保留自身知識資產。",
+"why": "數據主權與企業知識保護將成為AI時代的重要議題，影響企業競爭策略與產業生態。",
+"source": "IT Pro",
+"link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPX0pYeFZVeDd0a1hiZTRJVUxQTlM5bHFUUVUydHl4NEVOc2JIWVA5TmZGOHZUQV8ybjdIZEJrWVRQNnM1bVlLWkpVcGFiNVdzdHBJajVONHlJQlFWa3p4bUFNUk1vOXhEWWE0a200SkZEUGNtOXhJeWhyT1dUSng2aGV4TlZQX0h1VXF4MGh5WlVkZlMwWm5pQmZveHZHZk95elZRMEhOOVhKQ2hnTHlRRXR6RnNiVU5JeExfcUhzWUNzdUJnaWdRR0l0dlNXbXRsOEh0Q0Jnb0l3ZnZpUGQ1NjJvY3NkMjN3UXg4UzVWMjFvZUVmcGpqUnpQdFdJQUFwS0oydkotSF9FYWlEN21DenpiZFBjeHhSWkIxTHdJdm15Qm91OHB5T29TSk9JVE5TRGZCUi10a1NmOXR5OTFRUU9Pa1pFc0lMSHZyZkoxelZtbUNGSVdZaEtvUkF5WW5zOWFv?oc=5",
+"time": "29 分鐘前"
 },
 {
-"who": "川普",
-"summary": "川普的清潔能源政策導致830億美元的項目延遲或取消。",
-"why": "能源政策轉向影響產業投資與全球減碳進程，牽動綠能發展。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1FHbF9peV81TzUxSHdGb0hlanM5YmplLTlUa0VueU1wMVFsV2pFY2lGTzdnSXdvZ3RQQkZYYUlzNVA4anJ1akZkTGY1NlVIaXNPVmJRT2xmemFscDI2M3hkY3g2MDJWTm5aS0RWRGpZNUUwc1VLYnJYeTB5RXRRYlk0TEd1bGxFLXF2bmZtYVczSGp4YXJjSVRRbFAxb3VPX3ROeGRTVGdudlI4NkFqVjdEd3J1MEVJbHU4cHV1SFBQeVJLUXc?oc=5",
-"time": "2 小時前"
+"who": "Google DeepMind CEO Demis Hassabis",
+"summary": "哈薩比斯呼籲美國主導設立AI監管機構，並具備暫停AI發展的權力。",
+"why": "AI治理與全球監管框架將成未來科技發展關鍵，影響產業創新與國際合作。",
+"source": "Crypto Briefing",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1taDRrRlpwZzVMVFFCX2VfbkttYXg1Yk4tYzhLRHVnSnBOQUEtcGpJMDA3aEZNQnpJWTIzVnNjUWNxN0FlOEtuU0VrdWw4cnZSQ0o2NlVTei1CNW9RVGxWTXM1ekF1UHNpTFJkTVJwOTREUFFyakE?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Volkswagen CEO",
+"summary": "Volkswagen CEO警告若工廠關閉，恐再有5萬個工作機會流失。",
+"why": "汽車產業轉型與就業危機將牽動全球製造業與經濟結構調整。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRHRMcVlOaXRjX3NhenJ2VHFVYzlIejFKc01Qb2FxWURlRVI2YnhFTFFNbmxIUFdadTJnOEp2TTAxc252bmQxZzNvNVhURDl5RGowNDFJb2dEazBMdGpSbUZmejhmM1RQR3ZQaHNMQ1ZkcVdJSko1aWV2N012WXRQdVhVVDMzZW9RZjh6TU9mZC1CZ3JMcG92TkZQNmVzaEUtX2swM3hVTnRIR1I4d0k3RHRUZGEtckYtSkRLTVpRWkJ4LXdnbDNXaGVUNjIyMExxUW1VMXJ0b2k1R0REYW9Id3EtS0VSMzBISUVEQnBUUQ?oc=5",
+"time": "11 分鐘前"
 }
 ]
 }
