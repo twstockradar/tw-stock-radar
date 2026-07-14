@@ -1,7 +1,7 @@
 {
 "date": "2026-07-14",
 "count": 30,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、網通等族群為主，題材集中於晶圓代工、CoWoS先進封裝、AI伺服器代工、ABF載板、散熱模組、光通訊CPO等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、光通訊、金融等族群為主，題材聚焦先進封裝、AI伺服器代工、ABF載板、重電、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -30,8 +30,8 @@
 "dist": -0.14503816793893132,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "AI伺服器",
-"theme": "伺服器電源"
+"group": "電源/重電",
+"theme": "電源管理IC"
 },
 {
 "code": "2303",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -135,7 +135,7 @@
 "dist": -0.04663923182441698,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "封裝測試",
 "theme": "探針卡"
 },
 {
@@ -181,7 +181,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "銀行金融"
+"theme": "銀行/金控"
 },
 {
 "code": "3017",
@@ -285,7 +285,7 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "封裝測試",
 "theme": "先進封裝"
 },
 {
@@ -330,8 +330,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測"
+"group": "封裝測試",
+"theme": "記憶體封裝"
 },
 {
 "code": "6669",
@@ -375,8 +375,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "半導體",
-"theme": "封測"
+"group": "封裝測試",
+"theme": "DRAM封裝"
 },
 {
 "code": "3374",
@@ -390,7 +390,7 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "半導體",
+"group": "封裝測試",
 "theme": "探針卡"
 },
 {
@@ -420,7 +420,7 @@
 "dist": -0.014266304347826053,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "封裝測試",
 "theme": "探針卡"
 },
 {
@@ -455,47 +455,47 @@
 }
 ],
 "news": {
-"takeaway": "川普政策與多位大型企業CEO對AI、環境、就業的重大警告與決策，將深刻影響全球產業與地緣政治走向。",
+"takeaway": "川普針對能源、地緣政治及AI政策的重大決策，以及科技巨頭CEO對AI產權與未來風險的警告，將深刻影響全球經濟與產業趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普的清潔能源政策導致830億美元的項目延遲或取消。",
-"why": "顯示美國能源政策轉向，對全球綠能產業與投資趨勢產生重大影響。",
+"summary": "川普的清潔能源政策導致830億美元的能源項目延遲或取消。",
+"why": "政策直接影響美國能源轉型與全球綠能投資趨勢，可能加劇氣候變遷風險。",
 "source": "Reuters",
 "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1FHbF9peV81TzUxSHdGb0hlanM5YmplLTlUa0VueU1wMVFsV2pFY2lGTzdnSXdvZ3RQQkZYYUlzNVA4anJ1akZkTGY1NlVIaXNPVmJRT2xmemFscDI2M3hkY3g2MDJWTm5aS0RWRGpZNUUwc1VLYnJYeTB5RXRRYlk0TEd1bGxFLXF2bmZtYVczSGp4YXJjSVRRbFAxb3VPX3ROeGRTVGdudlI4NkFqVjdEd3J1MEVJbHU4cHV1SFBQeVJLUXc?oc=5",
-"time": "39 分鐘前"
+"time": "54 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普簽署行政命令縮減國家紀念碑規模，引發環保人士不滿。",
-"why": "反映美國政府對環境保護政策的調整，可能影響未來土地利用與生態保護趨勢。",
-"source": "NewsBreak: Local News & Alerts",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb2FpY0xiNk9VWE5aTUREMFpuQmt6YmViNDd5a3RhMjBoRGZwa2F6TlhqVzI1RG9FbnVOLUdOOVdYSjlaTDN0VHNySHVEMklRWkQxOVlTZFBVYVF3SXVNLW40R2VXTFlVMVFpYWNVZVhQSkx2OXpFX05aalB2TTJPeTk0UUo2VEU3RDJYazB2TERJU1FVUjYzYjRhcW5haDVUZjRvVDZWSV94WUNDRTcyNnFTWXpGZk41?oc=5",
-"time": "1 小時前"
+"summary": "川普威脅對霍爾木茲海峽貨物徵收費用，促使各方加速繞道該海峽。",
+"why": "此舉可能重塑全球能源運輸路線，影響油價與地緣政治格局。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTFHeTVFMFAzbU50NmFpalJsQ3Y1dlVfVk4tYnBPS0pVbmlyT1pVRnJiOHJ1X2hQQ3hJQWRIQTBBVll5V3NNU2FCMW43X2d2VTJzRGNfd25yelRJRVFtaGVKSzFwaTJTMmJnSGNIWVY5YWNodWdoSDhNejZ1UFBvVk93WdIBiAFBVV95cUxOM0FvMjNmUl9RS2NlVnlTbXkxYlVFR3JRbWdzTEVtQ2l1YlJVU2QtRk1ROGNNSGpqRVJlZkhGMnZ2S1llQTBOR2VFRm5WV3pQS1d4SDhqbHEybzlBWEFMcGxzQVlBcFVTSXkxbHFWcllOclliZENtUlVZM09oVXNrSkJtUVp3eFAy?oc=5",
+"time": "40 分鐘前"
 },
 {
-"who": "Microsoft CEO",
-"summary": "微軟CEO警告企業使用AI時可能需「付兩次費用」，並提出解決方案。",
-"why": "揭示AI商業模式與企業數據安全新風險，將影響企業採用AI的策略。",
-"source": "dev.ua",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fclpsU2lKN0FCSi1DZWgtbnFETUpHQ2VNME55SGtYNzJhTjdRVTV5aHlaaEg5aTRDUVhITXZTb05Sd2FoaFVjSm5nZDFraHdwZEFuODRJdUhKMl9ENmRPU2RJejRhLXVXYnBmaHZxM25hUC1QVHB1VXdMT0pySlE?oc=5",
-"time": "2 小時前"
+"who": "Microsoft CEO Satya Nadella",
+"summary": "納德拉強調企業應保有AI產生的知識所有權。",
+"why": "AI產權爭議將影響企業競爭力與數據治理，牽動未來產業規則。",
+"source": "Digital Information World",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWllhTzAyaXY4aDlaVHZPZnJUcGtlcFp3S2Z5Zmo4dFdIYzZPTEtTczhFZFhjNXgwYjVMSjRpcnY1dUJLZE5PNjRQeENUZm92UzlRY2NaekZRc05HTkk5RmZoc3lHX2ZrNFNzWXZHcDFwS1VXSVF0N3RIcEowWkI1QlBMaDVmV3BLRF9Pc0Jn?oc=5",
+"time": "33 分鐘前"
 },
 {
-"who": "Volkswagen CEO",
-"summary": "福斯CEO警告將進行更深層的成本改革，裁員可能達10萬人。",
-"why": "顯示汽車產業面臨結構性調整，對全球就業與供應鏈產生深遠影響。",
-"source": "Firstpost",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDZxSW9xZS1jV0tDTld4Zlp2Q1oyemJtZVJWYm5ldFcwMGF5Z1FkaXpBU05IOHRiMFpWR3hsTWd3WjRtNmFia2tEWW9TVDkzeHNicTU0WU5IdFY5MWVNWTRuTGNCN293N3hwWlJEbDBwdlRfVVJ6QXduWHRJT3F1anBDMW4wQ2w4ZmVZb1JOWEFuaEdvQ1JFS3h0dFpxUmVVaHlLajh3MTRyWGdWeEJaaDgzNlR2SmZ30gG-AUFVX3lxTE51Sjk2cm1NOWpIak9jQ2JaWUNNNUJmNkl1Z2FKQVFmZjVOd1IxSnh6ZmZNTU5xLWdqOTMyajZNQm5BUmJIYk5tVzlUQVROZlFiVkVJUFBmUHVIVEJ2WkNhUmNHTG1nSzQ4Rk8wbDF0bXV0QXhhR0VyMmpDTjYwSTVQTGgxWE5XQjhPSVVoNlg5M2xoOHNHTUVGVjNrSkJLRDZVTUZtbmZrRUJHbTFGV19RTTJSRjRFWHpIdm11NVE?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Palantir CEO",
-"summary": "Palantir CEO警告AI可能成為美國財富不平等的最大推手。",
-"why": "凸顯AI技術對社會結構與經濟分配的潛在衝擊，將引發政策與產業調整。",
+"who": "Palantir CEO Alex Karp",
+"summary": "Karp警告AI可能成為美國財富不平等的最大推手。",
+"why": "AI發展加劇社會分配問題，政策與產業需提前因應。",
 "source": "Benzinga",
 "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQeEhHU3ViSURoNUx6MjVZd2t6bkZ1YUlEcEFpMkpZa2V1bU1Mc0phQUhIZDRCTW9tMWpYRzk3ZUlXbmZ5YVh6Q1VURU91Y3RpbEo2MkVNMHNoaHplaU1SVEVTRE00X3RVQnJUQXdwTFdrZTR4RzVMUlhFOHFmNDlyZXh5aFBzRm9FWktUbFluNmR5NjFFMjBBeHNqdEthLUxRZW5IWWxlMm5GUG5ldDNnRTJ4czZyLWR2VEg1WG9mM3dFb3NHTHRvTmpYcUNfMTdEaUJTRmZVWjNaUTc3ZTVxT004ejQ1dVNuZGZPTkRtbjE3aTZfTnFvckNYbkdhZ1FxSVVIdA?oc=5",
-"time": "17 分鐘前"
+"time": "53 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普宣布恢復霍爾木茲海峽封鎖，並持續對伊朗發動打擊。",
+"why": "加劇中東緊張局勢，對全球能源供應與安全有重大影響。",
+"source": "France 24",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeXBBaGxOR2Q2QjJSVjRNcldTeDVHZXA3cGVkbE9oTFZza0NHdkx2djBFUnl4aDBWZ29NdXdTSmNaSnNadXNxYmRvbWF2RXcyd09GNHpxNTdiREpYcV9GckZsT044akEwT3VlZWc2SE1ZbVFqaGdzVUpUS292Z3lrT212QkgtYW1nemJmVTF1dTlhTGlhOWxlT3J4V1Qwb3Atdkhrbzdjcnk5Zw?oc=5",
+"time": "1 小時前"
 }
 ]
 }
