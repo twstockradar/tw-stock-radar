@@ -1,7 +1,7 @@
 {
 "date": "2026-07-15",
 "count": 25,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、先進封裝、CCL、ABF載板等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、金融等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、CCL材料等。",
 "stocks": [
 {
 "code": "1303",
@@ -16,7 +16,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL材料"
 },
 {
 "code": "2059",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "2330",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進製程晶圓代工"
+"theme": "晶圓代工"
 },
 {
 "code": "2382",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL材料"
 },
 {
 "code": "2449",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡"
 },
 {
 "code": "2454",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控銀行"
+"theme": "金融控股"
 },
 {
 "code": "3026",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "3037",
@@ -240,7 +240,7 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝",
+"group": "封裝測試",
 "theme": "先進封裝"
 },
 {
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL材料"
 },
 {
 "code": "6239",
@@ -285,8 +285,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝",
-"theme": "記憶體封裝測試"
+"group": "封裝測試",
+"theme": "記憶體封裝"
 },
 {
 "code": "8046",
@@ -315,8 +315,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "封裝",
-"theme": "封裝測試"
+"group": "封裝測試",
+"theme": "DRAM封裝"
 },
 {
 "code": "5347",
@@ -361,7 +361,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "CCL材料"
 },
 {
 "code": "6488",
@@ -380,47 +380,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對伊朗的強硬軍事威脅與大型企業CEO對AI與產業未來的預測，將深刻影響地緣政治與產業發展。",
+"takeaway": "川普針對伊朗的強硬政策與大型企業CEO對AI未來的預測，將深刻影響地緣政治與科技產業趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普威脅若伊朗不恢復談判，將轟炸其橋樑與發電廠。",
-"why": "顯示美國對伊朗採取極端施壓策略，可能引發中東局勢升級，影響全球能源與安全格局。",
-"source": "BBC",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XSndWRHNWTGJQU0VCZ28yTVRwNFdVeVZmNVVsMDdWUlJSaGg0dzZ4UGdsVTFSTFpvVW1zSGswWnNLZnNiaGNBSmNuUG82eERCQWpnTDNlbnplUQ?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "孫正義（SoftBank CEO）",
-"summary": "孫正義預言2040年前將有10億個AI驅動的人形機器人誕生。",
-"why": "預示AI與機器人產業將大規模擴張，對全球勞動力與產業結構產生顛覆性影響。",
-"source": "Myanmar Digital News",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQll0bVBVVWF4eXhOdHlWNkwxNWV3anNpVnNyTnpXaDgyVTdVSmUwb213NXk5RUI4SG9mVEVuS3cySmg2OEQwaDl3aXJtMDdVUTQxTFVUSmNNSkJCcU9oNVJORklBT2tpT0wtMU9iSTQ5eXpDRWVNYVd3NnkxMk9Xa0xsOGpMS2NpaHNzUVFMZEE4Ml8yWnc?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Volkswagen CEO",
-"summary": "Volkswagen CEO警告將進一步裁員5萬人，並推動新一輪成本削減。",
-"why": "反映汽車產業正面臨轉型壓力，預示全球製造業將加速自動化與重組。",
-"source": "Sakshi Education",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUY4b1h4ZTRVa0RJMmpJbW9sWjloaDU5U25PNDNnR1BsT3RPVTVpcW03dVFkeDFMajBPWnctR2swU2RPNXlQZmNwT28tbUhCaUlfYzVlV2lfLVZGNlFPdWxSNkZVX1hFaHRzZTZ0S3JGSkwzRW55aVlyMHVacGVkVnY0RWZ4MzRLeWoyUU5vQUNadGgyOWZwT01fWkUtZnVmX2pqQlFRd0ZGS2EzRy1qZ1hMS0FKMmloSm5oSzBhZw?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "Demis Hassabis（DeepMind CEO）",
-"summary": "Hassabis警告AGI（通用人工智慧）即將到來，呼籲美國主導制定全球標準。",
-"why": "強調AI治理與監管迫切性，將影響全球科技競賽與規範制定。",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzTkxxNElYbTVhbjBYMUNxZEFzdE1wcFJhVUNxc2xzWmY2cV8wa2d2dzJnWjA4Snp3N0JUODJuU0M1TnYxYV9oT0NqZGNwRkhld3NkZ2NkNTl2emVJUWE4azBBUFJKcnpZSDJxVVptQzJSNTh2bnVnWmdB0gGOAUFVX3lxTFBoeVo2blJzUGVlMTFTaGtSRHFWa1lmSkdEajRhTGhPbFg4WGtVdXJXTE5rSlpHNjNjU1RMZ0FZVU5kckU4c1ZhdGtzRFdxOFluX2JSUFB1VjlrOGJCM0xva1VFNkh5V2tISGV3WXRLb2pqSkpDYmg0c1FoaFpxUG5XdzNib1kwUHVNRDhlOUE?oc=5",
+"summary": "川普表示對伊朗的打擊將持續，直到他認為足夠為止。",
+"why": "展現美國對伊朗的強硬態度，可能加劇中東緊張局勢並影響全球能源市場。",
+"source": "dw.com",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0Y2bFYzbTlJalF5cTlGYmtucFlfZ1VHblQtNFRnTDNjRm9uMzNTRUhBdEYxOTY3OGFvSkZJWVNBNXhZb1dJRVk4N1dQSXN5bUZ2dlFDcTNST29Md2M2MkMyVlRjU2VNWFRySF9tT2FqY21tQWRnd2RWMGJNejlpSUxobUdDcldPMmkxeGMwWm1ZVEtwa2ZJ?oc=5",
 "time": "4 小時前"
 },
 {
-"who": "Thames Water CEO",
-"summary": "Thames Water CEO表示公司未來取決於新任英國首相。",
-"why": "突顯基礎設施企業高度依賴政策環境，英國政局變動將牽動重要公用事業未來。",
-"source": "Yahoo Finance UK",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY1Bfb3JCQU5KMWFFWlhqX1BnUU1SdVBkaGdEeUk4RWE2N3FIUGkycnZ6aVd2ODIyLVotZ3FGdHZYOERhamV3d1ZSczFCV3I1alltajI1S1ZJMVNxVjRvVkl2dWNwX1BwUnJ2QWtNUW9oR3JYZ09zeGRNcnlFR25DUzFDQQ?oc=5",
-"time": "40 分鐘前"
+"who": "川普",
+"summary": "川普宣布美國下週將打擊伊朗能源目標與基礎設施。",
+"why": "直接威脅伊朗能源產業，對油價、地緣政治及全球供應鏈有重大影響。",
+"source": "The Jerusalem Post",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qTEpTdE9SY3ZZQWFVNUN1WURQRVdZQVlTaVJCZFI4bHEyVHNUVmhHQmhfVnFLNHlZTVVFTzU5T0dXY3RlNzZzdDBPS0ZXdUp0dEhnSHlzMkdJZlFtSHU4?oc=5",
+"time": "5 小時前"
+},
+{
+"who": "SoftBank CEO 孫正義",
+"summary": "孫正義預測到2040年將創造10億個AI人形機器人。",
+"why": "代表AI產業規模與應用將大幅擴張，對全球勞動市場與產業結構產生深遠影響。",
+"source": "Myanmar Digital News",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQll0bVBVVWF4eXhOdHlWNkwxNWV3anNpVnNyTnpXaDgyVTdVSmUwb213NXk5RUI4SG9mVEVuS3cySmg2OEQwaDl3aXJtMDdVUTQxTFVUSmNNSkJCcU9oNVJORklBT2tpT0wtMU9iSTQ5eXpDRWVNYVd3NnkxMk9Xa0xsOGpMS2NpaHNzUVFMZEE4Ml8yWnc?oc=5",
+"time": "2 小時前"
+},
+{
+"who": "Volkswagen CEO",
+"summary": "Volkswagen CEO警告將進行新一輪成本削減，恐再裁員5萬人。",
+"why": "顯示汽車產業面臨重大轉型壓力，對歐洲經濟與就業市場有深遠影響。",
+"source": "Sakshi Education",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUY4b1h4ZTRVa0RJMmpJbW9sWjloaDU5U25PNDNnR1BsT3RPVTVpcW03dVFkeDFMajBPWnctR2swU2RPNXlQZmNwT28tbUhCaUlfYzVlV2lfLVZGNlFPdWxSNkZVX1hFaHRzZTZ0S3JGSkwzRW55aVlyMHVacGVkVnY0RWZ4MzRLeWoyUU5vQUNadGgyOWZwT01fWkUtZnVmX2pqQlFRd0ZGS2EzRy1qZ1hMS0FKMmloSm5oSzBhZw?oc=5",
+"time": "4 小時前"
+},
+{
+"who": "DeepMind CEO Hassabis",
+"summary": "Hassabis警告AGI即將到來，呼籲美國主導制定全球標準。",
+"why": "AI發展進入關鍵階段，全球監管與標準制定將影響科技競爭格局。",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzTkxxNElYbTVhbjBYMUNxZEFzdE1wcFJhVUNxc2xzWmY2cV8wa2d2dzJnWjA4Snp3N0JUODJuU0M1TnYxYV9oT0NqZGNwRkhld3NkZ2NkNTl2emVJUWE4azBBUFJKcnpZSDJxVVptQzJSNTh2bnVnWmdB0gGOAUFVX3lxTFBoeVo2blJzUGVlMTFTaGtSRHFWa1lmSkdEajRhTGhPbFg4WGtVdXJXTE5rSlpHNjNjU1RMZ0FZVU5kckU4c1ZhdGtzRFdxOFluX2JSUFB1VjlrOGJCM0xva1VFNkh5V2tISGV3WXRLb2pqSkpDYmg0c1FoaFpxUG5XdzNib1kwUHVNRDhlOUE?oc=5",
+"time": "4 小時前"
 }
 ]
 }
