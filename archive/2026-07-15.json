@@ -1,7 +1,7 @@
 {
 "date": "2026-07-15",
 "count": 25,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、金融等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、CCL材料等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝、被動元件等族群為主，題材集中於先進封裝、AI伺服器、載板、晶圓代工、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -16,7 +16,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2059",
@@ -54,14 +54,14 @@
 "market": "TWSE",
 "close": 798.0,
 "change_pct": 2.570694087403599,
-"trade_value": 41416927827.0,
+"trade_value": 41591393306.0,
 "market_cap": 1653029456232.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2440.0,
 "change_pct": 0.8264462809917356,
-"trade_value": 73055942520.0,
+"trade_value": 82213791038.0,
 "market_cap": 63274982963480.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 381.0,
 "change_pct": 0.2631578947368421,
-"trade_value": 8324189717.0,
+"trade_value": 9487388477.0,
 "market_cap": 1471661051592.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -99,14 +99,14 @@
 "market": "TWSE",
 "close": 5080.0,
 "change_pct": 2.2132796780684103,
-"trade_value": 6758604610.0,
+"trade_value": 6835177909.0,
 "market_cap": 1820271259120.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2449",
@@ -114,7 +114,7 @@
 "market": "TWSE",
 "close": 307.0,
 "change_pct": 5.317324185248713,
-"trade_value": 7298043455.0,
+"trade_value": 7318327705.0,
 "market_cap": 375382734955.0,
 "status": "NEAR_HIGH",
 "dist": -0.04663923182441698,
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 3740.0,
 "change_pct": 2.185792349726776,
-"trade_value": 27122644985.0,
+"trade_value": 27350951879.0,
 "market_cap": 5998568822180.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -144,14 +144,14 @@
 "market": "TWSE",
 "close": 63.5,
 "change_pct": -2.307692307692308,
-"trade_value": 5019613436.0,
+"trade_value": 5056830412.0,
 "market_cap": 1249483047193.5,
 "status": "NEAR_HIGH",
 "dist": -0.07894732948989358,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金融控股"
+"theme": "金控銀行"
 },
 {
 "code": "3026",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "3037",
@@ -234,13 +234,13 @@
 "market": "TWSE",
 "close": 683.0,
 "change_pct": 6.5522620904836195,
-"trade_value": 17907001828.0,
+"trade_value": 17955193595.0,
 "market_cap": 3046748995006.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
+"group": "半導體",
 "theme": "先進封裝"
 },
 {
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -285,8 +285,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
-"theme": "記憶體封裝"
+"group": "封裝",
+"theme": "記憶體封裝測試"
 },
 {
 "code": "8046",
@@ -315,8 +315,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "封裝測試",
-"theme": "DRAM封裝"
+"group": "封裝",
+"theme": "封裝測試"
 },
 {
 "code": "5347",
@@ -361,7 +361,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6488",
@@ -380,47 +380,39 @@
 }
 ],
 "news": {
-"takeaway": "川普針對伊朗的強硬政策與大型企業CEO對AI未來的預測，將深刻影響地緣政治與科技產業趨勢。",
+"takeaway": "川普針對伊朗與武器生產的強硬政策，以及IBM與SoftBank CEO的重大發言，可能深刻影響地緣政治、科技與產業趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示對伊朗的打擊將持續，直到他認為足夠為止。",
-"why": "展現美國對伊朗的強硬態度，可能加劇中東緊張局勢並影響全球能源市場。",
-"source": "dw.com",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0Y2bFYzbTlJalF5cTlGYmtucFlfZ1VHblQtNFRnTDNjRm9uMzNTRUhBdEYxOTY3OGFvSkZJWVNBNXhZb1dJRVk4N1dQSXN5bUZ2dlFDcTNST29Md2M2MkMyVlRjU2VNWFRySF9tT2FqY21tQWRnd2RWMGJNejlpSUxobUdDcldPMmkxeGMwWm1ZVEtwa2ZJ?oc=5",
-"time": "4 小時前"
+"summary": "川普警告美國對伊朗的攻擊可能下週升級，將針對電廠等關鍵設施。",
+"why": "顯示美伊緊張局勢升溫，可能引發能源市場波動與地緣政治風險。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT0VyUS0wbUp2Wi1ocnZndDNKWFFRY3hTdzdONnNZOGhvY2RJR1NhcTQtSXhZS3VrenNtWDhqaGl1cUpWdW5DRFFJZ0t1TDVIX3pNenRmZWtEY1R4dGRGOHI3cWNTNm44bFVtNGtrS0NHMmlicGozZlJFVERITlEyYmdGeXhhTXo3YTFFUNIBkgFBVV95cUxPRkh2Z25MUnYtd0FYVXJITmlwNXZRVkhjV2tfbHY1MUpPQ3JCQ3h4Q3Z3dGdjZGhOR0RDRV9xdVotdG05WFdPRTBWQUxBSW5lWWpNZU0wbGU0Yjh6LXoxdTVfSWY5Z2szTzZrUllyX1BaVXVLQzR4czNhbXYydHdvcGpqVXJWLUJXZFNoS1lxWU5mZw?oc=5",
+"time": "54 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普宣布美國下週將打擊伊朗能源目標與基礎設施。",
-"why": "直接威脅伊朗能源產業，對油價、地緣政治及全球供應鏈有重大影響。",
-"source": "The Jerusalem Post",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qTEpTdE9SY3ZZQWFVNUN1WURQRVdZQVlTaVJCZFI4bHEyVHNUVmhHQmhfVnFLNHlZTVVFTzU5T0dXY3RlNzZzdDBPS0ZXdUp0dEhnSHlzMkdJZlFtSHU4?oc=5",
-"time": "5 小時前"
+"summary": "川普要求國防企業加速武器生產。",
+"why": "反映美國軍事擴張與國防產業需求增加，對全球軍工產業與供應鏈有深遠影響。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcV9kVWNrQTFVVGduNXIxcWdOWDZiWGFUcVFoelNYa05IS1IycGRQX19DRFZmai1tTXRTSXRTTmJiV19uVXBHVzU4ekVFTFRVNENuRUJCMmRwcGw1anEzTjFjT3NmZWhSSFBRQ0NxY1hzc21nYXNmNHQ4RkRGOUJGWVpncFNrRWNLcENkZk9LZzEtSWd4RGFydEk3Sm9COFF1Ri1FV0VXUVJkZk9VQWhQMmNLcHV6YlJudHc?oc=5",
+"time": "13 分鐘前"
+},
+{
+"who": "IBM CEO Arvind Krishna",
+"summary": "IBM CEO的聲明導致公司市值蒸發700億美元。",
+"why": "顯示大型科技企業領導人發言對市場信心與股價有巨大影響，可能帶動產業調整。",
+"source": "The Times of India",
+"link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQenlCenctNVRUMEI4dzVJQTNJOXJMeTJ5U1g5Y1dSXzU4VDRzRnp2TjRoWVZmY1p2Wk01UFZGV0U3QU1ieVk5Z0pOOVhrZUpDUURaM3NwUndodjl6YjA4ZzF5VnowbkE3NmR4NTE0RFFiMUxTdE9sOXMwM1hWT3dCVENYcG5lOEtnWkV5ZzFCM21mNE9OWGcwSUh2bUo2UWlXTmVQMThyc1oyWjF3N2VtQjg5TzF1N1hkMUNLVDhtSXFUbmpRRUsxRjZQSEZyY2VQVUV6UUxLdi1kTVBjTkhmeVF3SHZYbE1RR1RZU1pCZ1BGN3VfWnN1RUxoTTVydHd6V19PbkM0a25ZWWI3ZFktdVZJenpUTXFhSkhIc21rdENya2J2ZjBtSDdGbmJiZDk5YU1kTUhvZndPb0xJbk83NnZFeE5wWW9HRFlqUWFodE1WSzVsbDNmWlVEdlBTQWdwNFdubU50WG5VM2NUcGpvbjYtcFdRR3J4dmfSAf8CQVVfeXFMT1VOaEhyTEQxREF4VkJHTTBKT29RanpzVHllc0QwQ0dFTkYtNVVUMjlaQjRNb0g2RnVYRDBkY0p3ZFExeWZmWDdRbzhDeFJ0c3lXMkVzWWt3UzUyYUlwdkw0MlVTV1IzQUZsMzVrbHJPMk5wcXVVeHkxdXl5NktyRlYzai16SFJ2bmNiNFlCbEdDc0lGZGl3ZWZic084ZXktaFRnbTJPTFNNenhGU2EzWFF2RVlVYkU2b01ENTJfUDIzUW5WVUJpM0xSbTdZODJPUXN3TnRaQWFoeHZhWWExQVhQLWJGQ3VCdUo5RWlyWExkRzlESXFUeHhQblFwUkJLcV9pdjAwSXQ3TVpadG55RmdpZGhZTURQMVlnOWpLVlVhT1VueFE1OERJR2VQN2p3UzNaVEZKNGxmRm5tYV9XYXI0d1hVNmNlSmNIeUMtbERIZEZ4eHFwVTJCNTdVaklrYlJ6SFZjMkpqdi1SMTUwaHFEVzRTYURfTE1YMFBic1U?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "SoftBank CEO 孫正義",
-"summary": "孫正義預測到2040年將創造10億個AI人形機器人。",
-"why": "代表AI產業規模與應用將大幅擴張，對全球勞動市場與產業結構產生深遠影響。",
+"summary": "孫正義預言2040年前將創造10億個AI人形機器人。",
+"why": "預示AI與機器人產業的爆發式成長，對全球勞動市場與產業結構有重大衝擊。",
 "source": "Myanmar Digital News",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQll0bVBVVWF4eXhOdHlWNkwxNWV3anNpVnNyTnpXaDgyVTdVSmUwb213NXk5RUI4SG9mVEVuS3cySmg2OEQwaDl3aXJtMDdVUTQxTFVUSmNNSkJCcU9oNVJORklBT2tpT0wtMU9iSTQ5eXpDRWVNYVd3NnkxMk9Xa0xsOGpMS2NpaHNzUVFMZEE4Ml8yWnc?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "Volkswagen CEO",
-"summary": "Volkswagen CEO警告將進行新一輪成本削減，恐再裁員5萬人。",
-"why": "顯示汽車產業面臨重大轉型壓力，對歐洲經濟與就業市場有深遠影響。",
-"source": "Sakshi Education",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUY4b1h4ZTRVa0RJMmpJbW9sWjloaDU5U25PNDNnR1BsT3RPVTVpcW03dVFkeDFMajBPWnctR2swU2RPNXlQZmNwT28tbUhCaUlfYzVlV2lfLVZGNlFPdWxSNkZVX1hFaHRzZTZ0S3JGSkwzRW55aVlyMHVacGVkVnY0RWZ4MzRLeWoyUU5vQUNadGgyOWZwT01fWkUtZnVmX2pqQlFRd0ZGS2EzRy1qZ1hMS0FKMmloSm5oSzBhZw?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "DeepMind CEO Hassabis",
-"summary": "Hassabis警告AGI即將到來，呼籲美國主導制定全球標準。",
-"why": "AI發展進入關鍵階段，全球監管與標準制定將影響科技競爭格局。",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzTkxxNElYbTVhbjBYMUNxZEFzdE1wcFJhVUNxc2xzWmY2cV8wa2d2dzJnWjA4Snp3N0JUODJuU0M1TnYxYV9oT0NqZGNwRkhld3NkZ2NkNTl2emVJUWE4azBBUFJKcnpZSDJxVVptQzJSNTh2bnVnWmdB0gGOAUFVX3lxTFBoeVo2blJzUGVlMTFTaGtSRHFWa1lmSkdEajRhTGhPbFg4WGtVdXJXTE5rSlpHNjNjU1RMZ0FZVU5kckU4c1ZhdGtzRFdxOFluX2JSUFB1VjlrOGJCM0xva1VFNkh5V2tISGV3WXRLb2pqSkpDYmg0c1FoaFpxUG5XdzNib1kwUHVNRDhlOUE?oc=5",
-"time": "4 小時前"
+"time": "3 小時前"
 }
 ]
 }
