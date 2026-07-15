@@ -1,7 +1,7 @@
 {
 "date": "2026-07-15",
 "count": 25,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝、被動元件等族群為主，題材集中於先進封裝、AI伺服器、載板、晶圓代工、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、金融等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、重電、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -15,8 +15,8 @@
 "dist": -0.015000000000000013,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"group": "電源/重電",
+"theme": "重電材料"
 },
 {
 "code": "2059",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "2330",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "晶圓代工"
+"theme": "先進製程/晶圓代工"
 },
 {
 "code": "2382",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控銀行"
+"theme": "金融控股"
 },
 {
 "code": "3026",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "3037",
@@ -195,8 +195,8 @@
 "dist": -0.10837438423645318,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "機構件",
-"theme": "伺服器機構件"
+"group": "PCB/CCL",
+"theme": "伺服器用PCB"
 },
 {
 "code": "3443",
@@ -240,8 +240,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "封裝測試",
+"theme": "先進封裝/CoWoS"
 },
 {
 "code": "4958",
@@ -271,7 +271,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高頻PCB"
 },
 {
 "code": "6239",
@@ -285,8 +285,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝",
-"theme": "記憶體封裝測試"
+"group": "封裝測試",
+"theme": "記憶體封裝"
 },
 {
 "code": "8046",
@@ -315,8 +315,8 @@
 "dist": -0.04824561403508776,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "封裝",
-"theme": "封裝測試"
+"group": "封裝測試",
+"theme": "DRAM封裝測試"
 },
 {
 "code": "5347",
@@ -380,28 +380,36 @@
 }
 ],
 "news": {
-"takeaway": "川普針對伊朗與武器生產的強硬政策，以及IBM與SoftBank CEO的重大發言，可能深刻影響地緣政治、科技與產業趨勢。",
+"takeaway": "川普針對伊朗與武器生產的強硬表態，以及IBM與SoftBank CEO的重大發言，揭示地緣政治與AI產業未來趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普警告美國對伊朗的攻擊可能下週升級，將針對電廠等關鍵設施。",
-"why": "顯示美伊緊張局勢升溫，可能引發能源市場波動與地緣政治風險。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT0VyUS0wbUp2Wi1ocnZndDNKWFFRY3hTdzdONnNZOGhvY2RJR1NhcTQtSXhZS3VrenNtWDhqaGl1cUpWdW5DRFFJZ0t1TDVIX3pNenRmZWtEY1R4dGRGOHI3cWNTNm44bFVtNGtrS0NHMmlicGozZlJFVERITlEyYmdGeXhhTXo3YTFFUNIBkgFBVV95cUxPRkh2Z25MUnYtd0FYVXJITmlwNXZRVkhjV2tfbHY1MUpPQ3JCQ3h4Q3Z3dGdjZGhOR0RDRV9xdVotdG05WFdPRTBWQUxBSW5lWWpNZU0wbGU0Yjh6LXoxdTVfSWY5Z2szTzZrUllyX1BaVXVLQzR4czNhbXYydHdvcGpqVXJWLUJXZFNoS1lxWU5mZw?oc=5",
-"time": "54 分鐘前"
+"summary": "川普敦促國防企業加速武器生產。",
+"why": "顯示美國軍事產業將進一步擴張，可能推動全球軍備競賽與相關產業發展。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcV9kVWNrQTFVVGduNXIxcWdOWDZiWGFUcVFoelNYa05IS1IycGRQX19DRFZmai1tTXRTSXRTTmJiV19uVXBHVzU4ekVFTFRVNENuRUJCMmRwcGw1anEzTjFjT3NmZWhSSFBRQ0NxY1hzc21nYXNmNHQ4RkRGOUJGWVpncFNrRWNLcENkZk9LZzEtSWd4RGFydEk3Sm9COFF1Ri1FV0VXUVJkZk9VQWhQMmNLcHV6YlJudHc?oc=5",
+"time": "18 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普要求國防企業加速武器生產。",
-"why": "反映美國軍事擴張與國防產業需求增加，對全球軍工產業與供應鏈有深遠影響。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcV9kVWNrQTFVVGduNXIxcWdOWDZiWGFUcVFoelNYa05IS1IycGRQX19DRFZmai1tTXRTSXRTTmJiV19uVXBHVzU4ekVFTFRVNENuRUJCMmRwcGw1anEzTjFjT3NmZWhSSFBRQ0NxY1hzc21nYXNmNHQ4RkRGOUJGWVpncFNrRWNLcENkZk9LZzEtSWd4RGFydEk3Sm9COFF1Ri1FV0VXUVJkZk9VQWhQMmNLcHV6YlJudHc?oc=5",
-"time": "13 分鐘前"
+"summary": "川普警告美國下週可能對伊朗能源設施進行打擊，情勢恐惡化。",
+"why": "美伊緊張升級，對能源市場與地緣政治局勢有重大影響。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT0VyUS0wbUp2Wi1ocnZndDNKWFFRY3hTdzdONnNZOGhvY2RJR1NhcTQtSXhZS3VrenNtWDhqaGl1cUpWdW5DRFFJZ0t1TDVIX3pNenRmZWtEY1R4dGRGOHI3cWNTNm44bFVtNGtrS0NHMmlicGozZlJFVERITlEyYmdGeXhhTXo3YTFFUNIBkgFBVV95cUxPRkh2Z25MUnYtd0FYVXJITmlwNXZRVkhjV2tfbHY1MUpPQ3JCQ3h4Q3Z3dGdjZGhOR0RDRV9xdVotdG05WFdPRTBWQUxBSW5lWWpNZU0wbGU0Yjh6LXoxdTVfSWY5Z2szTzZrUllyX1BaVXVLQzR4czNhbXYydHdvcGpqVXJWLUJXZFNoS1lxWU5mZw?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "川普",
+"summary": "川普表示美國將打擊伊朗能源與基礎設施。",
+"why": "直接威脅全球能源供應，可能引發油價波動與區域衝突。",
+"source": "The Jerusalem Post",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qTEpTdE9SY3ZZQWFVNUN1WURQRVdZQVlTaVJCZFI4bHEyVHNUVmhHQmhfVnFLNHlZTVVFTzU5T0dXY3RlNzZzdDBPS0ZXdUp0dEhnSHlzMkdJZlFtSHU4?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "IBM CEO Arvind Krishna",
-"summary": "IBM CEO的聲明導致公司市值蒸發700億美元。",
-"why": "顯示大型科技企業領導人發言對市場信心與股價有巨大影響，可能帶動產業調整。",
+"summary": "IBM CEO發表聲明導致公司市值蒸發700億美元。",
+"why": "顯示大型科技企業領導人發言對市場影響巨大，並可能引發產業連鎖反應。",
 "source": "The Times of India",
 "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQenlCenctNVRUMEI4dzVJQTNJOXJMeTJ5U1g5Y1dSXzU4VDRzRnp2TjRoWVZmY1p2Wk01UFZGV0U3QU1ieVk5Z0pOOVhrZUpDUURaM3NwUndodjl6YjA4ZzF5VnowbkE3NmR4NTE0RFFiMUxTdE9sOXMwM1hWT3dCVENYcG5lOEtnWkV5ZzFCM21mNE9OWGcwSUh2bUo2UWlXTmVQMThyc1oyWjF3N2VtQjg5TzF1N1hkMUNLVDhtSXFUbmpRRUsxRjZQSEZyY2VQVUV6UUxLdi1kTVBjTkhmeVF3SHZYbE1RR1RZU1pCZ1BGN3VfWnN1RUxoTTVydHd6V19PbkM0a25ZWWI3ZFktdVZJenpUTXFhSkhIc21rdENya2J2ZjBtSDdGbmJiZDk5YU1kTUhvZndPb0xJbk83NnZFeE5wWW9HRFlqUWFodE1WSzVsbDNmWlVEdlBTQWdwNFdubU50WG5VM2NUcGpvbjYtcFdRR3J4dmfSAf8CQVVfeXFMT1VOaEhyTEQxREF4VkJHTTBKT29RanpzVHllc0QwQ0dFTkYtNVVUMjlaQjRNb0g2RnVYRDBkY0p3ZFExeWZmWDdRbzhDeFJ0c3lXMkVzWWt3UzUyYUlwdkw0MlVTV1IzQUZsMzVrbHJPMk5wcXVVeHkxdXl5NktyRlYzai16SFJ2bmNiNFlCbEdDc0lGZGl3ZWZic084ZXktaFRnbTJPTFNNenhGU2EzWFF2RVlVYkU2b01ENTJfUDIzUW5WVUJpM0xSbTdZODJPUXN3TnRaQWFoeHZhWWExQVhQLWJGQ3VCdUo5RWlyWExkRzlESXFUeHhQblFwUkJLcV9pdjAwSXQ3TVpadG55RmdpZGhZTURQMVlnOWpLVlVhT1VueFE1OERJR2VQN2p3UzNaVEZKNGxmRm5tYV9XYXI0d1hVNmNlSmNIeUMtbERIZEZ4eHFwVTJCNTdVaklrYlJ6SFZjMkpqdi1SMTUwaHFEVzRTYURfTE1YMFBic1U?oc=5",
 "time": "1 小時前"
@@ -409,7 +417,7 @@
 {
 "who": "SoftBank CEO 孫正義",
 "summary": "孫正義預言2040年前將創造10億個AI人形機器人。",
-"why": "預示AI與機器人產業的爆發式成長，對全球勞動市場與產業結構有重大衝擊。",
+"why": "代表AI產業未來規模與應用將大幅擴展，對全球經濟與勞動市場產生深遠影響。",
 "source": "Myanmar Digital News",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQll0bVBVVWF4eXhOdHlWNkwxNWV3anNpVnNyTnpXaDgyVTdVSmUwb213NXk5RUI4SG9mVEVuS3cySmg2OEQwaDl3aXJtMDdVUTQxTFVUSmNNSkJCcU9oNVJORklBT2tpT0wtMU9iSTQ5eXpDRWVNYVd3NnkxMk9Xa0xsOGpMS2NpaHNzUVFMZEE4Ml8yWnc?oc=5",
 "time": "3 小時前"
