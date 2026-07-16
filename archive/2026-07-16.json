@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "頻率元件"
+"theme": "石英元件"
 },
 {
 "code": "3661",
@@ -380,47 +380,39 @@
 }
 ],
 "news": {
-"takeaway": "川普針對選舉與政策發表多項重要言論，Nvidia與日本合作AI機器人，顯示美國政經與AI產業動向。",
+"takeaway": "川普針對AI與司法、移民政策持續推動重大決策，Nvidia與CEO黃仁勳積極布局AI產業。",
 "items": [
 {
 "who": "川普",
-"summary": "川普將於黃金時段發表選舉安全相關演說。",
-"why": "川普公開發言可能影響美國選舉信心與政策走向，牽動政治局勢。",
-"source": "Reuters",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnIxbG1weWlQMmJNcnBLeWdvaFhkbFAxYS05NjZZVEFkMnNXbDNXWlBCZWxMY2FVSllaam8waXRveG9tYjVRa3NuOG5nVlFRc1lvcXpkeFlVN2cxMWN1TjRyckMtUUhmT0ZIRzVQa0QyTkIydmdzSWtEU0lvckNhTGxSN1AtUXd6UkZYNmRKaXQtd0hHSDlqVVRTSzREVmFGT05oM2RvZV80N1oybWhJdW5tRm1WSWdRb0duUA?oc=5",
+"summary": "川普簽署AI行政命令。",
+"why": "美國政府正式推動AI政策，將影響全球AI產業規範與發展。",
+"source": "quasa.io",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZS1QU2ZVbE0zQWxyaGcxZGl2dW05ZlV0SUFHdDBqNUlRbjhGRVBHWERNSjlDQWo4bktJNThHdksycDAxTUt0SzR0WDNWUHNzbkJaZE5WcUNnZUpHMER4dGtEX2d6eWQ2R180VTYtekp1eXNhY2hmRXpOT0F6VDA2ZTdkY3laUQ?oc=5",
+"time": "9 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普在西雅圖新任命的美國檢察官上任不到一小時即開除其職。",
+"why": "顯示川普對司法系統的直接干預，可能影響美國司法獨立與政治環境。",
+"source": "WCIV",
+"link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNd1BNSndhZFMwcEUwWDBkc29DYUo4OHQtcHRYWnZCSk5jRkFFRVJnSF91QkNRVWI2R3kwd05RZnlzTzN5Z2Z5YWN2VUNWS21BaTN1Y3A5M3NOQU9UT2N6SXM5RHNIZUJMb2tmbTF4dDVfcXQ0QU5zSzBkOWdnbXp5MWhFazR1alA2cl9oZk1FbkFyeVdwZGtRem9EcGl0QUhvYkJSNWFma3pvRGh0dXFLZWQxVEtSYjVpMmFweXczWjBaamFLQnZSYjN5LVJyMkdqeHlOME9VR2pZdHN2NldlNkJBdE9qMU1FbXJzWFVWdXZEVUQzaFkzQk5NVjFzSUFadjlTTHRabkFQSE9oVUh6ay1OSmxrSEJ5Q3c?oc=5",
+"time": "24 分鐘前"
+},
+{
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳公開稱Kioxia為優秀企業。",
+"why": "Nvidia與Kioxia合作或關係深化，可能推動半導體與AI存儲技術發展。",
+"source": "TradingView",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRllvVUUtTlBFY1A2a0xhaEUwMHBGR295dVBjZjRwZDItQVYzeWZmN3pUc3d4S0VrVl9iVUVUUl8zUWhFN3Z0Q20ycnNQVnhMS0ZPbGJBRnJlY0lXWU0yVkN3TGJocUtQTTdXcHB0eHBxZVZqM0ZXc1Z5dnJfS1ZwNjVYallhdVo1cDdLUkpheE9MLWgxWktTN1QyV2R5WUYzZ3AyZTVwV182QQ?oc=5",
 "time": "40 分鐘前"
 },
 {
-"who": "川普",
-"summary": "川普在購買相關股票後於Truth Social推廣這些公司。",
-"why": "前總統直接推廣個股，可能引發監管關注與市場波動，影響投資人行為。",
-"source": "CNN",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tWFFXdnV0eVdtRnZwU3gyV1RFUktJd0dFSFRremZ5S3R3dWJtWmpENzd2QmZ0WFBlU0UtVXlUTWE0REI5R0pRd1BjenRDU28wak9YY0wyU0lPX09fUlRTV0xSRHM2b0VYZDA5bm9xQ19mSTNISUQtNUlDODRSZw?oc=5",
-"time": "48 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普憤怒下推翻ICE暫停車輛攔查的決定。",
-"why": "顯示川普對移民執法政策的直接干預，未來若重返政壇，相關政策可能再度強化。",
-"source": "Axios",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtTXFCOXJ1d1o1TG9tdkNGcXhSZHR4ck5CUUpNTFE2dV9EaDVsdUZDVmJCSGt5ZlRYLUdmcEo2SF95MUhnT2JZX0FLLVdvZlhhMkM4Nk41bDFPbVA3cnViVVVVaVhuaEsyNks4VXZfdVZtWDJs?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Nvidia CEO 黃仁勳",
-"summary": "Nvidia將與日本共同開發AI造船機器人。",
-"why": "Nvidia積極拓展AI應用，推動全球製造業自動化，影響產業結構。",
-"source": "The Manila Times",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0QzUlRuMUwwQVdsVHlwR2NWeGxKNi0wYWVYbmRLT3dncnVYZFFyQlVzLVpYV0JIU0k0RnVSVUJ0bFJXS19taWZWWURGQ0x4YzY2UkI2al9jMXJaMkV4V2ZTSElJR0N5b0pidGRjR01talZzR1Z3T2MyYjdkRndmZUN5ZjA5QnRoZGhGWUh2QWcwYlV6Q1EtMnVXQTNhd1BZODJnYVVqSjBmMkxsdFFqajhFY1pLMDE5bkcyTmVPZE9mWVnSAcgBQVVfeXFMUDcyYm9HU1ZMMy1QQ3pZMzFrNHBLaS1CRjN5SlpIa1p1cWhpZEJEU1NDZXF5NlFSa09yWllqaHhIYk4tVG9wa2lBSDMzLUMxa1dpN2hYZ0trQzkzWVBVTFpRUXZGVTFrUmM3c1EyckplYV9CTlBoNGlGTEh3QVowZXhzRDQzTFdoVHgxMGdnNDBUMFBmT0tpN3JlZVFRV19Ja1VRTjk5TEJZeUNRejVMSFFTd1ZyNmhqcWZvSDJGTmYxVl9VLWFmYWQ?oc=5",
-"time": "21 分鐘前"
-},
-{
-"who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳推動Nvidia在日本的機器人業務合作。",
-"why": "Nvidia深化日本AI產業布局，強化其在全球AI生態系的領導地位。",
-"source": "South China Morning Post",
-"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYkRrZ2dTcm1SQk5NZF9OMlhNS0xkN3l2MExhdFNSTmE5cmFYQmVuaE5LS1RWUFBCWWpWd0V0YnhTUnFkVUZRMVNidlRFSzgxc2xhR21sTzFPU2NRWVpQNm1wbnN3Mm9kLVB2UGNQdGROMUtIazdWZUE1YUxUdHlTVUZhaU9zc0o5S0Z3X0lDU1NENUFIVncwTG5yUTBZa2EzYWNlYkRmcDhnNDlGWFM2WDZXeHVPdGlLZWtXUUo1UzVrd0hLOU0xQ0ZB0gHKAUFVX3lxTE9iRGtnZ1NybVJCTk1kX04yWE1LTGQ3eXYwTGF0U1JOYTlyYVhCZW5oTktLVFZQUEJZalZ3RXRieFNScWRVRlExU2J2VEVLODFzbGFHbWxPMU9TY1FZWlA2bXBuc3cyb2QtUHZQY1B0ZE4xS0hrN1ZlQTVhTFR0eVNVRmFpT3NzSjlLRndfSUNTU0Q1QUhWdzBMbnJRMFlrYTNhY2ViRGZwOGc0OUZYUzZYNld4dU90aUtla1dRSjVTNWt3SEs5TTFDRkE?oc=5",
-"time": "1 小時前"
+"who": "摩根大通CEO Jamie Dimon",
+"summary": "Jamie Dimon表示企業已開始更聰明地管理AI支出。",
+"why": "大型企業對AI投資策略調整，預示AI產業進入理性發展階段。",
+"source": "Business Insider",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNFk4czFwNWVNYXhYamlWV0x5MmpPX1NGWC1MZVVKOWQ1TExiQXpCVFRsV3FxVC1GUEV5TGpPckhsRmdwQjBicnh6dVJja1c1MWhVd0lvRVRJbEtpZW1MdXlGNmt5bzV2ejZ1VjBXUExCQlBKQTU4LUhjcF90dHdZam12U3J5czdTMUM1NXMzVTFQYUMyZldVUDhvRkxkdw?oc=5",
+"time": "2 小時前"
 }
 ]
 }
