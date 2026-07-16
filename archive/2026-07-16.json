@@ -1,7 +1,7 @@
 {
 "date": "2026-07-16",
 "count": 25,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝、散熱等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -120,8 +120,8 @@
 "dist": -0.04663923182441698,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "探針卡測試"
+"group": "封裝測試",
+"theme": "探針卡"
 },
 {
 "code": "2454",
@@ -225,8 +225,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝",
-"theme": "CoWoS先進封裝"
+"group": "封裝測試",
+"theme": "先進封裝CoWoS"
 },
 {
 "code": "4958",
@@ -300,8 +300,8 @@
 "dist": -0.04824561403508776,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝",
-"theme": "IC封裝測試"
+"group": "封裝測試",
+"theme": "DRAM封裝測試"
 },
 {
 "code": "3374",
@@ -315,8 +315,8 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 1,
-"group": "封裝",
-"theme": "探針卡測試"
+"group": "封裝測試",
+"theme": "探針卡"
 },
 {
 "code": "5347",
@@ -380,47 +380,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對選舉與國際局勢的發言及Nvidia、微軟CEO的AI戰略動向，將深刻影響全球政經與科技趨勢。",
+"takeaway": "川普針對選舉與政策發表多項重要言論，Nvidia與日本合作AI機器人，顯示美國政經與AI產業動向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普承諾將在黃金時段發表有關選舉的『非常重大宣布』。",
-"why": "川普的選舉相關發言可能影響美國政治局勢與選民動向，牽動未來政策走向。",
-"source": "Votebeat",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM09TWGpPYWxJMVgxcjZXci10MjV5QWVzbGM1T1JQQ0I2V1J1ckhVLUdaQlBGM2tXazQwMHVyd09mZE1KMnZ6TU83NXJ6OXc1dWUzWmhZM2FDS2JHX3dXTzdaX09lTjF6UFF5YlB0aTZ3VDNhYlhWUWl0QkllM2hXYm5ZTm52ajdjeGVEdlB5emNJc3Rad1FvbUlVOXlFQWYtX3JJ?oc=5",
-"time": "1 小時前"
+"summary": "川普將於黃金時段發表選舉安全相關演說。",
+"why": "川普公開發言可能影響美國選舉信心與政策走向，牽動政治局勢。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnIxbG1weWlQMmJNcnBLeWdvaFhkbFAxYS05NjZZVEFkMnNXbDNXWlBCZWxMY2FVSllaam8waXRveG9tYjVRa3NuOG5nVlFRc1lvcXpkeFlVN2cxMWN1TjRyckMtUUhmT0ZIRzVQa0QyTkIydmdzSWtEU0lvckNhTGxSN1AtUXd6UkZYNmRKaXQtd0hHSDlqVVRTSzREVmFGT05oM2RvZV80N1oybWhJdW5tRm1WSWdRb0duUA?oc=5",
+"time": "40 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普表示可能嘗試『徹底消滅』伊朗革命衛隊。",
-"why": "此強硬表態加劇美伊緊張，對中東局勢及全球能源市場有重大影響。",
-"source": "Time Magazine",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM0VyWjdyRmxwbmJsMlV0VUFJMlJHT3lELWZBN0RYZmNzVng4XzFqRGlWUWJLaUstUlEwMDRzcEpRRElkVEdicVUtOUlHZm0ycG81NjNQcUduTlZxYjdCSVVWOTViUTZhZVpuOXA1Q1dIekIzdS1vRHNILXdQaDJiMmQ2dw?oc=5",
-"time": "2 小時前"
+"summary": "川普在購買相關股票後於Truth Social推廣這些公司。",
+"why": "前總統直接推廣個股，可能引發監管關注與市場波動，影響投資人行為。",
+"source": "CNN",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tWFFXdnV0eVdtRnZwU3gyV1RFUktJd0dFSFRremZ5S3R3dWJtWmpENzd2QmZ0WFBlU0UtVXlUTWE0REI5R0pRd1BjenRDU28wak9YY0wyU0lPX09fUlRTV0xSRHM2b0VYZDA5bm9xQ19mSTNISUQtNUlDODRSZw?oc=5",
+"time": "48 分鐘前"
 },
 {
-"who": "Nvidia執行長黃仁勳",
-"summary": "Nvidia CEO黃仁勳推動與日本機器人企業合作，強化AI與機器人產業布局。",
-"why": "Nvidia積極拓展AI應用生態，將加速全球AI與機器人產業發展。",
+"who": "川普",
+"summary": "川普憤怒下推翻ICE暫停車輛攔查的決定。",
+"why": "顯示川普對移民執法政策的直接干預，未來若重返政壇，相關政策可能再度強化。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtTXFCOXJ1d1o1TG9tdkNGcXhSZHR4ck5CUUpNTFE2dV9EaDVsdUZDVmJCSGt5ZlRYLUdmcEo2SF95MUhnT2JZX0FLLVdvZlhhMkM4Nk41bDFPbVA3cnViVVVVaVhuaEsyNks4VXZfdVZtWDJs?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Nvidia CEO 黃仁勳",
+"summary": "Nvidia將與日本共同開發AI造船機器人。",
+"why": "Nvidia積極拓展AI應用，推動全球製造業自動化，影響產業結構。",
+"source": "The Manila Times",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0QzUlRuMUwwQVdsVHlwR2NWeGxKNi0wYWVYbmRLT3dncnVYZFFyQlVzLVpYV0JIU0k0RnVSVUJ0bFJXS19taWZWWURGQ0x4YzY2UkI2al9jMXJaMkV4V2ZTSElJR0N5b0pidGRjR01talZzR1Z3T2MyYjdkRndmZUN5ZjA5QnRoZGhGWUh2QWcwYlV6Q1EtMnVXQTNhd1BZODJnYVVqSjBmMkxsdFFqajhFY1pLMDE5bkcyTmVPZE9mWVnSAcgBQVVfeXFMUDcyYm9HU1ZMMy1QQ3pZMzFrNHBLaS1CRjN5SlpIa1p1cWhpZEJEU1NDZXF5NlFSa09yWllqaHhIYk4tVG9wa2lBSDMzLUMxa1dpN2hYZ0trQzkzWVBVTFpRUXZGVTFrUmM3c1EyckplYV9CTlBoNGlGTEh3QVowZXhzRDQzTFdoVHgxMGdnNDBUMFBmT0tpN3JlZVFRV19Ja1VRTjk5TEJZeUNRejVMSFFTd1ZyNmhqcWZvSDJGTmYxVl9VLWFmYWQ?oc=5",
+"time": "21 分鐘前"
+},
+{
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳推動Nvidia在日本的機器人業務合作。",
+"why": "Nvidia深化日本AI產業布局，強化其在全球AI生態系的領導地位。",
 "source": "South China Morning Post",
 "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYkRrZ2dTcm1SQk5NZF9OMlhNS0xkN3l2MExhdFNSTmE5cmFYQmVuaE5LS1RWUFBCWWpWd0V0YnhTUnFkVUZRMVNidlRFSzgxc2xhR21sTzFPU2NRWVpQNm1wbnN3Mm9kLVB2UGNQdGROMUtIazdWZUE1YUxUdHlTVUZhaU9zc0o5S0Z3X0lDU1NENUFIVncwTG5yUTBZa2EzYWNlYkRmcDhnNDlGWFM2WDZXeHVPdGlLZWtXUUo1UzVrd0hLOU0xQ0ZB0gHKAUFVX3lxTE9iRGtnZ1NybVJCTk1kX04yWE1LTGQ3eXYwTGF0U1JOYTlyYVhCZW5oTktLVFZQUEJZalZ3RXRieFNScWRVRlExU2J2VEVLODFzbGFHbWxPMU9TY1FZWlA2bXBuc3cyb2QtUHZQY1B0ZE4xS0hrN1ZlQTVhTFR0eVNVRmFpT3NzSjlLRndfSUNTU0Q1QUhWdzBMbnJRMFlrYTNhY2ViRGZwOGc0OUZYUzZYNld4dU90aUtla1dRSjVTNWt3SEs5TTFDRkE?oc=5",
 "time": "1 小時前"
-},
-{
-"who": "微軟執行長Satya Nadella",
-"summary": "微軟CEO納德拉強調企業應能從AI模型中獲益且避免重複付費。",
-"why": "此觀點反映AI商業模式變革，影響企業採用AI的策略與產業競爭格局。",
-"source": "Diginomica",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcld3cDhoZjhhU2hPSGlvWVhBeVF1Y0lOU2FvZVVzTVhjclpuSVdhdVppR09fbG9ZRENBZ0dCaFpWR3ZmR1Y0VVZFRUJ5ZGNHaS1LNk9YTHllZGFXMDlSM2ZnZVZzQ1lkTXNickRGTHhHQzNaS1IzMlVVUmhaZFZCZE81ckVyQVRTazNXYnFxeTE4OENVZ1ZHWFRvbERKYk1sdy0wcG9mZ2dxWjMtbFBXWDJxelpjd2J2MmUw?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "川普",
-"summary": "川普在購買公司股票後數日於Truth Social推廣該些公司。",
-"why": "此舉涉及潛在利益衝突，對美國政商倫理與監管趨勢有指標意義。",
-"source": "CNN",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tWFFXdnV0eVdtRnZwU3gyV1RFUktJd0dFSFRremZ5S3R3dWJtWmpENzd2QmZ0WFBlU0UtVXlUTWE0REI5R0pRd1BjenRDU28wak9YY0wyU0lPX09fUlRTV0xSRHM2b0VYZDA5bm9xQ19mSTNISUQtNUlDODRSZw?oc=5",
-"time": "22 分鐘前"
 }
 ]
 }
