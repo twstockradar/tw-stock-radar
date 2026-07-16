@@ -1,7 +1,7 @@
 {
 "date": "2026-07-16",
 "count": 25,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材集中於先進封裝、AI伺服器、CCL、探針卡、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、被動元件等族群為主，題材集中於先進製程、AI伺服器代工、CoWoS封裝、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -226,7 +226,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "封裝測試",
-"theme": "先進封裝"
+"theme": "先進封裝CoWoS"
 },
 {
 "code": "4958",
@@ -380,47 +380,47 @@
 }
 ],
 "news": {
-"takeaway": "川普貿易政策與Nvidia、Apple、微軟等科技巨頭CEO的AI與產業布局，正深刻影響全球經濟與產業趨勢。",
+"takeaway": "川普政策與大型科技企業CEO的AI布局，將深刻影響全球經濟與產業趨勢。",
 "items": [
 {
 "who": "川普",
 "summary": "川普對巴西商品加徵25%關稅。",
-"why": "顯示美國貿易保護主義升溫，可能引發新一輪全球貿易摩擦，影響供應鏈與新興市場。",
+"why": "顯示美國貿易政策持續強硬，可能引發全球供應鏈調整與新一輪貿易摩擦。",
 "source": "Axios",
 "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02OFJPb2pXVFI4N0V2MDc3YU1ZQVR6RFJqbzlCdVdxVTh4U1oxaGJtTTRRNXdGNFFaaF9haGg3eGVraTBoRXRfaWpHcnE3SzJaeF9JZ1EyM0dmVVJaZnBnWmxkOA?oc=5",
-"time": "37 分鐘前"
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普表示可能試圖『徹底消滅』伊朗革命衛隊。",
-"why": "反映美國對中東政策強硬升級，可能加劇地緣政治風險，影響能源與金融市場。",
+"summary": "川普表示可能嘗試“消滅”伊朗革命衛隊。",
+"why": "美國對中東政策升級，增加地緣政治風險，對能源市場與全球安全局勢有重大影響。",
 "source": "Time Magazine",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM0VyWjdyRmxwbmJsMlV0VUFJMlJHT3lELWZBN0RYZmNzVng4XzFqRGlWUWJLaUstUlEwMDRzcEpRRElkVEdicVUtOUlHZm0ycG81NjNQcUduTlZxYjdCSVVWOTViUTZhZVpuOXA1Q1dIekIzdS1vRHNILXdQaDJiMmQ2dw?oc=5",
-"time": "42 分鐘前"
+"time": "1 小時前"
 },
 {
 "who": "Nvidia CEO 黃仁勳",
-"summary": "Nvidia CEO表示AI需求強勁，投資遠未達泡沫階段。",
-"why": "強化AI產業長期成長預期，將持續帶動科技投資與產業轉型。",
+"summary": "黃仁勳表示AI需求強勁，投資遠未達泡沫階段。",
+"why": "Nvidia作為全球AI領導者，CEO看好AI產業前景，將推動相關技術與資本投入加速。",
 "source": "MSN",
 "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLWtHdEttS2R4R21jckV2TUVRdVozb2ZMdk0tVlBIZTAzS202X0prWGpJTlNTVlB6QTV5Z0Y5ZnFBMzQ5X0ZDV3E5MkJMMG5ubFRvSGxOckp2U0NhOXcxamcwelZzWENLcVNuVlpSS1gtLWE5VHpySHBtT1VZcWpZeGxTc3hvQmRZTnUwSUZETHdUYzhsREVwWW0tWnp3cHVRRWJhcmMtN08tNHBBZGhyckNQcTlJUlFUWHJqTFRzQ1lpcHV2SU9WOWpqS2ZLNlhxSFE?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "Apple CEO Tim Cook",
-"summary": "蘋果執行長庫克宣布對博通(Broadcom)投資者的重大利多消息。",
-"why": "顯示蘋果持續強化供應鏈合作，對半導體產業與相關供應商具正面影響。",
+"summary": "Tim Cook宣布對Broadcom股東有利的重大消息。",
+"why": "蘋果與Broadcom合作深化，將影響全球半導體供應鏈與科技產業格局。",
 "source": "AOL.com",
 "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83eXlBeDkzT1UxQzhiOWFhcFpMX1JwSWY1dzdaTFQtZ3lwUDRmaE1SWEp3R3pnNFBXVjRSUU1ERWZheF82WHdrT2FmVXpjYXNUNkFLcl9qQVNxcGQwcUIwWTgwYmw3bTdqSExEZVItRnVHZHpqdWc?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
-"who": "Microsoft CEO Satya Nadella",
-"summary": "微軟CEO納德拉強調企業應能從AI模型中獲益且避免重複付費。",
-"why": "反映AI商業模式與授權策略變革，將影響企業採用AI的成本結構與競爭格局。",
-"source": "Diginomica",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcld3cDhoZjhhU2hPSGlvWVhBeVF1Y0lOU2FvZVVzTVhjclpuSVdhdVppR09fbG9ZRENBZ0dCaFpWR3ZmR1Y0VVZFRUJ5ZGNHaS1LNk9YTHllZGFXMDlSM2ZnZVZzQ1lkTXNickRGTHhHQzNaS1IzMlVVUmhaZFZCZE81ckVyQVRTazNXYnFxeTE4OENVZ1ZHWFRvbERKYk1sdy0wcG9mZ2dxWjMtbFBXWDJxelpjd2J2MmUw?oc=5",
-"time": "37 分鐘前"
+"who": "JPMorgan CEO Jamie Dimon",
+"summary": "Jamie Dimon強調AI可拯救生命，警告企業勿忽視投資回報與數據管理。",
+"why": "全球最大銀行CEO看重AI應用與風險管理，將引導金融業與企業數位轉型方向。",
+"source": "Storyboard18",
+"link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRnhjRjF6THM0dnVNTS1Xa21hNWYxQzc0NXZiaGFzUEtzdHZVcS1HREN3aUF0eHRUWC1DZ2p1LTdLX2lGSEFzQlRuT2d0dzdnYUFCNFBtbVBpWWVEWG9MNGhQS0JtU0c3cTlHRm83STZRUEVkalNaN3ZVNGUyWVdqVFJTcVZGRFVpbUNWdmRuYy1PbUVQZnJ6RDFrRTZoY2owYjhMV3BXYl9XQmJNbnhWb3JTTThEV1R3Tm8wcENJeThZQm12S3BwWm5mMGdVN0xRc3d5bEJ2X2RmbjTSAeABQVVfeXFMTUJoZ3p2OFZ4VWVoY0ZWVl84QWtnc0JXZVI0NmNhMkdiNzM4ZUxULVhDbTkwajZ4SS1HVHhEazBubEVSejNhbHdEWm5NSnc0bUIyNldnQU84WTRyNExEM1VxNDNrWFJHc3hpY1JvRDFVanI4ekZWc2p1RGQ3eGNjTEVUMVBpalUwY28zdmx3ZXozZXp6R2tGeGotRFBhYTZZOFVZRVhMZy1YelducDhZczRMM3hSNjBuY2JrSWluMTdER0N0LVl1S2JlZm5iR3hjVU0xdUFSSXM2QkFJeGVGWXc?oc=5",
+"time": "2 小時前"
 }
 ]
 }
