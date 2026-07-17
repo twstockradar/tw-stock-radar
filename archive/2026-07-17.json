@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源供應器"
+"theme": "伺服器電源"
 },
 {
 "code": "2303",
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 699.0,
 "change_pct": -9.922680412371134,
-"trade_value": 24543137568.0,
+"trade_value": 33261065568.0,
 "market_cap": 1447954373316.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 2290.0,
 "change_pct": -7.28744939271255,
-"trade_value": 225485132470.0,
+"trade_value": 229051751965.0,
 "market_cap": 59385127453430.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 4495.0,
 "change_pct": -9.919839679358718,
-"trade_value": 13867542465.0,
+"trade_value": 14640682465.0,
 "market_cap": 1610653407430.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
@@ -174,7 +174,7 @@
 "market": "TWSE",
 "close": 3370.0,
 "change_pct": -8.91891891891892,
-"trade_value": 37816517830.0,
+"trade_value": 37833367830.0,
 "market_cap": 5405127521590.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "銀行"
+"theme": "銀行金融"
 },
 {
 "code": "3017",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高頻板"
 },
 {
 "code": "6239",
@@ -470,47 +470,47 @@
 }
 ],
 "news": {
-"takeaway": "川普持續聚焦選舉安全與中國干預，科技與能源巨頭CEO針對AI治理、能源風險與AI產業布局發表關鍵言論，牽動全球政經與產業趨勢。",
+"takeaway": "川普針對選舉安全與中國干預發表強烈言論，Nvidia與Google CEO則針對AI產業與治理釋出重大訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普公開指控美國選舉不安全並稱有中國干預。",
-"why": "加劇美國選舉信任危機，可能影響未來選舉政策與中美關係。",
-"source": "NewsNation",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbzJOMlkxeDFpWmd5YU16WjZOYWl2RlJlUExBMkFQMVNObmU3T0dEYTVzd1NPOGdYRU5oOWlpd0RyRGRuTmdwZWZMbDBtVHZ3Um9kS3duQjhWRUJ4Zm9ySGpXLUlzaDA0Y1BObUxzNNIBdEFVX3lxTE01c3M5bmppV003T1lkXzVEb1BXTnczRUVLcF8yRVVZSUVjMlpTY1E1M1U1UUk2SDJyam1TeWxkdm1wZHNLYmZCNVJNb0FRMTFOYW5kX3o0ejh1OUF4ZlZDU3Y1QkpqRFpWVExPNFNjUU4xd084?oc=5",
-"time": "2 小時前"
+"summary": "川普在演說中猛烈抨擊美國選舉制度並指控中國干預。",
+"why": "選舉安全與外國干預議題將主導美國政治與政策走向，影響全球地緣政治與市場信心。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVUIyYkZSTGpTX3RtRXI5dU1rQWZ1aVVfRmQzT3V2UllJUDVlOXU2Z3FCTTUyUVVXdnpvQzBhS3psdmlRckRzbE5DTG8xczNWVFlsLUFmN0F3dTZyNWxtd3ctZ25tMGNKRGVEb0M1MDl1OWRFS0ZjUDFDWGI5N2ljbFNWeC0xd1BDaU5sRHA0Yi3SAZYBQVVfeXFMTnZob2Jiek1fZDRYdTZ1a29xeW9pVUxzdnNsbk8xUmIxY3dtODhuRTlkZlUwbHlna0dUdTBiTkVCU21nWF9IYnphWVd1dG40T2pjdGZ2OU82bng2cG5kbUl2U0c1dm5lTFVPOWdKSGY5dHZCS2dhMnZPQ0VqdTZfSlJwT3JjczlCc1A4Qzl4Q3ZFbjUxNFNR?oc=5",
+"time": "4 小時前"
 },
 {
-"who": "Google DeepMind CEO",
-"summary": "Google DeepMind執行長呼籲建立由美國主導的AI治理網絡。",
-"why": "顯示AI監管國際競逐升溫，將影響全球AI發展規則。",
-"source": "Business Chief",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEl4alJwbmFlQUxWTVk5VmZxQVUyXzJoVndJMS10TE1hd3lTY0E0TFFyUnJVOW9SVUltXzZBTXRlNk92VkExbnNXVnhDb3R5NkFVWlYxNzlZeHBaODY1TEtOdFdyaHZINUNFeElORXR3RndBXzJ2cWJwWk85NGVSY1RWVDhSc3doVFAzMTlFdTA1cDg?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Eni CEO",
-"summary": "Eni執行長警告歐洲能源風險被低估。",
-"why": "突顯能源安全議題，可能影響歐洲政策與能源市場。",
-"source": "Decode39",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa3p0azhnX2lHSk52eWJ4Y1VMVmxYWWtfMkd1MW5XdTJXNWttNUdqLUZ2alN2aUdiLXJBRm5LVTlCbzN3V0pRZjk4VmF0NGRYblVNYmZNckoyR0MyUkhzNFVzcWpKMHNyWWxTS0kxWVdpYkIxbEthaks3ZlFxSFRDQ3M4QjZYTmxvSEdYaTl2S2w?oc=5",
-"time": "2 小時前"
+"who": "川普",
+"summary": "川普稱有文件顯示投票系統存在漏洞、中國干預及選舉舞弊。",
+"why": "若相關指控持續發酵，將加劇美國社會分裂並影響未來選舉規則與國際關係。",
+"source": "ABC News - Breaking News, Latest News and Videos",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSmxLX2RscEtjRDJOQnpRSnNLYzdORHdTRzU1QmR4M2xrRFoyTldZeDNrZ2FHcVFNME9vOEN3TzJKZ3RoazV2Ri01aGd0QTBLUmNMbWR5cmtPRzdXY21TYkFlSzFUVXQzdVJlc3Z1QUZWU2ViREJja01aRWY2UGhvTml3ZlVaMk9XWGpkNlFYTXlKcnNNS3QzaElXMDZjZ9IBowFBVV95cUxPbVpxNVhCc3FKeXMxMk1DZTRVbmtkUHNadlFHTUhkbFhxQXFza2hnNF9yUHY2QV9KVGhWVXQzc1N0U1c4WDgtMzE3aUVVcW41VHM1QlVqUVVlSGlQeC1fTVpGaWViM09GSE9tNGR5NV9aRE1adVk5bDQ5bDl4Y0lxRnEycFJLbWVkM3ItYkFxNDZvT0VLcGFFVmJ2dDF1emU5Yklv?oc=5",
+"time": "3 小時前"
 },
 {
 "who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳在東京宣布AI工廠計畫。",
-"why": "Nvidia持續加碼AI產業，強化其全球AI生態系布局。",
+"summary": "黃仁勳宣布AI工廠計畫，並在東京與粉絲互動。",
+"why": "Nvidia推動AI產業布局，將加速全球AI技術發展與產業競爭。",
 "source": "Benzinga",
 "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTm53SkIzbzZyRXhQWWFoeVNJNi1xQkNCbEVVbE1xa2J3dVlQMmJRRkVyMWc5TUlWZVBZYVZWM0N0SVo0Wk0tQ29XX1Vxak5nTmt6Nm1MZ0ZNTVZKQWZvVnBVN0NDQVRnZTFoaEp5QmRuWTlCSjZiME9DcEhMUHIyWEZOcllBd2VHTGV4Zmw3Qm1vYXlHOFhIcHN4akJmT0F5SE52UE9tbHhDT25NaXo1bUZydjVtcEtXWnhMNDVFenF6UDBXMF9ZNGpyMzVQVzlDbHZkUGxtaw?oc=5",
-"time": "44 分鐘前"
+"time": "1 小時前"
 },
 {
-"who": "Microsoft CEO Satya Nadella",
-"summary": "Nadella批評Anthropic對AI產品的內容限制。",
-"why": "反映科技巨頭對AI開放性與監管的不同立場，影響AI產業競爭格局。",
-"source": "India Today",
-"link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZGJMMTc1dzdGWm1EMC1hRDBMMTNwTmJWVHBxTURBdWszeXhPdWthSWo4UjY3cXI5NklCeXllZ3ZrNXlTRXVHbUVoZDVDeHVjZXZEZTR2MTI1azc1ZFpvSG5WVmFuRi16cnZOMVYxME5BVk04OHdaTlhFODNxcHgtRHNVT1FwNGkxZWVCbF8zcjdoTGQ2X0liZGRtc2xMTXE4Z0owaW94eWR5X2hFMkhjRGVmR0c3WE51ZUhQRjFkamJINE1FVHliVjRJZ1dHT3pCUmhWUkNiSFN4eDFLOUJlRUpYbEEyaE9aOTlURjFTWdIB9AFBVV95cUxPcmNiNjcwWThqZW1CRndCTmlNeF9CWFYtMC1CZFRJeXl0eGVqZE5PU1FDRHkyU2czVE05QU0tb0Y0N2VhUjlKdFhjQzN6YWZ3U1RLV1ljSmZlLWtETjluMzYyRnZyWHFHYlNiSzF4U291eW1GVUNvZHJBdm1GTGYzS0Zsb2RwaUcwQzVtb21hWjlwb2xSLU5KcGRDQ0hubXZHX2dsVDB5V1dEWHVaZnAwYUhUOEIxV2tRYUlhYnJsUFZlRXVuZlpOUE5TS1BhaWxGa2xvSGtzVTRENng5U1pENENLbFNFVF9vc1NZSWxrb2xkMEVx?oc=5",
+"who": "Google DeepMind CEO",
+"summary": "Google DeepMind CEO呼籲建立美國主導的AI治理網絡。",
+"why": "AI治理成為全球關鍵議題，主導權爭奪將影響科技規範與產業格局。",
+"source": "Business Chief",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEl4alJwbmFlQUxWTVk5VmZxQVUyXzJoVndJMS10TE1hd3lTY0E0TFFyUnJVOW9SVUltXzZBTXRlNk92VkExbnNXVnhDb3R5NkFVWlYxNzlZeHBaODY1TEtOdFdyaHZINUNFeElORXR3RndBXzJ2cWJwWk85NGVSY1RWVDhSc3doVFAzMTlFdTA1cDg?oc=5",
 "time": "2 小時前"
+},
+{
+"who": "United Airlines CEO Scott Kirby",
+"summary": "Scott Kirby警告2026年機票價格將因結構性成本通脹維持高位。",
+"why": "航空業成本壓力將影響消費者支出與全球旅遊產業復甦。",
+"source": "Nomad Lawyer",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlBPczFEM2s4N1VQWWtsQmV3WDB3c3o2YUxVUEN6UEVFRWhJLWpQNW5OVU9hTFhKMU56Q1RUTDd5VFlGeTNxTjNHZGN0TUZnbVYwRm41WDFyNUdtS0l5c3c5dWVTaW9vOGpHUGJIdXREY2xVODNOdXBjZE5UY19oT3NVSmY?oc=5",
+"time": "3 小時前"
 }
 ]
 }
