@@ -1,7 +1,7 @@
 {
 "date": "2026-07-17",
 "count": 31,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO、金融等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、重電、探針卡等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、金融等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、重電、探針卡等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "伺服器電源"
+"theme": "電源供應器"
 },
 {
 "code": "2303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件龍頭"
+"theme": "被動元件"
 },
 {
 "code": "2330",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "光通訊CPO"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金控"
+"theme": "銀行"
 },
 {
 "code": "3017",
@@ -316,7 +316,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高頻材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -470,47 +470,47 @@
 }
 ],
 "news": {
-"takeaway": "川普再度聚焦選舉舞弊與中國干預，科技巨頭CEO針對AI治理與產業競爭發表關鍵言論，牽動美國政治與全球AI監管趨勢。",
+"takeaway": "川普持續聚焦選舉安全與中國干預，科技與能源巨頭CEO針對AI治理、能源風險與AI產業布局發表關鍵言論，牽動全球政經與產業趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普公開指控美國選舉不安全，並稱中國涉入干預。",
-"why": "川普持續質疑選舉公正性，並將中國納入指控，可能加劇美中關係緊張，影響美國內政與外交政策走向。",
+"summary": "川普公開指控美國選舉不安全並稱有中國干預。",
+"why": "加劇美國選舉信任危機，可能影響未來選舉政策與中美關係。",
 "source": "NewsNation",
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbzJOMlkxeDFpWmd5YU16WjZOYWl2RlJlUExBMkFQMVNObmU3T0dEYTVzd1NPOGdYRU5oOWlpd0RyRGRuTmdwZWZMbDBtVHZ3Um9kS3duQjhWRUJ4Zm9ySGpXLUlzaDA0Y1BObUxzNNIBdEFVX3lxTE01c3M5bmppV003T1lkXzVEb1BXTnczRUVLcF8yRVVZSUVjMlpTY1E1M1U1UUk2SDJyam1TeWxkdm1wZHNLYmZCNVJNb0FRMTFOYW5kX3o0ejh1OUF4ZlZDU3Y1QkpqRFpWVExPNFNjUU4xd084?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
 "who": "Google DeepMind CEO",
 "summary": "Google DeepMind執行長呼籲建立由美國主導的AI治理網絡。",
-"why": "全球AI監管成為焦點，科技巨頭倡議美國主導規則，將影響未來AI產業標準與國際競爭格局。",
+"why": "顯示AI監管國際競逐升溫，將影響全球AI發展規則。",
 "source": "Business Chief",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEl4alJwbmFlQUxWTVk5VmZxQVUyXzJoVndJMS10TE1hd3lTY0E0TFFyUnJVOW9SVUltXzZBTXRlNk92VkExbnNXVnhDb3R5NkFVWlYxNzlZeHBaODY1TEtOdFdyaHZINUNFeElORXR3RndBXzJ2cWJwWk85NGVSY1RWVDhSc3doVFAzMTlFdTA1cDg?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Microsoft CEO Satya Nadella",
-"summary": "微軟執行長Nadella批評Anthropic對AI模型Claude Fable的內容審查過度。",
-"why": "AI內容審查與開放性爭議升溫，科技巨頭對AI治理立場分歧，牽動產業發展與監管政策。",
-"source": "India Today",
-"link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZGJMMTc1dzdGWm1EMC1hRDBMMTNwTmJWVHBxTURBdWszeXhPdWthSWo4UjY3cXI5NklCeXllZ3ZrNXlTRXVHbUVoZDVDeHVjZXZEZTR2MTI1azc1ZFpvSG5WVmFuRi16cnZOMVYxME5BVk04OHdaTlhFODNxcHgtRHNVT1FwNGkxZWVCbF8zcjdoTGQ2X0liZGRtc2xMTXE4Z0owaW94eWR5X2hFMkhjRGVmR0c3WE51ZUhQRjFkamJINE1FVHliVjRJZ1dHT3pCUmhWUkNiSFN4eDFLOUJlRUpYbEEyaE9aOTlURjFTWdIB9AFBVV95cUxPcmNiNjcwWThqZW1CRndCTmlNeF9CWFYtMC1CZFRJeXl0eGVqZE5PU1FDRHkyU2czVE05QU0tb0Y0N2VhUjlKdFhjQzN6YWZ3U1RLV1ljSmZlLWtETjluMzYyRnZyWHFHYlNiSzF4U291eW1GVUNvZHJBdm1GTGYzS0Zsb2RwaUcwQzVtb21hWjlwb2xSLU5KcGRDQ0hubXZHX2dsVDB5V1dEWHVaZnAwYUhUOEIxV2tRYUlhYnJsUFZlRXVuZlpOUE5TS1BhaWxGa2xvSGtzVTRENng5U1pENENLbFNFVF9vc1NZSWxrb2xkMEVx?oc=5",
-"time": "1 小時前"
+"who": "Eni CEO",
+"summary": "Eni執行長警告歐洲能源風險被低估。",
+"why": "突顯能源安全議題，可能影響歐洲政策與能源市場。",
+"source": "Decode39",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa3p0azhnX2lHSk52eWJ4Y1VMVmxYWWtfMkd1MW5XdTJXNWttNUdqLUZ2alN2aUdiLXJBRm5LVTlCbzN3V0pRZjk4VmF0NGRYblVNYmZNckoyR0MyUkhzNFVzcWpKMHNyWWxTS0kxWVdpYkIxbEthaks3ZlFxSFRDQ3M4QjZYTmxvSEdYaTl2S2w?oc=5",
+"time": "2 小時前"
 },
 {
-"who": "Nvidia CEO Jensen Huang",
-"summary": "Nvidia黃仁勳在東京宣布AI工廠計畫。",
-"why": "Nvidia持續擴大AI產業佈局，推動全球AI基礎建設，影響產業供應鏈與技術競爭。",
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳在東京宣布AI工廠計畫。",
+"why": "Nvidia持續加碼AI產業，強化其全球AI生態系布局。",
 "source": "Benzinga",
 "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTm53SkIzbzZyRXhQWWFoeVNJNi1xQkNCbEVVbE1xa2J3dVlQMmJRRkVyMWc5TUlWZVBZYVZWM0N0SVo0Wk0tQ29XX1Vxak5nTmt6Nm1MZ0ZNTVZKQWZvVnBVN0NDQVRnZTFoaEp5QmRuWTlCSjZiME9DcEhMUHIyWEZOcllBd2VHTGV4Zmw3Qm1vYXlHOFhIcHN4akJmT0F5SE52UE9tbHhDT25NaXo1bUZydjVtcEtXWnhMNDVFenF6UDBXMF9ZNGpyMzVQVzlDbHZkUGxtaw?oc=5",
-"time": "9 分鐘前"
+"time": "44 分鐘前"
 },
 {
-"who": "DeepMind CEO",
-"summary": "DeepMind執行長警告超越人類的AI可能3-5年內出現，呼籲設立全球監管機構。",
-"why": "AI發展速度與風險引發高層關注，全球監管呼聲升高，將影響政策制定與產業發展。",
-"source": "The420.in",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zTW8zckVweVZCUUpMY00ybVF6WWdCMzY5SEhRMk9lbElzQzF0T3d5c0Q3TGhWY0M4XzRTb3dTZFZHbUpFR2VNS2tDTllKTU02c0pGSFBjUkxSVldXMXVLU0VWVzdPY0xmTGc?oc=5",
-"time": "3 小時前"
+"who": "Microsoft CEO Satya Nadella",
+"summary": "Nadella批評Anthropic對AI產品的內容限制。",
+"why": "反映科技巨頭對AI開放性與監管的不同立場，影響AI產業競爭格局。",
+"source": "India Today",
+"link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZGJMMTc1dzdGWm1EMC1hRDBMMTNwTmJWVHBxTURBdWszeXhPdWthSWo4UjY3cXI5NklCeXllZ3ZrNXlTRXVHbUVoZDVDeHVjZXZEZTR2MTI1azc1ZFpvSG5WVmFuRi16cnZOMVYxME5BVk04OHdaTlhFODNxcHgtRHNVT1FwNGkxZWVCbF8zcjdoTGQ2X0liZGRtc2xMTXE4Z0owaW94eWR5X2hFMkhjRGVmR0c3WE51ZUhQRjFkamJINE1FVHliVjRJZ1dHT3pCUmhWUkNiSFN4eDFLOUJlRUpYbEEyaE9aOTlURjFTWdIB9AFBVV95cUxPcmNiNjcwWThqZW1CRndCTmlNeF9CWFYtMC1CZFRJeXl0eGVqZE5PU1FDRHkyU2czVE05QU0tb0Y0N2VhUjlKdFhjQzN6YWZ3U1RLV1ljSmZlLWtETjluMzYyRnZyWHFHYlNiSzF4U291eW1GVUNvZHJBdm1GTGYzS0Zsb2RwaUcwQzVtb21hWjlwb2xSLU5KcGRDQ0hubXZHX2dsVDB5V1dEWHVaZnAwYUhUOEIxV2tRYUlhYnJsUFZlRXVuZlpOUE5TS1BhaWxGa2xvSGtzVTRENng5U1pENENLbFNFVF9vc1NZSWxrb2xkMEVx?oc=5",
+"time": "2 小時前"
 }
 ]
 }
