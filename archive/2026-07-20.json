@@ -1,7 +1,7 @@
 {
 "date": "2026-07-20",
 "count": 31,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、PCB材料、散熱模組、矽光子、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、伺服器代工、ABF載板、散熱模組、矽光子、重電等。",
 "stocks": [
 {
 "code": "1303",
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -166,7 +166,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "金融",
-"theme": "金融控股"
+"theme": "金控"
 },
 {
 "code": "3017",
@@ -391,7 +391,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "5347",
@@ -436,7 +436,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "6274",
@@ -470,46 +470,46 @@
 }
 ],
 "news": {
-"takeaway": "川普針對國際事務與政策發表多項具爭議性言論，企業CEO則針對產業競爭與品牌影響力做出重要表態。",
+"takeaway": "川普針對英國、西班牙及科學資助發表強烈言論，企業CEO則針對AI競爭與產品挑戰釋出重要訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普批評英國為『貧困災難』，並針對英國政局發表負面看法。",
-"why": "川普對英國的公開批評可能影響美英關係，並加劇國際政治不確定性。",
+"summary": "川普批評英國為『貧困災難』。",
+"why": "顯示川普對英國未來政策與經濟的負面看法，可能影響美英關係及市場預期。",
 "source": "CNBC",
 "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ1laeXFGTmtHQ1lCekx3Q0cyeXgzMm9OOWNRakFsRzJUUXZ4REV5cWNDc29KZnNlcDlGUFpQbVpMRlpUeC1WemNYWGN0YVZqT01ydml6RWRpTEVWYkd6TDBKX0ppMlhhNV9HSGRraFJab2dsUURlRGJMRzk4Yk5vS01yanZ4LVZ4dTh0TGM0bWZZWkw2WkxUbzRn0gGfAUFVX3lxTE44bVFYekFSa3hzWUloQm9zay1IRW1SNzFEWmV4dWZ0NmlkM2M4ZXA1SXdMMjZnTWhuUGFhQlNnZFBKZU1LaXIzS2QwQXBzQkZSUHZpcFBZRTJfQmpYSndOelhPWHBxbm5pSnVCaWc0ZkVjUjhaaVFpcGRJdXZnYU5NSXFiZWNZelZGMU9ScEpjZjVxc1BPMjI2UFVSZE5Ibw?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普在世界盃前公開稱西班牙『無望』且『壞人』。",
-"why": "此言論可能影響美西外交氛圍，並引發國際輿論反彈。",
+"summary": "川普在世界盃前稱西班牙『無望』且『壞人』。",
+"why": "反映川普對國際事務的直接態度，可能影響美西關係及相關外交動向。",
 "source": "Yahoo Sports",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbFRVa0FzU00tMU9Icnl0ZkFULVpobDFoZXd2cGoycUJkVVhhNlBETnpvYzdmX1ZQTVJYNmgtRXNpYjlhLXpVMTdzNkVVMUpBZmpmMTBiZDRqX2lGSld5OGljRDlFeENyNF9ueC1QTUlCNkYzMHptZUVHYzdCT1RSeDlBYVJndVU?oc=5",
-"time": "56 分鐘前"
-},
-{
-"who": "XPeng CEO",
-"summary": "XPeng CEO表示其新車型『不遠於擊敗』特斯拉Model Y。",
-"why": "中國電動車企業直接挑戰特斯拉，顯示全球電動車競爭加劇，產業格局可能變動。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcWsyYlVmUk9JeXpqY1FiODZQakZSd2NZZXNaSktVNEhseEd0SUNTOUZTWjlxT1dUa3gyRzZTRzd4bDJkazJ6OGlJZ1dUS2hZLUx3NFh6RzJmdnR3Z1lpdkF0eFhQMkIwQndqOUpsN2xleE9lYWJiR21obmpxamt3WFljTmdHemRMT2NRNVU5UXIwczQ4R1ROa1FoX0JwSlBfdU5TdHo1Zk5qR1VPZEN2anQ4QXpnc0tNY1l1VVFkQTRoTk1vR0JrZUcwVlA3SU1icExpcU1hQ2U3Sk96M2xIZmFCQjQ?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普表示新空軍一號將進行全面升級。",
-"why": "此決策涉及國防與政府採購，可能帶動相關產業發展與預算調整。",
-"source": "NBC News",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdUZCbGxSSW55MTVqWE1XNDNtRGZwSFM5cDU3MV9lRVhUY3ZNSFk2ejBmMGt3MUEwV3lNc0NtVFFaZEpMLWJ0WTZXVzVMQndLMHBaekxXb1poWEMxMGQwTzVfMng0WHhBZGNFR2dLbjBlMU92d2tScjlTQlNBYXlnRXk3QV9CbkNiaHpOZFBoQjNOZjFBX0ZrVjhyazRaS013enBaUkF6ZWpnNkw3OXRSWVA3aDRFVGtLUEJ3?oc=5",
-"time": "2 小時前"
+"summary": "科學界聯合反對川普削減一兆美元科研資助。",
+"why": "大幅削減科研資助將影響美國科技創新與全球競爭力，牽動產業與學術界未來發展。",
+"source": "The Guardian",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWRjZ3BfU0M5akJXYjE5bWJYUy1xamxueWh4amxzU2V5cEsxZUJyUjNDWG5QLUs3SkFKRTlqNDlTUzhNcGc5VUFjNHFHNkZUVDhvTEc4di1sUGdXdFgwT0xZV0NDVTlsNV9XdS1GZ0ZzNHZwUlRJaGpoZTZsUGt6UE1YRm1QaGh2RGtVXy13?oc=5",
+"time": "31 分鐘前"
 },
 {
-"who": "Nvidia CEO Jensen Huang",
-"summary": "Nvidia CEO黃仁勳的皮衣在蘇富比拍賣近百萬美元。",
-"why": "象徵科技領袖個人品牌影響力，反映科技產業與文化融合趨勢。",
-"source": "TechRadar",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYWo3S09zSHpwbUVLX3dYYTI4dEw1dC04XzVjZUVwaXh6U3o5UUpUR1pMS01sc1hZbExqRVc2WVF6SW5tVGR1YkFuWDdmRkFWcF9XdDI3ZXd4U0R0R3dkZERPVzRpYzgyU2Z4RDFyZXdVZ2NCWVVDMWRuNXVIOHNxWEN6RFJvMmxsSjkwblBZQ2trVTVfU0t1WThsMVhLMGVxbUp0dzEwMk1ucVNueF9QUk1sUUp0LXBGQ2s0?oc=5",
+"who": "Jamie Dimon (JPMorgan CEO)",
+"summary": "JPMorgan因AI轉型裁員，CEO警告競爭加劇。",
+"why": "大型銀行推動AI轉型並裁員，預示金融業未來自動化與競爭格局變化。",
+"source": "LatestLY",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3BLcGM1WGpaSXN6TDAwZHA4TXNpWFZqZ0prTHQ1cmNMT2c3QnZWeEk3ZFZhdnhVNXViNGpOcmtKTWM0ZHJ5SnpXdEF5RWdRMnJxYThfdDg2WS15MS12T2RiOWJ1V1JwNlBzbzZQU0o0ZFRaUGo1TGRLRGJFcHB4RFA3OVU2NlZ1UzBXQzZ4M3p2aE83VXdrVjhtd2M3UHJyZm5na1V6dHZYbVAtTUZlVUF5Ty1kTDhJUEFqanlxX1ByZ0XSAcgBQVVfeXFMTzFaRWZOdEc1S3pCV0pHcG04b3lBV1kxQ1Y1WktHdkk4eHRhXzNyaG1oem5lZUNOb3hwZVpsOWZEUmVnMzY1LVRqTkowVGd6ZlNUMjZCVkVoVkJ3U2ZlZVMyX21idTl1U2djZjRqUFM5TS1iS1BHTWQyLTM3dGhNLUdYT0RmN0RCY2VPVDl2VFAxbkJyM2ZjSTZjNHp3RWVFSF9PR3hwY2p2WjU4Sy1vV0JjMnhkYkN3WlBGekZ4M2k3OG5KeklvQ2E?oc=5",
+"time": "11 分鐘前"
+},
+{
+"who": "XPeng CEO",
+"summary": "XPeng CEO表示其新車型即將超越Tesla Model Y。",
+"why": "中國電動車企業挑戰特斯拉，顯示全球電動車市場競爭加劇，可能改變產業領導地位。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcWsyYlVmUk9JeXpqY1FiODZQakZSd2NZZXNaSktVNEhseEd0SUNTOUZTWjlxT1dUa3gyRzZTRzd4bDJkazJ6OGlJZ1dUS2hZLUx3NFh6RzJmdnR3Z1lpdkF0eFhQMkIwQndqOUpsN2xleE9lYWJiR21obmpxamt3WFljTmdHemRMT2NRNVU5UXIwczQ4R1ROa1FoX0JwSlBfdU5TdHo1Zk5qR1VPZEN2anQ4QXpnc0tNY1l1VVFkQTRoTk1vR0JrZUcwVlA3SU1icExpcU1hQ2U3Sk96M2xIZmFCQjQ?oc=5",
 "time": "1 小時前"
 }
 ]
