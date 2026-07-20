@@ -16,7 +16,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2059",
@@ -54,14 +54,14 @@
 "market": "TWSE",
 "close": 630.0,
 "change_pct": -9.871244635193133,
-"trade_value": 20840492022.0,
+"trade_value": 25211432022.0,
 "market_cap": 1305023254920.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件製造"
 },
 {
 "code": "2330",
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2320.0,
 "change_pct": 1.3100436681222707,
-"trade_value": 112957300410.0,
+"trade_value": 129815956839.0,
 "market_cap": 60163098555440.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -91,7 +91,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2449",
@@ -144,7 +144,7 @@
 "market": "TWSE",
 "close": 3340.0,
 "change_pct": -0.8902077151335311,
-"trade_value": 30759334685.0,
+"trade_value": 30849610283.0,
 "market_cap": 5357010659380.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -159,7 +159,7 @@
 "market": "TWSE",
 "close": 35.15,
 "change_pct": -1.1251758087201127,
-"trade_value": 5096709375.0,
+"trade_value": 5116259375.0,
 "market_cap": 874053932934.5,
 "status": "NEAR_HIGH",
 "dist": -0.06887413176479718,
@@ -174,7 +174,7 @@
 "market": "TWSE",
 "close": 2135.0,
 "change_pct": -2.9545454545454546,
-"trade_value": 9225593610.0,
+"trade_value": 9356599417.0,
 "market_cap": 838079319945.0,
 "status": "NEAR_HIGH",
 "dist": -0.0897009966777409,
@@ -189,7 +189,7 @@
 "market": "TWSE",
 "close": 750.0,
 "change_pct": -5.541561712846348,
-"trade_value": 23103534722.0,
+"trade_value": 23514772172.0,
 "market_cap": 1191654717000.0,
 "status": "PULLBACK",
 "dist": -0.13362831858407076,
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -346,7 +346,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "8046",
@@ -451,7 +451,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6488",
@@ -470,39 +470,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對國防安全與貿易政策釋出新訊號，企業CEO則對AI發展保持謹慎態度。",
+"takeaway": "川普針對國際事務與政策發表多項具爭議性言論，企業CEO則針對產業競爭與品牌影響力做出重要表態。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示新Air Force One將進行全面升級。",
-"why": "顯示美國對國防安全與總統專機的重視，可能帶動相關產業升級與安全技術發展。",
+"summary": "川普批評英國為『貧困災難』，並針對英國政局發表負面看法。",
+"why": "川普對英國的公開批評可能影響美英關係，並加劇國際政治不確定性。",
+"source": "CNBC",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ1laeXFGTmtHQ1lCekx3Q0cyeXgzMm9OOWNRakFsRzJUUXZ4REV5cWNDc29KZnNlcDlGUFpQbVpMRlpUeC1WemNYWGN0YVZqT01ydml6RWRpTEVWYkd6TDBKX0ppMlhhNV9HSGRraFJab2dsUURlRGJMRzk4Yk5vS01yanZ4LVZ4dTh0TGM0bWZZWkw2WkxUbzRn0gGfAUFVX3lxTE44bVFYekFSa3hzWUloQm9zay1IRW1SNzFEWmV4dWZ0NmlkM2M4ZXA1SXdMMjZnTWhuUGFhQlNnZFBKZU1LaXIzS2QwQXBzQkZSUHZpcFBZRTJfQmpYSndOelhPWHBxbm5pSnVCaWc0ZkVjUjhaaVFpcGRJdXZnYU5NSXFiZWNZelZGMU9ScEpjZjVxc1BPMjI2UFVSZE5Ibw?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "川普",
+"summary": "川普在世界盃前公開稱西班牙『無望』且『壞人』。",
+"why": "此言論可能影響美西外交氛圍，並引發國際輿論反彈。",
+"source": "Yahoo Sports",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbFRVa0FzU00tMU9Icnl0ZkFULVpobDFoZXd2cGoycUJkVVhhNlBETnpvYzdmX1ZQTVJYNmgtRXNpYjlhLXpVMTdzNkVVMUpBZmpmMTBiZDRqX2lGSld5OGljRDlFeENyNF9ueC1QTUlCNkYzMHptZUVHYzdCT1RSeDlBYVJndVU?oc=5",
+"time": "56 分鐘前"
+},
+{
+"who": "XPeng CEO",
+"summary": "XPeng CEO表示其新車型『不遠於擊敗』特斯拉Model Y。",
+"why": "中國電動車企業直接挑戰特斯拉，顯示全球電動車競爭加劇，產業格局可能變動。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcWsyYlVmUk9JeXpqY1FiODZQakZSd2NZZXNaSktVNEhseEd0SUNTOUZTWjlxT1dUa3gyRzZTRzd4bDJkazJ6OGlJZ1dUS2hZLUx3NFh6RzJmdnR3Z1lpdkF0eFhQMkIwQndqOUpsN2xleE9lYWJiR21obmpxamt3WFljTmdHemRMT2NRNVU5UXIwczQ4R1ROa1FoX0JwSlBfdU5TdHo1Zk5qR1VPZEN2anQ4QXpnc0tNY1l1VVFkQTRoTk1vR0JrZUcwVlA3SU1icExpcU1hQ2U3Sk96M2xIZmFCQjQ?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "川普",
+"summary": "川普表示新空軍一號將進行全面升級。",
+"why": "此決策涉及國防與政府採購，可能帶動相關產業發展與預算調整。",
 "source": "NBC News",
 "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdUZCbGxSSW55MTVqWE1XNDNtRGZwSFM5cDU3MV9lRVhUY3ZNSFk2ejBmMGt3MUEwV3lNc0NtVFFaZEpMLWJ0WTZXVzVMQndLMHBaekxXb1poWEMxMGQwTzVfMng0WHhBZGNFR2dLbjBlMU92d2tScjlTQlNBYXlnRXk3QV9CbkNiaHpOZFBoQjNOZjFBX0ZrVjhyazRaS013enBaUkF6ZWpnNkw3OXRSWVA3aDRFVGtLUEJ3?oc=5",
-"time": "19 分鐘前"
-},
-{
-"who": "United Imaging Intelligence聯合影像智能聯合CEO",
-"summary": "聯合影像智能聯合CEO表示公司不會進行『極端』AI推廣。",
-"why": "反映大型企業對AI技術落地採取謹慎態度，可能影響產業AI發展速度與風險管理。",
-"source": "Yahoo Finance Australia",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1JXcVhYbGF3MHI0U2pkSDQyanVpRVZyQnpaZFdlNGJuTnliSkNwWVlFd1NXNHRZNjlSLWpGMjZiWnV1OVRhbWVYQkxXYnJha01hNmJzaWZFMjFXT1A5MmdvVkk0QkFrVU5uelRObmxEQmxjRnQ0UWw1ODVVRHd2aktPcUxaRE0yRHViN1ZGVlRKcHIzandB?oc=5",
-"time": "36 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普表示新Air Force One將因安全疑慮進行升級。",
-"why": "再次強調安全升級，凸顯美國政府對高層安全的持續投入，可能影響國防與航空產業。",
-"source": "The Times of Israel",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2o1S082ZFp6Y2JoZlZpMEtzeWJlYVBHTzFKZ3ZLN3lGaEJXZXZBbTVHdUdza2JnWXZiWW1xRjVfaEh0X2g1ZXphSjBpTXFSZGRNbzREWGdHeERQcjA0RENyUXNBcFhIUHRmbFdtMGNZWUFjNlNwUEVWZVFzbGViZk1xUU4wZ1h5b291Z1BSaFBveVZMOGRrMXA2SHBLWXPSAaQBQVVfeXFMUDdBX1FqY1ctVzNSSlVWdUVtMWs1UGVGcTBDcy1nd21lY21XQWRLSHB1QVlfXzdHVFV1YXBfcVU0MTl3M0NSN2lhakpFYWpTRzQtcWF3dDhQMnlTRHhqbV81cnpXZHNaaFY3b0ZsUjN6NkY2TkFCYnhNNEJfSG1wU2VUSk14a056WlFJYkQ4M3pjWF82cXE4SVAwTlZXQ0l4Y2poQzg?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "川普",
-"summary": "川普稱卡塔爾贈送的Air Force One將進行『最大化』安全升級。",
-"why": "強化美國與中東國家合作，同時推動航空安全技術發展。",
-"source": "CNN",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR2RkNENrV3IzeWtWSjJ1ejZhVmdkQVNMWGlFMTFRSUM3U1I3Wms2R2VDTms0NkxHU2h4RDMxV0xpR0s1a1VvdjJmRVB3a3NOYURsdTd5VC0wNUNNMnYxRGNhb01Id3ZHV25vd3dDY04wZEpNeDA2ck1DQy10dVFUcDZCMkNQQQ?oc=5",
-"time": "2 小時前"
+"who": "Nvidia CEO Jensen Huang",
+"summary": "Nvidia CEO黃仁勳的皮衣在蘇富比拍賣近百萬美元。",
+"why": "象徵科技領袖個人品牌影響力，反映科技產業與文化融合趨勢。",
+"source": "TechRadar",
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYWo3S09zSHpwbUVLX3dYYTI4dEw1dC04XzVjZUVwaXh6U3o5UUpUR1pMS01sc1hZbExqRVc2WVF6SW5tVGR1YkFuWDdmRkFWcF9XdDI3ZXd4U0R0R3dkZERPVzRpYzgyU2Z4RDFyZXdVZ2NCWVVDMWRuNXVIOHNxWEN6RFJvMmxsSjkwblBZQ2trVTVfU0t1WThsMVhLMGVxbUp0dzEwMk1ucVNueF9QUk1sUUp0LXBGQ2s0?oc=5",
+"time": "1 小時前"
 }
 ]
 }
