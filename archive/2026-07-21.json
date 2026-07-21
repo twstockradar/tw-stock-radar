@@ -1,7 +1,7 @@
 {
 "date": "2026-07-21",
 "count": 21,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、先進封裝等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CCL、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -320,44 +320,44 @@
 }
 ],
 "news": {
-"takeaway": "川普對加拿大祭出高額關稅，及多位科技巨頭CEO對AI與地緣風險發表關鍵看法，牽動全球經濟與產業趨勢。",
+"takeaway": "川普強硬貿易政策與大型企業CEO對AI、地緣風險的警告，將深刻影響全球經濟與科技發展。",
 "items": [
 {
 "who": "川普",
 "summary": "川普表示將在30天內對加拿大商品徵收50%關稅。",
-"why": "此舉將加劇美加貿易緊張，可能引發新一輪貿易戰，對供應鏈與北美經濟影響深遠。",
+"why": "顯示美國貿易政策轉向強硬，可能引發新一輪貿易戰，影響全球供應鏈與經濟局勢。",
 "source": "The Washington Post",
 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWg0emk0WENTaV9mTU9ERkhQUm5ta1Z2NkpDTTk1ZnhqbjEtS1dMZ1BXaGNhQm9UTC1nYmgxNnhuY3EwX3doaXZmN0ZKTjBSbnp5d29FWFd0NWZaR0RPRWlfUkgwVl84X3ZTQlJocjZGZnZTMHV6NU9XSExIUE1uYnk1TXlJakF1cUU4WDBXY0FGdUN4M2Z3eGNNN3ZoSlhkdTdnNXdn?oc=5",
-"time": "2 小時前"
+"time": "3 小時前"
 },
 {
 "who": "川普",
 "summary": "川普簽署行政命令加強美國國防供應鏈。",
-"why": "強化國防產業鏈，顯示美國持續推動產業回流與供應鏈安全，影響全球製造業佈局。",
+"why": "強化美國戰略產業自主，對全球金屬、科技供應鏈及地緣政治有深遠影響。",
 "source": "Ratopati",
 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUxqdjlzWmloSlBzQmdENlJHRlBGekRaNHNpVUFCT0F4WkpoYVR1dWxXTkxLQkZ4NGphalV6VzQ1aUlwS3pIbjBxakczUlJaeS1SaEdjUkt5S2RDZUhWNndOaHhxWDNqamJtaDMtZEZNbURISXNYZFk3ZnRrUF95WkVxM3BaVkdFY2dmLU03YWhfdzg0T21nQ3Z3bnZJdS1Xa0tpdUFRSXZZd3FCZUJXM0VETV9kWnBUVHhQZ0JteHo?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Google DeepMind CEO",
-"summary": "Google DeepMind執行長表示3到5年內可能實現通用人工智慧（AGI）。",
-"why": "AGI若實現將徹底改變產業結構與勞動市場，對全球科技發展具指標意義。",
-"source": "Geeky Gadgets",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVzg0SzlsYmRQb2N2aEN4aFcyZjdmY1IwRkxuY3pydHhQcVRJSlE3WGpTNVV6ZE5RZWIxM0g1OWtncEVWUm8wZVhaei1MNjBDTm1IRkhLVWVYcG5SdFdQbzFLV1dGM29xbFE?oc=5",
-"time": "27 分鐘前"
-},
-{
-"who": "JPMorgan CEO",
-"summary": "摩根大通執行長警告地緣政治與財政風險，並認為AI投資被過度炒作。",
-"why": "反映全球金融機構對市場風險的高度關注，可能影響資本流向與投資策略。",
+"who": "JPMorgan CEO Jamie Dimon",
+"summary": "JPMorgan CEO警告市場面臨地緣政治與財政威脅，AI投資被過度炒作。",
+"why": "反映全球金融領袖對未來風險的高度警覺，可能影響資本流向與投資決策。",
 "source": "The Standard (HK)",
 "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUkxraDhZak5HMkJaX0J5b3ZBSExPNUpUVGJrMHh4M3BhNmhPVnJyZ2lUN3NJNktOekV0WUZNeVBHajVUcEoweFJNUGRhbi05TXdhT0o2Sk04TzgxOTBjNWYtWHhERlIzaDlpUlFVVi1yOTNaYXNRX21kU2NZdUdTTDgtd1hFZ1V2THlCTTVGUmU4MnJvdEk0SzYtblZ1TWNLOGNBc0JZc0kxVnJ6S1JJWjhKWmJTUVVhZkc5V0xReGUzS3dZdjRydlltSFQ1X1RTQzB0RjN5bjc5XzM0MHRIRTB6ZkQ?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Microsoft CEO",
-"summary": "微軟執行長納德拉針對AI交易表示：賣方比買方學得更多。",
-"why": "凸顯AI產業競爭格局，技術主導者將掌握更多數據與優勢，影響產業生態。",
+"who": "Google DeepMind CEO",
+"summary": "Google DeepMind CEO預測AGI（通用人工智慧）可能3到5年內問世。",
+"why": "加速AI技術發展，對產業結構、勞動市場及監管政策產生重大影響。",
+"source": "Geeky Gadgets",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVzg0SzlsYmRQb2N2aEN4aFcyZjdmY1IwRkxuY3pydHhQcVRJSlE3WGpTNVV6ZE5RZWIxM0g1OWtncEVWUm8wZVhaei1MNjBDTm1IRkhLVWVYcG5SdFdQbzFLV1dGM29xbFE?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Microsoft CEO Satya Nadella",
+"summary": "微軟CEO指出AI賣方比買方學得更多，顛覆傳統經濟學觀點。",
+"why": "揭示AI產業競爭新格局，強調數據與技術主導權的重要性。",
 "source": "The Times of India",
 "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPd0k2bExfSE5BV3lfSm1mNEFBZ2JoOUpwc1BBWGYzM2hYZk52VnE0LUtVZHFqX2RzamhMV1V0Zl9YM2RyMUxDNnpzVFhEdmxPZzAyMXRrdlIzbWFnTkFFV2lSYlc1LXF3OENOUWE1a0J2UGN2UEVqY1hHZi1qcWVtd002RWVEbDdaWmRkMW9hbkhxbmUxV0tMTUVHZ2JMbTBvcndWZGlZd3FOYTVEU0RlRWZFNXV6SHNyYjdyS2xDZzhZbDg2VGNuNml0STNTWEFpRzhSRGV0NzFOdklZanRGd0NCNVhEMDdVc0FMQnowNnFEXzNYYUpWaUR1dFdfQ1dBcW9UMlI5LURSYUFNaDRNMFEtYVEwLWw2ODFjdWo1ZjNGRWFVZmd6X1lBazF3cUl1S0FRck9n0gG7AkFVX3lxTE0wODdUZDNiOUladUsyRTdpZkdSQVdWdV9HMlpHTmU2bXZXLVNQeEpkT2tHZHJhN2dFZThGdzN1RWR6dHoyN0lTRjE2ZUUxZVlpZ1lDRWV3RnF1Qi1JaE5UaFBJZ2RHY0VwTmFRTjNIX181aE82YWljenpyZloyZUlEbllOdFNmcVZpMjBzNzRfZkk0eGFUa1NVVWxQb2Q3NTdxQ25kTG1DZzd6WkNVSEhOS0lZbmFkaksxYmJaMGNMVDN2MllhalgwaDRHLUlzdGVsWmlIWDZJdFM1VDBhbkJXYm94alZhTmNSb2ZsT2hWRE43YjdXUDZxdVI3eFpZdjlyeXdYd2V0SHZxaHRKQ3dtQzVSdFhKdmFESGpPX3BhZ0p0aEl2eGNBOFF5dWVjLUZ0YzJmUGpBeWVSbw?oc=5",
 "time": "2 小時前"
