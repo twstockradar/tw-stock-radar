@@ -335,47 +335,39 @@
 }
 ],
 "news": {
-"takeaway": "川普大幅提高對加拿大商品關稅，並推動關鍵金屬供應鏈政策，企業CEO則對歐洲電力價格與AI發展釋出重要警訊。",
+"takeaway": "川普大幅提高對加拿大商品關稅及準備對多國加徵新關稅，顯示美國貿易政策趨於強硬，企業CEO則針對能源與資本市場釋出重要訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普宣布對大多數加拿大產品徵收50%關稅。",
-"why": "此舉將加劇美加貿易緊張，可能引發全球供應鏈重組與新一輪貿易壁壘。",
-"source": "FOX 2 Detroit",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53ZVFNNW5VMnRhbHUtNHpVVGtlTTMtak0xbW90cTZJdTEyOE83RkRqY2lWM3ZnVUNtemtkTlNvTllwSkxyeE9PMVZpNmI2OFcxSlk0ZHBsWFJnRUpnejMySXlsNlHSAWpBVV95cUxObkpqQmVyQlUtMTBZUnFvb2pKZzI4S2I2dTJYM1lfSUxmRG1sMTdocU5PSEN4amh4N3oxT2ZRYjJKOWo3Ukw1NEwybVBlTFlTdmllenI1ZG5Jc1hXX0ljQTMwT3RMNXVIUEZ3?oc=5",
-"time": "30 分鐘前"
+"summary": "川普簽署命令，對多項加拿大商品加徵50%關稅，指控加拿大在關鍵產業歧視美國。",
+"why": "大幅提高關稅將加劇美加貿易緊張，對全球供應鏈與貿易格局產生深遠影響。",
+"source": "facebook.com",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPODMwSEN4SlktMWw0dUNaa2g2NDU5dEJ6OUVnNmMwNFlCOTAyOGRnOEtGRlFWNXROTkYwbG5yVDMtRlF1UHB0V3JlVHNxNVQ1Uk1IdVlOSTliWlZhWlU2MlB2VFZMSUVEbk80SjhxT1JHUjNzOS02VkN0VkZERjlhbVh6cGxEUnBOYk5VbldXNmtQOVlUN2ExaDFSMUFBWmpiQWdtM3hNNUZaaHNmODFRcUJaNDQ1cEh1YTFLNnB2a3pkQWFVMVhIZTJfOUhLd1JRM0Vz?oc=5",
+"time": "35 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普推動防禦性關鍵金屬供應鏈政策，零售業者歡呼。",
-"why": "強化美國關鍵金屬自主供應，對全球資源分配與產業鏈布局產生深遠影響。",
-"source": "TradingView",
-"link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOaGcwdVZkeDVfN3dVV2xycDNVMm1odkMzX1E1SkhkTEFobWRCMVF5ZW5IclNfRS1uVjhDZnlKYVFvWlZiVlFkS2hMUGR2aFl0ZGVCTnFhb0thdGtaTFY4eXpRa0RwT0F4NWlTOGctVTRuOUxINjFkaUMzekgzNC02V1F2VlpxTkxERjFoUHRkREtjMEcxSUtud3JsVVRzTHVnakFPTmRQaGZGTkxkVnU2OWp6bzlROTFjMlJ3SG1VZExkdXRFSHdIb0tTSDFRazQwcFVraWNYTVBndHRHeE1iajVpa3JseWdnT1RBRDVnUHR1RzdiYTQw?oc=5",
-"time": "2 小時前"
+"summary": "川普準備對數十個國家加徵新一輪關稅。",
+"why": "顯示美國貿易保護主義升溫，可能引發全球貿易摩擦與報復措施。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd1lYdUI0b3RBNFpYbHNkS1ppNEJSMkp6MTlnQWkwZk5wN0JZX1hJa2tnMWF0ZUJIQ0tnei1URG1tWmRWdVFKRnN3UUtUWXBaWXF4ZXloTXNzZldhd0xVM3JjRlJuUFZUNjh2ZEl6MHNJRzJ0NWdYbnIwUXVYdWM5QkxZUVJudThkaDFkeU4xc1JQZlA0akFYQVlIbUp1S0JPNEd6TFNwQQ?oc=5",
+"time": "52 分鐘前"
 },
 {
 "who": "Statkraft CEO",
-"summary": "Statkraft執行長警告歐洲電力價格將長期維持高位。",
-"why": "能源價格高企將影響歐洲產業競爭力與通膨走勢，牽動全球經濟。",
+"summary": "Statkraft執行長警告歐洲電力價格將長期高企。",
+"why": "能源價格長期高位將影響歐洲產業競爭力與通膨走勢。",
 "source": "Global Banking & Finance Review",
 "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXdUaTZyVTNVT18tR21MU3I1dVB3RkZVNDI1ZWFmZHRhTXFvUURtZ2t5Z3pTZzJyaDEtVW9NSG0xTnRRMFA1QlM1WWFGclBVMWJfSFlZM25kQ3RpSlowRUl0bHgtSGJReC13TDhlNEhKSHNOak1zaGhocHBqN0Y4dEx4MzJkLWZQdUFQcmFqNkd6ZWN3THVZS1l3?oc=5",
-"time": "15 分鐘前"
+"time": "43 分鐘前"
 },
 {
-"who": "Google DeepMind CEO",
-"summary": "Google DeepMind執行長預期3至5年內實現AGI（通用人工智慧）。",
-"why": "AGI若實現將徹底改變產業結構與社會運作，對全球科技與政策具重大影響。",
-"source": "Geeky Gadgets",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVzg0SzlsYmRQb2N2aEN4aFcyZjdmY1IwRkxuY3pydHhQcVRJSlE3WGpTNVV6ZE5RZWIxM0g1OWtncEVWUm8wZVhaei1MNjBDTm1IRkhLVWVYcG5SdFdQbzFLV1dGM29xbFE?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "JPMorgan CEO",
-"summary": "JPMorgan執行長警告地緣政治、財政風險及AI投資過熱。",
-"why": "金融領袖對市場風險與AI泡沫提出警訊，將影響投資者與政策制定方向。",
-"source": "The Standard (HK)",
-"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUkxraDhZak5HMkJaX0J5b3ZBSExPNUpUVGJrMHh4M3BhNmhPVnJyZ2lUN3NJNktOekV0WUZNeVBHajVUcEoweFJNUGRhbi05TXdhT0o2Sk04TzgxOTBjNWYtWHhERlIzaDlpUlFVVi1yOTNaYXNRX21kU2NZdUdTTDgtd1hFZ1V2THlCTTVGUmU4MnJvdEk0SzYtblZ1TWNLOGNBc0JZc0kxVnJ6S1JJWjhKWmJTUVVhZkc5V0xReGUzS3dZdjRydlltSFQ1X1RTQzB0RjN5bjc5XzM0MHRIRTB6ZkQ?oc=5",
-"time": "3 小時前"
+"who": "Binance CEO Richard Teng",
+"summary": "Binance執行長宣布公司股票資產管理規模突破10億美元。",
+"why": "顯示加密貨幣交易所積極布局傳統資本市場，金融生態加速融合。",
+"source": "Coinfomania",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMk9makhxckRRY2VBVG1VemU2SUJPekN4enY0dFFJYnRCTHBNMGo2WnRwX0RpN0hYcHl5UE5wQUdYZlVrdXM2TXhYeGdsUFRmY3RCRGlKZVR6RENJVE9nWnNXWGtHWmZQTDU5Um1IcTBJRGhXbXlUQkQ5b0NiUnZYb29sLVU?oc=5",
+"time": "1 小時前"
 }
 ]
 }
