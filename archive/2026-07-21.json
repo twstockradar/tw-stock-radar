@@ -1,7 +1,7 @@
 {
 "date": "2026-07-21",
-"count": 21,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
+"count": 22,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 670.0,
 "change_pct": 6.349206349206349,
-"trade_value": 61409070433.0,
+"trade_value": 62257032314.0,
 "market_cap": 1387881874280.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -69,7 +69,7 @@
 "market": "TWSE",
 "close": 2410.0,
 "change_pct": 3.8793103448275863,
-"trade_value": 74919339130.0,
+"trade_value": 75429747048.0,
 "market_cap": 62497011861470.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 4830.0,
 "change_pct": 9.897610921501707,
-"trade_value": 10599785415.0,
+"trade_value": 13943258832.0,
 "market_cap": 1730690980620.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 2320.0,
 "change_pct": 8.665105386416862,
-"trade_value": 8381141120.0,
+"trade_value": 8489473280.0,
 "market_cap": 910699776240.0,
 "status": "NEAR_HIGH",
 "dist": -0.0897009966777409,
@@ -159,7 +159,7 @@
 "market": "TWSE",
 "close": 825.0,
 "change_pct": 10.0,
-"trade_value": 14607150836.0,
+"trade_value": 15329025836.0,
 "market_cap": 1310820188700.0,
 "status": "PULLBACK",
 "dist": -0.13362831858407076,
@@ -184,12 +184,27 @@
 "theme": "AI晶片設計"
 },
 {
+"code": "3661",
+"name": "世芯-KY",
+"market": "TWSE",
+"close": 3490.0,
+"change_pct": 3.7147102526002973,
+"trade_value": 5115171598.0,
+"market_cap": 300854479780.0,
+"status": "PULLBACK",
+"dist": -0.1320921985815603,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "AI晶片設計"
+},
+{
 "code": "3711",
 "name": "日月光投控",
 "market": "TWSE",
 "close": 633.0,
 "change_pct": 6.030150753768844,
-"trade_value": 9678236524.0,
+"trade_value": 9698878024.0,
 "market_cap": 2829872254506.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
@@ -320,47 +335,47 @@
 }
 ],
 "news": {
-"takeaway": "川普強硬貿易政策與大型企業CEO對AI、地緣風險的警告，將深刻影響全球經濟與科技發展。",
+"takeaway": "川普加大貿易壁壘與大型企業CEO對市場風險與AI發展的警示，將深刻影響全球經濟與科技趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示將在30天內對加拿大商品徵收50%關稅。",
-"why": "顯示美國貿易政策轉向強硬，可能引發新一輪貿易戰，影響全球供應鏈與經濟局勢。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWg0emk0WENTaV9mTU9ERkhQUm5ta1Z2NkpDTTk1ZnhqbjEtS1dMZ1BXaGNhQm9UTC1nYmgxNnhuY3EwX3doaXZmN0ZKTjBSbnp5d29FWFd0NWZaR0RPRWlfUkgwVl84X3ZTQlJocjZGZnZTMHV6NU9XSExIUE1uYnk1TXlJakF1cUU4WDBXY0FGdUN4M2Z3eGNNN3ZoSlhkdTdnNXdn?oc=5",
-"time": "3 小時前"
+"summary": "川普對加拿大商品加徵50%關稅。",
+"why": "加劇美加貿易緊張，可能引發連鎖反應，影響北美供應鏈與全球貿易格局。",
+"source": "Time Magazine",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYXBSWU5QOV9oSEQ2ZG5GN1RyV3ZZbm9Mb29YeTQyQWJYQkhCR1FaTjcwYUhWaWw0VTZSeThyUWhwWFRYLW1ZX1NrbXp6ZEF3R19jSHUxVXhGSFV3cVV6Z0ZmQ09qVFNjMlhHZHNpNnVJT3diY2p4aTQ1bGhnZlVMWnl5MWJ6M0RvZWg4cGFDNA?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普簽署行政命令加強美國國防供應鏈。",
-"why": "強化美國戰略產業自主，對全球金屬、科技供應鏈及地緣政治有深遠影響。",
-"source": "Ratopati",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUxqdjlzWmloSlBzQmdENlJHRlBGekRaNHNpVUFCT0F4WkpoYVR1dWxXTkxLQkZ4NGphalV6VzQ1aUlwS3pIbjBxakczUlJaeS1SaEdjUkt5S2RDZUhWNndOaHhxWDNqamJtaDMtZEZNbURISXNYZFk3ZnRrUF95WkVxM3BaVkdFY2dmLU03YWhfdzg0T21nQ3Z3bnZJdS1Xa0tpdUFRSXZZd3FCZUJXM0VETV9kWnBUVHhQZ0JteHo?oc=5",
-"time": "2 小時前"
+"summary": "川普準備對多國祭出新一輪關稅。",
+"why": "顯示美國貿易政策將更強硬，全球經濟與企業將面臨更大不確定性。",
+"source": "Reuters",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd1lYdUI0b3RBNFpYbHNkS1ppNEJSMkp6MTlnQWkwZk5wN0JZX1hJa2tnMWF0ZUJIQ0tnei1URG1tWmRWdVFKRnN3UUtUWXBaWXF4ZXloTXNzZldhd0xVM3JjRlJuUFZUNjh2ZEl6MHNJRzJ0NWdYbnIwUXVYdWM5QkxZUVJudThkaDFkeU4xc1JQZlA0akFYQVlIbUp1S0JPNEd6TFNwQQ?oc=5",
+"time": "18 分鐘前"
 },
 {
-"who": "JPMorgan CEO Jamie Dimon",
-"summary": "JPMorgan CEO警告市場面臨地緣政治與財政威脅，AI投資被過度炒作。",
-"why": "反映全球金融領袖對未來風險的高度警覺，可能影響資本流向與投資決策。",
+"who": "JPMorgan CEO Dimon",
+"summary": "JPMorgan CEO警告市場過度炒作AI，並指出地緣政治與財政風險。",
+"why": "提醒投資者與企業需警惕AI泡沫與全球風險，可能影響資本流向與科技產業發展。",
 "source": "The Standard (HK)",
 "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUkxraDhZak5HMkJaX0J5b3ZBSExPNUpUVGJrMHh4M3BhNmhPVnJyZ2lUN3NJNktOekV0WUZNeVBHajVUcEoweFJNUGRhbi05TXdhT0o2Sk04TzgxOTBjNWYtWHhERlIzaDlpUlFVVi1yOTNaYXNRX21kU2NZdUdTTDgtd1hFZ1V2THlCTTVGUmU4MnJvdEk0SzYtblZ1TWNLOGNBc0JZc0kxVnJ6S1JJWjhKWmJTUVVhZkc5V0xReGUzS3dZdjRydlltSFQ1X1RTQzB0RjN5bjc5XzM0MHRIRTB6ZkQ?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
 "who": "Google DeepMind CEO",
-"summary": "Google DeepMind CEO預測AGI（通用人工智慧）可能3到5年內問世。",
-"why": "加速AI技術發展，對產業結構、勞動市場及監管政策產生重大影響。",
+"summary": "Google DeepMind CEO預測3至5年內可能出現AGI（通用人工智慧）。",
+"why": "若成真將徹底改變產業結構與社會運作，全球科技競賽進入新階段。",
 "source": "Geeky Gadgets",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVzg0SzlsYmRQb2N2aEN4aFcyZjdmY1IwRkxuY3pydHhQcVRJSlE3WGpTNVV6ZE5RZWIxM0g1OWtncEVWUm8wZVhaei1MNjBDTm1IRkhLVWVYcG5SdFdQbzFLV1dGM29xbFE?oc=5",
-"time": "1 小時前"
+"time": "2 小時前"
 },
 {
-"who": "Microsoft CEO Satya Nadella",
-"summary": "微軟CEO指出AI賣方比買方學得更多，顛覆傳統經濟學觀點。",
-"why": "揭示AI產業競爭新格局，強調數據與技術主導權的重要性。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPd0k2bExfSE5BV3lfSm1mNEFBZ2JoOUpwc1BBWGYzM2hYZk52VnE0LUtVZHFqX2RzamhMV1V0Zl9YM2RyMUxDNnpzVFhEdmxPZzAyMXRrdlIzbWFnTkFFV2lSYlc1LXF3OENOUWE1a0J2UGN2UEVqY1hHZi1qcWVtd002RWVEbDdaWmRkMW9hbkhxbmUxV0tMTUVHZ2JMbTBvcndWZGlZd3FOYTVEU0RlRWZFNXV6SHNyYjdyS2xDZzhZbDg2VGNuNml0STNTWEFpRzhSRGV0NzFOdklZanRGd0NCNVhEMDdVc0FMQnowNnFEXzNYYUpWaUR1dFdfQ1dBcW9UMlI5LURSYUFNaDRNMFEtYVEwLWw2ODFjdWo1ZjNGRWFVZmd6X1lBazF3cUl1S0FRck9n0gG7AkFVX3lxTE0wODdUZDNiOUladUsyRTdpZkdSQVdWdV9HMlpHTmU2bXZXLVNQeEpkT2tHZHJhN2dFZThGdzN1RWR6dHoyN0lTRjE2ZUUxZVlpZ1lDRWV3RnF1Qi1JaE5UaFBJZ2RHY0VwTmFRTjNIX181aE82YWljenpyZloyZUlEbllOdFNmcVZpMjBzNzRfZkk0eGFUa1NVVWxQb2Q3NTdxQ25kTG1DZzd6WkNVSEhOS0lZbmFkaksxYmJaMGNMVDN2MllhalgwaDRHLUlzdGVsWmlIWDZJdFM1VDBhbkJXYm94alZhTmNSb2ZsT2hWRE43YjdXUDZxdVI3eFpZdjlyeXdYd2V0SHZxaHRKQ3dtQzVSdFhKdmFESGpPX3BhZ0p0aEl2eGNBOFF5dWVjLUZ0YzJmUGpBeWVSbw?oc=5",
-"time": "2 小時前"
+"who": "Binance CEO Richard Teng",
+"summary": "Binance CEO宣布公司在股票資產管理規模突破10億美元。",
+"why": "顯示加密貨幣企業積極跨足傳統金融，金融市場融合趨勢加速。",
+"source": "Coinfomania",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMk9makhxckRRY2VBVG1VemU2SUJPekN4enY0dFFJYnRCTHBNMGo2WnRwX0RpN0hYcHl5UE5wQUdYZlVrdXM2TXhYeGdsUFRmY3RCRGlKZVR6RENJVE9nWnNXWGtHWmZQTDU5Um1IcTBJRGhXbXlUQkQ5b0NiUnZYb29sLVU?oc=5",
+"time": "1 小時前"
 }
 ]
 }
