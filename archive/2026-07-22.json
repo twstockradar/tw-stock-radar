@@ -1,7 +1,7 @@
 {
 "date": "2026-07-22",
 "count": 29,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、光通訊CPO等族群為主，題材聚焦於晶圓代工、先進封裝、AI伺服器代工、ABF載板、CoWoS、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、光通訊、重電等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、ABF載板、CoWoS、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "光通訊CPO"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -136,7 +136,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封裝測試"
 },
 {
 "code": "6669",
@@ -346,7 +346,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封測"
+"theme": "封裝測試"
 },
 {
 "code": "3374",
@@ -361,7 +361,7 @@
 "limit_up": true,
 "limit_up_count": 2,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "4939",
@@ -375,7 +375,7 @@
 "dist": -0.09335032873715954,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "電源/重電",
+"group": "重電",
 "theme": "重電設備"
 },
 {
@@ -421,7 +421,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試"
 },
 {
 "code": "6488",
@@ -440,47 +440,47 @@
 }
 ],
 "news": {
-"takeaway": "川普宣布對進口仿製藥施加高額關稅，Nvidia CEO捐款及新銷售策略，Google CEO揭示全球觀看趨勢，Chubb CEO警告保險市場風險。",
+"takeaway": "川普的貿易與藥品政策、Nvidia CEO對中國AI的立場，將深刻影響全球產業與地緣政治走向。",
 "items": [
 {
 "who": "川普",
-"summary": "宣布對進口仿製藥徵收200%關稅。",
-"why": "將重塑美國藥品市場供應鏈，可能推高藥價並影響全球製藥產業。",
-"source": "The Independent",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORUVjX1BjemlOLUdYUzRMXzhOVUs3WC1WRFU3dnVQcXNlc0hNQ2JOZmQ0ODF2ZWxYOUU5ZUdoOGRCQXphaFdvaFYtOFFYa093R2Zjek5tTFl6VWRVUlpHUUNqTUlzWW9QRk1UZ0Vyc0dtWkRfSXVnTThEeGJFNWV5NWIzY201LTJ2dUE5NFRXdUlvRS1Pc3VfN3pmN2ZpekZHUzdMQWs0VUY?oc=5",
-"time": "54 分鐘前"
-},
-{
-"who": "Nvidia CEO Jensen Huang",
-"summary": "推出協助客戶購買AI晶片的新銷售方式。",
-"why": "加速AI產業擴張，強化Nvidia在全球AI市場的主導地位。",
-"source": "Business Insider",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON1lTal9JdTNrX0czWDVzVDhJSzZyYm1lVWQ4bngtcEhSRjRvdWhldTN2OHZzNmRwM2JrWFhXeWZnR1M5RkdvcnpDX2ROZFVlYjlOODk5NXZNWUFFMXUwSlZyajZocmM0S0VFWGpyZS0ycE5SRC1rQ0hkTnRXTU90T1Q5b3dEYk5fa1hNOTZ2WlFIRWU1SXRPbXBrMUR1c0lHaEU4OTFraGlUaTQ?oc=5",
+"summary": "川普設定對仿製藥徵收100%甚至200%關稅。",
+"why": "此舉將重塑美國藥品供應鏈，可能引發全球藥價波動與貿易緊張。",
+"source": "pharmaphorum",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY3V6NXNRRjlQdWtCUVRuMFROTkhuY0tQeDg0WGZ4My14WWs5ckVBUnJCUXZvSUVYOGxIbk12R3ZsMnN5S2dEbmU3N2h5WkQ2aUZnUlhjbERlNjhDMnZJOExyTjl5MFRoZ3kwWEpseTlsckw2VHlsSkN5eWFhbmJwd1pmbw?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Nvidia CEO Jensen Huang",
-"summary": "捐贈7500萬美元給范德堡大學。",
-"why": "顯示科技領袖對教育與創新投入，可能促進AI人才培育。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNUTNUeW8xV1J1NzZCTVZxb0VrcXNLZDZta1o2X2JoN29mNnFNdmxpOEhoV1gwdndsRjFkWjdrMllHM3h3bnFCZnM2LURGb0hORlIySlAxNUVUQmJ4UVpTbHRhZTVPQ1lKcXlPNmNfWWt5T3ZYMzI0cjJQZE5jUi16UGNfSVV6aEhxczN1bkV2NXc5b0hvcllfZjBMTTZHbk55U3BTZ1o4N2g1ak9JcUkxSWtNM3JTbGc4Nlc5TFExSDhZMXNucEs2UkQzX25hNlYtZ3VleWtLUFdZM0J4NXd6bDBHR2pJcGFwUzBCUEdYVHhNUjllWVVfYW5mdThWelY5d25uOFdlWWJ0eW1NRmtuTjJRbkN5dld0VUlCaC1tcTdWbEFYcGdlRlFnSdIBsAJBVV95cUxOWEZyYVBISXIwdmliYTBxRDJEcEY0WUlEMEtWbzFUeVVLUlF5SWlJZE8waTA3TFplQ2IyN3VpWE93QWRVSGxEVlhOX2ZaX3lOcGFLZlU4dlllUnJxX2JlbXkxdlpPWEdlRkdtTWNka3RvUUJDaUJLbDFHSVNYUUNJN0JkWjFGQ2ZjSlQ2YnhmaHkydlpROTlLZFdhTmttamJFcDRqMjlDQ1F6eGs0alZta2syeFdYNkZDYktxTEF4dWdha29Pcm4tSW5xdTBtVk9YYmdRNjVuVzlLMFg2cmExblplM0dLY09JdGZpUjRtRlJEWXRnc0hBRGhrVDMyUmY0VE03bnNLMXNvVG5NdjNZTlVBSllKTEJlZVJUSFdiTHh4U0dmdW1yREFscGZoV3JT?oc=5",
-"time": "59 分鐘前"
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳表示美國不應禁止Kimi及中國AI模型。",
+"why": "此發言反映科技巨頭對全球AI開放合作的態度，可能影響美中科技政策與產業競爭格局。",
+"source": "Breakingthenews.net",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSjgtX1FiVXMxZlExcmpSeF9JMjZJZTNBdWpTN0pSck9XOEh6bFU4bE04eGhLdDRQSGsxbV8xMGE3cEFqQks4NUpXZ0F2OTVWOGFhNXNZRjBmLU5tQUgtZlV6N1RDY3RCaGJFS3NJYnREamh0eDdEWXJJalJzaWtOem5xZmdwby1PTlZYdTk0di1rbDV3bTctUlk5MDNOZw?oc=5",
+"time": "2 分鐘前"
 },
 {
-"who": "Google CEO Sundar Pichai",
-"summary": "宣布YouTube世界盃觀看人數達17億。",
-"why": "反映全球數位內容消費趨勢，強化YouTube在媒體市場的影響力。",
-"source": "Storyboard18",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdEd6b0h4ZEJNT2RQVmF3eWVCNlVPcjctVFFLdWFpamxRR2RKbmlYU0dGN2JsUVpIZWp6SDFCTng2ZGdmY2tWOUswX0VjTEFTbjlFR0JBZ1Npck91ak1KWmc0OUpWanBQTEJ2Rng5bllqUHZJZGJNSksyaUlpMXZtUGZvdFNoT0dDN3U5M19rZkhZa291QjNzRWhLWHVDNDFpRTdjand5OENTRUQwVjBCaUM3OF9DNmF3aWVMekdxZVZMRlZmbmtTVldyWDFSTUhsUTI00gHYAUFVX3lxTE4tdlpTVWVsSWZfbEM4RWxGSEhxNks1QVV3cFVZN0hRTGdPLU1PMm5ZZ2ZxUlFzeXhFbzRZemo3VVpJeUp6S0dpZThad2FldElZRlI5Wll2OElJeVpQUjVfY01leWZ1MHlxcWFxMHk0eXZldlF5MVVUeU5tZkR0WHBTN2hVRjM1MThpUHh4cFFTQXdseHNnRWpCV0tYVnZxN0tpaVZhQ2FSMGtTelZZcER6XzFtU3JBdEJhanpCVEExSDlmQTQxWGZPbkJsM2cyY1UyeEhtZ253Qg?oc=5",
-"time": "50 分鐘前"
+"who": "Nvidia CEO 黃仁勳",
+"summary": "黃仁勳力挺中國AI，稱開源模型為『世界級』。",
+"why": "強調中國AI技術實力，可能促使美國重新評估對中國科技限制政策。",
+"source": "Crypto Briefing",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10RkZNUlIxR3pHUFg4U09tQlM3Q0JzcnpOeUhGTkU0dFVIR0Y5OXVmTDlpZDJ6SHFRYThnVUhNOUg3bzhLUnNRaTNyR2hrX2JIMGtXNU0xa1NSVlJWdWpBVldnQWMweFBhRzhNNG1LcVdQRHlwX3ZTMjNR?oc=5",
+"time": "19 分鐘前"
 },
 {
-"who": "Chubb CEO",
-"summary": "警告保險市場軟性價格正在擴散。",
-"why": "預示保險業未來盈利壓力，可能引發行業調整與風險管理變革。",
-"source": "Insurance Day",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVlh3dXVzRmN3UEI4Sk5kTkVIQXRLOW1IcmdWdnA2ZkYxZDVLLVRYaEkzOHdjTXYyLUdwbjFLVzNkRUJSc0VOVWtxX2U0RmJSVE1xN21aR2VVMlgwdElJa09EWk02b2JJNnBCakpVeTRtRGUwdHo3c0laSDFMemJvVDdHbVJOMzFVUVlPM2NuYjJmSldSYmFQU2xsamRQM0k?oc=5",
-"time": "47 分鐘前"
+"who": "川普",
+"summary": "川普批准沙烏地核能協議，面對伊朗飛彈威脅。",
+"why": "此決策將影響中東地緣政治與能源安全，並可能加劇美伊衝突。",
+"source": "WSJ",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZmJjTzdUVWhWc3BvdjhCR3hSbkVwRmRrVWkyVEJGa01Ld0xQMWxOVXZOSHRhY2hqT05DMk82d2hUaVhpSkhYME9sUUI1M1dnT1E2dk5NUVRCazZYbVVFZnhneThTV3owb0plbWJFOE1aeFh3UmctUkt3UWtCWmFvQVVPTXA0aHdwZnAwSDRFVVVXWWEtR1loZEZqN3RxQWdSQlE?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "川普",
+"summary": "川普發布AI行政命令，影響CIO決策。",
+"why": "政策將直接影響美國企業AI發展方向與技術規範。",
+"source": "TechTarget",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdHJYSHRZYmgyc0lkX3pkUnF4ckZ1NFFhWWVva0dfMndFUF9xN2RCdV9hRnhibFBGbE1QYm05SXFtSlRjTkFIMndhLWY5QTZVRXVSWTJaZ19ueE8tbmlEeEZMdmYyTmR0WXRFRUUtU2owbFRMeHFmbEdpbmVuWHdkaE5WQjBIWmd1WWZodHhXLWhaNXpH?oc=5",
+"time": "5 分鐘前"
 }
 ]
 }
