@@ -1,7 +1,7 @@
 {
 "date": "2026-07-22",
 "count": 29,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、光通訊CPO等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、ABF載板、CoWoS、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱、光通訊等族群為主，題材集中於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊CPO"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -240,8 +240,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "先進封裝",
+"theme": "CoWoS先進封裝"
 },
 {
 "code": "4958",
@@ -285,8 +285,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測"
+"group": "先進封裝",
+"theme": "封裝測試"
 },
 {
 "code": "6669",
@@ -345,8 +345,8 @@
 "dist": -0.04824561403508776,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "封測"
+"group": "先進封裝",
+"theme": "封裝測試"
 },
 {
 "code": "3374",
@@ -360,8 +360,8 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "半導體",
-"theme": "探針卡/測試"
+"group": "先進封裝",
+"theme": "探針卡"
 },
 {
 "code": "4939",
@@ -375,8 +375,8 @@
 "dist": -0.09335032873715954,
 "limit_up": true,
 "limit_up_count": 3,
-"group": "網通",
-"theme": "光通訊CPO"
+"group": "光通訊CPO",
+"theme": "光通訊模組"
 },
 {
 "code": "5347",
@@ -420,8 +420,8 @@
 "dist": -0.014266304347826053,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "探針卡/測試"
+"group": "先進封裝",
+"theme": "探針卡"
 },
 {
 "code": "6488",
@@ -440,47 +440,47 @@
 }
 ],
 "news": {
-"takeaway": "川普對藥品、AI、伊朗政策及大型科技企業CEO的最新發言與決策，將深刻影響全球產業鏈與地緣政治。",
+"takeaway": "川普對藥品關稅與中東政策、Nvidia CEO與全球科技領袖互動，將深刻影響全球經濟與科技趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普威脅對美國低價仿製藥徵收100%關稅。",
-"why": "此舉將重塑全球藥品供應鏈，推動製藥產業回流美國，並可能引發國際貿易摩擦。",
-"source": "Bloomberg.com",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT0I3NWRBeEQ1QUxWZ0pBdFM5TVRFMUNrQ2VZeWRWT1hqRlVqaVl3Z0hRUHpVSmRVeFVVMDlYcWZoMnBXcmFkb0dXZi1EOGJrVDZhOUhBVjdwNzdGZ3Jfemg3UkUzVS1yNURFajV1b05SMDd6Q3QzdTJUZUpkTno4YmJNV1pjb2trRFhhUmhDaW1QREwwSjYwLTl1ekMzWFBNWFZockNoclgteW8?oc=5",
+"summary": "宣布對進口仿製藥徵收100%關稅。",
+"why": "此舉將重塑美國藥品市場供應鏈，可能推高藥價並引發全球貿易緊張。",
+"source": "inkl",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTEw2Z2dEQWVsbDJnNnh4eFRNNnVqLVVrUERmcTlYN2ZLdEowU2wzSWQwc19VRjEwcjVLUjVHTFhuRmUzazNRVDQwUlhETDFsN2hNalJyaGw5MkNXM19Rb1BBLUhwUlhabGxxQ0xsWkV1a19kcm1Mb0ljc21KXzB2cDJpdlRwT3YzRWxCQnkwOWV6N2szQ1FFai1n?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普設定關稅時程，推動仿製藥生產回流美國。",
-"why": "具體政策時間表將加速產業轉移，影響全球製藥與醫療成本。",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlJEWENoNVBQMTlpUUJOWkRBeVJfQU12bDdLNlUwVXFmbTZ0VTBwUTNCR2pLbEVIVlNwLWpYN0JHT3g2YW9UeXh0NzBabFpfZXBlWjdEbF81clV6Z2pPNVJ0SU9VYTJZakExMG9Id2JEZVRfaWFJNWRTVGJhZ2wySmZPbWNtTjl1ZE16RmliNUVBeWJ0WGY2SHJRS3TSAZwBQVVfeXFMT1ZSRFhDaDVQUDE5aVFCTlpEQXlSX0FNdmw3SzZVMFVxZm02dFUwcFEzQkdqS2xFSFZTcC1qWDdCR094NmFvVHl4dDcwWmxaX2VwZVo3RGxfNXJVemdqTzVSdElPVWEyWWpBMTBvSHdiRGVUX2lhSTVkU1RiYWdsMkpmT21jbU45dWRNekZpYjVFQXlidFhmNkhyUUt0?oc=5",
-"time": "3 小時前"
-},
-{
-"who": "川普",
-"summary": "川普表示美國無意與伊朗談判，並強調戰爭成本上升。",
-"why": "此發言加劇中東緊張局勢，對能源市場與地緣政治有重大影響。",
-"source": "Euronews.com",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSlo1RHpGejV6QW1FNElmb2FsdDFzdjBZemZ1NkEyekJzYmtpSGhzeF9DZDY1a1JUbkQyVkN1WVB6X2FYSHVXSl9oUFJfV2oySHZTb1N5aVRjNEpLWWQ2Ykd0ZzJieDJqYVFCbGhhTmcxbTdTcnNSRklZcmJQQTJfQnpaTF85dWtQbUZuUlhWazBRTnNCUm5aVDl2Vlo5ZXpYT0Y1VmNNRQ?oc=5",
-"time": "4 小時前"
+"summary": "設定仿製藥關稅目標為100%甚至200%。",
+"why": "展現強硬貿易政策，對全球製藥產業與美國醫療成本產生重大影響。",
+"source": "pharmaphorum",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY3V6NXNRRjlQdWtCUVRuMFROTkhuY0tQeDg0WGZ4My14WWs5ckVBUnJCUXZvSUVYOGxIbk12R3ZsMnN5S2dEbmU3N2h5WkQ2aUZnUlhjbERlNjhDMnZJOExyTjl5MFRoZ3kwWEpseTlsckw2VHlsSkN5eWFhbmJwd1pmbw?oc=5",
+"time": "7 分鐘前"
 },
 {
 "who": "Nvidia CEO 黃仁勳",
-"summary": "黃仁勳表示台灣已從廉價代名詞轉變為先進科技代表。",
-"why": "凸顯台灣在全球高階半導體產業的地位提升，影響產業布局與投資趨勢。",
+"summary": "表示台灣已不再代表廉價，而是先進技術。",
+"why": "凸顯台灣在全球高科技產業的地位提升，對供應鏈與地緣政治有深遠影響。",
 "source": "rti.org.tw",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yMVZONGxQbW8zVWZ3bEZtdExLdWNhZFRMZHpFbHZDOE9PaVJOVW1NSzZNV0dhOXNHZGwtZm1PejBfT3RlajNXai1CQVEyYUZlVmhiSzgwM0JqOVk?oc=5",
 "time": "2 小時前"
 },
 {
+"who": "Nvidia CEO 黃仁勳與韓國頂級企業領袖",
+"summary": "韓國頂級企業領袖赴美與Nvidia CEO會面。",
+"why": "顯示全球AI產業合作加深，將加速技術創新與產業整合。",
+"source": "The Korea Times",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDRSNlhsR29XWEM0OVdsRTJZNkFIRVVuQ245QzhHTGZOMEE1VDdHX3JGajYxZk4yZnJGblMxUW9yXy1IMFlIS1lSTUdIc2hBMGVyc2JoaTVIalFzMS00YkVLQ3dhWVhLQUZXdXAwQ1FjVUFwSDBqcm1DeUxIOF9VSTJqLXhYYW9RZ2RzUjdSeDQydi11a241b0NXbVFkWmt6eDk3b0NBWVhfa2Uy0gGsAUFVX3lxTE5kNFI2WGxHb1dYQzQ5V2xFMlk2QUhFVW5DbjlDOEdMZk4wQTVUN0dfckZqNjFmTjJmckZuUzFRb3JfLUgwWUhLWVJNR0hzaEEwZXJzYmhpNUhqUXMxLTRiRUtDd2FZWEtBRld1cDBDUWNVQXBIMGpybUN5TEg4X1VJMmoteFhhb1FnZHNSN1J4NDJ2LXVrbjVvQ1dtUWRaa3p4OTdvQ0FZWF9rZTI?oc=5",
+"time": "1 小時前"
+},
+{
 "who": "Google CEO Sundar Pichai",
-"summary": "Pichai宣布2026年FIFA世界盃成為YouTube史上觀看人數最多的賽事。",
-"why": "顯示全球數位內容消費與平台影響力大幅提升，預示未來媒體與廣告產業變革。",
+"summary": "宣布2026年FIFA世界盃是YouTube史上觀看次數最多的一屆。",
+"why": "反映全球數位內容消費趨勢，對媒體與廣告產業有重大啟示。",
 "source": "The Economic Times",
 "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVTBjeDExVFdKSGRuSUp3cW45cVB4RVYyb2JQakxmUWx0bzNBUnp3SktnRlNSWWROS3dyN1FkQm9HVVJSb0trV1Z1TTJQT3dDSW9WaWIwTHhQNWV4UVRCeUZmNGdTTnprX0Y2Mk1rRzJ1WEZtclFwYjJUTGhKcFpJa1MtU2hYYmF5ZFNVOERyVnFzbDM5MlRzbzk1QThfdTB6QVd4czJoM0Y0RHF2QktZOTYzWTNwZm15c0dJb1VkdzQ4SkpJd2x4S2JqXzNja2tneG5RSUh1OW0zNUwyTGxNTlFyQWFDZmhfeDduNNIB8gFBVV95cUxQZGRzWElOQnpUM19xMDFoNlRBMTgxaVhtb2xNOUNLNzBYR2dYaXQyd1FSU25vQnpXdXBVbkFjOXR3U1lhUnp2cU5ZMjJoRG9aQm1Lc3RZbkpWUEs1bW9PMlZRZzRIYVkyelZ0c3k5RmRUMVlEZnFNUFhSeDdyWUtwTW9WVnkxdkc4Wlktd0pfSnFaQzlxcGU3SUtNOUVtd0NjMUpBSTcwb1haV2dNbktiTDBsVGRqdDdfdV9ZLTFLZFhhb3ZsUThYQS1aaGJYUHZPc0o2UGd0c3pWMjBSU1B6bEdEalBkdEgzMVpFOG5hUXFYdw?oc=5",
-"time": "39 分鐘前"
+"time": "1 小時前"
 }
 ]
 }
