@@ -1,7 +1,7 @@
 {
 "date": "2026-07-23",
-"count": 23,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
+"count": 24,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、CoWoS先進封裝、伺服器代工、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 2405.0,
 "change_pct": 0.20833333333333334,
-"trade_value": 60493919465.0,
+"trade_value": 66833713878.0,
 "market_cap": 62367350011135.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -64,12 +64,27 @@
 "theme": "晶圓代工"
 },
 {
+"code": "2345",
+"name": "智邦",
+"market": "TWSE",
+"close": 2325.0,
+"change_pct": 1.75054704595186,
+"trade_value": 5083398420.0,
+"market_cap": 1304599110525.0,
+"status": "NEAR_HIGH",
+"dist": -0.010791366906474864,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "網通",
+"theme": "交換器/網路設備"
+},
+{
 "code": "2382",
 "name": "廣達",
 "market": "TWSE",
 "close": 336.0,
 "change_pct": 2.127659574468085,
-"trade_value": 7897293401.0,
+"trade_value": 7994203151.0,
 "market_cap": 1297842817152.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -84,7 +99,7 @@
 "market": "TWSE",
 "close": 5095.0,
 "change_pct": -0.5853658536585366,
-"trade_value": 7009649570.0,
+"trade_value": 7535441046.0,
 "market_cap": 1825646075830.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
@@ -99,7 +114,7 @@
 "market": "TWSE",
 "close": 3875.0,
 "change_pct": 0.6493506493506493,
-"trade_value": 33432878595.0,
+"trade_value": 33587878595.0,
 "market_cap": 6215094702125.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -114,7 +129,7 @@
 "market": "TWSE",
 "close": 2440.0,
 "change_pct": 7.72626931567329,
-"trade_value": 17519737585.0,
+"trade_value": 17555109085.0,
 "market_cap": 957804937080.0,
 "status": "NEAR_HIGH",
 "dist": -0.0897009966777409,
@@ -174,14 +189,14 @@
 "market": "TWSE",
 "close": 649.0,
 "change_pct": -1.0670731707317074,
-"trade_value": 9679810823.0,
+"trade_value": 9803569698.0,
 "market_cap": 2901401411018.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "先進封裝",
+"theme": "CoWoS先進封裝"
 },
 {
 "code": "4958",
@@ -225,7 +240,7 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "先進封裝",
 "theme": "封裝測試"
 },
 {
@@ -285,7 +300,7 @@
 "dist": -0.04824561403508776,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "先進封裝",
 "theme": "封裝測試"
 },
 {
@@ -300,7 +315,7 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "半導體",
+"group": "先進封裝",
 "theme": "探針卡"
 },
 {
@@ -350,46 +365,46 @@
 }
 ],
 "news": {
-"takeaway": "川普推動沙烏地核能協議與國防供應鏈政策，Google與Nvidia CEO針對AI發展與捐贈展現未來科技趨勢。",
+"takeaway": "川普重啟關稅政策與企業CEO重大併購、AI發展動向，將深刻影響全球經濟與科技趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "美國簽署協議協助沙烏地阿拉伯取得核能技術。",
-"why": "可能引發核擴散風險，並影響中東地緣政治與能源市場未來走向。",
-"source": "The New York Times",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lSS15V1FiemRMT2xEY1g2Y0g5dTQzeklHalV3X3ExcTZ1Ulh1WmZtTXhqMWE5SHlleHlrQTNnUjVQUTdPbWdzTmNneXBXTDJ1MVhFUU51eUU3TElHMEpSaHpXYw?oc=5",
-"time": "49 分鐘前"
+"summary": "川普準備重啟關稅行動，並利用強制勞動條款。",
+"why": "此舉可能引發新一輪貿易戰，影響全球供應鏈與國際經濟局勢。",
+"source": "The Washington Post",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONEhfMktVMzZSRlRnNExFTzlhWktFTUFWTmFFZzdzdFljQ1JkZE1KamkzSmQ4bm5uTDQtcXJ3MTJ6NENmRlZoamtlck9pY2tuX1dUUFdqeWVhLXRlVi1QUUNqOU51RlVJbkxYaF9QcE5WQ0RLc1FiUFZ2Wm5KcHppTDdxYlYwTzJ4MHp2THNLdl9Mc2x0ZjNIYXNSaV9XREw3MG50cm9YUWdtd05HLXVJbjJsQ29aX1F3MjlfLQ?oc=5",
+"time": "28 分鐘前"
 },
 {
-"who": "川普",
-"summary": "發布行政命令加強國防供應鏈監管，要求關鍵材料國內採購。",
-"why": "將重塑美國製造業與國防產業供應鏈，影響全球貿易與產業布局。",
-"source": "Industrial Cyber",
-"link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVndlV2t2VjBjcUhiMGRjbFUxM3V5SnlkSlUyUklMU0dXcmkweWVJN2t5eDNtTFExaWpZN1FaMmdwUnlrM3N2ejFZVkZwbEZXU05aemQ2UGVjMVNJNkxpdDgwRXF3REkyeDZOVGFZNTdBZU1XSUw0bDVydzJpQ2xORnBuWjZtZjl0cTBNNDVmNjloeE5ieWlJS3ozNUZuYUlSa21iQTUxNS1WNE9RMUNvNlkxVmE4OTdhbTlQbkZtd3dxTTBQZnRtd0FUUlJSM3VsTkQ4SzBHRTh6MGFLNTVOLUQwMllvbHdXclgwTC1WSzI3UQ?oc=5",
+"who": "Elon Musk (Tesla/SpaceX)",
+"summary": "馬斯克暗示特斯拉與SpaceX未來可能合併。",
+"why": "若兩大科技公司合併，將重塑全球電動車與太空產業格局。",
+"source": "calcalistech.com",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRUVLeE42U20wc0w0NHRISk1FbDZaZ0hJektrdWVYT3NXd2VjNUtyMTFzODZ5cE95SlUtSmZHNGk2UjZ6NGlBT1Bwby04MlZLRWUzc3RDcV8tQTdjMEYtbW5NRjlkYk9u?oc=5",
+"time": "36 分鐘前"
+},
+{
+"who": "Mark Zuckerberg (Meta)",
+"summary": "祖克柏提出新AI願景，強調AI應賦能人類而非取代。",
+"why": "此理念將影響Meta及整個科技業AI發展方向，推動人機協作趨勢。",
+"source": "Fox Business",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSG55ZHJYMU5LRDI4TWFOSDd0NWZ2RXR5RjRidXdkR2VTOERvZ1J0SFdsdlU4X3RCR3c5M1JQMDM3WS1ZdkE3OERrQ3BlcnRXaU92ZEo2R0hGdElTeUs0T21jV3VfOGp2UHZwUzBxTzBRbjg4dXI5VVF1aXVVemZmZFlFcDViR1ZTeXdGetIBkgFBVV95cUxPUTQzMllTOEduR1l3UXFIbURzOFVQaFNLR3B4NWx1TFVVWE40Qm4tV1JaVVAxY3d1WTdsTEFtcl9DTUhGNjczT0xDYmRmejhSWHdrY2JPRG4ta2p1RkliRUdKR0hxRXo3SmNUQ0dLZzMyM1FZOFpMWk9nSEZ6SmhLYUdoUGFaT0I4eE9INGZvRTF0dw?oc=5",
+"time": "28 分鐘前"
+},
+{
+"who": "Jensen Huang (Nvidia)",
+"summary": "黃仁勳呼籲華盛頓不要被「科幻」AI恐懼所迷惑。",
+"why": "Nvidia作為AI領導者，CEO的態度將影響政策制定與產業發展。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BR0x6SW1jVk42czEtSS1FdEUzeGRzNlROMU5CeUdjWlNfTkl1aHlJaWxyaWh4b0M5ZDQ3c2lmZl84ektNN1ptenJuMVZ0RGNjWk1fOTVqeExIakhpdE5LX2lFWDhRU2dYVGJpcmo0UVBSdkJTdzdhU1FkdWVZWEU?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Sundar Pichai (Google/Alphabet CEO)",
-"summary": "強調AI推動雲端與搜尋業務成長，並認為AI發展仍處於早期階段。",
-"why": "顯示科技巨頭將持續加大AI投入，影響全球數位產業與未來創新。",
-"source": "Diginomica",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZHVtR25wWWM1bUhpZTNwT1ROY3kzTXJ5STRfbjJZTndLeE1vYkhiLU4wNXp6cldzN0FFREhKZ0FxcjdvZnpfallPYUc0dlE1bklLUjVqV0dvQlFEVkZsa202REFsenRZbUdhR1BzcTdMSVQ2cHdSSG5RMlZfeXdPdHZ1ZVNlYkxBcGdNdUxFRlhzSVdyRS1EMS16RUpPQUt5Q3ZFb1lXamhRd3hYc3JLWFVPVURhZ0NjRHRR?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Jensen Huang (Nvidia CEO)",
-"summary": "捐贈7500萬美元支持范德堡大學舊金山校區建設。",
-"why": "展現Nvidia對高等教育與AI人才培育的重視，將加速科技創新與產業發展。",
-"source": "The Business Journals",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelhYWHg3RUEybFQzbzBZVDRGSzd6eTZmV0phWGh3dTlJZ3I3UThvZnVzNlVSUVUyOVc1OFpQdXV2a0EyVXowSHlCYmNJUmhEQzJiQUlUbnJIeGtKdy1KTkMyNWxKSjVWLVhuTnloWEg1QmIwWlNiTWtzOWNYcWtYcnJkSWdxOUJsZjB1cWtGa0IwRHVsMHFYd1Q1Vy1hUjY1WXY2Wkx5WjZPUQ?oc=5",
-"time": "5 小時前"
-},
-{
-"who": "Andrea Orcel (UniCredit CEO)",
-"summary": "表示全資收購Commerzbank可能於第四季完成。",
-"why": "歐洲銀行業整合加速，將影響金融市場競爭格局與資本流動。",
-"source": "CNBC",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUDFObEdHTElNT1h4QkN2UnkwcXZzRlVjOHRsek5XV2cwSFdMSlBUbXlQdC1OLTVuV254R3hRaGJWUFFFQlJTc295bWdsMVlCckRENEV4NTNoWjk1VjMtN0EybkF5VGczOW5hamxUTUZYLUwzNm8yU3h2dVA0emFZTEhKd3FydldXNGl2RlpUNEloQ3c4Q2fSAZsBQVVfeXFMUGpIX2RDYmt2YkE0M0NEb0d1QjVRU0U2ZzViTDNuYWRiU2JZS3RybHRLRlh5VG9rbTR4TzVoaVY4MDF4ZzFvSnA1SWdROVhOcEktYU9tc19VREFtcnJ4dXRqM3RsVDduQjlTTDUtSGpPSzZ5a01qa05iVE9rVzFJbVQ1UGhZVDRiZ3dKY1kzTmdUb21pRC0yaGRTcDg?oc=5",
+"who": "Prakash (Pivotal)",
+"summary": "Pivotal CEO加速收購，尋找創業人才。",
+"why": "此舉將推動金融科技併購潮，促進產業創新與整合。",
+"source": "mortgagesolutions.co.uk",
+"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPY3VIdUFqVUpaaHNwX01XWWFwQ1B3VjF3VHRoN0JZZkxlWmlsTy1IQW12YW9CUDREUWdHTEZ2cGkybEg4NXI5blo0QUVSYzBuLS02WUZYZWVib213cmpfRUtVZGMzeENRN0dncVRDQ3BsbS1UN09EUTMtdk5hMFpJNjJjVzZ6cTlXRU1BeEVxYTJ6ZU9rMk5KcFBReTMtTHM1R05JdkF3dm9odURoaHEydEU0RkZpZUU0QmlidnJSRWpsSlZBUFJGZmplUWlOd1RlNkhCRkJXYVZZN3U3?oc=5",
 "time": "2 小時前"
 }
 ]
