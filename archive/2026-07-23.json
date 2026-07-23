@@ -1,7 +1,7 @@
 {
 "date": "2026-07-23",
 "count": 24,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材聚焦於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、CoWoS先進封裝、伺服器代工、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "晶圓代工"
+"theme": "晶圓代工/CoWoS先進封裝"
 },
 {
 "code": "2345",
@@ -196,7 +196,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "先進封裝",
-"theme": "CoWoS先進封裝"
+"theme": "封裝測試/CoWoS"
 },
 {
 "code": "4958",
@@ -365,46 +365,46 @@
 }
 ],
 "news": {
-"takeaway": "川普重啟關稅政策與大型科技企業CEO重大發言，將深刻影響全球經濟與產業趨勢。",
+"takeaway": "川普政策動向與科技巨頭CEO對AI未來的發言，將深刻影響全球政經與產業趨勢。",
 "items": [
 {
 "who": "川普",
 "summary": "川普準備重啟關稅行動，並利用強制勞動條款。",
-"why": "此舉可能加劇美中貿易緊張，影響全球供應鏈與國際貿易格局。",
+"why": "顯示川普若重返政壇，將採取更強硬貿易政策，可能引發全球供應鏈與貿易格局重大變化。",
 "source": "The Washington Post",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONEhfMktVMzZSRlRnNExFTzlhWktFTUFWTmFFZzdzdFljQ1JkZE1KamkzSmQ4bm5uTDQtcXJ3MTJ6NENmRlZoamtlck9pY2tuX1dUUFdqeWVhLXRlVi1QUUNqOU51RlVJbkxYaF9QcE5WQ0RLc1FiUFZ2Wm5KcHppTDdxYlYwTzJ4MHp2THNLdl9Mc2x0ZjNIYXNSaV9XREw3MG50cm9YUWdtd05HLXVJbjJsQ29aX1F3MjlfLQ?oc=5",
-"time": "49 分鐘前"
+"time": "1 小時前"
 },
 {
-"who": "Elon Musk (Tesla/SpaceX)",
-"summary": "馬斯克暗示特斯拉與SpaceX未來可能合併。",
-"why": "若兩大企業合併，將重塑全球科技與太空產業競爭格局。",
-"source": "calcalistech.com",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRUVLeE42U20wc0w0NHRISk1FbDZaZ0hJektrdWVYT3NXd2VjNUtyMTFzODZ5cE95SlUtSmZHNGk2UjZ6NGlBT1Bwby04MlZLRWUzc3RDcV8tQTdjMEYtbW5NRjlkYk9u?oc=5",
-"time": "53 分鐘前"
+"who": "Google CEO Sundar Pichai",
+"summary": "Pichai表示Gemini的下一步取決於打造更大規模的基礎模型。",
+"why": "Google在AI領域的技術路線將影響產業競爭格局與AI應用發展。",
+"source": "the-decoder.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM2JyT25QWTNpeW9YQXU0TUd6T3g2akhSTGpsdGVsR3dfeUJ2eloyb1N1WFllcFFnY3ota0RfVVJyZzRSRUFOeWgtSFhoWF96Zkhsei1NYjc3NFNBUzdEYnhMNVNFc0xFdDZHWHFoMmlrQ0V3VEdQamFrUDFxV3lUUEp3S0tRTGlrZUlGX3pTMk5rUTdweXhFdERKdE80ZFZBOHZwSVRIbmQ4cUplTlE?oc=5",
+"time": "1 分鐘前"
 },
 {
-"who": "Mark Zuckerberg (Meta)",
-"summary": "祖克柏表示AI應賦能人類，而非取代人類。",
-"why": "此理念將影響Meta未來AI發展方向，並引導產業對AI應用的倫理與策略。",
+"who": "Nvidia CEO Jensen Huang",
+"summary": "黃仁勳於超級電腦設施討論AI未來。",
+"why": "Nvidia在AI硬體與生態系的領導地位，將推動全球AI產業升級。",
+"source": "Dallas News",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjMtMXdZcWZub2RMZGQxWEhya0VBbEk1bG5rd09UeTZ2SElNOWhEd2ZxYWp0bWxHMjc4VHFoRUJNRVBOLTBiSGxHa1FrdlhxeVZmUWhiY0dvVzEyU1NjdWNabFNRRFVhbE1iXzFUc3dhT1dSOFFJS1huaTlNdHBHakhLWDhPLUJpTEIzazkzUDh0MDdVbEtrVkNIY0xoUXNQUUFPOE44NGZPM0ZKcUpEcU9uSGw?oc=5",
+"time": "15 分鐘前"
+},
+{
+"who": "Meta CEO Mark Zuckerberg",
+"summary": "祖克柏提出AI應該賦能人類，而非取代人類的新願景。",
+"why": "Meta對AI發展的價值觀將影響產業倫理與產品設計方向。",
 "source": "Fox Business",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSG55ZHJYMU5LRDI4TWFOSDd0NWZ2RXR5RjRidXdkR2VTOERvZ1J0SFdsdlU4X3RCR3c5M1JQMDM3WS1ZdkE3OERrQ3BlcnRXaU92ZEo2R0hGdElTeUs0T21jV3VfOGp2UHZwUzBxTzBRbjg4dXI5VVF1aXVVemZmZFlFcDViR1ZTeXdGetIBkgFBVV95cUxPUTQzMllTOEduR1l3UXFIbURzOFVQaFNLR3B4NWx1TFVVWE40Qm4tV1JaVVAxY3d1WTdsTEFtcl9DTUhGNjczT0xDYmRmejhSWHdrY2JPRG4ta2p1RkliRUdKR0hxRXo3SmNUQ0dLZzMyM1FZOFpMWk9nSEZ6SmhLYUdoUGFaT0I4eE9INGZvRTF0dw?oc=5",
-"time": "45 分鐘前"
-},
-{
-"who": "Jensen Huang (Nvidia)",
-"summary": "黃仁勳呼籲華盛頓不要被AI恐懼論所迷惑。",
-"why": "Nvidia CEO的立場將影響美國AI政策與產業發展，推動理性監管。",
-"source": "Axios",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BR0x6SW1jVk42czEtSS1FdEUzeGRzNlROMU5CeUdjWlNfTkl1aHlJaWxyaWh4b0M5ZDQ3c2lmZl84ektNN1ptenJuMVZ0RGNjWk1fOTVqeExIakhpdE5LX2lFWDhRU2dYVGJpcmo0UVBSdkJTdzdhU1FkdWVZWEU?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "Elon Musk (Tesla/SpaceX)",
-"summary": "馬斯克再次表示不排除特斯拉與SpaceX合併的可能性。",
-"why": "重申合併意向，顯示未來科技產業整合趨勢，對投資者與產業布局具指標意義。",
-"source": "Moomoo",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeHRJbXZHQy1PUFhnbHpFS1VoZzI0blpKMTBmWU9LXzlUSjRfcGZGU0dSWmFvSmVMU3lIU0VNNWZ6VFlWNUl5MkxOcmx0Q2E0V2VGQXpOeWhnMm13ZFpGUm90dzNxNG5peHphV3hSN2xPUE5FZ3NHZkpoR2FJR09SYU9vd0RfUVdMVWFaSzJDdXZENVFX?oc=5",
+"summary": "馬斯克暗示特斯拉與SpaceX未來可能合併為一家公司。",
+"why": "若兩大科技公司合併，將重塑全球科技產業格局與資本市場動態。",
+"source": "calcalistech.com",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRUVLeE42U20wc0w0NHRISk1FbDZaZ0hJektrdWVYT3NXd2VjNUtyMTFzODZ5cE95SlUtSmZHNGk2UjZ6NGlBT1Bwby04MlZLRWUzc3RDcV8tQTdjMEYtbW5NRjlkYk9u?oc=5",
 "time": "1 小時前"
 }
 ]
