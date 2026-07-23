@@ -1,7 +1,7 @@
 {
 "date": "2026-07-23",
-"count": 19,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材聚焦於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組等。",
+"count": 23,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -180,8 +180,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "先進封裝",
-"theme": "CoWoS先進封裝"
+"group": "半導體",
+"theme": "先進封裝"
 },
 {
 "code": "4958",
@@ -225,8 +225,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "先進封裝",
-"theme": "記憶體封裝測試"
+"group": "半導體",
+"theme": "封裝測試"
 },
 {
 "code": "6669",
@@ -285,52 +285,112 @@
 "dist": -0.04824561403508776,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "先進封裝",
-"theme": "記憶體封裝測試"
+"group": "半導體",
+"theme": "封裝測試"
+},
+{
+"code": "3374",
+"name": "精材",
+"market": "TPEX",
+"close": 403.0,
+"change_pct": -3.588516746411483,
+"trade_value": 10386977892.0,
+"market_cap": 109359819348.0,
+"status": "NEAR_HIGH",
+"dist": -0.06395348837209303,
+"limit_up": true,
+"limit_up_count": 2,
+"group": "半導體",
+"theme": "探針卡"
+},
+{
+"code": "6182",
+"name": "合晶",
+"market": "TPEX",
+"close": 126.5,
+"change_pct": -1.937984496124031,
+"trade_value": 16578875203.0,
+"market_cap": 75090566347.5,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "矽晶圓"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1335.0,
+"change_pct": -1.4760147601476015,
+"trade_value": 13422099705.0,
+"market_cap": 385514140395.0,
+"status": "PULLBACK",
+"dist": -0.11979166666666663,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "PCB/CCL",
+"theme": "CCL銅箔基板"
+},
+{
+"code": "6488",
+"name": "環球晶",
+"market": "TPEX",
+"close": 1120.0,
+"change_pct": -9.67741935483871,
+"trade_value": 10432273430.0,
+"market_cap": 535487372000.0,
+"status": "NEAR_HIGH",
+"dist": -0.03260869565217395,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "矽晶圓"
 }
 ],
 "news": {
-"takeaway": "川普加強國防供應鏈監管與大型企業CEO重大決策，將影響全球產業與政策走向。",
+"takeaway": "川普推動沙烏地核能協議與國防供應鏈政策，Google與Nvidia CEO針對AI發展與捐贈展現未來科技趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普簽署行政命令，強化國防供應鏈監管，要求關鍵材料必須國內採購。",
-"why": "此舉將推動美國製造業回流，影響全球供應鏈與地緣政治格局。",
+"summary": "美國簽署協議協助沙烏地阿拉伯取得核能技術。",
+"why": "可能引發核擴散風險，並影響中東地緣政治與能源市場未來走向。",
+"source": "The New York Times",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lSS15V1FiemRMT2xEY1g2Y0g5dTQzeklHalV3X3ExcTZ1Ulh1WmZtTXhqMWE5SHlleHlrQTNnUjVQUTdPbWdzTmNneXBXTDJ1MVhFUU51eUU3TElHMEpSaHpXYw?oc=5",
+"time": "49 分鐘前"
+},
+{
+"who": "川普",
+"summary": "發布行政命令加強國防供應鏈監管，要求關鍵材料國內採購。",
+"why": "將重塑美國製造業與國防產業供應鏈，影響全球貿易與產業布局。",
 "source": "Industrial Cyber",
 "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVndlV2t2VjBjcUhiMGRjbFUxM3V5SnlkSlUyUklMU0dXcmkweWVJN2t5eDNtTFExaWpZN1FaMmdwUnlrM3N2ejFZVkZwbEZXU05aemQ2UGVjMVNJNkxpdDgwRXF3REkyeDZOVGFZNTdBZU1XSUw0bDVydzJpQ2xORnBuWjZtZjl0cTBNNDVmNjloeE5ieWlJS3ozNUZuYUlSa21iQTUxNS1WNE9RMUNvNlkxVmE4OTdhbTlQbkZtd3dxTTBQZnRtd0FUUlJSM3VsTkQ4SzBHRTh6MGFLNTVOLUQwMllvbHdXclgwTC1WSzI3UQ?oc=5",
-"time": "37 分鐘前"
+"time": "1 小時前"
 },
 {
-"who": "UniCredit CEO",
-"summary": "UniCredit CEO表示，第四季可能完成對Commerzbank的全額收購。",
-"why": "歐洲銀行業整合加速，將改變金融市場競爭與資本流動。",
+"who": "Sundar Pichai (Google/Alphabet CEO)",
+"summary": "強調AI推動雲端與搜尋業務成長，並認為AI發展仍處於早期階段。",
+"why": "顯示科技巨頭將持續加大AI投入，影響全球數位產業與未來創新。",
+"source": "Diginomica",
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZHVtR25wWWM1bUhpZTNwT1ROY3kzTXJ5STRfbjJZTndLeE1vYkhiLU4wNXp6cldzN0FFREhKZ0FxcjdvZnpfallPYUc0dlE1bklLUjVqV0dvQlFEVkZsa202REFsenRZbUdhR1BzcTdMSVQ2cHdSSG5RMlZfeXdPdHZ1ZVNlYkxBcGdNdUxFRlhzSVdyRS1EMS16RUpPQUt5Q3ZFb1lXamhRd3hYc3JLWFVPVURhZ0NjRHRR?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Jensen Huang (Nvidia CEO)",
+"summary": "捐贈7500萬美元支持范德堡大學舊金山校區建設。",
+"why": "展現Nvidia對高等教育與AI人才培育的重視，將加速科技創新與產業發展。",
+"source": "The Business Journals",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelhYWHg3RUEybFQzbzBZVDRGSzd6eTZmV0phWGh3dTlJZ3I3UThvZnVzNlVSUVUyOVc1OFpQdXV2a0EyVXowSHlCYmNJUmhEQzJiQUlUbnJIeGtKdy1KTkMyNWxKSjVWLVhuTnloWEg1QmIwWlNiTWtzOWNYcWtYcnJkSWdxOUJsZjB1cWtGa0IwRHVsMHFYd1Q1Vy1hUjY1WXY2Wkx5WjZPUQ?oc=5",
+"time": "5 小時前"
+},
+{
+"who": "Andrea Orcel (UniCredit CEO)",
+"summary": "表示全資收購Commerzbank可能於第四季完成。",
+"why": "歐洲銀行業整合加速，將影響金融市場競爭格局與資本流動。",
 "source": "CNBC",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUDFObEdHTElNT1h4QkN2UnkwcXZzRlVjOHRsek5XV2cwSFdMSlBUbXlQdC1OLTVuV254R3hRaGJWUFFFQlJTc295bWdsMVlCckRENEV4NTNoWjk1VjMtN0EybkF5VGczOW5hamxUTUZYLUwzNm8yU3h2dVA0emFZTEhKd3FydldXNGl2RlpUNEloQ3c4Q2fSAZsBQVVfeXFMUGpIX2RDYmt2YkE0M0NEb0d1QjVRU0U2ZzViTDNuYWRiU2JZS3RybHRLRlh5VG9rbTR4TzVoaVY4MDF4ZzFvSnA1SWdROVhOcEktYU9tc19VREFtcnJ4dXRqM3RsVDduQjlTTDUtSGpPSzZ5a01qa05iVE9rVzFJbVQ1UGhZVDRiZ3dKY1kzTmdUb21pRC0yaGRTcDg?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Tesla CEO Elon Musk",
-"summary": "馬斯克暗示特斯拉與SpaceX可能合併，因業務重疊日益增多。",
-"why": "兩大科技企業合併將重塑全球創新與產業格局。",
-"source": "GuruFocus",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZlZjT2hOLVZhM0kxM09FRlNURGdYc1pocFJsb19jVkx2cks2dER1V3BtNEpMUGw3dTBNNWx6UEVPdUJULUZVNmtLRWQ5b3RFbUQwSjMzN0pCdlFQNzYxaEZFaE5IaWkzQ2dLdVBoODZMclZNX3VnWVY4Q2tqOWVlRlo1NXFXbTZFNkFER0Q1dHMtZW13TEdhbUw1T2NuSWhHeXRDOEp3NWhadmY0MHY2bDI4d0gxbl9PT0FVRA?oc=5",
-"time": "6 小時前"
-},
-{
-"who": "Google CEO Sundar Pichai",
-"summary": "皮查提醒分析師，Google需提升AI編碼與代理編碼能力。",
-"why": "Google在AI領域的自我調整，將影響全球科技競爭與未來產品發展。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPalAtdjlGLUd6VU4yWk5oanNCLU0wTUJGSWpIdHFvcHlvQW9YYjdJMlBKMllSdkg5ZlZMMDNRdlZqUXE3MXBZaTVvQW5lVV9jUjVzbTlfUXdSRzJvYVVxTDRqcXZMUFoyaXlHTUo5OVQ4UTN3bGRqYlhwV0hKekpKbE9obXYwekg0WWIzRWlaVnhaTmZvdlRXRW8yNFhjMmlJa3R0bzNYN2lRWnpBUGZHbVE4TVQzalpCSkdQckFQOHgxMnB4T01DWFc0Q2loZGZjSkRkUzJaOVVCMDcyaHpBQmRoek9xQ2NCLXhKRFJ2akRTcGRVVXVVZUpOLTVBeFBkWEJfZW5CcmpELTNmSHJkM05JZ2htRUMtbjJmQ3BpY2N1RElXOEdNRVd6SmdoWmZpSTBIZVZvZ095bnA2LUVDWWZCLVVvblp1d2drN2N30gHTAkFVX3lxTE41NjFDYW93ZmhfZkc4UFE2UlMybzRfU0ZULVB4VVIwaTFkVElaQnZzUlJTTnhtc2tBdjNtbEJUMlV6R0tBS1p5ZGFYYVBSLXgwSUNRc1JYNWhFMFJ5eUJQWUYwaWVrSTJGRXcxaE5GRGp3Q3h6NXU3bjdPSlRiQVRmaVpoZVlPeDlIRjE4cDhwYnpLaGFyaFlDbHNxbWttOHMxb0htQ0lybWxYNzZlNzRaZ0FZZktMYkMxRTJ6Tk0zUFYwNWMza0FfcUlhWXZ6cEs0OHF3NnVsYTNMNVdoWXhuRTBXYmtSdkswbmhzM01pQk1nTkFLbnJZMFZjNkZ2MDNLUE1RVGwwTGM0Zm5IeFJVV3JPTjhua1E3UXY5Vm1qMERfbG01akhHcmNSdnM2VTUtRjJMQzAyd1hsZ2xWc3lDLWYxOHVoekZleU9NLXRRRWZZMA?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Google CEO Sundar Pichai",
-"summary": "皮查為Gemini延遲辯護，堅持Google的AI策略。",
-"why": "Google高層對AI發展的堅定態度，將左右產業信心與技術路線。",
-"source": "NDTV",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOFNUNWt5c1M2dzVKcTFCbVRyaWw1UzF6WG1VZ0lVd3FCNkZfMUQ5bGkzdUo4RzZKOEpVSXZxdlNVYklSYUdkOFVNQXJ2QTh6ZGs5VXpwM3dHY0tOOWc1dFpKY0NkN1dqazhWcWo5akZCUkkyT2p6NTVaYlAwZkpUellVcWs0Z0RfdnFzWS1CUVVYRS1tNmF1UXhNd2d5NUNWTEVRLTVtR3dfYk1vMFp1cldJR0bSAbwBQVVfeXFMTVFNcTZtUXgtN0hNOWZwT2ZFNXBYRXBzNzhvUTdQV0Q2aFRmcTZmYlpqVGE3VmtRX0Y3MVdrSVMwWV9neWtWUS1iM1hteVByZXJsSjY4Qmx3MmtLdkFDU0daNHd3S3ZZR2pxVHRFRkoyZEZfREV5VGZRRVplY292NHdiNV92bkNMREs0cFhsVHM1STZhVGttZUQtX1NpRUFSX2dGUjF3ZWU1MzN2WEx6MG9NZU93Qm1GVzZmYlo?oc=5",
-"time": "4 小時前"
+"time": "2 小時前"
 }
 ]
 }
