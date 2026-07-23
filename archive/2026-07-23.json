@@ -1,7 +1,7 @@
 {
 "date": "2026-07-23",
 "count": 24,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、CoWoS先進封裝、伺服器代工、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材聚焦於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/網路設備"
+"theme": "交換器/AI網通"
 },
 {
 "code": "2382",
@@ -365,47 +365,47 @@
 }
 ],
 "news": {
-"takeaway": "川普重啟關稅政策與企業CEO重大併購、AI發展動向，將深刻影響全球經濟與科技趨勢。",
+"takeaway": "川普重啟關稅政策與大型科技企業CEO重大發言，將深刻影響全球經濟與產業趨勢。",
 "items": [
 {
 "who": "川普",
 "summary": "川普準備重啟關稅行動，並利用強制勞動條款。",
-"why": "此舉可能引發新一輪貿易戰，影響全球供應鏈與國際經濟局勢。",
+"why": "此舉可能加劇美中貿易緊張，影響全球供應鏈與國際貿易格局。",
 "source": "The Washington Post",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONEhfMktVMzZSRlRnNExFTzlhWktFTUFWTmFFZzdzdFljQ1JkZE1KamkzSmQ4bm5uTDQtcXJ3MTJ6NENmRlZoamtlck9pY2tuX1dUUFdqeWVhLXRlVi1QUUNqOU51RlVJbkxYaF9QcE5WQ0RLc1FiUFZ2Wm5KcHppTDdxYlYwTzJ4MHp2THNLdl9Mc2x0ZjNIYXNSaV9XREw3MG50cm9YUWdtd05HLXVJbjJsQ29aX1F3MjlfLQ?oc=5",
-"time": "28 分鐘前"
+"time": "49 分鐘前"
 },
 {
 "who": "Elon Musk (Tesla/SpaceX)",
 "summary": "馬斯克暗示特斯拉與SpaceX未來可能合併。",
-"why": "若兩大科技公司合併，將重塑全球電動車與太空產業格局。",
+"why": "若兩大企業合併，將重塑全球科技與太空產業競爭格局。",
 "source": "calcalistech.com",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRUVLeE42U20wc0w0NHRISk1FbDZaZ0hJektrdWVYT3NXd2VjNUtyMTFzODZ5cE95SlUtSmZHNGk2UjZ6NGlBT1Bwby04MlZLRWUzc3RDcV8tQTdjMEYtbW5NRjlkYk9u?oc=5",
-"time": "36 分鐘前"
+"time": "53 分鐘前"
 },
 {
 "who": "Mark Zuckerberg (Meta)",
-"summary": "祖克柏提出新AI願景，強調AI應賦能人類而非取代。",
-"why": "此理念將影響Meta及整個科技業AI發展方向，推動人機協作趨勢。",
+"summary": "祖克柏表示AI應賦能人類，而非取代人類。",
+"why": "此理念將影響Meta未來AI發展方向，並引導產業對AI應用的倫理與策略。",
 "source": "Fox Business",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSG55ZHJYMU5LRDI4TWFOSDd0NWZ2RXR5RjRidXdkR2VTOERvZ1J0SFdsdlU4X3RCR3c5M1JQMDM3WS1ZdkE3OERrQ3BlcnRXaU92ZEo2R0hGdElTeUs0T21jV3VfOGp2UHZwUzBxTzBRbjg4dXI5VVF1aXVVemZmZFlFcDViR1ZTeXdGetIBkgFBVV95cUxPUTQzMllTOEduR1l3UXFIbURzOFVQaFNLR3B4NWx1TFVVWE40Qm4tV1JaVVAxY3d1WTdsTEFtcl9DTUhGNjczT0xDYmRmejhSWHdrY2JPRG4ta2p1RkliRUdKR0hxRXo3SmNUQ0dLZzMyM1FZOFpMWk9nSEZ6SmhLYUdoUGFaT0I4eE9INGZvRTF0dw?oc=5",
-"time": "28 分鐘前"
+"time": "45 分鐘前"
 },
 {
 "who": "Jensen Huang (Nvidia)",
-"summary": "黃仁勳呼籲華盛頓不要被「科幻」AI恐懼所迷惑。",
-"why": "Nvidia作為AI領導者，CEO的態度將影響政策制定與產業發展。",
+"summary": "黃仁勳呼籲華盛頓不要被AI恐懼論所迷惑。",
+"why": "Nvidia CEO的立場將影響美國AI政策與產業發展，推動理性監管。",
 "source": "Axios",
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BR0x6SW1jVk42czEtSS1FdEUzeGRzNlROMU5CeUdjWlNfTkl1aHlJaWxyaWh4b0M5ZDQ3c2lmZl84ektNN1ptenJuMVZ0RGNjWk1fOTVqeExIakhpdE5LX2lFWDhRU2dYVGJpcmo0UVBSdkJTdzdhU1FkdWVZWEU?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Prakash (Pivotal)",
-"summary": "Pivotal CEO加速收購，尋找創業人才。",
-"why": "此舉將推動金融科技併購潮，促進產業創新與整合。",
-"source": "mortgagesolutions.co.uk",
-"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPY3VIdUFqVUpaaHNwX01XWWFwQ1B3VjF3VHRoN0JZZkxlWmlsTy1IQW12YW9CUDREUWdHTEZ2cGkybEg4NXI5blo0QUVSYzBuLS02WUZYZWVib213cmpfRUtVZGMzeENRN0dncVRDQ3BsbS1UN09EUTMtdk5hMFpJNjJjVzZ6cTlXRU1BeEVxYTJ6ZU9rMk5KcFBReTMtTHM1R05JdkF3dm9odURoaHEydEU0RkZpZUU0QmlidnJSRWpsSlZBUFJGZmplUWlOd1RlNkhCRkJXYVZZN3U3?oc=5",
-"time": "2 小時前"
+"who": "Elon Musk (Tesla/SpaceX)",
+"summary": "馬斯克再次表示不排除特斯拉與SpaceX合併的可能性。",
+"why": "重申合併意向，顯示未來科技產業整合趨勢，對投資者與產業布局具指標意義。",
+"source": "Moomoo",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeHRJbXZHQy1PUFhnbHpFS1VoZzI0blpKMTBmWU9LXzlUSjRfcGZGU0dSWmFvSmVMU3lIU0VNNWZ6VFlWNUl5MkxOcmx0Q2E0V2VGQXpOeWhnMm13ZFpGUm90dzNxNG5peHphV3hSN2xPUE5FZ3NHZkpoR2FJR09SYU9vd0RfUVdMVWFaSzJDdXZENVFX?oc=5",
+"time": "1 小時前"
 }
 ]
 }
