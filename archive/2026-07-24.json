@@ -1,7 +1,7 @@
 {
 "date": "2026-07-24",
 "count": 21,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CoWoS、CCL、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、PCB材料、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -316,51 +316,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "矽晶圓製造"
+"theme": "矽晶圓"
 }
 ],
 "news": {
-"takeaway": "川普推動新一波全球關稅與對伊朗威脅，NVIDIA CEO警告AI泡沫並強調產業擴張需求，OpenAI大規模投資數據中心。",
+"takeaway": "川普推動新一波關鍵關稅與能源政策，Nvidia與Coinbase CEO釋出產業趨勢警訊。",
 "items": [
 {
 "who": "川普",
-"summary": "川普全球新一輪關稅生效，影響99.4%美國進口。",
-"why": "顯示川普貿易保護主義加劇，將重塑全球供應鏈與國際貿易格局。",
-"source": "Yahoo Finance",
-"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3IxQVltNm5yQUUwUC1ESWNSU2pRcmttQXM5eGNzc1ZCSmpNRU0yNlBoX2RCNzdYMkR2b0lETEp2WHMwZmptYUo1SmlRSnN5MUROWXc2b3JfZ2lrWWNVZ2JlMkdqNGszTlJBVW1TU0NWTnBFdlJ6V2c0VlR4UHpPUGdYUFR1SEtxd2pRbkEtOFh1SkZnRExweWJtVmdXMFpUMmxObjZaNjRlN1VrQlh3OVZmNDBNY0dJblJmTmxDVGVpdzRuZnlCaDlkSng1WDNPeXFmNW1GOVlES0hy?oc=5",
-"time": "2 小時前"
+"summary": "川普宣布對超過80國實施新關稅。",
+"why": "將重塑全球貿易格局，影響供應鏈與國際經濟政策。",
+"source": "Time Magazine",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5teXl6UC1BQ3hHZDQ0d19LbDJ3UzAwTTg0WHBnZnVFRlVzYTB1SEt1dndNeG8zZ1JBNm1FbEdqSFVDZk5CMkpmUmYxbVB4bExPT2hvRmFHcFdlQ3NEcVU3RmZ0aE5aQS1RRHpiTERHZzNlbkV6NW5YYy1JTXdoUQ?oc=5",
+"time": "15 分鐘前"
 },
 {
 "who": "川普",
-"summary": "川普考慮對伊朗發動“史無前例的大規模攻擊”。",
-"why": "美伊局勢升溫，可能引發地緣政治動盪與能源市場劇烈波動。",
-"source": "Time Magazine",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYVZ1VXNUaWRRMEtJd2Ruc2RDV3hiUkgtTUx4YzR6YTI4SHVFQkFOOG5rd05pVGJ4NjlVaDl1WDByal9XbDM2VjJ0d0xkdWdNdzktYnZXcHJWOGZCMEIxN0tuU0w0MHZYMDVweENyY2o1bDN6ZmlxRE52ejZ4NmZIaC1SUW9MSUh6bW8wb09zSVVwbllJOTVScw?oc=5",
-"time": "36 分鐘前"
+"summary": "川普推動數據中心需支付更高能源費用。",
+"why": "可能改變美國數據產業成本結構，影響AI與雲端發展。",
+"source": "E&E News by POLITICO",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNHlYdWVLMk0yZUczOTVKZHU0eEtIM2xPMzZvVXZPSFlkNnhfOHZ2bDBLQ0FSVldFSTdObU9FZHIzRUU1VDMyTGdFdHZCUFdiaVc4X0xRaDFFUkZhZUEzS0dobWhqc2xLd01MaUtnMHR3TzR6dFdyUUhxRF9pUHNCUTJaaDFiUUpMT2NFMU1wTlJab1c3dGZ3Z3ZhS1F4UQ?oc=5",
+"time": "53 分鐘前"
 },
 {
-"who": "NVIDIA CEO Jensen Huang",
-"summary": "NVIDIA執行長警告AI產業泡沫，提出產業面臨挑戰。",
-"why": "AI產業快速擴張下，市場需警惕過度投資與資本配置風險。",
-"source": "Watcher Guru",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRnplNUVaVlVlZWtZS2M3Y1NtMEZqWkk3OFhCRkF3RVlwa05MMHhGVmVyZmg5RW1odDFMbTY3bU5PWXdCV2Q1dU9xREprQkUxQXlpS3pGVTgzZW50VmUwNFJ6cEdyM2RMTHpHd0MwMlFCQlYydVJjVkYtTGRuQmZ5Rw?oc=5",
-"time": "48 分鐘前"
+"who": "Coinbase CEO",
+"summary": "Coinbase CEO警告若美國加密貨幣法規停滯，將轉向海外。",
+"why": "美國若不及時立法，可能失去加密產業領導地位。",
+"source": "Bitcoin World",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Va0VVejNORVM2cWhxREhMZWRGYUswbHNOdGRJdzVXR3VNbkcyQmJkeXB5emhpVGdlQ1ZwSDdQS1BlMEt0UC1sYVEyWXE4aGQ3eUVtZnl0cXlBbWdjYm81NHo2SEtORlNPZTMyRmlzdFpPNnU2SmpEUmFn?oc=5",
+"time": "51 分鐘前"
 },
 {
-"who": "NVIDIA CEO Jensen Huang",
-"summary": "NVIDIA執行長認為AI產業需擴大5至10倍，並肯定中國模型對全球有益。",
-"why": "AI基礎設施與全球合作將成未來產業競爭關鍵。",
+"who": "Nvidia CEO",
+"summary": "Nvidia CEO黃仁勳表示短期內不會出現晶片產業泡沫。",
+"why": "釋出AI與半導體產業穩健訊號，影響投資與產業規劃。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BbkxleUFYaWV0enQwZmxaMm01Sk9KZjhSdS00eS02el96aVNDSjc0a1NvcDE1T01OcVJucGM2dDV1WlR4Y2dIWXFzZG5kZ0VSeUdwWk9KaVc1VjU0bklZWk9HRQ?oc=5",
+"time": "6 分鐘前"
+},
+{
+"who": "Nvidia CEO",
+"summary": "Nvidia CEO認為AI產業需擴大5到10倍，中國模型有益全球。",
+"why": "預示AI產業巨大成長空間與全球合作趨勢。",
 "source": "KuCoin",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0dSOTlodGZYZUlUM00xM1JUbVpIdWk2WGtrM1phbkNLelpxbU1zRE45VC1CYXRvME94TTVKN1NuZDFSeElqbUVZeWlxN3lEa0lWc1JjTGFEdTRndVBSSVlSSExjd1JZbnlFTHNpOHlvNTZ5WExjVnh4Z3J2dTZDREQtdXZ3bGZFZjgza2tmbnJsV3gyaEgtRW9Fa3pFRGhDLWxQaS1yTXhEdkxf?oc=5",
 "time": "1 小時前"
-},
-{
-"who": "OpenAI",
-"summary": "OpenAI不顧公眾反對，鎖定3.2GW電力於喬治亞州數據中心。",
-"why": "AI巨頭大規模投資基礎設施，將推動產業能源需求與區域經濟變革。",
-"source": "Tech Times",
-"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSzVwUWxJMkdyQ19SbkwyNU5yVERlTFU2RzVfbnViaWRzRGRFSHpJMTZ2NjRndUZxRXlIZjZMdEVjcjU2Z1lZS29GVGVLaXVwN0llSXhGTUczT2VYVTYwTEtDeFA4ZVJMbHBTOE9FY2lwUngydXBndW13VS1haWFxdklXT1VTWUtnOFNVUnY4a2JsaDR2V2J6VXVLM0hlSmV0dDB4SWQtUXlGT2o5YUtCUzRFdzJxdnQ0cFhkMjVxX2l0Zw?oc=5",
-"time": "25 分鐘前"
 }
 ]
 }
