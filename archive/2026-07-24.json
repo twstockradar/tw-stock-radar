@@ -1,7 +1,7 @@
 {
 "date": "2026-07-24",
 "count": 21,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、PCB材料、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CoWoS、CCL、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -180,8 +180,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "先進封裝"
+"group": "先進封裝",
+"theme": "封裝測試/CoWoS"
 },
 {
 "code": "4958",
@@ -210,7 +210,7 @@
 "dist": -0.03951367781155013,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
+"group": "機構件",
 "theme": "無塵室工程"
 },
 {
@@ -285,7 +285,7 @@
 "dist": -0.06395348837209303,
 "limit_up": true,
 "limit_up_count": 2,
-"group": "半導體",
+"group": "先進封裝",
 "theme": "探針卡"
 },
 {
@@ -316,51 +316,51 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "矽晶圓"
+"theme": "矽晶圓製造"
 }
 ],
 "news": {
-"takeaway": "川普推動新一波全球關稅與威脅對伊朗採取大規模攻擊，NVIDIA CEO警告AI泡沫並強調產業需大幅擴張。",
+"takeaway": "川普推動新一波全球關稅與對伊朗威脅，NVIDIA CEO警告AI泡沫並強調產業擴張需求，OpenAI大規模投資數據中心。",
 "items": [
 {
 "who": "川普",
-"summary": "川普全球關稅新階段生效，影響99.4%美國進口。",
-"why": "大規模關稅將重塑全球貿易格局，對供應鏈與國際經濟產生深遠影響。",
+"summary": "川普全球新一輪關稅生效，影響99.4%美國進口。",
+"why": "顯示川普貿易保護主義加劇，將重塑全球供應鏈與國際貿易格局。",
 "source": "Yahoo Finance",
 "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3IxQVltNm5yQUUwUC1ESWNSU2pRcmttQXM5eGNzc1ZCSmpNRU0yNlBoX2RCNzdYMkR2b0lETEp2WHMwZmptYUo1SmlRSnN5MUROWXc2b3JfZ2lrWWNVZ2JlMkdqNGszTlJBVW1TU0NWTnBFdlJ6V2c0VlR4UHpPUGdYUFR1SEtxd2pRbkEtOFh1SkZnRExweWJtVmdXMFpUMmxObjZaNjRlN1VrQlh3OVZmNDBNY0dJblJmTmxDVGVpdzRuZnlCaDlkSng1WDNPeXFmNW1GOVlES0hy?oc=5",
 "time": "2 小時前"
 },
 {
 "who": "川普",
-"summary": "川普考慮對伊朗發動『大規模攻擊』。",
-"why": "美國中東政策可能急劇升級，牽動地緣政治與能源市場風險。",
+"summary": "川普考慮對伊朗發動“史無前例的大規模攻擊”。",
+"why": "美伊局勢升溫，可能引發地緣政治動盪與能源市場劇烈波動。",
 "source": "Time Magazine",
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYVZ1VXNUaWRRMEtJd2Ruc2RDV3hiUkgtTUx4YzR6YTI4SHVFQkFOOG5rd05pVGJ4NjlVaDl1WDByal9XbDM2VjJ0d0xkdWdNdzktYnZXcHJWOGZCMEIxN0tuU0w0MHZYMDVweENyY2o1bDN6ZmlxRE52ejZ4NmZIaC1SUW9MSUh6bW8wb09zSVVwbllJOTVScw?oc=5",
-"time": "16 分鐘前"
+"time": "36 分鐘前"
 },
 {
 "who": "NVIDIA CEO Jensen Huang",
-"summary": "NVIDIA CEO警告AI產業泡沫，提出產業需5至10倍擴張挑戰。",
-"why": "AI產業發展面臨瓶頸與風險，未來投資與技術路線將受影響。",
+"summary": "NVIDIA執行長警告AI產業泡沫，提出產業面臨挑戰。",
+"why": "AI產業快速擴張下，市場需警惕過度投資與資本配置風險。",
 "source": "Watcher Guru",
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRnplNUVaVlVlZWtZS2M3Y1NtMEZqWkk3OFhCRkF3RVlwa05MMHhGVmVyZmg5RW1odDFMbTY3bU5PWXdCV2Q1dU9xREprQkUxQXlpS3pGVTgzZW50VmUwNFJ6cEdyM2RMTHpHd0MwMlFCQlYydVJjVkYtTGRuQmZ5Rw?oc=5",
-"time": "28 分鐘前"
+"time": "48 分鐘前"
 },
 {
 "who": "NVIDIA CEO Jensen Huang",
-"summary": "NVIDIA CEO強調AI產業需大幅擴張，並認為中國模型有益全球。",
-"why": "全球AI競爭格局與合作模式可能調整，影響產業政策與市場動向。",
+"summary": "NVIDIA執行長認為AI產業需擴大5至10倍，並肯定中國模型對全球有益。",
+"why": "AI基礎設施與全球合作將成未來產業競爭關鍵。",
 "source": "KuCoin",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0dSOTlodGZYZUlUM00xM1JUbVpIdWk2WGtrM1phbkNLelpxbU1zRE45VC1CYXRvME94TTVKN1NuZDFSeElqbUVZeWlxN3lEa0lWc1JjTGFEdTRndVBSSVlSSExjd1JZbnlFTHNpOHlvNTZ5WExjVnh4Z3J2dTZDREQtdXZ3bGZFZjgza2tmbnJsV3gyaEgtRW9Fa3pFRGhDLWxQaS1yTXhEdkxf?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "川普",
-"summary": "川普公布新關稅設計，強調能承受法律挑戰。",
-"why": "政策具持久性，將加深全球貿易摩擦並影響企業決策。",
-"source": "WSJ",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1NFRnZCekpoZ21xamZRM0pRb1NOLWNZRlMwUlROOTBnOHVaQ0tzalhyRnpQU1ZUOTZ0cnUtaDk2UWEzZHFIYUcxdi11MnBnNll6dndhSV8xakF5WGRaNjZtVjNPRUtIdnA5STRNa0hNblBXU1JBU3hOS1hTNm1jSi1KdTJtNnc2ZEFBRGNRSmJGaGdqZXBubHNRLXFpRE9rSkZfZ1VMSXI?oc=5",
-"time": "2 小時前"
+"who": "OpenAI",
+"summary": "OpenAI不顧公眾反對，鎖定3.2GW電力於喬治亞州數據中心。",
+"why": "AI巨頭大規模投資基礎設施，將推動產業能源需求與區域經濟變革。",
+"source": "Tech Times",
+"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSzVwUWxJMkdyQ19SbkwyNU5yVERlTFU2RzVfbnViaWRzRGRFSHpJMTZ2NjRndUZxRXlIZjZMdEVjcjU2Z1lZS29GVGVLaXVwN0llSXhGTUczT2VYVTYwTEtDeFA4ZVJMbHBTOE9FY2lwUngydXBndW13VS1haWFxdklXT1VTWUtnOFNVUnY4a2JsaDR2V2J6VXVLM0hlSmV0dDB4SWQtUXlGT2o5YUtCUzRFdzJxdnQ0cFhkMjVxX2l0Zw?oc=5",
+"time": "25 分鐘前"
 }
 ]
 }
