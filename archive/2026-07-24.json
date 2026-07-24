@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 2350.0,
 "change_pct": -2.2869022869022873,
-"trade_value": 57877955410.0,
+"trade_value": 58407263735.0,
 "market_cap": 60941069657450.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -76,7 +76,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "高階CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "2454",
@@ -226,7 +226,7 @@
 "limit_up": true,
 "limit_up_count": 1,
 "group": "PCB/CCL",
-"theme": "高階CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6669",
@@ -256,7 +256,7 @@
 "limit_up": true,
 "limit_up_count": 3,
 "group": "PCB/CCL",
-"theme": "高階CCL材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "8046",
@@ -320,47 +320,47 @@
 }
 ],
 "news": {
-"takeaway": "川普推動新一輪全球性關鍵關稅與對伊朗強硬表態，NVIDIA與DeepSeek CEO針對AI競爭發出重大宣示。",
+"takeaway": "川普推動新一波全球關稅與威脅對伊朗採取大規模攻擊，NVIDIA CEO警告AI泡沫並強調產業需大幅擴張。",
 "items": [
 {
 "who": "川普",
-"summary": "川普公布新關稅，強調設計能抵禦法律挑戰。",
-"why": "顯示川普將以更嚴格且具持久性的貿易壁壘重塑全球供應鏈，對國際經濟與企業布局產生深遠影響。",
-"source": "WSJ",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1NFRnZCekpoZ21xamZRM0pRb1NOLWNZRlMwUlROOTBnOHVaQ0tzalhyRnpQU1ZUOTZ0cnUtaDk2UWEzZHFIYUcxdi11MnBnNll6dndhSV8xakF5WGRaNjZtVjNPRUtIdnA5STRNa0hNblBXU1JBU3hOS1hTNm1jSi1KdTJtNnc2ZEFBRGNRSmJGaGdqZXBubHNRLXFpRE9rSkZfZ1VMSXI?oc=5",
-"time": "54 分鐘前"
+"summary": "川普全球關稅新階段生效，影響99.4%美國進口。",
+"why": "大規模關稅將重塑全球貿易格局，對供應鏈與國際經濟產生深遠影響。",
+"source": "Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3IxQVltNm5yQUUwUC1ESWNSU2pRcmttQXM5eGNzc1ZCSmpNRU0yNlBoX2RCNzdYMkR2b0lETEp2WHMwZmptYUo1SmlRSnN5MUROWXc2b3JfZ2lrWWNVZ2JlMkdqNGszTlJBVW1TU0NWTnBFdlJ6V2c0VlR4UHpPUGdYUFR1SEtxd2pRbkEtOFh1SkZnRExweWJtVmdXMFpUMmxObjZaNjRlN1VrQlh3OVZmNDBNY0dJblJmTmxDVGVpdzRuZnlCaDlkSng1WDNPeXFmNW1GOVlES0hy?oc=5",
+"time": "2 小時前"
 },
 {
 "who": "川普",
-"summary": "川普設定新關稅以懲罰『強迫勞動』，取代即將到期的進口稅。",
-"why": "以人權為由擴大貿易制裁，將加劇全球貿易緊張並影響多國出口產業。",
-"source": "The Washington Post",
-"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRjVBblIyWkkxX3FZTEs5cWNlVVo4MGlyWE1hVjJBaERjV2NKRXZqUWpWSkI5dlRhdnRsS3ZId3dJWW13TGpvV3VSM2xoRERCcnVYRE5DX1JVdGRlZ3dwVFpKRW42OXFZZGtuRHRnbFRaZEVyNWhVenFEWWFyQl9LdXIxUU5wX0xMYnpwa0NQTWpiU1JBNnl4dHNwWU9idlc5c29TRE5Dd1luLXhwWFowN01wOUtwQmN0QXBZeU1qRE83Y294Z09HR29pYng1YjEzRmc?oc=5",
+"summary": "川普考慮對伊朗發動『大規模攻擊』。",
+"why": "美國中東政策可能急劇升級，牽動地緣政治與能源市場風險。",
+"source": "Time Magazine",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYVZ1VXNUaWRRMEtJd2Ruc2RDV3hiUkgtTUx4YzR6YTI4SHVFQkFOOG5rd05pVGJ4NjlVaDl1WDByal9XbDM2VjJ0d0xkdWdNdzktYnZXcHJWOGZCMEIxN0tuU0w0MHZYMDVweENyY2o1bDN6ZmlxRE52ejZ4NmZIaC1SUW9MSUh6bW8wb09zSVVwbllJOTVScw?oc=5",
+"time": "16 分鐘前"
+},
+{
+"who": "NVIDIA CEO Jensen Huang",
+"summary": "NVIDIA CEO警告AI產業泡沫，提出產業需5至10倍擴張挑戰。",
+"why": "AI產業發展面臨瓶頸與風險，未來投資與技術路線將受影響。",
+"source": "Watcher Guru",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRnplNUVaVlVlZWtZS2M3Y1NtMEZqWkk3OFhCRkF3RVlwa05MMHhGVmVyZmg5RW1odDFMbTY3bU5PWXdCV2Q1dU9xREprQkUxQXlpS3pGVTgzZW50VmUwNFJ6cEdyM2RMTHpHd0MwMlFCQlYydVJjVkYtTGRuQmZ5Rw?oc=5",
+"time": "28 分鐘前"
+},
+{
+"who": "NVIDIA CEO Jensen Huang",
+"summary": "NVIDIA CEO強調AI產業需大幅擴張，並認為中國模型有益全球。",
+"why": "全球AI競爭格局與合作模式可能調整，影響產業政策與市場動向。",
+"source": "KuCoin",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0dSOTlodGZYZUlUM00xM1JUbVpIdWk2WGtrM1phbkNLelpxbU1zRE45VC1CYXRvME94TTVKN1NuZDFSeElqbUVZeWlxN3lEa0lWc1JjTGFEdTRndVBSSVlSSExjd1JZbnlFTHNpOHlvNTZ5WExjVnh4Z3J2dTZDREQtdXZ3bGZFZjgza2tmbnJsV3gyaEgtRW9Fa3pFRGhDLWxQaS1yTXhEdkxf?oc=5",
 "time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普表示接近對伊朗發動『史上最大規模』攻擊。",
-"why": "美伊局勢升溫，可能引發地緣政治動盪與能源市場波動。",
-"source": "The Jerusalem Post",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FOFpXVHpkR0JvSVVIX3gyZy11T25kUUhFd3JsVlA1YnhMN1NYcW9xX1h5OTdDZU01VEdZSTRILXB3NngwekQzellWeGlpZEpGWVJxeHAtX2hQcUFjRDNrRThMcUxBdlo0VVE?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "DeepSeek CEO",
-"summary": "DeepSeek CEO表示華為AI晶片僅落後NVIDIA兩年。",
-"why": "中國AI技術快速追趕，全球半導體競爭格局可能改變。",
-"source": "Huawei Central",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbno0WFlyTFY5Y2hJMlY0Qy05MTZOc3JJMUVFbERjQzRkcUlpSDlxNFhMa05IbW12MXFKNnN2S282RXFSeFlWM29mUzFwOUVzQmZuZm53YkFQT0pzdXdhTXlSMzZnblZpX0pSY1VrLUwzUngxR29MMkN0MHc4TGE4Zk9VemhFU0VfbUxocFlOTXdxWEktSFHSAZsBQVVfeXFMTnUxSTJWNTBfR2oyNVNwblZXODhjRjNtdVhwdlBYMmw3ZDI1WTRBQWFyMzBHRGdtcGdKNkhYY09razZpQjhsQnU1VVp6LS1nbnpOOW1vNjNOWEJ0WFdDSXA1ZVJLX0x5cVoxZkhLZXdzVzVnWS04X3AzcENaRE02QjYzOFU0MDh1Z1dCRDZDdmpuU3RMTC1obFBuaU0?oc=5",
-"time": "4 小時前"
-},
-{
-"who": "DeepSeek CEO",
-"summary": "DeepSeek CEO宣稱『不惜一切代價追求AGI』，並對矽谷發出挑戰。",
-"why": "中國AI企業積極投入AGI，將加速全球AI競賽與技術突破。",
-"source": "India Today",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ2RHOFdyVVNybzVHc0gyVzhFSGVMdGp5bUg0NEp0NUlLSE1rVjUwY1ZGclhQMS1FOUlYTjFIQ3p0SVJ2MFJPOE5KeDVaUWxpbGM0akFrV05ualNKWVZaR0lzS0p1azB1YVdHWGc1Sm01Yno1VGxNMVltZWF2YXNPNHdxWl9vb0ZERzFGQXZ2WEVEeWVSaUlScFIyX3FmZnFIU21mU3NOLW9KYTVJSld3SFVJXy1lOGpRalZoME1NUEJCQXBvWTF5cVNtaTJPeUFBNG1v0gHYAUFVX3lxTE5HT3I2ZU8wbkpaUHVKcGhIOWJlemlFRW1nUzdWeGFJeHNJWEpzY0JzdmJjdG9uVll0dy1lUVh1dDFqR2c1UEF6bTJ4S3NGczdsdW5wYW1iRUJwOGRoOUZoR2g5R2M4Z05heThlU1BmbHNRS1dTT193NktPRFV4MDhjamFQenE4T0tVZE1ZdXp4dkRfLXBTNHRYQ2NURERxR2E5cnhYWWRNaldleXRzMExJMl8zVG10bWdnV0w4cnRsaV82RkxyaHo2Q0tpNElUZXRsWkJBU2ZZMA?oc=5",
-"time": "4 小時前"
+"summary": "川普公布新關稅設計，強調能承受法律挑戰。",
+"why": "政策具持久性，將加深全球貿易摩擦並影響企業決策。",
+"source": "WSJ",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1NFRnZCekpoZ21xamZRM0pRb1NOLWNZRlMwUlROOTBnOHVaQ0tzalhyRnpQU1ZUOTZ0cnUtaDk2UWEzZHFIYUcxdi11MnBnNll6dndhSV8xakF5WGRaNjZtVjNPRUtIdnA5STRNa0hNblBXU1JBU3hOS1hTNm1jSi1KdTJtNnc2ZEFBRGNRSmJGaGdqZXBubHNRLXFpRE9rSkZfZ1VMSXI?oc=5",
+"time": "2 小時前"
 }
 ]
 }
