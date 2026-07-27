@@ -1,7 +1,7 @@
 {
 "date": "2026-07-27",
 "count": 20,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、CoWoS先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 2350.0,
 "change_pct": 0.0,
-"trade_value": 59976851225.0,
+"trade_value": 67885214772.0,
 "market_cap": 60941069657450.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -99,7 +99,7 @@
 "market": "TWSE",
 "close": 3680.0,
 "change_pct": -1.866666666666667,
-"trade_value": 32870700150.0,
+"trade_value": 32995930650.0,
 "market_cap": 5902335097760.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -294,7 +294,7 @@
 "market": "TPEX",
 "close": 1065.0,
 "change_pct": 3.3980582524271843,
-"trade_value": 5962066450.0,
+"trade_value": 6045081650.0,
 "market_cap": 509191117125.0,
 "status": "NEAR_HIGH",
 "dist": -0.03260869565217395,
@@ -305,7 +305,48 @@
 }
 ],
 "news": {
-"takeaway": "",
-"items": []
+"takeaway": "川普對伊朗政策與經濟政策、OpenAI與Hugging Face CEO的AI發言，將深刻影響全球地緣政治與科技產業未來走向。",
+"items": [
+{
+"who": "川普",
+"summary": "川普持續暫停對伊朗的軍事打擊，五角大廈公布更高傷亡數字。",
+"why": "美國對伊朗政策轉向謹慎，可能影響中東局勢與全球能源市場。",
+"source": "The Guardian",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjFkOHc5X0FoazlJUFFleEI4TEM4bTlKQW4wT0ttQXgwa25JX1QtZl90NmQ5eWxnZnhIa0ZYVWRjaGM4M08yU1JVYTlkQUdIU3NPb0lVcTZoUndKYV8wd01vOURBcHNrOHNHNG56WVNsTlFwYVhHQ2xrYmNJczhJXy0yc0cxNTFReTFXUWtjbFJicDJZU25lS1VXSXhSTHEzU2VyR0gxWktWVTlRVzVOUkJJeC0?oc=5",
+"time": "26 分鐘前"
+},
+{
+"who": "Sam Altman (OpenAI CEO)",
+"summary": "Sam Altman表示『我們已進入奇異點』，認為人類已進入AI新時代。",
+"why": "AI發展進入新階段，將加速產業變革與社會結構調整。",
+"source": "The Economic Times",
+"link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOck1zUFhUVXhKNGpTYXlTYzVPRnZ0UFJzR0xSUnJEOEdIOTlURG9XN05hMEJJdGdEbmpKRFVxSThBSVJrQjdLdzNIMDZXOGpxbkRocWV0S0kwb3A3a0FGOV9LaUcyX3RwcWRxMUg4dzdCelBEZ0h6dldyeUxXckl4Qmd5NWFtekZVZmFybFBVQW1GT2JfU1BYNndQX0Fqc1ZKbFM3U3k0WjdSMWtpU1lnakYyUlpJd3Z2akVtT3k0bDdCWHBFbDg1RHRramUySHR5MWNnWVBFMFQ1d0Z5ZTdSY1lyWEI2RmVCSkFZVzBLYjZha013YjRFQ0lNR3ZvR0FKWEhmVDJlSko3Ui1wVjluM3ZTREY0S2Q0eTc0NW5rLVRrR0lTYTZxSTNVRTc5RC1KcThmOTRLWnJnTXBNMWZ3eHlxNG1TLVVSc1JkN3N6TURIZ3pRdThWNC1Pc9IB4AJBVV95cUxQMjZObUM4NEprU0FTQ3d3aUhtcXpxMXhZcURpQVVDLTBCM3hpRkozbDVTUkdQZlZwSnRRYXNGQmZvMm83RzVpY2xPVVhpaThQVGZkM3hBNkJvV1JnS2JJbE1QYUJuNGxIYk9FZGZ6VV9rXzBZdlpOTDFpU1NMUjB5Zmp5UDc1VjJMNlFOSUZIcmFGbF81RWhLREdqeC1SZHgzMEpCc2dub0ktYzZPUlVhRTFVNlhrYUN4TW1SUTdGMDJJY3pXRUJXSWVDVTJuNG9nUlFDa1dycThTeVRoeHV3cmRDOXh5RnhWYVA4eVY4UGhwZURyaEN6ZXVjYXNvcjlfYjFhWWFPM1pSWm16MXZNeExGOTJzQkZpWU9WeTJSdklJc0h5a1lic3E4d1Y0ZUdzeWc0ZE51YnNsUEl1VDI4UmpVMW82eE8wbG92S0V1RlJsVnZjODRfRTZTNGlzdmtQ?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Hugging Face CEO",
+"summary": "Hugging Face CEO呼籲在OpenAI事件後推動『激進透明化』。",
+"why": "AI產業將面臨更高透明度要求，影響技術發展與監管趨勢。",
+"source": "IT Pro",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWk1Sd3VqajZVdEVGdnR5c0c3MVhSYmFBTlhpU3hhbV9YakNUQ0NJUHFQdTZxeTdQNC1VMU5ndVRJdl9ldlJDS1VYMmR6T1RHWnpRZWpzMmFiTGxFZThCQzFwdjBKQks5eksycXF5eUlObGhBS3F5NlcwLVdPSDB2V05nQ2pXNFlILTJ6TXhvV2hrcC0tTlZYMVdnSmc0bXBMNDdDTERR?oc=5",
+"time": "10 分鐘前"
+},
+{
+"who": "Nvidia CEO",
+"summary": "Nvidia將投資10億美元取得Naver 4.5%股權，深化AI工廠合作。",
+"why": "全球AI產業聯盟加速，資本與技術整合推動新一輪產業升級。",
+"source": "KED Global",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xWGl5bWpqWkFXTDFQRDZyellHUWtYM2VDbTgtTUcyOU5ILVNwUmljSG5QSGJubTFVT2RvWXZkU3A1d0MxeTJIX25VODd1Ym50SlRSWmw1dm9tM2lFcFd2THFZUTBoYU45TnlWanc4dkxuM0ZPeVdEdGhKcw?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "川普",
+"summary": "川普將在密西根為其經濟政策辯護，面對加拿大新關稅挑戰。",
+"why": "美國貿易政策與產業競爭將受川普決策影響，牽動北美經濟格局。",
+"source": "New Haven Register",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcnpKQ2ZSdnRsVk9QSE81RWFheUI1eW9vbTgzblZyN1Z4WjYteFRVZ2FoaktKeVQ5c3BncWZRaEt4VFh3TExyelA1WUNuMlJPZGNjcWUzMVY3U3VBRU0wZ3NrbTB0bThsZXk2Mk1hbjFIcEhwWmN0YnhBR2JTclpndk9tTzlRVGRZY0diVTVEcDB5Z1RYd0FmTFdkZVRNNFZZOXdma0hzQQ?oc=5",
+"time": "50 分鐘前"
+}
+]
 }
 }
