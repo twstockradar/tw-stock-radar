@@ -1,7 +1,7 @@
 {
 "date": "2026-07-27",
 "count": 20,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、CoWoS先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -305,48 +305,7 @@
 }
 ],
 "news": {
-"takeaway": "川普的政策動向與AI產業領袖的發言，正深刻影響全球政經與科技未來。",
-"items": [
-{
-"who": "川普",
-"summary": "川普提出對加拿大新50%關稅，可能衝擊美國緬因州企業。",
-"why": "顯示川普貿易保護主義升級，若實施將重塑美加經貿格局，影響供應鏈與區域經濟。",
-"source": "The Portland Press Herald",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tUXFpb09MX25LaThhV0ZjbjVQb3ppYWRnMkd0d3RwTVpOajVoMjl6Tm5VMGZMRkdPbmIyRm5leG1OVDFnZk9NOVZCT3dJcGc?oc=5",
-"time": "41 分鐘前"
-},
-{
-"who": "OpenAI CEO Sam Altman",
-"summary": "Altman宣稱人類已進入AI奇點時代，並強調對AI發展持樂觀態度。",
-"why": "AI奇點意味技術突破將加速，對產業、勞動市場與社會結構帶來深遠變革。",
-"source": "조선일보",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUmJ5ZndTNjJNeXhaeEdhcWI5Nm14bE52LUlfU09ob2tIQjFXU1Vnb09PXzNISmhjOFpBOVdraVNlRFFTVTFld0pUeV9kdWVDTk9wcHJYYUhYc1FxbG0yY0gtVEQtZGhmOUs0d3V4U21keFF2SER2TDh0OFVNa25yZXFCY3g4NGJZ?oc=5",
-"time": "41 分鐘前"
-},
-{
-"who": "Coinbase CEO Brian Armstrong",
-"summary": "Armstrong批評從加密貨幣轉向AI是零和、稀缺思維。",
-"why": "反映科技產業資源分配與創新方向的辯論，影響未來資本與人才流向。",
-"source": "TradingView",
-"link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcWxTeG9CUVJzV1R5VmQ3cGJpZWJLRWY1X0RxaFB5VGhiOHc3SXNVNmt2anFzb0VSZ3lFYnNYa3ZrdGl5NjNDNE1FeFRKajV1cUVPX0ZGNWpzaWtWaHVGcDJ0VkZvclJ2ZWdvUmpGWkZMWmhlWHNQOXNRSTd5TW9xRlpyS1RiVkcxWEs5SHozVi12YTRVYmZITGdpWThXSzA4MlpSSEQtSjR2aWgxS3BCX0MyTFJfRnJSNjQwNnQyY0NzT0QzaHU5YXRFWHAwYUZHbDA5WUdlUTlkMVZ5NzFRemNB?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "川普",
-"summary": "川普表示內塔尼亞胡若訪紐約不會被逮捕，淡化相關威脅。",
-"why": "顯示川普對以色列領導人立場，可能影響美以關係及中東地緣政治。",
-"source": "Scripps News",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzZnZUxxeTZVb1VmWWtPd3hiNVQ4NUYzeDFxQWRoT1F2aXN0alQtNC0zZUJKUmR3a3IxbGJTNmFKdGhRaG9vNV9RWDlWWFNHNks0dUFLZ29HRkI2Q1p5elZJcHgwMTdTZWRuS0tFMGkwT0JKU0VicHhDY3FvNkdSU01aR2tTd2NXS0VMMUxHUWw1MG40Y1A1Q2RDOWNlbXNqSEcyNlR3aWtrWjhZRXVQUFB5c1dUV0pFNGdn?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "川普",
-"summary": "川普提出中東政策結合武器、AI與核能發展。",
-"why": "預示美國未來中東戰略將更重視高科技與軍事結合，影響區域安全與產業發展。",
-"source": "calcalistech.com",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyeWxHOVU1SUIwMDZsVlJSYVJ1SWF0b1ByS0xIdEpkLTRTa0NJS0ZCQU80cUlrOGl2emhrTWtiLWJNMDNlSkpEMlRHVXRxeC1nT1NjMmhEN05md21hVEY3Mk1vaUZoY2s?oc=5",
-"time": "2 小時前"
-}
-]
+"takeaway": "",
+"items": []
 }
 }
