@@ -1,7 +1,7 @@
 {
 "date": "2026-07-27",
 "count": 20,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CCL、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -305,7 +305,48 @@
 }
 ],
 "news": {
-"takeaway": "",
-"items": []
+"takeaway": "川普對伊朗政策與博物館歷史資訊的決策，以及OpenAI CEO與科技巨頭對AI發展的發言，將深刻影響地緣政治與科技趨勢。",
+"items": [
+{
+"who": "川普",
+"summary": "川普正在權衡對伊朗戰爭的下一步行動。",
+"why": "美國對伊朗的政策將影響全球地緣政治與能源市場，川普的決策可能帶來重大變動。",
+"source": "13newsnow.com",
+"link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeHN1S1RObi1zODVmVDM1akUtcExFd1VYLVBWRlFtcHF3TjVnQ2dzOHBQMFJTNzZLNjc5UXZiLVMzQUhsNktLVFN2b19xM3ZFb2dNVEZTZHFDd0k4Z3lJMF9lQk0zeXAtQUR4dFBRQTlmZGR1S2Q3dm5PamNKSG9Vakt4Z1FZWXpVZXRPdGgyUEpPNjZzczJTb05JX3MwTTF4Y3ZlOVpCVU5jSE9DeTFKRkF5OFJqT0Joemk1VlVOdVhHX2EzeWFEa2VBUlJsNWlHWDRTN3JHOGFiMXg0aFEwTjNIcFdyU1FVS0ZQYWx1NGhybS1pbVpB?oc=5",
+"time": "41 分鐘前"
+},
+{
+"who": "川普",
+"summary": "川普下令在史密森尼博物館外設置警告標誌，提醒有『不準確』歷史資訊。",
+"why": "此舉反映川普對歷史敘事的干預，可能引發文化與教育領域的爭議與政策變化。",
+"source": "blooloop",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BaHl4MDJIMXZMWWdENUdRWGdteGp0WG9FdGcyWTczZE9heWlPejV4OWFkaUZDMU9hd3BxNzhSdld6aUp5cGpmVlRNeFdva2RLR3pvM2FpQzEwMDBMOW5KQzFxTmtFMnFtSkRYam9GVUVBdw?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "OpenAI CEO",
+"summary": "OpenAI CEO公開談論AI發展的關鍵轉折點。",
+"why": "AI技術正處於重要變革期，CEO的發言將引導產業未來方向與政策討論。",
+"source": "Modern Ghana",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBldTlUdmc3V0tFX0luaU1xNmgzN3JBa0xKd0NWbk1YLWM4M25TT1d3eFZWZnNsbjNrUlUxcTA1SzB3cEJfd1dwSjFBaW1pc2o3ZTZRYnY4ck1KdHZiR2p30gFcQVVfeXFMUDZYQndOd0tmcDNBZjlPMzVpNW9JY2NQOVVsSEUzaFdvRnNHTG9OcnlycFdqTjM1M05xVHRQeVFmZnp2emdPZmJaT3pua2xFVnIzaE9WN2FHQ3VIdlo?oc=5",
+"time": "3 分鐘前"
+},
+{
+"who": "Sam Altman、Satya Nadella、Sundar Pichai、Elon Musk、Jensen Huang",
+"summary": "多位科技巨頭CEO聯合支持同一AI願景。",
+"why": "科技領袖共同推動AI發展，將加速產業整合與全球技術標準形成。",
+"source": "The Economic Times",
+"link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNYm9sc2E0Y3lrUjhPYjdCTkwwemFCOE5OUllLSW9GbFdKZW1aZE9UU2JkaGsyT3pkbE8zbVU4bWdEdl95N3NRVGtYNWVWRGpHb2c2SHdVekUwVXRPRWt4MUxxZnNvOW1zd2JsTGhXVDNOS3JVS1R0Um9VNi1rS0doNy1JYlVQMEUyN01mN3VZRC05Q203c0dtX3RiU3hkdDhENUFTWVRXSGJfeGhDV1dmUU13Vno1d2hzbmVLZ05wQ05zakVzak1RMGhkaGNxeVAtbzNIZjJBSG13QkhoeDNzQldxNmZDRkxHNkMwTmV6SmphcC1LcnlVM3lnSWhCZlRWandtMWpiR05YZlVFSkN5U1hmcHZ1M2VxQ0ZtWFlMWFduRzl1ZUM3eFRuVFFWdHBzMjhPSE9vZ2V5ZzNDQ2ZYSGpieXJYY1Y5YkVqZ3drbmIwelZZRkdvbHZzOXV6Q19Pc09fRENkZTlpdElYREsyWThHY3R5MHPSAfcCQVVfeXFMTWJvbHNhNGN5a1I4T2I3Qk5MMHphQjhOTlJZS0lvRmxXSmVtWmRPVFNiZGhrMk96ZGxPM21VOG1nRHZfeTdzUVRrWDVlVkRqR29nNkh3VXpFMFV0T0VreDFMcWZzbzltc3dibExoV1QzTktyVUtUdFJvVTYta0tHaDctSWJVUDBFMjdNZjd1WUQtOUNtN3NHbV90YlN4ZHQ4RDVBU1lUV0hiX3hoQ1dXZlFNd1Z6NXdoc25lS2dOcENOc2pFc2pNUTBoZGhjcXlQLW8zSGYyQUhtd0JIaHgzc0JXcTZmQ0ZMRzZDME5lekpqYXAtS3J5VTN5Z0loQmZUVmp3bTFqYkdOWGZVRUpDeVNYZnB2dTNlcUNGbVhZTFhXbkc5dWVDN3hUblRRVnRwczI4T0hPb2dleWczQ0NmWEhqYnlyWGNWOWJFamd3a25iMHpWWUZHb2x2czl1ekNfT3NPX0RDZGU5aXRJWERLMlk4R2N0eTBz?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Hugging Face CEO",
+"summary": "Hugging Face CEO呼籲AI產業採取『激進透明』。",
+"why": "AI安全與透明度成為產業焦點，CEO的倡議可能促使更多企業採取開放政策。",
+"source": "IT Pro",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWk1Sd3VqajZVdEVGdnR5c0c3MVhSYmFBTlhpU3hhbV9YakNUQ0NJUHFQdTZxeTdQNC1VMU5ndVRJdl9ldlJDS1VYMmR6T1RHWnpRZWpzMmFiTGxFZThCQzFwdjBKQks5eksycXF5eUlObGhBS3F5NlcwLVdPSDB2V05nQ2pXNFlILTJ6TXhvV2hrcC0tTlZYMVdnSmc0bXBMNDdDTERR?oc=5",
+"time": "1 小時前"
+}
+]
 }
 }
