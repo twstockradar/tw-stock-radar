@@ -1,7 +1,7 @@
 {
 "date": "2026-07-28",
 "count": 21,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材聚焦於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、先進封裝、散熱等族群為主，題材集中於晶圓代工、AI伺服器代工、CoWoS先進封裝、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 563.0,
 "change_pct": -9.92,
-"trade_value": 19545904029.0,
+"trade_value": 20255847029.0,
 "market_cap": 1166235067492.0,
 "status": "PULLBACK",
 "dist": -0.13524590163934425,
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 2280.0,
 "change_pct": -2.9787234042553195,
-"trade_value": 101041235365.0,
+"trade_value": 103624205064.0,
 "market_cap": 59125803752760.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -69,14 +69,14 @@
 "market": "TWSE",
 "close": 2040.0,
 "change_pct": -8.928571428571429,
-"trade_value": 5584195055.0,
+"trade_value": 5839505507.0,
 "market_cap": 1144680509880.0,
 "status": "NEAR_HIGH",
 "dist": -0.010791366906474864,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/AI網通"
+"theme": "交換器/網路設備"
 },
 {
 "code": "2382",
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 313.5,
 "change_pct": -2.639751552795031,
-"trade_value": 6346624790.0,
+"trade_value": 6369382540.0,
 "market_cap": 1210933699932.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -121,7 +121,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡"
+"theme": "探針卡/測試服務"
 },
 {
 "code": "2454",
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 3315.0,
 "change_pct": -9.918478260869565,
-"trade_value": 39905755485.0,
+"trade_value": 40292632476.0,
 "market_cap": 5316913274205.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -234,7 +234,7 @@
 "market": "TWSE",
 "close": 427.5,
 "change_pct": -9.139213602550477,
-"trade_value": 12242492940.0,
+"trade_value": 12406225440.0,
 "market_cap": 474049450710.0,
 "status": "NEAR_HIGH",
 "dist": -0.09256449165402125,
@@ -320,46 +320,46 @@
 }
 ],
 "news": {
-"takeaway": "川普針對經濟、伊朗、選舉政策發表重要言論，蘋果與NVIDIA CEO針對娛樂與AI未來釋出新方向。",
+"takeaway": "川普推動投票限制、藥品關稅與美中東外交，蘋果與微軟CEO釋出未來產業方向。",
 "items": [
 {
 "who": "川普",
-"summary": "川普在密西根訪問時強調經濟表現。",
-"why": "經濟議題將成為大選核心，川普強調經濟有助於吸引選民與政策走向。",
-"source": "WTVB",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWllJRFJqeTNrd3dwZjdxTmVHTkl2N29wMWExOEQ5Tjlpa2FKM3VnSElYdkVPSXpONS00M0VJUnZrYVFsbnhSeXNtTVhVR2NRVmdwUVU3MXRwdVNHMlV3cS02a2czT1dhemdNOC0xeGFESTJWbWs1VVVXdHJKdG5VTkJwd1VpZw?oc=5",
-"time": "13 分鐘前"
+"summary": "川普要求最高法院批准行政命令限制郵寄投票，推動加強投票管控。",
+"why": "此舉可能影響美國選舉制度與未來投票方式，對政治與社會穩定有深遠影響。",
+"source": "facebook.com",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZHBRM2Z2NzBoWTllbjZMSk51SHdPdGNBV19waVRPSXQxX0U3U0xvOF9FZ1BlWUg2ZXhOcG1DMlMwUGRnWTJ2Qk1LeVdHc3lCZWNLb2pzU3BibE16ekswQ3p1bkRfdExNMV84OHdWWU1yTHN5NHNGVEJWN3ZTbXpzbHpDaXBUVTdQcGRCaTZSZEpob0RlaDJaSjJkc0tmR0JOcnVBaGxXbHRjWUtPMXM0LTlTbU04eDhEaldBWl95Y0hVRVo2NnMtZFVlZHk4WkVJZ0J3?oc=5",
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普警告若核談判失敗將對伊朗發動新一輪打擊。",
-"why": "美伊關係緊張，川普強硬表態可能影響地緣政治與能源市場。",
-"source": "IranWire",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUl3aXFDV1oyWjkzLVZhcFNjVnBXRkhEXzRjaU00dkNNTzBMUlFmMUtDU1l6OVFTeGpHSmJKbnllTHBza01CdDAySlpVbUNneXBiLVY5ZDJ2RTAtS1BXV3ZuMDBZbFVFazRhSVdVOGFJS1o2eTBlaEk1UkI3ZXpfV2p4c1czcFNnczRXU2ZGLXpUZl8tTXdOZm8zTQ?oc=5",
+"summary": "川普推動對仿製藥徵收關稅，測試其藥品政策策略。",
+"why": "將影響全球藥品供應鏈與美國醫療成本，可能引發產業重組與國際貿易摩擦。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZYnNYUXI4ZG1ORDYwV0dyaHhYNmJRLWF3X2I0RHg1SWxnckFYRUd4THBqRW5wQURxU1p5T25Tdk5CQ3JJZWF6dTZ5dk5WOWRveThXLTdNU0ZwMFdBTlozM3dNQU5rempBUE83TXZIY1dWUGVPM3RFVTlJY3BEUEU?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "川普政府",
-"summary": "川普政府要求最高法院允許新的郵寄選票規則與公民身份名單於2026年中期選舉前實施。",
-"why": "選舉制度變革將影響投票權與未來選舉結果，牽動美國政治格局。",
-"source": "NCHStats",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeC1vM3NCNjhnV0VLb0VjQ24yaVFXdjJYMVJydUVOQU4yTnM2VXA1X3VSUGhFX2pMTjNZcmVIc0MzSmRhNVhWZlZPVnh5TkVqbF9ULXI1YmV5UExURW84UEd2aHVLMWtvS2FJSmFZdjk4STRlbVRLeWlGX21PYklHTi1XLXc3ZFZjZ3pBU0U2TkppVjFhQ1BGbGxaRXlDQ0xlTGc?oc=5",
-"time": "2 小時前"
-},
-{
-"who": "蘋果新任CEO",
-"summary": "蘋果新任CEO表示將加大對Apple TV的投入。",
-"why": "蘋果加碼娛樂業務，顯示科技巨頭持續擴展內容生態，影響產業競爭。",
-"source": "BusinessToday Malaysia",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUEF5cmtvSVUyNW5pSF9oT19USnZOTWZUbWYzTmZicXRJcS1DUlA0YWxfcnJOY3ItczlMTTNHUW5GSnZvWC05ZmFDZU5OZmlpaTJ2ekJQWnJWZHFrT0dCWVZEYWUxSWRNUndrTnR6cHNtM2c4cVVLTWFaRXd4aW5SQkRhY0pfUUQyZExnSnBrempNeTNKNzBObTVVeHctZw?oc=5",
+"who": "川普",
+"summary": "川普支持與伊朗展開新一輪談判，但目標尚不明確。",
+"why": "美伊關係與中東局勢未來走向，將牽動全球能源與地緣政治風險。",
+"source": "The New York Times",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlZTaXA5N05SZ1JRLTJZMWdjUl9HWXhtNDR0eHhmN1l0THRoVHlIU2o0T3JaWXh4U1lVajQ1dkpkZHg4ZXFNaVpWOTNVSVJTb1E3Zmc5QS10YmFyazEwWFVtcF9fUUJndENVWXFLaHJyUEJxYzdmLXhlMWZteWw1TGxZamVCWGNX?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "NVIDIA CEO黃仁勳",
-"summary": "NVIDIA CEO將與國會成員舉行高層會議，討論美國在AI領域的領導地位。",
-"why": "AI政策與產業發展受高層重視，將影響美國科技競爭力與全球AI趨勢。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTGY0ME1WWUFITkVvemFDUHNvUmVzMER4QVU2UVRXT0VmYjlSc1duakJoOFlOZlcxcnZsQkU3enlIeWVHN2NILVNqZWh6eDd2TF9WRkFRcU85QnpCcEkyWnk0aHg1ZnE5c18xNS1jeDhxbWhHSnhERjRtYURSazY0cXVsX1EwWjhyX0tzM2diNWR2Wm94cmRmbmw5M0o3d1A3dUVYX2wxM19TbzVvNThTODBiTEI?oc=5",
+"who": "Apple CEO John Ternus",
+"summary": "蘋果新任CEO John Ternus暗示將加大娛樂與串流業務布局。",
+"why": "蘋果轉型重點將影響全球科技與媒體產業競爭格局。",
+"source": "Storyboard18",
+"link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYTFya3RlekhDVVhaRGtJX1kxaV9wc1pISHMwWExTbkFwWXN1MDJuQXloUWJySXhlMUJaQ050VURNLVNwLUdVTzVkQXU1MUZvTmVLTEVHVWt0VjNDNGwzTGpvd2s1UzhwZlExWGZrb25JTjJkNzJ4OU0tNlVQa0FRZWNMR3dNTld5Zlg1VXV4RXdicGdmaV92bWtac3prWTR1RkRSNnZVSGgyejNvY3MzeEZLZkpaWF9nNks4QkhwZ2RlcDhCdWZGWWF2S3NTclZpSWlsTG5GQVBqOTI0dnRobHFaWVdlQdIB5gFBVV95cUxNYTFya3RlekhDVVhaRGtJX1kxaV9wc1pISHMwWExTbkFwWXN1MDJuQXloUWJySXhlMUJaQ050VURNLVNwLUdVTzVkQXU1MUZvTmVLTEVHVWt0VjNDNGwzTGpvd2s1UzhwZlExWGZrb25JTjJkNzJ4OU0tNlVQa0FRZWNMR3dNTld5Zlg1VXV4RXdicGdmaV92bWtac3prWTR1RkRSNnZVSGgyejNvY3MzeEZLZkpaWF9nNks4QkhwZ2RlcDhCdWZGWWF2S3NTclZpSWlsTG5GQVBqOTI0dnRobHFaWVdlQQ?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Microsoft CEO Satya Nadella",
+"summary": "微軟CEO納德拉警告企業若只依賴單一AI模型將落後。",
+"why": "AI產業發展方向與企業策略調整，將影響全球科技創新與競爭。",
+"source": "finance.biggo.com",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZUEJpcmxYcjFpVjJDX0trN21MR3d3UW44VmRHNHNIQU9Ba1hPX3hjdG1zdU1haGg1QlFFRE1ZOUhMV0tZeVpjZTdSaFlCaW1EOS11bVI2NjFvNFFpYm40RVJMSllRa1Y2NXAtUTZqNHhUM2MtUEE?oc=5",
 "time": "1 小時前"
 }
 ]
