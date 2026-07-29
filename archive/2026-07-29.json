@@ -1,7 +1,7 @@
 {
 "date": "2026-07-29",
 "count": 23,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、電源/重電等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、重電等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -61,7 +61,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件"
 },
 {
 "code": "2330",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "2383",
@@ -135,8 +135,8 @@
 "dist": -0.06315789473684208,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "電源/重電",
-"theme": "電信/重電"
+"group": "網通",
+"theme": "電信服務"
 },
 {
 "code": "2454",
@@ -270,8 +270,8 @@
 "dist": -0.03951367781155013,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "半導體",
-"theme": "無塵室工程"
+"group": "重電",
+"theme": "廠房工程"
 },
 {
 "code": "6239",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "AI伺服器",
-"theme": "AI伺服器代工"
+"theme": "伺服器代工"
 },
 {
 "code": "8046",
@@ -350,47 +350,47 @@
 }
 ],
 "news": {
-"takeaway": "川普與多位科技巨頭CEO針對AI、地緣政治及重大資本支出釋出關鍵訊號，將深刻影響全球產業與政策走向。",
+"takeaway": "美國企業與川普針對AI、地緣政治及重大資本支出釋出關鍵訊號，將影響全球科技競爭與政策走向。",
 "items": [
 {
-"who": "Andy Jassy (Amazon)",
-"summary": "Amazon CEO Andy Jassy宣布發行250億美元債券，並承諾2026年將投入2000億美元資本支出於AI數據中心建設。",
-"why": "大規模資本投入顯示AI基礎設施將成為未來科技競爭核心，帶動產業鏈重大變革。",
-"source": "The Motley Fool",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUUlKMDN2VE91RERvdU1ia1NHQ1Zod2pwenRuV0lKcFRpSjZCbnVSZnA4NkxXcF9pRDhFbWtKVi0xWXlQa2ktNVFEZjNIR3VZYXBpZURmNDdyQ2pCelpUQnlES0RPNDNDc3pxenYxSFlLRkZPSUdzZ2xCZ01CNXNxR2Y0eS1RNmdBd3htbXo4ZUVOekp1SnRrbQ?oc=5",
-"time": "27 分鐘前"
-},
-{
-"who": "Mark Zuckerberg (Meta)",
-"summary": "Meta CEO Mark Zuckerberg表示禁止中國AI模型並非有效解決方案，呼籲減少障礙。",
+"who": "Meta CEO Mark Zuckerberg",
+"summary": "呼籲美國不應封鎖中國AI模型，主張減少障礙。",
 "why": "反映美國科技巨頭對全球AI競爭的開放態度，可能影響政策制定與產業合作。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNV3N3R1gtS0Z0YmRHYk82a1MwWEJ1RElzQmpKZk1admx6Tk1VS0x1cDlScnNkOFBGN3ZKOThnVFFGM0N0Z3N2aC15MFFUejFHNThDUVdta1I0YVRFcDhrREZYcUFyTEFuV2ZMdWcwSG83NUtPSU1BdVo3T1lTSm8yU2xsUGRId0FJMFlKYUh1ZFI0Q0R1QWxGUzRVWG5IdEpfOV9oeUhLUDBMdUFVWkJoR01feUdfc3VhaFhaQ0xkaWdEVDZvbEdTWDJJdHlzM2VndmpBdHNZaWExWllDbHpUeGNkRHZ0aGtpVkszMnV2QTdnV1VXUVJnVUdQb015UWY4ek1uNzVpdG1rT2ppWmJ6RHBFd3g3eWQ0Q2xzTmpVWDFCcGM?oc=5",
-"time": "8 分鐘前"
+"source": "Investing.com Nigeria",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNzE4ZWdNbWI4TlNTcnppNHIydGJBc3B3dXlHZjIwUEwyQ0tjbDZhMnBXVzB6b1NuVXdwQUVaeEdXVmpWcWRmN2toUlA4c3B5dXRrd3ZtU3R3NjUzcVp6b2Y2VWh4b2p1S0c0OGtiaHBKU2YtaUdyRkRMTmIwcUFYY1l1N3BkU19oM3pobHlSN1JUeVFOUHpxdUpuUFBraC1PUFpEWXhvaGF6ank4eHpTNXFR?oc=5",
+"time": "7 分鐘前"
 },
 {
-"who": "Jensen Huang (NVIDIA)",
-"summary": "NVIDIA CEO黃仁勳在國會辯護開放權重AI系統。",
-"why": "凸顯AI技術開放與監管的爭議，對產業發展與政策方向有深遠影響。",
+"who": "Amazon CEO Andy Jassy",
+"summary": "宣布發行250億美元債券，為AI數據中心建設籌資，並承諾2026年資本支出達2000億美元。",
+"why": "顯示亞馬遜對AI基礎設施的高度投入，將推動產業升級與全球雲端競爭。",
+"source": "The Globe and Mail",
+"link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNSjJQMUpWNE9MdExTYlBVVk9ObUVyN0VMU0J0cGM1cm5JWlVtckl3ZUs5dU9FRW5MM3BqdjFMWEhVcTlnTUpQQmNBVUNQNjdQNmhQajNoNjRyNmFYQmFqU182M0h1SWlnWlJaczNLbUJrQ2M4QmtXUTdlVE1Cek9RaDgzVzF0YllNS3oyZDYxSjNRSzZLeVZpSDc3Q0NqNWJ0dFkxbTB6NWEyd0xXNFpLMEV2YmkweGJnNmI4SDVyLTV0VElla0hQa3FYTWh0S1JZb0NXUkNBak1lT0luX2RvUFY4ckxYSWhrQVFZWmhXeGJjMURuSU1fVHRuMDV3eGVzVlljb2tFOU5LaUxrcVBiaXBtZnlUR3dUWWF6OUo5QWlBb3k5em02dmhNODZDMVZ4dmxhdmxtTVRRNHFaUGJfSklhTjEwcW5HLVdpRV83ZTdoRlpsaTVYUnU3TQ?oc=5",
+"time": "51 分鐘前"
+},
+{
+"who": "Meta CEO Mark Zuckerberg",
+"summary": "表示封禁中國AI模型無法確保美國AI領導地位。",
+"why": "再次強調開放與競爭的重要性，對美國AI政策形成壓力。",
+"source": "TradingKey",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbHd3VDRaYms3SVNIcE53aE9MdlFHa3VEeE9zMFRPYzVBb19QRzNUZ3lOcEk5THlNTjZuVWxpbTZNS3Z4WG1jZV9pNWZZNHlLVUFMY1ZsMlcwSDZTWHo3cGFLd2FkRGZBcldpSkJQTWQ5cnhmcjdFQjFvcjRYekhnWm1LdVU3NF9ERmNkd2poY2lHcEpOdHpveUw0UW1XSUZYbGFPa255MkhjZno0ZEhzMDhWZWJlejU0Y3d0WTBEYw?oc=5",
+"time": "3 小時前"
+},
+{
+"who": "NVIDIA CEO Jensen Huang",
+"summary": "捍衛開放權重AI系統，面對國會質詢。",
+"why": "NVIDIA作為AI領域領導者，對政策與技術開放的立場將影響產業生態。",
 "source": "GuruFocus",
 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS1NuWldyLWVzYkh6VHhXMTRpaktHSGI5TEg5dktkRmNYenFhaDk5djQtSk96amQ2ODdtQUczMnhCZmNnZTNGNFIyTjJCOFdSWjNBVy1Nc1BJYWl4WFRUZnFxOEF1NDF2dlNGV3JlYzhjcTNjOVhKMVVJeVNBNzNSSmVCbWktQWZnODJROGpXODgyWk9ETDJWck1DQ3FfUDJ4eGE0UHFTbExldWNFd3VXTWprTmFnT3hsRExtVkd5RVBpc2VmQWVJ?oc=5",
 "time": "3 小時前"
 },
 {
-"who": "川普",
-"summary": "川普與澤連斯基討論愛國者導彈交易及恢復俄烏和平談判。",
-"why": "美國前總統涉入俄烏局勢，可能影響地緣政治與軍事產業未來走向。",
-"source": "Al Jazeera",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLU5fX2ZoR1o2VnFtYlg2RHVnb3JHU0hWSFloQVRoVmVjZ3BCXzdwcVlDanJDVzZVQV9fcUVoVWQ4T1FQWkt3VHRxb3ZLb1NBUFhUS3d4ZHJVUmdzMEVDNHRKSzk3b3JoMXpfMnlDV1dqa3lEYjk1N2xQa3dSYkFlMUx4cmNNU2kwZkNGanRXREF2MDRHbWVldFcwNHk0NTlNVVJBR2VaMNIBrAFBVV95cUxPTU9jTWF5OHktQVNMR2dMbFhNVFQwM080eUM4TTk1WnFBZW9DRnFkX1VNbldNV0tfeXJ6aWlMYjFtNkUwc29ac3ZfWFhSUFpEbjJDR3dCSVUxWm5CTlBGNFRFaHBXcHlTbFdwcW5Fb05PdjAzMFZ4U0ZuTkJ3VkFsWGZ5OEFTVEtyTm1Cb2RzSThIZDRXWk1KTUVJcEJsNkpzZ0RDbmNmeV9FbXph?oc=5",
+"who": "川普政府",
+"summary": "禁止中國硬體，著眼於AI競賽。",
+"why": "美中科技戰升溫，政策將直接影響全球供應鏈與AI發展。",
+"source": "Axios",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRE91cTRyWGRWSHJhamt1dWdhbzdTSXBhcjFqSGQtbmhkVGE5NWNaYmFvR2RITzBDNjJIYlVxZVdrT1NEaXlybWxoV1VPWVlqQVV1c2tRQ0Y5bExRbERRNTljUk1RQ0w5RDVZcElwRlFQU3RvVE1PWUFLOTRuNC0yZks2Z082ZmVCQmNz?oc=5",
 "time": "3 小時前"
-},
-{
-"who": "川普",
-"summary": "澤連斯基稱川普同意為烏克蘭提供愛國者導彈生產許可。",
-"why": "若屬實，將加速烏克蘭軍事現代化，並影響美國對外軍事技術出口政策。",
-"source": "Anadolu Ajansı",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOandyOUhWTUVfQmRsaldPeTk5UDNOaE9JWnl1Q18xcXMwalRhSlBvbEV0Y3hfaUktak5md2w0SkFsejlmVWUzUVhsMWdDV3B3VFoxNnFUVWJUdjRTeTRxLTNzZU9ncW9JdFV4UVE5amJpLW9Ib19vRzBxbEJMQ3A4Q3N2eVk1UXMzVERKZDM4b3EtRDFBX1VrX0E1TDd1RUNFbDA4dGF5VW4taDVGZVU4d1pVX3E1Z0hkUUlV?oc=5",
-"time": "4 小時前"
 }
 ]
 }
