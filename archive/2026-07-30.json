@@ -1,7 +1,7 @@
 {
 "date": "2026-07-30",
-"count": 23,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、ABF載板、CoWoS、散熱模組等。",
+"count": 27,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理模組"
+"theme": "伺服器電源"
 },
 {
 "code": "2303",
@@ -54,7 +54,7 @@
 "market": "TWSE",
 "close": 110.0,
 "change_pct": 7.317073170731707,
-"trade_value": 41816720209.0,
+"trade_value": 41844845209.0,
 "market_cap": 1383468335700.0,
 "status": "PULLBACK",
 "dist": -0.10781671159029649,
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件製造"
+"theme": "被動元件龍頭"
 },
 {
 "code": "2330",
@@ -84,7 +84,7 @@
 "market": "TWSE",
 "close": 2205.0,
 "change_pct": 0.22727272727272727,
-"trade_value": 104999028020.0,
+"trade_value": 114098819878.0,
 "market_cap": 57180875997735.0,
 "status": "NEAR_HIGH",
 "dist": -0.027613412228796874,
@@ -114,7 +114,7 @@
 "market": "TWSE",
 "close": 279.0,
 "change_pct": -9.8546042003231,
-"trade_value": 16606170122.0,
+"trade_value": 17091554682.0,
 "market_cap": 1077673053528.0,
 "status": "PULLBACK",
 "dist": -0.136986301369863,
@@ -129,7 +129,7 @@
 "market": "TWSE",
 "close": 4315.0,
 "change_pct": 5.2439024390243905,
-"trade_value": 22480041575.0,
+"trade_value": 23409386575.0,
 "market_cap": 1546155606910.0,
 "status": "NEAR_HIGH",
 "dist": -0.06451612903225812,
@@ -144,7 +144,7 @@
 "market": "TWSE",
 "close": 203.5,
 "change_pct": -4.235294117647059,
-"trade_value": 7887660658.0,
+"trade_value": 7927159858.0,
 "market_cap": 248828620727.5,
 "status": "NEAR_HIGH",
 "dist": -0.04663923182441698,
@@ -159,7 +159,7 @@
 "market": "TWSE",
 "close": 3235.0,
 "change_pct": 2.6984126984126986,
-"trade_value": 45947926930.0,
+"trade_value": 46068575790.0,
 "market_cap": 5188601641645.0,
 "status": "PULLBACK",
 "dist": -0.12575452716297786,
@@ -204,7 +204,7 @@
 "market": "TWSE",
 "close": 578.0,
 "change_pct": 0.3472222222222222,
-"trade_value": 18108809507.0,
+"trade_value": 18415149507.0,
 "market_cap": 304557309280.0,
 "status": "PULLBACK",
 "dist": -0.11608093716719914,
@@ -219,7 +219,7 @@
 "market": "TWSE",
 "close": 3460.0,
 "change_pct": 5.007587253414264,
-"trade_value": 10171746305.0,
+"trade_value": 10711506305.0,
 "market_cap": 463681212060.0,
 "status": "PULLBACK",
 "dist": -0.10012058314713412,
@@ -249,14 +249,14 @@
 "market": "TWSE",
 "close": 505.0,
 "change_pct": 1.2024048096192386,
-"trade_value": 15509460735.0,
+"trade_value": 15629910580.0,
 "market_cap": 2257639002410.0,
 "status": "NEW_HIGH",
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "先進封裝/CoWoS"
+"theme": "先進封裝"
 },
 {
 "code": "4958",
@@ -264,7 +264,7 @@
 "market": "TWSE",
 "close": 376.0,
 "change_pct": -7.045735475896168,
-"trade_value": 25313953227.0,
+"trade_value": 25758385227.0,
 "market_cap": 416941739104.0,
 "status": "NEAR_HIGH",
 "dist": -0.09256449165402125,
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "高頻材料"
+"theme": "CCL銅箔基板"
 },
 {
 "code": "6239",
@@ -301,7 +301,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "封裝測試"
+"theme": "封測"
 },
 {
 "code": "6669",
@@ -309,7 +309,7 @@
 "market": "TWSE",
 "close": 4900.0,
 "change_pct": -4.576436222005842,
-"trade_value": 11305600550.0,
+"trade_value": 11354649146.0,
 "market_cap": 910619875900.0,
 "status": "PULLBACK",
 "dist": -0.10267471958584984,
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "軟板/高頻材料"
+"theme": "軟板/CCL"
 },
 {
 "code": "8046",
@@ -347,50 +347,110 @@
 "limit_up_count": 0,
 "group": "PCB/CCL",
 "theme": "ABF載板"
+},
+{
+"code": "5347",
+"name": "世界",
+"market": "TPEX",
+"close": 138.0,
+"change_pct": 3.7593984962406015,
+"trade_value": 5792032563.0,
+"market_cap": 259380321900.0,
+"status": "PULLBACK",
+"dist": -0.11210762331838564,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "晶圓代工"
+},
+{
+"code": "6223",
+"name": "旺矽",
+"market": "TPEX",
+"close": 4800.0,
+"change_pct": 0.20876826722338201,
+"trade_value": 5345635525.0,
+"market_cap": 470310283200.0,
+"status": "NEAR_HIGH",
+"dist": -0.014266304347826053,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "探針卡"
+},
+{
+"code": "6274",
+"name": "台燿",
+"market": "TPEX",
+"close": 1010.0,
+"change_pct": -0.9803921568627451,
+"trade_value": 15294777469.0,
+"market_cap": 291662383370.0,
+"status": "PULLBACK",
+"dist": -0.11979166666666663,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "PCB/CCL",
+"theme": "CCL銅箔基板"
+},
+{
+"code": "6488",
+"name": "環球晶",
+"market": "TPEX",
+"close": 778.0,
+"change_pct": -9.953703703703704,
+"trade_value": 8340946427.0,
+"market_cap": 371972478050.0,
+"status": "NEAR_HIGH",
+"dist": -0.03260869565217395,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "半導體",
+"theme": "矽晶圓"
 }
 ],
 "news": {
-"takeaway": "川普對伊朗強硬表態與大型科技企業CEO對AI及市場競爭的最新發言，將深刻影響地緣政治與產業趨勢。",
+"takeaway": "川普針對AI管控與中東政策發言，以及微軟與Verizon、Cracker Barrel、Qualcomm等CEO重大決策，揭示未來科技與地緣政治趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示『輪到我們狠狠打擊伊朗』。",
-"why": "展現美國對伊朗的強硬態度，可能引發地緣政治緊張與能源市場波動。",
-"source": "IranWire",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV19YcmRlM0NPcXJfaFlzdHR2N0R6S3FYaUl2blMtNG5qYndlUmV5RURxektUU2JtWjMxTHhFMGxUbXVySlVJcXdfeTNiZ21MTEhFTGVNTXA2eXZnLXdKQTJ4SF9FcXRLQmdreW1uTWhHWllIMXFJYmhmYzBmQWNNZnZibw?oc=5",
-"time": "28 分鐘前"
+"summary": "川普針對OpenAI模型駭客事件，考慮加強AI管控。",
+"why": "AI政策將影響美國科技產業發展與全球AI監管趨勢。",
+"source": "AI Magazine",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVo5OFhvUDZ1QWRWR2JrQ1BQUmZNLXJSNi1qLU03OExMWXlEcDV1TmFkVlU2MjBEN2k1YzdHVGwzT19KRkdnQ2o2SVdHY0ZaWjdoZUV4LWhNczUxbHd0WTlJdmo1YUZWMUxwUEl3X3ZkZXM4QllKdTJmekNLbXNWUHRxb0lCbjA?oc=5",
+"time": "33 分鐘前"
+},
+{
+"who": "Satya Nadella (Microsoft)",
+"summary": "微軟CEO確認Copilot超級應用，並強調Copilot快速進化。",
+"why": "AI應用加速推進，微軟在生成式AI領域持續領先，影響產業格局。",
+"source": "The Times of India",
+"link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzhwMnhITk9iRF8tOFhYbnZGQUswWmY0UE1yQWtmNTRmRWZKRml3OWFaSXRXcjlzR2FsX2J2Tks2ZXFZZDJ3Zi0yS1lqSnVsQy1YVmhEQUY1blZsaFFCMl9iS3ZGOUprWW1yOGhEOGs4QmZLZldwYWJ4TFdCZ3c3R0R6czBXaGRBLTgzems3bTAwdXp0OU5wY2Zlb0lYTXh5V1RRZDVlZkFWUUxEcWtVWnpPQ3RXcHkydFBpbm9KMUlmSXAyWjF3aENEOWpHalhWczBmVGxpSFc1dmhkTnY5a21pd2xOcFhpcmYyOUV6d3JJd2haQWJyR19tQ2s3TE3SAYQCQVVfeXFMTjJVRmNiMndTWU5tUnNhNkEwTTZiOE9iZXc1ajJuVzZGYUt1Nzg1eGNKU2oyczB3TVE0Rmk2UDk3UFluaFROSmY2Zm9ZTHgzenFpcW5ocGZ0NEx4Rl85UXo1VXZmMmNSYkJRZnJ3eUpfOFlDUzRtZUF5TTVrSnpDVzF6YmNxOUswc25LeEVVT2RMcVJpQXNJSGNfSTg0VkxfZTBmVmNXczNHZWUxekhzTFBVZjFlYzRiN1FpWkFYWWEzb1E0WUNIdjVPbzE5Y2JyeTBzeFZtbW9WYjdtWEVlVjRoeDRWU1k5ZXUxWWQxTnZlVHZwVmQwVmd2UTlpMEx1RVVKV1o?oc=5",
+"time": "50 分鐘前"
 },
 {
 "who": "Verizon CEO",
-"summary": "Verizon與Google簽署逾10億美元光纖協議，CEO稱年底前還會有更多數十億美元級別合作。",
-"why": "大型科技企業合作加速基礎建設與數位轉型，預示未來電信與雲端產業重大變革。",
+"summary": "Verizon與Google達成逾10億美元光纖協議，CEO預告年底前還有數十億美元新交易。",
+"why": "大型電信與科技企業合作加速數位基礎建設，推動雲端與AI產業發展。",
 "source": "Stocktwits",
 "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUDFZMi10dHhyYVg0VndYUDB2c3loMDJOVDI2NWhmOGR6MWw1QWYzU1VrRmphSkVHV3JmcnF0ODU0Z2JDZWV1dXpHVTFjQm9fb0x3Qi1SdG4zbFY2cXZOdXJUTTh4OV9MaHRBZDFDSWM5MXVnMGlaNTVVem5ma1JwN3lIbWFuNlpLUVNybXlfSlcyM3g2MnpxOXZyOTk1TGdyR0ExaEItT2V3QUhtOWUyTUh3dmV5cGVtZVRPUU0yRmZCVE96YWNsWTlFVnJvY1FzeE1YZmFQMA?oc=5",
-"time": "1 小時前"
-},
-{
-"who": "Microsoft CEO",
-"summary": "Microsoft CEO預期遊戲部門年底恢復成長。",
-"why": "顯示微軟對遊戲產業與AI整合的信心，可能帶動產業新一輪競爭與創新。",
-"source": "Gadgets 360",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMmVWcmk4NmxDVlotcWZ4SDNnZ1l0UE5VcTMyWFZ1NV9ZUnVPSE13YjRBeV92UHIwd3NKbUcxUlczQUMteUhIWFNfTkNWUXFZRWs4cHFGdVczTy1YYjd3VG1lSDVGWThrYS1rM19EYThQMDVPTXNTOGVhWUtOeFRkaFdZUjhVM1ZHdDZ5eFc2RUdrR3ZacVNlc3hxWDRaNkU3QWtBSFNxQU1tTVRwQWVmM3VzaWk2NFpaLS1SSTNHMkpXNExJM2x0bHJObW9HOUVEbF9V0gHYAUFVX3lxTE93X2xHVXdiOWUzS3I5YnFQMkZtVHN1R0kyWERTcVpvM3lhLURwMHFtYmxBTmdLYkMyenFCN3FnYmFlUWlYbHZ6dUgtRWN0ZklnaFdISlRsRlFnM3lVa3JwY05KSzVOT2lMal9SVGVjS0kzZnhZT1hPcHQyME0wc0lqcExCa0o3T3o5SE1KY0ttTVM2eDFUa0lTNTJ4Q245LUZKZ0VYdWpqYVIybFBEVEE3TE1DWnlISkRrZnNvekVpQkRnOXlEd19IaGRfMkVJMXdKdkkzMXBvMw?oc=5",
-"time": "36 分鐘前"
-},
-{
-"who": "Mercedes CEO",
-"summary": "Mercedes CEO表示中國汽車市場競爭將持續激烈。",
-"why": "全球汽車產業面臨中國市場壓力，將影響電動車與傳統車企策略布局。",
-"source": "Bloomberg.com",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazJzZmZCc09Ca1d1Rm5lVjNQLW9wZ3dFajN4ZDZscmJ2N2lyWWh1bkdyb1F3clVlOTFwdE01VzU0VDBMY0FUeFhEaU5KM3oxT0VUanhOQmlIci00aG1nWVQ4VFg0a0VYOE9EQ1VlaUJNLXpaWlM4bUJuZUNtWXktOVNJV0RlRjJiY21aQ2hJZGdyUnJtN2dmd3JRcFd3Y1ZISVg5dks5anBvcVBGdFQwYU82OA?oc=5",
 "time": "2 小時前"
 },
 {
-"who": "Meta CEO Mark Zuckerberg",
-"summary": "祖克柏認為目前無法依賴開源AI模型，存在風險。",
-"why": "大型科技公司對AI安全與商業模式的警惕，將影響AI產業發展路徑。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1dhRW96aUlhVWJPTm9xYXFFdXhBX2ZVRGt0cmVxQVlXSU1pUnU4azB0ZVJSNUF4ZWpYbUU1a2d2UHRQNzkxSnk1YS1JWHlpSndUUkxuODRzSFQ3dDlDb2Z2R2FZMmtZV3hSTVM1Q01DVHRPc0F0X3owbDdFTWVMLUVrcjlLZzZlbGN5c2RxUVg5ZTIxMWUtNHpUTWVSSm1yUVRvOUJ4dkM3aHZlRWE3TldaS0xUdw?oc=5",
-"time": "3 小時前"
+"who": "Cracker Barrel CEO",
+"summary": "Cracker Barrel宣布CEO交接。",
+"why": "高層更替可能帶來企業策略調整，影響餐飲產業未來走向。",
+"source": "Cracker Barrel",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONDlKXzJEUVdPSmNjN0lsLXVZS3IySFlrRkZsRTRHMXhicWRvVFgxZkZ6SzF4X1hYemF4S3RJMWJIemJ5TVhEY1RJbkVnNXM5TjJkeDdtT2dZSzY5UjJyamw0MFBDcEF0VDh2cUY4Y2hLaXR2eC0zWmRVcFpmRFZGbHd6VU15WnNGYWdyalhCeGczTTEzeGtzeFJZSkZTU083b2x4cjZMaWcwdjZTM3c?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Qualcomm CEO",
+"summary": "Qualcomm CEO表示公司已以資料中心業務取代蘋果iPhone調製解調器業務。",
+"why": "顯示半導體產業重心轉向AI與資料中心，對產業鏈有深遠影響。",
+"source": "wccftech.com",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGbnJicnR2WGdETUVXd0J3ZmRYMU9rS3ZzamhjWHo2Wmw1cGZndWw2SERiU0JPV3VhOUNnUmx2dTlqTk54YVdIdk1aNFZOSExxTkdQaTlUd0RSendydHR3OFpFSDVmLW5la005TmI1dU7SAXZBVV95cUxNcG1HUjZmR3Rod3JPNC11N2cxOG5OeVdBak5rYXZOY2c0Q1Q4SkpKbkltTkZ5dDhJZjh6XzQ0MlRBaEV4eG00ZnZRQkFSV1Rldm1wVmVGTU56UDVnZnpiWG10UXhvaFlBZmNxUlpHN1dvNGNkcktR?oc=5",
+"time": "2 小時前"
 }
 ]
 }
