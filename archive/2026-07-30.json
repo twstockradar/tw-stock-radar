@@ -1,7 +1,7 @@
 {
 "date": "2026-07-30",
 "count": 27,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組、矽光子等。",
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊CPO等族群為主，題材集中於先進封裝、AI伺服器代工、CoWoS、ABF載板、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源供應器"
+"theme": "伺服器電源"
 },
 {
 "code": "2303",
@@ -76,7 +76,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "被動元件",
-"theme": "被動元件"
+"theme": "被動元件龍頭"
 },
 {
 "code": "2330",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "交換器/光通訊"
+"theme": "光通訊CPO"
 },
 {
 "code": "2382",
@@ -410,47 +410,47 @@
 }
 ],
 "news": {
-"takeaway": "川普針對核能、AI管控及對伊朗強硬表態，微軟CEO則釋出AI與遊戲業務重大發展訊號。",
+"takeaway": "川普對AI管控、對伊朗的軍事回應，以及微軟CEO對AI與遊戲業的信心，成為未來國際趨勢關鍵訊號。",
 "items": [
 {
 "who": "川普",
-"summary": "川普欲向歐洲推銷美國核能，但歐洲態度冷淡。",
-"why": "顯示美國能源政策可能轉向出口核能，若川普重返政壇，將影響全球能源格局。",
-"source": "E&E News by POLITICO",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWEF0RWV5dTdzVjIxcERISFNEVGRNNUdWMFdIOUtseDIyU1Y3X0JobnBCNm44S25OUlB4MlplNTA1NVhaZVJBdjBsYTBIdFU1ajZRQkxVemtLdTl2QVZGVkpncl83bzN3dEd5bks3LTh2UmdZbnNBeFZxV1lvRHVUOGZvLXdEOWhlMzNyc3k1M1NoTkt2ZVNSN3VwZVJqNXc?oc=5",
-"time": "34 分鐘前"
-},
-{
-"who": "川普",
-"summary": "川普考慮針對AI技術實施管控。",
-"why": "AI政策將影響科技產業發展與監管趨勢，牽動全球AI競爭。",
+"summary": "川普考慮對AI進行管控。",
+"why": "AI政策將影響全球科技發展與監管趨勢，牽動產業與國際競爭。",
 "source": "AI Magazine",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVo5OFhvUDZ1QWRWR2JrQ1BQUmZNLXJSNi1qLU03OExMWXlEcDV1TmFkVlU2MjBEN2k1YzdHVGwzT19KRkdnQ2o2SVdHY0ZaWjdoZUV4LWhNczUxbHd0WTlJdmo1YUZWMUxwUEl3X3ZkZXM4QllKdTJmekNLbXNWUHRxb0lCbjA?oc=5",
-"time": "52 分鐘前"
+"time": "1 小時前"
 },
 {
 "who": "川普",
-"summary": "川普強調對伊朗採取強硬軍事行動。",
-"why": "美國中東政策可能再度升級，影響地緣政治與能源市場。",
-"source": "IranWire",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV19YcmRlM0NPcXJfaFlzdHR2N0R6S3FYaUl2blMtNG5qYndlUmV5RURxektUU2JtWjMxTHhFMGxUbXVySlVJcXdfeTNiZ21MTEhFTGVNTXA2eXZnLXdKQTJ4SF9FcXRLQmdreW1uTWhHWllIMXFJYmhmYzBmQWNNZnZibw?oc=5",
-"time": "2 小時前"
+"summary": "川普對伊朗攻擊進行報復，專家警告伊朗政權愈發危險。",
+"why": "美伊關係升溫，可能引發地緣政治風險與能源市場波動。",
+"source": "Fox News",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDVsSlRLT1JGNkJhSGMybjJDRDhEa0hOYmg5bzcyZWhCMTljYWhSZXI0N05MdlcxbGxJU1hNT2d5dFEzSzlPRnlKOWdrcTNvbkl0M3JqejBtTjloMWhKY0hrRUJyalpzY3J6dkdNVDlKdDZLOWhWY1JXZ1NaU2FMMWNkNndkek54NnFMZ1NZdWtmMDV2SU50MXJBcmdoNHZ1WVBIMjdTV2V1VXPSAbABQVVfeXFMTTR0V0VZYkFfVzd2QzFUcHlnRkhJTFJHT3c5aFdZbFpVdGNXalZnalpxUTZDWk9rb1QxMGRzd2tlZGFrcGtNb0lDX1VNSnJ0ektaenZLMWlmeHNvejlpLXVpeXYtN0gtaHpteTJBNGpCTUVXem5hYXpVSm1GSVd3Ny05a3ZJOEtWdWlLZ2E3TjUwZ2RwZ0NUZlJYRUF0aEc3Z0xPWW1NbkxBSHhLRTdGM3k?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "微軟CEO證實Copilot超級應用快速進化。",
-"why": "AI應用加速推進，微軟在生成式AI領域持續領先，影響產業競爭格局。",
+"who": "Microsoft CEO Satya Nadella",
+"summary": "微軟CEO證實Copilot超級應用，並強調其快速進化。",
+"why": "AI應用加速推進，微軟在生成式AI領域持續領先，影響產業格局。",
 "source": "The Times of India",
 "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzhwMnhITk9iRF8tOFhYbnZGQUswWmY0UE1yQWtmNTRmRWZKRml3OWFaSXRXcjlzR2FsX2J2Tks2ZXFZZDJ3Zi0yS1lqSnVsQy1YVmhEQUY1blZsaFFCMl9iS3ZGOUprWW1yOGhEOGs4QmZLZldwYWJ4TFdCZ3c3R0R6czBXaGRBLTgzems3bTAwdXp0OU5wY2Zlb0lYTXh5V1RRZDVlZkFWUUxEcWtVWnpPQ3RXcHkydFBpbm9KMUlmSXAyWjF3aENEOWpHalhWczBmVGxpSFc1dmhkTnY5a21pd2xOcFhpcmYyOUV6d3JJd2haQWJyR19tQ2s3TE3SAYQCQVVfeXFMTjJVRmNiMndTWU5tUnNhNkEwTTZiOE9iZXc1ajJuVzZGYUt1Nzg1eGNKU2oyczB3TVE0Rmk2UDk3UFluaFROSmY2Zm9ZTHgzenFpcW5ocGZ0NEx4Rl85UXo1VXZmMmNSYkJRZnJ3eUpfOFlDUzRtZUF5TTVrSnpDVzF6YmNxOUswc25LeEVVT2RMcVJpQXNJSGNfSTg0VkxfZTBmVmNXczNHZWUxekhzTFBVZjFlYzRiN1FpWkFYWWEzb1E0WUNIdjVPbzE5Y2JyeTBzeFZtbW9WYjdtWEVlVjRoeDRWU1k5ZXUxWWQxTnZlVHZwVmQwVmd2UTlpMEx1RVVKV1o?oc=5",
 "time": "1 小時前"
 },
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "微軟Copilot付費用戶突破三千萬，CEO宣布統一應用重大更新。",
-"why": "AI商業化進展迅速，微軟成為全球AI生態系關鍵推手。",
-"source": "Benzinga",
-"link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMWZ3OTBmQ3pLSVlPNjhuQ042WnlkYkIwZUt6Q1V4QXVPNHR4TFhPTUN2LVRnRm50WHpKSEVQdnFTUnJpM2R5dEdoX24xUHlFcnlDN1J3SHhpUnV1NFlTUlV0b1ZVSVNsQ1ZSSVAzZS1STzZQSkdIY0psaTQ3QkFHM0hkMFl1Q1RsZ1p5WHhMSURNTnZ5ZmNhYnpxcDBFZGItSHV6OGx6UkpEMEhUYUVaMUNiR2pCWmtseVZIWmN4UmVyQkVNNlhMTXJnR3pnUENnTGpoRWo3RVBZS1I5clAxcllhRndJQThwTFc3Q0ozYkRZYzhEMlVUcmk4bw?oc=5",
-"time": "2 小時前"
+"who": "Microsoft CEO Satya Nadella",
+"summary": "微軟CEO表示Xbox擁有最佳IP與全球頂尖工作室，對遊戲業未來重返成長充滿信心。",
+"why": "遊戲產業與IP資源將成為科技巨頭競爭新焦點，影響未來娛樂產業發展。",
+"source": "GamesRadar+",
+"link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNWGVWWlkyTW9xVmRYQngtaWtFeGhuSGQxUDNWQ0txR0FnZ2VEOWgxUEtUbDFUWjNCLWV2elgybEdpRjd5aU5zbGZiQlI1b0xSV2lmT3oydmN1V2ZNQmtuMGtwT3g2UVN0ZDhnR2Y2Z3N2YzNhY0VFLW5sOXlVYUpZWXJZVjg0R2xXS201YlVRay02WkJqM2tOYXJmYmU5X19BSmVnSEM3TVNyeURNaVJFWHZ5d0RPU1BLb0FTNmpuaExPWFk2YnVZTk1Ic3V4ZTFab0ttSDZ4SVNKTU1GQWtnUjRxX2JWUjVKcHZZLXhCTFRWVXJoNEYybDFpUFVUQ2NLSG9qc05TR0d5dFB6T2JnUmo4UFFFR3A3VDY2SEFxeVVkanc?oc=5",
+"time": "1 小時前"
+},
+{
+"who": "Cracker Barrel CEO",
+"summary": "Cracker Barrel宣布CEO交接。",
+"why": "高層更替可能帶來企業策略調整，影響餐飲業未來走向。",
+"source": "Cracker Barrel",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONDlKXzJEUVdPSmNjN0lsLXVZS3IySFlrRkZsRTRHMXhicWRvVFgxZkZ6SzF4X1hYemF4S3RJMWJIemJ5TVhEY1RJbkVnNXM5TjJkeDdtT2dZSzY5UjJyamw0MFBDcEF0VDh2cUY4Y2hLaXR2eC0zWmRVcFpmRFZGbHd6VU15WnNGYWdyalhCeGczTTEzeGtzeFJZSkZTU083b2x4cjZMaWcwdjZTM3c?oc=5",
+"time": "31 分鐘前"
 }
 ]
 }
