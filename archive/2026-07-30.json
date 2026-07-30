@@ -1,7 +1,7 @@
 {
 "date": "2026-07-30",
-"count": 27,
-"focus": "本清單以半導體、AI伺服器、PCB/CCL、封裝測試、散熱、光通訊、被動元件等族群為主，題材集中於先進封裝、AI伺服器代工、ABF載板、CoWoS、矽光子、重電等。",
+"count": 23,
+"focus": "本清單以半導體、AI伺服器、PCB/CCL、散熱、光通訊、重電等族群為主，題材集中於先進封裝、AI伺服器代工、ABF載板、CoWoS、散熱模組等。",
 "stocks": [
 {
 "code": "1303",
@@ -46,7 +46,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "電源/重電",
-"theme": "電源管理"
+"theme": "電源管理模組"
 },
 {
 "code": "2303",
@@ -106,7 +106,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "網通",
-"theme": "光通訊CPO"
+"theme": "交換器/光通訊"
 },
 {
 "code": "2382",
@@ -151,7 +151,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "半導體",
-"theme": "探針卡測試"
+"theme": "探針卡/測試"
 },
 {
 "code": "2454",
@@ -255,8 +255,8 @@
 "dist": -0.002743484224965731,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
-"theme": "先進封裝CoWoS"
+"group": "半導體",
+"theme": "先進封裝/CoWoS"
 },
 {
 "code": "4958",
@@ -286,7 +286,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "高頻材料"
 },
 {
 "code": "6239",
@@ -300,8 +300,8 @@
 "dist": -0.13824289405684753,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "封裝測試",
-"theme": "記憶體封裝"
+"group": "半導體",
+"theme": "封裝測試"
 },
 {
 "code": "6669",
@@ -331,7 +331,7 @@
 "limit_up": false,
 "limit_up_count": 0,
 "group": "PCB/CCL",
-"theme": "CCL銅箔基板"
+"theme": "軟板/高頻材料"
 },
 {
 "code": "8046",
@@ -347,110 +347,50 @@
 "limit_up_count": 0,
 "group": "PCB/CCL",
 "theme": "ABF載板"
-},
-{
-"code": "5347",
-"name": "世界",
-"market": "TPEX",
-"close": 138.0,
-"change_pct": 3.7593984962406015,
-"trade_value": 5371142313.0,
-"market_cap": 259380321900.0,
-"status": "PULLBACK",
-"dist": -0.11210762331838564,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "半導體",
-"theme": "晶圓代工"
-},
-{
-"code": "6223",
-"name": "旺矽",
-"market": "TPEX",
-"close": 4800.0,
-"change_pct": 0.20876826722338201,
-"trade_value": 5320710525.0,
-"market_cap": 470310283200.0,
-"status": "NEAR_HIGH",
-"dist": -0.014266304347826053,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "半導體",
-"theme": "探針卡測試"
-},
-{
-"code": "6274",
-"name": "台燿",
-"market": "TPEX",
-"close": 1010.0,
-"change_pct": -0.9803921568627451,
-"trade_value": 14996827469.0,
-"market_cap": 291662383370.0,
-"status": "PULLBACK",
-"dist": -0.11979166666666663,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "PCB/CCL",
-"theme": "CCL銅箔基板"
-},
-{
-"code": "6488",
-"name": "環球晶",
-"market": "TPEX",
-"close": 778.0,
-"change_pct": -9.953703703703704,
-"trade_value": 8221134427.0,
-"market_cap": 371972478050.0,
-"status": "NEAR_HIGH",
-"dist": -0.03260869565217395,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "半導體",
-"theme": "矽晶圓製造"
 }
 ],
 "news": {
-"takeaway": "川普對伊朗強硬表態與大型科技企業CEO對AI與資本市場的重大決策，將深刻影響地緣政治與產業趨勢。",
+"takeaway": "川普對伊朗強硬表態與大型科技企業CEO對AI及市場競爭的最新發言，將深刻影響地緣政治與產業趨勢。",
 "items": [
 {
 "who": "川普",
-"summary": "川普表示「輪到我們狠狠打擊伊朗」。",
-"why": "展現美國對伊朗的強硬態度，可能引發地緣政治緊張與軍事行動升級。",
-"source": "iranwire.com",
+"summary": "川普表示『輪到我們狠狠打擊伊朗』。",
+"why": "展現美國對伊朗的強硬態度，可能引發地緣政治緊張與能源市場波動。",
+"source": "IranWire",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV19YcmRlM0NPcXJfaFlzdHR2N0R6S3FYaUl2blMtNG5qYndlUmV5RURxektUU2JtWjMxTHhFMGxUbXVySlVJcXdfeTNiZ21MTEhFTGVNTXA2eXZnLXdKQTJ4SF9FcXRLQmdreW1uTWhHWllIMXFJYmhmYzBmQWNNZnZibw?oc=5",
-"time": "1 分鐘前"
+"time": "28 分鐘前"
 },
 {
-"who": "川普",
-"summary": "川普考慮加強AI管控，但警告不能落後中國。",
-"why": "美國AI政策走向將影響全球科技競爭與產業規範。",
-"source": "Fox Business",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOGVTcEpmRTRkWXE2LVNLaDJIbjIxV3QtVkNMdEZfeEY4MXhoLTREdnYyeWV5WHd3dkpxcTdQMzVJaG9Xdm5tUGtvbDZCTl90cWc1TGxlM0pTN0xiUmZCM0RvaGktT3lNM3NMSHFRX29LcTJ4Vzd3VE1BaUZzR0d0N0RZWF9yY0NFS0ZQXzlLcnZJS2JIUDFUSmc1Yk5kM0dWQmpHVUcxLXQ2VWlS0gGsAUFVX3lxTE84ZVNwSmZFNGRZcTYtU0toMkhuMjFXdC1WQ0x0Rl94RjgxeGgtNER2djJ5ZXlYd3d2SnFxN1AzNUlob1d2bm1Qa29sNkJOX3RxZzVMbGUzSlM3TGJSZkIzRG9oaS1PeU0zc0xIcVFfb0txMnhXN3dUTUFpRnNHR3Q3RFlYX3JjQ0VLRlBfOUtydklLYkhQMVRKZzViTmQzR1ZCakdVRzEtdDZVaVI?oc=5",
-"time": "4 小時前"
+"who": "Verizon CEO",
+"summary": "Verizon與Google簽署逾10億美元光纖協議，CEO稱年底前還會有更多數十億美元級別合作。",
+"why": "大型科技企業合作加速基礎建設與數位轉型，預示未來電信與雲端產業重大變革。",
+"source": "Stocktwits",
+"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUDFZMi10dHhyYVg0VndYUDB2c3loMDJOVDI2NWhmOGR6MWw1QWYzU1VrRmphSkVHV3JmcnF0ODU0Z2JDZWV1dXpHVTFjQm9fb0x3Qi1SdG4zbFY2cXZOdXJUTTh4OV9MaHRBZDFDSWM5MXVnMGlaNTVVem5ma1JwN3lIbWFuNlpLUVNybXlfSlcyM3g2MnpxOXZyOTk1TGdyR0ExaEItT2V3QUhtOWUyTUh3dmV5cGVtZVRPUU0yRmZCVE96YWNsWTlFVnJvY1FzeE1YZmFQMA?oc=5",
+"time": "1 小時前"
 },
 {
-"who": "Andy Jassy (Amazon CEO)",
-"summary": "Amazon CEO Andy Jassy稱發行250億美元債券是「千載難逢的機會」。",
-"why": "顯示Amazon大規模資本運作，可能推動新一輪科技投資與擴張。",
-"source": "The Times of India",
-"link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPU2pCckMyZWdmenFMdHBCOWJVTTJ3ZVdEbENCWXNyUFVKRnBwUnozeHB4MXJiZDNxb3Q5d3ZPQmFfQjFld29xOENOM2tKbHZqLWhZRElENmRIdWpWSHRhYlFGNl9UUFJ2aWxpOE1TUXBlNlZSS3dXM0dRZmpXTWtOVG1qTEhWcnRpTlptOFZTdl9MMVdiaVdRc0xTUlNfU0NWNjlmZWRUUXVmZ1R4NHRhU25OTEpCS2tLQXFKSnlseHdkQjFRcEFLODdFTUpLWndfR2cxV0prRGtUN1FCdldVajZCWFZCM0pKMG5EVHl5ejZ0ekJReWJxWHNmUnNEMVRWVE1MSzYwY9IBjAJBVV95cUxOMW0yUldzamNKclRQWE0tVEhvVDB1UzM4ZngzWlpUM1RvT3RvSUtDRHM1RXRBZ0RqNjNNQ2o3bnUteGdOY0FsWjNmWHpOeF9ha3dUU1R1c0pRYlRMbjEwZ0gwazBzYUZpeHY3STNBX0FDazFLLVBKNVhsUXNPMENlRm9OQ3JVY28zazhfSEhqRlNFZFFBVGRNUEdGdW50T1ZOV0JUeTNDOU9VODV3cjZoWmJMWHM5eXc1OWkxci1xWDcybHN6NVFzR0hjNjA2a054YmM0Z096NXBfa3dTV3k3QV85b2FJbXNlbzdfb0NGRnNFMDI2SXFJNE9FWTUtd1JUSUZ2bkg5Yk5QUGsz?oc=5",
-"time": "4 小時前"
+"who": "Microsoft CEO",
+"summary": "Microsoft CEO預期遊戲部門年底恢復成長。",
+"why": "顯示微軟對遊戲產業與AI整合的信心，可能帶動產業新一輪競爭與創新。",
+"source": "Gadgets 360",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMmVWcmk4NmxDVlotcWZ4SDNnZ1l0UE5VcTMyWFZ1NV9ZUnVPSE13YjRBeV92UHIwd3NKbUcxUlczQUMteUhIWFNfTkNWUXFZRWs4cHFGdVczTy1YYjd3VG1lSDVGWThrYS1rM19EYThQMDVPTXNTOGVhWUtOeFRkaFdZUjhVM1ZHdDZ5eFc2RUdrR3ZacVNlc3hxWDRaNkU3QWtBSFNxQU1tTVRwQWVmM3VzaWk2NFpaLS1SSTNHMkpXNExJM2x0bHJObW9HOUVEbF9V0gHYAUFVX3lxTE93X2xHVXdiOWUzS3I5YnFQMkZtVHN1R0kyWERTcVpvM3lhLURwMHFtYmxBTmdLYkMyenFCN3FnYmFlUWlYbHZ6dUgtRWN0ZklnaFdISlRsRlFnM3lVa3JwY05KSzVOT2lMal9SVGVjS0kzZnhZT1hPcHQyME0wc0lqcExCa0o3T3o5SE1KY0ttTVM2eDFUa0lTNTJ4Q245LUZKZ0VYdWpqYVIybFBEVEE3TE1DWnlISkRrZnNvekVpQkRnOXlEd19IaGRfMkVJMXdKdkkzMXBvMw?oc=5",
+"time": "36 分鐘前"
 },
 {
-"who": "Satya Nadella (Microsoft CEO)",
-"summary": "Microsoft CEO Satya Nadella表示AI超級應用是下一步。",
-"why": "預示AI產業進入新階段，將帶動相關技術與商業模式變革。",
-"source": "indiatoday.in",
-"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQd3g0aUtRd1FOZ3NNQXJCamhsdWExY1QxT2Y3eWdqSlJ0V1UydDRELU9uSFRUdTA4OTh3MVhRUU5xVUtpdzNzMGMzQTZBQk42a3YwdkhiQXFUelhZUm1pQmpacXNFZ0NSdWxEZkJQQXRtbUI5RFU0VEZqNjh3a1RTd1QxLVZLY0ptR291MGdoNHdURXdqMmRZZm42MnJjRUxNSnBiUnZmN0k5TlhMUU9UMVRtSXVOUGJnSWtPSjVzdFFuQWd4TDZvazFBbFJCZHdXbS03MENGNmV3czktWmRScWwtcjYwY19PTW9J0gHwAUFVX3lxTE10ZkkwYjN3aHdHSU82ckEweGxiNWUxWWFkOEJ1VUxQaV9GRzNkajMtcG5oQ3I0aThZblNGSjBDQ09BMVo1NzlCUXQ4eUNHNndCQVl4cmJmbFd6U0R5dHlOS0tIa2JNYi1XblZTclpINDVqanFkLWhYSjljM080V0VFM195bWdxSVMtNEpoYWtzUXBPTXEzanJhU2FyRGJqaFoyX2JvSEFWMUJLeC1GR1hYRVRCYWNDMkFhaExRdnJaRC01VEZSZzVIdlVfb2hsdUxGYVRtZzFNYjlodF9pUWFYdF9kbFRDNXNpSzQwanFwVA?oc=5",
-"time": "4 小時前"
+"who": "Mercedes CEO",
+"summary": "Mercedes CEO表示中國汽車市場競爭將持續激烈。",
+"why": "全球汽車產業面臨中國市場壓力，將影響電動車與傳統車企策略布局。",
+"source": "Bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazJzZmZCc09Ca1d1Rm5lVjNQLW9wZ3dFajN4ZDZscmJ2N2lyWWh1bkdyb1F3clVlOTFwdE01VzU0VDBMY0FUeFhEaU5KM3oxT0VUanhOQmlIci00aG1nWVQ4VFg0a0VYOE9EQ1VlaUJNLXpaWlM4bUJuZUNtWXktOVNJV0RlRjJiY21aQ2hJZGdyUnJtN2dmd3JRcFd3Y1ZISVg5dks5anBvcVBGdFQwYU82OA?oc=5",
+"time": "2 小時前"
 },
 {
-"who": "Jensen Huang (Nvidia CEO)",
-"summary": "Nvidia CEO黃仁勳看好AI市場，認為公司有望再達5兆美元市值。",
-"why": "AI產業前景樂觀，Nvidia將持續引領全球科技資本流向。",
-"source": "The Globe and Mail",
-"link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQU3lEcWhOai1fUVpmZVNGQ2hSVkY2VkxKWWNOZnpUNUZ6SWdEOWZjTkktWHdhVEdWZ0F0bXVnZ0M2R2M2Z0ZjVTdGRFdUZWRQRHZyQ3lUSGxaZ3cydVh6NzBJTHBQdUd1VjdMNjd6bG9FMmg5WVlScFNSdDNJQXpZdXJmSXRPa3hMbm15ZndXR2kxV0lWQUFNckV1dmRoNjdLdlRiLTJaOWhvUjV3S3FacmVTV1B5RFRpd1NJU0xwYnlUckoyMUUzdFlGTk9ENEJ4TTRrMHA2czhhT0hGVE8xbmdYcGZWOG91aUtic0NxMENkWDhyTlFnb2VB?oc=5",
-"time": "4 小時前"
+"who": "Meta CEO Mark Zuckerberg",
+"summary": "祖克柏認為目前無法依賴開源AI模型，存在風險。",
+"why": "大型科技公司對AI安全與商業模式的警惕，將影響AI產業發展路徑。",
+"source": "Benzinga",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1dhRW96aUlhVWJPTm9xYXFFdXhBX2ZVRGt0cmVxQVlXSU1pUnU4azB0ZVJSNUF4ZWpYbUU1a2d2UHRQNzkxSnk1YS1JWHlpSndUUkxuODRzSFQ3dDlDb2Z2R2FZMmtZV3hSTVM1Q01DVHRPc0F0X3owbDdFTWVMLUVrcjlLZzZlbGN5c2RxUVg5ZTIxMWUtNHpUTWVSSm1yUVRvOUJ4dkM3aHZlRWE3TldaS0xUdw?oc=5",
+"time": "3 小時前"
 }
 ]
 }
