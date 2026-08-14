@@ -1,6 +1,6 @@
 {
 "date": "2026-08-14",
-"count": 7,
+"count": 8,
 "focus": "",
 "stocks": [
 {
@@ -103,6 +103,21 @@
 "market_cap": 1195885490085.0,
 "status": "NEW_HIGH",
 "dist": 0.0,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "5274",
+"name": "信驊",
+"market": "TPEX",
+"close": 17690.0,
+"change_pct": 1.1435105774728416,
+"trade_value": 5137947020.0,
+"market_cap": 668729497650.0,
+"status": "NEAR_HIGH",
+"dist": -0.07318909838676979,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "",
