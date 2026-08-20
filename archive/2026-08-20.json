@@ -1,6 +1,6 @@
 {
 "date": "2026-08-20",
-"count": 7,
+"count": 8,
 "focus": "",
 "stocks": [
 {
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 2375.0,
 "change_pct": 1.0638297872340425,
-"trade_value": 37530483650.0,
+"trade_value": 40117420293.0,
 "market_cap": 61589378909125.0,
 "status": "NEAR_HIGH",
 "dist": -0.0650887573964497,
@@ -94,12 +94,27 @@
 "theme": ""
 },
 {
+"code": "3231",
+"name": "緯創",
+"market": "TWSE",
+"close": 180.0,
+"change_pct": -1.098901098901099,
+"trade_value": 6009449723.0,
+"market_cap": 572409405000.0,
+"status": "NEAR_HIGH",
+"dist": -0.04069249453813917,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
 "code": "6669",
 "name": "緯穎",
 "market": "TWSE",
 "close": 6325.0,
 "change_pct": -0.7843137254901961,
-"trade_value": 5698855050.0,
+"trade_value": 6053055050.0,
 "market_cap": 1175443003075.0,
 "status": "NEW_HIGH",
 "dist": 0.0,
