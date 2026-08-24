@@ -1,6 +1,6 @@
 {
 "date": "2026-08-24",
-"count": 6,
+"count": 7,
 "focus": "",
 "stocks": [
 {
@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 2375.0,
 "change_pct": -1.4522821576763485,
-"trade_value": 28044647775.0,
+"trade_value": 31234578255.0,
 "market_cap": 61589378909125.0,
 "status": "NEAR_HIGH",
 "dist": -0.0650887573964497,
@@ -60,6 +60,21 @@
 "dist": -0.04536082474226799,
 "limit_up": false,
 "limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "3006",
+"name": "晶豪科",
+"market": "TWSE",
+"close": 282.0,
+"change_pct": 9.941520467836257,
+"trade_value": 5357936346.0,
+"market_cap": 84072051162.0,
+"status": "NEAR_HIGH",
+"dist": -0.052223094062851305,
+"limit_up": true,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 },
