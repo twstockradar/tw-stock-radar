@@ -39,7 +39,7 @@
 "market": "TWSE",
 "close": 2410.0,
 "change_pct": -0.2070393374741201,
-"trade_value": 42646528705.0,
+"trade_value": 46545167227.0,
 "market_cap": 62497011861470.0,
 "status": "NEAR_HIGH",
 "dist": -0.0650887573964497,
@@ -59,7 +59,7 @@
 "status": "NEAR_HIGH",
 "dist": -0.08097165741795664,
 "limit_up": true,
-"limit_up_count": 3,
+"limit_up_count": 4,
 "group": "",
 "theme": ""
 },
@@ -119,7 +119,7 @@
 "status": "NEAR_HIGH",
 "dist": -0.07435897435897432,
 "limit_up": true,
-"limit_up_count": 2,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 },
