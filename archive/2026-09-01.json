@@ -1,6 +1,6 @@
 {
 "date": "2026-09-01",
-"count": 27,
+"count": 23,
 "focus": "",
 "stocks": [
 {
@@ -345,66 +345,6 @@
 "dist": -0.12367491166077738,
 "limit_up": false,
 "limit_up_count": 0,
-"group": "",
-"theme": ""
-},
-{
-"code": "1815",
-"name": "富喬",
-"market": "TPEX",
-"close": 129.0,
-"change_pct": 1.9762845849802373,
-"trade_value": 8851657527.0,
-"market_cap": 75524273823.0,
-"status": "NEAR_HIGH",
-"dist": -0.030888030888030937,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "",
-"theme": ""
-},
-{
-"code": "3081",
-"name": "聯亞",
-"market": "TPEX",
-"close": 3425.0,
-"change_pct": -2.974504249291785,
-"trade_value": 9145298685.0,
-"market_cap": 348558838700.0,
-"status": "NEAR_HIGH",
-"dist": -0.05840455840455838,
-"limit_up": true,
-"limit_up_count": 1,
-"group": "",
-"theme": ""
-},
-{
-"code": "3324",
-"name": "雙鴻",
-"market": "TPEX",
-"close": 1375.0,
-"change_pct": 10.0,
-"trade_value": 12464603100.0,
-"market_cap": 127980650875.0,
-"status": "PULLBACK",
-"dist": -0.11969111969111967,
-"limit_up": true,
-"limit_up_count": 1,
-"group": "",
-"theme": ""
-},
-{
-"code": "3374",
-"name": "精材",
-"market": "TPEX",
-"close": 421.5,
-"change_pct": -0.2366863905325444,
-"trade_value": 9431574592.0,
-"market_cap": 114380059194.0,
-"status": "NEAR_HIGH",
-"dist": -0.07765830346475511,
-"limit_up": true,
-"limit_up_count": 1,
 "group": "",
 "theme": ""
 }
