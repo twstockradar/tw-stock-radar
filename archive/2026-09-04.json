@@ -1,6 +1,6 @@
 {
 "date": "2026-09-04",
-"count": 21,
+"count": 19,
 "focus": "",
 "stocks": [
 {
@@ -283,36 +283,6 @@
 "market_cap": 78481688215.0,
 "status": "PULLBACK",
 "dist": -0.1387362637362637,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "",
-"theme": ""
-},
-{
-"code": "1815",
-"name": "富喬",
-"market": "TPEX",
-"close": 118.5,
-"change_pct": -1.25,
-"trade_value": 6007144066.0,
-"market_cap": 69376949209.5,
-"status": "NEAR_HIGH",
-"dist": -0.05755395683453235,
-"limit_up": false,
-"limit_up_count": 0,
-"group": "",
-"theme": ""
-},
-{
-"code": "3081",
-"name": "聯亞",
-"market": "TPEX",
-"close": 3170.0,
-"change_pct": 1.6025641025641024,
-"trade_value": 17280695665.0,
-"market_cap": 322607742680.0,
-"status": "NEAR_HIGH",
-"dist": -0.056944444444444464,
 "limit_up": false,
 "limit_up_count": 0,
 "group": "",
