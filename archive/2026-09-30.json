@@ -208,8 +208,8 @@
 "market_cap": 79273100197.0,
 "status": "PULLBACK",
 "dist": -0.1387362637362637,
-"limit_up": true,
-"limit_up_count": 1,
+"limit_up": false,
+"limit_up_count": 0,
 "group": "",
 "theme": ""
 },
