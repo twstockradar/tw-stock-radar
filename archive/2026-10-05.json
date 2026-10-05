@@ -13,8 +13,8 @@
 "market_cap": 2268214974454.0,
 "status": "NEAR_HIGH",
 "dist": -0.018867924528301883,
-"limit_up": false,
-"limit_up_count": 0,
+"limit_up": true,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 },
@@ -269,7 +269,7 @@
 "status": "NEW_HIGH",
 "dist": 0.0,
 "limit_up": true,
-"limit_up_count": 3,
+"limit_up_count": 2,
 "group": "",
 "theme": ""
 },
@@ -373,8 +373,8 @@
 "market_cap": 146411481110.0,
 "status": "NEW_HIGH",
 "dist": 0.0,
-"limit_up": false,
-"limit_up_count": 0,
+"limit_up": true,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 }
