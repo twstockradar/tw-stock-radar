@@ -1,6 +1,6 @@
 {
 "date": "2026-10-07",
-"count": 20,
+"count": 23,
 "focus": "",
 "stocks": [
 {
@@ -300,6 +300,51 @@
 "dist": -0.013513513513513487,
 "limit_up": false,
 "limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "1815",
+"name": "富喬",
+"market": "TPEX",
+"close": 132.5,
+"change_pct": 4.330708661417323,
+"trade_value": 14007446121.0,
+"market_cap": 77573382027.5,
+"status": "PULLBACK",
+"dist": -0.10370370370370374,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "3105",
+"name": "穩懋",
+"market": "TPEX",
+"close": 588.0,
+"change_pct": -0.6756756756756757,
+"trade_value": 13468050225.0,
+"market_cap": 249276945792.0,
+"status": "NEAR_HIGH",
+"dist": -0.06831524174931636,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "",
+"theme": ""
+},
+{
+"code": "3441",
+"name": "聯一光",
+"market": "TPEX",
+"close": 249.0,
+"change_pct": -2.3529411764705883,
+"trade_value": 11382241557.0,
+"market_cap": 9969940080.0,
+"status": "NEAR_HIGH",
+"dist": -0.051685393258426915,
+"limit_up": true,
+"limit_up_count": 2,
 "group": "",
 "theme": ""
 }
