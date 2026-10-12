@@ -1,6 +1,6 @@
 {
 "date": "2026-10-12",
-"count": 17,
+"count": 21,
 "focus": "",
 "stocks": [
 {
@@ -255,6 +255,66 @@
 "dist": -0.013513513513513487,
 "limit_up": false,
 "limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "1815",
+"name": "富喬",
+"market": "TPEX",
+"close": 133.0,
+"change_pct": -1.4814814814814816,
+"trade_value": 6513204803.0,
+"market_cap": 81755560446.0,
+"status": "PULLBACK",
+"dist": -0.10370370370370374,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "3105",
+"name": "穩懋",
+"market": "TPEX",
+"close": 580.0,
+"change_pct": -0.17211703958691912,
+"trade_value": 11023559027.0,
+"market_cap": 245885422720.0,
+"status": "NEAR_HIGH",
+"dist": -0.06831524174931636,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "3264",
+"name": "欣銓",
+"market": "TPEX",
+"close": 272.5,
+"change_pct": 6.4453125,
+"trade_value": 9254264087.0,
+"market_cap": 133571345710.0,
+"status": "NEAR_HIGH",
+"dist": -0.05872193436960271,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "6187",
+"name": "萬潤",
+"market": "TPEX",
+"close": 1675.0,
+"change_pct": 9.836065573770492,
+"trade_value": 7171116925.0,
+"market_cap": 164590087825.0,
+"status": "NEW_HIGH",
+"dist": 0.0,
+"limit_up": true,
+"limit_up_count": 2,
 "group": "",
 "theme": ""
 }
