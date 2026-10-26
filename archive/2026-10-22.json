@@ -269,7 +269,7 @@
 "status": "PULLBACK",
 "dist": -0.10370370370370374,
 "limit_up": true,
-"limit_up_count": 2,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 },
