@@ -1,0 +1,26 @@
+{
+"date": "2026-11-10",
+"count": 1,
+"focus": "",
+"stocks": [
+{
+"code": "2330",
+"name": "台積電",
+"market": "TWSE",
+"close": 2285.0,
+"change_pct": 2.237136465324385,
+"trade_value": 82847295812.0,
+"market_cap": 59255465603095.0,
+"status": "PULLBACK",
+"dist": -0.11776061776061775,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+}
+],
+"news": {
+"takeaway": "",
+"items": []
+}
+}
