@@ -5,6 +5,11 @@ numpy==1.26.0
 pandas==2.1.1
 yfinance==1.4.1
 mplfinance==0.12.10b0
+# mplfinance 程式碼 import six 卻沒在套件宣告裡列它, 以前全靠 python-dateutil 順帶裝。
+# dateutil 4.0.0 (2026-11-01) 拿掉了 six 依賴 -> 每日流程 ModuleNotFoundError。
+# 兩者都明確鎖住 (dateutil 鎖回 10-30 最後成功 run 的 3.0.0)。
+six==1.17.0
+python-dateutil==3.0.0
 jinja2==3.1.2
 pyarrow==24.0.0
 openai==2.41.0
