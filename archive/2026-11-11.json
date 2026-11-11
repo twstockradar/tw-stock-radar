@@ -9,7 +9,7 @@
 "market": "TWSE",
 "close": 2395.0,
 "change_pct": 4.814004376367615,
-"trade_value": 77857742485.0,
+"trade_value": 77900786705.0,
 "market_cap": 62108026310465.0,
 "status": "PULLBACK",
 "dist": -0.11776061776061775,
@@ -28,8 +28,8 @@
 "market_cap": 126591453414.0,
 "status": "PULLBACK",
 "dist": -0.11981132075471701,
-"limit_up": true,
-"limit_up_count": 1,
+"limit_up": false,
+"limit_up_count": 0,
 "group": "",
 "theme": ""
 }
