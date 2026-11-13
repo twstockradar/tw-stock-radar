@@ -1,6 +1,6 @@
 {
 "date": "2026-11-13",
-"count": 3,
+"count": 4,
 "focus": "",
 "stocks": [
 {
@@ -15,6 +15,21 @@
 "dist": -0.11776061776061775,
 "limit_up": false,
 "limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "2355",
+"name": "敬鵬",
+"market": "TWSE",
+"close": 65.9,
+"change_pct": 8.566721581548599,
+"trade_value": 6748512128.0,
+"market_cap": 26194948178.000004,
+"status": "NEAR_HIGH",
+"dist": -0.04948373136521045,
+"limit_up": true,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 },
@@ -34,15 +49,15 @@
 "theme": ""
 },
 {
-"code": "3715",
-"name": "定穎投控",
-"market": "TWSE",
-"close": 141.5,
-"change_pct": -1.3937282229965158,
-"trade_value": 8649871550.0,
-"market_cap": 40125803636.0,
-"status": "NEAR_HIGH",
-"dist": -0.04422604422604426,
+"code": "3374",
+"name": "精材",
+"market": "TPEX",
+"close": 519.0,
+"change_pct": 9.957627118644067,
+"trade_value": 13850108669.0,
+"market_cap": 140838080004.0,
+"status": "PULLBACK",
+"dist": -0.11981132075471701,
 "limit_up": true,
 "limit_up_count": 2,
 "group": "",
