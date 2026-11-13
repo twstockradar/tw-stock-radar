@@ -1,6 +1,6 @@
 {
 "date": "2026-11-13",
-"count": 4,
+"count": 5,
 "focus": "",
 "stocks": [
 {
@@ -9,7 +9,7 @@
 "market": "TWSE",
 "close": 2350.0,
 "change_pct": 0.4273504273504274,
-"trade_value": 71307187080.0,
+"trade_value": 73326711390.0,
 "market_cap": 60941069657450.0,
 "status": "PULLBACK",
 "dist": -0.11776061776061775,
@@ -30,6 +30,21 @@
 "dist": -0.04948373136521045,
 "limit_up": true,
 "limit_up_count": 1,
+"group": "",
+"theme": ""
+},
+{
+"code": "2891",
+"name": "中信金",
+"market": "TWSE",
+"close": 78.7,
+"change_pct": 4.3766578249336865,
+"trade_value": 5046306617.0,
+"market_cap": 1548495911832.2,
+"status": "NEAR_HIGH",
+"dist": -0.01378453711088412,
+"limit_up": false,
+"limit_up_count": 0,
 "group": "",
 "theme": ""
 },
@@ -59,7 +74,7 @@
 "status": "PULLBACK",
 "dist": -0.11981132075471701,
 "limit_up": true,
-"limit_up_count": 2,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 }
