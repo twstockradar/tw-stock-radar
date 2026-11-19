@@ -1,0 +1,56 @@
+{
+"date": "2026-11-19",
+"count": 3,
+"focus": "",
+"stocks": [
+{
+"code": "2330",
+"name": "台積電",
+"market": "TWSE",
+"close": 2100.0,
+"change_pct": -3.4482758620689653,
+"trade_value": 112665816400.0,
+"market_cap": 54457977140700.0,
+"status": "PULLBACK",
+"dist": -0.11776061776061775,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "2882",
+"name": "國泰金",
+"market": "TWSE",
+"close": 103.5,
+"change_pct": -5.909090909090909,
+"trade_value": 5352349534.0,
+"market_cap": 1518263248248.0,
+"status": "PULLBACK",
+"dist": -0.1228813559322034,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "3374",
+"name": "精材",
+"market": "TPEX",
+"close": 355.0,
+"change_pct": -9.898477157360407,
+"trade_value": 5330738247.0,
+"market_cap": 96334332180.0,
+"status": "PULLBACK",
+"dist": -0.11981132075471701,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "",
+"theme": ""
+}
+],
+"news": {
+"takeaway": "",
+"items": []
+}
+}
