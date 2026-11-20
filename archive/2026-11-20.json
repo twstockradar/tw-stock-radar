@@ -1,0 +1,41 @@
+{
+"date": "2026-11-20",
+"count": 2,
+"focus": "",
+"stocks": [
+{
+"code": "2330",
+"name": "台積電",
+"market": "TWSE",
+"close": 2000.0,
+"change_pct": -4.761904761904762,
+"trade_value": 176013606855.0,
+"market_cap": 51864740134000.0,
+"status": "PULLBACK",
+"dist": -0.11776061776061775,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "2412",
+"name": "中華電",
+"market": "TWSE",
+"close": 162.5,
+"change_pct": -2.108433734939759,
+"trade_value": 6612155876.0,
+"market_cap": 1260585063562.5,
+"status": "NEAR_HIGH",
+"dist": -0.049707602339181256,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+}
+],
+"news": {
+"takeaway": "",
+"items": []
+}
+}
