@@ -1,0 +1,71 @@
+{
+"date": "2026-11-25",
+"count": 4,
+"focus": "",
+"stocks": [
+{
+"code": "2330",
+"name": "台積電",
+"market": "TWSE",
+"close": 2150.0,
+"change_pct": -3.587443946188341,
+"trade_value": 177400823715.0,
+"market_cap": 55754595644050.0,
+"status": "PULLBACK",
+"dist": -0.11776061776061775,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "",
+"theme": ""
+},
+{
+"code": "2412",
+"name": "中華電",
+"market": "TWSE",
+"close": 163.5,
+"change_pct": -0.60790273556231,
+"trade_value": 9444610219.0,
+"market_cap": 1268342510107.5,
+"status": "NEAR_HIGH",
+"dist": -0.049707602339181256,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "2603",
+"name": "長榮",
+"market": "TWSE",
+"close": 252.5,
+"change_pct": -1.7509727626459144,
+"trade_value": 7445737342.0,
+"market_cap": 546673356490.0,
+"status": "PULLBACK",
+"dist": -0.14571948998178508,
+"limit_up": false,
+"limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "2882",
+"name": "國泰金",
+"market": "TWSE",
+"close": 100.5,
+"change_pct": -3.827751196172249,
+"trade_value": 6220081967.0,
+"market_cap": 1474255617864.0,
+"status": "PULLBACK",
+"dist": -0.1228813559322034,
+"limit_up": true,
+"limit_up_count": 1,
+"group": "",
+"theme": ""
+}
+],
+"news": {
+"takeaway": "",
+"items": []
+}
+}
