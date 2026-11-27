@@ -1,6 +1,6 @@
 {
 "date": "2026-11-27",
-"count": 3,
+"count": 4,
 "focus": "",
 "stocks": [
 {
@@ -9,7 +9,7 @@
 "market": "TWSE",
 "close": 2180.0,
 "change_pct": 1.6317016317016315,
-"trade_value": 84664465100.0,
+"trade_value": 92160703370.0,
 "market_cap": 56532555634600.0,
 "status": "PULLBACK",
 "dist": -0.11776061776061775,
@@ -45,6 +45,21 @@
 "dist": -0.14571948998178508,
 "limit_up": false,
 "limit_up_count": 0,
+"group": "",
+"theme": ""
+},
+{
+"code": "2882",
+"name": "國泰金",
+"market": "TWSE",
+"close": 102.0,
+"change_pct": -2.3923444976076556,
+"trade_value": 5115899190.0,
+"market_cap": 1496259433056.0,
+"status": "PULLBACK",
+"dist": -0.1228813559322034,
+"limit_up": true,
+"limit_up_count": 1,
 "group": "",
 "theme": ""
 }
